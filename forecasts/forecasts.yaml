@@ -1,0 +1,893 @@
+version: 1
+notes: 'System forecasts are made by the scheduled Claude runs (docs/AUTOMATION.md). Never edit a probability after
+  made_at; record a revision as a new forecast. John may add override: {probability, at, note}; both are scored.'
+forecasts:
+- id: BOND-1
+  kind: thesis
+  thesis: long-duration-bonds
+  statement: 10-year US Treasury yield does not close above 5.31% before 2027-01-31
+  probability: 0.45
+  reasoning: Yield is 5.00%, 31bp below the high, with about 65 trading days left. At recent volatility (5-7bp a
+    day) a driftless path touches +31bp roughly half the time; a hiking Fed and oil at $116 offset weak payrolls.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2027-01-31'
+  resolution:
+    method: auto
+    rule:
+      series: UST10Y
+      kind: never_close_above
+      threshold: 5.31
+      start: '2026-10-27'
+      end: '2027-01-31'
+  status: open
+  outcome: null
+- id: BOND-2
+  kind: thesis
+  thesis: long-duration-bonds
+  statement: 10-year US Treasury yield at or below 4.60% on 2027-04-30
+  probability: 0.35
+  reasoning: Needs a 40bp fall in six months against a standard deviation of roughly 85bp, so about 30% with no
+    drift; nudged up for stalling growth and an energy-led inflation mix.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2027-04-30'
+  resolution:
+    method: auto
+    rule:
+      series: UST10Y
+      kind: value_on_date
+      date: '2027-04-30'
+      op: <=
+      threshold: 4.6
+  status: open
+  outcome: null
+- id: BOND-3
+  kind: thesis
+  thesis: long-duration-bonds
+  statement: US unemployment rate for December 2026 (January 2027 report) is 4.5% or higher
+  probability: 0.3
+  reasoning: Rate is 4.2% with September payrolls at +29k; a 0.3-point rise in three months happens in roughly a
+    quarter to a third of slowdowns.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2027-02-12'
+  resolution:
+    method: auto
+    rule:
+      series: UNRATE
+      kind: release_value
+      period: '2026-12-01'
+      op: '>='
+      threshold: 4.5
+  status: open
+  outcome: null
+- id: AIR-1
+  kind: thesis
+  thesis: airlines-vs-oil-curve
+  statement: Brent spot settles below $100 at least once before 2027-01-31
+  probability: 0.55
+  reasoning: Brent is about $115 with oil volatility near 40% a year, so a 13% dip within three months happens near
+    half the time; steep backwardation and recovering Gulf exports lift it, post-midterm strike risk trims it. Unconditional
+    version of the earlier conditional prediction.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2027-01-31'
+  resolution:
+    method: auto
+    rule:
+      series: BRENT
+      kind: touch_below
+      threshold: 100
+      start: '2026-10-27'
+      end: '2027-01-31'
+  status: open
+  outcome: null
+- id: AIR-2
+  kind: thesis
+  thesis: airlines-vs-oil-curve
+  statement: Both Ryanair and IAG beat the STOXX 600 (total return, EUR) from 2026-10-26 to 2027-03-31
+  probability: 0.4
+  reasoning: Each is close to a coin flip with a modest tilt from the oil curve; needing both, with high correlation
+    between them, gives about 40%.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2027-04-07'
+  resolution:
+    method: judged
+    guidance: Compare total returns in EUR from the 26 Oct 2026 close to the 31 Mar 2027 close for Ryanair (Euronext
+      Dublin), IAG (LSE, converted to EUR) and the STOXX 600 net return index.
+  status: open
+  outcome: null
+- id: UK-1
+  kind: thesis
+  thesis: uk-large-caps-tech-hedge
+  statement: FTSE 100 total return in EUR beats MSCI World in EUR from the 2026-10-28 close to 2027-04-30
+  probability: 0.52
+  reasoning: Valuation gap (12.1x vs 17.9x) and a narrowing underweight give a small edge; gilt yields above 5.5%
+    and sterling risk keep it near even.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2027-05-07'
+  resolution:
+    method: judged
+    guidance: Use index total-return data (or ISF vs a MSCI World UCITS ETF, both in EUR) from the 28 Oct 2026 close
+      to the 30 Apr 2027 close.
+  status: open
+  outcome: null
+- id: UK-2
+  kind: thesis
+  thesis: uk-large-caps-tech-hedge
+  statement: BofA Fund Manager Survey shows the UK underweight below net 15% by the April 2027 survey
+  probability: 0.35
+  reasoning: The underweight fell from 37% (July) to 26% (October), but surveys mean-revert slowly; another 11 points
+    in six months is less likely than not.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2027-04-30'
+  resolution:
+    method: judged
+    guidance: Check each monthly BofA FMS summary from November 2026 to April 2027; resolve 1 if any reading is
+      below net 15% underweight.
+  status: open
+  outcome: null
+- id: DELAY-1
+  kind: thesis
+  thesis: ai-buildout-delay
+  statement: At least two of Microsoft, Alphabet, Amazon, Meta and Oracle say on a results call before 2027-02-28
+    that power or site availability delayed capacity
+  probability: 0.65
+  reasoning: Capacity and power constraints are already a recurring theme on these calls; the bar is two explicit
+    statements that capacity was delayed, not just constrained.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2027-02-28'
+  resolution:
+    method: judged
+    guidance: Read results-call transcripts from 28 Oct 2026 to 28 Feb 2027; count companies that explicitly say
+      power, grid connection or site readiness delayed capacity coming online.
+  status: open
+  outcome: null
+- id: DELAY-2
+  kind: thesis
+  thesis: ai-buildout-delay
+  statement: Data Center Watch (or the FT) reports more US data-centre projects delayed or blocked in H2 2026 than
+    the 120 counted in H1
+  probability: 0.6
+  reasoning: Texas paused approvals in August and local opposition is rising; the main risk is that the H2 count
+    is published late or on a different basis. Void if no comparable count by 2027-02-28.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2027-02-28'
+  resolution:
+    method: judged
+    guidance: Find the H2 2026 count from Data Center Watch or the FT; compare with 120 projects in H1. Void if
+      no comparable figure is published by 28 Feb 2027.
+  status: open
+  outcome: null
+- id: DELAY-3
+  kind: thesis
+  thesis: ai-buildout-delay
+  statement: CoreWeave 2031 senior notes still yield above 12% on 2027-03-31
+  probability: 0.6
+  reasoning: They yield about 15-16% now with Q3 interest of $860-940m against Q2 revenue of $2.58bn; spreads that
+    wide rarely halve in five months without a refinancing or equity raise.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2027-04-07'
+  resolution:
+    method: judged
+    guidance: Find the yield on CoreWeave 2031 notes on or near 31 Mar 2027 from a bond data source or press report.
+  status: open
+  outcome: null
+- id: STAP-1
+  kind: thesis
+  thesis: european-staples-gap
+  statement: Equal-weight basket of Nestle, Unilever and Diageo beats XLP in EUR (total return) from 2026-10-26
+    to 2027-04-30
+  probability: 0.52
+  reasoning: Valuation gap and recovering volumes give a slight edge; oil-driven margin pressure and private label
+    keep it near even.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2027-05-07'
+  resolution:
+    method: judged
+    guidance: Compute total returns in EUR for the three stocks (equal weight) and XLP from the 26 Oct 2026 close
+      to the 30 Apr 2027 close.
+  status: open
+  outcome: null
+- id: STAP-2
+  kind: thesis
+  thesis: european-staples-gap
+  statement: XLP underperforms the S&P 500 (total return) from 2026-10-26 to 2027-04-30
+  probability: 0.55
+  reasoning: Staples usually lag in a rising market and US staples now trade above the index multiple; a deeper
+    AI sell-off would reverse this.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2027-05-07'
+  resolution:
+    method: judged
+    guidance: Compare total returns of XLP and SPY over the period.
+  status: open
+  outcome: null
+- id: CAPEX-1
+  kind: thesis
+  thesis: hyperscaler-capex-debt
+  statement: Microsoft capex including finance leases for the September 2026 quarter is at least $50bn
+  probability: 0.8
+  reasoning: Microsoft guided the quarter above $50bn; it usually lands on or above its capex guide.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-29'
+  resolution:
+    method: judged
+    guidance: 'Read Microsoft FQ1 2027 results (28 Oct 2026): capital expenditures including finance leases.'
+  status: open
+  outcome: null
+- id: CAPEX-2
+  kind: thesis
+  thesis: hyperscaler-capex-debt
+  statement: Alphabet keeps or raises its 2026 capex guidance ($195-205bn) and says 2027 will be significantly higher
+  probability: 0.85
+  reasoning: Management said in July that 2027 capex will increase significantly; cutting guidance a quarter later
+    would be unusual with cloud demand rising.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-29'
+  resolution:
+    method: judged
+    guidance: Read Alphabet Q3 2026 results and call (28 Oct 2026).
+  status: open
+  outcome: null
+- id: CAPEX-3
+  kind: thesis
+  thesis: hyperscaler-capex-debt
+  statement: Amazon trailing-12-month free cash flow is still negative after Q3 2026
+  probability: 0.8
+  reasoning: Trailing free cash flow was -$7.6bn at Q2 with capex guided up to about $220bn; Q3 capex should again
+    exceed operating cash flow growth.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-30'
+  resolution:
+    method: judged
+    guidance: 'Read Amazon Q3 2026 release (29 Oct 2026): trailing twelve-month free cash flow as reported.'
+  status: open
+  outcome: null
+- id: GRID-1
+  kind: thesis
+  thesis: power-grid-constraint
+  statement: GE Vernova reports gas turbine backlog plus slot reservations of at least 124 GW at Q3 2026
+  probability: 0.7
+  reasoning: Q2 total was 116 GW and BofA expects about 13 GW of new gas contracts in Q3 (firm orders plus reservations),
+    which would give about 129 GW; reservations converting to firm orders do not reduce the total.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-29'
+  resolution:
+    method: judged
+    guidance: Read GE Vernova Q3 2026 results (28 Oct 2026).
+  status: open
+  outcome: null
+- id: GRID-2
+  kind: thesis
+  thesis: power-grid-constraint
+  statement: Vertiv Q3 2026 organic sales growth is at least 34%
+  probability: 0.75
+  reasoning: Vertiv guided 34-36% and has met or beaten its quarterly guide in most recent quarters.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-11-10'
+  resolution:
+    method: judged
+    guidance: Read Vertiv Q3 2026 results.
+  status: open
+  outcome: null
+- id: GRID-3
+  kind: thesis
+  thesis: power-grid-constraint
+  statement: Siemens Energy backlog is at least EUR 165bn at its FY2026 results
+  probability: 0.6
+  reasoning: Backlog was EUR 162bn with gas book-to-bill of 2.65; a stronger euro could shave the reported figure.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-11-30'
+  resolution:
+    method: judged
+    guidance: Read Siemens Energy Q4 FY2026 results (November 2026).
+  status: open
+  outcome: null
+- id: GENE-1
+  kind: thesis
+  thesis: in-vivo-gene-editing
+  statement: FDA approves Intellia lonvo-z by 2027-03-10
+  probability: 0.8
+  reasoning: Priority review, a strong Phase 3 (attacks -87%), no advisory committee planned; first-cycle approval
+    rates for such filings are around 85%, trimmed for a new modality and the liver-safety history of a sister programme.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2027-03-11'
+  resolution:
+    method: judged
+    guidance: Check FDA/Intellia announcements by 10 Mar 2027.
+  status: open
+  outcome: null
+- id: GENE-2
+  kind: thesis
+  thesis: in-vivo-gene-editing
+  statement: Vertex reports Q3 2026 Casgevy revenue of at least $90m (results 2 Nov 2026)
+  probability: 0.6
+  reasoning: Revenue went from about $43m (Q1) to $76.4m (Q2); $90m needs another 18% quarter on quarter, plausible
+    but lumpy.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-11-03'
+  resolution:
+    method: judged
+    guidance: Read Vertex Q3 2026 results (2 Nov 2026, after the US close).
+  status: open
+  outcome: null
+- id: GENE-3
+  kind: thesis
+  thesis: in-vivo-gene-editing
+  statement: Beam submits its risto-cel BLA by 2027-01-31
+  probability: 0.45
+  reasoning: Guided "as early as" year-end 2026; filings guided this way often slip by a quarter.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2027-02-07'
+  resolution:
+    method: judged
+    guidance: Check Beam press releases and filings to 31 Jan 2027.
+  status: open
+  outcome: null
+- id: BPO-1
+  kind: thesis
+  thesis: ai-service-agents-bpo
+  statement: Teleperformance Q3 2026 like-for-like revenue growth is below +1.0%
+  probability: 0.7
+  reasoning: H1 was -1.7% and Concentrix just cut its outlook citing AI; the full-year guide needs an unlikely sharp
+    H2 rebound.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-11-06'
+  resolution:
+    method: judged
+    guidance: Read Teleperformance Q3 2026 revenue release (5 Nov 2026).
+  status: open
+  outcome: null
+- id: BPO-2
+  kind: thesis
+  thesis: ai-service-agents-bpo
+  statement: Concentrix guides fiscal 2027 constant-currency revenue at or below 0%
+  probability: 0.75
+  reasoning: Q4 guide is -3% to -5% with two hyperscaler clients cutting programmes into H1 2027.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2027-01-31'
+  resolution:
+    method: judged
+    guidance: Read Concentrix Q4 FY2026 results (January 2027).
+  status: open
+  outcome: null
+- id: BPO-3
+  kind: thesis
+  thesis: ai-service-agents-bpo
+  statement: Indeed US customer-service postings index is below 85 on 2027-01-31
+  probability: 0.5
+  reasoning: Index is 86.6 and has fallen 1.6% in three months; continuing that pace lands right at 85.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2027-02-07'
+  resolution:
+    method: auto
+    rule:
+      series: INDEED_US:Customer Service
+      kind: value_on_date
+      date: '2027-01-31'
+      op: <
+      threshold: 85
+  status: open
+  outcome: null
+- id: CODE-1
+  kind: thesis
+  thesis: coding-agents-usage-pricing
+  statement: Datadog Q3 2026 revenue is at least $1.17bn
+  probability: 0.55
+  reasoning: Guide is $1.135-1.145bn and consensus $1.15bn; Datadog has typically beaten consensus by 2-4%, which
+    lands around $1.17-1.19bn.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-11-05'
+  resolution:
+    method: judged
+    guidance: Read Datadog Q3 2026 results (4 Nov 2026, before the US open).
+  status: open
+  outcome: null
+- id: CODE-2
+  kind: thesis
+  thesis: coding-agents-usage-pricing
+  statement: Atlassian announces usage or credit-based pricing for its AI agents by 2027-03-31
+  probability: 0.55
+  reasoning: Peers (GitLab) are moving to hybrid pricing and AI agent costs scale with usage, but Atlassian has
+    a large seat base to protect.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2027-03-31'
+  resolution:
+    method: judged
+    guidance: Check Atlassian announcements and results calls to 31 Mar 2027.
+  status: open
+  outcome: null
+- id: CODE-3
+  kind: thesis
+  thesis: coding-agents-usage-pricing
+  statement: Indeed US software-development postings index is below 75 on 2027-01-31
+  probability: 0.15
+  reasoning: Index is 78.9, up 21% on the year and 4% in three months; a 5% fall in three months would reverse a
+    clear uptrend. Low probability recorded honestly against the original thesis.
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2027-02-07'
+  resolution:
+    method: auto
+    rule:
+      series: INDEED_US:Software Development
+      kind: value_on_date
+      date: '2027-01-31'
+      op: <
+      threshold: 75
+  status: open
+  outcome: null
+- id: EV-20261028-FED-1
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-10-28'
+  statement: Fed holds the target range at 3.75-4.00% on 28 Oct
+  probability_raw: 0.9
+  probability: 0.9
+  reasoning: CME FedWatch priced about 90.6% hold on 22 Oct after hike odds fell from 41.5% (14 Oct).
+  expected: Hold, with Warsh keeping December open
+  implications:
+    if_yes: Neutral for bonds; focus moves to December
+    if_no: A hike is a strong negative for the bonds bet and AI-heavy holdings
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-28'
+  resolution:
+    method: judged
+    guidance: FOMC statement, 28 Oct 2026.
+  status: open
+  outcome: null
+- id: EV-20261209-FED-2
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-12-09'
+  statement: Fed raises rates at the 8-9 Dec meeting
+  probability_raw: 0.7
+  probability: 0.7
+  reasoning: Markets reportedly price about 80% for at least one hike (unverified against CME); trimmed for weak
+    payrolls and Warsh not pre-signalling.
+  expected: A 25bp hike to 4.00-4.25%
+  implications:
+    if_yes: Supports the bonds bet only if long yields fall on growth fears; check the curve
+    if_no: No hike would support the bonds bet directly
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-12-09'
+  resolution:
+    method: judged
+    guidance: FOMC statement, 9 Dec 2026.
+  status: open
+  outcome: null
+- id: EV-20261029-ECB-1
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-10-29'
+  statement: ECB holds the deposit rate at 2.50% on 29 Oct
+  probability_raw: 0.96
+  probability: 0.96
+  reasoning: 70 of 73 economists in a Reuters poll expect a hold; market pricing about 3% for a hike.
+  expected: Hold, with a December hike signalled
+  implications:
+    if_yes: Neutral
+    if_no: A hike would raise euro hedging costs less, but signal sticky inflation
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-29'
+  resolution:
+    method: judged
+    guidance: ECB monetary policy decision, 29 Oct 2026.
+  status: open
+  outcome: null
+- id: EV-202612-ECB-2
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-12-18'
+  statement: ECB raises rates at its December 2026 meeting
+  probability_raw: 0.7
+  probability: 0.7
+  reasoning: 64 of 73 economists expect a December hike and markets price about 75%; Nomura thinks the path is overpriced.
+  expected: A 25bp hike to 2.75%
+  implications:
+    if_yes: Euro short rates rise; hedging cost for the bonds ETF falls slightly
+    if_no: A pause would suggest the energy shock is fading
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-12-18'
+  resolution:
+    method: judged
+    guidance: ECB decision at its December 2026 meeting.
+  status: open
+  outcome: null
+- id: EV-20261030-BOJ-1
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-10-30'
+  statement: Bank of Japan holds its policy rate at 1.25% on 30 Oct
+  probability_raw: 0.95
+  probability: 0.95
+  reasoning: None of the Bloomberg-surveyed economists expect an October move; 83% expect December.
+  expected: Hold, signalling December
+  implications:
+    if_yes: Neutral
+    if_no: A surprise hike would tighten global liquidity, negative for crowded tech
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-30'
+  resolution:
+    method: judged
+    guidance: BoJ statement, 30 Oct 2026.
+  status: open
+  outcome: null
+- id: EV-20261105-BOE-1
+  kind: event
+  thesis: uk-large-caps-tech-hedge
+  event_date: '2026-11-05'
+  statement: Bank of England raises Bank Rate to 4.00% on 5 Nov
+  probability_raw: 0.85
+  probability: 0.85
+  reasoning: 54 of 63 economists expect a hike and markets price about 94% (one source shows a lower reading); September
+    vote was 6-3 with three for a hike.
+  expected: A hike, with a split vote
+  implications:
+    if_yes: Already priced; watch gilts and sterling for the UK bet entry
+    if_no: A hold would rally gilts and help the UK bet
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-11-05'
+  resolution:
+    method: judged
+    guidance: BoE Monetary Policy Summary, 5 Nov 2026.
+  status: open
+  outcome: null
+- id: EV-20261028-UKB-1
+  kind: event
+  thesis: uk-large-caps-tech-hedge
+  event_date: '2026-10-28'
+  statement: UK Budget raises the bank surcharge above 3%
+  probability_raw: 0.75
+  probability: 0.75
+  reasoning: Widely briefed as the main revenue raiser (to 8%, about GBP 2bn).
+  expected: Bank surcharge raised, most likely to 8%
+  implications:
+    if_yes: Banks (25% of the FTSE 100) take a modest earnings hit; mostly priced
+    if_no: Relief rally for UK banks
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-28'
+  resolution:
+    method: judged
+    guidance: HM Treasury Budget documents, 28 Oct 2026.
+  status: open
+  outcome: null
+- id: EV-20261028-UKB-2
+  kind: event
+  thesis: uk-large-caps-tech-hedge
+  event_date: '2026-10-28'
+  statement: UK Budget raises stamp duty or SDRT on share purchases
+  probability_raw: 0.04
+  probability: 0.04
+  reasoning: Not mentioned in any preview; the Treasury has moved towards cutting, not raising, share-trading taxes.
+  expected: No change
+  implications:
+    if_yes: Kill criterion for the UK bet; do not enter
+    if_no: UK bet entry stays on track after the BoE decision
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-28'
+  resolution:
+    method: judged
+    guidance: Budget documents, 28 Oct 2026.
+  status: open
+  outcome: null
+- id: EV-20261028-UKB-3
+  kind: event
+  thesis: uk-large-caps-tech-hedge
+  event_date: '2026-10-28'
+  statement: OBR fiscal headroom after the Budget is at least GBP 15bn
+  probability_raw: 0.5
+  probability: 0.5
+  reasoning: Newsquawk expects about GBP 15bn after measures; Resolution Foundation and KPMG put pre-Budget headroom
+    near GBP 12bn.
+  expected: About GBP 15bn
+  implications:
+    if_yes: Lower gilt risk premium; supports the UK bet
+    if_no: Headroom under GBP 12bn risks a long-end gilt sell-off; delay the UK entry
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-28'
+  resolution:
+    method: judged
+    guidance: OBR Economic and Fiscal Outlook, 28 Oct 2026.
+  status: open
+  outcome: null
+- id: EV-20261106-US-1
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-11-06'
+  statement: US unemployment rate for October is 4.3% or higher
+  probability_raw: 0.35
+  probability: 0.35
+  reasoning: September was 4.2% with payrolls +29k; forecasters such as Continuum expect 4.2%.
+  expected: 4.2%, payrolls around +50k
+  implications:
+    if_yes: Supports the bonds bet and BOND-3
+    if_no: Neutral
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-11-06'
+  resolution:
+    method: auto
+    rule:
+      series: UNRATE
+      kind: release_value
+      period: '2026-10-01'
+      op: '>='
+      threshold: 4.3
+  status: open
+  outcome: null
+- id: EV-20261110-US-2
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-11-10'
+  statement: US October core CPI is 2.5% year on year or lower
+  probability_raw: 0.6
+  probability: 0.6
+  reasoning: Cleveland Fed nowcast (23 Oct) is 2.48% for core; rounding makes 2.5% the knife edge.
+  expected: Core about 2.5%, headline about 3.7-3.8%
+  implications:
+    if_yes: Supports the energy-led-inflation case for bonds
+    if_no: Core accelerating would weaken the bonds bet
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-11-10'
+  resolution:
+    method: judged
+    guidance: 'BLS CPI release, 10 Nov 2026: core CPI 12-month change.'
+  status: open
+  outcome: null
+- id: EV-20261028-MSFT-1
+  kind: event
+  thesis: hyperscaler-capex-debt
+  event_date: '2026-10-28'
+  statement: Microsoft Azure growth is 45% or more in constant currency (new definition)
+  probability_raw: 0.55
+  probability: 0.55
+  reasoning: Guide 44-45%; BofA expects 44.8%; Microsoft has often landed at or above the top of its Azure guide.
+  expected: About 45%
+  implications:
+    if_yes: Demand still exceeds capacity; supports capex thesis
+    if_no: Below 44% would raise questions about AI cloud returns
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-28'
+  resolution:
+    method: judged
+    guidance: Microsoft FQ1 2027 release and call, 28 Oct 2026.
+  status: open
+  outcome: null
+- id: EV-20261028-GOOGL-1
+  kind: event
+  thesis: hyperscaler-capex-debt
+  event_date: '2026-10-28'
+  statement: Google Cloud revenue growth is 90% or more
+  probability_raw: 0.55
+  probability: 0.55
+  reasoning: Consensus about 89%; BofA 93%, JPMorgan 100%.
+  expected: About 90%
+  implications:
+    if_yes: Supports capex thesis and TPU demand
+    if_no: Below 85% would hit AI infrastructure sentiment
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-28'
+  resolution:
+    method: judged
+    guidance: Alphabet Q3 2026 release, 28 Oct 2026.
+  status: open
+  outcome: null
+- id: EV-20261029-AMZN-1
+  kind: event
+  thesis: hyperscaler-capex-debt
+  event_date: '2026-10-29'
+  statement: AWS revenue growth is 40% or more
+  probability_raw: 0.5
+  probability: 0.5
+  reasoning: Sell-side consensus about 38%; buy-side expects about 42%.
+  expected: About 39-41%
+  implications:
+    if_yes: Supports capex thesis
+    if_no: Below 37% would signal capacity or demand issues
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-29'
+  resolution:
+    method: judged
+    guidance: Amazon Q3 2026 release, 29 Oct 2026.
+  status: open
+  outcome: null
+- id: EV-20261029-AMZN-2
+  kind: event
+  thesis: hyperscaler-capex-debt
+  event_date: '2026-10-29'
+  statement: Amazon raises its 2026 capex outlook above about USD 220bn
+  probability_raw: 0.45
+  probability: 0.45
+  reasoning: Implied H2 run rate is already about USD 62bn a quarter; Amazon raised in July, citing memory prices.
+  expected: Reaffirmed near USD 220bn, 2027 higher
+  implications:
+    if_yes: Strengthens the debt-financing angle
+    if_no: Neutral
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-29'
+  resolution:
+    method: judged
+    guidance: Amazon Q3 2026 call, 29 Oct 2026.
+  status: open
+  outcome: null
+- id: EV-20261028-GEV-1
+  kind: event
+  thesis: power-grid-constraint
+  event_date: '2026-10-28'
+  statement: GE Vernova Q3 orders are at least USD 20bn
+  probability_raw: 0.75
+  probability: 0.75
+  reasoning: Consensus USD 22.2bn; BofA expects about USD 21bn.
+  expected: About USD 21-22bn
+  implications:
+    if_yes: Supports the grid thesis
+    if_no: Below USD 20bn would question order momentum
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-28'
+  resolution:
+    method: judged
+    guidance: GE Vernova Q3 2026 release, 28 Oct 2026.
+  status: open
+  outcome: null
+- id: EV-20261028-SKH-1
+  kind: event
+  thesis: other
+  event_date: '2026-10-28'
+  statement: SK hynix Q3 operating profit is at least KRW 76.96tn (FnGuide consensus)
+  probability_raw: 0.6
+  probability: 0.6
+  reasoning: Memory makers have mostly beaten in this cycle; Meritz expects KRW 80.1tn; contract prices rose 13-18%
+    in Q3.
+  expected: About KRW 78tn
+  implications:
+    if_yes: Memory cycle still strong; no change to sizing advice
+    if_no: A miss would support trimming memory exposure
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-28'
+  resolution:
+    method: judged
+    guidance: SK hynix Q3 2026 results, 28 Oct 2026.
+  status: open
+  outcome: null
+- id: EV-20261029-SHEL-1
+  kind: event
+  thesis: uk-large-caps-tech-hedge
+  event_date: '2026-10-29'
+  statement: Shell announces a quarterly buyback of at least USD 3.5bn
+  probability_raw: 0.5
+  probability: 0.5
+  reasoning: Last was USD 3.0bn; HSBC expects USD 3.5bn with oil above USD 110.
+  expected: USD 3.0-3.5bn
+  implications:
+    if_yes: Supports UK cash-return case
+    if_no: Neutral
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-29'
+  resolution:
+    method: judged
+    guidance: Shell Q3 2026 results, 29 Oct 2026.
+  status: open
+  outcome: null
+- id: EV-20261030-BP-1
+  kind: event
+  thesis: uk-large-caps-tech-hedge
+  event_date: '2026-10-30'
+  statement: BP restarts share buybacks with its Q3 results
+  probability_raw: 0.2
+  probability: 0.2
+  reasoning: Buybacks suspended since February; strategy day on 15 Dec is the more likely moment.
+  expected: No restart until December
+  implications:
+    if_yes: Neutral
+    if_no: A restart would lift UK cash returns
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-30'
+  resolution:
+    method: judged
+    guidance: BP Q3 2026 results, 30 Oct 2026.
+  status: open
+  outcome: null
+- id: EV-20261028-ULVR-1
+  kind: event
+  thesis: european-staples-gap
+  event_date: '2026-10-28'
+  statement: Unilever Q3 underlying sales growth is at least 4.8% (company-compiled consensus)
+  probability_raw: 0.5
+  probability: 0.5
+  reasoning: Consensus 4.8% (range 4.3-5.2%) with volume +2.5%; P&G and Nestle just reported improving volumes.
+  expected: About 4.8%
+  implications:
+    if_yes: Supports the staples bet
+    if_no: A miss with weak volume would weaken it
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-10-28'
+  resolution:
+    method: judged
+    guidance: Unilever Q3 2026 trading statement, 28 Oct 2026.
+  status: open
+  outcome: null
+- id: EV-20261102-RYA-1
+  kind: event
+  thesis: airlines-vs-oil-curve
+  event_date: '2026-11-02'
+  statement: Ryanair H1 FY27 profit after tax is at least EUR 2.11bn
+  probability_raw: 0.5
+  probability: 0.5
+  reasoning: Single-source consensus (MarketScreener) implies about EUR 2.11bn; Q1 was EUR 538m and Q2 fares were
+    guided lower.
+  expected: Around EUR 2.1bn, with comments on summer 2027 fuel
+  implications:
+    if_yes: Supports the airline bet
+    if_no: A miss with weak fares weakens it even if oil falls
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-11-02'
+  resolution:
+    method: judged
+    guidance: Ryanair H1 FY27 results, 2 Nov 2026.
+  status: open
+  outcome: null
+- id: EV-20261105-TEAM-1
+  kind: event
+  thesis: coding-agents-usage-pricing
+  event_date: '2026-11-05'
+  statement: Atlassian FQ1 2027 revenue is at least USD 1.715bn (top of guide)
+  probability_raw: 0.7
+  probability: 0.7
+  reasoning: Consensus USD 1.714bn; Atlassian has usually beaten the top of its guide.
+  expected: About USD 1.72-1.73bn
+  implications:
+    if_yes: Seat business still healthy; counts against the original seat-loss thesis
+    if_no: A miss would revive the seat-loss case
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-26'
+  resolves_by: '2026-11-05'
+  resolution:
+    method: judged
+    guidance: Atlassian FQ1 2027 results, 5 Nov 2026.
+  status: open
+  outcome: null

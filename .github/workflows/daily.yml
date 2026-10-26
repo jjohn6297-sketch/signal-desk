@@ -30,11 +30,15 @@ jobs:
         continue-on-error: true   # a broken board is recorded in board_status.csv
       - name: Indeed Hiring Lab
         run: python scripts/snapshot_hiringlab.py
+      - name: Resolve data-checkable forecasts
+        run: python scripts/resolve_forecasts.py
+      - name: Score forecasts and refit recalibration
+        run: python scripts/score_forecasts.py
       - name: Commit new data
         run: |
           git config user.name "signal-desk-bot"
           git config user.email "signal-desk-bot@users.noreply.github.com"
-          git add data
+          git add data forecasts scores
           if git diff --cached --quiet; then
             echo "No changes"
           else
