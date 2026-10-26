@@ -1,0 +1,250 @@
+"""Build the data files for the private Signal Desk dashboard.
+
+Reads the repository (forecasts, theses, scores, insights, labour data) and writes one
+JSON file of row objects per dashboard source into dashboard/. The scheduled Claude run
+uploads each file to the dashboard and updates its source (docs/AUTOMATION.md, step 10).
+
+  dashboard/insights.json        latest insight bullets, newest file first
+  dashboard/forecasts.json       every forecast, one row each
+  dashboard/theses.json          every thesis with its forecast counts and conviction
+  dashboard/scores.json          one row: headline scores and recalibration status
+  dashboard/calibration.json     stated probability band vs share that happened
+  dashboard/score_groups.json    Brier score by kind and by thesis
+  dashboard/labour_summary.json  Indeed Hiring Lab: latest index and 3/12-month change
+  dashboard/labour_trend.json    Indeed Hiring Lab: month-end index by country and series
+  dashboard/ai_share.json        Indeed Hiring Lab: month-end AI share of postings
+  dashboard/career_boards.json   latest open roles by role group and seniority
+  dashboard/board_status.json    whether each career board answered on the last run
+"""
+from __future__ import annotations
+
+import csv
+import datetime as dt
+import json
+import re
+import sys
+from collections import defaultdict
+from pathlib import Path
+
+import yaml
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+from score_forecasts import BINS, MIN_N, brier  # noqa: E402
+
+OUT = ROOT / "dashboard"
+TODAY = dt.date.today()
+
+
+def read_csv(path: Path) -> list[dict]:
+    if not path.exists():
+        return []
+    with path.open(encoding="utf-8") as f:
+        return list(csv.DictReader(f))
+
+
+def num(x):
+    try:
+        return round(float(x), 4)
+    except (TypeError, ValueError):
+        return None
+
+
+def write(name: str, rows: list[dict]) -> None:
+    (OUT / f"{name}.json").write_text(json.dumps(rows, ensure_ascii=False, indent=0) + "\n", encoding="utf-8")
+    print(f"{name}: {len(rows)} rows")
+
+
+def insights() -> list[dict]:
+    files = sorted((ROOT / "insights").glob("*.md"), reverse=True)[:5]
+    files += sorted((ROOT / "insights" / "weekly").glob("*.md"), reverse=True)[:2]
+    rows = []
+    for f in files:
+        text = f.read_text(encoding="utf-8")
+        title = next((l.lstrip("# ").strip() for l in text.splitlines() if l.startswith("#")), f.stem)
+        bullets = [l[2:].strip() for l in text.splitlines() if l.startswith("- ")]
+        kind = "weekly" if f.parent.name == "weekly" else "daily"
+        for i, b in enumerate(bullets, 1):
+            rows.append({"key": f"{f.stem}-{i}", "date": f.stem, "kind": kind, "title": title, "rank": i, "text": b})
+    return rows
+
+
+def forecasts(thesis_titles: dict[str, str]) -> list[dict]:
+    doc = yaml.safe_load((ROOT / "forecasts" / "forecasts.yaml").read_text())
+    rows = []
+    for f in doc["forecasts"]:
+        p = float(f["probability"])
+        out = f.get("outcome")
+        ov = f.get("override") or {}
+        rows.append({
+            "id": f["id"],
+            "kind": f.get("kind", "thesis"),
+            "thesis": f.get("thesis"),
+            "thesis_title": thesis_titles.get(f.get("thesis"), "Other"),
+            "statement": f["statement"],
+            "probability": p,
+            "probability_raw": num(f.get("probability_raw", p)),
+            "override": num(ov.get("probability")),
+            "reasoning": f.get("reasoning"),
+            "expected": f.get("expected"),
+            "if_yes": (f.get("implications") or {}).get("if_yes"),
+            "if_no": (f.get("implications") or {}).get("if_no"),
+            "made_at": str(f.get("made_at")),
+            "event_date": str(f["event_date"]) if f.get("event_date") else None,
+            "resolves_by": str(f.get("resolves_by")),
+            "method": (f.get("resolution") or {}).get("method"),
+            "status": f.get("status"),
+            "outcome": out,
+            "brier": round((p - out) ** 2, 4) if out in (0, 1) else None,
+            "evidence": f.get("evidence"),
+        })
+    return rows
+
+
+def theses(fc: list[dict]) -> tuple[list[dict], dict[str, str]]:
+    rows, titles = [], {}
+    for path in sorted((ROOT / "theses").glob("*.yaml")):
+        if path.stem == "TEMPLATE":
+            continue
+        t = yaml.safe_load(path.read_text())
+        titles[t["id"]] = t["title"]
+        hist = t.get("conviction_history") or []
+        prev = hist[-2].get("value") if len(hist) >= 2 and isinstance(hist[-2], dict) else None
+        rows.append({
+            "id": t["id"],
+            "title": t["title"],
+            "type": t.get("type"),
+            "theme": t.get("theme"),
+            "status": t.get("status"),
+            "opened": str(t.get("opened")),
+            "horizon": t.get("horizon"),
+            "conviction": t.get("system_conviction"),
+            "conviction_prev": prev,
+            "conviction_reason": t.get("conviction_reason"),
+            "owner_conviction": t.get("owner_conviction"),
+            "evidence_for": len(t.get("evidence_for") or []),
+            "evidence_against": len(t.get("evidence_against") or []),
+            "kill_criteria": " · ".join(t.get("kill_criteria") or []),
+            "kill_hit": " · ".join(t.get("kill_criteria_hit") or []),
+            "variant_view": t.get("variant_view"),
+        })
+    for r in rows:
+        mine = [f for f in fc if f["thesis"] == r["id"]]
+        open_ = [f for f in mine if f["status"] == "open"]
+        r["open_forecasts"] = len(open_)
+        r["resolved_forecasts"] = sum(1 for f in mine if f["status"] == "resolved")
+        r["next_resolves"] = min((f["event_date"] or f["resolves_by"] for f in open_), default=None)
+    return rows, titles
+
+
+def scores(fc: list[dict]) -> tuple[list[dict], list[dict], list[dict]]:
+    res = [f for f in fc if f["status"] == "resolved" and f["outcome"] in (0, 1)]
+    pairs = [(f["probability"], f["outcome"]) for f in res]
+    ov = [f for f in res if f["override"] is not None]
+    rec = json.loads((ROOT / "scores" / "recalibration.json").read_text())
+    summary = [{
+        "as_of": TODAY.isoformat(),
+        "total": len(fc),
+        "open": sum(1 for f in fc if f["status"] == "open"),
+        "resolved": len(res),
+        "void": sum(1 for f in fc if f["status"] == "void"),
+        "hits": sum(1 for f in res if (f["probability"] >= 0.5) == (f["outcome"] == 1)),
+        "brier_system": round(brier(pairs), 4) if pairs else None,
+        "n_override": len(ov),
+        "brier_override": round(brier([(f["override"], f["outcome"]) for f in ov]), 4) if ov else None,
+        "brier_system_same": round(brier([(f["probability"], f["outcome"]) for f in ov]), 4) if ov else None,
+        "recal_active": bool(rec.get("active")),
+        "recal_k": rec.get("k"),
+        "recal_b": rec.get("b"),
+        "recal_n": rec.get("n", len(res)),
+        "recal_min_n": rec.get("min_n", MIN_N),
+    }]
+    calib = []
+    for lo, hi in BINS:
+        b = [(p, o) for p, o in pairs if lo <= p < hi]
+        calib.append({
+            "band": f"{round(lo * 100)}–{round(min(hi, 1) * 100)}%",
+            "lo": lo, "hi": min(hi, 1.0), "n": len(b),
+            "mean_stated": round(sum(p for p, _ in b) / len(b), 4) if b else None,
+            "share_happened": round(sum(o for _, o in b) / len(b), 4) if b else None,
+        })
+    groups = defaultdict(list)
+    for f in res:
+        groups[("Kind", f["kind"])].append((f["probability"], f["outcome"]))
+        groups[("Thesis", f["thesis_title"])].append((f["probability"], f["outcome"]))
+    grp = [{"key": f"{a}: {g}", "group_type": a, "group": g, "n": len(v), "brier": round(brier(v), 4)}
+           for (a, g), v in sorted(groups.items())]
+    return summary, calib, grp
+
+
+def month_end(rows: list[dict], keys: tuple[str, ...], value: str) -> list[dict]:
+    """Keep the last observation of each month for each key, plus the latest date."""
+    last: dict[tuple, dict] = {}
+    for r in rows:
+        k = tuple(r[x] for x in keys) + (r["date"][:7],)
+        if k not in last or r["date"] > last[k]["date"]:
+            last[k] = r
+    out = []
+    for k, r in sorted(last.items(), key=lambda kv: (kv[1]["date"],) + kv[0][:-1]):
+        row = {x: r[x] for x in keys}
+        row.update({"date": r["date"], value: num(r[value])})
+        out.append(row)
+    return out
+
+
+def labour() -> tuple[list[dict], list[dict], list[dict]]:
+    hl = ROOT / "data" / "hiringlab"
+    summary = [{
+        "key": f"{r['country']}|{r['series']}",
+        "country": r["country"], "series": r["series"], "latest_date": r["latest_date"],
+        "index_vs_feb_2020": num(r["index_vs_feb_2020"]),
+        "change_3m_pct": num(r["change_3m_pct"]), "change_12m_pct": num(r["change_12m_pct"]),
+    } for r in read_csv(hl / "summary.csv")]
+    sectors = [dict(r, series=r["sector"]) for r in read_csv(hl / "sectors.csv")]
+    totals = [dict(r, series="All postings") for r in read_csv(hl / "totals.csv")]
+    trend = month_end(sectors + totals, ("country", "series"), "index")
+    ai = [r for r in month_end(read_csv(hl / "ai_share.csv"), ("country",), "ai_share") if r["ai_share"] is not None]
+    return summary, trend, ai
+
+
+def career_boards() -> tuple[list[dict], list[dict]]:
+    jobs = ROOT / "data" / "jobs"
+    counts = read_csv(jobs / "daily_counts.csv")
+    if counts:
+        latest = max(r["date"] for r in counts)
+        agg = defaultdict(int)
+        for r in counts:
+            if r["date"] == latest:
+                agg[(r["role_group"], r["seniority"])] += int(r["open_roles"] or 0)
+        counts = [{"key": f"{g}|{s}", "date": latest, "role_group": g, "seniority": s, "open_roles": n}
+                  for (g, s), n in sorted(agg.items())]
+    status = [{"board": r["board"], "date": r["date"], "ok": r["ok"] in ("True", "true", "1"),
+               "open_roles": int(r["open_roles"]) if (r.get("open_roles") or "").isdigit() else None,
+               "error": r.get("error") or None} for r in read_csv(jobs / "board_status.csv")]
+    return counts, status
+
+
+def main() -> None:
+    OUT.mkdir(exist_ok=True)
+    titles = {yaml.safe_load(p.read_text())["id"]: yaml.safe_load(p.read_text())["title"]
+              for p in (ROOT / "theses").glob("*.yaml") if p.stem != "TEMPLATE"}
+    fc = forecasts(titles)
+    th, _ = theses(fc)
+    s, c, g = scores(fc)
+    ls, lt, ai = labour()
+    cb, bs = career_boards()
+    write("insights", insights())
+    write("forecasts", fc)
+    write("theses", th)
+    write("scores", s)
+    write("calibration", c)
+    write("score_groups", g)
+    write("labour_summary", ls)
+    write("labour_trend", lt)
+    write("ai_share", ai)
+    write("career_boards", cb)
+    write("board_status", bs)
+
+
+if __name__ == "__main__":
+    main()

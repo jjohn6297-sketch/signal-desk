@@ -1,0 +1,506 @@
+[
+{
+"key": "DE|Accounting",
+"country": "DE",
+"series": "Accounting",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 122.03,
+"change_3m_pct": -2.6,
+"change_12m_pct": -13.3
+},
+{
+"key": "DE|Administrative Assistance",
+"country": "DE",
+"series": "Administrative Assistance",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 99.3,
+"change_3m_pct": 2.1,
+"change_12m_pct": -17.5
+},
+{
+"key": "DE|All postings",
+"country": "DE",
+"series": "All postings",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 101.78,
+"change_3m_pct": -2.2,
+"change_12m_pct": -12.2
+},
+{
+"key": "DE|Banking & Finance",
+"country": "DE",
+"series": "Banking & Finance",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 100.13,
+"change_3m_pct": 2.0,
+"change_12m_pct": -3.6
+},
+{
+"key": "DE|Customer Service",
+"country": "DE",
+"series": "Customer Service",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 67.27,
+"change_3m_pct": -5.8,
+"change_12m_pct": -24.9
+},
+{
+"key": "DE|Data & Analytics",
+"country": "DE",
+"series": "Data & Analytics",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 72.49,
+"change_3m_pct": -5.6,
+"change_12m_pct": -16.4
+},
+{
+"key": "DE|Human Resources",
+"country": "DE",
+"series": "Human Resources",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 79.16,
+"change_3m_pct": -3.8,
+"change_12m_pct": -8.5
+},
+{
+"key": "DE|IT Infrastructure, Operations & Support",
+"country": "DE",
+"series": "IT Infrastructure, Operations & Support",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 63.26,
+"change_3m_pct": -3.7,
+"change_12m_pct": -18.0
+},
+{
+"key": "DE|Insurance",
+"country": "DE",
+"series": "Insurance",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 88.3,
+"change_3m_pct": 29.5,
+"change_12m_pct": -14.2
+},
+{
+"key": "DE|Legal",
+"country": "DE",
+"series": "Legal",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 93.91,
+"change_3m_pct": 2.8,
+"change_12m_pct": 0.5
+},
+{
+"key": "DE|Marketing",
+"country": "DE",
+"series": "Marketing",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 62.87,
+"change_3m_pct": -0.9,
+"change_12m_pct": -15.8
+},
+{
+"key": "DE|Media & Communications",
+"country": "DE",
+"series": "Media & Communications",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 62.33,
+"change_3m_pct": 3.4,
+"change_12m_pct": -12.1
+},
+{
+"key": "DE|Project Management",
+"country": "DE",
+"series": "Project Management",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 80.35,
+"change_3m_pct": -1.8,
+"change_12m_pct": -9.0
+},
+{
+"key": "DE|Software Development",
+"country": "DE",
+"series": "Software Development",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 47.69,
+"change_3m_pct": -7.3,
+"change_12m_pct": -17.4
+},
+{
+"key": "FR|Accounting",
+"country": "FR",
+"series": "Accounting",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 62.63,
+"change_3m_pct": 0.1,
+"change_12m_pct": -19.6
+},
+{
+"key": "FR|Administrative Assistance",
+"country": "FR",
+"series": "Administrative Assistance",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 74.25,
+"change_3m_pct": -4.8,
+"change_12m_pct": -22.5
+},
+{
+"key": "FR|All postings",
+"country": "FR",
+"series": "All postings",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 89.07,
+"change_3m_pct": -5.2,
+"change_12m_pct": -16.8
+},
+{
+"key": "FR|Banking & Finance",
+"country": "FR",
+"series": "Banking & Finance",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 84.67,
+"change_3m_pct": 7.5,
+"change_12m_pct": -3.2
+},
+{
+"key": "FR|Customer Service",
+"country": "FR",
+"series": "Customer Service",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 67.71,
+"change_3m_pct": -0.4,
+"change_12m_pct": -17.2
+},
+{
+"key": "FR|Human Resources",
+"country": "FR",
+"series": "Human Resources",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 69.01,
+"change_3m_pct": -5.3,
+"change_12m_pct": -17.1
+},
+{
+"key": "FR|IT Infrastructure, Operations & Support",
+"country": "FR",
+"series": "IT Infrastructure, Operations & Support",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 62.62,
+"change_3m_pct": 0.9,
+"change_12m_pct": -18.0
+},
+{
+"key": "FR|Insurance",
+"country": "FR",
+"series": "Insurance",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 95.87,
+"change_3m_pct": 0.0,
+"change_12m_pct": -19.9
+},
+{
+"key": "FR|Legal",
+"country": "FR",
+"series": "Legal",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 75.07,
+"change_3m_pct": -1.4,
+"change_12m_pct": -24.3
+},
+{
+"key": "FR|Marketing",
+"country": "FR",
+"series": "Marketing",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 54.72,
+"change_3m_pct": -5.4,
+"change_12m_pct": -30.1
+},
+{
+"key": "FR|Media & Communications",
+"country": "FR",
+"series": "Media & Communications",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 54.95,
+"change_3m_pct": -1.9,
+"change_12m_pct": -25.2
+},
+{
+"key": "FR|Project Management",
+"country": "FR",
+"series": "Project Management",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 67.62,
+"change_3m_pct": -2.2,
+"change_12m_pct": -19.1
+},
+{
+"key": "FR|Software Development",
+"country": "FR",
+"series": "Software Development",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 51.26,
+"change_3m_pct": -0.8,
+"change_12m_pct": -7.1
+},
+{
+"key": "GB|Accounting",
+"country": "GB",
+"series": "Accounting",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 64.43,
+"change_3m_pct": 0.8,
+"change_12m_pct": -19.7
+},
+{
+"key": "GB|Administrative Assistance",
+"country": "GB",
+"series": "Administrative Assistance",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 63.92,
+"change_3m_pct": 0.4,
+"change_12m_pct": -11.4
+},
+{
+"key": "GB|All postings",
+"country": "GB",
+"series": "All postings",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 68.87,
+"change_3m_pct": 0.9,
+"change_12m_pct": -7.5
+},
+{
+"key": "GB|Banking & Finance",
+"country": "GB",
+"series": "Banking & Finance",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 84.12,
+"change_3m_pct": 0.3,
+"change_12m_pct": -1.4
+},
+{
+"key": "GB|Customer Service",
+"country": "GB",
+"series": "Customer Service",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 37.4,
+"change_3m_pct": -14.5,
+"change_12m_pct": 0.6
+},
+{
+"key": "GB|Data & Analytics",
+"country": "GB",
+"series": "Data & Analytics",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 49.8,
+"change_3m_pct": -6.6,
+"change_12m_pct": -5.5
+},
+{
+"key": "GB|Human Resources",
+"country": "GB",
+"series": "Human Resources",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 66.1,
+"change_3m_pct": 4.5,
+"change_12m_pct": -3.4
+},
+{
+"key": "GB|IT Infrastructure, Operations & Support",
+"country": "GB",
+"series": "IT Infrastructure, Operations & Support",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 46.1,
+"change_3m_pct": -6.3,
+"change_12m_pct": -15.9
+},
+{
+"key": "GB|Insurance",
+"country": "GB",
+"series": "Insurance",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 90.15,
+"change_3m_pct": 1.5,
+"change_12m_pct": -17.6
+},
+{
+"key": "GB|Legal",
+"country": "GB",
+"series": "Legal",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 93.76,
+"change_3m_pct": 11.6,
+"change_12m_pct": -2.1
+},
+{
+"key": "GB|Marketing",
+"country": "GB",
+"series": "Marketing",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 47.64,
+"change_3m_pct": -2.8,
+"change_12m_pct": -15.6
+},
+{
+"key": "GB|Media & Communications",
+"country": "GB",
+"series": "Media & Communications",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 45.28,
+"change_3m_pct": -3.4,
+"change_12m_pct": -10.9
+},
+{
+"key": "GB|Project Management",
+"country": "GB",
+"series": "Project Management",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 75.83,
+"change_3m_pct": 0.1,
+"change_12m_pct": -3.8
+},
+{
+"key": "GB|Software Development",
+"country": "GB",
+"series": "Software Development",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 59.98,
+"change_3m_pct": -1.0,
+"change_12m_pct": 1.3
+},
+{
+"key": "IE|All postings",
+"country": "IE",
+"series": "All postings",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 103.2,
+"change_3m_pct": 7.0,
+"change_12m_pct": -2.8
+},
+{
+"key": "US|Accounting",
+"country": "US",
+"series": "Accounting",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 106.09,
+"change_3m_pct": 12.3,
+"change_12m_pct": -4.2
+},
+{
+"key": "US|Administrative Assistance",
+"country": "US",
+"series": "Administrative Assistance",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 93.41,
+"change_3m_pct": -1.6,
+"change_12m_pct": -1.6
+},
+{
+"key": "US|All postings",
+"country": "US",
+"series": "All postings",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 103.8,
+"change_3m_pct": 2.3,
+"change_12m_pct": 2.8
+},
+{
+"key": "US|Banking & Finance",
+"country": "US",
+"series": "Banking & Finance",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 106.89,
+"change_3m_pct": 1.0,
+"change_12m_pct": 11.7
+},
+{
+"key": "US|Customer Service",
+"country": "US",
+"series": "Customer Service",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 86.56,
+"change_3m_pct": -1.6,
+"change_12m_pct": -1.5
+},
+{
+"key": "US|Data & Analytics",
+"country": "US",
+"series": "Data & Analytics",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 63.63,
+"change_3m_pct": 1.0,
+"change_12m_pct": 7.6
+},
+{
+"key": "US|Human Resources",
+"country": "US",
+"series": "Human Resources",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 98.6,
+"change_3m_pct": 4.3,
+"change_12m_pct": 17.8
+},
+{
+"key": "US|IT Infrastructure, Operations & Support",
+"country": "US",
+"series": "IT Infrastructure, Operations & Support",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 68.48,
+"change_3m_pct": -3.5,
+"change_12m_pct": 5.0
+},
+{
+"key": "US|Insurance",
+"country": "US",
+"series": "Insurance",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 125.71,
+"change_3m_pct": -5.3,
+"change_12m_pct": 3.9
+},
+{
+"key": "US|Legal",
+"country": "US",
+"series": "Legal",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 123.87,
+"change_3m_pct": 5.5,
+"change_12m_pct": 2.9
+},
+{
+"key": "US|Marketing",
+"country": "US",
+"series": "Marketing",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 75.75,
+"change_3m_pct": 1.9,
+"change_12m_pct": -2.7
+},
+{
+"key": "US|Media & Communications",
+"country": "US",
+"series": "Media & Communications",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 68.14,
+"change_3m_pct": 3.0,
+"change_12m_pct": 5.5
+},
+{
+"key": "US|Project Management",
+"country": "US",
+"series": "Project Management",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 117.14,
+"change_3m_pct": 5.3,
+"change_12m_pct": 16.5
+},
+{
+"key": "US|Software Development",
+"country": "US",
+"series": "Software Development",
+"latest_date": "2026-10-16",
+"index_vs_feb_2020": 78.86,
+"change_3m_pct": 4.3,
+"change_12m_pct": 21.3
+}
+]

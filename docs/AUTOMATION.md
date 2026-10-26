@@ -17,6 +17,7 @@ John reviews key insights and can override any forecast. Everything else is auto
 | Signal Desk: how it works (tabs: How it works, Insights log) | `f28084e2-f891-4e31-930e-6234fa247a2e` | Operating guide; the Insights log tab receives every run's insights, newest first |
 | Week 1: contrarian bets, theses and watch list | `f9c98915-06bb-4212-84ad-59d33b46ec86` | Bets, theses, forecast tables, watch list tab |
 | Investment Intelligence System: plan | `3dce3446-b0fb-40d4-942f-f825bdd74202` | The plan |
+| Signal Desk dashboard (Dashboard artifact, not a doc) | https://claude.ai/artifact/Uh1nu9TVMEPNViAcATP81K | Private page; its data sources are refreshed in daily-run step 10 |
 
 Last-seen revisions of each doc are stored in `state/docs.json` (`{doc_id: {tab_body_id: rev}}`).
 
@@ -37,7 +38,9 @@ Last-seen revisions of each doc are stored in `state/docs.json` (`{doc_id: {tab_
 6. **Calibration.** If `scores/recalibration.json` has `active: true`, set `probability = sigmoid(k * logit(probability_raw) + b)` for every new system forecast and keep both fields. If not active, `probability = probability_raw`.
 7. Run `python -m unittest discover -s tests` and `python scripts/score_forecasts.py`. Commit with a message like `Daily run YYYY-MM-DD: N resolved, M pre-registered`, then push to `main`.
 8. **Insights.** Write `insights/YYYY-MM-DD.md` with at most 8 bullets, most important first: action cards; forecasts resolved (hit or miss, and the Brier contribution); kill criteria hit or close; new pre-registered expectations for the coming days; one line on anything surprising. No filler. If nothing material happened, write one line saying so.
-9. If the Claude Docs tools are available, insert the same bullets at the top of the "Signal Desk: insights" doc under a dated heading (newest first). Finish the run with the bullets as the final message.
+9. If the Claude Docs tools are available, insert the same bullets at the top of the "Signal Desk: insights" doc under a dated heading (newest first).
+10. **Refresh the dashboard** (private Dashboard artifact, URL in the table below). Run `python scripts/build_dashboard.py`; it writes one JSON file per source into `dashboard/`. For each file, in this order: upload it with the Artifact tool (`action: publish`, `url` = the dashboard URL, `file_path` = the file, `asset: true`; one call per file); then, with the ArtifactData tool, `get` collection `datasets`, doc_id = the file's stem, and `update` it with `if_version` = that version and data `{"source": {"kind": "file", "url": "<the upload's /_blob/ url>", "name": "<file name>"}, "updated": {"at": "<now, ISO 8601 UTC>", "by": "Signal Desk daily run"}}`. A batch of updates is fine once all uploads are done. Never change `files/index.html` or the dataset ids in a daily run; layout changes are made in a chat with John. If an upload fails, leave that source as it was and report it. Then delete each source's previous upload (Artifact `action: delete`, `url`, `path` = the old asset id) only after its update succeeded. Commit the `dashboard/` folder with the rest of the run.
+11. Finish the run with the bullets as the final message.
 
 ## Weekly review: steps
 
@@ -48,7 +51,7 @@ Last-seen revisions of each doc are stored in `state/docs.json` (`{doc_id: {tab_
 5. **Overrides.** Compare John's overrides with the system on the same resolved forecasts. If he scores better on 10 or more, start blending: new system forecasts in that kind or theme become 50/50 averages of the system's view and the median of his recent overrides' direction, and say so in the summary. Remove the blend if the advantage disappears.
 6. **First Sunday of the month:** post-mortem on every resolved miss (Brier contribution above 0.36), each tagged with one cause: data missing, data wrong, interpretation wrong, right view but wrong timing, or chance. Write the counts and the fix for the most common cause.
 7. **First Sunday of January, April, July and October:** reweight the conviction components (evidence balance, variant gap, catalyst clarity, management credibility, macro fit) towards those whose changes best predicted resolved outcomes; review the watch list, the tracked funds and the position-size bands.
-8. Write `insights/weekly/YYYY-WW.md`: scores, calibration, what to change, and decisions John may want to make (at most 5 bullets). Commit, push, and post to the Insights log tab as in the daily run.
+8. Write `insights/weekly/YYYY-WW.md`: scores, calibration, what to change, and decisions John may want to make (at most 5 bullets). Refresh the dashboard as in daily-run step 10. Commit, push, and post to the Insights log tab as in the daily run.
 
 ## Rules
 

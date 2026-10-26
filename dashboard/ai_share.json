@@ -1,0 +1,2327 @@
+[
+{
+"country": "DE",
+"date": "2019-01-31",
+"ai_share": 1.9988
+},
+{
+"country": "FR",
+"date": "2019-01-31",
+"ai_share": 2.2716
+},
+{
+"country": "GB",
+"date": "2019-01-31",
+"ai_share": 2.0568
+},
+{
+"country": "IE",
+"date": "2019-01-31",
+"ai_share": 3.854
+},
+{
+"country": "US",
+"date": "2019-01-31",
+"ai_share": 1.7341
+},
+{
+"country": "DE",
+"date": "2019-02-28",
+"ai_share": 2.0109
+},
+{
+"country": "FR",
+"date": "2019-02-28",
+"ai_share": 2.2431
+},
+{
+"country": "GB",
+"date": "2019-02-28",
+"ai_share": 2.1015
+},
+{
+"country": "IE",
+"date": "2019-02-28",
+"ai_share": 4.0848
+},
+{
+"country": "US",
+"date": "2019-02-28",
+"ai_share": 1.7428
+},
+{
+"country": "DE",
+"date": "2019-03-31",
+"ai_share": 2.1338
+},
+{
+"country": "FR",
+"date": "2019-03-31",
+"ai_share": 2.126
+},
+{
+"country": "GB",
+"date": "2019-03-31",
+"ai_share": 1.9946
+},
+{
+"country": "IE",
+"date": "2019-03-31",
+"ai_share": 4.0014
+},
+{
+"country": "US",
+"date": "2019-03-31",
+"ai_share": 1.6852
+},
+{
+"country": "DE",
+"date": "2019-04-30",
+"ai_share": 2.131
+},
+{
+"country": "FR",
+"date": "2019-04-30",
+"ai_share": 2.1288
+},
+{
+"country": "GB",
+"date": "2019-04-30",
+"ai_share": 2.0388
+},
+{
+"country": "IE",
+"date": "2019-04-30",
+"ai_share": 4.0628
+},
+{
+"country": "US",
+"date": "2019-04-30",
+"ai_share": 1.6714
+},
+{
+"country": "DE",
+"date": "2019-05-31",
+"ai_share": 2.0691
+},
+{
+"country": "FR",
+"date": "2019-05-31",
+"ai_share": 2.0817
+},
+{
+"country": "GB",
+"date": "2019-05-31",
+"ai_share": 2.0079
+},
+{
+"country": "IE",
+"date": "2019-05-31",
+"ai_share": 4.0358
+},
+{
+"country": "US",
+"date": "2019-05-31",
+"ai_share": 1.6609
+},
+{
+"country": "DE",
+"date": "2019-06-30",
+"ai_share": 2.0251
+},
+{
+"country": "FR",
+"date": "2019-06-30",
+"ai_share": 2.0975
+},
+{
+"country": "GB",
+"date": "2019-06-30",
+"ai_share": 2.0423
+},
+{
+"country": "IE",
+"date": "2019-06-30",
+"ai_share": 4.2294
+},
+{
+"country": "US",
+"date": "2019-06-30",
+"ai_share": 1.7073
+},
+{
+"country": "DE",
+"date": "2019-07-31",
+"ai_share": 1.9901
+},
+{
+"country": "FR",
+"date": "2019-07-31",
+"ai_share": 2.0555
+},
+{
+"country": "GB",
+"date": "2019-07-31",
+"ai_share": 2.07
+},
+{
+"country": "IE",
+"date": "2019-07-31",
+"ai_share": 4.1848
+},
+{
+"country": "US",
+"date": "2019-07-31",
+"ai_share": 1.7508
+},
+{
+"country": "DE",
+"date": "2019-08-31",
+"ai_share": 1.9591
+},
+{
+"country": "FR",
+"date": "2019-08-31",
+"ai_share": 2.0852
+},
+{
+"country": "GB",
+"date": "2019-08-31",
+"ai_share": 2.0321
+},
+{
+"country": "IE",
+"date": "2019-08-31",
+"ai_share": 3.7864
+},
+{
+"country": "US",
+"date": "2019-08-31",
+"ai_share": 1.7004
+},
+{
+"country": "DE",
+"date": "2019-09-30",
+"ai_share": 1.9228
+},
+{
+"country": "FR",
+"date": "2019-09-30",
+"ai_share": 2.1187
+},
+{
+"country": "GB",
+"date": "2019-09-30",
+"ai_share": 2.0148
+},
+{
+"country": "IE",
+"date": "2019-09-30",
+"ai_share": 3.9951
+},
+{
+"country": "US",
+"date": "2019-09-30",
+"ai_share": 1.7949
+},
+{
+"country": "DE",
+"date": "2019-10-31",
+"ai_share": 1.938
+},
+{
+"country": "FR",
+"date": "2019-10-31",
+"ai_share": 2.3343
+},
+{
+"country": "GB",
+"date": "2019-10-31",
+"ai_share": 2.1059
+},
+{
+"country": "IE",
+"date": "2019-10-31",
+"ai_share": 3.8651
+},
+{
+"country": "US",
+"date": "2019-10-31",
+"ai_share": 1.8294
+},
+{
+"country": "DE",
+"date": "2019-11-30",
+"ai_share": 1.965
+},
+{
+"country": "FR",
+"date": "2019-11-30",
+"ai_share": 2.4761
+},
+{
+"country": "GB",
+"date": "2019-11-30",
+"ai_share": 2.1689
+},
+{
+"country": "IE",
+"date": "2019-11-30",
+"ai_share": 3.9552
+},
+{
+"country": "US",
+"date": "2019-11-30",
+"ai_share": 1.8556
+},
+{
+"country": "DE",
+"date": "2019-12-31",
+"ai_share": 2.0066
+},
+{
+"country": "FR",
+"date": "2019-12-31",
+"ai_share": 2.4878
+},
+{
+"country": "GB",
+"date": "2019-12-31",
+"ai_share": 2.4454
+},
+{
+"country": "IE",
+"date": "2019-12-31",
+"ai_share": 4.4337
+},
+{
+"country": "US",
+"date": "2019-12-31",
+"ai_share": 1.9084
+},
+{
+"country": "DE",
+"date": "2020-01-31",
+"ai_share": 1.9951
+},
+{
+"country": "FR",
+"date": "2020-01-31",
+"ai_share": 2.3197
+},
+{
+"country": "GB",
+"date": "2020-01-31",
+"ai_share": 2.2758
+},
+{
+"country": "IE",
+"date": "2020-01-31",
+"ai_share": 4.2067
+},
+{
+"country": "US",
+"date": "2020-01-31",
+"ai_share": 1.9312
+},
+{
+"country": "DE",
+"date": "2020-02-29",
+"ai_share": 1.9886
+},
+{
+"country": "FR",
+"date": "2020-02-29",
+"ai_share": 2.1934
+},
+{
+"country": "GB",
+"date": "2020-02-29",
+"ai_share": 2.4028
+},
+{
+"country": "IE",
+"date": "2020-02-29",
+"ai_share": 4.5417
+},
+{
+"country": "US",
+"date": "2020-02-29",
+"ai_share": 1.9605
+},
+{
+"country": "DE",
+"date": "2020-03-31",
+"ai_share": 2.0185
+},
+{
+"country": "FR",
+"date": "2020-03-31",
+"ai_share": 2.2089
+},
+{
+"country": "GB",
+"date": "2020-03-31",
+"ai_share": 2.9083
+},
+{
+"country": "IE",
+"date": "2020-03-31",
+"ai_share": 5.4374
+},
+{
+"country": "US",
+"date": "2020-03-31",
+"ai_share": 1.9711
+},
+{
+"country": "DE",
+"date": "2020-04-30",
+"ai_share": 1.8663
+},
+{
+"country": "FR",
+"date": "2020-04-30",
+"ai_share": 2.3746
+},
+{
+"country": "GB",
+"date": "2020-04-30",
+"ai_share": 3.1009
+},
+{
+"country": "IE",
+"date": "2020-04-30",
+"ai_share": 5.4396
+},
+{
+"country": "US",
+"date": "2020-04-30",
+"ai_share": 1.8703
+},
+{
+"country": "DE",
+"date": "2020-05-31",
+"ai_share": 1.8512
+},
+{
+"country": "FR",
+"date": "2020-05-31",
+"ai_share": 2.3445
+},
+{
+"country": "GB",
+"date": "2020-05-31",
+"ai_share": 2.9746
+},
+{
+"country": "IE",
+"date": "2020-05-31",
+"ai_share": 5.4824
+},
+{
+"country": "US",
+"date": "2020-05-31",
+"ai_share": 1.6368
+},
+{
+"country": "DE",
+"date": "2020-06-30",
+"ai_share": 1.8274
+},
+{
+"country": "FR",
+"date": "2020-06-30",
+"ai_share": 2.1218
+},
+{
+"country": "GB",
+"date": "2020-06-30",
+"ai_share": 2.9209
+},
+{
+"country": "IE",
+"date": "2020-06-30",
+"ai_share": 5.1632
+},
+{
+"country": "US",
+"date": "2020-06-30",
+"ai_share": 1.5184
+},
+{
+"country": "DE",
+"date": "2020-07-31",
+"ai_share": 1.7604
+},
+{
+"country": "FR",
+"date": "2020-07-31",
+"ai_share": 2.1556
+},
+{
+"country": "GB",
+"date": "2020-07-31",
+"ai_share": 2.754
+},
+{
+"country": "IE",
+"date": "2020-07-31",
+"ai_share": 4.7511
+},
+{
+"country": "US",
+"date": "2020-07-31",
+"ai_share": 1.4617
+},
+{
+"country": "DE",
+"date": "2020-08-31",
+"ai_share": 1.7571
+},
+{
+"country": "FR",
+"date": "2020-08-31",
+"ai_share": 2.2202
+},
+{
+"country": "GB",
+"date": "2020-08-31",
+"ai_share": 2.5247
+},
+{
+"country": "IE",
+"date": "2020-08-31",
+"ai_share": 4.9792
+},
+{
+"country": "US",
+"date": "2020-08-31",
+"ai_share": 1.5039
+},
+{
+"country": "DE",
+"date": "2020-09-30",
+"ai_share": 1.7641
+},
+{
+"country": "FR",
+"date": "2020-09-30",
+"ai_share": 2.1312
+},
+{
+"country": "GB",
+"date": "2020-09-30",
+"ai_share": 2.6156
+},
+{
+"country": "IE",
+"date": "2020-09-30",
+"ai_share": 4.927
+},
+{
+"country": "US",
+"date": "2020-09-30",
+"ai_share": 1.5796
+},
+{
+"country": "DE",
+"date": "2020-10-31",
+"ai_share": 1.8096
+},
+{
+"country": "FR",
+"date": "2020-10-31",
+"ai_share": 2.3585
+},
+{
+"country": "GB",
+"date": "2020-10-31",
+"ai_share": 2.7318
+},
+{
+"country": "IE",
+"date": "2020-10-31",
+"ai_share": 5.1943
+},
+{
+"country": "US",
+"date": "2020-10-31",
+"ai_share": 1.6593
+},
+{
+"country": "DE",
+"date": "2020-11-30",
+"ai_share": 1.907
+},
+{
+"country": "FR",
+"date": "2020-11-30",
+"ai_share": 2.5714
+},
+{
+"country": "GB",
+"date": "2020-11-30",
+"ai_share": 3.031
+},
+{
+"country": "IE",
+"date": "2020-11-30",
+"ai_share": 5.2085
+},
+{
+"country": "US",
+"date": "2020-11-30",
+"ai_share": 1.8329
+},
+{
+"country": "DE",
+"date": "2020-12-31",
+"ai_share": 2.0291
+},
+{
+"country": "FR",
+"date": "2020-12-31",
+"ai_share": 2.5193
+},
+{
+"country": "GB",
+"date": "2020-12-31",
+"ai_share": 3.3627
+},
+{
+"country": "IE",
+"date": "2020-12-31",
+"ai_share": 5.692
+},
+{
+"country": "US",
+"date": "2020-12-31",
+"ai_share": 1.9786
+},
+{
+"country": "DE",
+"date": "2021-01-31",
+"ai_share": 2.1097
+},
+{
+"country": "FR",
+"date": "2021-01-31",
+"ai_share": 2.3475
+},
+{
+"country": "GB",
+"date": "2021-01-31",
+"ai_share": 3.5998
+},
+{
+"country": "IE",
+"date": "2021-01-31",
+"ai_share": 6.2014
+},
+{
+"country": "US",
+"date": "2021-01-31",
+"ai_share": 2.049
+},
+{
+"country": "DE",
+"date": "2021-02-28",
+"ai_share": 2.2904
+},
+{
+"country": "FR",
+"date": "2021-02-28",
+"ai_share": 2.2167
+},
+{
+"country": "GB",
+"date": "2021-02-28",
+"ai_share": 3.619
+},
+{
+"country": "IE",
+"date": "2021-02-28",
+"ai_share": 6.5598
+},
+{
+"country": "US",
+"date": "2021-02-28",
+"ai_share": 2.212
+},
+{
+"country": "DE",
+"date": "2021-03-31",
+"ai_share": 2.4707
+},
+{
+"country": "FR",
+"date": "2021-03-31",
+"ai_share": 2.1924
+},
+{
+"country": "GB",
+"date": "2021-03-31",
+"ai_share": 3.1413
+},
+{
+"country": "IE",
+"date": "2021-03-31",
+"ai_share": 6.9733
+},
+{
+"country": "US",
+"date": "2021-03-31",
+"ai_share": 2.173
+},
+{
+"country": "DE",
+"date": "2021-04-30",
+"ai_share": 2.4044
+},
+{
+"country": "FR",
+"date": "2021-04-30",
+"ai_share": 2.2442
+},
+{
+"country": "GB",
+"date": "2021-04-30",
+"ai_share": 2.8732
+},
+{
+"country": "IE",
+"date": "2021-04-30",
+"ai_share": 6.4235
+},
+{
+"country": "US",
+"date": "2021-04-30",
+"ai_share": 2.0435
+},
+{
+"country": "DE",
+"date": "2021-05-31",
+"ai_share": 2.432
+},
+{
+"country": "FR",
+"date": "2021-05-31",
+"ai_share": 2.1124
+},
+{
+"country": "GB",
+"date": "2021-05-31",
+"ai_share": 2.6609
+},
+{
+"country": "IE",
+"date": "2021-05-31",
+"ai_share": 6.0146
+},
+{
+"country": "US",
+"date": "2021-05-31",
+"ai_share": 2.1112
+},
+{
+"country": "DE",
+"date": "2021-06-30",
+"ai_share": 2.4204
+},
+{
+"country": "FR",
+"date": "2021-06-30",
+"ai_share": 1.992
+},
+{
+"country": "GB",
+"date": "2021-06-30",
+"ai_share": 2.7064
+},
+{
+"country": "IE",
+"date": "2021-06-30",
+"ai_share": 5.7777
+},
+{
+"country": "US",
+"date": "2021-06-30",
+"ai_share": 2.1975
+},
+{
+"country": "DE",
+"date": "2021-07-31",
+"ai_share": 2.4188
+},
+{
+"country": "FR",
+"date": "2021-07-31",
+"ai_share": 2.0302
+},
+{
+"country": "GB",
+"date": "2021-07-31",
+"ai_share": 2.6236
+},
+{
+"country": "IE",
+"date": "2021-07-31",
+"ai_share": 5.4407
+},
+{
+"country": "US",
+"date": "2021-07-31",
+"ai_share": 2.3159
+},
+{
+"country": "DE",
+"date": "2021-08-31",
+"ai_share": 2.5129
+},
+{
+"country": "FR",
+"date": "2021-08-31",
+"ai_share": 2.0153
+},
+{
+"country": "GB",
+"date": "2021-08-31",
+"ai_share": 2.5763
+},
+{
+"country": "IE",
+"date": "2021-08-31",
+"ai_share": 5.06
+},
+{
+"country": "US",
+"date": "2021-08-31",
+"ai_share": 2.5258
+},
+{
+"country": "DE",
+"date": "2021-09-30",
+"ai_share": 2.4513
+},
+{
+"country": "FR",
+"date": "2021-09-30",
+"ai_share": 1.9917
+},
+{
+"country": "GB",
+"date": "2021-09-30",
+"ai_share": 2.5386
+},
+{
+"country": "IE",
+"date": "2021-09-30",
+"ai_share": 5.2546
+},
+{
+"country": "US",
+"date": "2021-09-30",
+"ai_share": 2.6145
+},
+{
+"country": "DE",
+"date": "2021-10-31",
+"ai_share": 2.4332
+},
+{
+"country": "FR",
+"date": "2021-10-31",
+"ai_share": 2.139
+},
+{
+"country": "GB",
+"date": "2021-10-31",
+"ai_share": 2.5985
+},
+{
+"country": "IE",
+"date": "2021-10-31",
+"ai_share": 5.3124
+},
+{
+"country": "US",
+"date": "2021-10-31",
+"ai_share": 2.7515
+},
+{
+"country": "DE",
+"date": "2021-11-30",
+"ai_share": 2.4318
+},
+{
+"country": "FR",
+"date": "2021-11-30",
+"ai_share": 2.3122
+},
+{
+"country": "GB",
+"date": "2021-11-30",
+"ai_share": 2.7264
+},
+{
+"country": "IE",
+"date": "2021-11-30",
+"ai_share": 5.6092
+},
+{
+"country": "US",
+"date": "2021-11-30",
+"ai_share": 2.9396
+},
+{
+"country": "DE",
+"date": "2021-12-31",
+"ai_share": 2.5781
+},
+{
+"country": "FR",
+"date": "2021-12-31",
+"ai_share": 2.329
+},
+{
+"country": "GB",
+"date": "2021-12-31",
+"ai_share": 3.2127
+},
+{
+"country": "IE",
+"date": "2021-12-31",
+"ai_share": 6.3981
+},
+{
+"country": "US",
+"date": "2021-12-31",
+"ai_share": 3.0331
+},
+{
+"country": "DE",
+"date": "2022-01-31",
+"ai_share": 2.5542
+},
+{
+"country": "FR",
+"date": "2022-01-31",
+"ai_share": 2.2141
+},
+{
+"country": "GB",
+"date": "2022-01-31",
+"ai_share": 3.1563
+},
+{
+"country": "IE",
+"date": "2022-01-31",
+"ai_share": 5.8737
+},
+{
+"country": "US",
+"date": "2022-01-31",
+"ai_share": 3.1877
+},
+{
+"country": "DE",
+"date": "2022-02-28",
+"ai_share": 2.5871
+},
+{
+"country": "FR",
+"date": "2022-02-28",
+"ai_share": 2.1559
+},
+{
+"country": "GB",
+"date": "2022-02-28",
+"ai_share": 3.1188
+},
+{
+"country": "IE",
+"date": "2022-02-28",
+"ai_share": 5.6098
+},
+{
+"country": "US",
+"date": "2022-02-28",
+"ai_share": 3.257
+},
+{
+"country": "DE",
+"date": "2022-03-31",
+"ai_share": 2.6233
+},
+{
+"country": "FR",
+"date": "2022-03-31",
+"ai_share": 2.0772
+},
+{
+"country": "GB",
+"date": "2022-03-31",
+"ai_share": 3.023
+},
+{
+"country": "IE",
+"date": "2022-03-31",
+"ai_share": 5.4385
+},
+{
+"country": "US",
+"date": "2022-03-31",
+"ai_share": 3.1758
+},
+{
+"country": "DE",
+"date": "2022-04-30",
+"ai_share": 2.685
+},
+{
+"country": "FR",
+"date": "2022-04-30",
+"ai_share": 2.062
+},
+{
+"country": "GB",
+"date": "2022-04-30",
+"ai_share": 2.9189
+},
+{
+"country": "IE",
+"date": "2022-04-30",
+"ai_share": 5.1195
+},
+{
+"country": "US",
+"date": "2022-04-30",
+"ai_share": 3.14
+},
+{
+"country": "DE",
+"date": "2022-05-31",
+"ai_share": 2.6745
+},
+{
+"country": "FR",
+"date": "2022-05-31",
+"ai_share": 1.9898
+},
+{
+"country": "GB",
+"date": "2022-05-31",
+"ai_share": 2.7628
+},
+{
+"country": "IE",
+"date": "2022-05-31",
+"ai_share": 5.1155
+},
+{
+"country": "US",
+"date": "2022-05-31",
+"ai_share": 3.146
+},
+{
+"country": "DE",
+"date": "2022-06-30",
+"ai_share": 2.6491
+},
+{
+"country": "FR",
+"date": "2022-06-30",
+"ai_share": 1.9788
+},
+{
+"country": "GB",
+"date": "2022-06-30",
+"ai_share": 2.638
+},
+{
+"country": "IE",
+"date": "2022-06-30",
+"ai_share": 5.219
+},
+{
+"country": "US",
+"date": "2022-06-30",
+"ai_share": 2.9654
+},
+{
+"country": "DE",
+"date": "2022-07-31",
+"ai_share": 2.5251
+},
+{
+"country": "FR",
+"date": "2022-07-31",
+"ai_share": 1.9285
+},
+{
+"country": "GB",
+"date": "2022-07-31",
+"ai_share": 2.5491
+},
+{
+"country": "IE",
+"date": "2022-07-31",
+"ai_share": 5.0436
+},
+{
+"country": "US",
+"date": "2022-07-31",
+"ai_share": 2.8192
+},
+{
+"country": "DE",
+"date": "2022-08-31",
+"ai_share": 2.5331
+},
+{
+"country": "FR",
+"date": "2022-08-31",
+"ai_share": 1.8762
+},
+{
+"country": "GB",
+"date": "2022-08-31",
+"ai_share": 2.4295
+},
+{
+"country": "IE",
+"date": "2022-08-31",
+"ai_share": 4.8296
+},
+{
+"country": "US",
+"date": "2022-08-31",
+"ai_share": 2.6739
+},
+{
+"country": "DE",
+"date": "2022-09-30",
+"ai_share": 2.4624
+},
+{
+"country": "FR",
+"date": "2022-09-30",
+"ai_share": 1.7994
+},
+{
+"country": "GB",
+"date": "2022-09-30",
+"ai_share": 2.4151
+},
+{
+"country": "IE",
+"date": "2022-09-30",
+"ai_share": 4.7407
+},
+{
+"country": "US",
+"date": "2022-09-30",
+"ai_share": 2.5356
+},
+{
+"country": "DE",
+"date": "2022-10-31",
+"ai_share": 2.3605
+},
+{
+"country": "FR",
+"date": "2022-10-31",
+"ai_share": 1.8533
+},
+{
+"country": "GB",
+"date": "2022-10-31",
+"ai_share": 2.2763
+},
+{
+"country": "IE",
+"date": "2022-10-31",
+"ai_share": 4.3975
+},
+{
+"country": "US",
+"date": "2022-10-31",
+"ai_share": 2.3779
+},
+{
+"country": "DE",
+"date": "2022-11-30",
+"ai_share": 2.302
+},
+{
+"country": "FR",
+"date": "2022-11-30",
+"ai_share": 1.8687
+},
+{
+"country": "GB",
+"date": "2022-11-30",
+"ai_share": 2.2009
+},
+{
+"country": "IE",
+"date": "2022-11-30",
+"ai_share": 4.1603
+},
+{
+"country": "US",
+"date": "2022-11-30",
+"ai_share": 2.2134
+},
+{
+"country": "DE",
+"date": "2022-12-31",
+"ai_share": 2.2287
+},
+{
+"country": "FR",
+"date": "2022-12-31",
+"ai_share": 1.809
+},
+{
+"country": "GB",
+"date": "2022-12-31",
+"ai_share": 2.1395
+},
+{
+"country": "IE",
+"date": "2022-12-31",
+"ai_share": 3.9523
+},
+{
+"country": "US",
+"date": "2022-12-31",
+"ai_share": 2.1888
+},
+{
+"country": "DE",
+"date": "2023-01-31",
+"ai_share": 2.1948
+},
+{
+"country": "FR",
+"date": "2023-01-31",
+"ai_share": 1.694
+},
+{
+"country": "GB",
+"date": "2023-01-31",
+"ai_share": 2.0246
+},
+{
+"country": "IE",
+"date": "2023-01-31",
+"ai_share": 3.4668
+},
+{
+"country": "US",
+"date": "2023-01-31",
+"ai_share": 2.1343
+},
+{
+"country": "DE",
+"date": "2023-02-28",
+"ai_share": 2.3825
+},
+{
+"country": "FR",
+"date": "2023-02-28",
+"ai_share": 1.6865
+},
+{
+"country": "GB",
+"date": "2023-02-28",
+"ai_share": 1.9898
+},
+{
+"country": "IE",
+"date": "2023-02-28",
+"ai_share": 3.368
+},
+{
+"country": "US",
+"date": "2023-02-28",
+"ai_share": 2.0361
+},
+{
+"country": "DE",
+"date": "2023-03-31",
+"ai_share": 2.3905
+},
+{
+"country": "FR",
+"date": "2023-03-31",
+"ai_share": 1.6902
+},
+{
+"country": "GB",
+"date": "2023-03-31",
+"ai_share": 1.9448
+},
+{
+"country": "IE",
+"date": "2023-03-31",
+"ai_share": 3.3323
+},
+{
+"country": "US",
+"date": "2023-03-31",
+"ai_share": 1.8382
+},
+{
+"country": "DE",
+"date": "2023-04-30",
+"ai_share": 2.1075
+},
+{
+"country": "FR",
+"date": "2023-04-30",
+"ai_share": 1.6971
+},
+{
+"country": "GB",
+"date": "2023-04-30",
+"ai_share": 1.8663
+},
+{
+"country": "IE",
+"date": "2023-04-30",
+"ai_share": 3.2957
+},
+{
+"country": "US",
+"date": "2023-04-30",
+"ai_share": 1.7783
+},
+{
+"country": "DE",
+"date": "2023-05-31",
+"ai_share": 2.0853
+},
+{
+"country": "FR",
+"date": "2023-05-31",
+"ai_share": 1.6467
+},
+{
+"country": "GB",
+"date": "2023-05-31",
+"ai_share": 1.7619
+},
+{
+"country": "IE",
+"date": "2023-05-31",
+"ai_share": 3.2346
+},
+{
+"country": "US",
+"date": "2023-05-31",
+"ai_share": 1.7269
+},
+{
+"country": "DE",
+"date": "2023-06-30",
+"ai_share": 2.0706
+},
+{
+"country": "FR",
+"date": "2023-06-30",
+"ai_share": 1.5728
+},
+{
+"country": "GB",
+"date": "2023-06-30",
+"ai_share": 1.6923
+},
+{
+"country": "IE",
+"date": "2023-06-30",
+"ai_share": 3.4855
+},
+{
+"country": "US",
+"date": "2023-06-30",
+"ai_share": 1.6926
+},
+{
+"country": "DE",
+"date": "2023-07-31",
+"ai_share": 2.0726
+},
+{
+"country": "FR",
+"date": "2023-07-31",
+"ai_share": 1.599
+},
+{
+"country": "GB",
+"date": "2023-07-31",
+"ai_share": 1.7944
+},
+{
+"country": "IE",
+"date": "2023-07-31",
+"ai_share": 3.8593
+},
+{
+"country": "US",
+"date": "2023-07-31",
+"ai_share": 1.7223
+},
+{
+"country": "DE",
+"date": "2023-08-31",
+"ai_share": 2.0541
+},
+{
+"country": "FR",
+"date": "2023-08-31",
+"ai_share": 1.5399
+},
+{
+"country": "GB",
+"date": "2023-08-31",
+"ai_share": 1.8292
+},
+{
+"country": "IE",
+"date": "2023-08-31",
+"ai_share": 3.8421
+},
+{
+"country": "US",
+"date": "2023-08-31",
+"ai_share": 1.7597
+},
+{
+"country": "DE",
+"date": "2023-09-30",
+"ai_share": 2.0491
+},
+{
+"country": "FR",
+"date": "2023-09-30",
+"ai_share": 1.6445
+},
+{
+"country": "GB",
+"date": "2023-09-30",
+"ai_share": 1.7826
+},
+{
+"country": "IE",
+"date": "2023-09-30",
+"ai_share": 3.6798
+},
+{
+"country": "US",
+"date": "2023-09-30",
+"ai_share": 1.8333
+},
+{
+"country": "DE",
+"date": "2023-10-31",
+"ai_share": 2.0525
+},
+{
+"country": "FR",
+"date": "2023-10-31",
+"ai_share": 1.8891
+},
+{
+"country": "GB",
+"date": "2023-10-31",
+"ai_share": 1.8866
+},
+{
+"country": "IE",
+"date": "2023-10-31",
+"ai_share": 3.9552
+},
+{
+"country": "US",
+"date": "2023-10-31",
+"ai_share": 1.833
+},
+{
+"country": "DE",
+"date": "2023-11-30",
+"ai_share": 2.0808
+},
+{
+"country": "FR",
+"date": "2023-11-30",
+"ai_share": 2.026
+},
+{
+"country": "GB",
+"date": "2023-11-30",
+"ai_share": 2.0243
+},
+{
+"country": "IE",
+"date": "2023-11-30",
+"ai_share": 3.7492
+},
+{
+"country": "US",
+"date": "2023-11-30",
+"ai_share": 1.8791
+},
+{
+"country": "DE",
+"date": "2023-12-31",
+"ai_share": 2.1945
+},
+{
+"country": "FR",
+"date": "2023-12-31",
+"ai_share": 2.0083
+},
+{
+"country": "GB",
+"date": "2023-12-31",
+"ai_share": 2.2994
+},
+{
+"country": "IE",
+"date": "2023-12-31",
+"ai_share": 4.2856
+},
+{
+"country": "US",
+"date": "2023-12-31",
+"ai_share": 1.9394
+},
+{
+"country": "DE",
+"date": "2024-01-31",
+"ai_share": 2.2924
+},
+{
+"country": "FR",
+"date": "2024-01-31",
+"ai_share": 1.9607
+},
+{
+"country": "GB",
+"date": "2024-01-31",
+"ai_share": 2.1784
+},
+{
+"country": "IE",
+"date": "2024-01-31",
+"ai_share": 4.1865
+},
+{
+"country": "US",
+"date": "2024-01-31",
+"ai_share": 2.0138
+},
+{
+"country": "DE",
+"date": "2024-02-29",
+"ai_share": 2.2701
+},
+{
+"country": "FR",
+"date": "2024-02-29",
+"ai_share": 1.9442
+},
+{
+"country": "GB",
+"date": "2024-02-29",
+"ai_share": 2.2792
+},
+{
+"country": "IE",
+"date": "2024-02-29",
+"ai_share": 4.2126
+},
+{
+"country": "US",
+"date": "2024-02-29",
+"ai_share": 2.0758
+},
+{
+"country": "DE",
+"date": "2024-03-31",
+"ai_share": 2.2441
+},
+{
+"country": "FR",
+"date": "2024-03-31",
+"ai_share": 1.9822
+},
+{
+"country": "GB",
+"date": "2024-03-31",
+"ai_share": 2.3222
+},
+{
+"country": "IE",
+"date": "2024-03-31",
+"ai_share": 4.3868
+},
+{
+"country": "US",
+"date": "2024-03-31",
+"ai_share": 2.0515
+},
+{
+"country": "DE",
+"date": "2024-04-30",
+"ai_share": 2.2363
+},
+{
+"country": "FR",
+"date": "2024-04-30",
+"ai_share": 2.0552
+},
+{
+"country": "GB",
+"date": "2024-04-30",
+"ai_share": 2.3794
+},
+{
+"country": "IE",
+"date": "2024-04-30",
+"ai_share": 4.6759
+},
+{
+"country": "US",
+"date": "2024-04-30",
+"ai_share": 2.0181
+},
+{
+"country": "DE",
+"date": "2024-05-31",
+"ai_share": 2.1965
+},
+{
+"country": "FR",
+"date": "2024-05-31",
+"ai_share": 2.1019
+},
+{
+"country": "GB",
+"date": "2024-05-31",
+"ai_share": 2.4204
+},
+{
+"country": "IE",
+"date": "2024-05-31",
+"ai_share": 4.3849
+},
+{
+"country": "US",
+"date": "2024-05-31",
+"ai_share": 2.1097
+},
+{
+"country": "DE",
+"date": "2024-06-30",
+"ai_share": 2.267
+},
+{
+"country": "FR",
+"date": "2024-06-30",
+"ai_share": 2.0837
+},
+{
+"country": "GB",
+"date": "2024-06-30",
+"ai_share": 2.4777
+},
+{
+"country": "IE",
+"date": "2024-06-30",
+"ai_share": 4.9861
+},
+{
+"country": "US",
+"date": "2024-06-30",
+"ai_share": 2.2254
+},
+{
+"country": "DE",
+"date": "2024-07-31",
+"ai_share": 2.3865
+},
+{
+"country": "FR",
+"date": "2024-07-31",
+"ai_share": 2.0745
+},
+{
+"country": "GB",
+"date": "2024-07-31",
+"ai_share": 2.6062
+},
+{
+"country": "IE",
+"date": "2024-07-31",
+"ai_share": 5.8532
+},
+{
+"country": "US",
+"date": "2024-07-31",
+"ai_share": 2.1886
+},
+{
+"country": "DE",
+"date": "2024-08-31",
+"ai_share": 2.3598
+},
+{
+"country": "FR",
+"date": "2024-08-31",
+"ai_share": 2.0546
+},
+{
+"country": "GB",
+"date": "2024-08-31",
+"ai_share": 2.6353
+},
+{
+"country": "IE",
+"date": "2024-08-31",
+"ai_share": 5.6064
+},
+{
+"country": "US",
+"date": "2024-08-31",
+"ai_share": 2.311
+},
+{
+"country": "DE",
+"date": "2024-09-30",
+"ai_share": 2.2983
+},
+{
+"country": "FR",
+"date": "2024-09-30",
+"ai_share": 2.0968
+},
+{
+"country": "GB",
+"date": "2024-09-30",
+"ai_share": 2.7449
+},
+{
+"country": "IE",
+"date": "2024-09-30",
+"ai_share": 5.4979
+},
+{
+"country": "US",
+"date": "2024-09-30",
+"ai_share": 2.396
+},
+{
+"country": "DE",
+"date": "2024-10-31",
+"ai_share": 2.3106
+},
+{
+"country": "FR",
+"date": "2024-10-31",
+"ai_share": 2.3237
+},
+{
+"country": "GB",
+"date": "2024-10-31",
+"ai_share": 2.8966
+},
+{
+"country": "IE",
+"date": "2024-10-31",
+"ai_share": 5.8376
+},
+{
+"country": "US",
+"date": "2024-10-31",
+"ai_share": 2.5396
+},
+{
+"country": "DE",
+"date": "2024-11-30",
+"ai_share": 2.3263
+},
+{
+"country": "FR",
+"date": "2024-11-30",
+"ai_share": 2.422
+},
+{
+"country": "GB",
+"date": "2024-11-30",
+"ai_share": 3.0317
+},
+{
+"country": "IE",
+"date": "2024-11-30",
+"ai_share": 6.1328
+},
+{
+"country": "US",
+"date": "2024-11-30",
+"ai_share": 2.5988
+},
+{
+"country": "DE",
+"date": "2024-12-31",
+"ai_share": 2.4284
+},
+{
+"country": "FR",
+"date": "2024-12-31",
+"ai_share": 2.3044
+},
+{
+"country": "GB",
+"date": "2024-12-31",
+"ai_share": 3.4351
+},
+{
+"country": "IE",
+"date": "2024-12-31",
+"ai_share": 6.8012
+},
+{
+"country": "US",
+"date": "2024-12-31",
+"ai_share": 2.7139
+},
+{
+"country": "DE",
+"date": "2025-01-31",
+"ai_share": 2.5647
+},
+{
+"country": "FR",
+"date": "2025-01-31",
+"ai_share": 2.2568
+},
+{
+"country": "GB",
+"date": "2025-01-31",
+"ai_share": 3.3775
+},
+{
+"country": "IE",
+"date": "2025-01-31",
+"ai_share": 6.4302
+},
+{
+"country": "US",
+"date": "2025-01-31",
+"ai_share": 2.7753
+},
+{
+"country": "DE",
+"date": "2025-02-28",
+"ai_share": 2.6471
+},
+{
+"country": "FR",
+"date": "2025-02-28",
+"ai_share": 2.3907
+},
+{
+"country": "GB",
+"date": "2025-02-28",
+"ai_share": 3.5554
+},
+{
+"country": "IE",
+"date": "2025-02-28",
+"ai_share": 6.6773
+},
+{
+"country": "US",
+"date": "2025-02-28",
+"ai_share": 2.7898
+},
+{
+"country": "DE",
+"date": "2025-03-31",
+"ai_share": 2.7757
+},
+{
+"country": "FR",
+"date": "2025-03-31",
+"ai_share": 2.5342
+},
+{
+"country": "GB",
+"date": "2025-03-31",
+"ai_share": 3.7303
+},
+{
+"country": "IE",
+"date": "2025-03-31",
+"ai_share": 6.8409
+},
+{
+"country": "US",
+"date": "2025-03-31",
+"ai_share": 2.7663
+},
+{
+"country": "DE",
+"date": "2025-04-30",
+"ai_share": 2.8508
+},
+{
+"country": "FR",
+"date": "2025-04-30",
+"ai_share": 2.5765
+},
+{
+"country": "GB",
+"date": "2025-04-30",
+"ai_share": 3.9938
+},
+{
+"country": "IE",
+"date": "2025-04-30",
+"ai_share": 7.5822
+},
+{
+"country": "US",
+"date": "2025-04-30",
+"ai_share": 2.7915
+},
+{
+"country": "DE",
+"date": "2025-05-31",
+"ai_share": 2.9513
+},
+{
+"country": "FR",
+"date": "2025-05-31",
+"ai_share": 2.5731
+},
+{
+"country": "GB",
+"date": "2025-05-31",
+"ai_share": 4.1553
+},
+{
+"country": "IE",
+"date": "2025-05-31",
+"ai_share": 7.5786
+},
+{
+"country": "US",
+"date": "2025-05-31",
+"ai_share": 2.8811
+},
+{
+"country": "DE",
+"date": "2025-06-30",
+"ai_share": 3.092
+},
+{
+"country": "FR",
+"date": "2025-06-30",
+"ai_share": 2.7236
+},
+{
+"country": "GB",
+"date": "2025-06-30",
+"ai_share": 4.463
+},
+{
+"country": "IE",
+"date": "2025-06-30",
+"ai_share": 8.5885
+},
+{
+"country": "US",
+"date": "2025-06-30",
+"ai_share": 3.1013
+},
+{
+"country": "DE",
+"date": "2025-07-31",
+"ai_share": 3.3301
+},
+{
+"country": "FR",
+"date": "2025-07-31",
+"ai_share": 2.6274
+},
+{
+"country": "GB",
+"date": "2025-07-31",
+"ai_share": 4.6734
+},
+{
+"country": "IE",
+"date": "2025-07-31",
+"ai_share": 8.9608
+},
+{
+"country": "US",
+"date": "2025-07-31",
+"ai_share": 3.2223
+},
+{
+"country": "DE",
+"date": "2025-08-31",
+"ai_share": 3.6188
+},
+{
+"country": "FR",
+"date": "2025-08-31",
+"ai_share": 2.5595
+},
+{
+"country": "GB",
+"date": "2025-08-31",
+"ai_share": 4.9021
+},
+{
+"country": "IE",
+"date": "2025-08-31",
+"ai_share": 9.2853
+},
+{
+"country": "US",
+"date": "2025-08-31",
+"ai_share": 3.4462
+},
+{
+"country": "DE",
+"date": "2025-09-30",
+"ai_share": 3.5981
+},
+{
+"country": "FR",
+"date": "2025-09-30",
+"ai_share": 2.7587
+},
+{
+"country": "GB",
+"date": "2025-09-30",
+"ai_share": 5.1228
+},
+{
+"country": "IE",
+"date": "2025-09-30",
+"ai_share": 9.8538
+},
+{
+"country": "US",
+"date": "2025-09-30",
+"ai_share": 3.7055
+},
+{
+"country": "DE",
+"date": "2025-10-31",
+"ai_share": 3.6472
+},
+{
+"country": "FR",
+"date": "2025-10-31",
+"ai_share": 3.1705
+},
+{
+"country": "GB",
+"date": "2025-10-31",
+"ai_share": 5.7286
+},
+{
+"country": "IE",
+"date": "2025-10-31",
+"ai_share": 11.1835
+},
+{
+"country": "US",
+"date": "2025-10-31",
+"ai_share": 4.0619
+},
+{
+"country": "DE",
+"date": "2025-11-30",
+"ai_share": 3.7591
+},
+{
+"country": "FR",
+"date": "2025-11-30",
+"ai_share": 3.4486
+},
+{
+"country": "GB",
+"date": "2025-11-30",
+"ai_share": 6.2738
+},
+{
+"country": "IE",
+"date": "2025-11-30",
+"ai_share": 11.5271
+},
+{
+"country": "US",
+"date": "2025-11-30",
+"ai_share": 4.2833
+},
+{
+"country": "DE",
+"date": "2025-12-31",
+"ai_share": 4.0386
+},
+{
+"country": "FR",
+"date": "2025-12-31",
+"ai_share": 3.4483
+},
+{
+"country": "GB",
+"date": "2025-12-31",
+"ai_share": 7.1177
+},
+{
+"country": "IE",
+"date": "2025-12-31",
+"ai_share": 12.5811
+},
+{
+"country": "US",
+"date": "2025-12-31",
+"ai_share": 4.4401
+},
+{
+"country": "DE",
+"date": "2026-01-31",
+"ai_share": 4.2814
+},
+{
+"country": "FR",
+"date": "2026-01-31",
+"ai_share": 3.2828
+},
+{
+"country": "GB",
+"date": "2026-01-31",
+"ai_share": 7.0247
+},
+{
+"country": "IE",
+"date": "2026-01-31",
+"ai_share": 11.9423
+},
+{
+"country": "US",
+"date": "2026-01-31",
+"ai_share": 4.7659
+},
+{
+"country": "DE",
+"date": "2026-02-28",
+"ai_share": 4.4035
+},
+{
+"country": "FR",
+"date": "2026-02-28",
+"ai_share": 3.4443
+},
+{
+"country": "GB",
+"date": "2026-02-28",
+"ai_share": 7.2905
+},
+{
+"country": "IE",
+"date": "2026-02-28",
+"ai_share": 11.4295
+},
+{
+"country": "US",
+"date": "2026-02-28",
+"ai_share": 5.0545
+},
+{
+"country": "DE",
+"date": "2026-03-31",
+"ai_share": 4.7668
+},
+{
+"country": "FR",
+"date": "2026-03-31",
+"ai_share": 3.9521
+},
+{
+"country": "GB",
+"date": "2026-03-31",
+"ai_share": 8.1272
+},
+{
+"country": "IE",
+"date": "2026-03-31",
+"ai_share": 12.3339
+},
+{
+"country": "US",
+"date": "2026-03-31",
+"ai_share": 5.4402
+},
+{
+"country": "DE",
+"date": "2026-04-30",
+"ai_share": 5.0018
+},
+{
+"country": "FR",
+"date": "2026-04-30",
+"ai_share": 4.1178
+},
+{
+"country": "GB",
+"date": "2026-04-30",
+"ai_share": 8.3941
+},
+{
+"country": "IE",
+"date": "2026-04-30",
+"ai_share": 13.6788
+},
+{
+"country": "US",
+"date": "2026-04-30",
+"ai_share": 5.4695
+},
+{
+"country": "DE",
+"date": "2026-05-31",
+"ai_share": 5.2362
+},
+{
+"country": "FR",
+"date": "2026-05-31",
+"ai_share": 4.1358
+},
+{
+"country": "GB",
+"date": "2026-05-31",
+"ai_share": 9.3103
+},
+{
+"country": "IE",
+"date": "2026-05-31",
+"ai_share": 14.0386
+},
+{
+"country": "US",
+"date": "2026-05-31",
+"ai_share": 5.7991
+},
+{
+"country": "DE",
+"date": "2026-06-30",
+"ai_share": 5.3973
+},
+{
+"country": "FR",
+"date": "2026-06-30",
+"ai_share": 3.9194
+},
+{
+"country": "GB",
+"date": "2026-06-30",
+"ai_share": 9.5014
+},
+{
+"country": "IE",
+"date": "2026-06-30",
+"ai_share": 14.9224
+},
+{
+"country": "US",
+"date": "2026-06-30",
+"ai_share": 5.9924
+},
+{
+"country": "DE",
+"date": "2026-07-31",
+"ai_share": 5.707
+},
+{
+"country": "FR",
+"date": "2026-07-31",
+"ai_share": 4.1077
+},
+{
+"country": "GB",
+"date": "2026-07-31",
+"ai_share": 9.5017
+},
+{
+"country": "IE",
+"date": "2026-07-31",
+"ai_share": 14.9982
+},
+{
+"country": "US",
+"date": "2026-07-31",
+"ai_share": 6.3889
+},
+{
+"country": "DE",
+"date": "2026-08-31",
+"ai_share": 5.7083
+},
+{
+"country": "FR",
+"date": "2026-08-31",
+"ai_share": 4.0733
+},
+{
+"country": "GB",
+"date": "2026-08-31",
+"ai_share": 9.6964
+},
+{
+"country": "IE",
+"date": "2026-08-31",
+"ai_share": 14.9664
+},
+{
+"country": "US",
+"date": "2026-08-31",
+"ai_share": 6.807
+},
+{
+"country": "DE",
+"date": "2026-09-30",
+"ai_share": 5.7416
+},
+{
+"country": "FR",
+"date": "2026-09-30",
+"ai_share": 4.5274
+},
+{
+"country": "GB",
+"date": "2026-09-30",
+"ai_share": 9.921
+},
+{
+"country": "IE",
+"date": "2026-09-30",
+"ai_share": 15.0197
+},
+{
+"country": "US",
+"date": "2026-09-30",
+"ai_share": 7.3382
+}
+]
