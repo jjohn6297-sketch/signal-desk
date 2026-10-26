@@ -15,6 +15,14 @@ uploads each file to the dashboard and updates its source (docs/AUTOMATION.md, s
   dashboard/ai_share.json        Indeed Hiring Lab: month-end AI share of postings
   dashboard/career_boards.json   latest open roles by role group and seniority
   dashboard/board_status.json    whether each career board answered on the last run
+  dashboard/product_summary.json one row: product-manager roles open on the latest snapshot
+  dashboard/product_levels.json  product-manager roles by level, all regions and Ireland
+  dashboard/product_trend.json   product-manager roles per snapshot day
+  dashboard/product_by_company.json  product-manager roles per tracked company
+  dashboard/product_roles_ireland.json  every open product-manager role in Ireland
+
+A source with no rows yet is written as one row {"_empty": true}, because the dashboard
+cannot load an empty file; the page shows its empty message for that row.
 """
 from __future__ import annotations
 
@@ -51,6 +59,8 @@ def num(x):
 
 
 def write(name: str, rows: list[dict]) -> None:
+    if not rows:
+        rows = [{"_empty": True}]
     (OUT / f"{name}.json").write_text(json.dumps(rows, ensure_ascii=False, indent=0) + "\n", encoding="utf-8")
     print(f"{name}: {len(rows)} rows")
 
@@ -215,13 +225,72 @@ def career_boards() -> tuple[list[dict], list[dict]]:
         agg = defaultdict(int)
         for r in counts:
             if r["date"] == latest:
-                agg[(r["role_group"], r["seniority"])] += int(r["open_roles"] or 0)
+                agg[(r["role_group"], r["seniority"])] += int(r["open_roles"] or 0)  # all regions
         counts = [{"key": f"{g}|{s}", "date": latest, "role_group": g, "seniority": s, "open_roles": n}
                   for (g, s), n in sorted(agg.items())]
-    status = [{"board": r["board"], "date": r["date"], "ok": r["ok"] in ("True", "true", "1"),
+    status = [{"board": r["board"], "date": r["date"], "ok": r["ok"] in ("yes", "True", "true", "1"),
                "open_roles": int(r["open_roles"]) if (r.get("open_roles") or "").isdigit() else None,
                "error": r.get("error") or None} for r in read_csv(jobs / "board_status.csv")]
     return counts, status
+
+
+PM = "product_management"
+LEVELS = ["leadership", "senior", "mid_or_unknown", "junior", "intern"]
+IRELAND = ("dublin", "ireland_other")
+
+
+def product() -> tuple[list[dict], ...]:
+    jobs = ROOT / "data" / "jobs"
+    boards = {b["board"]: b for b in yaml.safe_load((ROOT / "config" / "career_boards.yaml").read_text())["boards"]}
+    counts = read_csv(jobs / "daily_counts.csv")
+    if not counts or "region" not in counts[0]:
+        return [], [], [], [], []
+    for r in counts:
+        r["open_roles"] = int(r["open_roles"] or 0)
+        r["ai_roles"] = int(r.get("ai_roles") or 0)
+    latest = max(r["date"] for r in counts)
+    now = [r for r in counts if r["date"] == latest]
+    pm = [r for r in now if r["role_group"] == PM]
+    tot = lambda rows, f="open_roles": sum(r[f] for r in rows)
+    share = lambda a, b: round(a / b, 4) if b else None
+    ok_boards = sorted({r["board"] for r in now})
+    summary = [{
+        "date": latest, "boards": len(ok_boards),
+        "all_open": tot(now), "pm_open": tot(pm), "pm_share": share(tot(pm), tot(now)),
+        "pm_ai": tot(pm, "ai_roles"), "pm_ai_share": share(tot(pm, "ai_roles"), tot(pm)),
+        "pm_ireland": tot([r for r in pm if r["region"] in IRELAND]),
+        "pm_dublin": tot([r for r in pm if r["region"] == "dublin"]),
+    }]
+    levels = [{"level": lv, "order": i, "open_roles": tot([r for r in pm if r["seniority"] == lv]),
+               "ireland": tot([r for r in pm if r["seniority"] == lv and r["region"] in IRELAND])}
+              for i, lv in enumerate(LEVELS)]
+    trend = []
+    for d in sorted({r["date"] for r in counts}):
+        day = [r for r in counts if r["date"] == d]
+        dpm = [r for r in day if r["role_group"] == PM]
+        trend.append({"date": d, "boards": len({r["board"] for r in day}), "all_open": tot(day), "pm_open": tot(dpm),
+                      "pm_share": share(tot(dpm), tot(day)), "pm_ai_share": share(tot(dpm, "ai_roles"), tot(dpm)),
+                      "pm_ireland": tot([r for r in dpm if r["region"] in IRELAND])})
+    by_co = []
+    for b in ok_boards:
+        rows = [r for r in now if r["board"] == b]
+        bp = [r for r in rows if r["role_group"] == PM]
+        meta = boards.get(b, {})
+        by_co.append({"board": b, "company": meta.get("company", b), "ticker": meta.get("ticker"),
+                      "all_open": tot(rows), "pm_open": tot(bp), "pm_share": share(tot(bp), tot(rows)),
+                      "pm_senior_plus": tot([r for r in bp if r["seniority"] in ("senior", "leadership")]),
+                      "pm_junior": tot([r for r in bp if r["seniority"] in ("junior", "intern")]),
+                      "pm_ai": tot(bp, "ai_roles"), "pm_ireland": tot([r for r in bp if r["region"] in IRELAND])})
+    roles = []
+    for b in ok_boards:
+        for j in read_csv(jobs / "current" / f"{b}.csv"):
+            if j.get("role_group") == PM and j.get("region") in IRELAND:
+                roles.append({"key": f"{b}|{j['job_id']}", "company": boards.get(b, {}).get("company", b),
+                              "title": j["title"], "level": j["seniority"], "location": j["location"],
+                              "ai_related": j.get("ai_related") in ("True", "true", "1"),
+                              "updated": (j.get("updated_at") or "")[:10] or None, "url": j.get("url")})
+    roles.sort(key=lambda r: (r["company"], r["title"]))
+    return summary, levels, trend, by_co, roles
 
 
 def main() -> None:
@@ -244,6 +313,12 @@ def main() -> None:
     write("ai_share", ai)
     write("career_boards", cb)
     write("board_status", bs)
+    ps, pl, pt, pc, pr = product()
+    write("product_summary", ps)
+    write("product_levels", pl)
+    write("product_trend", pt)
+    write("product_by_company", pc)
+    write("product_roles_ireland", pr)
 
 
 if __name__ == "__main__":

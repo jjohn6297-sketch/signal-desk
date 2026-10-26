@@ -22,3 +22,28 @@ boards:
   - {board: zeta, company: Zeta Global, ticker: ZETA, ats: greenhouse, slug: zetaglobal, theme: holdings, note: unverified}
   - {board: planet, company: Planet Labs, ticker: PL, ats: greenhouse, slug: planetlabs, theme: holdings, note: unverified}
   - {board: c3ai, company: C3.ai, ticker: AI, ats: greenhouse, slug: c3iot, theme: holdings, note: unverified}
+
+  # Product-led technology companies, added 26 Oct 2026 to track product-manager hiring:
+  # how many PM roles are open, how senior, how many are AI-related, and how many are in
+  # Dublin or elsewhere in Ireland. dublin: yes marks a known Dublin office.
+  - {board: stripe, company: Stripe, ticker: private, ats: greenhouse, slug: stripe, theme: product_tech, dublin: yes, note: unverified}
+  - {board: intercom, company: Intercom, ticker: private, ats: greenhouse, slug: intercom, theme: product_tech, dublin: yes, note: unverified}
+  - {board: airbnb, company: Airbnb, ticker: ABNB, ats: greenhouse, slug: airbnb, theme: product_tech, dublin: yes, note: unverified}
+  - {board: dropbox, company: Dropbox, ticker: DBX, ats: greenhouse, slug: dropbox, theme: product_tech, dublin: yes, note: unverified}
+  - {board: pinterest, company: Pinterest, ticker: PINS, ats: greenhouse, slug: pinterest, theme: product_tech, dublin: yes, note: unverified}
+  - {board: reddit, company: Reddit, ticker: RDDT, ats: greenhouse, slug: reddit, theme: product_tech, dublin: yes, note: unverified}
+  - {board: squarespace, company: Squarespace, ticker: private, ats: greenhouse, slug: squarespace, theme: product_tech, dublin: yes, note: unverified}
+  - {board: etsy, company: Etsy, ticker: ETSY, ats: greenhouse, slug: etsy, theme: product_tech, dublin: yes, note: unverified}
+  - {board: toast, company: Toast, ticker: TOST, ats: greenhouse, slug: toast, theme: product_tech, dublin: yes, note: unverified}
+  - {board: twilio, company: Twilio, ticker: TWLO, ats: greenhouse, slug: twilio, theme: product_tech, dublin: yes, note: unverified}
+  - {board: okta, company: Okta, ticker: OKTA, ats: greenhouse, slug: okta, theme: product_tech, dublin: yes, note: unverified}
+  - {board: coinbase, company: Coinbase, ticker: COIN, ats: greenhouse, slug: coinbase, theme: product_tech, dublin: yes, note: unverified}
+  - {board: anthropic, company: Anthropic, ticker: private, ats: greenhouse, slug: anthropic, theme: product_tech, dublin: yes, note: unverified}
+  - {board: openai, company: OpenAI, ticker: private, ats: ashby, slug: openai, theme: product_tech, dublin: yes, note: unverified}
+  - {board: udemy, company: Udemy, ticker: UDMY, ats: greenhouse, slug: udemy, theme: product_tech, dublin: yes, note: unverified}
+  - {board: wayflyer, company: Wayflyer, ticker: private, ats: ashby, slug: wayflyer, theme: product_tech, dublin: yes, note: unverified}
+  - {board: figma, company: Figma, ticker: FIG, ats: greenhouse, slug: figma, theme: product_tech, dublin: no, note: unverified}
+  - {board: cloudflare, company: Cloudflare, ticker: NET, ats: greenhouse, slug: cloudflare, theme: product_tech, dublin: no, note: unverified}
+  - {board: duolingo, company: Duolingo, ticker: DUOL, ats: greenhouse, slug: duolingo, theme: product_tech, dublin: no, note: unverified}
+  - {board: robinhood, company: Robinhood, ticker: HOOD, ats: greenhouse, slug: robinhood, theme: product_tech, dublin: no, note: unverified}
+  - {board: notion, company: Notion, ticker: private, ats: ashby, slug: notion, theme: product_tech, dublin: yes, note: unverified}

@@ -3,7 +3,8 @@
 Keeps a small, append-only history instead of full daily copies:
   data/jobs/current/<board>.csv   every open role today
   data/jobs/events/YYYY-MM.csv     one row per role opened or closed
-  data/jobs/daily_counts.csv       open roles per board, role group and seniority, per day
+  data/jobs/daily_counts.csv       open roles per board, role group, seniority and region, per day,
+                                   with how many of them are AI-related
   data/jobs/board_status.csv       whether each board answered on the last run
 
 Run: python scripts/snapshot_jobs.py [--date YYYY-MM-DD]
@@ -24,13 +25,18 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "config" / "career_boards.yaml"
 OUT = ROOT / "data" / "jobs"
-FIELDS = ["job_id", "title", "department", "location", "updated_at", "url", "role_group", "seniority"]
+FIELDS = ["job_id", "title", "department", "location", "updated_at", "url", "role_group", "seniority", "region", "ai_related"]
+COUNT_FIELDS = ["date", "board", "role_group", "seniority", "region", "open_roles", "ai_roles"]
 HEADERS = {"User-Agent": "signal-desk research bot (personal, non-commercial)"}
 
-# Order matters: the first matching group wins.
+# Order matters: the first matching group wins. Product comes first so that
+# "Product Manager, Customer Support" counts as product, not support.
+_NOT_PM = r"(?! ?(marketing|design|analy|engineer|support|counsel|specialist))"
 ROLE_GROUPS = [
+    ("product_management", r"product manag|product owner|\bproduct lead\b|\bhead of product" + _NOT_PM
+     + r"|director,? (of )?product" + _NOT_PM + r"|\b(vp|vice president),? (of )?product" + _NOT_PM
+     + r"|chief product officer|\bcpo\b|product operations|\bproduct ops\b|\bapm\b"),
     ("customer_support", r"customer (support|service|success|care)|support (agent|specialist|representative)|call cent|contact cent|help ?desk"),
-    ("product_management", r"product manag|product owner|product lead|\bhead of product\b"),
     ("data_ai", r"machine learning|\bml\b|\bai\b|data scien|data engineer|research scientist|\bllm\b"),
     ("software_engineering", r"software|engineer|developer|\bsre\b|devops|front.?end|back.?end|full.?stack"),
     ("legal", r"legal|counsel|paralegal|attorney|lawyer|contracts? manager|compliance"),
@@ -41,16 +47,43 @@ ROLE_GROUPS = [
 ]
 SENIORITY = [
     ("intern", r"\bintern\b|internship|apprentice|graduate|new grad"),
+    ("leadership", r"head of|director|\bvp\b|vice president|\bchief\b|\bcpo\b"),
     ("junior", r"\bjunior\b|\bjr\.?\b|associate|entry.level|\bi\b$|\b1\b$"),
-    ("senior", r"\bsenior\b|\bsr\.?\b|staff|principal|lead|head of|director|\bvp\b|vice president|manager|chief"),
+    ("senior", r"\bsenior\b|\bsr\.?\b|staff|principal|lead|manager"),
 ]
+# Product managers have "manager" in every title, so they get their own ladder.
+PM_LEVELS = [
+    ("intern", r"\bintern\b|internship"),
+    ("leadership", r"head of|director|\bvp\b|vice president|\bchief\b|\bcpo\b"),
+    ("junior", r"associate product|\bapm\b|\bjunior\b|\bjr\.?\b|graduate|rotational|entry.level"),
+    ("senior", r"\bsenior\b|\bsr\.?\b|staff|principal|group product|\blead\b"),
+]
+REGIONS = [
+    ("dublin", r"dublin"),
+    ("ireland_other", r"ireland|cork|galway|limerick|\bie\b"),
+    ("uk", r"london|united kingdom|\buk\b|england|scotland|manchester|edinburgh|belfast"),
+    ("us", r"united states|\busa?\b|new york|san francisco|seattle|austin|boston|chicago|denver|atlanta"
+           r"|los angeles|bay area|washington|, (ca|ny|wa|tx|ma|il|co|ga|nc|va|fl|or|ut)\b"),
+    ("remote", r"remote|anywhere"),
+]
+AI_RELATED = r"\bai\b|\ba\.i\.|machine learning|\bml\b|\bllms?\b|genai|generative|agentic|ai agent|artificial intelligence"
+
+
+def region(location: str) -> str:
+    text = (location or "").lower()
+    return next((r for r, pat in REGIONS if re.search(pat, text)), "other")
+
+
+def ai_related(title: str, department: str = "") -> bool:
+    return bool(re.search(AI_RELATED, f"{title} {department}".lower()))
 
 
 def classify(title: str, department: str = "") -> tuple[str, str]:
     text = f"{title} {department}".lower()
     group = next((g for g, pat in ROLE_GROUPS if re.search(pat, text)), "other")
     t = title.lower()
-    level = next((s for s, pat in SENIORITY if re.search(pat, t)), "mid_or_unknown")
+    ladder = PM_LEVELS if group == "product_management" else SENIORITY
+    level = next((s for s, pat in ladder if re.search(pat, t)), "mid_or_unknown")
     return group, level
 
 
@@ -121,12 +154,14 @@ def diff(board: str, today: str, before: list[dict], now: list[dict]) -> list[di
 
 
 def counts(board: str, today: str, rows: list[dict]) -> list[dict]:
-    tally: dict[tuple[str, str], int] = {}
+    tally: dict[tuple[str, str, str], list[int]] = {}
     for r in rows:
-        key = (r["role_group"], r["seniority"])
-        tally[key] = tally.get(key, 0) + 1
-    return [{"date": today, "board": board, "role_group": g, "seniority": s, "open_roles": n}
-            for (g, s), n in sorted(tally.items())]
+        key = (r["role_group"], r["seniority"], r.get("region", "other"))
+        t = tally.setdefault(key, [0, 0])
+        t[0] += 1
+        t[1] += 1 if str(r.get("ai_related")) in ("True", "true", "1") else 0
+    return [{"date": today, "board": board, "role_group": g, "seniority": s, "region": rg, "open_roles": n, "ai_roles": a}
+            for (g, s, rg), (n, a) in sorted(tally.items())]
 
 
 def run(today: str) -> int:
@@ -141,6 +176,8 @@ def run(today: str) -> int:
             continue
         for j in jobs:
             j["role_group"], j["seniority"] = classify(j["title"], j["department"])
+            j["region"] = region(j["location"])
+            j["ai_related"] = ai_related(j["title"], j["department"])
         cur_path = OUT / "current" / f"{name}.csv"
         before = read_csv(cur_path)
         if before:  # first run sets a baseline; it is not a burst of openings
@@ -151,7 +188,7 @@ def run(today: str) -> int:
         time.sleep(1)  # be polite to the job-board APIs
     month = today[:7]
     append_csv(OUT / "events" / f"{month}.csv", all_events, ["date", "board", "event"] + FIELDS)
-    append_csv(OUT / "daily_counts.csv", all_counts, ["date", "board", "role_group", "seniority", "open_roles"])
+    append_csv(OUT / "daily_counts.csv", all_counts, COUNT_FIELDS)
     write_csv(OUT / "board_status.csv", status, ["date", "board", "ats", "slug", "ok", "open_roles", "error"])
     ok = sum(s["ok"] == "yes" for s in status)
     print(f"{today}: {ok}/{len(status)} boards fetched, {len(all_events)} open/close events")

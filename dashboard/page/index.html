@@ -1,0 +1,849 @@
+<style>
+.sd { font-family: var(--font-anthropic-sans); display: flex; flex-direction: column; gap: var(--cds-gap-lg); max-width: 1320px; margin-inline: auto; }
+.sd-head { display: flex; flex-direction: column; gap: var(--cds-gap-xs); }
+.sd-head h1 { margin: 0; font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); text-wrap: balance; }
+.sd-take { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-body); line-height: 1.5; max-width: 75ch; }
+.sd-tabs { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); }
+.sd-tab { font: inherit; font-size: var(--cds-font-size-body); background: none; border: 0; border-bottom: 2px solid transparent; color: var(--color-fg-muted); padding: var(--cds-pad-sm) var(--cds-pad-md); min-height: 44px; cursor: pointer; }
+.sd-tab[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+.sd-tab:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+.sd-page { display: flex; flex-direction: column; gap: var(--cds-gap-lg); }
+.sd-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: var(--cds-gap-md); }
+.sd-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); gap: var(--cds-gap-md); }
+.sd-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); min-width: 0; }
+.sd-card h2 { margin: 0; font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); }
+.sd-note { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); line-height: 1.45; }
+.sd-tile-label { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.sd-big { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; line-height: 1.15; }
+.sd-scroll { overflow-x: auto; }
+.sd-box { max-height: 34rem; overflow: auto; }
+.sd-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-body); font-variant-numeric: tabular-nums; }
+.sd-table th { text-align: left; font-weight: var(--cds-font-weight-medium); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); position: sticky; top: 0; background: var(--color-panel); white-space: nowrap; }
+.sd-table td { padding: var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; line-height: 1.45; }
+.sd-table .num { text-align: right; white-space: nowrap; }
+.sd-table .nowrap { white-space: nowrap; }
+.sd-table tbody tr.sd-click { cursor: pointer; }
+.sd-table tbody tr.sd-click:hover td { background: var(--cds-surface-popover); }
+.sd-table tbody tr[aria-selected="true"] td { background: var(--cds-surface-popover); }
+.sd-table .muted { color: var(--color-fg-muted); }
+.sd-pbar { display: inline-flex; align-items: center; gap: var(--cds-gap-xs); }
+.sd-pbar i { display: inline-block; height: 6px; border-radius: 3px; background: var(--cds-chart-muted); width: 56px; position: relative; overflow: hidden; }
+.sd-pbar i b { position: absolute; inset: 0 auto 0 0; border-radius: 3px; }
+.sd-chip { display: inline-block; font-size: var(--cds-font-size-caption); border: 1px solid var(--color-border-line); border-radius: 999px; padding: 1px 8px; color: var(--color-fg-muted); white-space: nowrap; }
+.sd-ok { color: var(--color-ok); }
+.sd-warn { color: var(--color-warn); }
+.sd-bad { color: var(--color-bad); }
+.sd-filters { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); align-items: flex-end; }
+.sd-field { display: flex; flex-direction: column; gap: 2px; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.sd-field select, .sd-field input { font: inherit; font-size: var(--cds-font-size-body); color: var(--color-fg); background: var(--color-bg); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-xs) var(--cds-pad-sm); min-height: 40px; }
+.sd-thesis-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 24rem), 1fr)); gap: var(--cds-gap-md); }
+.sd-thesis h3 { margin: 0; font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); line-height: 1.4; text-wrap: balance; }
+.sd-facts { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm) var(--cds-gap-lg); }
+.sd-fact { display: flex; flex-direction: column; gap: 2px; }
+.sd-fact span:last-child { font-variant-numeric: tabular-nums; }
+.sd-kill { margin: 0; padding-left: 1.1rem; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.5; }
+.sd-dl { display: grid; grid-template-columns: minmax(7rem, 10rem) minmax(0, 1fr); gap: var(--cds-gap-xs) var(--cds-gap-md); margin: 0; font-size: var(--cds-font-size-body); line-height: 1.5; }
+.sd-dl dt { color: var(--color-fg-muted); }
+.sd-dl dd { margin: 0; overflow-wrap: anywhere; }
+.sd-chart { position: relative; min-height: 280px; }
+.sd-chart svg { display: block; }
+.sd-tick { font-size: var(--cds-font-size-caption); fill: var(--color-fg-muted); }
+.sd-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); line-height: 1.5; white-space: nowrap; z-index: 2; }
+.sd-tip .d { color: var(--cds-text-secondary); }
+.sd-sw { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 6px; }
+.sd-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs) var(--cds-gap-md); list-style: none; margin: 0; padding: 0; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.sd-empty { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-body); padding: var(--cds-pad-md) 0; }
+.sd-foot { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); line-height: 1.5; }
+[data-dash-source-state=empty] { color: transparent; }
+[data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+</style>
+
+<div class="sd">
+  <header class="sd-head" id="top">
+    <h1>Signal Desk</h1>
+    <p class="sd-take" id="takeaway">Data as of <span class="dash-skeleton" data-source="scores" data-field="as_of" data-row="0">—</span>. <span class="dash-skeleton" data-source="scores" data-field="open" data-row="0">—</span> forecasts open, <span class="dash-skeleton" data-source="scores" data-field="resolved" data-row="0">—</span> resolved. <span id="next-event"></span></p>
+  </header>
+
+  <div class="sd-tabs" role="tablist" aria-label="Sections">
+    <button type="button" class="sd-tab" role="tab" id="tab-today" aria-controls="today" aria-selected="true">Today</button>
+    <button type="button" class="sd-tab" role="tab" id="tab-theses" aria-controls="theses" aria-selected="false">Theses</button>
+    <button type="button" class="sd-tab" role="tab" id="tab-forecasts" aria-controls="forecasts" aria-selected="false">Forecasts</button>
+    <button type="button" class="sd-tab" role="tab" id="tab-record" aria-controls="record" aria-selected="false">Track record</button>
+    <button type="button" class="sd-tab" role="tab" id="tab-labour" aria-controls="labour" aria-selected="false">Labour</button>
+    <button type="button" class="sd-tab" role="tab" id="tab-product" aria-controls="product" aria-selected="false">Product roles</button>
+  </div>
+
+  <section class="sd-page" id="today" role="tabpanel" aria-labelledby="tab-today">
+    <div class="sd-tiles">
+      <div class="sd-card"><span class="sd-tile-label">Open forecasts</span><span class="sd-big dash-skeleton" data-source="scores" data-field="open" data-row="0">—</span><p class="sd-note">Written with a probability before the outcome is known</p></div>
+      <div class="sd-card"><span class="sd-tile-label">Resolved</span><span class="sd-big dash-skeleton" data-source="scores" data-field="resolved" data-row="0">—</span><p class="sd-note">Settled from public data or a primary source</p></div>
+      <div class="sd-card"><span class="sd-tile-label">Brier score</span><span class="sd-big dash-skeleton" id="tile-brier" data-source="scores" data-field="brier_system" data-row="0">—</span><p class="sd-note">Squared gap between probability and outcome. 0.25 = always saying 50%; lower is better</p></div>
+      <div class="sd-card"><span class="sd-tile-label">Recalibration</span><span class="sd-big"><span class="dash-skeleton" data-source="scores" data-field="recal_n" data-row="0">—</span> of <span class="dash-skeleton" data-source="scores" data-field="recal_min_n" data-row="0">—</span></span><p class="sd-note" id="recal-note">Resolved forecasts needed before new probabilities are adjusted</p></div>
+    </div>
+
+    <div class="sd-card" id="insights-card">
+      <h2>Latest insights</h2>
+      <p class="sd-note">From the most recent daily runs, most important first</p>
+      <div class="sd-scroll">
+        <table class="sd-table" id="insights-table" data-source="insights" data-row-key="key">
+          <thead><tr><th data-field="date">Run</th><th data-field="text">Insight</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="sd-grid">
+      <div class="sd-card" id="events-card">
+        <h2>Events in the next 14 days</h2>
+        <p class="sd-note">Pre-registered forecasts: probability and what is expected</p>
+        <div class="sd-scroll">
+          <table class="sd-table" id="events-table" data-source="forecasts" data-row-key="id">
+            <thead><tr><th data-field="event_date">Date</th><th data-field="statement">Forecast</th><th data-field="probability" class="num">Probability</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="sd-empty" id="events-empty" hidden>No events pre-registered for the next 14 days.</p>
+      </div>
+      <div class="sd-card" id="soon-card">
+        <h2>Thesis forecasts resolving in the next 60 days</h2>
+        <p class="sd-note">The bets that get their first test soonest</p>
+        <div class="sd-scroll">
+          <table class="sd-table" id="soon-table" data-source="forecasts" data-row-key="id">
+            <thead><tr><th data-field="resolves_by">Resolves</th><th data-field="statement">Forecast</th><th data-field="probability" class="num">Probability</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="sd-empty" id="soon-empty" hidden>None due in the next 60 days.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sd-page" id="theses" role="tabpanel" aria-labelledby="tab-theses" hidden>
+    <p class="sd-note">Conviction (0–100) is set and updated by each daily run from the evidence; it shows a dash until the first run scores it. Comment on the Week 1 doc to close or rewrite a thesis.</p>
+    <div class="sd-thesis-grid" id="thesis-grid" data-source="theses"></div>
+  </section>
+
+  <section class="sd-page" id="forecasts" role="tabpanel" aria-labelledby="tab-forecasts" hidden>
+    <div class="sd-filters">
+      <label class="sd-field" for="f-kind">Kind<select id="f-kind"><option value="">All</option><option value="thesis">Thesis</option><option value="event">Event</option></select></label>
+      <label class="sd-field" for="f-status">Status<select id="f-status"><option value="open">Open</option><option value="resolved">Resolved</option><option value="void">Void</option><option value="">All</option></select></label>
+      <label class="sd-field" for="f-thesis">Thesis<select id="f-thesis" data-source="theses"><option value="">All theses</option></select></label>
+      <label class="sd-field" for="f-q">Search<input id="f-q" type="search" placeholder="Company, rate, keyword"></label>
+    </div>
+    <div class="sd-grid">
+      <div class="sd-card" id="forecast-list" style="grid-column: 1 / -1;">
+        <h2>Forecasts</h2>
+        <p class="sd-note">Probabilities never change after they are written; a changed view is a new forecast. Select a row for the reasoning.</p>
+        <div class="sd-box sd-scroll">
+          <table class="sd-table" id="fc-table" data-source="forecasts" data-row-key="id">
+            <thead><tr><th data-field="id">Id</th><th data-field="statement">Forecast</th><th data-field="probability" class="num">System</th><th data-field="override" class="num">Yours</th><th data-field="resolves_by">Resolves</th><th data-field="status">Status</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="sd-empty" id="fc-empty" hidden>No forecasts match these filters.</p>
+      </div>
+      <div class="sd-card" id="forecast-detail" style="grid-column: 1 / -1;">
+        <h2 id="fd-title" data-source="forecasts" data-field="statement">—</h2>
+        <dl class="sd-dl">
+          <dt>Probability</dt><dd><span id="fd-p" data-source="forecasts" data-field="probability">—</span></dd>
+          <dt>Reasoning</dt><dd id="fd-reasoning" data-source="forecasts" data-field="reasoning">—</dd>
+          <dt>Expected</dt><dd id="fd-expected" data-source="forecasts" data-field="expected">—</dd>
+          <dt>If yes</dt><dd id="fd-yes" data-source="forecasts" data-field="if_yes">—</dd>
+          <dt>If no</dt><dd id="fd-no" data-source="forecasts" data-field="if_no">—</dd>
+          <dt>Thesis</dt><dd id="fd-thesis" data-source="forecasts" data-field="thesis_title">—</dd>
+          <dt>Written</dt><dd id="fd-made" data-source="forecasts" data-field="made_at">—</dd>
+          <dt>Resolved by</dt><dd id="fd-method">—</dd>
+          <dt>Evidence</dt><dd id="fd-evidence" data-source="forecasts" data-field="evidence">—</dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="sd-page" id="record" role="tabpanel" aria-labelledby="tab-record" hidden>
+    <div class="sd-tiles">
+      <div class="sd-card"><span class="sd-tile-label">Brier score, system</span><span class="sd-big dash-skeleton" id="rec-brier" data-source="scores" data-field="brier_system" data-row="0">—</span><p class="sd-note">All resolved system forecasts</p></div>
+      <div class="sd-card"><span class="sd-tile-label">Called the right side</span><span class="sd-big"><span class="dash-skeleton" data-source="scores" data-field="hits" data-row="0">—</span> of <span class="dash-skeleton" data-source="scores" data-field="resolved" data-row="0">—</span></span><p class="sd-note">Above 50% and it happened, or below 50% and it did not</p></div>
+      <div class="sd-card"><span class="sd-tile-label">Your overrides</span><span class="sd-big"><span class="dash-skeleton" id="rec-ov" data-source="scores" data-field="brier_override" data-row="0">—</span></span><p class="sd-note">Brier on <span data-source="scores" data-field="n_override" data-row="0">—</span> forecasts you overrode; the system scored <span id="rec-ov-sys" data-source="scores" data-field="brier_system_same" data-row="0">—</span> on the same ones</p></div>
+      <div class="sd-card"><span class="sd-tile-label">Recalibration</span><span class="sd-big" id="rec-status">—</span><p class="sd-note">k <span id="rec-k" data-source="scores" data-field="recal_k" data-row="0">—</span>, b <span id="rec-b" data-source="scores" data-field="recal_b" data-row="0">—</span>. k below 1 pulls new forecasts towards 50%</p></div>
+    </div>
+    <div class="sd-grid">
+      <div class="sd-card" id="calibration-card">
+        <h2>Calibration</h2>
+        <p class="sd-note">Each dot is a probability band: what was stated against how often it happened. Dots on the diagonal are well calibrated</p>
+        <div class="sd-chart" id="calib-chart" data-source="calibration"></div>
+        <p class="sd-empty" id="calib-empty" hidden>No forecasts have resolved yet. The chart fills in as they do.</p>
+      </div>
+      <div class="sd-card" id="groups-card">
+        <h2>Score by kind and thesis</h2>
+        <p class="sd-note">Lower is better; small groups move a lot</p>
+        <div class="sd-scroll">
+          <table class="sd-table" id="groups-table" data-source="score_groups" data-row-key="key">
+            <thead><tr><th data-field="key">Group</th><th data-field="n" class="num">Resolved</th><th data-field="brier" class="num">Brier</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="sd-empty" id="groups-empty" hidden>Nothing resolved yet.</p>
+      </div>
+    </div>
+    <div class="sd-card" id="resolved-card">
+      <h2>Resolved forecasts</h2>
+      <p class="sd-note">Highest Brier contribution first: the biggest misses</p>
+      <div class="sd-box sd-scroll">
+        <table class="sd-table" id="resolved-table" data-source="forecasts" data-row-key="id">
+          <thead><tr><th data-field="id">Id</th><th data-field="statement">Forecast</th><th data-field="probability" class="num">Probability</th><th data-field="outcome" class="num">Outcome</th><th data-field="brier" class="num">Brier</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="sd-empty" id="resolved-empty" hidden>Nothing resolved yet.</p>
+    </div>
+  </section>
+
+  <section class="sd-page" id="labour" role="tabpanel" aria-labelledby="tab-labour" hidden>
+    <div class="sd-filters">
+      <label class="sd-field" for="l-country">Country<select id="l-country">
+        <option value="US">United States</option><option value="GB">United Kingdom</option><option value="IE">Ireland</option><option value="DE">Germany</option><option value="FR">France</option>
+      </select></label>
+    </div>
+    <div class="sd-card" id="postings-card">
+      <h2>Job postings by occupation, February 2020 = 100</h2>
+      <p class="sd-note">Indeed Hiring Lab, month-end values. Knowledge-work groups against all postings</p>
+      <ul class="sd-legend" id="trend-legend" data-source="labour_trend"></ul>
+      <div class="sd-chart" id="trend-chart" data-source="labour_trend"></div>
+    </div>
+    <div class="sd-grid">
+      <div class="sd-card" id="labour-table-card">
+        <h2>Latest index and change</h2>
+        <p class="sd-note">Sorted by the 12-month change, weakest first</p>
+        <div class="sd-scroll">
+          <table class="sd-table" id="labour-table" data-source="labour_summary" data-row-key="key">
+            <thead><tr><th data-field="series">Occupation</th><th data-field="index_vs_feb_2020" class="num">Index</th><th data-field="change_3m_pct" class="num">3 months</th><th data-field="change_12m_pct" class="num">12 months</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="sd-note">Latest observation: <span id="labour-date" data-source="labour_summary" data-field="latest_date">—</span></p>
+      </div>
+      <div class="sd-card" id="ai-card">
+        <h2>Share of postings that mention AI</h2>
+        <p class="sd-note">Indeed Hiring Lab, percent of all postings, month-end</p>
+        <ul class="sd-legend" id="ai-legend" data-source="ai_share"></ul>
+        <div class="sd-chart" id="ai-chart" data-source="ai_share"></div>
+      </div>
+    </div>
+    <div class="sd-grid">
+      <div class="sd-card" id="boards-card">
+        <h2>Open roles at tracked companies</h2>
+        <p class="sd-note">Career-board snapshot, all tracked companies combined, by role group and seniority</p>
+        <div class="sd-scroll">
+          <table class="sd-table" id="boards-table" data-source="career_boards" data-row-key="key" hidden>
+            <thead><tr><th data-field="role_group">Role group</th><th data-field="seniority">Seniority</th><th data-field="open_roles" class="num">Open roles</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="sd-empty" id="boards-empty" hidden>No career-board snapshot yet. The snapshot runs on GitHub at 06:17 UTC each day.</p>
+      </div>
+      <div class="sd-card" id="status-card">
+        <h2>Career boards that answered</h2>
+        <p class="sd-note">Last snapshot; a board that fails needs its address checked</p>
+        <div class="sd-scroll">
+          <table class="sd-table" id="status-table" data-source="board_status" data-row-key="board" hidden>
+            <thead><tr><th data-field="board">Company</th><th data-field="ok">Answered</th><th data-field="open_roles" class="num">Open roles</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="sd-empty" id="status-empty" hidden>Waiting for the first snapshot.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sd-page" id="product" role="tabpanel" aria-labelledby="tab-product" hidden>
+    <p class="sd-note" id="pm-scope">Product-manager roles on the public career boards of the tracked companies: product managers at every level, product owners, technical and group PMs, heads, directors and VPs of product, CPOs and product operations. Product marketing, design and analytics are not counted. Snapshot <span id="pm-date" data-source="product_summary" data-field="date" data-row="0">—</span> across <span data-source="product_summary" data-field="boards" data-row="0">—</span> companies.</p>
+    <p class="sd-empty" id="pm-empty" hidden>No career-board snapshot yet. The snapshot runs on GitHub at 06:17 UTC each day; this tab fills in after the next daily run.</p>
+    <div class="sd-tiles">
+      <div class="sd-card"><span class="sd-tile-label">Product roles open</span><span class="sd-big" data-source="product_summary" data-field="pm_open" data-row="0">—</span><p class="sd-note">All regions, latest snapshot</p></div>
+      <div class="sd-card"><span class="sd-tile-label">Share of all open roles</span><span class="sd-big" id="pm-share" data-source="product_summary" data-field="pm_share" data-row="0">—</span><p class="sd-note">Product roles as a share of every role these companies list</p></div>
+      <div class="sd-card"><span class="sd-tile-label">AI-related</span><span class="sd-big" id="pm-ai" data-source="product_summary" data-field="pm_ai_share" data-row="0">—</span><p class="sd-note">Product roles whose title or team mentions AI, ML, LLMs or agents</p></div>
+      <div class="sd-card"><span class="sd-tile-label">In Ireland</span><span class="sd-big" data-source="product_summary" data-field="pm_ireland" data-row="0">—</span><p class="sd-note"><span data-source="product_summary" data-field="pm_dublin" data-row="0">—</span> of them in Dublin</p></div>
+    </div>
+    <div class="sd-grid">
+      <div class="sd-card" id="pm-levels-card">
+        <h2>Product roles by level</h2>
+        <p class="sd-note">Whether hiring is moving to senior roles while entry roles thin out</p>
+        <div class="sd-scroll">
+          <table class="sd-table" id="pm-levels" data-source="product_levels" data-row-key="level">
+            <thead><tr><th data-field="level">Level</th><th data-field="open_roles" class="num">All regions</th><th data-field="ireland" class="num">Ireland</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="sd-card" id="pm-trend-card">
+        <h2>Product roles over time</h2>
+        <p class="sd-note">Share of all open roles, and the AI-related share of product roles, per snapshot</p>
+        <ul class="sd-legend" id="pm-trend-legend" data-source="product_trend"></ul>
+        <div class="sd-chart" id="pm-trend" data-source="product_trend"></div>
+        <p class="sd-empty" id="pm-trend-empty" hidden>The trend starts once there are two snapshots.</p>
+      </div>
+    </div>
+    <div class="sd-card" id="pm-company-card">
+      <h2>By company</h2>
+      <p class="sd-note">Most open product roles first. Share is product roles as a share of the company's open roles</p>
+      <div class="sd-box sd-scroll">
+        <table class="sd-table" id="pm-company" data-source="product_by_company" data-row-key="board">
+          <thead><tr><th data-field="company">Company</th><th data-field="ticker">Ticker</th><th data-field="pm_open" class="num">Product roles</th><th data-field="pm_share" class="num">Share</th><th data-field="pm_senior_plus" class="num">Senior and above</th><th data-field="pm_junior" class="num">Associate or intern</th><th data-field="pm_ai" class="num">AI-related</th><th data-field="pm_ireland" class="num">Ireland</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="sd-card" id="pm-ireland-card">
+      <h2>Open product roles in Ireland</h2>
+      <p class="sd-note">Every product role at the tracked companies located in Dublin or elsewhere in Ireland. Titles open the posting</p>
+      <div class="sd-box sd-scroll">
+        <table class="sd-table" id="pm-roles" data-source="product_roles_ireland" data-row-key="key">
+          <thead><tr><th data-field="company">Company</th><th data-field="title">Role</th><th data-field="level">Level</th><th data-field="location">Location</th><th data-field="updated">Posted or updated</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="sd-empty" id="pm-roles-empty" hidden>No open product roles in Ireland at the tracked companies on the latest snapshot.</p>
+    </div>
+  </section>
+
+  <p class="sd-foot">Rebuilt from the private signal-desk repository by the weekday daily run. Smart money, Macro and Companies are not built yet. No figure here is a recommendation to trade.</p>
+</div>
+
+<script>
+(function () {
+  const $ = (s) => document.querySelector(s);
+  const pct = d3.format('.0%');
+  const pct1 = d3.format('.1f');
+  const f3 = d3.format('.3f');
+  const f2 = d3.format('.2f');
+  const dfmt = d3.utcFormat('%-d %b %Y');
+  const dshort = d3.utcFormat('%-d %b');
+  const toDate = (s) => new Date(String(s).slice(0, 10) + 'T00:00:00Z');
+  const fmtDate = (s) => (s ? dfmt(toDate(s)) : '—');
+  const fmtShort = (s) => (s ? dshort(toDate(s)) : '—');
+  const iso = (d) => d.toISOString().slice(0, 10);
+  const today = new Date();
+  const todayIso = iso(today);
+  const plus = (days) => iso(new Date(today.getTime() + days * 864e5));
+  const state = { tab: 'today', selected: null, country: 'US' };
+  const TABS = ['today', 'theses', 'forecasts', 'record', 'labour', 'product'];
+  const LEVEL_NAMES = { leadership: 'Head, director, VP, CPO', senior: 'Senior, staff, principal, group', mid_or_unknown: 'Product manager', junior: 'Associate, APM', intern: 'Intern' };
+
+  function rows(id) {
+    const d = dash.data(id);
+    return d.status === 'ok' && Array.isArray(d.data) ? d.data.filter((r) => !r._empty) : null;
+  }
+  function failed(id) { return dash.data(id).status === 'error'; }
+  function unskel(root) { (root || document).querySelectorAll('.dash-skeleton').forEach((el) => el.classList.remove('dash-skeleton')); }
+  function txt(el, v) { if (el) el.textContent = v == null || v === '' ? '—' : String(v); }
+  function cell(tr, v, cls) { const td = document.createElement('td'); td.textContent = v == null || v === '' ? '—' : String(v); if (cls) td.className = cls; tr.appendChild(td); return td; }
+  function pbar(td, p) {
+    td.textContent = '';
+    const w = document.createElement('span'); w.className = 'sd-pbar';
+    const t = document.createElement('span'); t.textContent = pct(p);
+    const i = document.createElement('i'); const b = document.createElement('b');
+    b.style.width = Math.round(p * 100) + '%'; b.style.background = dash.colors[0];
+    i.appendChild(b); w.append(t, i); td.appendChild(w);
+  }
+  function failLine(el) {
+    el.replaceChildren();
+    const p = document.createElement('p'); p.className = 'sd-empty';
+    p.textContent = 'Failed to load'; el.appendChild(p);
+  }
+  const resolves = (f) => f.event_date || f.resolves_by;
+
+  /* ---------- tabs ---------- */
+  function showTab(name, push) {
+    state.tab = name;
+    TABS.forEach((t) => {
+      $('#' + t).hidden = t !== name;
+      $('#tab-' + t).setAttribute('aria-selected', String(t === name));
+    });
+    if (push) dash.setLink(name);
+    draw();
+  }
+  TABS.forEach((t) => $('#tab-' + t).addEventListener('click', () => showTab(t, true)));
+  const start = location.hash.slice(1);
+  if (TABS.includes(start)) state.tab = start;
+
+  /* ---------- filters ---------- */
+  ['#f-kind', '#f-status', '#f-thesis'].forEach((s) => $(s).addEventListener('change', draw));
+  $('#f-q').addEventListener('input', draw);
+  $('#l-country').addEventListener('change', () => { state.country = $('#l-country').value; draw(); });
+  $('#fc-table').addEventListener('click', (e) => {
+    const tr = e.target.closest('tr[data-key]');
+    if (tr) { state.selected = tr.dataset.key; draw(); $('#forecast-detail').scrollIntoView({ block: 'nearest' }); }
+  });
+  $('#fc-table').addEventListener('keydown', (e) => {
+    const tr = e.target.closest('tr[data-key]');
+    if (tr && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); state.selected = tr.dataset.key; draw(); }
+  });
+
+  /* ---------- line chart ---------- */
+  function lineChart(el, series, o) {
+    el.replaceChildren();
+    const all = series.flatMap((s) => s.points);
+    if (!all.length || !el.clientWidth) return;
+    const W = el.clientWidth, H = o.height || 300;
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`)
+      .attr('role', 'img').attr('aria-label', o.label);
+    let yd = d3.extent(all, (p) => p.v);
+    if (o.ref != null) yd = [Math.min(yd[0], o.ref), Math.max(yd[1], o.ref)];
+    const y = d3.scaleLinear(yd, [H - 28, 12]).nice();
+    const yt = y.ticks(5);
+    const probe = svg.append('g');
+    let ml = 0;
+    yt.forEach((t) => { const n = probe.append('text').attr('class', 'sd-tick').text(o.yFmt(t)).node(); ml = Math.max(ml, n.getComputedTextLength()); });
+    probe.remove();
+    const m = { l: ml + 12, r: 16, t: 12, b: 28 };
+    const x = d3.scaleUtc(d3.extent(all, (p) => p.date), [m.l, W - m.r]);
+    const g = svg.append('g');
+    g.selectAll('line.gy').data(yt).join('line').attr('x1', m.l).attr('x2', W - m.r)
+      .attr('y1', (t) => y(t)).attr('y2', (t) => y(t)).attr('stroke', 'var(--cds-chart-grid)').attr('stroke-width', 1);
+    g.selectAll('text.yt').data(yt).join('text').attr('class', 'sd-tick').attr('x', m.l - 8).attr('y', (t) => y(t))
+      .attr('dy', '0.32em').attr('text-anchor', 'end').text((t) => o.yFmt(t));
+    const years = (x.domain()[1] - x.domain()[0]) / (365 * 864e5);
+    const maxTicks = Math.max(2, Math.floor((W - m.l - m.r) / 70));
+    let xt = years > 2.5 ? d3.utcYear.range(d3.utcYear.ceil(x.domain()[0]), x.domain()[1]) : x.ticks(Math.min(6, maxTicks));
+    if (xt.length > maxTicks) { const k = Math.ceil(xt.length / maxTicks); xt = xt.filter((_, i) => i % k === 0); }
+    const xf = years > 2.5 ? d3.utcFormat('%Y') : d3.utcFormat('%b %Y');
+    g.selectAll('text.xt').data(xt).join('text').attr('class', 'sd-tick').attr('x', (t) => x(t)).attr('y', H - 8)
+      .attr('text-anchor', 'middle').text((t) => xf(t));
+    g.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', H - m.b).attr('y2', H - m.b).attr('stroke', 'var(--cds-chart-axis)');
+    if (o.ref != null) {
+      g.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(o.ref)).attr('y2', y(o.ref))
+        .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 4');
+    }
+    const line = d3.line().x((p) => x(p.date)).y((p) => y(p.v));
+    series.forEach((s) => {
+      g.append('path').datum(s.points).attr('fill', 'none').attr('stroke', s.color)
+        .attr('stroke-width', s.strong ? 2.5 : 2).attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round').attr('d', line);
+    });
+    const tip = document.createElement('div'); tip.className = 'sd-tip'; tip.hidden = true; el.appendChild(tip);
+    const rule = g.append('line').attr('y1', m.t).attr('y2', H - m.b).attr('stroke', 'var(--cds-chart-axis)').attr('visibility', 'hidden');
+    const dots = g.selectAll('circle.hd').data(series).join('circle').attr('r', 3.5).attr('fill', (s) => s.color).attr('visibility', 'hidden');
+    const bis = d3.bisector((p) => p.date).center;
+    svg.append('rect').attr('x', m.l).attr('y', m.t).attr('width', W - m.l - m.r).attr('height', H - m.t - m.b)
+      .attr('fill', 'transparent')
+      .on('pointermove', (ev) => {
+        const [px] = d3.pointer(ev);
+        const dt = x.invert(px);
+        const ref = series[0].points[bis(series[0].points, dt)];
+        if (!ref) return;
+        rule.attr('x1', x(ref.date)).attr('x2', x(ref.date)).attr('visibility', 'visible');
+        tip.replaceChildren();
+        const hd = document.createElement('div'); hd.className = 'd'; hd.textContent = fmtDate(iso(ref.date)); tip.appendChild(hd);
+        dots.each(function (s) {
+          const p = s.points[bis(s.points, ref.date)];
+          if (!p) { d3.select(this).attr('visibility', 'hidden'); return; }
+          d3.select(this).attr('cx', x(p.date)).attr('cy', y(p.v)).attr('visibility', 'visible');
+          const r = document.createElement('div');
+          const sw = document.createElement('span'); sw.className = 'sd-sw'; sw.style.background = s.color;
+          r.append(sw, document.createTextNode(s.name + '  ' + o.vFmt(p.v)));
+          tip.appendChild(r);
+        });
+        tip.hidden = false;
+        const tw = tip.offsetWidth;
+        let left = x(ref.date) + 12; if (left + tw > W) left = x(ref.date) - tw - 12;
+        tip.style.left = Math.max(0, left) + 'px'; tip.style.top = m.t + 'px';
+      })
+      .on('pointerleave', () => { tip.hidden = true; rule.attr('visibility', 'hidden'); dots.attr('visibility', 'hidden'); });
+  }
+  function legend(el, series) {
+    el.replaceChildren();
+    series.forEach((s) => {
+      const li = document.createElement('li');
+      const sw = document.createElement('span'); sw.className = 'sd-sw'; sw.style.background = s.color;
+      li.append(sw, document.createTextNode(s.name));
+      el.appendChild(li);
+    });
+  }
+
+  /* ---------- sections ---------- */
+  function drawHeader() {
+    const fc = rows('forecasts');
+    const ne = $('#next-event');
+    ne.replaceChildren();
+    if (!fc) return;
+    const next = fc.filter((f) => f.kind === 'event' && f.status === 'open' && f.event_date >= todayIso)
+      .sort((a, b) => d3.ascending(a.event_date, b.event_date) || d3.descending(a.probability, b.probability))[0];
+    if (!next) return;
+    const s = document.createElement('span');
+    s.dataset.source = 'forecasts'; s.dataset.field = 'statement'; s.dataset.where = 'id=' + encodeURIComponent(next.id);
+    s.textContent = next.statement;
+    const p = document.createElement('span');
+    p.dataset.source = 'forecasts'; p.dataset.field = 'probability'; p.dataset.where = 'id=' + encodeURIComponent(next.id);
+    p.textContent = pct(next.probability);
+    ne.append('Next event: ', s, ' (', p, ').');
+  }
+
+  function drawScores() {
+    const s = rows('scores');
+    if (!s || !s[0]) return;
+    const r = s[0];
+    ['#tile-brier', '#rec-brier'].forEach((q) => txt($(q), r.brier_system == null ? null : f3(r.brier_system)));
+    txt($('#rec-ov'), r.brier_override == null ? null : f3(r.brier_override));
+    txt($('#rec-ov-sys'), r.brier_system_same == null ? null : f3(r.brier_system_same));
+    txt($('#rec-k'), r.recal_k == null ? null : f2(r.recal_k));
+    txt($('#rec-b'), r.recal_b == null ? null : f2(r.recal_b));
+    const st = $('#rec-status');
+    st.textContent = r.recal_active ? 'Active' : 'Not yet';
+    st.className = 'sd-big ' + (r.recal_active ? 'sd-ok' : '');
+  }
+
+  function drawInsights() {
+    const tb = $('#insights-table tbody');
+    const ins = rows('insights');
+    tb.replaceChildren();
+    if (failed('insights')) { failLine(tb); return; }
+    if (!ins) return;
+    ins.forEach((r) => {
+      const tr = document.createElement('tr'); tr.dataset.key = r.key;
+      cell(tr, fmtShort(r.date), 'nowrap muted'); cell(tr, r.text);
+      tb.appendChild(tr);
+    });
+  }
+
+  function fcRow(tb, f, cols) {
+    const tr = document.createElement('tr'); tr.dataset.key = f.id;
+    cols.forEach((c) => {
+      if (c === 'probability') pbar(cell(tr, '', 'num'), f.probability);
+      else if (c === 'event_date' || c === 'resolves_by') cell(tr, fmtShort(f[c]), 'nowrap');
+      else cell(tr, f[c]);
+    });
+    tb.appendChild(tr);
+    return tr;
+  }
+
+  function drawToday() {
+    const fc = rows('forecasts');
+    const ev = $('#events-table tbody'), so = $('#soon-table tbody');
+    ev.replaceChildren(); so.replaceChildren();
+    if (!fc) return;
+    const events = fc.filter((f) => f.kind === 'event' && f.status === 'open' && f.event_date >= todayIso && f.event_date <= plus(14))
+      .sort((a, b) => d3.ascending(a.event_date, b.event_date) || d3.ascending(a.id, b.id));
+    events.forEach((f) => fcRow(ev, f, ['event_date', 'statement', 'probability']));
+    $('#events-empty').hidden = events.length > 0;
+    $('#events-table').hidden = events.length === 0;
+    const soon = fc.filter((f) => f.kind !== 'event' && f.status === 'open' && f.resolves_by <= plus(60))
+      .sort((a, b) => d3.ascending(a.resolves_by, b.resolves_by));
+    soon.forEach((f) => fcRow(so, f, ['resolves_by', 'statement', 'probability']));
+    $('#soon-empty').hidden = soon.length > 0;
+    $('#soon-table').hidden = soon.length === 0;
+  }
+
+  function drawTheses() {
+    const th = rows('theses');
+    const grid = $('#thesis-grid');
+    grid.replaceChildren();
+    if (failed('theses')) { failLine(grid); return; }
+    if (!th) return;
+    const order = th.slice().sort((a, b) => d3.descending(a.conviction ?? -1, b.conviction ?? -1) || d3.ascending(a.type, b.type) || d3.ascending(a.title, b.title));
+    order.forEach((t) => {
+      const w = 'id=' + encodeURIComponent(t.id);
+      const card = document.createElement('article'); card.className = 'sd-card sd-thesis'; card.id = 'thesis-' + t.id;
+      const top = document.createElement('div'); top.className = 'sd-facts';
+      const c1 = document.createElement('span'); c1.className = 'sd-chip'; c1.textContent = t.type === 'contrarian' ? 'Contrarian bet' : 'Core thesis';
+      c1.dataset.source = 'theses'; c1.dataset.field = 'type'; c1.dataset.where = w;
+      const c2 = document.createElement('span'); c2.className = 'sd-chip'; c2.textContent = String(t.theme || '').replace(/_/g, ' ');
+      c2.dataset.source = 'theses'; c2.dataset.field = 'theme'; c2.dataset.where = w;
+      const c3 = document.createElement('span'); c3.className = 'sd-chip'; c3.textContent = t.horizon || '—';
+      c3.dataset.source = 'theses'; c3.dataset.field = 'horizon'; c3.dataset.where = w;
+      top.append(c1, c2, c3);
+      const h = document.createElement('h3'); h.textContent = t.title; h.dataset.source = 'theses'; h.dataset.field = 'title'; h.dataset.where = w;
+      const facts = document.createElement('div'); facts.className = 'sd-facts';
+      const fact = (label, value, field, cls) => {
+        const d = document.createElement('div'); d.className = 'sd-fact';
+        const l = document.createElement('span'); l.className = 'sd-tile-label'; l.textContent = label;
+        const v = document.createElement('span'); v.textContent = value == null ? '—' : value; if (cls) v.className = cls;
+        v.dataset.source = 'theses'; v.dataset.field = field; v.dataset.where = w;
+        d.append(l, v); facts.appendChild(d); return v;
+      };
+      const cv = fact('Conviction', t.conviction, 'conviction', 'sd-big');
+      if (t.conviction != null && t.conviction_prev != null) {
+        const delta = t.conviction - t.conviction_prev;
+        const ds = document.createElement('span'); ds.className = 'sd-note ' + (delta > 0 ? 'sd-ok' : delta < 0 ? 'sd-bad' : '');
+        ds.textContent = (delta > 0 ? '+' : '') + delta + ' since last change';
+        cv.parentNode.appendChild(ds);
+      }
+      fact('Open forecasts', t.open_forecasts, 'open_forecasts');
+      fact('Next resolves', t.next_resolves ? fmtShort(t.next_resolves) : null, 'next_resolves');
+      fact('Evidence for', t.evidence_for, 'evidence_for');
+      fact('Evidence against', t.evidence_against, 'evidence_against');
+      card.append(top, h, facts);
+      if (t.conviction_reason) {
+        const r = document.createElement('p'); r.className = 'sd-note'; r.textContent = t.conviction_reason;
+        r.dataset.source = 'theses'; r.dataset.field = 'conviction_reason'; r.dataset.where = w; card.appendChild(r);
+      }
+      if (t.kill_hit) {
+        const k = document.createElement('p'); k.className = 'sd-note sd-bad'; k.textContent = 'Kill criterion hit: ' + t.kill_hit;
+        k.dataset.source = 'theses'; k.dataset.field = 'kill_hit'; k.dataset.where = w; card.appendChild(k);
+      }
+      const kl = document.createElement('span'); kl.className = 'sd-tile-label'; kl.textContent = 'Kill criteria';
+      const ul = document.createElement('ul'); ul.className = 'sd-kill';
+      ul.dataset.source = 'theses'; ul.dataset.field = 'kill_criteria'; ul.dataset.where = w;
+      String(t.kill_criteria || '').split(' · ').filter(Boolean).forEach((k) => { const li = document.createElement('li'); li.textContent = k; ul.appendChild(li); });
+      card.append(kl, ul);
+      grid.appendChild(card);
+    });
+  }
+
+  function drawForecasts() {
+    const fc = rows('forecasts'), th = rows('theses');
+    const sel = $('#f-thesis');
+    if (th && sel.options.length === 1) {
+      th.slice().sort((a, b) => d3.ascending(a.title, b.title)).forEach((t) => sel.appendChild(new Option(t.title.length > 60 ? t.title.slice(0, 58) + '…' : t.title, t.id)));
+    }
+    const tb = $('#fc-table tbody');
+    tb.replaceChildren();
+    if (failed('forecasts')) { failLine(tb); return; }
+    if (!fc) return;
+    const kind = $('#f-kind').value, status = $('#f-status').value, thesis = $('#f-thesis').value, q = $('#f-q').value.trim().toLowerCase();
+    const list = fc.filter((f) => (!kind || f.kind === kind) && (!status || f.status === status) && (!thesis || f.thesis === thesis)
+      && (!q || (f.statement + ' ' + f.id + ' ' + (f.reasoning || '')).toLowerCase().includes(q)))
+      .sort((a, b) => d3.ascending(resolves(a), resolves(b)) || d3.ascending(a.id, b.id));
+    if (!list.some((f) => f.id === state.selected)) state.selected = list.length ? list[0].id : null;
+    list.forEach((f) => {
+      const tr = document.createElement('tr'); tr.dataset.key = f.id; tr.className = 'sd-click'; tr.tabIndex = 0;
+      tr.setAttribute('aria-selected', String(f.id === state.selected));
+      cell(tr, f.id, 'nowrap muted'); cell(tr, f.statement);
+      pbar(cell(tr, '', 'num'), f.probability);
+      cell(tr, f.override == null ? '—' : pct(f.override), 'num');
+      cell(tr, fmtShort(f.resolves_by), 'nowrap');
+      const st = cell(tr, f.status === 'resolved' ? (f.outcome === 1 ? 'Happened' : 'Did not') : f.status === 'void' ? 'Void' : 'Open', 'nowrap');
+      if (f.status === 'resolved') st.className = 'nowrap ' + ((f.probability >= 0.5) === (f.outcome === 1) ? 'sd-ok' : 'sd-bad');
+      tb.appendChild(tr);
+    });
+    $('#fc-empty').hidden = list.length > 0;
+    const f = fc.find((x) => x.id === state.selected);
+    const w = f ? 'id=' + encodeURIComponent(f.id) : '';
+    ['#fd-title', '#fd-p', '#fd-reasoning', '#fd-expected', '#fd-yes', '#fd-no', '#fd-thesis', '#fd-made', '#fd-evidence']
+      .forEach((s) => { if (w) $(s).dataset.where = w; else delete $(s).dataset.where; });
+    if (!f) { ['#fd-title', '#fd-p', '#fd-reasoning', '#fd-expected', '#fd-yes', '#fd-no', '#fd-thesis', '#fd-made', '#fd-method', '#fd-evidence'].forEach((s) => txt($(s), null)); return; }
+    txt($('#fd-title'), f.statement);
+    txt($('#fd-p'), pct(f.probability) + (f.probability_raw != null && f.probability_raw !== f.probability ? ' (raw ' + pct(f.probability_raw) + ')' : ''));
+    txt($('#fd-reasoning'), f.reasoning); txt($('#fd-expected'), f.expected);
+    txt($('#fd-yes'), f.if_yes); txt($('#fd-no'), f.if_no);
+    txt($('#fd-thesis'), f.thesis_title); txt($('#fd-made'), fmtDate(f.made_at));
+    txt($('#fd-method'), f.method === 'auto' ? 'Automatically, from public data' : 'Judged from a primary source by the daily run');
+    txt($('#fd-evidence'), f.evidence);
+  }
+
+  function drawRecord() {
+    const cal = rows('calibration');
+    const ch = $('#calib-chart');
+    if (failed('calibration')) failLine(ch);
+    else if (cal && state.tab === 'record') {
+      const pts = cal.filter((c) => c.n > 0 && c.mean_stated != null);
+      $('#calib-empty').hidden = pts.length > 0;
+      ch.hidden = pts.length === 0;
+      ch.replaceChildren();
+      if (pts.length && ch.clientWidth) {
+        const W = ch.clientWidth, H = 300, m = { l: 44, r: 16, t: 12, b: 36 };
+        const x = d3.scaleLinear([0, 1], [m.l, W - m.r]), y = d3.scaleLinear([0, 1], [H - m.b, m.t]);
+        const svg = d3.select(ch).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Calibration: stated probability against share that happened');
+        const t = [0, 0.25, 0.5, 0.75, 1];
+        svg.selectAll('line.g').data(t).join('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', (v) => y(v)).attr('y2', (v) => y(v)).attr('stroke', 'var(--cds-chart-grid)');
+        svg.selectAll('text.y').data(t).join('text').attr('class', 'sd-tick').attr('x', m.l - 8).attr('y', (v) => y(v)).attr('dy', '0.32em').attr('text-anchor', 'end').text((v) => pct(v));
+        svg.selectAll('text.x').data(t).join('text').attr('class', 'sd-tick').attr('x', (v) => x(v)).attr('y', H - m.b + 18).attr('text-anchor', 'middle').text((v) => pct(v));
+        svg.append('text').attr('class', 'sd-tick').attr('x', (m.l + W - m.r) / 2).attr('y', H - 2).attr('text-anchor', 'middle').text('Stated probability');
+        svg.append('line').attr('x1', x(0)).attr('y1', y(0)).attr('x2', x(1)).attr('y2', y(1)).attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 4');
+        const r = d3.scaleSqrt([0, d3.max(pts, (p) => p.n)], [3, 12]);
+        svg.selectAll('circle').data(pts).join('circle').attr('cx', (p) => x(p.mean_stated)).attr('cy', (p) => y(p.share_happened)).attr('r', (p) => r(p.n)).attr('fill', dash.colors[0]).attr('fill-opacity', 0.8);
+        const tip = document.createElement('div'); tip.className = 'sd-tip'; tip.hidden = true; ch.appendChild(tip);
+        svg.selectAll('circle').on('pointerenter', (ev, p) => {
+          tip.replaceChildren();
+          const a = document.createElement('div'); a.className = 'd'; a.textContent = p.band;
+          const b = document.createElement('div'); b.textContent = 'Stated ' + pct(p.mean_stated) + ', happened ' + pct(p.share_happened) + ', n ' + p.n;
+          tip.append(a, b); tip.hidden = false;
+          const left = Math.min(x(p.mean_stated) + 12, W - tip.offsetWidth);
+          tip.style.left = left + 'px'; tip.style.top = Math.max(0, y(p.share_happened) - 40) + 'px';
+        }).on('pointerleave', () => { tip.hidden = true; });
+      }
+    }
+    const gr = rows('score_groups');
+    const gt = $('#groups-table tbody');
+    gt.replaceChildren();
+    if (gr) {
+      gr.forEach((g) => { const tr = document.createElement('tr'); tr.dataset.key = g.key; cell(tr, g.key); cell(tr, g.n, 'num'); cell(tr, f3(g.brier), 'num'); gt.appendChild(tr); });
+      $('#groups-empty').hidden = gr.length > 0; $('#groups-table').hidden = gr.length === 0;
+    }
+    const fc = rows('forecasts');
+    const rt = $('#resolved-table tbody');
+    rt.replaceChildren();
+    if (fc) {
+      const res = fc.filter((f) => f.status === 'resolved').sort((a, b) => d3.descending(a.brier, b.brier));
+      res.forEach((f) => {
+        const tr = document.createElement('tr'); tr.dataset.key = f.id;
+        cell(tr, f.id, 'nowrap muted'); cell(tr, f.statement); cell(tr, pct(f.probability), 'num');
+        cell(tr, f.outcome === 1 ? 'Happened' : 'Did not', 'num'); cell(tr, f3(f.brier), 'num ' + (f.brier > 0.36 ? 'sd-bad' : ''));
+        rt.appendChild(tr);
+      });
+      $('#resolved-empty').hidden = res.length > 0; $('#resolved-table').hidden = res.length === 0;
+    }
+  }
+
+  const SERIES = ['All postings', 'Software Development', 'Customer Service', 'Legal', 'Accounting', 'Data & Analytics', 'Administrative Assistance'];
+  function drawLabour() {
+    const c = state.country;
+    const sum = rows('labour_summary');
+    const lt = $('#labour-table tbody');
+    lt.replaceChildren();
+    if (failed('labour_summary')) failLine(lt);
+    else if (sum) {
+      const mine = sum.filter((r) => r.country === c).sort((a, b) => d3.ascending(a.change_12m_pct, b.change_12m_pct));
+      mine.forEach((r) => {
+        const tr = document.createElement('tr'); tr.dataset.key = r.key;
+        cell(tr, r.series, r.series === 'All postings' ? 'muted' : '');
+        cell(tr, pct1(r.index_vs_feb_2020), 'num');
+        const sgn = (v) => (v > 0 ? '+' : '') + pct1(v) + '%';
+        cell(tr, sgn(r.change_3m_pct), 'num ' + (r.change_3m_pct < 0 ? 'sd-bad' : 'sd-ok'));
+        cell(tr, sgn(r.change_12m_pct), 'num ' + (r.change_12m_pct < 0 ? 'sd-bad' : 'sd-ok'));
+        lt.appendChild(tr);
+      });
+      const any = mine.find((r) => r.series === 'All postings') || mine[0];
+      const ld = $('#labour-date');
+      if (any) { ld.dataset.where = 'key=' + encodeURIComponent(any.key); ld.textContent = fmtDate(any.latest_date); }
+    }
+    if (state.tab !== 'labour') return;
+    const tr = rows('labour_trend');
+    const tc = $('#trend-chart');
+    if (failed('labour_trend')) failLine(tc);
+    else if (tr) {
+      const series = SERIES.map((name, i) => ({
+        name, strong: i === 0,
+        color: i === 0 ? 'var(--color-fg)' : dash.colors[(i - 1) % dash.colors.length],
+        points: tr.filter((r) => r.country === c && r.series === name && r.index != null).map((r) => ({ date: toDate(r.date), v: r.index })),
+      })).filter((s) => s.points.length);
+      legend($('#trend-legend'), series);
+      lineChart(tc, series, { label: 'Job postings by occupation since February 2020', ref: 100, yFmt: d3.format('d'), vFmt: d3.format('.1f') });
+    }
+    const ai = rows('ai_share');
+    const ac = $('#ai-chart');
+    if (failed('ai_share')) failLine(ac);
+    else if (ai) {
+      const names = { US: 'United States', GB: 'United Kingdom', IE: 'Ireland', DE: 'Germany', FR: 'France' };
+      const series = ['US', 'GB', 'IE', 'DE', 'FR'].map((k, i) => ({
+        name: names[k], strong: k === c, color: dash.colors[i],
+        points: ai.filter((r) => r.country === k).map((r) => ({ date: toDate(r.date), v: r.ai_share })),
+      })).filter((s) => s.points.length);
+      legend($('#ai-legend'), series);
+      lineChart(ac, series, { label: 'Share of job postings mentioning AI, by country', yFmt: (v) => v + '%', vFmt: (v) => d3.format('.1f')(v) + '%' });
+    }
+    const cb = rows('career_boards');
+    const bt = $('#boards-table tbody');
+    bt.replaceChildren();
+    if (cb) {
+      cb.slice().sort((a, b) => d3.descending(a.open_roles, b.open_roles)).forEach((r) => {
+        const t = document.createElement('tr'); t.dataset.key = r.key;
+        cell(t, String(r.role_group).replace(/_/g, ' ')); cell(t, String(r.seniority).replace(/_/g, ' ')); cell(t, d3.format(',')(r.open_roles), 'num');
+        bt.appendChild(t);
+      });
+      $('#boards-empty').hidden = cb.length > 0; $('#boards-table').hidden = cb.length === 0;
+    }
+    const bs = rows('board_status');
+    const st = $('#status-table tbody');
+    st.replaceChildren();
+    if (bs) {
+      bs.slice().sort((a, b) => d3.ascending(a.ok, b.ok) || d3.ascending(a.board, b.board)).forEach((r) => {
+        const t = document.createElement('tr'); t.dataset.key = r.board;
+        cell(t, r.board); cell(t, r.ok ? 'Yes' : 'No', r.ok ? 'sd-ok' : 'sd-bad'); cell(t, r.open_roles == null ? '—' : d3.format(',')(r.open_roles), 'num');
+        st.appendChild(t);
+      });
+      $('#status-empty').hidden = bs.length > 0; $('#status-table').hidden = bs.length === 0;
+    }
+  }
+
+  function drawProduct() {
+    const sum = rows('product_summary');
+    const none = !!sum && sum.length === 0;
+    $('#pm-empty').hidden = !none;
+    if (sum && sum[0]) {
+      const r = sum[0];
+      txt($('#pm-date'), fmtDate(r.date));
+      txt($('#pm-share'), r.pm_share == null ? null : d3.format('.1%')(r.pm_share));
+      txt($('#pm-ai'), r.pm_ai_share == null ? null : d3.format('.0%')(r.pm_ai_share));
+    }
+    const lv = rows('product_levels');
+    const lt = $('#pm-levels tbody');
+    lt.replaceChildren();
+    if (lv) {
+      const max = d3.max(lv, (r) => r.open_roles) || 1;
+      lv.slice().sort((a, b) => d3.ascending(a.order, b.order)).forEach((r) => {
+        const tr = document.createElement('tr'); tr.dataset.key = r.level;
+        cell(tr, LEVEL_NAMES[r.level] || r.level);
+        const td = cell(tr, '', 'num');
+        const w = document.createElement('span'); w.className = 'sd-pbar';
+        const t = document.createElement('span'); t.textContent = d3.format(',')(r.open_roles);
+        const i = document.createElement('i'); const b = document.createElement('b');
+        b.style.width = Math.round((r.open_roles / max) * 100) + '%'; b.style.background = dash.colors[0];
+        i.appendChild(b); w.append(t, i); td.appendChild(w);
+        cell(tr, d3.format(',')(r.ireland), 'num');
+        lt.appendChild(tr);
+      });
+    }
+    const co = rows('product_by_company');
+    const ct = $('#pm-company tbody');
+    ct.replaceChildren();
+    if (co) {
+      co.slice().sort((a, b) => d3.descending(a.pm_open, b.pm_open) || d3.ascending(a.company, b.company)).forEach((r) => {
+        const tr = document.createElement('tr'); tr.dataset.key = r.board;
+        cell(tr, r.company); cell(tr, r.ticker, 'muted nowrap');
+        cell(tr, d3.format(',')(r.pm_open), 'num');
+        cell(tr, r.pm_share == null ? '—' : d3.format('.1%')(r.pm_share), 'num');
+        cell(tr, d3.format(',')(r.pm_senior_plus), 'num'); cell(tr, d3.format(',')(r.pm_junior), 'num');
+        cell(tr, d3.format(',')(r.pm_ai), 'num'); cell(tr, d3.format(',')(r.pm_ireland), 'num');
+        ct.appendChild(tr);
+      });
+    }
+    const ro = rows('product_roles_ireland');
+    const rt = $('#pm-roles tbody');
+    rt.replaceChildren();
+    if (ro) {
+      ro.forEach((r) => {
+        const tr = document.createElement('tr'); tr.dataset.key = r.key;
+        cell(tr, r.company, 'nowrap');
+        const td = document.createElement('td');
+        if (r.url && /^https:\/\//.test(r.url)) {
+          const a = document.createElement('a'); a.href = r.url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = r.title; td.appendChild(a);
+        } else td.textContent = r.title;
+        if (r.ai_related) { const c = document.createElement('span'); c.className = 'sd-chip'; c.textContent = 'AI'; td.append(' ', c); }
+        tr.appendChild(td);
+        cell(tr, LEVEL_NAMES[r.level] || r.level, 'nowrap'); cell(tr, r.location); cell(tr, r.updated ? fmtShort(r.updated) : '—', 'nowrap');
+        rt.appendChild(tr);
+      });
+      $('#pm-roles-empty').hidden = ro.length > 0 || none; $('#pm-roles').hidden = ro.length === 0;
+    }
+    if (state.tab !== 'product') return;
+    const tr = rows('product_trend');
+    const tc = $('#pm-trend');
+    if (failed('product_trend')) failLine(tc);
+    else if (tr) {
+      const enough = tr.length >= 2;
+      $('#pm-trend-empty').hidden = enough; tc.hidden = !enough;
+      const series = [
+        { name: 'Share of all open roles', color: dash.colors[0], points: tr.filter((r) => r.pm_share != null).map((r) => ({ date: toDate(r.date), v: r.pm_share * 100 })) },
+        { name: 'AI-related share of product roles', color: dash.colors[1], points: tr.filter((r) => r.pm_ai_share != null).map((r) => ({ date: toDate(r.date), v: r.pm_ai_share * 100 })) },
+      ];
+      legend($('#pm-trend-legend'), enough ? series : []);
+      if (enough) lineChart(tc, series, { label: 'Product roles over time', yFmt: (v) => v + '%', vFmt: (v) => d3.format('.1f')(v) + '%' });
+      else tc.replaceChildren();
+    }
+  }
+
+  function draw() {
+    drawHeader(); drawScores(); drawInsights(); drawToday(); drawTheses(); drawForecasts(); drawRecord(); drawLabour(); drawProduct();
+    const ok = ['scores', 'insights', 'forecasts', 'theses'].every((id) => dash.data(id).status !== 'loading');
+    if (ok) unskel();
+  }
+
+  let first = true;
+  dash.onData(() => {
+    if (first) {
+      first = false;
+      TABS.forEach((t) => { $('#' + t).hidden = t !== state.tab; $('#tab-' + t).setAttribute('aria-selected', String(t === state.tab)); });
+    }
+    draw();
+  });
+})();
+</script>
