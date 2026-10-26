@@ -20,8 +20,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8131316,Chief of Staff,,Remote - USA,2026-10-13T19:45:35-04:00,https://www.coinbase.com/careers/positions/8131316?gh_jid=8131316,other,leadership,us,False
 7746572,"Communications Manager, Policy & Public Affairs",,Remote - USA,2026-10-21T18:39:01-04:00,https://www.coinbase.com/careers/positions/7746572?gh_jid=7746572,marketing_content,senior,us,False
 7724777,Complaints Analyst II,,"Manila, Philippines",2026-10-13T19:40:31-04:00,https://www.coinbase.com/careers/positions/7724777?gh_jid=7724777,other,mid_or_unknown,other,False
-8289787,Complaints Analyst III,,"London, UK",2026-10-22T15:05:08-04:00,https://www.coinbase.com/careers/positions/8289787?gh_jid=8289787,other,mid_or_unknown,uk,False
 7254275,Complaints Analyst III,,Remote - Australia,2026-10-23T13:04:15-04:00,https://www.coinbase.com/careers/positions/7254275?gh_jid=7254275,other,mid_or_unknown,remote,False
+8289787,Complaints Analyst III,,"London, UK",2026-10-22T15:05:08-04:00,https://www.coinbase.com/careers/positions/8289787?gh_jid=8289787,other,mid_or_unknown,uk,False
 7182060,Complaints Analyst III,,Hybrid - Luxembourg,2026-10-23T13:09:40-04:00,https://www.coinbase.com/careers/positions/7182060?gh_jid=7182060,other,mid_or_unknown,other,False
 8224726,"Compliance, International Investigations Associate",,Remote - UK,2026-10-13T19:54:36-04:00,https://www.coinbase.com/careers/positions/8224726?gh_jid=8224726,legal,junior,uk,False
 8232451,"Compliance, Senior Associate",,Remote - Canada,2026-10-20T20:48:08-04:00,https://www.coinbase.com/careers/positions/8232451?gh_jid=8232451,legal,junior,remote,False
@@ -140,8 +140,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8174232,"Senior Software Engineer, Backend/Fullstack (Coinbase Advisor - Agentic Trading)",,Remote - USA,2026-10-13T19:48:16-04:00,https://www.coinbase.com/careers/positions/8174232?gh_jid=8174232,software_engineering,senior,us,True
 8238630,"Senior Software Engineer, Backend - Overseer (Platform)",,Remote - USA,2026-10-15T00:34:23-04:00,https://www.coinbase.com/careers/positions/8238630?gh_jid=8238630,software_engineering,senior,us,False
 8247401,"Senior Software Engineer, Backend - Payments Platform",,Remote - USA,2026-10-13T19:56:09-04:00,https://www.coinbase.com/careers/positions/8247401?gh_jid=8247401,software_engineering,senior,us,False
-8243520,"Senior Software Engineer, Backend (Retail DEX)",,Remote - USA,2026-10-13T19:54:19-04:00,https://www.coinbase.com/careers/positions/8243520?gh_jid=8243520,software_engineering,senior,us,False
 8243517,"Senior Software Engineer, Backend (Retail DEX)",,Remote - Canada,2026-10-13T19:54:19-04:00,https://www.coinbase.com/careers/positions/8243517?gh_jid=8243517,software_engineering,senior,remote,False
+8243520,"Senior Software Engineer, Backend (Retail DEX)",,Remote - USA,2026-10-13T19:54:19-04:00,https://www.coinbase.com/careers/positions/8243520?gh_jid=8243520,software_engineering,senior,us,False
 8094196,Senior Software Engineer- Blockchain Network,,Remote - USA,2026-10-13T19:45:02-04:00,https://www.coinbase.com/careers/positions/8094196?gh_jid=8094196,software_engineering,senior,us,False
 8269081,"Senior Software Engineer, Certificate Management",,Remote - USA,2026-10-22T10:04:56-04:00,https://www.coinbase.com/careers/positions/8269081?gh_jid=8269081,software_engineering,senior,us,False
 7701645,"Senior Software Engineer, Compute Platform",,Remote - USA,2026-10-22T13:03:41-04:00,https://www.coinbase.com/careers/positions/7701645?gh_jid=7701645,software_engineering,senior,us,False
@@ -178,13 +178,13 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8304038,Software Engineer - Crypto Data Foundations,,Remote - USA,2026-10-20T14:42:39-04:00,https://www.coinbase.com/careers/positions/8304038?gh_jid=8304038,software_engineering,mid_or_unknown,us,False
 8100066,"Software Engineer, EAA ",,Remote - Brazil,2026-10-13T19:45:04-04:00,https://www.coinbase.com/careers/positions/8100066?gh_jid=8100066,software_engineering,mid_or_unknown,remote,False
 8279479,"Software Engineer, Enterprise Apps ",,Remote - Brazil,2026-10-14T15:09:09-04:00,https://www.coinbase.com/careers/positions/8279479?gh_jid=8279479,software_engineering,mid_or_unknown,remote,False
-8168315,Software Engineer Intern,,"Hybrid - San Francisco, CA",2026-10-20T00:41:39-04:00,https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315,software_engineering,intern,us,False
 8175873,Software Engineer Intern,,Hybrid - Singapore,2026-10-23T02:27:21-04:00,https://www.coinbase.com/careers/positions/8175873?gh_jid=8175873,software_engineering,intern,other,False
+8168315,Software Engineer Intern,,"Hybrid - San Francisco, CA",2026-10-20T00:41:39-04:00,https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315,software_engineering,intern,us,False
 8177946,Software Engineer- Money Movement ,,Remote - USA,2026-09-10T18:02:58-04:00,https://www.coinbase.com/careers/positions/8177946?gh_jid=8177946,software_engineering,mid_or_unknown,us,False
 8165441,"Software Engineer, Security Platform",,Remote - India,2026-10-13T19:45:08-04:00,https://www.coinbase.com/careers/positions/8165441?gh_jid=8165441,software_engineering,mid_or_unknown,remote,False
 8122777,"Specialist, CSIRT",,Remote - India,2026-10-13T19:44:20-04:00,https://www.coinbase.com/careers/positions/8122777?gh_jid=8122777,other,mid_or_unknown,remote,False
-8222259,"Specialist, Market Operations",,Remote - USA,2026-10-13T19:47:37-04:00,https://www.coinbase.com/careers/positions/8222259?gh_jid=8222259,other,mid_or_unknown,us,False
 8222267,"Specialist, Market Operations",,Remote - UK,2026-10-13T19:47:55-04:00,https://www.coinbase.com/careers/positions/8222267?gh_jid=8222267,other,mid_or_unknown,uk,False
+8222259,"Specialist, Market Operations",,Remote - USA,2026-10-13T19:47:37-04:00,https://www.coinbase.com/careers/positions/8222259?gh_jid=8222259,other,mid_or_unknown,us,False
 8222264,"Specialist, Market Operations",,Remote - Singapore,2026-10-13T19:47:46-04:00,https://www.coinbase.com/careers/positions/8222264?gh_jid=8222264,other,mid_or_unknown,remote,False
 8311335,"Sr Manager, Infrastructure Sales",,Remote - USA,2026-10-21T20:27:21-04:00,https://www.coinbase.com/careers/positions/8311335?gh_jid=8311335,sales,senior,us,False
 8144772,"Sr. Staff Technical Architect, Unified Trading",,Remote - USA,2026-10-21T18:39:05-04:00,https://www.coinbase.com/careers/positions/8144772?gh_jid=8144772,other,senior,us,False
@@ -192,8 +192,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8154856,"Sr. Systems Analyst, Finance, Enterprise Apps ",,Remote - USA,2026-10-13T19:44:48-04:00,https://www.coinbase.com/careers/positions/8154856?gh_jid=8154856,other,senior,us,False
 8144836,"Staff Data Engineer, Market Data",,Remote - USA,2026-10-21T18:39:12-04:00,https://www.coinbase.com/careers/positions/8144836?gh_jid=8144836,data_ai,senior,us,False
 8267151,Staff Machine Learning Engineer,,Remote - USA,2026-10-14T15:09:16-04:00,https://www.coinbase.com/careers/positions/8267151?gh_jid=8267151,data_ai,senior,us,True
-7891045,Staff Machine Learning Engineer(Platform - Identity),,Remote - USA,2026-10-02T12:19:53-04:00,https://www.coinbase.com/careers/positions/7891045?gh_jid=7891045,data_ai,senior,us,True
 8211486,Staff Machine Learning Engineer(Platform - Identity),,Remote - USA,2026-10-13T19:55:36-04:00,https://www.coinbase.com/careers/positions/8211486?gh_jid=8211486,data_ai,senior,us,True
+7891045,Staff Machine Learning Engineer(Platform - Identity),,Remote - USA,2026-10-02T12:19:53-04:00,https://www.coinbase.com/careers/positions/7891045?gh_jid=7891045,data_ai,senior,us,True
 8021650,Staff Software Engineer,,Remote - Israel,2026-10-13T19:42:58-04:00,https://www.coinbase.com/careers/positions/8021650?gh_jid=8021650,software_engineering,senior,remote,False
 8287662,"Staff Software Engineer, Backend - FinHub (Transfers)",,Remote - USA,2026-10-19T03:08:45-04:00,https://www.coinbase.com/careers/positions/8287662?gh_jid=8287662,software_engineering,senior,us,False
 8160557,"Staff Software Engineer, Compute Platform (Routing)",,Remote - USA,2026-10-22T16:50:51-04:00,https://www.coinbase.com/careers/positions/8160557?gh_jid=8160557,software_engineering,senior,us,False

@@ -1,7 +1,7 @@
 date,board,ats,slug,ok,open_roles,error
 2026-10-26,datadog,greenhouse,datadog,yes,426,
 2026-10-26,mongodb,greenhouse,mongodb,yes,367,
-2026-10-26,samsara,greenhouse,samsara,yes,293,
+2026-10-26,samsara,greenhouse,samsara,yes,295,
 2026-10-26,coreweave,greenhouse,coreweave,yes,316,
 2026-10-26,rocketlab,greenhouse,rocketlab,yes,565,
 2026-10-26,tempus,greenhouse,tempus,no,,'jobs'

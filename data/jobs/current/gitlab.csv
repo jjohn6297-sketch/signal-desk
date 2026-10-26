@@ -10,8 +10,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8704363002,"Backend Engineer (Python),AI Engineering: Agent Foundations",,"Remote, Canada; Remote, Poland; Remote, United Kingdom",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8704363002,data_ai,mid_or_unknown,uk,True
 8620720002,"Backend Engineer (Ruby), AI Engineering: Agent Foundations",,"Remote, Canada; Remote, Poland; Remote, United Kingdom",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8620720002,data_ai,mid_or_unknown,uk,True
 8891301002,"Backend Engineer (Ruby), Create: Change Record",,"Remote, Poland; Remote, United Kingdom",2026-10-19T05:22:09-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8891301002,software_engineering,mid_or_unknown,uk,False
-8682860002,"Backend Engineer (Ruby), Plan: Spec-Driven Development",,"Remote, United Kingdom",2026-10-20T09:25:01-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8682860002,software_engineering,mid_or_unknown,uk,False
 8749950002,"Backend Engineer (Ruby), Plan: Spec-Driven Development",,"Remote, Poland",2026-10-20T09:26:09-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8749950002,software_engineering,mid_or_unknown,remote,False
+8682860002,"Backend Engineer (Ruby), Plan: Spec-Driven Development",,"Remote, United Kingdom",2026-10-20T09:25:01-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8682860002,software_engineering,mid_or_unknown,uk,False
 8864819002,Benefits Analyst,,"Bangalore, India",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8864819002,other,mid_or_unknown,other,False
 8532274002,Business Development Representative ,,"Remote, France; Remote, Ireland; Remote, Spain; Remote, United Kingdom",2026-10-20T18:16:12-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8532274002,sales,mid_or_unknown,ireland_other,False
 8532272002,Business Development Representative ,,"Remote, North America",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8532272002,sales,mid_or_unknown,remote,False
@@ -120,8 +120,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8687958002,"Senior Backend Engineer, Core DevOps: Container Registry",,"Remote, United Kingdom",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8687958002,software_engineering,senior,uk,False
 8778943002,"Senior Backend Engineer, Database Excellence (Ruby)",,"Remote, United Kingdom",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8778943002,software_engineering,senior,uk,False
 8636713002,"Senior Backend Engineer, Deployment Environments",,"Remote, Canada; Remote, United Kingdom",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8636713002,software_engineering,senior,uk,False
-8749951002,"Senior Backend Engineer (Go), Tenant Scale: Gitaly ",,"Remote, Poland",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8749951002,software_engineering,senior,remote,False
 8729451002,"Senior Backend Engineer (Go), Tenant Scale: Gitaly ",,"Remote, Canada; Remote, United Kingdom",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8729451002,software_engineering,senior,uk,False
+8749951002,"Senior Backend Engineer (Go), Tenant Scale: Gitaly ",,"Remote, Poland",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8749951002,software_engineering,senior,remote,False
 8716143002,"Senior Backend Engineer, India",,"Bangalore, India",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8716143002,software_engineering,senior,other,False
 8750842002,"Senior Backend Engineer, Platform Enablement",,"Remote, United States",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8750842002,software_engineering,senior,us,False
 8644572002,"Senior Backend Engineer, Platform Readiness",,"Remote, Canada; Remote, United States",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8644572002,software_engineering,senior,us,False
@@ -172,8 +172,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8826637002,Senior Solutions Architect- Sydney ,,"Remote, Australia",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8826637002,other,senior,remote,False
 8894457002,Senior Solutions Architect - UAE,,"Remote, UAE",2026-10-20T03:37:51-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8894457002,other,senior,remote,False
 8742248002,Senior Strategic Account Executive - California ,,"Remote, United States",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8742248002,sales,senior,us,False
-8692874002,Senior Support Engineer,,"Bangalore, India",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8692874002,software_engineering,senior,other,False
 8692880002,Senior Support Engineer,,"Remote, South Korea",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8692880002,software_engineering,senior,remote,False
+8692874002,Senior Support Engineer,,"Bangalore, India",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8692874002,software_engineering,senior,other,False
 8753656002,Senior Talent Brand Manager,,"Remote; Remote, Canada; Remote, United States",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8753656002,marketing_content,senior,us,False
 8623389002,"Site Reliability Engineer, Infrastructure Platforms — AMER (Intermediate to Senior Staff)",,"Remote, Canada; Remote, US",2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8623389002,software_engineering,senior,us,False
 8773546002,"Site Reliability Engineer, Infrastructure Platforms — UK (Intermediate to Senior Staff)",,Remote,2026-10-15T15:24:46-04:00,https://job-boards.greenhouse.io/gitlab/jobs/8773546002,software_engineering,senior,remote,False
