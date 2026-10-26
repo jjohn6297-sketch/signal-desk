@@ -1,0 +1,27 @@
+# Funds tracked on the Smart money tab. Their 13F filings come from SEC EDGAR
+# (scripts/snapshot_sec.py, on GitHub Actions). The first run writes data/funds/fund_status.csv
+# with the name EDGAR holds for each CIK: fix any line whose name does not match.
+# 13F shows only US-listed long positions (and listed options), 45 days after quarter end,
+# with no shorts, cash or non-US listings.
+
+contact: "Signal Desk research (personal, non-commercial) jjohn6297@gmail.com"  # SEC requires a contact in the User-Agent
+
+funds:
+  - {fund: altimeter, name: Altimeter Capital Management, cik: 1541617, manager: Brad Gerstner, style: Technology growth}
+  - {fund: situational_awareness, name: Situational Awareness LP, cik: 2045724, manager: Leopold Aschenbrenner, style: AI build-out}
+  - {fund: duquesne, name: Duquesne Family Office, cik: 1536411, manager: Stanley Druckenmiller, style: Macro}
+  - {fund: coatue, name: Coatue Management, cik: 1135730, manager: Philippe Laffont, style: Technology}
+  - {fund: tiger, name: Tiger Global Management, cik: 1167483, manager: Chase Coleman, style: Technology growth}
+  - {fund: pershing, name: Pershing Square Capital Management, cik: 1336528, manager: Bill Ackman, style: Concentrated}
+  - {fund: berkshire, name: Berkshire Hathaway, cik: 1067983, manager: Greg Abel, style: Value}
+  - {fund: baillie_gifford, name: Baillie Gifford & Co, cik: 1088875, manager: null, style: Long-horizon growth}
+  - {fund: ark, name: ARK Investment Management, cik: 1697748, manager: Cathie Wood, style: Disruptive innovation}
+  - {fund: baker_bros, name: Baker Bros. Advisors, cik: 1263508, manager: Julian and Felix Baker, style: Biotech specialist}
+  - {fund: ra_capital, name: RA Capital Management, cik: 1346824, manager: Peter Kolchinsky, style: Biotech specialist}
+
+# How many quarters of holdings to keep per fund (the latest and the ones before it).
+quarters_kept: 3
+# A change in shares of at least this share counts as an add or a trim; smaller is unchanged.
+min_change: 0.10
+# Insider buying: open-market purchases (Form 4 code P) at US-listed watch-list companies.
+insider_lookback_days: 45

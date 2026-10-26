@@ -1,5 +1,122 @@
 [
 {
-"_empty": true
+"key": "intercom|8090570",
+"company": "Intercom",
+"title": "Senior Product Manager, Messenger",
+"level": "senior",
+"location": "Dublin, Ireland",
+"ai_related": false,
+"updated": "2026-09-16",
+"url": "https://job-boards.greenhouse.io/intercom/jobs/8090570"
+},
+{
+"key": "intercom|7377200",
+"company": "Intercom",
+"title": "Staff AI Product Manager",
+"level": "senior",
+"location": "Dublin, Ireland",
+"ai_related": true,
+"updated": "2026-09-16",
+"url": "https://job-boards.greenhouse.io/intercom/jobs/7377200"
+},
+{
+"key": "mongodb|7113803",
+"company": "MongoDB",
+"title": "Senior Product Manager",
+"level": "senior",
+"location": "Dublin; Ireland",
+"ai_related": false,
+"updated": "2026-10-23",
+"url": "https://www.mongodb.com/careers/job/?gh_jid=7113803"
+},
+{
+"key": "mongodb|8127995",
+"company": "MongoDB",
+"title": "Senior Staff Product Manager, Atlas Clusters",
+"level": "senior",
+"location": "Cork, Ireland; Dublin, Ireland",
+"ai_related": false,
+"updated": "2026-10-23",
+"url": "https://www.mongodb.com/careers/job/?gh_jid=8127995"
+},
+{
+"key": "mongodb|8177034",
+"company": "MongoDB",
+"title": "Staff Product Manager",
+"level": "senior",
+"location": "Dublin, Ireland",
+"ai_related": false,
+"updated": "2026-10-23",
+"url": "https://www.mongodb.com/careers/job/?gh_jid=8177034"
+},
+{
+"key": "mongodb|8177496",
+"company": "MongoDB",
+"title": "Staff Product Manager, Atlas Clusters",
+"level": "senior",
+"location": "Dublin, Ireland",
+"ai_related": false,
+"updated": "2026-10-23",
+"url": "https://www.mongodb.com/careers/job/?gh_jid=8177496"
+},
+{
+"key": "okta|8247721",
+"company": "Okta",
+"title": "Staff Product Manager - Developer Productivity",
+"level": "senior",
+"location": "Dublin, Ireland; Toronto, Ontario, Canada",
+"ai_related": false,
+"updated": "2026-10-22",
+"url": "https://www.okta.com/company/careers/opportunity/8247721?gh_jid=8247721"
+},
+{
+"key": "stripe|8041655",
+"company": "Stripe",
+"title": "Product Manager, E-Invoicing",
+"level": "mid_or_unknown",
+"location": "Dublin, Ireland",
+"ai_related": false,
+"updated": "2026-10-22",
+"url": "https://stripe.com/jobs/search?gh_jid=8041655"
+},
+{
+"key": "stripe|8143563",
+"company": "Stripe",
+"title": "Product Manager, Support Platform ",
+"level": "mid_or_unknown",
+"location": "Dublin, Ireland ",
+"ai_related": false,
+"updated": "2026-10-22",
+"url": "https://stripe.com/jobs/search?gh_jid=8143563"
+},
+{
+"key": "stripe|8264005",
+"company": "Stripe",
+"title": "Senior Staff Product Manager, Risk",
+"level": "senior",
+"location": "Dublin",
+"ai_related": false,
+"updated": "2026-10-22",
+"url": "https://stripe.com/jobs/search?gh_jid=8264005"
+},
+{
+"key": "stripe|8124304",
+"company": "Stripe",
+"title": "Staff Product Manager, Stripe Tax",
+"level": "senior",
+"location": "Dublin, Ireland",
+"ai_related": false,
+"updated": "2026-10-22",
+"url": "https://stripe.com/jobs/search?gh_jid=8124304"
+},
+{
+"key": "toast|8258222",
+"company": "Toast",
+"title": "Senior Product Manager, Team Management",
+"level": "senior",
+"location": "Dublin",
+"ai_related": false,
+"updated": "2026-10-21",
+"url": "https://careers.toasttab.com/jobs?gh_jid=8258222"
 }
 ]

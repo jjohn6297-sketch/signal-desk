@@ -18,7 +18,7 @@ concurrency:
 jobs:
   snapshot:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -36,6 +36,9 @@ jobs:
       - name: Macro series from FRED
         run: python scripts/snapshot_macro.py
         continue-on-error: true   # a failed series keeps its previous file
+      - name: SEC filings (13F holdings, Form 4 insider buys)
+        run: python scripts/snapshot_sec.py
+        continue-on-error: true
       - name: Resolve data-checkable forecasts
         run: python scripts/resolve_forecasts.py
       - name: Score forecasts and refit recalibration

@@ -1,5 +1,11 @@
 [
 {
-"_empty": true
+"date": "2026-10-26",
+"boards": 32,
+"all_open": 7723,
+"pm_open": 276,
+"pm_share": 0.0357,
+"pm_ai_share": 0.0978,
+"pm_ireland": 12
 }
 ]

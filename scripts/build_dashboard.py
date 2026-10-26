@@ -24,6 +24,8 @@ uploads each file to the dashboard and updates its source (docs/AUTOMATION.md, s
   dashboard/macro_indicators.json  every macro indicator with latest value, state and thresholds
   dashboard/macro_history.json   weekly (Friday) value of each indicator since 2023
   dashboard/regime_history.json  weekly regime since 2023
+  dashboard/sm_*.json            Smart money: summary, moves by company, moves by fund, funds,
+                                 insider buys and manager statements (scripts/smart_money.py)
 
 A source with no rows yet is written as one row {"_empty": true}, because the dashboard
 cannot load an empty file; the page shows its empty message for that row.
@@ -401,6 +403,9 @@ def main() -> None:
     write("macro_indicators", mind)
     write("macro_history", mhist)
     write("regime_history", rhist)
+    import smart_money
+    for name, rows in smart_money.build(TODAY).items():
+        write(name, rows)
 
 
 if __name__ == "__main__":

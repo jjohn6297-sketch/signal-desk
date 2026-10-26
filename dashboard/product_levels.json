@@ -1,5 +1,32 @@
 [
 {
-"_empty": true
+"level": "leadership",
+"order": 0,
+"open_roles": 18,
+"ireland": 0
+},
+{
+"level": "senior",
+"order": 1,
+"open_roles": 163,
+"ireland": 10
+},
+{
+"level": "mid_or_unknown",
+"order": 2,
+"open_roles": 89,
+"ireland": 2
+},
+{
+"level": "junior",
+"order": 3,
+"open_roles": 2,
+"ireland": 0
+},
+{
+"level": "intern",
+"order": 4,
+"open_roles": 4,
+"ireland": 0
 }
 ]
