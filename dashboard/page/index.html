@@ -79,6 +79,7 @@
     <button type="button" class="sd-tab" role="tab" id="tab-labour" aria-controls="labour" aria-selected="false">Labour</button>
     <button type="button" class="sd-tab" role="tab" id="tab-product" aria-controls="product" aria-selected="false">Product roles</button>
     <button type="button" class="sd-tab" role="tab" id="tab-macro" aria-controls="macro" aria-selected="false">Macro</button>
+    <button type="button" class="sd-tab" role="tab" id="tab-money" aria-controls="money" aria-selected="false">Smart money</button>
   </div>
 
   <section class="sd-page" id="today" role="tabpanel" aria-labelledby="tab-today">
@@ -314,6 +315,73 @@
     </div>
   </section>
 
+  <section class="sd-page" id="money" role="tabpanel" aria-labelledby="tab-money" hidden>
+    <p class="sd-note">What the tracked funds and insiders are buying and selling. Evidence for and against the theses, not trades to copy. Latest 13F quarter: <span id="sm-period" data-source="sm_summary" data-field="latest_period" data-row="0">—</span>, filed by <span data-source="sm_summary" data-field="funds_reported" data-row="0">—</span> of <span data-source="sm_summary" data-field="funds_tracked" data-row="0">—</span> funds. Next filings due <span id="sm-due" data-source="sm_summary" data-field="next_deadline" data-row="0">—</span>.</p>
+    <div class="sd-tiles">
+      <div class="sd-card"><span class="sd-tile-label">Bought by three or more funds</span><span class="sd-big" data-source="sm_summary" data-field="consensus_buys" data-row="0">—</span><p class="sd-note">Companies where at least three tracked funds opened or added, net of those cutting</p></div>
+      <div class="sd-card"><span class="sd-tile-label">Sold by three or more funds</span><span class="sd-big" data-source="sm_summary" data-field="consensus_sells" data-row="0">—</span><p class="sd-note">Trimmed or exited by at least three tracked funds</p></div>
+      <div class="sd-card"><span class="sd-tile-label">Insider buys, last 30 days</span><span class="sd-big" data-source="sm_summary" data-field="insider_buys_30d" data-row="0">—</span><p class="sd-note">Open-market purchases at US-listed watch-list companies</p></div>
+      <div class="sd-card"><span class="sd-tile-label">Statements against positions</span><span class="sd-big" data-source="sm_summary" data-field="conflicts" data-row="0">—</span><p class="sd-note">A manager said one thing while the fund's filing shows another</p></div>
+    </div>
+    <div class="sd-card" id="sm-moves-card">
+      <h2>Where the funds moved together</h2>
+      <p class="sd-note">Last quarter against the one before. Companies two or more funds moved, plus any move in a watch-list company or a holding. A change of 10% or more in shares counts</p>
+      <div class="sd-box sd-scroll">
+        <table class="sd-table" id="sm-moves" data-source="sm_moves" data-row-key="key">
+          <thead><tr><th data-field="issuer">Company</th><th data-field="funds_adding" class="num">Adding</th><th data-field="funds_cutting" class="num">Cutting</th><th data-field="adding">Who added</th><th data-field="cutting">Who cut</th><th data-field="watchlist">Watch list</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="sd-empty" id="sm-moves-empty" hidden>Waiting for the first SEC snapshot, which loads the last three quarters of filings.</p>
+    </div>
+    <div class="sd-card" id="sm-fund-card">
+      <h2>Biggest moves by fund</h2>
+      <p class="sd-note">Each fund's six largest changes by value. Value change includes price moves, so a fund that held still can show a change</p>
+      <div class="sd-box sd-scroll">
+        <table class="sd-table" id="sm-fund-moves" data-source="sm_fund_moves" data-row-key="key">
+          <thead><tr><th data-field="fund">Fund</th><th data-field="issuer">Company</th><th data-field="action">Move</th><th data-field="shares_change" class="num">Shares</th><th data-field="value_now_usd" class="num">Value now</th><th data-field="weight_now" class="num">Weight</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="sd-empty" id="sm-fund-empty" hidden>Waiting for the first SEC snapshot.</p>
+    </div>
+    <div class="sd-grid">
+      <div class="sd-card" id="sm-insider-card">
+        <h2>Insider open-market buys, last 60 days</h2>
+        <p class="sd-note">Form 4 purchases by officers and directors at US-listed watch-list companies. Awards, option exercises and sales are left out</p>
+        <div class="sd-box sd-scroll">
+          <table class="sd-table" id="sm-insiders" data-source="sm_insiders" data-row-key="key">
+            <thead><tr><th data-field="transaction_date">Date</th><th data-field="company">Company</th><th data-field="insider">Insider</th><th data-field="value_usd" class="num">Value</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="sd-empty" id="sm-insiders-empty" hidden>No open-market insider buys at watch-list companies in the last 60 days.</p>
+      </div>
+      <div class="sd-card" id="sm-statements-card">
+        <h2>What managers said</h2>
+        <p class="sd-note">From interviews and podcasts, added by the weekly review, with any conflict against the fund's filed position</p>
+        <div class="sd-box sd-scroll">
+          <table class="sd-table" id="sm-statements" data-source="sm_statements" data-row-key="key">
+            <thead><tr><th data-field="date">Date</th><th data-field="speaker">Who</th><th data-field="quote">What they said</th><th data-field="conflict">Against the filing</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="sd-empty" id="sm-statements-empty" hidden>None recorded yet. The Sunday review searches for new interviews and podcasts from the tracked managers.</p>
+      </div>
+    </div>
+    <div class="sd-card" id="sm-funds-card">
+      <h2>Tracked funds</h2>
+      <p class="sd-note">Latest 13F for each fund. Skill scores start once eight quarters of their moves have been scored</p>
+      <div class="sd-scroll">
+        <table class="sd-table" id="sm-funds" data-source="sm_funds" data-row-key="fund">
+          <thead><tr><th data-field="name">Fund</th><th data-field="manager">Manager</th><th data-field="latest_period">Quarter</th><th data-field="positions" class="num">Positions</th><th data-field="total_value_usd" class="num">13F value</th><th data-field="top_holdings">Largest holdings</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <p class="sd-note">13F filings show only US-listed long positions and listed options, 45 days after the quarter ends. They do not show shorts, cash, bonds or non-US listings.</p>
+  </section>
+
   <section class="sd-page" id="macro" role="tabpanel" aria-labelledby="tab-macro" hidden>
     <div class="sd-grid">
       <div class="sd-card" id="regime-card">
@@ -348,7 +416,7 @@
     <div class="sd-thesis-grid" id="ind-charts"></div>
   </section>
 
-  <p class="sd-foot">Rebuilt from the private signal-desk repository by the weekday daily run. Smart money and Companies are not built yet. No figure here is a recommendation to trade.</p>
+  <p class="sd-foot">Rebuilt from the private signal-desk repository by the weekday daily run. Companies is not built yet. No figure here is a recommendation to trade.</p>
 </div>
 
 <script>
@@ -368,7 +436,7 @@
   const todayIso = iso(today);
   const plus = (days) => iso(new Date(today.getTime() + days * 864e5));
   const state = { tab: 'today', selected: null, country: 'US' };
-  const TABS = ['today', 'theses', 'forecasts', 'record', 'labour', 'product', 'macro'];
+  const TABS = ['today', 'theses', 'forecasts', 'record', 'labour', 'product', 'macro', 'money'];
   const LEVEL_NAMES = { leadership: 'Head, director, VP, CPO', senior: 'Senior, staff, principal, group', mid_or_unknown: 'Product manager', junior: 'Associate, APM', intern: 'Intern' };
 
   function rows(id) {
@@ -976,8 +1044,81 @@
     }
   }
 
+  const usd = (v) => (v == null ? '—' : '$' + new Intl.NumberFormat('en', { notation: 'compact', maximumFractionDigits: 1 }).format(v));
+  const MOVE_NAMES = { new: 'New', added: 'Added', trimmed: 'Trimmed', exited: 'Exited' };
+  function twoLine(tr, a, b, cls) {
+    const td = document.createElement('td'); if (cls) td.className = cls;
+    const x = document.createElement('div'); x.textContent = a == null || a === '' ? '—' : a;
+    td.appendChild(x);
+    if (b) { const y = document.createElement('div'); y.className = 'sd-note'; y.textContent = b; td.appendChild(y); }
+    tr.appendChild(td); return td;
+  }
+  function fillOrEmpty(tableSel, emptySel, list, fn) {
+    const tb = $(tableSel + ' tbody');
+    tb.replaceChildren();
+    if (!list) return;
+    list.forEach((r) => { const tr = document.createElement('tr'); fn(tr, r); tb.appendChild(tr); });
+    $(emptySel).hidden = list.length > 0; $(tableSel).hidden = list.length === 0;
+  }
+  function drawMoney() {
+    const sm = rows('sm_summary');
+    if (sm && sm[0]) {
+      txt($('#sm-period'), sm[0].latest_period ? fmtDate(sm[0].latest_period) : 'none loaded yet');
+      txt($('#sm-due'), fmtDate(sm[0].next_deadline));
+    }
+    fillOrEmpty('#sm-moves', '#sm-moves-empty', rows('sm_moves'), (tr, r) => {
+      tr.dataset.key = r.key;
+      twoLine(tr, r.issuer, r.held ? 'You hold this' : null);
+      cell(tr, r.funds_adding, 'num ' + (r.funds_adding >= 3 ? 'sd-ok' : ''));
+      cell(tr, r.funds_cutting, 'num ' + (r.funds_cutting >= 3 ? 'sd-bad' : ''));
+      cell(tr, r.adding, 'muted'); cell(tr, r.cutting, 'muted');
+      twoLine(tr, r.watchlist ? r.watchlist + (r.ticker ? ' (' + r.ticker + ')' : '') : null, r.theme ? String(r.theme).replace(/_/g, ' ') : null);
+    });
+    fillOrEmpty('#sm-fund-moves', '#sm-fund-empty', rows('sm_fund_moves'), (tr, r) => {
+      tr.dataset.key = r.key;
+      cell(tr, r.fund, 'nowrap'); twoLine(tr, r.issuer, r.held ? 'You hold this' : r.watchlist ? 'On the watch list' : null);
+      cell(tr, MOVE_NAMES[r.action] || r.action, r.action === 'new' || r.action === 'added' ? 'sd-ok' : 'sd-bad');
+      cell(tr, r.shares_change == null ? '—' : (r.shares_change > 0 ? '+' : '') + d3.format('.0%')(r.shares_change), 'num');
+      cell(tr, usd(r.value_now_usd), 'num'); cell(tr, r.weight_now ? d3.format('.1%')(r.weight_now) : '—', 'num');
+    });
+    fillOrEmpty('#sm-insiders', '#sm-insiders-empty', rows('sm_insiders'), (tr, r) => {
+      tr.dataset.key = r.key;
+      cell(tr, fmtShort(r.transaction_date), 'nowrap');
+      twoLine(tr, r.company, r.ticker);
+      const td = twoLine(tr, r.insider, r.role);
+      if (r.source_url && /^https:\/\//.test(r.source_url)) {
+        const a = document.createElement('a'); a.href = r.source_url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = 'Form 4';
+        const d = document.createElement('div'); d.className = 'sd-note'; d.appendChild(a); td.appendChild(d);
+      }
+      twoLine(tr, usd(r.value_usd), d3.format(',')(r.shares) + ' at $' + d3.format(',.2f')(r.price), 'num');
+    });
+    fillOrEmpty('#sm-statements', '#sm-statements-empty', rows('sm_statements'), (tr, r) => {
+      tr.dataset.key = r.key;
+      cell(tr, fmtShort(r.date), 'nowrap'); twoLine(tr, r.speaker, r.fund);
+      const td = twoLine(tr, r.quote ? '"' + r.quote + '"' : null, [r.company, r.stance].filter(Boolean).join(' · '));
+      if (r.source_url && /^https:\/\//.test(r.source_url)) {
+        const a = document.createElement('a'); a.href = r.source_url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = 'Source';
+        const d = document.createElement('div'); d.className = 'sd-note'; d.appendChild(a); td.appendChild(d);
+      }
+      cell(tr, r.conflict, r.conflict ? 'sd-warn' : 'muted');
+    });
+    const fu = rows('sm_funds');
+    const ft = $('#sm-funds tbody');
+    ft.replaceChildren();
+    if (fu) {
+      fu.forEach((r) => {
+        const tr = document.createElement('tr'); tr.dataset.key = r.fund;
+        twoLine(tr, r.name, r.ok === false ? 'Not found on EDGAR: check the CIK' : r.style);
+        cell(tr, r.manager); cell(tr, r.latest_period ? fmtShort(r.latest_period) : '—', 'nowrap');
+        cell(tr, r.positions == null ? '—' : d3.format(',')(r.positions), 'num'); cell(tr, usd(r.total_value_usd), 'num');
+        cell(tr, r.top_holdings, 'muted');
+        ft.appendChild(tr);
+      });
+    }
+  }
+
   function draw() {
-    drawHeader(); drawScores(); drawInsights(); drawToday(); drawTheses(); drawForecasts(); drawRecord(); drawLabour(); drawProduct(); drawMacro();
+    drawHeader(); drawScores(); drawInsights(); drawToday(); drawTheses(); drawForecasts(); drawRecord(); drawLabour(); drawProduct(); drawMacro(); drawMoney();
     const ok = ['scores', 'insights', 'forecasts', 'theses'].every((id) => dash.data(id).status !== 'loading');
     if (ok) unskel();
   }

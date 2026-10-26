@@ -42,15 +42,24 @@ def read_csv(path: Path) -> list[dict]:
         return list(csv.DictReader(f))
 
 
+def value_scale(rows: list[dict]) -> int:
+    """1, or 1000 when a filer still reports values in thousands (median implied price below $1)."""
+    prices = sorted(float(r["value_usd"] or 0) / float(r["shares"]) for r in rows
+                    if not r.get("put_call") and r.get("share_type") == "SH" and float(r["shares"] or 0) > 0)
+    return 1000 if prices and prices[len(prices) // 2] < 1 else 1
+
+
 def holdings(fund: str, period: str, data: Path = DATA) -> dict[str, dict]:
     """Common-share holdings by normalised issuer: {issuer_norm: {issuer, value, shares}}."""
     out: dict[str, dict] = {}
-    for r in read_csv(data / "holdings" / fund / f"{period}.csv"):
+    rows = read_csv(data / "holdings" / fund / f"{period}.csv")
+    scale = value_scale(rows)
+    for r in rows:
         if r.get("put_call"):
             continue
         k = norm(r["issuer"])
         h = out.setdefault(k, {"issuer": r["issuer"], "value": 0, "shares": 0})
-        h["value"] += int(float(r["value_usd"] or 0))
+        h["value"] += int(float(r["value_usd"] or 0)) * scale
         h["shares"] += int(float(r["shares"] or 0))
     return out
 
@@ -134,14 +143,15 @@ def build(today: dt.date, data: Path = DATA, root: Path = ROOT) -> dict[str, lis
         m = fund_moves(name, periods, cfg["min_change"], data)
         moves += m
         latest = fl[-1] if fl else {}
-        top = sorted(holdings(name, latest["period"], data).values(), key=lambda h: -h["value"])[:5] if latest else []
+        current = holdings(name, latest["period"], data) if latest else {}
+        top = sorted(current.values(), key=lambda h: -h["value"])[:5]
         st = status.get(name, {})
         fund_rows.append({
             "fund": name, "name": f["name"], "manager": f.get("manager"), "style": f.get("style"), "cik": f["cik"],
             "edgar_name": st.get("edgar_name") or None, "ok": (st.get("ok") == "yes") if st else None,
             "latest_period": latest.get("period"), "filed": latest.get("filed"),
             "positions": int(latest["positions"]) if latest.get("positions") else None,
-            "total_value_usd": int(latest["total_value_usd"]) if latest.get("total_value_usd") else None,
+            "total_value_usd": sum(h["value"] for h in current.values()) or None,  # common shares, corrected units
             "top_holdings": ", ".join(h["issuer"].title() for h in top) or None,
             "moves": sum(1 for x in m if x["action"] != "held"),
         })
@@ -186,7 +196,9 @@ def build(today: dt.date, data: Path = DATA, root: Path = ROOT) -> dict[str, lis
                              "watchlist": w["company"] if w else None, "held": is_held(x["issuer_norm"])})
 
     since = (today - dt.timedelta(days=60)).isoformat()
-    trades = [t for t in read_csv(data / "insider_trades.csv") if t["filed"] >= since]
+    floor = cfg.get("insider_min_value_usd", 0)
+    trades = [t for t in read_csv(data / "insider_trades.csv")
+              if t["filed"] >= since and float(t["value_usd"] or 0) >= floor]
     insiders = [{"key": f"{t['accession']}|{i}", "transaction_date": t["transaction_date"], "filed": t["filed"],
                  "company": t["company"], "ticker": t["ticker"], "insider": t["insider"].title(), "role": t["role"],
                  "shares": int(float(t["shares"] or 0)), "price": float(t["price"] or 0),

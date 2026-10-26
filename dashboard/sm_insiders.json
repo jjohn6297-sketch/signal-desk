@@ -1,5 +1,67 @@
 [
 {
-"_empty": true
+"key": "0001513845-26-000134|4",
+"transaction_date": "2026-10-19",
+"filed": "2026-10-20",
+"company": "Nebius Group",
+"ticker": "NBIS",
+"insider": "Grimme Arne",
+"role": "Director",
+"shares": 148,
+"price": 169.99,
+"value_usd": 25158,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000134/form4.xml"
+},
+{
+"key": "0001513845-26-000130|3",
+"transaction_date": "2026-10-16",
+"filed": "2026-10-16",
+"company": "Nebius Group",
+"ticker": "NBIS",
+"insider": "Grimme Arne",
+"role": "Director",
+"shares": 148,
+"price": 169.99,
+"value_usd": 25158,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000130/form4.xml"
+},
+{
+"key": "0001513845-26-000130|2",
+"transaction_date": "2026-10-15",
+"filed": "2026-10-16",
+"company": "Nebius Group",
+"ticker": "NBIS",
+"insider": "Grimme Arne",
+"role": "Director",
+"shares": 148,
+"price": 169.99,
+"value_usd": 25158,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000130/form4.xml"
+},
+{
+"key": "0001341439-26-000099|1",
+"transaction_date": "2026-09-29",
+"filed": "2026-10-01",
+"company": "Oracle",
+"ticker": "ORCL",
+"insider": "Rusckowski Stephen H",
+"role": "Director",
+"shares": 25000,
+"price": 139.352,
+"value_usd": 3483800,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000099/form4.xml"
+},
+{
+"key": "0001108524-26-000212|0",
+"transaction_date": "2026-09-18",
+"filed": "2026-09-21",
+"company": "Salesforce",
+"ticker": "CRM",
+"insider": "Kirk David Blair",
+"role": "Director",
+"shares": 4176,
+"price": 239.3321,
+"value_usd": 999450,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000212/form4.xml"
 }
 ]

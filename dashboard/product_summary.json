@@ -2,12 +2,12 @@
 {
 "date": "2026-10-26",
 "boards": 32,
-"all_open": 7723,
-"pm_open": 276,
+"all_open": 15448,
+"pm_open": 552,
 "pm_share": 0.0357,
-"pm_ai": 27,
+"pm_ai": 54,
 "pm_ai_share": 0.0978,
-"pm_ireland": 12,
-"pm_dublin": 12
+"pm_ireland": 24,
+"pm_dublin": 24
 }
 ]

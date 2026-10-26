@@ -25,3 +25,5 @@ quarters_kept: 3
 min_change: 0.10
 # Insider buying: open-market purchases (Form 4 code P) at US-listed watch-list companies.
 insider_lookback_days: 45
+# Purchases smaller than this are left off the dashboard (employee plans and token buys).
+insider_min_value_usd: 25000
