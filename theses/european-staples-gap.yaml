@@ -1,5 +1,5 @@
 id: european-staples-gap
-title: Cheap large staples (Nestle, Unilever, PepsiCo, Diageo) outperform expensive US staples as volumes recover
+title: Cheap European staples (Nestle, Unilever, Diageo) outperform expensive US staples as volumes recover
 type: contrarian
 theme: other
 status: draft
@@ -12,7 +12,7 @@ variant_view: European staples near a 25-year relative valuation low; PepsiCo 16
   recovering
 predictions:
 - id: p1
-  statement: Equal-weight Nestle, Unilever, PepsiCo, Diageo beats XLP in EUR from 2026-10-26 to 2027-04-30
+  statement: Equal-weight Nestle, Unilever, Diageo beats XLP in EUR from 2026-10-26 to 2027-04-30
   probability: null
   resolves: '2027-04-30'
   outcome: null
@@ -25,5 +25,6 @@ kill_criteria:
 - Q4 volumes negative at two or more basket names
 - Dividend or gross-margin guidance cut at a basket name
 - Brent above $130 for a month
-expression: Four-name basket, small size, as an offset to AI concentration
+expression: Three-name basket, small size; overlaps with the UK bet (Unilever, Diageo in FTSE 100) and with the
+  bonds bet (yield-sensitive)
 notes: 'Evidence and sources: Week 1 doc, https://claude.ai/artifact/XqztW4vC5h2yL7K77Z1gkD'

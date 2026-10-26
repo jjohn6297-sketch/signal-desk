@@ -32,6 +32,6 @@ kill_criteria:
 - Texas lifts its pause and clears the queue
 - CoreWeave CDS below 500bp
 - Group capex below 80% of operating cash flow without slower deliveries
-expression: 'Inside the existing book: cut smallest leveraged AI-hosting positions; favour net-cash neoclouds; add
-  grid and on-site power on post-results pullbacks'
+expression: 'Lower total AI exposure rather than rotating within AI: cut the smallest leveraged hosting positions;
+  favour net-cash neoclouds'
 notes: 'Evidence and sources: Week 1 doc, https://claude.ai/artifact/XqztW4vC5h2yL7K77Z1gkD'
