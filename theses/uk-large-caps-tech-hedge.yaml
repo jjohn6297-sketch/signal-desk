@@ -1,0 +1,28 @@
+id: uk-large-caps-tech-hedge
+title: UK large caps outperform global equities in euros as a cheap, low-tech hedge against an AI correction
+type: contrarian
+theme: other
+status: draft
+opened: '2026-10-26'
+horizon: 6 months
+owner_conviction: null
+consensus:
+  view: UK net 26% underweight (Oct 2026 FMS); tech net 37% overweight, highest since Aug 2020
+variant_view: MSCI UK 12.2x forward vs MSCI World 17.9x; 5.1% total cash yield; FTSE 100 has almost no tech
+predictions:
+- id: p1
+  statement: FTSE 100 total return in EUR beats MSCI World in EUR from the 2026-10-28 close to 2027-04-30
+  probability: null
+  resolves: '2027-04-30'
+  outcome: null
+- id: p2
+  statement: BofA FMS UK underweight below net 15% by the April 2027 survey
+  probability: null
+  resolves: '2027-04-30'
+  outcome: null
+kill_criteria:
+- 10-year gilt above 6.0%
+- FTSE 100 trails MSCI World in EUR by more than 5 points by 2027-01-31
+- Budget raises stamp duty on shares
+expression: FTSE 100 UCITS ETF (e.g. ISF) after the Budget and the 5 Nov BoE decision
+notes: 'Evidence and sources: Week 1 doc, https://claude.ai/artifact/XqztW4vC5h2yL7K77Z1gkD'

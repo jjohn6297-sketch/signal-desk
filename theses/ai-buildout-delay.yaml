@@ -1,0 +1,37 @@
+id: ai-buildout-delay
+title: 'The AI risk for 2027 is delivery delay, not demand: leveraged builders suffer, bottleneck owners gain'
+type: contrarian
+theme: hyperscalers
+status: draft
+opened: '2026-10-26'
+horizon: 6 months
+owner_conviction: null
+consensus:
+  view: Hyperscaler capex ~$785bn in 2026 and ~$1trn in 2027 (Moody's); long semis most crowded trade
+variant_view: Capex exceeds operating cash flow (Meta 106%, Amazon ~105%); Texas paused data-centre grid approvals;
+  47+ large US projects delayed or blocked in 2026; CoreWeave 2031 bond yield above 16%
+predictions:
+- id: p1
+  statement: At least two of MSFT, GOOGL, AMZN, META, ORCL say on a results call that power or site availability
+    delayed capacity
+  probability: null
+  resolves: '2027-02-28'
+  outcome: null
+- id: p2
+  statement: Reported US data-centre projects delayed or blocked in H2 2026 exceed the H1 count of 120
+  probability: null
+  resolves: '2027-02-28'
+  outcome: null
+- id: p3
+  statement: CoreWeave 2031 bond still yields above 12%
+  probability: null
+  resolves: '2027-03-31'
+  outcome: null
+kill_criteria:
+- Hyperscalers report capacity ahead of plan
+- Texas lifts its pause and clears the queue
+- CoreWeave CDS below 500bp
+- Group capex below 80% of operating cash flow without slower deliveries
+expression: 'Inside the existing book: cut smallest leveraged AI-hosting positions; favour net-cash neoclouds; add
+  grid and on-site power on post-results pullbacks'
+notes: 'Evidence and sources: Week 1 doc, https://claude.ai/artifact/XqztW4vC5h2yL7K77Z1gkD'

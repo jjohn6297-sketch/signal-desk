@@ -1,0 +1,31 @@
+id: airlines-vs-oil-curve
+title: Airline shares are priced for $116 oil while the futures curve prices about $81 by end-2027; the gap closes
+  in favour of hedged airlines
+type: contrarian
+theme: other
+status: draft
+opened: '2026-10-26'
+horizon: 6 months
+owner_conviction: null
+consensus:
+  view: Consumer discretionary net 34% underweight, biggest since Jul 2008; airlines near 52-week lows
+variant_view: Brent curve in steep backwardation (Nov-26 $103.53 vs Dec-27 $81.24 on 30 Sep); Ryanair 80% of FY27
+  fuel hedged at ~$67
+predictions:
+- id: p1
+  statement: If no US strike on Iran by 2026-12-31, Brent front-month settles below $100 at least once before 2027-01-31
+  probability: null
+  resolves: '2027-01-31'
+  outcome: null
+- id: p2
+  statement: Ryanair and IAG beat the STOXX 600 from 2026-10-26 to 2027-03-31
+  probability: null
+  resolves: '2027-03-31'
+  outcome: null
+kill_criteria:
+- Brent closes above $126
+- Strikes on Iran resume or Gulf exports fall again
+- Any position falls 20% from entry
+expression: 'Three tranches up to a set limit: after midterms if no strikes; Brent close below $100; Ryanair H1
+  confirms fares'
+notes: 'Evidence and sources: Week 1 doc, https://claude.ai/artifact/XqztW4vC5h2yL7K77Z1gkD'

@@ -1,0 +1,46 @@
+id: in-vivo-gene-editing
+title: In vivo gene editing reaches commercial proof in 2026-27, lifting CRISPR Therapeutics, Intellia, Beam and
+  their suppliers
+type: core
+theme: gene_editing
+status: draft
+opened: '2026-10-26'
+horizon: 6-18 months
+owner_conviction: null
+evidence_for:
+- date: '2026-09-08'
+  claim: Lonvo-z BLA accepted, priority review, PDUFA 2027-03-10; Phase 3 attacks -87% vs placebo
+  source: https://www.sec.gov/Archives/edgar/data/0001652130/000119312526385194/ntla-ex99_1.htm
+- date: '2026-08-03'
+  claim: Casgevy Q2 revenue $76.4m, +151% y/y
+  source: https://www.businesswire.com/news/home/20260803535433/en/
+- date: '2026-08-28'
+  claim: CTX310 LDL -53% at one year, no treatment-related SAEs (n=15)
+  source: https://www.quiverquant.com/news/CRISPR+Therapeutics+Presents+One-Year+Durability+Data+for+CTX310+at+ESC+Congress+2026
+evidence_against:
+- date: '2025-10-29'
+  claim: FDA hold on nex-z after Grade 4 liver enzyme rise; lifted early 2026 with monitoring
+  source: https://ir.intelliatx.com/node/12501
+- date: '2026-09-08'
+  claim: Beam fell 9.5% on positive BEAM-302 data
+  source: https://finviz.com/news/389319/beam-therapeutics-presents-updated-clinical-data-from-the-phase-12-trial-of-beam-302-in-alpha-1-antitrypsin-deficiency-aatd-at-the-european-respiratory-society-ers-congress-2026
+predictions:
+- id: p1
+  statement: FDA approves lonvo-z by 2027-03-10
+  probability: null
+  resolves: '2027-03-10'
+  outcome: null
+- id: p2
+  statement: Vertex Q3 Casgevy revenue >= $90m
+  probability: null
+  resolves: '2026-11-04'
+  outcome: null
+- id: p3
+  statement: Beam submits risto-cel BLA by 2027-01-31
+  probability: null
+  resolves: '2027-01-31'
+  outcome: null
+kill_criteria:
+- Lonvo-z complete response letter or PDUFA delay > 3 months
+- New clinical hold or treatment-related death in any LNP-CRISPR programme
+- Casgevy revenue falls quarter on quarter twice in a row

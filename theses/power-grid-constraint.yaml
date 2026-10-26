@@ -1,0 +1,42 @@
+id: power-grid-constraint
+title: Grid equipment and power generation are the binding constraint on AI data-centre build-out
+type: core
+theme: power_grid
+status: draft
+opened: '2026-10-26'
+horizon: 12-24 months
+owner_conviction: null
+evidence_for:
+- date: '2026-07-22'
+  claim: GE Vernova backlog $176bn; gas backlog + reservations 100 -> 116 GW
+  source: https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000147/gevpressrelease2q26.htm
+- date: '2026-08-06'
+  claim: Siemens Energy record backlog EUR162bn; "capacity, not demand, is the binding constraint"
+  source: https://www.turbomachinerymag.com/view/siemens-energy-posts-record-backlog-joining-ge-vernova-and-baker-hughes-in-a-record-quarter-for-gas-turbines
+- date: '2026-08-03'
+  claim: Texas paused new data-centre grid approvals
+  source: https://www.route-fifty.com/artificial-intelligence/2026/08/data-center-approvals-texas-halted-until-audits-completed-gov-greg-abbott-says/415194/
+evidence_against:
+- date: '2026-08-06'
+  claim: GE Vernova expanding turbine output to 20 GW/yr now, 30 GW by 2030
+  source: https://www.turbomachinerymag.com/view/siemens-energy-posts-record-backlog-joining-ge-vernova-and-baker-hughes-in-a-record-quarter-for-gas-turbines
+predictions:
+- id: p1
+  statement: GE Vernova gas backlog + reservations >= 124 GW
+  probability: null
+  resolves: '2026-10-28'
+  outcome: null
+- id: p2
+  statement: Vertiv Q3 organic growth >= 34%
+  probability: null
+  resolves: '2026-11-06'
+  outcome: null
+- id: p3
+  statement: Siemens Energy backlog >= EUR165bn at FY26 results
+  probability: null
+  resolves: '2026-11-30'
+  outcome: null
+kill_criteria:
+- GE Vernova gas book-to-bill below 1.5
+- Eaton or Vertiv backlog falls quarter on quarter
+- Transformer lead times shorten

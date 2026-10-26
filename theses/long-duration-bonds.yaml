@@ -1,0 +1,36 @@
+id: long-duration-bonds
+title: Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms
+type: contrarian
+theme: other
+status: draft
+opened: '2026-10-26'
+horizon: 6 months
+owner_conviction: null
+consensus:
+  view: Short Treasuries second most crowded trade (BofA FMS, 2-8 Oct 2026); Fed hiked to 3.75-4.00% on 16 Sep,
+    16 of 18 officials expect more
+variant_view: Inflation is energy-led (core CPI 2.6%, 5y5y 2.20%) while growth stalls (Sep payrolls +29k); if oil
+  fades the hiking path breaks
+predictions:
+- id: p1
+  statement: 10-year Treasury does not close above 5.31% before 2027-01-31
+  probability: null
+  resolves: '2027-01-31'
+  outcome: null
+- id: p2
+  statement: 10-year Treasury at or below 4.60% on 2027-04-30
+  probability: null
+  resolves: '2027-04-30'
+  outcome: null
+- id: p3
+  statement: US unemployment >= 4.5% in the January 2027 jobs report
+  probability: null
+  resolves: '2027-02-05'
+  outcome: null
+kill_criteria:
+- 10-year above 5.40% for three sessions
+- 5y5y inflation expectations above 2.6%
+- Core PCE above 3.3%
+- December FOMC signals two or more further hikes
+expression: EUR-hedged 20+yr US Treasury UCITS ETF (IE00BD8PGZ49); small size
+notes: 'Evidence and sources: Week 1 doc, https://claude.ai/artifact/XqztW4vC5h2yL7K77Z1gkD'

@@ -1,0 +1,43 @@
+id: coding-agents-usage-pricing
+title: 'Software vendors that move to usage pricing in 2027 outgrow those that stay per-seat (rewritten: original
+  seat-loss thesis not supported by 2026 evidence)'
+type: core
+theme: ai_labour
+status: draft
+opened: '2026-10-26'
+horizon: 12-24 months
+owner_conviction: null
+evidence_for:
+- date: 2026 Q2 results
+  claim: Datadog Q2 revenue +36%; shares +98% YTD
+  source: https://investors.datadoghq.com/news-releases/news-release-details/datadog-announces-second-quarter-2026-financial-results
+- date: '2026-09-01'
+  claim: GitLab moving to hybrid seat and consumption model
+  source: https://stockanalysis.com/stocks/gtlb/
+evidence_against:
+- date: '2026-10-24'
+  claim: 'Seat vendors up YTD: Atlassian +40%, GitLab +50%; MongoDB -12%'
+  source: https://stockanalysis.com/stocks/team/
+- date: '2026-10-16'
+  claim: Indeed US software development postings +21% y/y (index 78.9)
+  source: https://github.com/hiring-lab/job_postings_tracker
+predictions:
+- id: p1
+  statement: Datadog Q3 revenue >= $1.17bn
+  probability: null
+  resolves: '2026-11-04'
+  outcome: null
+- id: p2
+  statement: Atlassian announces usage or credit pricing for its AI agents
+  probability: null
+  resolves: '2027-03-31'
+  outcome: null
+- id: p3
+  statement: Indeed US software-development index below 75
+  probability: null
+  resolves: '2027-01-31'
+  outcome: null
+kill_criteria:
+- Datadog growth below 25%
+- Atlassian or GitLab report rising seat-based net retention
+- Software-development postings index above 85

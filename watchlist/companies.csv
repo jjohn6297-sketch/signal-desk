@@ -1,0 +1,41 @@
+company,ticker,exchange,theme,held,ceo,cfo,other_voice,notes,source
+Microsoft,MSFT,Nasdaq,hyperscalers,no,Satya Nadella,Amy Hood,"Judson Althoff, CEO Commercial Business",,https://www.sec.gov/Archives/edgar/data/0000789019/000119312526323660/msft-20260630.htm
+Alphabet,GOOGL,Nasdaq,hyperscalers,yes,Sundar Pichai,Anat Ashkenazi,"Thomas Kurian, CEO Google Cloud (unverified)",,https://www.benzinga.com/news/26/09/61834280
+Amazon,AMZN,Nasdaq,hyperscalers,yes,Andy Jassy,Brian Olsavsky,"Matt Garman, CEO AWS",,https://www.webull.com/news/15364638750483456
+Meta Platforms,META,Nasdaq,hyperscalers,yes,Mark Zuckerberg,Susan Li,"Andrew Bosworth, CTO",Dina Powell McCormick President and Vice Chairman since Jan 2026,https://investor.atmeta.com/leadership-and-governance/
+Oracle,ORCL,NYSE,hyperscalers,no,Clay Magouyrk and Mike Sicilia (co-CEOs),Hilary Maxson,"Larry Ellison, Chairman and CTO",New CFO 6 Apr 2026,https://www.oracle.com/corporate/executives/
+Nvidia,NVDA,Nasdaq,hyperscalers,yes,Jensen Huang,Colette Kress,"Ian Buck, hyperscale and HPC (unverified)",,https://investor.nvidia.com/governance/management-team/default.aspx
+Broadcom,AVGO,Nasdaq,hyperscalers,no,Hock Tan,Amie Thuener,"Charlie Kawwas, President Semiconductor Solutions (unverified)",New CFO 12 Jun 2026,https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm
+TSMC,TSM,NYSE (ADR); 2330 TWSE,hyperscalers,no,C.C. Wei,Wendell Huang,"Kevin Zhang, SVP Business Development",,https://www.tsmc.com/english/aboutTSMC/executives
+AMD,AMD,Nasdaq,hyperscalers,no,Lisa Su,Jean Hu,"Forrest Norrod, EVP Data Center",,https://www.amd.com/en/corporate/leadership.html
+Micron Technology,MU,Nasdaq,hyperscalers,yes,Sanjay Mehrotra,Mark Murphy (unverified),"Sumit Sadana, Chief Business Officer (unverified)",,https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000018/a2026q4ex991-pressrelease.htm
+CoreWeave,CRWV,Nasdaq,hyperscalers,yes,Michael Intrator,Nitin Agrawal,"Brian Venturo, Chief Strategy Officer",,https://www.coreweave.com/about-us
+Nebius Group,NBIS,Nasdaq,hyperscalers,yes,Arkady Volozh,Dado Alonso,"Roman Chernin, Chief Business Officer",,https://nebius.com/about
+GE Vernova,GEV,NYSE,power_grid,no,Scott Strazik,Ken Parks,"Philippe Piron, CEO Electrification",,https://www.gevernova.com/about/leadership
+Siemens Energy,ENR,Xetra,power_grid,no,Christian Bruch,Maria Ferraro,"Karim Amin, Executive Board (Gas Services)",,https://www.siemens-energy.com/global/en/home/company/executive-board.html
+Schneider Electric,SU,Euronext Paris,power_grid,no,Olivier Blum,Nathan Fast,"Jean-Pascal Tricoire, Chairman (unverified)",New CFO Apr 2026 (secondary sources only),https://www.marketscreener.com/insider/NATHAN-FAST-A2D495/
+Vertiv,VRT,NYSE,power_grid,no,Giordano Albertazzi,Craig Chamberlin,"Scott Armul, Chief Product and Technology Officer",CFO since Nov 2025,https://www.vertiv.com/en-us/about/about-vertiv/executives-new/
+Eaton,ETN,NYSE,power_grid,no,Paulo Ruiz,Dave Foster,"Heath Monesmith, President and COO Electrical",New CFO (date not found),https://www.eaton.com/us/en-us/company/about-us/leadership-team.html
+Bloom Energy,BE,NYSE,power_grid,yes,KR Sridhar,Simon Edwards,"Aman Joshi, Chief Commercial Officer",New CFO (date not found),https://www.bloomenergy.com/leadership-board/
+Constellation Energy,CEG,Nasdaq,power_grid,no,Joe Dominguez,Shane Smith,"Dan Eggers, SEVP Finance and Data Economy",New CFO 1 Jun 2026,https://www.constellationenergy.com/our-company/leadership.html
+Cameco,CCJ,NYSE; CCO TSX,power_grid,no,Tim Gitzel,Heidi Shockey,"Grant Isaac, President and COO",,https://www.cameco.com/about/leadership
+CRISPR Therapeutics,CRSP,Nasdaq,gene_editing,yes,Sam Kulkarni,A.J. Silver,"Naimish Patel, Chief Medical Officer",New CFO 19 Oct 2026,https://www.sec.gov/Archives/edgar/data/0001674416/000119312526425243/crsp-20261019.htm
+Intellia Therapeutics,NTLA,Nasdaq,gene_editing,yes,John Leonard,Ed Dulac,"Jing Marantz, Chief Medical Officer",New CMO from 26 Oct 2026; lonvo-z PDUFA 10 Mar 2027,https://www.biopharmawatch.com/news/NTLA/intellia-therapeutics-appoints-jing-marantz-cmo
+Beam Therapeutics,BEAM,Nasdaq,gene_editing,no,John Evans,Sravan Emany,"Giuseppe Ciaramella, President",,https://www.sec.gov/Archives/edgar/data/1745999/000119312526161512/beam-20260417.htm
+Vertex Pharmaceuticals,VRTX,Nasdaq,gene_editing,no,Reshma Kewalramani,Charles Wagner,"Mark Bunnage, Chief Scientific Officer",Jonathan Poole becomes CFO 1 Jan 2027,https://www.vrtx.com/our-company/leadership/
+Oxford Nanopore Technologies,ONT,LSE,gene_editing,yes,Francis Van Parys,Nick Keher,"Lakmal Jayasinghe, Chief Scientific Officer",New CEO 2 Mar 2026,https://www.directorstalkinterviews.com/wp-content/uploads/2026/08/ont-interim-results-for-the-six-months-ended-30-june-2026-rns.pdf
+Illumina,ILMN,Nasdaq,gene_editing,no,Jacob Thaysen,Ankur Dhingra,"Steve Barnard, CTO",,https://www.illumina.com/company/about-us/management-team.html
+Twist Bioscience,TWST,Nasdaq,gene_editing,yes,Emily Leproust,Adam Laponis,"Patrick Finn, President and COO",,https://www.marketbeat.com/instant-alerts/twist-bioscience-q3-earnings-call-highlights-2026-08-03/
+Lonza Group,LONN,SIX Swiss Exchange,gene_editing,no,Wolfgang Wienand,Philippe Deecke (confirmed Jan 2026 only),(not verified),,https://links.sgx.com/1.0.0/corporate-announcements/JX40DSPFWE3XG83V/873320_20260128_Lonza%20Full-Year%20Results%202025_FINAL%20compressed.pdf
+Salesforce,CRM,NYSE,ai_labour,no,Marc Benioff,Robin Washington,"Rohan Kumar, Chief Platform and Engineering Officer",Aug 2026 reshuffle; Miguel Milano COO,https://kalkine.com/news/technology/salesforce-names-miguel-milano-chief-operating-officer-as-benioff-widens-leadership-team
+Atlassian,TEAM,Nasdaq,ai_labour,no,Mike Cannon-Brookes,James Chuong,"Taroon Mandhana, CTO Teamwork",New CFO 30 Mar 2026,https://www.businesswire.com/news/home/20260218091594/en
+ServiceNow,NOW,NYSE,ai_labour,no,Bill McDermott,Gina Mastantuono,"Amit Zavery, President and Chief Product Officer",,https://www.servicenow.com/company/leadership.html
+Datadog,DDOG,Nasdaq,ai_labour,no,Olivier Pomel,David Obstler,"Alexis Lê-Quôc, CTO",No 2026 news check,https://www.datadoghq.com/about/leadership/
+MongoDB,MDB,Nasdaq,ai_labour,no,Dev Ittycheria (interim),Mike Berry,"Jim Scharf, CTO",CEO change 28 Sep 2026; search under way,https://www.mongodb.com/company/newsroom/press-releases/mongodb-announces-ceo-transition
+Accenture,ACN,NYSE,ai_labour,no,Julie Sweet,Angie Park,"Manish Sharma, Chief Strategy Officer",No 2026 news check,https://www.accenture.com/us-en/about/leadership
+Infosys,INFY,NYSE (ADR); NSE,ai_labour,no,Salil Parekh,Jayesh Sanghrajka,"Nandan Nilekani, Chairman",Ashiss Kumar Dash becomes CEO 1 Apr 2027,https://www.infosys.com/newsroom/press-releases/2026/board-appoints-ceo-designate.html
+Concentrix,CNXC,Nasdaq,ai_labour,no,Chris Caldwell,Andre Valentine,(not verified),,https://www.sec.gov/Archives/edgar/data/1803599/000180359926000136/exhibit312-form10qxq22026.htm
+Teleperformance,TEP,Euronext Paris,ai_labour,no,Jorge Amar,Benoit Gabelle (possibly interim),"Moulay Hafid Elalamy, Chairman",New leadership; appointment dates not found,https://www.tp.com/en-us/why-tp/leadership/
+Robert Half,RHI,NYSE,ai_labour,no,Keith Waddell,Michael Buckley,"Paul Gentzkow, President Talent Solutions",No 2026 news check,https://www.roberthalf.com/us/en/about/leadership
+Hays,HAS,LSE,ai_labour,no,Mark Dearnley,James Hilton,"Michael Findlay, Chair",New CEO 18 May 2026,https://www.haysplc.com/about-us/our-leadership
+RELX,REL,LSE; REN Euronext Amsterdam,ai_labour,no,Erik Engstrom,Nick Luff,"Kumsal Bayazit, CEO Elsevier",No 2026 news check,https://www.relx.com/investors/corporate-governance/board-of-directors

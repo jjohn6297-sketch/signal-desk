@@ -1,0 +1,24 @@
+# Public career boards snapshotted every day by scripts/snapshot_jobs.py.
+# ats: greenhouse | lever | ashby. The slug is the last part of the board's URL,
+# e.g. boards.greenhouse.io/datadog -> datadog.
+# Slugs marked "unverified" are first guesses: the first run writes data/jobs/board_status.csv,
+# so fix or remove any board that shows ok = no.
+# Large companies (Microsoft, Salesforce, Accenture...) use Workday or their own sites;
+# those need a separate fetcher and are planned for Phase 1.
+
+boards:
+  - {board: datadog, company: Datadog, ticker: DDOG, ats: greenhouse, slug: datadog, theme: ai_coding_agents, note: unverified}
+  - {board: mongodb, company: MongoDB, ticker: MDB, ats: greenhouse, slug: mongodb, theme: ai_coding_agents, note: unverified}
+  - {board: samsara, company: Samsara, ticker: IOT, ats: greenhouse, slug: samsara, theme: holdings, note: unverified}
+  - {board: coreweave, company: CoreWeave, ticker: CRWV, ats: greenhouse, slug: coreweave, theme: hyperscaler_capex, note: unverified}
+  - {board: rocketlab, company: Rocket Lab, ticker: RKLB, ats: greenhouse, slug: rocketlab, theme: holdings, note: unverified}
+  - {board: tempus, company: Tempus AI, ticker: TEM, ats: greenhouse, slug: tempus, theme: holdings, note: unverified}
+  - {board: natera, company: Natera, ticker: NTRA, ats: greenhouse, slug: natera, theme: holdings, note: unverified}
+  - {board: twist, company: Twist Bioscience, ticker: TWST, ats: greenhouse, slug: twistbioscience, theme: gene_editing, note: unverified}
+  - {board: intellia, company: Intellia Therapeutics, ticker: NTLA, ats: greenhouse, slug: intelliatherapeutics, theme: gene_editing, note: unverified}
+  - {board: beam, company: Beam Therapeutics, ticker: BEAM, ats: greenhouse, slug: beamtherapeutics, theme: gene_editing, note: unverified}
+  - {board: crispr, company: CRISPR Therapeutics, ticker: CRSP, ats: greenhouse, slug: crisprtherapeutics, theme: gene_editing, note: unverified}
+  - {board: gitlab, company: GitLab, ticker: GTLB, ats: greenhouse, slug: gitlab, theme: ai_coding_agents, note: unverified}
+  - {board: zeta, company: Zeta Global, ticker: ZETA, ats: greenhouse, slug: zetaglobal, theme: holdings, note: unverified}
+  - {board: planet, company: Planet Labs, ticker: PL, ats: greenhouse, slug: planetlabs, theme: holdings, note: unverified}
+  - {board: c3ai, company: C3.ai, ticker: AI, ats: greenhouse, slug: c3iot, theme: holdings, note: unverified}

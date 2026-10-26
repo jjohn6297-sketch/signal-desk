@@ -1,0 +1,39 @@
+id: ai-service-agents-bpo
+title: AI service agents cut outsourced call-centre volumes faster than the market expects
+type: core
+theme: ai_labour
+status: draft
+opened: '2026-10-26'
+horizon: 6-18 months
+owner_conviction: null
+evidence_for:
+- date: '2026-09-29'
+  claim: Concentrix guides Q4 -3% to -5% cc, citing accelerated AI deployment; $1.05bn goodwill impairment
+  source: https://www.sec.gov/Archives/edgar/data/0001803599/000180359926000147/exhibit991q32026.htm
+- date: '2026-10-16'
+  claim: Indeed US customer service postings index 86.6 (Feb 2020 = 100), -1.5% y/y; UK 37.4
+  source: https://github.com/hiring-lab/job_postings_tracker
+evidence_against:
+- date: '2026-07-30'
+  claim: Teleperformance keeps FY like-for-like guide 0% to +2%; Americas +1.1% in Q2
+  source: https://quartr.com/events/teleperformance-se-tep-q2-2026_oCh0FYeD
+predictions:
+- id: p1
+  statement: Teleperformance Q3 like-for-like growth below +1.0%
+  probability: null
+  resolves: '2026-11-05'
+  outcome: null
+- id: p2
+  statement: Concentrix guides FY27 constant-currency revenue <= 0%
+  probability: null
+  resolves: '2027-01-31'
+  outcome: null
+- id: p3
+  statement: Indeed US customer-service index below 85
+  probability: null
+  resolves: '2027-01-31'
+  outcome: null
+kill_criteria:
+- Teleperformance H2 like-for-like >= +2%
+- Concentrix returns to positive cc growth
+- Customer-service postings rise two quarters in a row

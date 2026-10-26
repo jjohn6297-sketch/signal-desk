@@ -1,0 +1,33 @@
+# One file per thesis. Never delete a thesis: close it with status and a closing note.
+id: short-kebab-name
+title: One-sentence, falsifiable statement
+type: core            # core | contrarian
+theme: hyperscalers   # hyperscalers | power_grid | gene_editing | ai_labour | other
+status: draft         # draft | open | closed
+opened: 2026-10-26
+horizon: "12-24 months"
+owner_conviction: null  # 0-100, set by you, not by the system
+
+consensus:            # what the market believes, with evidence of it
+  view: ""
+  evidence: []        # each: {date, claim, source}
+
+variant_view: ""      # what you believe that the market does not
+
+evidence_for: []      # each: {date, claim, source, engine}
+evidence_against: []
+
+linked_companies:     # sign: + gains / - loses if the thesis is right; strength 1-3
+  - {ticker: "", sign: "+", strength: 1, link: ""}
+
+predictions:          # dated and checkable; scored by the learning loop
+  - {id: p1, statement: "", probability: null, resolves: 2027-03-31, outcome: null}
+
+catalysts:            # expected outcome written before the date
+  - {date: 2026-11-01, event: "", expected: "", action_if_yes: "", action_if_no: ""}
+
+kill_criteria:        # written before any position; any one hit = exit review
+  - ""
+
+expression: ""        # how a position would be taken, and maximum size band
+notes: ""

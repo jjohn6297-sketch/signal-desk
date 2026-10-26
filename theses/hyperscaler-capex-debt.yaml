@@ -1,0 +1,45 @@
+id: hyperscaler-capex-debt
+title: Hyperscaler AI capex keeps rising through 2027, but the cost moves to depreciation and debt; power, memory
+  and networking suppliers gain while hyperscaler free cash flow falls
+type: core
+theme: hyperscalers
+status: draft
+opened: '2026-10-26'
+horizon: 12-18 months
+owner_conviction: null
+evidence_for:
+- date: '2026-10-21'
+  claim: Meta Q3 capex $34.9bn = 106% of operating cash flow; FCF -$2.1bn; long-term debt $80.9bn
+  source: https://www.sec.gov/Archives/edgar/data/0001326801/000162828026066700/meta-09302026xexhibit991.htm
+- date: '2026-07-30'
+  claim: Alphabet 2026 capex guide $195-205bn; CFO says 2027 will significantly increase
+  source: https://fool.com/investing/2026/07/30/alphabet-will-spend-as-much-as-205-billion-this-ye
+- date: '2026-07-30'
+  claim: Amazon 2026 capex guide ~ $220bn; trailing FCF -$7.6bn
+  source: https://www.nasdaq.com/press-release/amazoncom-announces-second-quarter-results-2026-07-30
+- date: '2026-09-03'
+  claim: Hyperscaler bond issuance > $180bn year to date; ~$800bn leases committed not started
+  source: https://blog.twentyfouram.com/insights/how-hyperscaler-issuance-is-reshaping-the-treasury-curve
+evidence_against:
+- date: '2026-07-30'
+  claim: Amazon operating cash flow +33%; Microsoft expects <1pt margin decline in FY27
+  source: https://www.nasdaq.com/articles/microsoft-q4-earnings-call-highlights
+predictions:
+- id: p1
+  statement: Microsoft September-quarter capex >= $50bn
+  probability: null
+  resolves: '2026-10-28'
+  outcome: null
+- id: p2
+  statement: Alphabet keeps or raises 2026 capex guide and repeats 2027 will be significantly higher
+  probability: null
+  resolves: '2026-10-28'
+  outcome: null
+- id: p3
+  statement: Amazon trailing-12-month FCF still negative after Q3
+  probability: null
+  resolves: '2026-10-29'
+  outcome: null
+kill_criteria:
+- Two or more of MSFT, GOOGL, AMZN, META, ORCL cut 2027 capex plans by Feb 2027 calls
+- Group capex below 80% of operating cash flow
