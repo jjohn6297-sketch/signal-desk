@@ -20,6 +20,10 @@ uploads each file to the dashboard and updates its source (docs/AUTOMATION.md, s
   dashboard/product_trend.json   product-manager roles per snapshot day
   dashboard/product_by_company.json  product-manager roles per tracked company
   dashboard/product_roles_ireland.json  every open product-manager role in Ireland
+  dashboard/macro_regime.json    one row: current regime, counts and position-size limits
+  dashboard/macro_indicators.json  every macro indicator with latest value, state and thresholds
+  dashboard/macro_history.json   weekly (Friday) value of each indicator since 2023
+  dashboard/regime_history.json  weekly regime since 2023
 
 A source with no rows yet is written as one row {"_empty": true}, because the dashboard
 cannot load an empty file; the page shows its empty message for that row.
@@ -293,6 +297,79 @@ def product() -> tuple[list[dict], ...]:
     return summary, levels, trend, by_co, roles
 
 
+SERIES_TO_INDICATOR = {"UST10Y": "ust10y", "BRENT": "brent", "T5YIFR": "inflation_5y5y"}
+
+
+def macro() -> tuple[list[dict], ...]:
+    import macro_regime as mr
+    cfg = mr.config()
+    inds = cfg["indicators"]
+    series = {i["id"]: mr.load(i) for i in inds}
+    manual_src = {}
+    for r in read_csv(ROOT / "data" / "macro" / "manual.csv"):
+        manual_src[r["series"]] = r.get("source")
+    fc = yaml.safe_load((ROOT / "forecasts" / "forecasts.yaml").read_text())["forecasts"]
+    linked = defaultdict(list)
+    for f in fc:
+        rule = ((f.get("resolution") or {}).get("rule") or {})
+        ind = SERIES_TO_INDICATOR.get(rule.get("series"))
+        if ind and f.get("status") == "open":
+            linked[ind].append(f["id"])
+    today = TODAY.isoformat()
+    rows = []
+    for i in inds:
+        obs = series[i["id"]]
+        latest = obs[-1] if obs else (None, None)
+        ago = lambda days: mr.as_of(obs, (TODAY - dt.timedelta(days=days)).isoformat(), 400) if obs else None
+        v1, v3 = ago(30), ago(91)
+        rows.append({
+            "id": i["id"], "name": i["name"], "unit": i["unit"], "in_regime": i["in_regime"],
+            "direction": i["direction"], "watch": i["watch"], "stress": i["stress"],
+            "latest_date": latest[0], "value": latest[1], "state": mr.state(latest[1], i),
+            "change_1m": round(latest[1] - v1, 4) if latest[1] is not None and v1 is not None else None,
+            "change_3m": round(latest[1] - v3, 4) if latest[1] is not None and v3 is not None else None,
+            "why": i.get("why"), "how": i.get("how"), "linked_forecasts": ", ".join(linked.get(i["id"], [])) or None,
+            "source_url": (f"https://fred.stlouisfed.org/series/{i['series']}" if i["source"] == "fred"
+                           else manual_src.get(i["series"])),
+            "source": "FRED" if i["source"] == "fred" else "Updated by the daily run",
+        })
+    start = "2023-01-06"
+    hist = []
+    for i in inds:
+        obs = series[i["id"]]
+        if not obs:
+            continue
+        d = dt.date.fromisoformat(start)
+        while d <= TODAY:
+            v = mr.as_of(obs, d.isoformat(), 400)
+            if v is not None:
+                hist.append({"key": f"{i['id']}|{d.isoformat()}", "id": i["id"], "date": d.isoformat(), "value": v})
+            d += dt.timedelta(days=7)
+        hist.append({"key": f"{i['id']}|{obs[-1][0]}|last", "id": i["id"], "date": obs[-1][0], "value": obs[-1][1]})
+    reg_hist = mr.history(cfg, series, start, today)
+    known_hist = [r for r in reg_hist if r["regime"]]
+    states = {r["id"]: r["state"] for r in rows if r["in_regime"]}
+    known = sum(1 for v in states.values() if v is not None)
+    hy = series.get("hy_spread", [])
+    six = (TODAY - dt.timedelta(days=183)).isoformat()
+    recent_off = any(r["regime"] == "Risk-off" for r in known_hist if r["date"] >= six)
+    label, s_n, w_n = mr.regime(states, hy[-1][1] if hy else None,
+                                mr.as_of(hy, (TODAY - dt.timedelta(days=91)).isoformat()) if hy else None, recent_off)
+    label = label if known >= 4 else None
+    since = None
+    for r in reversed(known_hist):
+        if r["regime"] != label:
+            break
+        since = r["date"]
+    bands = cfg["regime"]["bands"]
+    regime_row = [{
+        "as_of": today, "regime": label, "since": since, "stress": s_n, "watch": w_n, "known": known,
+        "total": len(states), "size_limit": cfg["regime"]["size_limits"].get(label) if label else None,
+        "bands": f"Starter {bands['starter']}%, standard {bands['standard']}%, maximum {bands['maximum']}% (proposed)",
+    }]
+    return regime_row, rows, hist, [r for r in reg_hist if r["regime"]]
+
+
 def main() -> None:
     OUT.mkdir(exist_ok=True)
     titles = {yaml.safe_load(p.read_text())["id"]: yaml.safe_load(p.read_text())["title"]
@@ -319,6 +396,11 @@ def main() -> None:
     write("product_trend", pt)
     write("product_by_company", pc)
     write("product_roles_ireland", pr)
+    mreg, mind, mhist, rhist = macro()
+    write("macro_regime", mreg)
+    write("macro_indicators", mind)
+    write("macro_history", mhist)
+    write("regime_history", rhist)
 
 
 if __name__ == "__main__":

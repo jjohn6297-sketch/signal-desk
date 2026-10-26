@@ -1,0 +1,140 @@
+# Macro indicators, thresholds and regime rules. Proposed 26 Oct 2026; John can change any
+# number by commenting on the dashboard or the guide, and the daily run copies it here.
+#
+# Each indicator is in one of three states on its latest value:
+#   normal  -> below `watch` (or above it, for direction: below)
+#   watch   -> past `watch`
+#   stress  -> past `stress`
+# `direction: above` means higher is worse; `direction: below` means lower is worse.
+#
+# Sources:
+#   fred    -> https://fred.stlouisfed.org/graph/fredgraph.csv?id=<id>, fetched daily by
+#              scripts/snapshot_macro.py on GitHub Actions (this workspace cannot reach FRED)
+#   manual  -> data/macro/manual.csv, written by the Claude daily run from a primary source
+#              (see docs/AUTOMATION.md, step 4b), with the source URL on every row
+
+indicators:
+  - id: hy_spread
+    name: High-yield credit spread
+    unit: "%"
+    source: fred
+    series: BAMLH0A0HYM2
+    direction: above
+    watch: 4.5
+    stress: 6.0
+    in_regime: true
+    why: Credit usually cracks before equities. Spreads were near 3-4% in calm years, 5-6% in the 2015-16 and 2022 scares, and 8% or more in recessions.
+  - id: curve_10y2y
+    name: Yield curve, 10 years minus 2 years
+    unit: pp
+    source: fred
+    series: T10Y2Y
+    direction: below
+    watch: 0.25
+    stress: 0.0
+    in_regime: true
+    why: An inverted curve has preceded every US recession since the 1970s, with a lag of 6 to 24 months.
+  - id: ust10y
+    name: 10-year Treasury yield
+    unit: "%"
+    source: fred
+    series: DGS10
+    direction: above
+    watch: 4.75
+    stress: 5.25
+    in_regime: true
+    why: Long-duration growth stocks and AI build-out financing are the most exposed to higher discount rates. Feeds the bonds bet (BOND forecasts).
+  - id: inflation_5y5y
+    name: Inflation expectations, 5 years from 5 years ahead
+    unit: "%"
+    source: fred
+    series: T5YIFR
+    direction: above
+    watch: 2.6
+    stress: 2.9
+    in_regime: true
+    why: Sticky inflation with rising rates is the scenario none of the current bets hedges.
+  - id: brent
+    name: Brent crude
+    unit: $/bbl
+    source: fred
+    series: DCOILBRENTEU
+    direction: above
+    watch: 95
+    stress: 110
+    in_regime: true
+    why: An oil shock feeds inflation and squeezes consumers and airlines. Feeds the airlines bet.
+  - id: sahm
+    name: Sahm rule, real time
+    unit: pp
+    source: fred
+    series: SAHMREALTIME
+    direction: above
+    watch: 0.3
+    stress: 0.5
+    in_regime: true
+    why: 0.5 is the rule's recession signal; 0.3 is an early warning.
+  - id: nfci
+    name: Chicago Fed financial conditions
+    unit: index
+    source: fred
+    series: NFCI
+    direction: above
+    watch: 0.0
+    stress: 0.5
+    in_regime: true
+    why: Zero is average conditions; positive is tighter than average.
+  - id: vix
+    name: VIX
+    unit: index
+    source: fred
+    series: VIXCLS
+    direction: above
+    watch: 22
+    stress: 30
+    in_regime: true
+    why: Implied equity volatility; above 30 has marked forced selling.
+  - id: margin_debt_yoy
+    name: Margin debt, change on a year earlier
+    unit: "%"
+    source: manual
+    series: margin_debt_yoy
+    direction: above
+    watch: 30
+    stress: 50
+    in_regime: true
+    why: Leverage built fast late in 1999-2000, 2007 and 2021. FINRA publishes debit balances in customers' securities margin accounts monthly.
+    how: Monthly. FINRA margin statistics (debit balances in customers' securities margin accounts); record the change on the same month a year earlier, in percent.
+  - id: ai_financing
+    name: AI financing stress, CoreWeave 2031 bond yield
+    unit: "%"
+    source: manual
+    series: coreweave_2031_yield
+    direction: above
+    watch: 12
+    stress: 16
+    in_regime: false
+    why: Theme risk, not part of the regime. Neocloud borrowing costs show how hard it is to finance the AI build-out. Feeds the AI build-out delay bet.
+    how: Weekly. Yield to worst on CoreWeave's 2031 senior notes from a primary or reputable market source (FINRA TRACE, issuer filings, or financial press quoting a price).
+
+# The regime decides position-size limits, not which stocks to own.
+regime:
+  rules:
+    - label: Risk-off
+      when: two or more regime indicators in stress
+    - label: Recovery
+      when: risk-off at any point in the last 6 months, now at most one indicator in stress and the high-yield spread lower than 3 months ago
+    - label: Late cycle
+      when: one indicator in stress, or three or more on watch
+    - label: Risk-on
+      when: otherwise
+  size_limits:
+    Risk-on: Up to the maximum band
+    Late cycle: One band lower; maximum positions capped at standard
+    Risk-off: Starter size only; no new positions except hedges; raise cash
+    Recovery: Up to the standard band; add on confirmation
+  # Proposed bands, as a share of the portfolio. Not yet set by John.
+  bands:
+    starter: 2
+    standard: 5
+    maximum: 8

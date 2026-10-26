@@ -53,6 +53,13 @@
 .sd-sw { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 6px; }
 .sd-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs) var(--cds-gap-md); list-style: none; margin: 0; padding: 0; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
 .sd-empty { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-body); padding: var(--cds-pad-md) 0; }
+.sd-macro-limit { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); line-height: 1.4; }
+.sd-strip { min-height: 64px; }
+.sd-mini { min-height: 180px; }
+.sd-state { display: inline-block; font-size: var(--cds-font-size-caption); border-radius: 999px; padding: 1px 8px; border: 1px solid var(--color-border-line); white-space: nowrap; }
+.sd-state.watch { color: var(--color-warn); border-color: currentColor; }
+.sd-state.stress { color: var(--color-bad); border-color: currentColor; }
+.sd-state.normal { color: var(--color-ok); border-color: currentColor; }
 .sd-foot { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); line-height: 1.5; }
 [data-dash-source-state=empty] { color: transparent; }
 [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
@@ -71,6 +78,7 @@
     <button type="button" class="sd-tab" role="tab" id="tab-record" aria-controls="record" aria-selected="false">Track record</button>
     <button type="button" class="sd-tab" role="tab" id="tab-labour" aria-controls="labour" aria-selected="false">Labour</button>
     <button type="button" class="sd-tab" role="tab" id="tab-product" aria-controls="product" aria-selected="false">Product roles</button>
+    <button type="button" class="sd-tab" role="tab" id="tab-macro" aria-controls="macro" aria-selected="false">Macro</button>
   </div>
 
   <section class="sd-page" id="today" role="tabpanel" aria-labelledby="tab-today">
@@ -306,6 +314,40 @@
     </div>
   </section>
 
+  <section class="sd-page" id="macro" role="tabpanel" aria-labelledby="tab-macro" hidden>
+    <div class="sd-grid">
+      <div class="sd-card" id="regime-card">
+        <span class="sd-tile-label">Regime</span>
+        <span class="sd-big" id="regime-label" data-source="macro_regime" data-field="regime" data-row="0">—</span>
+        <p class="sd-note" id="regime-counts"><span data-source="macro_regime" data-field="stress" data-row="0">—</span> in stress and <span data-source="macro_regime" data-field="watch" data-row="0">—</span> on watch, of <span data-source="macro_regime" data-field="known" data-row="0">—</span> indicators with data. <span id="regime-since"></span></p>
+        <p class="sd-empty" id="regime-empty" hidden>Waiting for the first FRED snapshot, which runs on GitHub at 06:17 UTC. The regime needs at least four indicators with data.</p>
+      </div>
+      <div class="sd-card" id="limits-card">
+        <span class="sd-tile-label">Position-size limits in force</span>
+        <span class="sd-macro-limit" id="regime-limit" data-source="macro_regime" data-field="size_limit" data-row="0">—</span>
+        <p class="sd-note">Bands: <span data-source="macro_regime" data-field="bands" data-row="0">—</span>. The regime sets how large positions may be, not which stocks to own.</p>
+      </div>
+    </div>
+    <div class="sd-card" id="regime-history-card">
+      <h2>Regime history</h2>
+      <p class="sd-note">Weekly, from the values known each Friday. Rules: two or more indicators in stress is risk-off; one in stress or three on watch is late cycle; easing spreads within six months of risk-off is recovery; otherwise risk-on</p>
+      <ul class="sd-legend" id="regime-legend"></ul>
+      <div class="sd-chart sd-strip" id="regime-strip" data-source="regime_history"></div>
+      <p class="sd-empty" id="regime-strip-empty" hidden>The history appears after the first FRED snapshot.</p>
+    </div>
+    <div class="sd-card" id="indicators-card">
+      <h2>Indicators against thresholds</h2>
+      <p class="sd-note">Proposed thresholds; comment on any of them to change it. AI financing is a theme risk and does not count towards the regime</p>
+      <div class="sd-scroll">
+        <table class="sd-table" id="ind-table" data-source="macro_indicators" data-row-key="id">
+          <thead><tr><th data-field="name">Indicator</th><th data-field="value" class="num">Latest</th><th data-field="state">State</th><th data-field="watch" class="num">Watch</th><th data-field="stress" class="num">Stress</th><th data-field="change_3m" class="num">3 months</th><th data-field="latest_date">As of</th><th data-field="linked_forecasts">Feeds</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="sd-thesis-grid" id="ind-charts"></div>
+  </section>
+
   <p class="sd-foot">Rebuilt from the private signal-desk repository by the weekday daily run. Smart money, Macro and Companies are not built yet. No figure here is a recommendation to trade.</p>
 </div>
 
@@ -326,7 +368,7 @@
   const todayIso = iso(today);
   const plus = (days) => iso(new Date(today.getTime() + days * 864e5));
   const state = { tab: 'today', selected: null, country: 'US' };
-  const TABS = ['today', 'theses', 'forecasts', 'record', 'labour', 'product'];
+  const TABS = ['today', 'theses', 'forecasts', 'record', 'labour', 'product', 'macro'];
   const LEVEL_NAMES = { leadership: 'Head, director, VP, CPO', senior: 'Senior, staff, principal, group', mid_or_unknown: 'Product manager', junior: 'Associate, APM', intern: 'Intern' };
 
   function rows(id) {
@@ -389,6 +431,7 @@
       .attr('role', 'img').attr('aria-label', o.label);
     let yd = d3.extent(all, (p) => p.v);
     if (o.ref != null) yd = [Math.min(yd[0], o.ref), Math.max(yd[1], o.ref)];
+    (o.refs || []).forEach((r) => { yd = [Math.min(yd[0], r.v), Math.max(yd[1], r.v)]; });
     const y = d3.scaleLinear(yd, [H - 28, 12]).nice();
     const yt = y.ticks(5);
     const probe = svg.append('g');
@@ -399,7 +442,7 @@
     const x = d3.scaleUtc(d3.extent(all, (p) => p.date), [m.l, W - m.r]);
     const g = svg.append('g');
     g.selectAll('line.gy').data(yt).join('line').attr('x1', m.l).attr('x2', W - m.r)
-      .attr('y1', (t) => y(t)).attr('y2', (t) => y(t)).attr('stroke', 'var(--cds-chart-grid)').attr('stroke-width', 1);
+      .attr('y1', (t) => y(t)).attr('y2', (t) => y(t)).style('stroke', 'var(--cds-chart-grid)').attr('stroke-width', 1);
     g.selectAll('text.yt').data(yt).join('text').attr('class', 'sd-tick').attr('x', m.l - 8).attr('y', (t) => y(t))
       .attr('dy', '0.32em').attr('text-anchor', 'end').text((t) => o.yFmt(t));
     const years = (x.domain()[1] - x.domain()[0]) / (365 * 864e5);
@@ -409,22 +452,26 @@
     const xf = years > 2.5 ? d3.utcFormat('%Y') : d3.utcFormat('%b %Y');
     g.selectAll('text.xt').data(xt).join('text').attr('class', 'sd-tick').attr('x', (t) => x(t)).attr('y', H - 8)
       .attr('text-anchor', 'middle').text((t) => xf(t));
-    g.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', H - m.b).attr('y2', H - m.b).attr('stroke', 'var(--cds-chart-axis)');
+    g.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', H - m.b).attr('y2', H - m.b).style('stroke', 'var(--cds-chart-axis)');
     if (o.ref != null) {
       g.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(o.ref)).attr('y2', y(o.ref))
-        .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 4');
+        .style('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 4');
     }
+    (o.refs || []).forEach((r) => {
+      g.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(r.v)).attr('y2', y(r.v))
+        .style('stroke', r.color).attr('stroke-width', 1).attr('stroke-dasharray', '4 4');
+    });
     const line = d3.line().x((p) => x(p.date)).y((p) => y(p.v));
     series.forEach((s) => {
-      g.append('path').datum(s.points).attr('fill', 'none').attr('stroke', s.color)
+      g.append('path').datum(s.points).style('fill', 'none').style('stroke', s.color)
         .attr('stroke-width', s.strong ? 2.5 : 2).attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round').attr('d', line);
     });
     const tip = document.createElement('div'); tip.className = 'sd-tip'; tip.hidden = true; el.appendChild(tip);
-    const rule = g.append('line').attr('y1', m.t).attr('y2', H - m.b).attr('stroke', 'var(--cds-chart-axis)').attr('visibility', 'hidden');
-    const dots = g.selectAll('circle.hd').data(series).join('circle').attr('r', 3.5).attr('fill', (s) => s.color).attr('visibility', 'hidden');
+    const rule = g.append('line').attr('y1', m.t).attr('y2', H - m.b).style('stroke', 'var(--cds-chart-axis)').attr('visibility', 'hidden');
+    const dots = g.selectAll('circle.hd').data(series).join('circle').attr('r', 3.5).style('fill', (s) => s.color).attr('visibility', 'hidden');
     const bis = d3.bisector((p) => p.date).center;
     svg.append('rect').attr('x', m.l).attr('y', m.t).attr('width', W - m.l - m.r).attr('height', H - m.t - m.b)
-      .attr('fill', 'transparent')
+      .style('fill', 'transparent')
       .on('pointermove', (ev) => {
         const [px] = d3.pointer(ev);
         const dt = x.invert(px);
@@ -643,13 +690,13 @@
         const x = d3.scaleLinear([0, 1], [m.l, W - m.r]), y = d3.scaleLinear([0, 1], [H - m.b, m.t]);
         const svg = d3.select(ch).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Calibration: stated probability against share that happened');
         const t = [0, 0.25, 0.5, 0.75, 1];
-        svg.selectAll('line.g').data(t).join('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', (v) => y(v)).attr('y2', (v) => y(v)).attr('stroke', 'var(--cds-chart-grid)');
+        svg.selectAll('line.g').data(t).join('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', (v) => y(v)).attr('y2', (v) => y(v)).style('stroke', 'var(--cds-chart-grid)');
         svg.selectAll('text.y').data(t).join('text').attr('class', 'sd-tick').attr('x', m.l - 8).attr('y', (v) => y(v)).attr('dy', '0.32em').attr('text-anchor', 'end').text((v) => pct(v));
         svg.selectAll('text.x').data(t).join('text').attr('class', 'sd-tick').attr('x', (v) => x(v)).attr('y', H - m.b + 18).attr('text-anchor', 'middle').text((v) => pct(v));
         svg.append('text').attr('class', 'sd-tick').attr('x', (m.l + W - m.r) / 2).attr('y', H - 2).attr('text-anchor', 'middle').text('Stated probability');
-        svg.append('line').attr('x1', x(0)).attr('y1', y(0)).attr('x2', x(1)).attr('y2', y(1)).attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 4');
+        svg.append('line').attr('x1', x(0)).attr('y1', y(0)).attr('x2', x(1)).attr('y2', y(1)).style('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 4');
         const r = d3.scaleSqrt([0, d3.max(pts, (p) => p.n)], [3, 12]);
-        svg.selectAll('circle').data(pts).join('circle').attr('cx', (p) => x(p.mean_stated)).attr('cy', (p) => y(p.share_happened)).attr('r', (p) => r(p.n)).attr('fill', dash.colors[0]).attr('fill-opacity', 0.8);
+        svg.selectAll('circle').data(pts).join('circle').attr('cx', (p) => x(p.mean_stated)).attr('cy', (p) => y(p.share_happened)).attr('r', (p) => r(p.n)).style('fill', dash.colors[0]).attr('fill-opacity', 0.8);
         const tip = document.createElement('div'); tip.className = 'sd-tip'; tip.hidden = true; ch.appendChild(tip);
         svg.selectAll('circle').on('pointerenter', (ev, p) => {
           tip.replaceChildren();
@@ -831,8 +878,106 @@
     }
   }
 
+  const REGIME_COLORS = { 'Risk-on': 'var(--color-ok)', 'Late cycle': 'var(--color-warn)', 'Risk-off': 'var(--cds-chart-status-critical)', Recovery: dash.colors[0] };
+  const STATE_NAMES = { normal: 'Normal', watch: 'Watch', stress: 'Stress' };
+  function fmtVal(v, unit) {
+    if (v == null) return '—';
+    if (unit === '$/bbl') return '$' + d3.format('.1f')(v);
+    if (unit === '%' || unit === 'pp') return d3.format('.2f')(v) + (unit === '%' ? '%' : ' pp');
+    return d3.format('.2f')(v);
+  }
+  function drawMacro() {
+    const rg = rows('macro_regime');
+    if (rg && rg[0]) {
+      const r = rg[0];
+      const lab = $('#regime-label');
+      lab.textContent = r.regime || 'Not set yet';
+      lab.style.color = r.regime ? REGIME_COLORS[r.regime] : '';
+      $('#regime-empty').hidden = !!r.regime;
+      txt($('#regime-limit'), r.size_limit || 'No limit set until the regime is known');
+      const since = $('#regime-since');
+      since.replaceChildren();
+      if (r.regime && r.since) {
+        const sp = document.createElement('span');
+        sp.dataset.source = 'macro_regime'; sp.dataset.field = 'since'; sp.dataset.row = '0';
+        sp.textContent = fmtDate(r.since);
+        since.append('In this regime since ', sp, '.');
+      }
+    }
+    const ind = rows('macro_indicators');
+    const tb = $('#ind-table tbody');
+    tb.replaceChildren();
+    if (failed('macro_indicators')) failLine(tb);
+    else if (ind) {
+      ind.forEach((r) => {
+        const tr = document.createElement('tr'); tr.dataset.key = r.id;
+        const n = cell(tr, r.name);
+        if (!r.in_regime) { const c = document.createElement('span'); c.className = 'sd-chip'; c.textContent = 'Theme risk'; n.append(' ', c); }
+        cell(tr, fmtVal(r.value, r.unit), 'num');
+        const st = document.createElement('td');
+        if (r.state) { const c = document.createElement('span'); c.className = 'sd-state ' + r.state; c.textContent = STATE_NAMES[r.state]; st.appendChild(c); } else st.textContent = '—';
+        tr.appendChild(st);
+        const arrow = r.direction === 'above' ? '≥ ' : '≤ ';
+        cell(tr, arrow + fmtVal(r.watch, r.unit), 'num nowrap'); cell(tr, arrow + fmtVal(r.stress, r.unit), 'num nowrap');
+        cell(tr, r.change_3m == null ? '—' : (r.change_3m > 0 ? '+' : '') + d3.format('.2f')(r.change_3m), 'num');
+        cell(tr, r.latest_date ? fmtShort(r.latest_date) : '—', 'nowrap');
+        cell(tr, r.linked_forecasts, 'muted');
+        tb.appendChild(tr);
+      });
+    }
+    if (state.tab !== 'macro') return;
+    const rh = rows('regime_history');
+    const strip = $('#regime-strip');
+    if (failed('regime_history')) failLine(strip);
+    else if (rh) {
+      $('#regime-strip-empty').hidden = rh.length > 0; strip.hidden = rh.length === 0;
+      legend($('#regime-legend'), rh.length ? Object.entries(REGIME_COLORS).map(([name, color]) => ({ name, color })) : []);
+      strip.replaceChildren();
+      if (rh.length && strip.clientWidth) {
+        const W = strip.clientWidth, H = 56, m = { l: 4, r: 4 };
+        const dates = rh.map((r) => toDate(r.date));
+        const x = d3.scaleUtc([dates[0], new Date(dates[dates.length - 1].getTime() + 7 * 864e5)], [m.l, W - m.r]);
+        const svg = d3.select(strip).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Weekly regime history');
+        svg.selectAll('rect').data(rh).join('rect')
+          .attr('x', (r) => x(toDate(r.date))).attr('y', 0).attr('height', 32)
+          .attr('width', (r) => Math.max(1, x(new Date(toDate(r.date).getTime() + 7 * 864e5)) - x(toDate(r.date))))
+          .style('fill', (r) => REGIME_COLORS[r.regime] || 'var(--cds-chart-muted)');
+        const years = d3.utcYear.range(d3.utcYear.ceil(x.domain()[0]), x.domain()[1]);
+        svg.selectAll('text').data(years).join('text').attr('class', 'sd-tick').attr('x', (t) => x(t)).attr('y', H - 4).attr('text-anchor', 'middle').text((t) => d3.utcFormat('%Y')(t));
+        const tip = document.createElement('div'); tip.className = 'sd-tip'; tip.hidden = true; strip.appendChild(tip);
+        svg.selectAll('rect').on('pointerenter', (ev, r) => {
+          tip.replaceChildren();
+          const a = document.createElement('div'); a.className = 'd'; a.textContent = 'Week to ' + fmtDate(r.date);
+          const b = document.createElement('div'); b.textContent = r.regime + ': ' + r.stress + ' in stress, ' + r.watch + ' on watch';
+          tip.append(a, b); tip.hidden = false;
+          tip.style.left = Math.min(x(toDate(r.date)), W - tip.offsetWidth) + 'px'; tip.style.top = '36px';
+        }).on('pointerleave', () => { tip.hidden = true; });
+      }
+    }
+    const mh = rows('macro_history');
+    const grid = $('#ind-charts');
+    grid.replaceChildren();
+    if (ind && mh) {
+      ind.forEach((r) => {
+        const pts = mh.filter((h) => h.id === r.id).map((h) => ({ date: toDate(h.date), v: h.value })).sort((a, b) => a.date - b.date);
+        if (pts.length < 2) return;
+        const card = document.createElement('div'); card.className = 'sd-card'; card.id = 'chart-' + r.id;
+        const h = document.createElement('h2'); h.textContent = r.name;
+        const note = document.createElement('p'); note.className = 'sd-note';
+        note.textContent = 'Weekly since 2023. Dashed lines: watch (amber) and stress (red). ' + (r.why || '');
+        const box = document.createElement('div'); box.className = 'sd-chart sd-mini'; box.dataset.source = 'macro_history';
+        card.append(h, note, box); grid.appendChild(card);
+        lineChart(box, [{ name: r.name, color: dash.colors[0], points: pts }], {
+          height: 180, label: r.name + ' since 2023',
+          refs: [{ v: r.watch, color: 'var(--color-warn)' }, { v: r.stress, color: 'var(--cds-chart-status-critical)' }],
+          yFmt: (v) => (r.unit === '$/bbl' ? '$' + v : r.unit === '%' ? v + '%' : String(v)), vFmt: (v) => fmtVal(v, r.unit),
+        });
+      });
+    }
+  }
+
   function draw() {
-    drawHeader(); drawScores(); drawInsights(); drawToday(); drawTheses(); drawForecasts(); drawRecord(); drawLabour(); drawProduct();
+    drawHeader(); drawScores(); drawInsights(); drawToday(); drawTheses(); drawForecasts(); drawRecord(); drawLabour(); drawProduct(); drawMacro();
     const ok = ['scores', 'insights', 'forecasts', 'theses'].every((id) => dash.data(id).status !== 'loading');
     if (ok) unskel();
   }

@@ -30,6 +30,9 @@ jobs:
         continue-on-error: true   # a broken board is recorded in board_status.csv
       - name: Indeed Hiring Lab
         run: python scripts/snapshot_hiringlab.py
+      - name: Macro series from FRED
+        run: python scripts/snapshot_macro.py
+        continue-on-error: true   # a failed series keeps its previous file
       - name: Resolve data-checkable forecasts
         run: python scripts/resolve_forecasts.py
       - name: Score forecasts and refit recalibration
