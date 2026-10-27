@@ -29,8 +29,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8026869,"Lead Client Partner, Consumer Apps (tvScientific)",,"San Francisco, CA, US",2026-10-02T10:25:39-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8026869,other,senior,us,False
 8245152,Lead Client Partner (eCommerce) - Greater China Region,,Singapore,2026-10-20T20:36:05-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8245152,other,senior,other,False
 8265119,"Lead Client Partner, Financial Services",,"Toronto, ON, Canada",2026-10-09T08:23:39-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8265119,other,senior,other,False
-8273738,"Lead Client Partner, Travel",,"Amsterdam, Netherlands",2026-10-20T05:12:02-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8273738,other,senior,other,False
 8206782,"Lead Client Partner, Travel",,"Atlanta, GA, US",2026-10-13T10:01:10-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8206782,other,senior,us,False
+8273738,"Lead Client Partner, Travel",,"Amsterdam, Netherlands",2026-10-20T05:12:02-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8273738,other,senior,other,False
 8129668,Lead Client Partner (tvScientific),,"New York, NY, US; Chicago, IL, US",2026-10-20T11:24:21-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8129668,other,senior,us,False
 8268344,Lead Copywriter,,"London, UK",2026-10-22T04:52:33-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8268344,marketing_content,senior,uk,False
 8239002,Lead Industry Manager,,"Singapore, SG",2026-10-21T23:10:26-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8239002,other,senior,other,False
@@ -44,7 +44,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8138080,Machine Learning Intern 2027 (Toronto),,"Toronto, ON, CA",2026-10-26T14:29:59-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8138080,data_ai,intern,us,True
 8214757,Machine Learning Intern 2027 (Zurich),,"Zurich, CH",2026-10-26T14:32:45-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8214757,data_ai,intern,other,True
 8121609,"Manager II, Customer Support",,"New York, US",2026-10-23T18:26:58-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8121609,customer_support,senior,us,False
-7957635,"Manager II, Engineering, Ads Serving Infrastructure",,"Palo Alto, CA, US; San Francisco, CA, US",2026-10-05T18:39:59-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=7957635,software_engineering,senior,us,False
+7957635,"Manager II, Engineering, Ads Serving Infrastructure",,"Palo Alto, CA, US; San Francisco, CA, US",2026-10-26T16:44:11-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=7957635,software_engineering,senior,us,False
 8015360,"Manager II, Engineering- Analytics Engineering, Core Data Science",,"San Francisco, CA, US; Remote, US",2026-10-21T17:06:05-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8015360,data_ai,senior,us,False
 8139439,"Manager II, Engineering - Kubernetes Platform",,"San Francisco, CA, US; Remote, CA, US",2026-10-21T15:26:36-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8139439,software_engineering,senior,us,False
 8152750,"Manager II, Machine Learning Engineering-Content Foundation",,"San Francisco, CA, US; Remote, CA, US",2026-10-21T17:06:49-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8152750,data_ai,senior,us,True
@@ -83,8 +83,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7746407,"Sr. Agency Lead, Dentsu/Havas",,"London, UK",2026-10-21T14:22:47-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=7746407,other,senior,uk,False
 8239061,Sr. Client Account Manager (12 Months Fixed Term),,"Sydney, Australia",2026-10-19T03:19:14-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8239061,other,senior,other,False
 8016626,Sr. Client Account Manager (Entertainment App) - Greater China Region,,"Singapore, SG",2026-10-02T10:25:35-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8016626,other,senior,other,False
-7656243,"Sr. Client Account Manager, Financial Services",,"Chicago, IL, US",2026-10-02T10:24:50-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=7656243,other,senior,us,False
 8171331,"Sr. Client Account Manager, Financial Services",,"Chicago, IL, US",2026-10-08T20:04:59-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8171331,other,senior,us,False
+7656243,"Sr. Client Account Manager, Financial Services",,"Chicago, IL, US",2026-10-02T10:24:50-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=7656243,other,senior,us,False
 8016665,Sr. Client Account Manager (Growth) - Greater China Region,,"Singapore, SG",2026-10-02T10:25:36-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8016665,other,senior,other,False
 8081452,"Sr. Client Account Manager, Home Retail",,"New York, NY, US",2026-10-02T16:11:58-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8081452,other,senior,us,False
 8233213,"Sr. Client Account Manager, Luxury Fashion",,"New York, NY, US",2026-10-20T20:26:22-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8233213,other,senior,us,False
@@ -98,7 +98,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8011376,"Sr. Data Scientist, Marketing",,"San Francisco, CA, US; Remote, US",2026-10-05T13:24:35-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8011376,data_ai,senior,us,False
 5740948,"Sr. Data Scientist, Monetization",,"San Francisco, CA, US; Seattle, WA, US",2026-10-02T10:22:02-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=5740948,data_ai,senior,us,False
 8226882,"Sr. Industry Manager, Fashion",,"San Francisco, CA, US; Los Angeles, CA, US; Seattle, WA, US",2026-10-05T18:48:28-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8226882,other,senior,us,False
-8268346,Sr. Integrated Marketing Lead,,"London, UK",2026-10-21T12:48:46-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8268346,marketing_content,senior,uk,False
 8234110,"Sr. Lead Counsel, Labor & Employment  ",,"San Francisco, CA; Remote, US",2026-10-19T13:05:26-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8234110,legal,senior,us,False
 8300884,"Sr. Lead Counsel, Privacy",,"Remote, US",2026-10-23T12:32:42-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8300884,legal,senior,us,False
 8209016,Sr. Lead HRBP - APAC Region,,"Singapore, SG",2026-10-02T10:25:58-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8209016,other,senior,other,False
@@ -134,8 +133,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8095343,"Staff Data Scientist, Notifications",,"San Francisco, CA, US; Remote, US",2026-10-21T17:06:36-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8095343,data_ai,senior,us,False
 7987856,"Staff Data Scientist, Trust and Safety",,"San Francisco, CA, US; Remote, US",2026-10-21T17:05:58-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=7987856,data_ai,senior,us,False
 8015543,Staff Machine Learning Engineer,,"San Francisco, CA, US; Remote, US",2026-10-14T13:57:40-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8015543,data_ai,senior,us,True
+8240355,Staff Machine Learning Engineer,,"San Francisco, CA, US; Remote, US",2026-10-26T15:44:30-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8240355,data_ai,senior,us,True
 8238679,"Staff Machine Learning Engineer, Ads Bidding & Pacing",,"San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",2026-10-02T10:26:01-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8238679,data_ai,senior,us,True
-8284744,"Staff Machine Learning Engineer, Ads Conversion Core Modeling",,"San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",2026-10-16T14:47:22-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8284744,data_ai,senior,us,True
 8247246,"Staff Machine Learning Engineer, Content Visual AI",,"San Francisco, CA, US; New York City, NY, US; Seattle, WA, US; Remote, US",2026-10-21T17:06:59-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8247246,data_ai,senior,us,True
 8049465,"Staff Machine Learning Engineer, Shopping Ads",,"San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",2026-10-02T16:10:45-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8049465,data_ai,senior,us,True
 8109770,"Staff Product Manager, Ads Measurement",,"New York, NY, US",2026-10-16T19:58:17-04:00,https://www.pinterestcareers.com/jobs/?gh_jid=8109770,product_management,senior,us,False

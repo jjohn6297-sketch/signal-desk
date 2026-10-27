@@ -37,3 +37,6 @@ transaction_date,filed,company,ticker,insider,role,code,shares,price,value_usd,a
 2026-10-19,2026-10-20,Nebius Group,NBIS,Grimme Arne,Director,P,148,169.99,25158,0001513845-26-000134,https://www.sec.gov/Archives/edgar/data/1513845/000151384526000134/form4.xml
 2026-10-20,2026-10-21,Nebius Group,NBIS,Grimme Arne,Director,P,151,164.62,24857,0001513845-26-000136,https://www.sec.gov/Archives/edgar/data/1513845/000151384526000136/form4.xml
 2026-10-21,2026-10-21,Nebius Group,NBIS,Grimme Arne,Director,P,148,167.94,24855,0001513845-26-000136,https://www.sec.gov/Archives/edgar/data/1513845/000151384526000136/form4.xml
+2026-10-22,2026-10-26,Nebius Group,NBIS,Grimme Arne,Director,P,357,161.97,57823,0001513845-26-000141,https://www.sec.gov/Archives/edgar/data/1513845/000151384526000141/form4.xml
+2026-10-23,2026-10-26,Nebius Group,NBIS,Grimme Arne,Director,P,205,158.98,32590,0001513845-26-000141,https://www.sec.gov/Archives/edgar/data/1513845/000151384526000141/form4.xml
+2026-10-26,2026-10-26,Nebius Group,NBIS,Grimme Arne,Director,P,208,153.96,32023,0001513845-26-000141,https://www.sec.gov/Archives/edgar/data/1513845/000151384526000141/form4.xml
