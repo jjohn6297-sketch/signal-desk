@@ -9346,5 +9346,17 @@
 "id": "vix",
 "date": "2026-10-23",
 "value": 19.45
+},
+{
+"key": "ai_financing|2026-10-23",
+"id": "ai_financing",
+"date": "2026-10-23",
+"value": 14.44
+},
+{
+"key": "ai_financing|2026-10-21|last",
+"id": "ai_financing",
+"date": "2026-10-21",
+"value": 14.44
 }
 ]

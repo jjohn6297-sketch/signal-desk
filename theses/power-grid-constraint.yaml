@@ -7,6 +7,13 @@ opened: '2026-10-26'
 horizon: 12-24 months
 owner_conviction: null
 evidence_for:
+- date: '2026-10-16'
+  claim: Schneider Electric Q3 revenue EUR11.46bn, +16.9% organic; data-centre demand up triple digits; record backlog;
+    2026 EBITA growth target raised to +18-21%
+  source: https://www.ideal-investisseur.fr/en/stock-news/schneider-electric-revenue-up-16-9-organically-in-third-quarter-adjusted-ebita-target-raised/27273.html
+- date: '2026-10-22'
+  claim: Bloom Energy Q3 revenue $1.24bn, +138%; 2026 revenue guidance raised (third time) to $4.4-4.6bn
+  source: https://www.sec.gov/Archives/edgar/data/0001664703/000162828026066890/ex991_q326financialresults.htm
 - date: '2026-07-22'
   claim: GE Vernova backlog $176bn; gas backlog + reservations 100 -> 116 GW
   source: https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000147/gevpressrelease2q26.htm

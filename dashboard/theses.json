@@ -11,7 +11,7 @@
 "conviction_prev": null,
 "conviction_reason": null,
 "owner_conviction": null,
-"evidence_for": 0,
+"evidence_for": 1,
 "evidence_against": 0,
 "kill_criteria": "Hyperscalers report capacity ahead of plan · Texas lifts its pause and clears the queue · CoreWeave CDS below 500bp · Group capex below 80% of operating cash flow without slower deliveries",
 "kill_hit": "",
@@ -37,9 +37,9 @@
 "kill_criteria": "Teleperformance H2 like-for-like >= +2% · Concentrix returns to positive cc growth · Customer-service postings rise two quarters in a row",
 "kill_hit": "",
 "variant_view": null,
-"open_forecasts": 3,
+"open_forecasts": 5,
 "resolved_forecasts": 0,
-"next_resolves": "2026-11-06"
+"next_resolves": "2026-10-28"
 },
 {
 "id": "airlines-vs-oil-curve",
@@ -142,9 +142,9 @@
 "kill_criteria": "Lonvo-z complete response letter or PDUFA delay > 3 months · New clinical hold or treatment-related death in any LNP-CRISPR programme · Casgevy revenue falls quarter on quarter twice in a row",
 "kill_hit": "",
 "variant_view": null,
-"open_forecasts": 3,
+"open_forecasts": 4,
 "resolved_forecasts": 0,
-"next_resolves": "2026-11-03"
+"next_resolves": "2026-10-28"
 },
 {
 "id": "long-duration-bonds",
@@ -179,7 +179,7 @@
 "conviction_prev": null,
 "conviction_reason": null,
 "owner_conviction": null,
-"evidence_for": 3,
+"evidence_for": 5,
 "evidence_against": 1,
 "kill_criteria": "GE Vernova gas book-to-bill below 1.5 · Eaton or Vertiv backlog falls quarter on quarter · Transformer lead times shorten",
 "kill_hit": "",

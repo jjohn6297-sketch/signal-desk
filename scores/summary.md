@@ -1,6 +1,6 @@
-# Forecast scores, 2026-10-26
+# Forecast scores, 2026-10-27
 
-0 resolved, 49 open, 49 in total.
+0 resolved, 52 open, 52 in total.
 
 No forecasts resolved yet.
 

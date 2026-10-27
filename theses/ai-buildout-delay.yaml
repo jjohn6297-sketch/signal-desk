@@ -10,6 +10,12 @@ consensus:
   view: Hyperscaler capex ~$785bn in 2026 and ~$1trn in 2027 (Moody's); long semis most crowded trade
 variant_view: Capex exceeds operating cash flow (Meta 106%, Amazon ~105%); Texas paused data-centre grid approvals;
   47+ large US projects delayed or blocked in 2026; CoreWeave 2031 bond yield above 16%
+evidence_for:
+- date: '2026-10-21'
+  claim: CoreWeave 9% Feb 2031 notes near 83 cents, yield 14.44%; Oct 2031 notes about 15% (above the 12% line in
+    DELAY-3, below the 16% cited in the variant view)
+  source: https://www.benzinga.com/markets/bonds/26/10/62503267/coreweave-bonds-spacex-results-treasury-yield
+evidence_against: []
 predictions:
 - id: p1
   statement: At least two of MSFT, GOOGL, AMZN, META, ORCL say on a results call that power or site availability
