@@ -95,14 +95,14 @@
 "conviction_prev": null,
 "conviction_reason": null,
 "owner_conviction": null,
-"evidence_for": 0,
+"evidence_for": 1,
 "evidence_against": 0,
 "kill_criteria": "Q4 volumes negative at two or more basket names · Dividend or gross-margin guidance cut at a basket name · Brent above $130 for a month",
 "kill_hit": "",
 "variant_view": "European staples near a 25-year relative valuation low; PepsiCo 16x vs ~26x 10-year median; volumes recovering",
-"open_forecasts": 3,
-"resolved_forecasts": 0,
-"next_resolves": "2026-10-28"
+"open_forecasts": 2,
+"resolved_forecasts": 1,
+"next_resolves": "2027-05-07"
 },
 {
 "id": "hyperscaler-capex-debt",
@@ -121,7 +121,7 @@
 "kill_criteria": "Two or more of MSFT, GOOGL, AMZN, META, ORCL cut 2027 capex plans by Feb 2027 calls · Group capex below 80% of operating cash flow",
 "kill_hit": "",
 "variant_view": null,
-"open_forecasts": 7,
+"open_forecasts": 8,
 "resolved_forecasts": 0,
 "next_resolves": "2026-10-28"
 },
@@ -184,7 +184,7 @@
 "kill_criteria": "GE Vernova gas book-to-bill below 1.5 · Eaton or Vertiv backlog falls quarter on quarter · Transformer lead times shorten",
 "kill_hit": "",
 "variant_view": null,
-"open_forecasts": 4,
+"open_forecasts": 6,
 "resolved_forecasts": 0,
 "next_resolves": "2026-10-28"
 },

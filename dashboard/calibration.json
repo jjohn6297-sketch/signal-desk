@@ -19,17 +19,17 @@
 "band": "40–60%",
 "lo": 0.4,
 "hi": 0.6,
-"n": 0,
-"mean_stated": null,
-"share_happened": null
+"n": 1,
+"mean_stated": 0.5,
+"share_happened": 1.0
 },
 {
 "band": "60–80%",
 "lo": 0.6,
 "hi": 0.8,
-"n": 0,
-"mean_stated": null,
-"share_happened": null
+"n": 1,
+"mean_stated": 0.6,
+"share_happened": 1.0
 },
 {
 "band": "80–100%",

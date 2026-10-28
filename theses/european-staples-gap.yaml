@@ -10,6 +10,12 @@ consensus:
   view: Staples net 32% underweight, yet US staples at 23.8x forward after an October rally
 variant_view: European staples near a 25-year relative valuation low; PepsiCo 16x vs ~26x 10-year median; volumes
   recovering
+evidence_for:
+- date: '2026-10-28'
+  claim: Unilever Q3 underlying sales growth 5.2% (volume +2.9%) against 4.8% consensus; full-year volume outlook
+    raised to at least 3%
+  source: https://www.unilever.com/news/press-and-media/press-releases/2026/continued-strong-performance-in-the-third-quarter/
+evidence_against: []
 predictions:
 - id: p1
   statement: Equal-weight Nestle, Unilever, Diageo beats XLP in EUR from 2026-10-26 to 2027-04-30

@@ -1,5 +1,44 @@
 [
 {
+"key": "0001513845-26-000141|7",
+"transaction_date": "2026-10-26",
+"filed": "2026-10-26",
+"company": "Nebius Group",
+"ticker": "NBIS",
+"insider": "Grimme Arne",
+"role": "Director",
+"shares": 208,
+"price": 153.96,
+"value_usd": 32023,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000141/form4.xml"
+},
+{
+"key": "0001513845-26-000141|6",
+"transaction_date": "2026-10-23",
+"filed": "2026-10-26",
+"company": "Nebius Group",
+"ticker": "NBIS",
+"insider": "Grimme Arne",
+"role": "Director",
+"shares": 205,
+"price": 158.98,
+"value_usd": 32590,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000141/form4.xml"
+},
+{
+"key": "0001513845-26-000141|5",
+"transaction_date": "2026-10-22",
+"filed": "2026-10-26",
+"company": "Nebius Group",
+"ticker": "NBIS",
+"insider": "Grimme Arne",
+"role": "Director",
+"shares": 357,
+"price": 161.97,
+"value_usd": 57823,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000141/form4.xml"
+},
+{
 "key": "0001513845-26-000134|4",
 "transaction_date": "2026-10-19",
 "filed": "2026-10-20",

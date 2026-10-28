@@ -788,8 +788,13 @@ forecasts:
   resolution:
     method: judged
     guidance: SK hynix Q3 2026 results, 28 Oct 2026.
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-10-28'
+  evidence:
+    summary: Q3 2026 operating profit KRW 83.33tn (preliminary), above the KRW 76.96tn line; revenue KRW 104.6tn,
+      operating margin 80%
+    url: https://news.skhynix.com/en/q3-2026-business-results/
 - id: EV-20261029-SHEL-1
   kind: event
   thesis: uk-large-caps-tech-hedge
@@ -848,8 +853,13 @@ forecasts:
   resolution:
     method: judged
     guidance: Unilever Q3 2026 trading statement, 28 Oct 2026.
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-10-28'
+  evidence:
+    summary: Q3 2026 underlying sales growth 5.2% (volume 2.9%, price 2.3%), above the 4.8% line; full-year volume
+      outlook raised to at least 3%
+    url: https://www.unilever.com/news/press-and-media/press-releases/2026/continued-strong-performance-in-the-third-quarter/
 - id: EV-20261102-RYA-1
   kind: event
   thesis: airlines-vs-oil-curve
@@ -953,5 +963,70 @@ forecasts:
   resolution:
     method: judged
     guidance: Illumina Q3 2026 results release, GAAP revenue. Guide source https://www.webull.ca/news-detail/15333908907369472
+  status: open
+  outcome: null
+- id: EV-20261103-AMD-1
+  kind: event
+  thesis: hyperscaler-capex-debt
+  event_date: '2026-11-03'
+  statement: AMD Q3 2026 revenue is at least USD 13.3bn (top of its guidance)
+  probability_raw: 0.5
+  probability: 0.5
+  reasoning: Guidance is about USD 13.0bn plus or minus USD 0.3bn, with Data Center up 107% in Q2. AMD usually lands
+    above the midpoint but less often at or above the top of the range; no reason to differ from a coin flip.
+  expected: About USD 13.2-13.4bn
+  implications:
+    if_yes: AI accelerator and server CPU demand still outrunning guidance; supports the capex thesis
+    if_no: A result near the midpoint is neutral; below USD 12.7bn would signal digestion in AI spending
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-28'
+  resolves_by: '2026-11-04'
+  resolution:
+    method: judged
+    guidance: AMD Q3 2026 results release (8-K exhibit 99.1), GAAP revenue. Guide source https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000121/q22026991.htm
+  status: open
+  outcome: null
+- id: EV-20261103-ETN-1
+  kind: event
+  thesis: power-grid-constraint
+  event_date: '2026-11-03'
+  statement: Eaton Q3 2026 organic sales growth is at least 14.5% (midpoint of its 13.5-15.5% guide)
+  probability_raw: 0.7
+  probability: 0.7
+  reasoning: Eaton beat the top of its organic guide in Q2 (14%) and has met or beaten EPS estimates four quarters
+    running; Electrical Americas rolling orders were up 41% and backlog up 33% at June.
+  expected: About 15% organic growth
+  implications:
+    if_yes: Grid equipment demand still accelerating; supports the grid thesis
+    if_no: Below the midpoint would point to delivery or capacity limits, not demand
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-28'
+  resolves_by: '2026-11-04'
+  resolution:
+    method: judged
+    guidance: Eaton Q3 2026 earnings release, 3 Nov 2026; total company organic growth. Guide source https://app.boardroomalpha.com/sec_feed/2026/QTR3/0001551182-26-000027/etn06302026exhibit99.htm
+  status: open
+  outcome: null
+- id: EV-20261103-ETN-2
+  kind: event
+  thesis: power-grid-constraint
+  event_date: '2026-11-03'
+  statement: Eaton reports Electrical Americas backlog higher at end-September 2026 than at end-June 2026
+  probability_raw: 0.85
+  probability: 0.85
+  reasoning: Rolling orders up 41% against organic sales growth of about 14% implies book-to-bill well above 1;
+    a sequential backlog fall would be the first in this cycle and is a kill criterion for the grid thesis.
+  expected: Backlog up quarter on quarter, up 25-35% year on year
+  implications:
+    if_yes: No kill criterion hit
+    if_no: Hits the grid thesis kill criterion (Eaton backlog falls quarter on quarter); raise an action card
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-28'
+  resolves_by: '2026-11-04'
+  resolution:
+    method: judged
+    guidance: Eaton Q3 2026 release or analyst presentation; Electrical Americas total backlog in USD versus the June
+      2026 figure. If only percentage changes are given, compare the year-on-year rate with the June rate and void if
+      the sequential direction cannot be determined.
   status: open
   outcome: null

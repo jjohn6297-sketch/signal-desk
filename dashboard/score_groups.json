@@ -1,5 +1,23 @@
 [
 {
-"_empty": true
+"key": "Kind: event",
+"group_type": "Kind",
+"group": "event",
+"n": 2,
+"brier": 0.205
+},
+{
+"key": "Thesis: Cheap European staples (Nestle, Unilever, Diageo) outperform expensive US staples as volumes recover",
+"group_type": "Thesis",
+"group": "Cheap European staples (Nestle, Unilever, Diageo) outperform expensive US staples as volumes recover",
+"n": 1,
+"brier": 0.25
+},
+{
+"key": "Thesis: Other",
+"group_type": "Thesis",
+"group": "Other",
+"n": 1,
+"brier": 0.16
 }
 ]
