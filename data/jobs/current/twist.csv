@@ -9,7 +9,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7676130,Customer Support Representative - India ,,APAC - Remote,2026-09-29T01:03:56-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/7676130,customer_support,mid_or_unknown,remote,False
 8020917,Director Global Logistics,,"USA - Portland, OR",2026-09-29T01:03:57-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8020917,other,leadership,us,False
 8257271,"Director, Security and Compliance",,"USA - South San Francisco, CA",2026-10-15T15:15:41-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8257271,legal,leadership,us,False
-7461855,"Field Application Scientist, SynBio and NGS Panel Design - CHINA",,APAC - Remote,2026-09-29T01:03:54-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/7461855,other,mid_or_unknown,remote,False
 487462,General Job Application,,"USA - South San Francisco, CA",2026-06-08T19:04:39-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/487462,other,mid_or_unknown,us,False
 8092391,Inside Sales Specialist - China,,APAC - Remote,2026-09-29T01:03:58-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8092391,sales,mid_or_unknown,remote,False
 8187153,Inside Sales Specialist & Technical Concierge - Japan,,APAC - Remote,2026-09-29T01:03:58-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8187153,sales,mid_or_unknown,remote,False
@@ -34,6 +33,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7396496,"Sr Global Product Marketing Manager, NGS",,"USA - South San Francisco, CA",2026-09-29T01:03:54-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/7396496,marketing_content,senior,us,False
 8164586,Sr Manager Protein Sciences ,,"USA - South San Francisco, CA",2026-09-29T01:03:32-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8164586,other,senior,us,False
 8250339,Sr NGS Sales Specialist - SF,,"USA - San Francisco Bay Area, CA (Field-Based Role)",2026-10-02T18:15:55-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8250339,sales,senior,us,False
+8304006,"Sr Project Manager, Custom Antibodies",,"USA - South San Francisco, CA",2026-10-28T14:50:25-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8304006,other,senior,us,False
 8256416,Sr Staff Mechanical Engineer ,,"USA - Portland, OR",2026-10-06T17:58:43-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8256416,software_engineering,senior,us,False
 8279352,"Sr Staff Program Manager, MES Custom Software Development Transformation",,"USA - South San Francisco, CA",2026-10-15T15:16:33-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8279352,software_engineering,senior,us,False
 8155514,Sr. Staff Scientist - Protein Sciences R&D,,"USA - South San Francisco, CA",2026-08-28T11:50:14-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8155514,other,senior,us,False

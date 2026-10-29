@@ -1,7 +1,7 @@
 job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_related
 8860563002,AI Product Manager - MBA Intern (Summer 2027),,"Redwood City, California, United States",2026-10-07T13:57:42-04:00,https://c3.ai/job-description/8860563002?gh_jid=8860563002,product_management,intern,us,True
 8879453002,Associate Site Reliability Engineer/Site Reliability Engineer,,"Redwood City, California, United States",2026-10-12T11:58:59-04:00,https://c3.ai/job-description/8879453002?gh_jid=8879453002,software_engineering,junior,us,False
-8642770002,Business Applications Manager,,"Redwood City, California, United States",2026-09-23T11:57:08-04:00,https://c3.ai/job-description/8642770002?gh_jid=8642770002,other,senior,us,False
+8642770002,Business Applications Manager,,"Redwood City, California, United States",2026-10-28T16:58:09-04:00,https://c3.ai/job-description/8642770002?gh_jid=8642770002,other,senior,us,False
 8864977002,Communications Manager ,,"Redwood City, California, United States",2026-10-02T17:50:25-04:00,https://c3.ai/job-description/8864977002?gh_jid=8864977002,marketing_content,senior,us,False
 8738918002,Data Science - Intern (Summer 2027),,"Redwood City, California, United States",2026-09-23T11:57:08-04:00,https://c3.ai/job-description/8738918002?gh_jid=8738918002,data_ai,intern,us,False
 8610437002,Data Scientist - Defence ,,"London, Greater London, England, United Kingdom",2026-10-08T18:38:38-04:00,https://c3.ai/job-description/8610437002?gh_jid=8610437002,data_ai,mid_or_unknown,uk,False
@@ -26,7 +26,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8900477002,"Forward Deployed Engineer - Federal, New Grad 2027",,"Tysons, Virginia, United States",2026-10-19T14:51:23-04:00,https://c3.ai/job-description/8900477002?gh_jid=8900477002,software_engineering,intern,us,False
 8886602002,"Forward Deployed Engineer, Federal (Onsite - Lexington Park, MD)",,Remote,2026-10-14T13:57:18-04:00,https://c3.ai/job-description/8886602002?gh_jid=8886602002,software_engineering,mid_or_unknown,remote,False
 8804558002,"Forward Deployed Engineer,  New Grad 2027",,"Redwood City, California, United States",2026-09-25T13:31:47-04:00,https://c3.ai/job-description/8804558002?gh_jid=8804558002,software_engineering,intern,us,False
-8912177002,Front Desk Coordinator,,"Redwood City, California, United States",2026-10-23T16:28:30-04:00,https://c3.ai/job-description/8912177002?gh_jid=8912177002,other,mid_or_unknown,us,False
+8912177002,Front Desk Coordinator,,"Redwood City, California, United States",2026-10-28T12:21:29-04:00,https://c3.ai/job-description/8912177002?gh_jid=8912177002,other,mid_or_unknown,us,False
 8817703002,Industry Solution Leader - Food & Agriculture (Agricultural Production),,"Redwood City, California, United States",2026-09-23T11:57:08-04:00,https://c3.ai/job-description/8817703002?gh_jid=8817703002,other,senior,us,False
 8817716002,Industry Solution Leader - Food & Agriculture (Agriculture Production),,"Chicago, Illinois, United States",2026-09-23T11:57:08-04:00,https://c3.ai/job-description/8817716002?gh_jid=8817716002,other,senior,us,False
 8817694002,Industry Solution Leader - Food & Agriculture (Food Manufacturing),,"Chicago, Illinois, United States",2026-09-23T11:57:08-04:00,https://c3.ai/job-description/8817694002?gh_jid=8817694002,other,senior,us,False

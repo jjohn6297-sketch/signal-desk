@@ -1,57 +1,57 @@
 country,series,latest_date,index_vs_feb_2020,change_3m_pct,change_12m_pct
-DE,Accounting,2026-10-16,122.03,-2.6,-13.3
-DE,Administrative Assistance,2026-10-16,99.3,2.1,-17.5
-DE,All postings,2026-10-16,101.78,-2.2,-12.2
-DE,Banking & Finance,2026-10-16,100.13,2.0,-3.6
-DE,Customer Service,2026-10-16,67.27,-5.8,-24.9
-DE,Data & Analytics,2026-10-16,72.49,-5.6,-16.4
-DE,Human Resources,2026-10-16,79.16,-3.8,-8.5
-DE,"IT Infrastructure, Operations & Support",2026-10-16,63.26,-3.7,-18.0
-DE,Insurance,2026-10-16,88.3,29.5,-14.2
-DE,Legal,2026-10-16,93.91,2.8,0.5
-DE,Marketing,2026-10-16,62.87,-0.9,-15.8
-DE,Media & Communications,2026-10-16,62.33,3.4,-12.1
-DE,Project Management,2026-10-16,80.35,-1.8,-9.0
-DE,Software Development,2026-10-16,47.69,-7.3,-17.4
-FR,Accounting,2026-10-16,62.63,0.1,-19.6
-FR,Administrative Assistance,2026-10-16,74.25,-4.8,-22.5
-FR,All postings,2026-10-16,89.07,-5.2,-16.8
-FR,Banking & Finance,2026-10-16,84.67,7.5,-3.2
-FR,Customer Service,2026-10-16,67.71,-0.4,-17.2
-FR,Human Resources,2026-10-16,69.01,-5.3,-17.1
-FR,"IT Infrastructure, Operations & Support",2026-10-16,62.62,0.9,-18.0
-FR,Insurance,2026-10-16,95.87,0.0,-19.9
-FR,Legal,2026-10-16,75.07,-1.4,-24.3
-FR,Marketing,2026-10-16,54.72,-5.4,-30.1
-FR,Media & Communications,2026-10-16,54.95,-1.9,-25.2
-FR,Project Management,2026-10-16,67.62,-2.2,-19.1
-FR,Software Development,2026-10-16,51.26,-0.8,-7.1
-GB,Accounting,2026-10-16,64.43,0.8,-19.7
-GB,Administrative Assistance,2026-10-16,63.92,0.4,-11.4
-GB,All postings,2026-10-16,68.87,0.9,-7.5
-GB,Banking & Finance,2026-10-16,84.12,0.3,-1.4
-GB,Customer Service,2026-10-16,37.4,-14.5,0.6
-GB,Data & Analytics,2026-10-16,49.8,-6.6,-5.5
-GB,Human Resources,2026-10-16,66.1,4.5,-3.4
-GB,"IT Infrastructure, Operations & Support",2026-10-16,46.1,-6.3,-15.9
-GB,Insurance,2026-10-16,90.15,1.5,-17.6
-GB,Legal,2026-10-16,93.76,11.6,-2.1
-GB,Marketing,2026-10-16,47.64,-2.8,-15.6
-GB,Media & Communications,2026-10-16,45.28,-3.4,-10.9
-GB,Project Management,2026-10-16,75.83,0.1,-3.8
-GB,Software Development,2026-10-16,59.98,-1.0,1.3
-IE,All postings,2026-10-16,103.2,7.0,-2.8
-US,Accounting,2026-10-16,106.09,12.3,-4.2
-US,Administrative Assistance,2026-10-16,93.41,-1.6,-1.6
-US,All postings,2026-10-16,103.8,2.3,2.8
-US,Banking & Finance,2026-10-16,106.89,1.0,11.7
-US,Customer Service,2026-10-16,86.56,-1.6,-1.5
-US,Data & Analytics,2026-10-16,63.63,1.0,7.6
-US,Human Resources,2026-10-16,98.6,4.3,17.8
-US,"IT Infrastructure, Operations & Support",2026-10-16,68.48,-3.5,5.0
-US,Insurance,2026-10-16,125.71,-5.3,3.9
-US,Legal,2026-10-16,123.87,5.5,2.9
-US,Marketing,2026-10-16,75.75,1.9,-2.7
-US,Media & Communications,2026-10-16,68.14,3.0,5.5
-US,Project Management,2026-10-16,117.14,5.3,16.5
-US,Software Development,2026-10-16,78.86,4.3,21.3
+DE,Accounting,2026-10-23,123.71,-0.9,-11.8
+DE,Administrative Assistance,2026-10-23,101.3,4.9,-15.2
+DE,All postings,2026-10-23,104.99,1.5,-9.3
+DE,Banking & Finance,2026-10-23,102.99,5.7,-1.4
+DE,Customer Service,2026-10-23,68.69,-4.9,-22.7
+DE,Data & Analytics,2026-10-23,73.76,-5.1,-15.4
+DE,Human Resources,2026-10-23,80.72,-2.2,-5.7
+DE,"IT Infrastructure, Operations & Support",2026-10-23,63.97,-2.1,-16.4
+DE,Insurance,2026-10-23,91.3,37.4,-10.3
+DE,Legal,2026-10-23,97.63,7.9,4.1
+DE,Marketing,2026-10-23,63.6,1.1,-14.2
+DE,Media & Communications,2026-10-23,63.78,4.5,-9.8
+DE,Project Management,2026-10-23,81.98,-0.4,-6.6
+DE,Software Development,2026-10-23,49.37,-3.6,-13.4
+FR,Accounting,2026-10-23,63.09,2.7,-18.3
+FR,Administrative Assistance,2026-10-23,73.78,-3.3,-21.7
+FR,All postings,2026-10-23,89.45,-4.2,-15.4
+FR,Banking & Finance,2026-10-23,83.65,7.1,-3.6
+FR,Customer Service,2026-10-23,70.23,4.8,-13.2
+FR,Human Resources,2026-10-23,68.55,-4.5,-18.1
+FR,"IT Infrastructure, Operations & Support",2026-10-23,62.37,-0.5,-17.0
+FR,Insurance,2026-10-23,96.1,1.6,-19.1
+FR,Legal,2026-10-23,74.39,-1.2,-25.2
+FR,Marketing,2026-10-23,56.73,0.5,-23.8
+FR,Media & Communications,2026-10-23,55.11,2.4,-25.7
+FR,Project Management,2026-10-23,68.28,1.1,-18.8
+FR,Software Development,2026-10-23,51.53,-0.4,-7.1
+GB,Accounting,2026-10-23,64.13,-2.8,-18.7
+GB,Administrative Assistance,2026-10-23,64.33,-0.3,-10.8
+GB,All postings,2026-10-23,69.37,0.6,-7.0
+GB,Banking & Finance,2026-10-23,84.18,-1.4,-0.2
+GB,Customer Service,2026-10-23,39.61,-8.7,-5.0
+GB,Data & Analytics,2026-10-23,49.97,-6.1,-4.0
+GB,Human Resources,2026-10-23,65.4,4.2,-2.9
+GB,"IT Infrastructure, Operations & Support",2026-10-23,46.92,-3.6,-13.4
+GB,Insurance,2026-10-23,93.16,3.1,-13.5
+GB,Legal,2026-10-23,94.19,10.8,-1.4
+GB,Marketing,2026-10-23,48.27,-0.9,-13.5
+GB,Media & Communications,2026-10-23,46.18,-2.1,-9.3
+GB,Project Management,2026-10-23,76.1,-2.5,-1.6
+GB,Software Development,2026-10-23,61.57,2.1,4.8
+IE,All postings,2026-10-23,104.06,6.6,-1.6
+US,Accounting,2026-10-23,107.12,20.1,-3.1
+US,Administrative Assistance,2026-10-23,93.4,-2.3,-0.9
+US,All postings,2026-10-23,103.67,1.6,3.1
+US,Banking & Finance,2026-10-23,107.2,0.7,13.2
+US,Customer Service,2026-10-23,86.75,-2.2,-0.4
+US,Data & Analytics,2026-10-23,62.4,0.3,5.5
+US,Human Resources,2026-10-23,99.42,4.9,17.4
+US,"IT Infrastructure, Operations & Support",2026-10-23,69.74,-1.6,7.5
+US,Insurance,2026-10-23,126.49,-0.7,4.9
+US,Legal,2026-10-23,125.84,5.2,4.7
+US,Marketing,2026-10-23,76.79,1.8,-0.6
+US,Media & Communications,2026-10-23,67.56,1.9,6.4
+US,Project Management,2026-10-23,117.77,4.9,16.8
+US,Software Development,2026-10-23,80.79,7.2,23.8

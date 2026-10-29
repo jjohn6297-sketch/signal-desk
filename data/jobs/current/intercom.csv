@@ -3,9 +3,9 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7254820,"Account Executive, Commercial",,"San Francisco, California",2026-09-16T13:43:47-04:00,https://job-boards.greenhouse.io/intercom/jobs/7254820,sales,mid_or_unknown,us,False
 8211426,"Account Executive, Enterprise (German)",,"Dublin, Ireland",2026-09-21T09:15:44-04:00,https://job-boards.greenhouse.io/intercom/jobs/8211426,sales,mid_or_unknown,dublin,False
 8250388,"Account Executive, Existing Business (Mid Market)",,"Sydney, Australia",2026-10-23T10:47:15-04:00,https://job-boards.greenhouse.io/intercom/jobs/8250388,sales,mid_or_unknown,other,False
+6922266,"Account Executive, MidMarket",,"Dublin, Ireland",2026-10-13T02:25:25-04:00,https://job-boards.greenhouse.io/intercom/jobs/6922266,sales,mid_or_unknown,dublin,False
 8104888,"Account Executive, MidMarket",,"London, England",2026-10-13T02:25:03-04:00,https://job-boards.greenhouse.io/intercom/jobs/8104888,sales,mid_or_unknown,uk,False
 7335309,"Account Executive, MidMarket",,"Chicago, Illinois",2026-09-16T13:43:47-04:00,https://job-boards.greenhouse.io/intercom/jobs/7335309,sales,mid_or_unknown,us,False
-6922266,"Account Executive, MidMarket",,"Dublin, Ireland",2026-10-13T02:25:25-04:00,https://job-boards.greenhouse.io/intercom/jobs/6922266,sales,mid_or_unknown,dublin,False
 7286050,"Account Executive, MidMarket",,"San Francisco, California",2026-09-16T13:43:47-04:00,https://job-boards.greenhouse.io/intercom/jobs/7286050,sales,mid_or_unknown,us,False
 7591247,"Account Executive, MidMarket - French Speaking",,"Dublin, Ireland",2026-09-16T13:43:47-04:00,https://job-boards.greenhouse.io/intercom/jobs/7591247,sales,mid_or_unknown,dublin,False
 7386163,"Account Executive, MidMarket - German Speaking",,"Dublin, Ireland",2026-09-16T13:43:47-04:00,https://job-boards.greenhouse.io/intercom/jobs/7386163,sales,mid_or_unknown,dublin,False
@@ -17,12 +17,12 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8080149,"Account Executive, Small Business",,"Sydney, Australia",2026-09-16T13:43:50-04:00,https://job-boards.greenhouse.io/intercom/jobs/8080149,sales,mid_or_unknown,other,False
 7824137,AI Infrastructure Engineer,,"London, England",2026-09-16T13:43:49-04:00,https://job-boards.greenhouse.io/intercom/jobs/7824137,data_ai,mid_or_unknown,uk,True
 7820671,AI Infrastructure Engineer,,"Dublin, Ireland",2026-09-16T13:43:49-04:00,https://job-boards.greenhouse.io/intercom/jobs/7820671,data_ai,mid_or_unknown,dublin,True
-7765514,Business Development Representative,,"Dublin, Ireland",2026-09-18T05:49:57-04:00,https://job-boards.greenhouse.io/intercom/jobs/7765514,sales,mid_or_unknown,dublin,False
 8038696,Business Development Representative,,"San Francisco, California",2026-09-16T13:43:50-04:00,https://job-boards.greenhouse.io/intercom/jobs/8038696,sales,mid_or_unknown,us,False
+7765514,Business Development Representative,,"Dublin, Ireland",2026-09-18T05:49:57-04:00,https://job-boards.greenhouse.io/intercom/jobs/7765514,sales,mid_or_unknown,dublin,False
 8028152,Cloud Security Engineer,,"London, England",2026-09-16T13:43:50-04:00,https://job-boards.greenhouse.io/intercom/jobs/8028152,software_engineering,mid_or_unknown,uk,False
 8028029,Cloud Security Engineer,,"Dublin, Ireland",2026-09-16T13:43:50-04:00,https://job-boards.greenhouse.io/intercom/jobs/8028029,software_engineering,mid_or_unknown,dublin,False
-8289272,"Customer Success Manager, Scale",,"Dublin, Ireland",2026-10-22T13:26:10-04:00,https://job-boards.greenhouse.io/intercom/jobs/8289272,customer_support,senior,dublin,False
 7370567,"Customer Success Manager, Scale",,"Chicago, Illinois",2026-09-16T13:43:48-04:00,https://job-boards.greenhouse.io/intercom/jobs/7370567,customer_support,senior,us,False
+8289272,"Customer Success Manager, Scale",,"Dublin, Ireland",2026-10-22T13:26:10-04:00,https://job-boards.greenhouse.io/intercom/jobs/8289272,customer_support,senior,dublin,False
 8268911,Customer Support Process & Continuous Improvement Manager,,"Dublin, Ireland",2026-10-27T15:25:21-04:00,https://job-boards.greenhouse.io/intercom/jobs/8268911,customer_support,senior,dublin,False
 8172406,Director of Solutions Marketing,,"San Francisco, California",2026-09-21T12:54:18-04:00,https://job-boards.greenhouse.io/intercom/jobs/8172406,marketing_content,leadership,us,False
 8314119,"Director, Sales",,"Chicago, Illinois",2026-10-23T11:48:40-04:00,https://job-boards.greenhouse.io/intercom/jobs/8314119,sales,leadership,us,False
@@ -30,73 +30,75 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7541123,"Engineering Manager, AI Group",,"Berlin, Germany",2026-10-20T09:59:32-04:00,https://job-boards.greenhouse.io/intercom/jobs/7541123,data_ai,senior,other,True
 7784684,"Engineering Manager, AI Models Infrastructure",,"Dublin, Ireland; London, England",2026-09-25T07:51:40-04:00,https://job-boards.greenhouse.io/intercom/jobs/7784684,data_ai,senior,dublin,True
 7859005,Events Producer,,"San Francisco, California",2026-09-16T13:43:50-04:00,https://job-boards.greenhouse.io/intercom/jobs/7859005,other,mid_or_unknown,us,False
-8245700,Forward Deployed Data Scientist,,"Dublin, Ireland; London, England",2026-10-08T07:29:10-04:00,https://job-boards.greenhouse.io/intercom/jobs/8245700,data_ai,mid_or_unknown,dublin,False
 8185627,Forward Deployed Data Scientist,,"San Francisco, California",2026-09-16T13:43:51-04:00,https://job-boards.greenhouse.io/intercom/jobs/8185627,data_ai,mid_or_unknown,us,False
+8245700,Forward Deployed Data Scientist,,"Dublin, Ireland; London, England",2026-10-08T07:29:10-04:00,https://job-boards.greenhouse.io/intercom/jobs/8245700,data_ai,mid_or_unknown,dublin,False
 8201208,Forward Deployed Engineer,,"Chicago, Illinois; San Francisco, California",2026-10-22T11:40:28-04:00,https://job-boards.greenhouse.io/intercom/jobs/8201208,software_engineering,mid_or_unknown,us,False
 8267783,GTM Recruiter,,"San Francisco, California",2026-10-22T16:22:27-04:00,https://job-boards.greenhouse.io/intercom/jobs/8267783,people_admin,mid_or_unknown,us,False
 8280050,GTM Recruiter,,"Chicago, Illinois",2026-10-22T16:22:57-04:00,https://job-boards.greenhouse.io/intercom/jobs/8280050,people_admin,mid_or_unknown,us,False
 7918638,IT Systems Engineer,,"San Francisco, California",2026-09-21T11:45:12-04:00,https://job-boards.greenhouse.io/intercom/jobs/7918638,software_engineering,mid_or_unknown,us,False
 8211591,"Manager, Account Executives (SMB)",,"Dublin, Ireland",2026-09-21T09:16:53-04:00,https://job-boards.greenhouse.io/intercom/jobs/8211591,sales,senior,dublin,False
+8324859,Principal Customer Success Manager,,"Chicago, Illinois; NYC, Remote; San Francisco, California",2026-10-28T12:48:14-04:00,https://job-boards.greenhouse.io/intercom/jobs/8324859,customer_support,senior,us,False
 6386427,Principal Engineer ,,"London, England",2026-09-16T13:43:46-04:00,https://job-boards.greenhouse.io/intercom/jobs/6386427,software_engineering,senior,uk,False
 6386426,Principal Engineer ,,"Dublin, Ireland",2026-09-16T13:43:46-04:00,https://job-boards.greenhouse.io/intercom/jobs/6386426,software_engineering,senior,dublin,False
 7372003,Principal Engineer ,,"Berlin, Germany",2026-10-27T06:46:58-04:00,https://job-boards.greenhouse.io/intercom/jobs/7372003,software_engineering,senior,other,False
 7961835,Principal Program Manager,,"San Francisco, California",2026-09-16T13:43:50-04:00,https://job-boards.greenhouse.io/intercom/jobs/7961835,other,senior,us,False
 8240517,"Relationship Manager, Mid Market",,"Sydney, Australia",2026-10-06T20:57:19-04:00,https://job-boards.greenhouse.io/intercom/jobs/8240517,other,senior,other,False
 8263057,"Relationship Manager, Sr MidMarket",,"Chicago, Illinois",2026-10-14T10:54:43-04:00,https://job-boards.greenhouse.io/intercom/jobs/8263057,other,senior,us,False
-8128393,Senior AI Deployment Consultant,,"San Francisco, California",2026-09-17T12:22:05-04:00,https://job-boards.greenhouse.io/intercom/jobs/8128393,data_ai,senior,us,True
-8094884,Senior AI Deployment Consultant,,"London, England",2026-09-16T13:43:50-04:00,https://job-boards.greenhouse.io/intercom/jobs/8094884,data_ai,senior,uk,True
-8140302,Senior AI Deployment Consultant,,"Chicago, Illinois",2026-09-17T12:22:31-04:00,https://job-boards.greenhouse.io/intercom/jobs/8140302,data_ai,senior,us,True
 8152224,Senior AI Deployment Consultant,,"Sydney, Australia",2026-09-16T13:43:51-04:00,https://job-boards.greenhouse.io/intercom/jobs/8152224,data_ai,senior,other,True
+8094884,Senior AI Deployment Consultant,,"London, England",2026-09-16T13:43:50-04:00,https://job-boards.greenhouse.io/intercom/jobs/8094884,data_ai,senior,uk,True
+8128393,Senior AI Deployment Consultant,,"San Francisco, California",2026-09-17T12:22:05-04:00,https://job-boards.greenhouse.io/intercom/jobs/8128393,data_ai,senior,us,True
+8140302,Senior AI Deployment Consultant,,"Chicago, Illinois",2026-09-17T12:22:31-04:00,https://job-boards.greenhouse.io/intercom/jobs/8140302,data_ai,senior,us,True
 5929232,Senior Core Technologies Engineer,,"Dublin, Ireland",2026-09-16T13:43:46-04:00,https://job-boards.greenhouse.io/intercom/jobs/5929232,software_engineering,senior,dublin,False
+8157881,Senior Customer Success Manager,,"Chicago, Illinois; NYC, Remote; San Francisco, California",2026-10-28T17:26:39-04:00,https://job-boards.greenhouse.io/intercom/jobs/8157881,customer_support,senior,us,False
 7600712,Senior Customer Success Manager,,"London, England",2026-09-16T13:43:47-04:00,https://job-boards.greenhouse.io/intercom/jobs/7600712,customer_support,senior,uk,False
 7600671,Senior Customer Success Manager,,"Dublin, Ireland",2026-09-16T13:43:47-04:00,https://job-boards.greenhouse.io/intercom/jobs/7600671,customer_support,senior,dublin,False
+8279357,Senior Customer Success Manager,,"Chicago, Illinois; San Francisco, California",2026-10-28T12:48:03-04:00,https://job-boards.greenhouse.io/intercom/jobs/8279357,customer_support,senior,us,False
 8159946,"Senior Customer Success Manager, High Touch",,"Chicago, Illinois",2026-10-21T20:16:39-04:00,https://job-boards.greenhouse.io/intercom/jobs/8159946,customer_support,senior,us,False
-8157881,"Senior Customer Success Manager, High Touch",,"San Francisco, California",2026-10-21T19:41:50-04:00,https://job-boards.greenhouse.io/intercom/jobs/8157881,customer_support,senior,us,False
 7314809,Senior Data Scientist - AI Tooling,,"Dublin, Ireland; London, England",2026-09-16T13:43:47-04:00,https://job-boards.greenhouse.io/intercom/jobs/7314809,data_ai,senior,dublin,True
 7749323,Senior Data Scientist (GTM) ,,"Dublin, Ireland; London, England",2026-09-23T06:23:13-04:00,https://job-boards.greenhouse.io/intercom/jobs/7749323,data_ai,senior,dublin,False
 6317929,Senior Data Scientist - Product Analytics,,"London, England",2026-09-16T13:43:46-04:00,https://job-boards.greenhouse.io/intercom/jobs/6317929,data_ai,senior,uk,False
 8247523,"Senior Director, GTM Enablement",,"San Francisco, California",2026-10-06T08:09:12-04:00,https://job-boards.greenhouse.io/intercom/jobs/8247523,other,leadership,us,False
 8081165,Senior Forward Deployed Engineer,,"Chicago, Illinois; San Francisco, California",2026-10-22T11:40:28-04:00,https://job-boards.greenhouse.io/intercom/jobs/8081165,software_engineering,senior,us,False
-7179952,Senior Forward Deployed Product Manager ,,"Dublin, Ireland",2026-10-27T12:46:35-04:00,https://job-boards.greenhouse.io/intercom/jobs/7179952,product_management,senior,dublin,False
+8327865,Senior Forward Deployed Product Manager (Dublin),,"Dublin, Ireland",2026-10-28T10:17:47-04:00,https://job-boards.greenhouse.io/intercom/jobs/8327865,product_management,senior,dublin,False
 7372016,Senior Machine Learning Scientist,,"Berlin, Germany",2026-09-16T13:43:49-04:00,https://job-boards.greenhouse.io/intercom/jobs/7372016,data_ai,senior,other,True
-7271603,Senior Machine Learning Scientist ,,"London, England",2026-09-16T13:43:47-04:00,https://job-boards.greenhouse.io/intercom/jobs/7271603,data_ai,senior,uk,True
 6531495,Senior Machine Learning Scientist ,,"Dublin, Ireland",2026-09-16T13:43:45-04:00,https://job-boards.greenhouse.io/intercom/jobs/6531495,data_ai,senior,dublin,True
+7271603,Senior Machine Learning Scientist ,,"London, England",2026-09-16T13:43:47-04:00,https://job-boards.greenhouse.io/intercom/jobs/7271603,data_ai,senior,uk,True
 7939367,"Senior Manager, Account Executives, Continental Europe (French/German)",,"Dublin, Ireland",2026-09-18T10:07:09-04:00,https://job-boards.greenhouse.io/intercom/jobs/7939367,sales,senior,dublin,False
 7763257,"Senior Manager, Forward Deployed Engineering",,"San Francisco, California",2026-10-21T09:52:37-04:00,https://job-boards.greenhouse.io/intercom/jobs/7763257,software_engineering,senior,us,False
 7411373,Senior ML Science Manager,,"Dublin, Ireland",2026-09-16T13:43:49-04:00,https://job-boards.greenhouse.io/intercom/jobs/7411373,data_ai,senior,dublin,True
 8230493,Senior Partner Services Manager,,"Chicago, Illinois",2026-09-24T10:57:17-04:00,https://job-boards.greenhouse.io/intercom/jobs/8230493,other,senior,us,False
 8213597,Senior Partner Services Manager,,"San Francisco, California",2026-09-24T10:57:14-04:00,https://job-boards.greenhouse.io/intercom/jobs/8213597,other,senior,us,False
-7861866,Senior Product Designer,,"London, England",2026-09-16T13:43:47-04:00,https://job-boards.greenhouse.io/intercom/jobs/7861866,other,senior,uk,False
 7862050,Senior Product Designer,,"Dublin, Ireland",2026-09-16T13:43:47-04:00,https://job-boards.greenhouse.io/intercom/jobs/7862050,other,senior,dublin,False
-6386428,Senior Product Engineer,,"Dublin, Ireland",2026-09-16T13:43:45-04:00,https://job-boards.greenhouse.io/intercom/jobs/6386428,software_engineering,senior,dublin,False
+7861866,Senior Product Designer,,"London, England",2026-09-16T13:43:47-04:00,https://job-boards.greenhouse.io/intercom/jobs/7861866,other,senior,uk,False
 5107681,Senior Product Engineer,,"London, England",2026-09-16T13:43:46-04:00,https://job-boards.greenhouse.io/intercom/jobs/5107681,software_engineering,senior,uk,False
 6428372,Senior Product Engineer,,"London, England",2026-09-16T13:43:46-04:00,https://job-boards.greenhouse.io/intercom/jobs/6428372,software_engineering,senior,uk,False
+6386428,Senior Product Engineer,,"Dublin, Ireland",2026-09-16T13:43:45-04:00,https://job-boards.greenhouse.io/intercom/jobs/6386428,software_engineering,senior,dublin,False
 6276021,"Senior Product Engineer, AI",,"Dublin, Ireland; London, England",2026-09-16T13:43:46-04:00,https://job-boards.greenhouse.io/intercom/jobs/6276021,data_ai,senior,dublin,True
 5663703,Senior Product Manager- Messenger,,"London, England",2026-09-16T13:43:46-04:00,https://job-boards.greenhouse.io/intercom/jobs/5663703,product_management,senior,uk,False
 8090570,"Senior Product Manager, Messenger",,"Dublin, Ireland",2026-09-16T13:43:46-04:00,https://job-boards.greenhouse.io/intercom/jobs/8090570,product_management,senior,dublin,False
 8264267,Senior Product Manager (Service Agent Team) ,,"London, England",2026-10-16T10:43:22-04:00,https://job-boards.greenhouse.io/intercom/jobs/8264267,product_management,senior,uk,False
-8176945,Senior Product Marketing Manager,,"Dublin, Ireland; London, England",2026-09-24T20:56:25-04:00,https://job-boards.greenhouse.io/intercom/jobs/8176945,marketing_content,senior,dublin,False
 8139739,Senior Product Marketing Manager,,"Dublin, Ireland; London, England",2026-09-24T20:56:21-04:00,https://job-boards.greenhouse.io/intercom/jobs/8139739,marketing_content,senior,dublin,False
+8176945,Senior Product Marketing Manager,,"Dublin, Ireland; London, England",2026-09-24T20:56:25-04:00,https://job-boards.greenhouse.io/intercom/jobs/8176945,marketing_content,senior,dublin,False
 8263209,Senior Program Manager,,"Dublin, Ireland",2026-10-19T11:17:05-04:00,https://job-boards.greenhouse.io/intercom/jobs/8263209,other,senior,dublin,False
 8196135,Senior Sales Operations Manager,,"San Francisco, California",2026-09-29T16:18:54-04:00,https://job-boards.greenhouse.io/intercom/jobs/8196135,sales,senior,us,False
 5082494,Senior Software Engineer,,"Dublin, Ireland",2026-09-16T13:43:45-04:00,https://job-boards.greenhouse.io/intercom/jobs/5082494,software_engineering,senior,dublin,False
-8144761,Senior Solutions Engineer,,"Chicago, Illinois",2026-10-20T14:32:50-04:00,https://job-boards.greenhouse.io/intercom/jobs/8144761,software_engineering,senior,us,False
 8122767,Senior Solutions Engineer,,"San Francisco, California",2026-10-20T14:32:50-04:00,https://job-boards.greenhouse.io/intercom/jobs/8122767,software_engineering,senior,us,False
+8144761,Senior Solutions Engineer,,"Chicago, Illinois",2026-10-20T14:32:50-04:00,https://job-boards.greenhouse.io/intercom/jobs/8144761,software_engineering,senior,us,False
 8143139,Senior Solutions Engineer- LATAM,,"Chicago, Illinois",2026-09-16T13:43:50-04:00,https://job-boards.greenhouse.io/intercom/jobs/8143139,software_engineering,senior,us,False
 8122199,Senior Solutions Engineer- LATAM,,"NYC, Remote; San Francisco, California",2026-09-16T13:43:50-04:00,https://job-boards.greenhouse.io/intercom/jobs/8122199,software_engineering,senior,us,False
 8242627,"Senior Web Designer, Growth",,"London, England",2026-09-30T08:59:34-04:00,https://job-boards.greenhouse.io/intercom/jobs/8242627,other,senior,uk,False
 7594453,Solutions Architect,,"Dublin, Ireland",2026-09-16T13:43:49-04:00,https://job-boards.greenhouse.io/intercom/jobs/7594453,other,mid_or_unknown,dublin,False
 8144743,Solutions Architect -Spanish Speaking,,"Chicago, Illinois",2026-09-16T13:43:50-04:00,https://job-boards.greenhouse.io/intercom/jobs/8144743,other,mid_or_unknown,us,False
 8123007,Solutions Architect -Spanish Speaking,,"NYC, Remote; San Francisco, California",2026-09-16T13:43:50-04:00,https://job-boards.greenhouse.io/intercom/jobs/8123007,other,mid_or_unknown,us,False
-7377200,Staff AI Product Manager,,"Dublin, Ireland",2026-09-16T13:43:49-04:00,https://job-boards.greenhouse.io/intercom/jobs/7377200,product_management,senior,dublin,True
 7464291,Staff AI Product Manager,,"London, England",2026-09-16T13:43:49-04:00,https://job-boards.greenhouse.io/intercom/jobs/7464291,product_management,senior,uk,True
+7377200,Staff AI Product Manager,,"Dublin, Ireland",2026-09-16T13:43:49-04:00,https://job-boards.greenhouse.io/intercom/jobs/7377200,product_management,senior,dublin,True
 7271914,Staff Machine Learning Scientist,,"London, England",2026-09-16T13:43:47-04:00,https://job-boards.greenhouse.io/intercom/jobs/7271914,data_ai,senior,uk,True
 6654793,Staff Machine Learning Scientist ,,"Dublin, Ireland",2026-09-16T13:43:45-04:00,https://job-boards.greenhouse.io/intercom/jobs/6654793,data_ai,senior,dublin,True
-7862038,Staff/Principal Product Designer,,"Dublin, Ireland",2026-09-16T13:43:47-04:00,https://job-boards.greenhouse.io/intercom/jobs/7862038,other,senior,dublin,False
 7862042,Staff/Principal Product Designer,,"London, England",2026-09-16T13:43:47-04:00,https://job-boards.greenhouse.io/intercom/jobs/7862042,other,senior,uk,False
+7862038,Staff/Principal Product Designer,,"Dublin, Ireland",2026-09-16T13:43:47-04:00,https://job-boards.greenhouse.io/intercom/jobs/7862038,other,senior,dublin,False
 7371916,Staff Product Engineer,,"Berlin, Germany",2026-10-15T06:38:45-04:00,https://job-boards.greenhouse.io/intercom/jobs/7371916,software_engineering,senior,other,False
 6386429,Staff Product Engineer ,,"Dublin, Ireland",2026-09-16T13:43:45-04:00,https://job-boards.greenhouse.io/intercom/jobs/6386429,software_engineering,senior,dublin,False
 6386430,Staff Product Engineer ,,"London, England",2026-09-16T13:43:45-04:00,https://job-boards.greenhouse.io/intercom/jobs/6386430,software_engineering,senior,uk,False
-7393950,"Staff Product Engineer, AI",,"Dublin, Ireland",2026-09-16T13:43:49-04:00,https://job-boards.greenhouse.io/intercom/jobs/7393950,data_ai,senior,dublin,True
 7393922,"Staff Product Engineer, AI",,"Berlin, Germany",2026-09-16T13:43:49-04:00,https://job-boards.greenhouse.io/intercom/jobs/7393922,data_ai,senior,other,True
+7393950,"Staff Product Engineer, AI",,"Dublin, Ireland",2026-09-16T13:43:49-04:00,https://job-boards.greenhouse.io/intercom/jobs/7393950,data_ai,senior,dublin,True
 7393955,"Staff Product Engineer, AI",,"London, England",2026-09-16T13:43:49-04:00,https://job-boards.greenhouse.io/intercom/jobs/7393955,data_ai,senior,uk,True
