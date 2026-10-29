@@ -13,6 +13,45 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000141/form4.xml"
 },
 {
+"key": "0001369240-26-000014|8",
+"transaction_date": "2026-10-26",
+"filed": "2026-10-28",
+"company": "Accenture",
+"ticker": "ACN",
+"insider": "Price Paula A",
+"role": "Director",
+"shares": 800,
+"price": 249.8097,
+"value_usd": 199847,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1467373/000136924026000014/wk-form4_1793184332.xml"
+},
+{
+"key": "0001487630-26-000022|9",
+"transaction_date": "2026-10-26",
+"filed": "2026-10-28",
+"company": "Accenture",
+"ticker": "ACN",
+"insider": "Sweet Julie Spellman",
+"role": "Director, Chair and CEO",
+"shares": 2100,
+"price": 245.1063,
+"value_usd": 514723,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1467373/000148763026000022/wk-form4_1793184338.xml"
+},
+{
+"key": "0001487630-26-000022|10",
+"transaction_date": "2026-10-26",
+"filed": "2026-10-28",
+"company": "Accenture",
+"ticker": "ACN",
+"insider": "Sweet Julie Spellman",
+"role": "Director, Chair and CEO",
+"shares": 10100,
+"price": 246.1701,
+"value_usd": 2486318,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1467373/000148763026000022/wk-form4_1793184338.xml"
+},
+{
 "key": "0001513845-26-000141|6",
 "transaction_date": "2026-10-23",
 "filed": "2026-10-26",

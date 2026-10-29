@@ -280,10 +280,13 @@
 "event_date": null,
 "resolves_by": "2026-10-29",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 0,
+"brier": 0.64,
+"evidence": {
+"summary": "FQ1 FY27 capital expenditures including finance leases $45.2bn (finance leases $7.4bn; cash PP&E $39.4bn), below $50bn. FQ2 guide over $50bn; calendar 2026 about $170bn",
+"url": "https://www.tradingkey.com/news/transcripts/262249601-tradingkey"
+}
 },
 {
 "id": "CAPEX-2",
@@ -302,10 +305,13 @@
 "event_date": null,
 "resolves_by": "2026-10-29",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.0225,
+"evidence": {
+"summary": "CFO: 2026 capex guidance of $195-205bn unchanged; \"continue to expect our CapEx to increase significantly in 2027\". Q3 capex $51.4bn",
+"url": "https://www.marketbeat.com/earnings/reports/2026-10-28-alphabet-inc-stock/"
+}
 },
 {
 "id": "CAPEX-3",
@@ -346,10 +352,13 @@
 "event_date": null,
 "resolves_by": "2026-10-29",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 0,
+"brier": 0.49,
+"evidence": {
+"summary": "Gas equipment backlog plus slot reservations 122 GW (backlog 53 -> 64 GW, reservations 63 -> 58 GW), below 124 GW; at least 130 GW expected by year-end",
+"url": "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm"
+}
 },
 {
 "id": "GRID-2",
@@ -610,10 +619,13 @@
 "event_date": "2026-10-28",
 "resolves_by": "2026-10-28",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.01,
+"evidence": {
+"summary": "FOMC held the target range at 3.75-4.00% on 28 Oct; vote 10-2, Cook and Hammack dissented in favour of a 25bp hike",
+"url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+}
 },
 {
 "id": "EV-20261209-FED-2",
@@ -742,10 +754,13 @@
 "event_date": "2026-10-28",
 "resolves_by": "2026-10-28",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.0625,
+"evidence": {
+"summary": "Bank Corporation Tax Surcharge raised from 3% to 6% for 15 months, 1 Jan 2027 to 31 Mar 2028 (about GBP 1.5bn)",
+"url": "https://assets.publishing.service.gov.uk/media/6ae20b9039d29f3f9b9b3f55/E03668986_HMT_Budget_2026_TEXT_PRINT__1_.pdf"
+}
 },
 {
 "id": "EV-20261028-UKB-2",
@@ -764,10 +779,13 @@
 "event_date": "2026-10-28",
 "resolves_by": "2026-10-28",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 0,
+"brier": 0.0016,
+"evidence": {
+"summary": "No change to stamp duty or SDRT on shares found in the Budget document, Tax Policy Associates or MUFG Budget summaries",
+"url": "https://assets.publishing.service.gov.uk/media/6ae20b9039d29f3f9b9b3f55/E03668986_HMT_Budget_2026_TEXT_PRINT__1_.pdf"
+}
 },
 {
 "id": "EV-20261028-UKB-3",
@@ -786,10 +804,13 @@
 "event_date": "2026-10-28",
 "resolves_by": "2026-10-28",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 0,
+"brier": 0.25,
+"evidence": {
+"summary": "Headroom against the stability rule GBP 14.5bn in 2029-30 (MUFG, Newsquawk); HM Treasury rounds it to GBP 15bn. OBR EFO page could not be opened in this run",
+"url": "https://www.mufgresearch.com/macro/european-macro-28-october-2026/"
+}
 },
 {
 "id": "EV-20261106-US-1",
@@ -852,10 +873,13 @@
 "event_date": "2026-10-28",
 "resolves_by": "2026-10-28",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.2025,
+"evidence": {
+"summary": "Azure revenue $33.2bn, up 48% (CFO). No constant-currency rate given for Q1; FQ2 guide 49-50% in constant currency",
+"url": "https://www.tradingkey.com/news/transcripts/262249601-tradingkey"
+}
 },
 {
 "id": "EV-20261028-GOOGL-1",
@@ -874,10 +898,13 @@
 "event_date": "2026-10-28",
 "resolves_by": "2026-10-28",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.2025,
+"evidence": {
+"summary": "Google Cloud revenue $30.71bn vs $15.16bn, up 103% (secondary sources; release PDF not opened)",
+"url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Third-Quarter-2026-Results-2026-FCcqxfIfmh/default.aspx"
+}
 },
 {
 "id": "EV-20261029-AMZN-1",
@@ -940,10 +967,13 @@
 "event_date": "2026-10-28",
 "resolves_by": "2026-10-28",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.0625,
+"evidence": {
+"summary": "Q3 orders $29.3bn, +96% organic; Power orders $21.8bn",
+"url": "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm"
+}
 },
 {
 "id": "EV-20261028-SKH-1",
@@ -987,10 +1017,13 @@
 "event_date": "2026-10-29",
 "resolves_by": "2026-10-29",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.25,
+"evidence": {
+"summary": "Shell announced a $5.0bn buyback for the next three months; adjusted earnings $10.8bn",
+"url": "https://www.globenewswire.com/news-release/2026/10/29/3390956/0/en/shell-plc-publishes-third-quarter-2026-press-release.html"
+}
 },
 {
 "id": "EV-20261030-BP-1",
@@ -1100,10 +1133,13 @@
 "event_date": "2026-10-28",
 "resolves_by": "2026-10-29",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.04,
+"evidence": {
+"summary": "Q3 subscription revenues $3,988m, +21% (20.5% cc), just above $3.98bn",
+"url": "https://www.sec.gov/Archives/edgar/data/0001373715/000137371526000092/erq3fy26.htm"
+}
 },
 {
 "id": "EV-20261028-NOW-2",
@@ -1122,10 +1158,13 @@
 "event_date": "2026-10-28",
 "resolves_by": "2026-10-29",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.09,
+"evidence": {
+"summary": "cRPO $13.65bn, +20.5% reported, +21% constant currency",
+"url": "https://www.sec.gov/Archives/edgar/data/0001373715/000137371526000092/erq3fy26.htm"
+}
 },
 {
 "id": "EV-20261028-ILMN-1",
@@ -1209,6 +1248,50 @@
 "made_at": "2026-10-28",
 "event_date": "2026-11-03",
 "resolves_by": "2026-11-04",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261105-TEP-1",
+"kind": "event",
+"thesis": "ai-service-agents-bpo",
+"thesis_title": "AI service agents cut outsourced call-centre volumes faster than the market expects",
+"statement": "Teleperformance Q3 2026 like-for-like revenue growth is at least 0%",
+"probability": 0.4,
+"probability_raw": 0.4,
+"override": null,
+"reasoning": "LFL improved from -2.2% in Q1 to -1.2% in Q2 (H1 -1.7%); the 0-2% full-year target needs H2 growth of about +1.7% or more. A swing of 1.2 points in one quarter is possible on easier comparisons but is not the base case.",
+"expected": "About -0.5% like-for-like",
+"if_yes": "Weakens the BPO thesis; volumes are stabilising faster than it assumes",
+"if_no": "Supports the BPO thesis; a fifth quarter of decline puts the 2026 target at risk",
+"made_at": "2026-10-29",
+"event_date": "2026-11-05",
+"resolves_by": "2026-11-10",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261105-TEP-2",
+"kind": "event",
+"thesis": "ai-service-agents-bpo",
+"thesis_title": "AI service agents cut outsourced call-centre volumes faster than the market expects",
+"statement": "Teleperformance lowers its 2026 like-for-like revenue growth target (0% to 2%) with its Q3 revenue release",
+"probability": 0.45,
+"probability_raw": 0.45,
+"override": null,
+"reasoning": "Meeting even the bottom of the range needs H2 growth near +1.7% after H1 -1.7%. Companies often keep a range until Q4 and guide to the low end instead, so a formal cut is close to even odds.",
+"expected": "Target kept, with a comment pointing to the low end",
+"if_yes": "Supports the BPO thesis; outsourced volumes are falling faster than management expected in July",
+"if_no": "Neutral; check whether management points to the low end",
+"made_at": "2026-10-29",
+"event_date": "2026-11-05",
+"resolves_by": "2026-11-10",
 "method": "judged",
 "status": "open",
 "outcome": null,

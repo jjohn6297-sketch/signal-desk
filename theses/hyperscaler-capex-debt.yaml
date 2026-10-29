@@ -20,6 +20,12 @@ evidence_for:
 - date: '2026-09-03'
   claim: Hyperscaler bond issuance > $180bn year to date; ~$800bn leases committed not started
   source: https://blog.twentyfouram.com/insights/how-hyperscaler-issuance-is-reshaping-the-treasury-curve
+- date: '2026-10-28'
+  claim: 'Alphabet Q3 capex $51.4bn (about $24bn a year earlier); 2026 guide $195-205bn kept; CFO expects capex to increase significantly in 2027'
+  source: https://www.marketbeat.com/earnings/reports/2026-10-28-alphabet-inc-stock/
+- date: '2026-10-28'
+  claim: 'Microsoft FQ1 FY27 capex incl. finance leases $45.2bn ($7.4bn finance leases); FQ2 guide over $50bn'
+  source: https://www.tradingkey.com/news/transcripts/262249601-tradingkey
 evidence_against:
 - date: '2026-07-30'
   claim: Amazon operating cash flow +33%; Microsoft expects <1pt margin decline in FY27
@@ -29,12 +35,12 @@ predictions:
   statement: Microsoft September-quarter capex >= $50bn
   probability: null
   resolves: '2026-10-28'
-  outcome: null
+  outcome: 0
 - id: p2
   statement: Alphabet keeps or raises 2026 capex guide and repeats 2027 will be significantly higher
   probability: null
   resolves: '2026-10-28'
-  outcome: null
+  outcome: 1
 - id: p3
   statement: Amazon trailing-12-month FCF still negative after Q3
   probability: null

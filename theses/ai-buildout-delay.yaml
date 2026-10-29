@@ -15,6 +15,9 @@ evidence_for:
   claim: CoreWeave 9% Feb 2031 notes near 83 cents, yield 14.44%; Oct 2031 notes about 15% (above the 12% line in
     DELAY-3, below the 16% cited in the variant view)
   source: https://www.benzinga.com/markets/bonds/26/10/62503267/coreweave-bonds-spacex-results-treasury-yield
+- date: '2026-10-28'
+  claim: 'Microsoft: third-party capacity delays held calendar-2026 capex to about $170bn and pushed spend into H2; Azure still grew 48% (first of two hyperscalers needed for p1)'
+  source: https://www.tradingkey.com/news/transcripts/262249601-tradingkey
 evidence_against: []
 predictions:
 - id: p1

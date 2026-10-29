@@ -1,12 +1,12 @@
 [
 {
-"as_of": "2026-10-28",
+"as_of": "2026-10-29",
 "latest_period": "2026-06-30",
 "funds_reported": 10,
 "funds_tracked": 11,
 "consensus_buys": 11,
 "consensus_sells": 4,
-"insider_buys_30d": 7,
+"insider_buys_30d": 10,
 "conflicts": 0,
 "next_deadline": "2026-11-16",
 "next_quarter": "2026-09-30"

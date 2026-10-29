@@ -9,6 +9,17 @@ owner_conviction: null
 consensus:
   view: UK net 26% underweight (Oct 2026 FMS); tech net 37% overweight, highest since Aug 2020
 variant_view: MSCI UK 12.2x forward vs MSCI World 17.9x; 5.1% total cash yield; FTSE 100 has almost no tech
+evidence_for:
+- date: '2026-10-29'
+  claim: 'Shell Q3 adjusted earnings $10.8bn; new $5.0bn quarterly buyback'
+  source: https://www.globenewswire.com/news-release/2026/10/29/3390956/0/en/shell-plc-publishes-third-quarter-2026-press-release.html
+- date: '2026-10-28'
+  claim: 'Budget made no change to stamp duty or SDRT on shares (kill criterion not hit)'
+  source: https://assets.publishing.service.gov.uk/media/6ae20b9039d29f3f9b9b3f55/E03668986_HMT_Budget_2026_TEXT_PRINT__1_.pdf
+evidence_against:
+- date: '2026-10-28'
+  claim: 'UK Budget doubles the bank surcharge to 6% for 15 months from Jan 2027 (about GBP 1.5bn), a hit to UK bank earnings'
+  source: https://assets.publishing.service.gov.uk/media/6ae20b9039d29f3f9b9b3f55/E03668986_HMT_Budget_2026_TEXT_PRINT__1_.pdf
 predictions:
 - id: p1
   statement: FTSE 100 total return in EUR beats MSCI World in EUR from the 2026-10-28 close to 2027-04-30

@@ -11,6 +11,11 @@ consensus:
     16 of 18 officials expect more
 variant_view: Inflation is energy-led (core CPI 2.6%, 5y5y 2.20%) while growth stalls (Sep payrolls +29k); if oil
   fades the hiking path breaks
+evidence_for: []
+evidence_against:
+- date: '2026-10-28'
+  claim: 'Fed held at 3.75-4.00% but two members (Cook, Hammack) dissented for a hike; statement says inflation remains elevated'
+  source: https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm
 predictions:
 - id: p1
   statement: 10-year Treasury does not close above 5.31% before 2027-01-31

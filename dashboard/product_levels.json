@@ -2,19 +2,19 @@
 {
 "level": "leadership",
 "order": 0,
-"open_roles": 18,
+"open_roles": 17,
 "ireland": 0
 },
 {
 "level": "senior",
 "order": 1,
-"open_roles": 162,
-"ireland": 10
+"open_roles": 161,
+"ireland": 11
 },
 {
 "level": "mid_or_unknown",
 "order": 2,
-"open_roles": 89,
+"open_roles": 88,
 "ireland": 2
 },
 {
@@ -26,7 +26,7 @@
 {
 "level": "intern",
 "order": 4,
-"open_roles": 4,
+"open_roles": 3,
 "ireland": 0
 }
 ]
