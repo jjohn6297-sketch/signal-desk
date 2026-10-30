@@ -16,6 +16,9 @@ evidence_for:
 - date: '2026-10-28'
   claim: 'Budget made no change to stamp duty or SDRT on shares (kill criterion not hit)'
   source: https://assets.publishing.service.gov.uk/media/6ae20b9039d29f3f9b9b3f55/E03668986_HMT_Budget_2026_TEXT_PRINT__1_.pdf
+- date: '2026-10-30'
+  claim: 'BP Q3 underlying RC profit $8.46bn; net debt down $8.4bn to $13.9bn, a year ahead of target; no buyback restart yet'
+  source: https://grafa.com/en/news/united-states/bp-q3-2026-profit-jumps-to-8-46-billion
 evidence_against:
 - date: '2026-10-28'
   claim: 'UK Budget doubles the bank surcharge to 6% for 15 months from Jan 2027 (about GBP 1.5bn), a hit to UK bank earnings'

@@ -3,15 +3,15 @@
 "key": "Kind: event",
 "group_type": "Kind",
 "group": "event",
-"n": 12,
-"brier": 0.1318
+"n": 18,
+"brier": 0.1267
 },
 {
 "key": "Kind: thesis",
 "group_type": "Kind",
 "group": "thesis",
-"n": 3,
-"brier": 0.3842
+"n": 5,
+"brier": 0.251
 },
 {
 "key": "Thesis: AI service agents cut outsourced call-centre volumes faster than the market expects",
@@ -31,22 +31,29 @@
 "key": "Thesis: Grid equipment and power generation are the binding constraint on AI data-centre build-out",
 "group_type": "Thesis",
 "group": "Grid equipment and power generation are the binding constraint on AI data-centre build-out",
-"n": 2,
-"brier": 0.2762
+"n": 3,
+"brier": 0.205
 },
 {
 "key": "Thesis: Hyperscaler AI capex keeps rising through 2027, but the cost moves to depreciation and debt; power, memory and networking suppliers gain while hyperscaler free cash flow falls",
 "group_type": "Thesis",
 "group": "Hyperscaler AI capex keeps rising through 2027, but the cost moves to depreciation and debt; power, memory and networking suppliers gain while hyperscaler free cash flow falls",
-"n": 4,
-"brier": 0.2669
+"n": 7,
+"brier": 0.2229
+},
+{
+"key": "Thesis: In vivo gene editing reaches commercial proof in 2026-27, lifting CRISPR Therapeutics, Intellia, Beam and their suppliers",
+"group_type": "Thesis",
+"group": "In vivo gene editing reaches commercial proof in 2026-27, lifting CRISPR Therapeutics, Intellia, Beam and their suppliers",
+"n": 1,
+"brier": 0.2025
 },
 {
 "key": "Thesis: Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
 "group_type": "Thesis",
 "group": "Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
-"n": 1,
-"brier": 0.01
+"n": 3,
+"brier": 0.0047
 },
 {
 "key": "Thesis: Other",
@@ -59,7 +66,7 @@
 "key": "Thesis: UK large caps outperform global equities in euros as a cheap, low-tech hedge against an AI correction",
 "group_type": "Thesis",
 "group": "UK large caps outperform global equities in euros as a cheap, low-tech hedge against an AI correction",
-"n": 4,
-"brier": 0.141
+"n": 5,
+"brier": 0.1208
 }
 ]

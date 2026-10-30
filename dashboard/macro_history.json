@@ -936,10 +936,16 @@
 "value": 3.38
 },
 {
-"key": "hy_spread|2026-10-26|last",
+"key": "hy_spread|2026-10-30",
 "id": "hy_spread",
-"date": "2026-10-26",
-"value": 3.3
+"date": "2026-10-30",
+"value": 3.18
+},
+{
+"key": "hy_spread|2026-10-27|last",
+"id": "hy_spread",
+"date": "2026-10-27",
+"value": 3.18
 },
 {
 "key": "curve_10y2y|2023-01-06",
@@ -2136,10 +2142,16 @@
 "value": 0.31
 },
 {
-"key": "curve_10y2y|2026-10-27|last",
+"key": "curve_10y2y|2026-10-30",
 "id": "curve_10y2y",
-"date": "2026-10-27",
-"value": 0.29
+"date": "2026-10-30",
+"value": 0.38
+},
+{
+"key": "curve_10y2y|2026-10-28|last",
+"id": "curve_10y2y",
+"date": "2026-10-28",
+"value": 0.38
 },
 {
 "key": "ust10y|2023-01-06",
@@ -3336,10 +3348,16 @@
 "value": 5.0
 },
 {
-"key": "ust10y|2026-10-26|last",
+"key": "ust10y|2026-10-30",
 "id": "ust10y",
-"date": "2026-10-26",
-"value": 5.0
+"date": "2026-10-30",
+"value": 4.99
+},
+{
+"key": "ust10y|2026-10-27|last",
+"id": "ust10y",
+"date": "2026-10-27",
+"value": 4.99
 },
 {
 "key": "inflation_5y5y|2023-01-06",
@@ -4536,10 +4554,16 @@
 "value": 2.2
 },
 {
-"key": "inflation_5y5y|2026-10-27|last",
+"key": "inflation_5y5y|2026-10-30",
 "id": "inflation_5y5y",
-"date": "2026-10-27",
-"value": 2.25
+"date": "2026-10-30",
+"value": 2.27
+},
+{
+"key": "inflation_5y5y|2026-10-28|last",
+"id": "inflation_5y5y",
+"date": "2026-10-28",
+"value": 2.27
 },
 {
 "key": "brent|2023-01-06",
@@ -5733,13 +5757,19 @@
 "key": "brent|2026-10-23",
 "id": "brent",
 "date": "2026-10-23",
-"value": 115.22
+"value": 128.3
 },
 {
-"key": "brent|2026-10-20|last",
+"key": "brent|2026-10-30",
 "id": "brent",
-"date": "2026-10-20",
-"value": 115.22
+"date": "2026-10-30",
+"value": 123.1
+},
+{
+"key": "brent|2026-10-27|last",
+"id": "brent",
+"date": "2026-10-27",
+"value": 123.1
 },
 {
 "key": "sahm|2023-01-06",
@@ -6933,6 +6963,12 @@
 "key": "sahm|2026-10-23",
 "id": "sahm",
 "date": "2026-10-23",
+"value": 0.0
+},
+{
+"key": "sahm|2026-10-30",
+"id": "sahm",
+"date": "2026-10-30",
 "value": 0.0
 },
 {
@@ -8136,6 +8172,12 @@
 "value": -0.487
 },
 {
+"key": "nfci|2026-10-30",
+"id": "nfci",
+"date": "2026-10-30",
+"value": -0.487
+},
+{
 "key": "nfci|2026-10-23|last",
 "id": "nfci",
 "date": "2026-10-23",
@@ -9336,15 +9378,27 @@
 "value": 19.45
 },
 {
-"key": "vix|2026-10-26|last",
+"key": "vix|2026-10-30",
 "id": "vix",
-"date": "2026-10-26",
-"value": 18.39
+"date": "2026-10-30",
+"value": 17.52
+},
+{
+"key": "vix|2026-10-27|last",
+"id": "vix",
+"date": "2026-10-27",
+"value": 17.52
 },
 {
 "key": "ai_financing|2026-10-23",
 "id": "ai_financing",
 "date": "2026-10-23",
+"value": 14.44
+},
+{
+"key": "ai_financing|2026-10-30",
+"id": "ai_financing",
+"date": "2026-10-30",
 "value": 14.44
 },
 {

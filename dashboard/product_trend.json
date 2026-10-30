@@ -25,5 +25,14 @@
 "pm_share": 0.0348,
 "pm_ai_share": 0.0959,
 "pm_ireland": 13
+},
+{
+"date": "2026-10-29",
+"boards": 32,
+"all_open": 7775,
+"pm_open": 272,
+"pm_share": 0.035,
+"pm_ai_share": 0.0956,
+"pm_ireland": 13
 }
 ]

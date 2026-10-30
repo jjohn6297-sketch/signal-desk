@@ -1,254 +1,254 @@
 [
 {
 "board": "datadog",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 410,
+"open_roles": 393,
 "error": null
 },
 {
 "board": "mongodb",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 363,
+"open_roles": 369,
 "error": null
 },
 {
 "board": "samsara",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 320,
+"open_roles": 324,
 "error": null
 },
 {
 "board": "coreweave",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
 "open_roles": 311,
 "error": null
 },
 {
 "board": "rocketlab",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 555,
+"open_roles": 551,
 "error": null
 },
 {
 "board": "tempus",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": false,
 "open_roles": null,
 "error": "'jobs'"
 },
 {
 "board": "natera",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 235,
+"open_roles": 231,
 "error": null
 },
 {
 "board": "twist",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
 "open_roles": 44,
 "error": null
 },
 {
 "board": "intellia",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": false,
 "open_roles": null,
 "error": "'jobs'"
 },
 {
 "board": "beam",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 43,
+"open_roles": 41,
 "error": null
 },
 {
 "board": "crispr",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": false,
 "open_roles": null,
 "error": "'jobs'"
 },
 {
 "board": "gitlab",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 237,
+"open_roles": 231,
 "error": null
 },
 {
 "board": "zeta",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 118,
+"open_roles": 112,
 "error": null
 },
 {
 "board": "planet",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 131,
+"open_roles": 130,
 "error": null
 },
 {
 "board": "c3ai",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
 "open_roles": 91,
 "error": null
 },
 {
 "board": "stripe",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 714,
+"open_roles": 725,
 "error": null
 },
 {
 "board": "intercom",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 101,
+"open_roles": 103,
 "error": null
 },
 {
 "board": "airbnb",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 196,
+"open_roles": 190,
 "error": null
 },
 {
 "board": "dropbox",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
 "open_roles": 21,
 "error": null
 },
 {
 "board": "pinterest",
-"date": "2026-10-28",
-"ok": true,
-"open_roles": 161,
-"error": null
-},
-{
-"board": "reddit",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
 "open_roles": 162,
 "error": null
 },
 {
+"board": "reddit",
+"date": "2026-10-29",
+"ok": true,
+"open_roles": 163,
+"error": null
+},
+{
 "board": "squarespace",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
 "open_roles": 27,
 "error": null
 },
 {
 "board": "etsy",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": false,
 "open_roles": null,
 "error": "'jobs'"
 },
 {
 "board": "toast",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 339,
+"open_roles": 340,
 "error": null
 },
 {
 "board": "twilio",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 132,
+"open_roles": 129,
 "error": null
 },
 {
 "board": "okta",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 385,
+"open_roles": 384,
 "error": null
 },
 {
 "board": "coinbase",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 227,
+"open_roles": 228,
 "error": null
 },
 {
 "board": "anthropic",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 681,
+"open_roles": 680,
 "error": null
 },
 {
 "board": "openai",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 805,
+"open_roles": 812,
 "error": null
 },
 {
 "board": "udemy",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
 "open_roles": 3,
 "error": null
 },
 {
 "board": "wayflyer",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
 "open_roles": 15,
 "error": null
 },
 {
 "board": "figma",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 142,
+"open_roles": 141,
 "error": null
 },
 {
 "board": "cloudflare",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 459,
+"open_roles": 460,
 "error": null
 },
 {
 "board": "duolingo",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 58,
+"open_roles": 59,
 "error": null
 },
 {
 "board": "robinhood",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 159,
+"open_roles": 162,
 "error": null
 },
 {
 "board": "notion",
-"date": "2026-10-28",
+"date": "2026-10-29",
 "ok": true,
-"open_roles": 140,
+"open_roles": 143,
 "error": null
 }
 ]

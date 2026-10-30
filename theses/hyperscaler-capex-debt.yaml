@@ -26,10 +26,16 @@ evidence_for:
 - date: '2026-10-28'
   claim: 'Microsoft FQ1 FY27 capex incl. finance leases $45.2bn ($7.4bn finance leases); FQ2 guide over $50bn'
   source: https://www.tradingkey.com/news/transcripts/262249601-tradingkey
+- date: '2026-10-29'
+  claim: 'Amazon Q3 capex $77.3bn; trailing-12-month FCF -$42.4bn (from -$7.6bn at Q2); 2026 cash capex about $220bn kept; Jassy indicated 2027 capex will rise significantly'
+  source: https://www.sec.gov/Archives/edgar/data/0001018724/000101872426000038/amzn-20260930xex991.htm
 evidence_against:
 - date: '2026-07-30'
   claim: Amazon operating cash flow +33%; Microsoft expects <1pt margin decline in FY27
   source: https://www.nasdaq.com/articles/microsoft-q4-earnings-call-highlights
+- date: '2026-10-29'
+  claim: 'AWS revenue $46.0bn, +39.3%, fastest in nearly five years; AWS backlog $578bn (call, secondary)'
+  source: https://finance.yahoo.com/markets/stocks/articles/amazon-com-q3-earnings-call-001416198.html
 predictions:
 - id: p1
   statement: Microsoft September-quarter capex >= $50bn
@@ -45,7 +51,7 @@ predictions:
   statement: Amazon trailing-12-month FCF still negative after Q3
   probability: null
   resolves: '2026-10-29'
-  outcome: null
+  outcome: 1
 kill_criteria:
 - Two or more of MSFT, GOOGL, AMZN, META, ORCL cut 2027 capex plans by Feb 2027 calls
 - Group capex below 80% of operating cash flow

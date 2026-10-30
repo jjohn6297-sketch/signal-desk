@@ -16,6 +16,12 @@ evidence_against:
 - date: '2026-10-28'
   claim: 'Fed held at 3.75-4.00% but two members (Cook, Hammack) dissented for a hike; statement says inflation remains elevated'
   source: https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm
+- date: '2026-10-29'
+  claim: 'ECB held the deposit rate at 2.50%; Lagarde said the direction of travel is clear and a December hike is not ruled out'
+  source: https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html
+- date: '2026-10-30'
+  claim: 'BoJ held at 1.25% by 8-1, with one dissent for a hike to 1.50%'
+  source: https://www.tradingpedia.com/2026/10/30/sterling-yen-firm-as-boj-keeps-cautious-policy-stance/
 predictions:
 - id: p1
   statement: 10-year Treasury does not close above 5.31% before 2027-01-31

@@ -262,8 +262,12 @@ forecasts:
   resolution:
     method: judged
     guidance: 'Read Amazon Q3 2026 release (29 Oct 2026): trailing twelve-month free cash flow as reported.'
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-10-30'
+  evidence:
+    summary: 'Amazon Q3 2026 trailing-twelve-month free cash flow -$42.4bn (operating cash flow $168.3bn less net capex $210.7bn); Q3 capex $77.3bn'
+    url: https://www.sec.gov/Archives/edgar/data/0001018724/000101872426000038/amzn-20260930xex991.htm
 - id: GRID-1
   kind: thesis
   thesis: power-grid-constraint
@@ -295,8 +299,12 @@ forecasts:
   resolution:
     method: judged
     guidance: Read Vertiv Q3 2026 results.
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-10-30'
+  evidence:
+    summary: 'Vertiv Q3 2026 organic net sales growth 55% (net sales $4.31bn)'
+    url: https://www.sec.gov/Archives/edgar/data/0001674101/000162828026067707/q32026exhibit991vrt10282026.htm
 - id: GRID-3
   kind: thesis
   thesis: power-grid-constraint
@@ -516,8 +524,12 @@ forecasts:
   resolution:
     method: judged
     guidance: ECB monetary policy decision, 29 Oct 2026.
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-10-30'
+  evidence:
+    summary: 'ECB kept the three key rates unchanged on 29 Oct 2026; deposit facility rate 2.50%. Lagarde: the hold does not mean no hike in December'
+    url: https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html
 - id: EV-202612-ECB-2
   kind: event
   thesis: long-duration-bonds
@@ -556,8 +568,12 @@ forecasts:
   resolution:
     method: judged
     guidance: BoJ statement, 30 Oct 2026.
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-10-30'
+  evidence:
+    summary: 'BoJ held the policy rate at 1.25% on 30 Oct 2026 by 8-1; Takata dissented for a hike to 1.50% (BoJ statement not opened; secondary source)'
+    url: https://www.tradingpedia.com/2026/10/30/sterling-yen-firm-as-boj-keeps-cautious-policy-stance/
 - id: EV-20261105-BOE-1
   kind: event
   thesis: uk-large-caps-tech-hedge
@@ -763,8 +779,12 @@ forecasts:
   resolution:
     method: judged
     guidance: Amazon Q3 2026 release, 29 Oct 2026.
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 0
+  resolved_at: '2026-10-30'
+  evidence:
+    summary: 'AWS Q3 2026 net sales $45,984m, +39.3% year on year, below 40%'
+    url: https://www.sec.gov/Archives/edgar/data/0001018724/000101872426000038/amzn-20260930xex991.htm
 - id: EV-20261029-AMZN-2
   kind: event
   thesis: hyperscaler-capex-debt
@@ -783,8 +803,12 @@ forecasts:
   resolution:
     method: judged
     guidance: Amazon Q3 2026 call, 29 Oct 2026.
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 0
+  resolved_at: '2026-10-30'
+  evidence:
+    summary: 'Release: ''We continue to expect 2026 cash capital expenditures to be approximately $220 billion'' (not raised); 2027 to rise significantly'
+    url: https://www.sec.gov/Archives/edgar/data/0001018724/000101872426000038/amzn-20260930xex991.htm
 - id: EV-20261028-GEV-1
   kind: event
   thesis: power-grid-constraint
@@ -877,8 +901,12 @@ forecasts:
   resolution:
     method: judged
     guidance: BP Q3 2026 results, 30 Oct 2026.
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 0
+  resolved_at: '2026-10-30'
+  evidence:
+    summary: 'BP Q3 2026: underlying RC profit $8.46bn, net debt down $8.4bn to $13.9bn, dividend 8.66c; no buyback announced in the reports read (BP release itself not opened)'
+    url: https://grafa.com/en/news/united-states/bp-q3-2026-profit-jumps-to-8-46-billion
 - id: EV-20261028-ULVR-1
   kind: event
   thesis: european-staples-gap
@@ -1015,8 +1043,12 @@ forecasts:
   resolution:
     method: judged
     guidance: Illumina Q3 2026 results release, GAAP revenue. Guide source https://www.webull.ca/news-detail/15333908907369472
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 0
+  resolved_at: '2026-10-30'
+  evidence:
+    summary: 'Illumina Q3 2026 GAAP revenue $1,129m (+4.2%), below $1.16bn; FY26 guide raised to $4.64-4.66bn. Results were on 29 Oct, after made_at'
+    url: https://www.sec.gov/Archives/edgar/data/0001110803/000111080326000202/q326earningsrelease.htm
 - id: EV-20261103-AMD-1
   kind: event
   thesis: hyperscaler-capex-debt
@@ -1124,5 +1156,28 @@ forecasts:
     method: judged
     guidance: Teleperformance Q3 2026 revenue release. "Lowers" means a new range or point below 0-2%, or explicit
       withdrawal of the range. Guiding to the low end of 0-2% is a no. Void if not published by 10 Nov.
+  status: open
+  outcome: null
+- id: EV-20261103-AMD-2
+  kind: event
+  thesis: hyperscaler-capex-debt
+  event_date: '2026-11-03'
+  statement: AMD guides Q4 2026 revenue at a midpoint at least 10% above its reported Q3 2026 revenue
+  probability_raw: 0.55
+  probability: 0.57
+  reasoning: Q4 guide midpoints were about 10% above Q3 actual in 2024 and about 4% in 2025. The MI450 ramp for
+    OpenAI starts in H2 2026 and Data Center is now over 58% of revenue, which pushes the sequential step up; a
+    conservative guide is the main risk. Q3 guide is about $13.0bn, consensus $13.06bn.
+  expected: Q4 guide midpoint about 10-14% above Q3
+  implications:
+    if_yes: Supports the supplier side of the capex thesis; hyperscaler spending is reaching second-source GPUs
+    if_no: Spending is concentrating on Nvidia and custom chips, or the MI450 ramp is slipping (a delay signal)
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-10-30'
+  resolves_by: '2026-11-04'
+  resolution:
+    method: judged
+    guidance: AMD Q3 2026 results release; Q4 revenue outlook midpoint divided by Q3 reported revenue, at least 1.10.
+      Guide and consensus source https://www.hudson-labs.com/research/amd-q3-2026-earnings-preview-revenue-guidance-key-drivers
   status: open
   outcome: null

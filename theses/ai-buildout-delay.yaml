@@ -18,7 +18,10 @@ evidence_for:
 - date: '2026-10-28'
   claim: 'Microsoft: third-party capacity delays held calendar-2026 capex to about $170bn and pushed spend into H2; Azure still grew 48% (first of two hyperscalers needed for p1)'
   source: https://www.tradingkey.com/news/transcripts/262249601-tradingkey
-evidence_against: []
+evidence_against:
+- date: '2026-10-29'
+  claim: 'Amazon did not cite power or site delays; Jassy: customers take capacity almost as fast as it is installed (secondary summary)'
+  source: https://finance.yahoo.com/markets/stocks/articles/amazon-com-q3-earnings-call-001416198.html
 predictions:
 - id: p1
   statement: At least two of MSFT, GOOGL, AMZN, META, ORCL say on a results call that power or site availability
