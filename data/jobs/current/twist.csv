@@ -10,7 +10,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8020917,Director Global Logistics,,"USA - Portland, OR",2026-09-29T01:03:57-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8020917,other,leadership,us,False
 8257271,"Director, Security and Compliance",,"USA - South San Francisco, CA",2026-10-15T15:15:41-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8257271,legal,leadership,us,False
 487462,General Job Application,,"USA - South San Francisco, CA",2026-06-08T19:04:39-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/487462,other,mid_or_unknown,us,False
-8092391,Inside Sales Specialist - China,,APAC - Remote,2026-09-29T01:03:58-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8092391,sales,mid_or_unknown,remote,False
 8187153,Inside Sales Specialist & Technical Concierge - Japan,,APAC - Remote,2026-09-29T01:03:58-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8187153,sales,mid_or_unknown,remote,False
 8204198,"Key Account Manager, NGS - Singapore, Hong Kong, Taiwan",,APAC - Remote,2026-09-29T01:03:59-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8204198,other,senior,remote,False
 8279022,"Manager, Quality Management Systems",,"USA - South San Francisco, CA",2026-10-14T08:27:42-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8279022,other,senior,us,False
@@ -18,6 +17,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 4168795,Manufacturing Associate ,,"USA - Portland, OR",2026-06-08T19:04:39-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/4168795,other,junior,us,False
 8008413,Manufacturing Associate - Gene Production,,"USA - Portland, OR",2026-09-17T11:12:05-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8008413,other,junior,us,False
 8139437,Manufacturing Associate - Kitting (Temp),,"USA - Portland, OR",2026-10-09T23:13:40-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8139437,other,junior,us,False
+8301236,"Manufacturing Associate, NGS TE Production",,"USA - South San Francisco, CA",2026-10-29T14:25:08-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8301236,other,junior,us,False
 8240087,"Manufacturing Lead, IgG Production",,"USA - Portland, OR",2026-10-13T16:39:22-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8240087,other,senior,us,False
 8328862,"Manufacturing Supervisor, NGS TE Production",,"USA - South San Francisco, CA",2026-10-27T16:13:30-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8328862,other,mid_or_unknown,us,False
 8196987,Marketing Analytics Manager,,"USA - Carlsbad, CA; USA - South San Francisco, CA",2026-10-06T19:09:48-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8196987,marketing_content,senior,us,False

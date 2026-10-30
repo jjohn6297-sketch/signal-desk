@@ -43,3 +43,5 @@ transaction_date,filed,company,ticker,insider,role,code,shares,price,value_usd,a
 2026-10-26,2026-10-28,Accenture,ACN,Price Paula A,Director,P,800,249.8097,199847,0001369240-26-000014,https://www.sec.gov/Archives/edgar/data/1467373/000136924026000014/wk-form4_1793184332.xml
 2026-10-26,2026-10-28,Accenture,ACN,Sweet Julie Spellman,"Director, Chair and CEO",P,2100,245.1063,514723,0001487630-26-000022,https://www.sec.gov/Archives/edgar/data/1467373/000148763026000022/wk-form4_1793184338.xml
 2026-10-26,2026-10-28,Accenture,ACN,Sweet Julie Spellman,"Director, Chair and CEO",P,10100,246.1701,2486318,0001487630-26-000022,https://www.sec.gov/Archives/edgar/data/1467373/000148763026000022/wk-form4_1793184338.xml
+2026-10-27,2026-10-29,Nebius Group,NBIS,Grimme Arne,Director,P,205,159.04,32603,0001513845-26-000143,https://www.sec.gov/Archives/edgar/data/1513845/000151384526000143/form4.xml
+2026-10-28,2026-10-29,Nebius Group,NBIS,Grimme Arne,Director,P,148,169.84,25136,0001513845-26-000143,https://www.sec.gov/Archives/edgar/data/1513845/000151384526000143/form4.xml
