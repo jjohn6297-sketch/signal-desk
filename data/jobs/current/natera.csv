@@ -165,8 +165,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 6157688004,Senior Accountant,,US Remote,2026-10-29T17:32:22-04:00,https://job-boards.greenhouse.io/natera/jobs/6157688004,accounting_finance,senior,us,False
 6230402004,Senior Bioinformatics & Genomics Data System Engineer,,US Remote,2026-10-30T11:05:36-04:00,https://job-boards.greenhouse.io/natera/jobs/6230402004,software_engineering,senior,us,False
 6237859004,Senior Bioinformatics & Genomics Data System Engineer,,"San Carlos, CA",2026-10-30T11:05:36-04:00,https://job-boards.greenhouse.io/natera/jobs/6237859004,software_engineering,senior,us,False
-6236939004,Senior Bioinformatics Scientist ,,"San Carlos, CA",2026-10-30T11:11:37-04:00,https://job-boards.greenhouse.io/natera/jobs/6236939004,other,senior,us,False
 6233378004,Senior Bioinformatics Scientist ,,US Remote,2026-10-30T11:11:37-04:00,https://job-boards.greenhouse.io/natera/jobs/6233378004,other,senior,us,False
+6236939004,Senior Bioinformatics Scientist ,,"San Carlos, CA",2026-10-30T11:11:37-04:00,https://job-boards.greenhouse.io/natera/jobs/6236939004,other,senior,us,False
 6205794004,Senior Data Analyst,,"San Carlos, CA",2026-09-28T12:52:23-04:00,https://job-boards.greenhouse.io/natera/jobs/6205794004,other,senior,us,False
 6220046004,"Senior Director, Development - ECD and MCED Products",,"San Carlos, CA",2026-10-14T12:15:38-04:00,https://job-boards.greenhouse.io/natera/jobs/6220046004,other,leadership,us,False
 6216503004,"Senior Director / Director , Breast Oncology Lifecycle Management",,US Remote,2026-10-12T13:04:44-04:00,https://job-boards.greenhouse.io/natera/jobs/6216503004,other,leadership,us,False
@@ -175,16 +175,14 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 6228890004,Senior Lab Equipment Tech,,"Austin, TX",2026-10-30T11:04:34-04:00,https://job-boards.greenhouse.io/natera/jobs/6228890004,other,senior,us,False
 6239910004,Senior Laboratory Automation Engineer,,"San Carlos, CA",2026-10-30T17:01:26-04:00,https://job-boards.greenhouse.io/natera/jobs/6239910004,software_engineering,senior,us,False
 6007679004,"Senior Manager, Network Operations",,"Austin, TX",2026-10-01T16:01:16-04:00,https://job-boards.greenhouse.io/natera/jobs/6007679004,other,senior,us,False
-6239908004,"Senior Manager, Software Engineering — Case Management Platform",,US Remote,2026-10-30T17:03:56-04:00,https://job-boards.greenhouse.io/natera/jobs/6239908004,software_engineering,senior,us,False
 6123519004,"Senior Product Manager, Salesforce",,"Austin, TX",2026-08-18T17:16:21-04:00,https://job-boards.greenhouse.io/natera/jobs/6123519004,product_management,senior,us,False
-6222472004,"Senior Product Manager, Sales, Marketing & Business Solutions",,US Remote,2026-10-13T17:04:33-04:00,https://job-boards.greenhouse.io/natera/jobs/6222472004,product_management,senior,us,False
 6207281004,Senior Regulatory Affairs Specialist,,US Remote,2026-10-19T16:54:23-04:00,https://job-boards.greenhouse.io/natera/jobs/6207281004,other,senior,us,False
 6142351004,Senior Research Associate,,"Austin, TX",2026-10-26T21:39:09-04:00,https://job-boards.greenhouse.io/natera/jobs/6142351004,other,junior,us,False
 6209752004,Senior Salesforce Software Engineer,,"Austin, TX",2026-10-30T11:02:13-04:00,https://job-boards.greenhouse.io/natera/jobs/6209752004,software_engineering,senior,us,False
 6228783004,"Senior Scientist, Molecular Biology Research",,"San Carlos, CA",2026-10-30T11:04:00-04:00,https://job-boards.greenhouse.io/natera/jobs/6228783004,other,senior,us,False
 6191642004,"Senior Scientist, R&D Assay Development",,"Austin, TX",2026-09-17T17:48:20-04:00,https://job-boards.greenhouse.io/natera/jobs/6191642004,other,senior,us,False
-6185497004,"Senior Scientist, R&D Design Transfer & Product Development",,"San Carlos, CA",2026-10-30T10:57:46-04:00,https://job-boards.greenhouse.io/natera/jobs/6185497004,other,senior,us,False
 6014230004,"Senior Scientist, R&D Design Transfer & Product Development",,"Austin, TX",2026-10-30T10:57:46-04:00,https://job-boards.greenhouse.io/natera/jobs/6014230004,other,senior,us,False
+6185497004,"Senior Scientist, R&D Design Transfer & Product Development",,"San Carlos, CA",2026-10-30T10:57:46-04:00,https://job-boards.greenhouse.io/natera/jobs/6185497004,other,senior,us,False
 6233389004,"Senior Software Engineer, Portal Application",,US Remote,2026-10-30T12:14:07-04:00,https://job-boards.greenhouse.io/natera/jobs/6233389004,software_engineering,senior,us,False
 5993464004,Senior Workday Platform Engineer,,US Remote,2026-09-16T15:33:38-04:00,https://job-boards.greenhouse.io/natera/jobs/5993464004,software_engineering,senior,us,False
 6149790004,Service Engineer,,"San Carlos, CA",2026-09-28T12:50:25-04:00,https://job-boards.greenhouse.io/natera/jobs/6149790004,software_engineering,mid_or_unknown,us,False
@@ -209,11 +207,11 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 6236001004,"Sr Product Manager, Oncology",,US Remote,2026-10-30T11:13:31-04:00,https://job-boards.greenhouse.io/natera/jobs/6236001004,product_management,senior,us,False
 6212114004,Sr Research Associate,,"Austin, TX",2026-10-07T12:06:08-04:00,https://job-boards.greenhouse.io/natera/jobs/6212114004,other,junior,us,False
 5830803004,"Sr. Software Engineer/Tech Lead, Data & AI Engineering",,US Remote,2026-09-29T18:14:34-04:00,https://job-boards.greenhouse.io/natera/jobs/5830803004,data_ai,senior,us,True
-6219612004,Staff Biostatistician (Clinical Validation),,US Remote,2026-10-14T14:25:48-04:00,https://job-boards.greenhouse.io/natera/jobs/6219612004,other,senior,us,False
 6221120004,Staff Biostatistician (Clinical Validation),,"San Carlos, CA",2026-10-14T14:25:50-04:00,https://job-boards.greenhouse.io/natera/jobs/6221120004,other,senior,us,False
+6219612004,Staff Biostatistician (Clinical Validation),,US Remote,2026-10-14T14:25:48-04:00,https://job-boards.greenhouse.io/natera/jobs/6219612004,other,senior,us,False
 6115020004,Staff Forward Deployed AI Solutions Engineer,,US Remote,2026-07-29T19:08:34-04:00,https://job-boards.greenhouse.io/natera/jobs/6115020004,data_ai,senior,us,True
-6221940004,Staff Machine Learning and Bioinformatics Scientist (Multi-Cancer Early Detection),,"San Carlos, CA",2026-10-20T08:49:53-04:00,https://job-boards.greenhouse.io/natera/jobs/6221940004,data_ai,senior,us,True
 6220885004,Staff Machine Learning and Bioinformatics Scientist (Multi-Cancer Early Detection),,US Remote,2026-10-20T08:49:53-04:00,https://job-boards.greenhouse.io/natera/jobs/6220885004,data_ai,senior,us,True
+6221940004,Staff Machine Learning and Bioinformatics Scientist (Multi-Cancer Early Detection),,"San Carlos, CA",2026-10-20T08:49:53-04:00,https://job-boards.greenhouse.io/natera/jobs/6221940004,data_ai,senior,us,True
 6128396004,"Staff Scientist, Bioinformatics/RWD",,US Remote,2026-10-27T13:12:24-04:00,https://job-boards.greenhouse.io/natera/jobs/6128396004,other,senior,us,False
 6228781004,"Staff Scientist, Molecular Biology Research",,"San Carlos, CA",2026-10-30T11:03:52-04:00,https://job-boards.greenhouse.io/natera/jobs/6228781004,other,senior,us,False
 6151779004,Staff Scientist R&D,,South San Francisco,2026-10-30T11:01:23-04:00,https://job-boards.greenhouse.io/natera/jobs/6151779004,other,senior,us,False

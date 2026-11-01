@@ -181,14 +181,14 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8194289,"Customer Success Manager, RFA",,"Chicago, IL",2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8194289,customer_support,senior,us,False
 5416444,Data Analyst,,Canada,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=5416444,other,mid_or_unknown,other,False
 8230296,"Data Analyst, Global Growth",,Singapore,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8230296,other,mid_or_unknown,other,False
-8194291,"Data Analyst, Intern",,"New York, Seattle, South San Francisco HQ",2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8194291,other,intern,us,False
 8194287,"Data Analyst, Intern",,Toronto,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8194287,other,intern,other,False
+8194291,"Data Analyst, Intern",,"New York, Seattle, South San Francisco HQ",2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8194291,other,intern,us,False
 8189909,"Data Analyst, NYC ",,New York,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8189909,other,mid_or_unknown,us,False
 8044924,"Data Analyst, Payments",,Singapore,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8044924,other,mid_or_unknown,other,False
 7923653,"Data Science Manager, Risk",,Bengaluru,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=7923653,data_ai,senior,other,False
-8222149,Data Scientist,,"Seattle, WA",2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8222149,data_ai,mid_or_unknown,us,False
 5601879,Data Scientist,,N/A,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=5601879,data_ai,mid_or_unknown,other,False
 5895430,Data Scientist,,Toronto,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=5895430,data_ai,mid_or_unknown,other,False
+8222149,Data Scientist,,"Seattle, WA",2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8222149,data_ai,mid_or_unknown,us,False
 8113100,"Data Scientist, Fraud",,Toronto,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8113100,data_ai,mid_or_unknown,other,False
 7998031,Deal Pricing,,Mexico City,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=7998031,other,mid_or_unknown,other,False
 7960875,"Deal Pricing Strategist, APAC",,Singapore,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=7960875,other,mid_or_unknown,other,False
@@ -203,7 +203,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7677136, EMEA Global Strategic Alliances Lead-Accenture,,London,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=7677136,other,senior,uk,False
 8273855,"Employment Counsel, EMEA",,"Dublin, London",2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8273855,legal,mid_or_unknown,dublin,False
 8209649,"Engagement Manager, Professional Services",,"United States, US-Remote",2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8209649,other,senior,us,False
-8102337,"Engagement Manager, Professional Services (SEA/GCN)",,Singapore,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8102337,other,senior,other,False
 8234252,"Engineering Manager, Accounting Products",,"Bengaluru, India",2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8234252,software_engineering,senior,other,False
 7943804,"Engineering Manager, AI Conversation Platform",,"Toronto, Canada",2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=7943804,data_ai,senior,other,True
 8180536,"Engineering Manager, Billing Products",,"US-Remote, Chicago",2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8180536,software_engineering,senior,us,False
@@ -229,8 +228,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8336023,Enterprise Account Executive - Grower,,Sydney Or Melbourne,2026-10-30T01:26:32-04:00,https://stripe.com/jobs/search?gh_jid=8336023,sales,mid_or_unknown,other,False
 8109607,Enterprise Account Executive - Hunter,,Auckland,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8109607,sales,mid_or_unknown,other,False
 8330801,"Enterprise Account Executive,  Hunter",,Sydney Or Melbourne,2026-10-29T23:03:12-04:00,https://stripe.com/jobs/search?gh_jid=8330801,sales,mid_or_unknown,other,False
-8232741,"Enterprise Account Executive, Privy",,New York,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8232741,sales,mid_or_unknown,us,False
 8232743,"Enterprise Account Executive, Privy",,New York,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8232743,sales,mid_or_unknown,us,False
+8232741,"Enterprise Account Executive, Privy",,New York,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8232741,sales,mid_or_unknown,us,False
 8029128,"Enterprise Account Executive, Revenue Suite (Grower)",,Sydney,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8029128,sales,mid_or_unknown,other,False
 8224614,Enterprise Field Marketing Manager,,London,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8224614,marketing_content,senior,uk,False
 8163198,"Enterprise Services Manager, Professional Services Sales (SEA/GCN)",,Singapore,2026-10-29T10:42:09-04:00,https://stripe.com/jobs/search?gh_jid=8163198,sales,senior,other,False
