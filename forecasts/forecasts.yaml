@@ -951,8 +951,12 @@ forecasts:
   resolution:
     method: judged
     guidance: Ryanair H1 FY27 results, 2 Nov 2026.
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-02'
+  evidence:
+    summary: 'H1 FY27 profit after tax EUR 2,147.6m (H1 FY26 EUR 2,538.8m, -15%), above EUR 2.11bn. Revenue EUR 10,082.0m (+3%); average fare EUR 55.70 (-4%); no FY27 PAT guidance; FY28 fuel about 25% hedged at c.$95/bbl'
+    url: https://investor.ryanair.com/wp-content/uploads/2026/10/H1-FY27-Ryanair-Results.pdf
 - id: EV-20261105-TEAM-1
   kind: event
   thesis: coding-agents-usage-pricing
@@ -1179,5 +1183,51 @@ forecasts:
     method: judged
     guidance: AMD Q3 2026 results release; Q4 revenue outlook midpoint divided by Q3 reported revenue, at least 1.10.
       Guide and consensus source https://www.hudson-labs.com/research/amd-q3-2026-earnings-preview-revenue-guidance-key-drivers
+  status: open
+  outcome: null
+- id: EV-20261109-CEG-1
+  kind: event
+  thesis: power-grid-constraint
+  event_date: '2026-11-09'
+  statement: Constellation Energy Q3 2026 adjusted operating EPS is at least $3.88 (consensus)
+  probability_raw: 0.7
+  probability: 0.787
+  reasoning: Constellation beat EPS consensus in 7 of its last 8 quarters (MarketBeat); Q2 was $2.55 against $2.29.
+    Calpine now contributes and power prices are high, so a beat is the base case; the consensus of $3.88 (+28% on
+    $3.04) already prices much of that.
+  expected: Adjusted operating EPS around $3.95-4.10; 2026 guidance of $11.50-12.50 kept or narrowed upwards
+  implications:
+    if_yes: Supports the power-grid thesis that scarce firm generation earns rising margins from data-centre demand
+    if_no: A miss with strong power prices points to hedging lags or Calpine integration costs, not weaker demand
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-02'
+  resolves_by: '2026-11-10'
+  resolution:
+    method: judged
+    guidance: Constellation Q3 2026 earnings release (call 9 Nov 2026, 9:00 ET, https://investors.constellationenergy.com/events/event-details/q3-2026-constellation-energy-corporation-earnings-conference-call);
+      adjusted (non-GAAP) operating EPS at least $3.88. Consensus https://www.marketbeat.com/earnings/reports/2026-11-9-745964-stock/
+  status: open
+  outcome: null
+- id: EV-20261103-IRAN-1
+  kind: event
+  thesis: airlines-vs-oil-curve
+  event_date: '2026-11-03'
+  statement: The US carries out military strikes on Iranian territory between 3 Nov and 9 Nov 2026 inclusive
+  probability_raw: 0.2
+  probability: 0.094
+  reasoning: Reports say Netanyahu is pressing for strikes right after the 3 Nov midterms, but on 31 Oct Trump said
+    talks were going fine and he was not in much of a hurry; Qatar-Iran talks ran three days in a row. A one-week
+    window after a stated preference for diplomacy makes a strike the minority case.
+  expected: No strikes this week; talks continue through Qatar; Brent stays volatile around $105-115
+  implications:
+    if_yes: Hits airline kill criterion 2 (strikes resume); exit review for the airlines bet
+    if_no: Leaves the airline bet alive but does not help it; Brent still needs to fall below $100
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-02'
+  resolves_by: '2026-11-10'
+  resolution:
+    method: judged
+    guidance: Yes if a US government statement or two major outlets (Reuters, AP, FT) report US strikes on Iranian
+      territory dated 3-9 Nov 2026. Israeli-only strikes do not count. Context https://www.arabtimesonline.com/news/trump-gives-iran-diplomacy-more-time-as-netanyahu-presses-for-strikes-after-us-midterms/
   status: open
   outcome: null

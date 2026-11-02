@@ -939,13 +939,13 @@
 "key": "hy_spread|2026-10-30",
 "id": "hy_spread",
 "date": "2026-10-30",
-"value": 3.18
+"value": 3.26
 },
 {
-"key": "hy_spread|2026-10-27|last",
+"key": "hy_spread|2026-10-29|last",
 "id": "hy_spread",
-"date": "2026-10-27",
-"value": 3.18
+"date": "2026-10-29",
+"value": 3.26
 },
 {
 "key": "curve_10y2y|2023-01-06",
@@ -2148,9 +2148,9 @@
 "value": 0.38
 },
 {
-"key": "curve_10y2y|2026-10-28|last",
+"key": "curve_10y2y|2026-10-30|last",
 "id": "curve_10y2y",
-"date": "2026-10-28",
+"date": "2026-10-30",
 "value": 0.38
 },
 {
@@ -3351,13 +3351,13 @@
 "key": "ust10y|2026-10-30",
 "id": "ust10y",
 "date": "2026-10-30",
-"value": 4.99
+"value": 4.98
 },
 {
-"key": "ust10y|2026-10-27|last",
+"key": "ust10y|2026-10-29|last",
 "id": "ust10y",
-"date": "2026-10-27",
-"value": 4.99
+"date": "2026-10-29",
+"value": 4.98
 },
 {
 "key": "inflation_5y5y|2023-01-06",
@@ -4557,13 +4557,13 @@
 "key": "inflation_5y5y|2026-10-30",
 "id": "inflation_5y5y",
 "date": "2026-10-30",
-"value": 2.27
+"value": 2.22
 },
 {
-"key": "inflation_5y5y|2026-10-28|last",
+"key": "inflation_5y5y|2026-10-30|last",
 "id": "inflation_5y5y",
-"date": "2026-10-28",
-"value": 2.27
+"date": "2026-10-30",
+"value": 2.22
 },
 {
 "key": "brent|2023-01-06",
@@ -9381,13 +9381,49 @@
 "key": "vix|2026-10-30",
 "id": "vix",
 "date": "2026-10-30",
-"value": 17.52
+"value": 17.2
 },
 {
-"key": "vix|2026-10-27|last",
+"key": "vix|2026-10-29|last",
 "id": "vix",
-"date": "2026-10-27",
-"value": 17.52
+"date": "2026-10-29",
+"value": 17.2
+},
+{
+"key": "margin_debt_yoy|2026-10-02",
+"id": "margin_debt_yoy",
+"date": "2026-10-02",
+"value": 31.39
+},
+{
+"key": "margin_debt_yoy|2026-10-09",
+"id": "margin_debt_yoy",
+"date": "2026-10-09",
+"value": 31.39
+},
+{
+"key": "margin_debt_yoy|2026-10-16",
+"id": "margin_debt_yoy",
+"date": "2026-10-16",
+"value": 31.39
+},
+{
+"key": "margin_debt_yoy|2026-10-23",
+"id": "margin_debt_yoy",
+"date": "2026-10-23",
+"value": 31.39
+},
+{
+"key": "margin_debt_yoy|2026-10-30",
+"id": "margin_debt_yoy",
+"date": "2026-10-30",
+"value": 31.39
+},
+{
+"key": "margin_debt_yoy|2026-09-30|last",
+"id": "margin_debt_yoy",
+"date": "2026-09-30",
+"value": 31.39
 },
 {
 "key": "ai_financing|2026-10-23",

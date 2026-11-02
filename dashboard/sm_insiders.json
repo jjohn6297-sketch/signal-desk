@@ -1,5 +1,44 @@
 [
 {
+"key": "0001513845-26-000145|13",
+"transaction_date": "2026-10-29",
+"filed": "2026-10-30",
+"company": "Nebius Group",
+"ticker": "NBIS",
+"insider": "Grimme Arne",
+"role": "Director",
+"shares": 148,
+"price": 169.42,
+"value_usd": 25074,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000145/form4.xml"
+},
+{
+"key": "0001513845-26-000143|12",
+"transaction_date": "2026-10-28",
+"filed": "2026-10-29",
+"company": "Nebius Group",
+"ticker": "NBIS",
+"insider": "Grimme Arne",
+"role": "Director",
+"shares": 148,
+"price": 169.84,
+"value_usd": 25136,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000143/form4.xml"
+},
+{
+"key": "0001513845-26-000143|11",
+"transaction_date": "2026-10-27",
+"filed": "2026-10-29",
+"company": "Nebius Group",
+"ticker": "NBIS",
+"insider": "Grimme Arne",
+"role": "Director",
+"shares": 205,
+"price": 159.04,
+"value_usd": 32603,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000143/form4.xml"
+},
+{
 "key": "0001513845-26-000141|7",
 "transaction_date": "2026-10-26",
 "filed": "2026-10-26",
@@ -115,6 +154,19 @@
 "price": 169.99,
 "value_usd": 25158,
 "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000130/form4.xml"
+},
+{
+"key": "rns:9818878|14",
+"transaction_date": "2026-10-12",
+"filed": "2026-10-12",
+"company": "Oxford Nanopore Technologies",
+"ticker": "ONT",
+"insider": "Adrian Hennah",
+"role": "Non-Executive Director",
+"shares": 24000,
+"price": 2.164,
+"value_usd": 69106,
+"source_url": "https://www.investegate.co.uk/announcement/rns/oxford-nanopore-technologies--ont/director-pdmr-shareholding/9818878"
 },
 {
 "key": "0001341439-26-000099|1",

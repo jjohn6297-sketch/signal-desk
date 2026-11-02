@@ -3,8 +3,8 @@
 "key": "Kind: event",
 "group_type": "Kind",
 "group": "event",
-"n": 18,
-"brier": 0.1267
+"n": 19,
+"brier": 0.1332
 },
 {
 "key": "Kind: thesis",
@@ -19,6 +19,13 @@
 "group": "AI service agents cut outsourced call-centre volumes faster than the market expects",
 "n": 2,
 "brier": 0.065
+},
+{
+"key": "Thesis: Airline shares are priced for $116 oil while the futures curve prices about $80 a year out; the gap closes in favour of hedged airlines",
+"group_type": "Thesis",
+"group": "Airline shares are priced for $116 oil while the futures curve prices about $80 a year out; the gap closes in favour of hedged airlines",
+"n": 1,
+"brier": 0.25
 },
 {
 "key": "Thesis: Cheap European staples (Nestle, Unilever, Diageo) outperform expensive US staples as volumes recover",

@@ -11,6 +11,28 @@ consensus:
   view: Consumer discretionary net 34% underweight, biggest since Jul 2008; airlines near 52-week lows
 variant_view: 'Brent curve steeply backwardated (20 Sep: Nov-26 ~$104, Nov-27 ~$80); Ryanair 80% of FY27 fuel hedged
   at ~$67 but FY28 only ~15% at ~$85, so the bet rests on lower oil by summer 2027'
+evidence_for:
+- date: '2026-11-02'
+  claim: Ryanair H1 FY27 PAT EUR 2,147.6m beat the EUR 2.11bn consensus; Q3 fares trending modestly ahead of a year earlier; EUR 800m buyback from February
+  source: https://investor.ryanair.com/wp-content/uploads/2026/10/H1-FY27-Ryanair-Results.pdf
+  engine: daily-run
+evidence_against:
+- date: '2026-11-02'
+  claim: Ryanair FY28 fuel about 25% hedged at c.$95/bbl (the thesis assumed ~15% at ~$85); press reports say Ryanair expects a fuel bill about EUR 2bn higher in FY28 at forward prices
+  source: https://investor.ryanair.com/wp-content/uploads/2026/10/H1-FY27-Ryanair-Results.pdf
+  engine: daily-run
+- date: '2026-11-02'
+  claim: H1 average fare EUR 55.70 (-4%); traffic target cut to 214m from 216m; no FY27 profit guidance ("too early")
+  source: https://investor.ryanair.com/wp-content/uploads/2026/10/H1-FY27-Ryanair-Results.pdf
+  engine: daily-run
+- date: '2026-11-02'
+  claim: Dated Brent closed $128.30 (23 Oct) and $128.12 (26 Oct), above the $126 kill line; $123.10 on 27 Oct. Front-month CFD about $108.6 on 2 Nov after diplomacy reports
+  source: https://fred.stlouisfed.org/series/DCOILBRENTEU
+  engine: daily-run
+system_conviction: 33
+conviction_history:
+- {date: '2026-11-01', value: 37, reason: 'Weekly review (Insights log): Dated Brent above the $126 kill line on 23 and 26 Oct'}
+- {date: '2026-11-02', value: 33, reason: 'Ryanair beat on H1 profit, but FY28 is hedged higher than assumed and fares fell 4%'}
 predictions:
 - id: p1
   statement: If no US strike on Iran by 2026-12-31, Brent front-month settles below $100 at least once before 2027-01-31

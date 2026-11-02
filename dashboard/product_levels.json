@@ -8,25 +8,25 @@
 {
 "level": "senior",
 "order": 1,
-"open_roles": 162,
-"ireland": 11
+"open_roles": 163,
+"ireland": 12
 },
 {
 "level": "mid_or_unknown",
 "order": 2,
-"open_roles": 88,
+"open_roles": 87,
 "ireland": 2
 },
 {
 "level": "junior",
 "order": 3,
-"open_roles": 2,
+"open_roles": 1,
 "ireland": 0
 },
 {
 "level": "intern",
 "order": 4,
-"open_roles": 3,
+"open_roles": 6,
 "ireland": 0
 }
 ]

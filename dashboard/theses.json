@@ -49,18 +49,18 @@
 "status": "draft",
 "opened": "2026-10-26",
 "horizon": "6 months",
-"conviction": null,
-"conviction_prev": null,
+"conviction": 33,
+"conviction_prev": 37,
 "conviction_reason": null,
 "owner_conviction": null,
-"evidence_for": 0,
-"evidence_against": 0,
+"evidence_for": 1,
+"evidence_against": 3,
 "kill_criteria": "Brent closes above $126 · Strikes on Iran resume or Gulf exports fall again · Any position falls 20% from entry",
 "kill_hit": "",
 "variant_view": "Brent curve steeply backwardated (20 Sep: Nov-26 ~$104, Nov-27 ~$80); Ryanair 80% of FY27 fuel hedged at ~$67 but FY28 only ~15% at ~$85, so the bet rests on lower oil by summer 2027",
 "open_forecasts": 3,
-"resolved_forecasts": 0,
-"next_resolves": "2026-11-02"
+"resolved_forecasts": 1,
+"next_resolves": "2026-11-03"
 },
 {
 "id": "coding-agents-usage-pricing",
@@ -184,7 +184,7 @@
 "kill_criteria": "GE Vernova gas book-to-bill below 1.5 · Eaton or Vertiv backlog falls quarter on quarter · Transformer lead times shorten",
 "kill_hit": "",
 "variant_view": null,
-"open_forecasts": 3,
+"open_forecasts": 4,
 "resolved_forecasts": 3,
 "next_resolves": "2026-11-03"
 },
