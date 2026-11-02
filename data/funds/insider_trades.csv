@@ -32,6 +32,7 @@ transaction_date,filed,company,ticker,insider,role,code,shares,price,value_usd,a
 2026-10-07,2026-10-08,TSMC,TSM,Zhang Kevin Xiaoqiang,SVP and Deputy Co-COO,P,59,79.39,4684,0001046179-26-000722,https://www.sec.gov/Archives/edgar/data/1046179/000104617926000722/wk-form4_1791455743.xml
 2026-10-07,2026-10-08,TSMC,TSM,Yeap Choh Fei,SVP,P,52,79.39,4128,0001046179-26-000723,https://www.sec.gov/Archives/edgar/data/1046179/000104617926000723/wk-form4_1791455750.xml
 2026-10-07,2026-10-08,TSMC,TSM,Yuan Lipen,VP,P,40,79.39,3175,0001046179-26-000724,https://www.sec.gov/Archives/edgar/data/1046179/000104617926000724/wk-form4_1791455755.xml
+2026-10-12,2026-10-12,Oxford Nanopore Technologies,ONT,Adrian Hennah,Non-Executive Director,P,24000,2.164,69106,rns:9818878,https://www.investegate.co.uk/announcement/rns/oxford-nanopore-technologies--ont/director-pdmr-shareholding/9818878
 2026-10-15,2026-10-16,Nebius Group,NBIS,Grimme Arne,Director,P,148,169.99,25158,0001513845-26-000130,https://www.sec.gov/Archives/edgar/data/1513845/000151384526000130/form4.xml
 2026-10-16,2026-10-16,Nebius Group,NBIS,Grimme Arne,Director,P,148,169.99,25158,0001513845-26-000130,https://www.sec.gov/Archives/edgar/data/1513845/000151384526000130/form4.xml
 2026-10-19,2026-10-20,Nebius Group,NBIS,Grimme Arne,Director,P,148,169.99,25158,0001513845-26-000134,https://www.sec.gov/Archives/edgar/data/1513845/000151384526000134/form4.xml
@@ -46,4 +47,3 @@ transaction_date,filed,company,ticker,insider,role,code,shares,price,value_usd,a
 2026-10-27,2026-10-29,Nebius Group,NBIS,Grimme Arne,Director,P,205,159.04,32603,0001513845-26-000143,https://www.sec.gov/Archives/edgar/data/1513845/000151384526000143/form4.xml
 2026-10-28,2026-10-29,Nebius Group,NBIS,Grimme Arne,Director,P,148,169.84,25136,0001513845-26-000143,https://www.sec.gov/Archives/edgar/data/1513845/000151384526000143/form4.xml
 2026-10-29,2026-10-30,Nebius Group,NBIS,Grimme Arne,Director,P,148,169.42,25074,0001513845-26-000145,https://www.sec.gov/Archives/edgar/data/1513845/000151384526000145/form4.xml
-2026-10-12,2026-10-12,Oxford Nanopore Technologies,ONT,Adrian Hennah,Non-Executive Director,P,24000,2.164,69106,rns:9818878,https://www.investegate.co.uk/announcement/rns/oxford-nanopore-technologies--ont/director-pdmr-shareholding/9818878
