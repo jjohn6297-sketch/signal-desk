@@ -10,8 +10,8 @@
 "key": "Kind: thesis",
 "group_type": "Kind",
 "group": "thesis",
-"n": 5,
-"brier": 0.251
+"n": 6,
+"brier": 0.2358
 },
 {
 "key": "Thesis: AI service agents cut outsourced call-centre volumes faster than the market expects",
@@ -52,8 +52,8 @@
 "key": "Thesis: In vivo gene editing reaches commercial proof in 2026-27, lifting CRISPR Therapeutics, Intellia, Beam and their suppliers",
 "group_type": "Thesis",
 "group": "In vivo gene editing reaches commercial proof in 2026-27, lifting CRISPR Therapeutics, Intellia, Beam and their suppliers",
-"n": 1,
-"brier": 0.2025
+"n": 2,
+"brier": 0.1813
 },
 {
 "key": "Thesis: Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",

@@ -347,8 +347,12 @@ forecasts:
   resolution:
     method: judged
     guidance: Read Vertex Q3 2026 results (2 Nov 2026, after the US close).
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-03'
+  evidence:
+    summary: 'Q3 2026 Casgevy revenue $99.2m, +30% quarter on quarter (Q2 $76.4m), nearly six times Q3 2025 ($17m); nine-month $218.5m. Vertex raised 2026 revenue guide to $13.15-13.25bn'
+    url: https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-third-quarter-2026-financial-results
 - id: GENE-3
   kind: thesis
   thesis: in-vivo-gene-editing
@@ -1229,5 +1233,52 @@ forecasts:
     method: judged
     guidance: Yes if a US government statement or two major outlets (Reuters, AP, FT) report US strikes on Iranian
       territory dated 3-9 Nov 2026. Israeli-only strikes do not count. Context https://www.arabtimesonline.com/news/trump-gives-iran-diplomacy-more-time-as-netanyahu-presses-for-strikes-after-us-midterms/
+  status: open
+  outcome: null
+- id: EV-20261110-CRWV-1
+  kind: event
+  thesis: ai-buildout-delay
+  event_date: '2026-11-10'
+  statement: CoreWeave Q3 2026 revenue is at least USD 3.6bn (top of its $3.4-3.6bn guide)
+  probability_raw: 0.5
+  probability: 0.525
+  reasoning: Q2 revenue was $2.575bn with backlog of about $104bn plus $25bn signed early in Q3; the Q3 guide of $3.4-3.6bn
+    needs +32% to +40% quarter on quarter. CoreWeave beat the top of its guide in most 2025 quarters, but Q3 2025 was
+    held back by a third-party data-centre delay, so revenue now depends on sites going live on time.
+  expected: Revenue near the top of the guide, around $3.55-3.65bn; demand is not the constraint, delivery is
+  implications:
+    if_yes: Capacity is arriving on schedule; weakens the delivery-delay part of the build-out-delay bet
+    if_no: A miss with backlog still rising supports the bet that delivery, not demand, is the 2027 risk
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-03'
+  resolves_by: '2026-11-11'
+  resolution:
+    method: judged
+    guidance: CoreWeave Q3 2026 results press release (10 Nov 2026, after the US close, https://investors.coreweave.com).
+      Total revenue at least $3,600m. Guide from https://valueaddvc.com/pulse/coreweave-q2-2026-earnings-112-percent-revenue-surge
+  status: open
+  outcome: null
+- id: EV-20261110-CRWV-2
+  kind: event
+  thesis: ai-buildout-delay
+  event_date: '2026-11-10'
+  statement: CoreWeave lowers the midpoint of its full-year 2026 revenue guidance (currently $12.4-13.2bn) with its Q3 results
+  probability_raw: 0.35
+  probability: 0.297
+  reasoning: CoreWeave cut its 2025 revenue guide at Q3 2025 because a third-party data-centre partner ran late. The
+    range is already wide ($0.8bn) and backlog grew by $25bn early in Q3, so a cut needs a new delivery slip; one
+    in three is the base case for a builder this dependent on third-party sites.
+  expected: Guidance kept or narrowed around $12.8bn; management mentions power and site timing as the main constraint
+  implications:
+    if_yes: Direct support for the build-out-delay bet and the CoreWeave credit-stress indicator
+    if_no: Delivery is holding for now; the bet still needs a second hyperscaler to admit power or site delays
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-03'
+  resolves_by: '2026-11-11'
+  resolution:
+    method: judged
+    guidance: Compare the 2026 revenue guidance midpoint given on the 10 Nov 2026 call or release with $12.8bn (the
+      $12.4-13.2bn range from https://valueaddvc.com/pulse/coreweave-q2-2026-earnings-112-percent-revenue-surge). Lower
+      midpoint = yes; unchanged or higher = no; guidance withdrawn = yes.
   status: open
   outcome: null

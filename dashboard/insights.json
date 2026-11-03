@@ -1,5 +1,53 @@
 [
 {
+"key": "2026-11-03-1",
+"date": "2026-11-03",
+"kind": "daily",
+"title": "3 November 2026",
+"rank": 1,
+"text": "Resolved 1, a hit: Vertex Q3 Casgevy revenue $99.2m against the $90m line (60%, Brier 0.16), up 30% on Q2. CRISPR Therapeutics says more than 750 patients have started treatment. Added as evidence for the gene-editing thesis; its Casgevy kill criterion (two quarterly falls) is far off."
+},
+{
+"key": "2026-11-03-2",
+"date": "2026-11-03",
+"kind": "daily",
+"title": "3 November 2026",
+"rank": 2,
+"text": "Pre-registered 2 for CoreWeave Q3 (10 Nov, after the US close), both for the build-out-delay bet: revenue at least $3.6bn, the top of its $3.4-3.6bn guide (raw 50%, calibrated 53%); full-year 2026 revenue guide midpoint ($12.8bn) lowered (raw 35%, calibrated 30%). A cut blamed on site delays would support the bet."
+},
+{
+"key": "2026-11-03-3",
+"date": "2026-11-03",
+"kind": "daily",
+"title": "3 November 2026",
+"rank": 3,
+"text": "Brier 0.158 on 25 resolved. After today's resolution the refit moved recalibration to k 1.60, b 0.20; today's forecasts used the fit in place at the start of the run (k 1.55, b 0.10)."
+},
+{
+"key": "2026-11-03-4",
+"date": "2026-11-03",
+"kind": "daily",
+"title": "3 November 2026",
+"rank": 4,
+"text": "No action cards and no new kill criteria hit. The airlines decision from yesterday (close the thesis or rewrite the Brent criterion) is still open for John."
+},
+{
+"key": "2026-11-03-5",
+"date": "2026-11-03",
+"kind": "daily",
+"title": "3 November 2026",
+"rank": 5,
+"text": "Still open today: AMD (revenue and Q4 guide, after the US close) and Eaton (organic growth and Electrical Americas backlog); neither had reported at this run. Coming up: BoE, Atlassian, Datadog and Teleperformance 5 Nov, payrolls 6 Nov, CRISPR CTX310 data at AHA and Constellation 9 Nov, CoreWeave 10 Nov and US October CPI 10 Nov."
+},
+{
+"key": "2026-11-03-6",
+"date": "2026-11-03",
+"kind": "daily",
+"title": "3 November 2026",
+"rank": 6,
+"text": "No feedback on the Signal Desk docs since the last run. No new 13F filings; no new manual macro values (FINRA October margin debt is not out yet)."
+},
+{
 "key": "2026-11-02-1",
 "date": "2026-11-02",
 "kind": "daily",
@@ -230,61 +278,5 @@
 "title": "28 October 2026",
 "rank": 5,
 "text": "No kill criteria hit, no action cards. Macro regime unchanged at Late cycle; no indicator changed state."
-},
-{
-"key": "2026-10-27-1",
-"date": "2026-10-27",
-"kind": "daily",
-"title": "27 October 2026",
-"rank": 1,
-"text": "Nothing resolved today. Wednesday 28 October is the first resolution day: Fed, UK Budget (3 forecasts), GE Vernova, SK hynix, Unilever, Microsoft, Alphabet and the three new forecasts below."
-},
-{
-"key": "2026-10-27-2",
-"date": "2026-10-27",
-"kind": "daily",
-"title": "27 October 2026",
-"rank": 2,
-"text": "Pre-registered 3 for Wednesday after the close: ServiceNow Q3 subscription revenue at least $3.98bn, the top of its guide (80%); ServiceNow cRPO growth at least 20% constant currency (70%); Illumina Q3 revenue at least $1.16bn, the top of its guide (45%)."
-},
-{
-"key": "2026-10-27-3",
-"date": "2026-10-27",
-"kind": "daily",
-"title": "27 October 2026",
-"rank": 3,
-"text": "Grid thesis, two supporting results not yet in the record: Schneider Electric Q3 revenue +16.9% organic, data-centre demand up triple digits, record backlog, profit target raised (16 Oct). Bloom Energy (held) Q3 revenue $1.24bn, +138%, 2026 guide raised for the third time to $4.4-4.6bn (22 Oct)."
-},
-{
-"key": "2026-10-27-4",
-"date": "2026-10-27",
-"kind": "daily",
-"title": "27 October 2026",
-"rank": 4,
-"text": "AI financing indicator now has data: CoreWeave 9% Feb 2031 notes yielded 14.44% at about 83 cents on 21 Oct. That is \"watch\" (12-16%) and above the 12% line in DELAY-3. The build-out-delay variant view cites above 16%; current prices do not support that figure."
-},
-{
-"key": "2026-10-27-5",
-"date": "2026-10-27",
-"kind": "daily",
-"title": "27 October 2026",
-"rank": 5,
-"text": "Macro regime unchanged at Late cycle. Brent $115 (stress), 10-year 4.96% (watch), high-yield spread 3.38% (normal)."
-},
-{
-"key": "2026-10-27-6",
-"date": "2026-10-27",
-"kind": "daily",
-"title": "27 October 2026",
-"rank": 6,
-"text": "Margin debt: FINRA debit balances $1.480tn in September, up 1.8% on August and below June's $1.502tn. The year-on-year change was not recorded because the September 2025 figure could not be read from FINRA."
-},
-{
-"key": "2026-10-27-7",
-"date": "2026-10-27",
-"kind": "daily",
-"title": "27 October 2026",
-"rank": 7,
-"text": "No kill criteria hit and no action cards. No new 13F filings (Q3 filings due by 14 November). The weekly search of European regulatory news found no new director purchases at watch-list companies in October."
 }
 ]

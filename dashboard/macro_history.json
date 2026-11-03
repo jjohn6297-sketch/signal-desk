@@ -939,13 +939,13 @@
 "key": "hy_spread|2026-10-30",
 "id": "hy_spread",
 "date": "2026-10-30",
-"value": 3.26
+"value": 3.44
 },
 {
-"key": "hy_spread|2026-10-29|last",
+"key": "hy_spread|2026-10-30|last",
 "id": "hy_spread",
-"date": "2026-10-29",
-"value": 3.26
+"date": "2026-10-30",
+"value": 3.44
 },
 {
 "key": "curve_10y2y|2023-01-06",
@@ -9381,13 +9381,13 @@
 "key": "vix|2026-10-30",
 "id": "vix",
 "date": "2026-10-30",
-"value": 17.2
+"value": 19.42
 },
 {
-"key": "vix|2026-10-29|last",
+"key": "vix|2026-10-30|last",
 "id": "vix",
-"date": "2026-10-29",
-"value": 17.2
+"date": "2026-10-30",
+"value": 19.42
 },
 {
 "key": "margin_debt_yoy|2026-10-02",
