@@ -25,6 +25,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7988072,Customer Experience Manager,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7988072?gh_jid=7988072,other,senior,other,False
 8300499,Customer Experience Manager - Dutch or Swedish Speaking,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8300499?gh_jid=8300499,other,senior,other,False
 8063946,Customer Experience Manager - French and Spanish or Portuguese Speaking,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8063946?gh_jid=8063946,other,senior,other,False
+6629769,Customer Experience Manager - German Speaking,,Hybrid,2026-11-02T11:01:51-05:00,https://boards.greenhouse.io/cloudflare/jobs/6629769?gh_jid=6629769,other,senior,other,False
 8237119,Customer Experience Manager - Hebrew Speaking,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8237119?gh_jid=8237119,other,senior,other,False
 7241874,Customer Experience Manager - Russian Speaking,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7241874?gh_jid=7241874,other,senior,other,False
 8317751,Customer Reliability Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8317751?gh_jid=8317751,software_engineering,mid_or_unknown,other,False
@@ -32,9 +33,10 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8220770,Customer Solutions Engineer,,In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8220770?gh_jid=8220770,software_engineering,mid_or_unknown,other,False
 8188498,Customer Solutions Strategy Lead,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8188498?gh_jid=8188498,other,senior,other,False
 8109620,Data Analyst,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8109620?gh_jid=8109620,other,mid_or_unknown,other,False
+8227832,Data Center Design Engineer,,Hybrid,2026-11-02T15:59:18-05:00,https://boards.greenhouse.io/cloudflare/jobs/8227832?gh_jid=8227832,software_engineering,mid_or_unknown,other,False
 7736431,Data Center Infrastructure Management (DCIM) Administrator - Infrastructure Operations,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7736431?gh_jid=7736431,other,mid_or_unknown,other,False
-8311366,Data Center Network Operations Engineer,,Hybrid,2026-11-02T05:57:56-05:00,https://boards.greenhouse.io/cloudflare/jobs/8311366?gh_jid=8311366,software_engineering,mid_or_unknown,other,False
 8311376,Data Center Network Operations Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8311376?gh_jid=8311376,software_engineering,mid_or_unknown,other,False
+8311366,Data Center Network Operations Engineer,,Hybrid,2026-11-02T05:57:56-05:00,https://boards.greenhouse.io/cloudflare/jobs/8311366?gh_jid=8311366,software_engineering,mid_or_unknown,other,False
 8234130,Data Center Site Selection - Hyperscale,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8234130?gh_jid=8234130,other,mid_or_unknown,other,False
 8282124,Data Center Strategy - Edge,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8282124?gh_jid=8282124,other,mid_or_unknown,other,False
 8275927,Data Scientist,,In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8275927?gh_jid=8275927,data_ai,mid_or_unknown,other,False
@@ -44,8 +46,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7544182,"Deal Desk Manager, EMEA",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7544182?gh_jid=7544182,other,senior,other,False
 8248907,Deal Intelligence Analyst,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8248907?gh_jid=8248907,other,mid_or_unknown,other,False
 8191453,"Developer GTM Strategy Manager, Technical Programs",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8191453?gh_jid=8191453,software_engineering,senior,other,False
-7735836,Digital Natives Account Executive,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7735836?gh_jid=7735836,sales,mid_or_unknown,other,False
 8180715,Digital Natives Account Executive,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8180715?gh_jid=8180715,sales,mid_or_unknown,other,False
+7735836,Digital Natives Account Executive,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7735836?gh_jid=7735836,sales,mid_or_unknown,other,False
 8238758,Digital Presales Customer Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8238758?gh_jid=8238758,software_engineering,mid_or_unknown,other,False
 7479271,"Director, Digital Native UKI ",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7479271?gh_jid=7479271,other,leadership,other,False
 8157726,"Director, Global Design & Construction",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8157726?gh_jid=8157726,other,leadership,other,False
@@ -55,7 +57,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8242481,"Engineering Manager, Agentic Commerce",,Hybrid; In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8242481?gh_jid=8242481,software_engineering,senior,other,True
 8143649,"Engineering Manager, Agentic Internet & Data Insights",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8143649?gh_jid=8143649,software_engineering,senior,other,True
 8293647,"Engineering Manager, Data Center Operations",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8293647?gh_jid=8293647,software_engineering,senior,other,False
-8332958,"Enterprise Account Executive, Philippines",,Hybrid,2026-11-01T20:30:04-05:00,https://boards.greenhouse.io/cloudflare/jobs/8332958?gh_jid=8332958,sales,mid_or_unknown,other,False
+8332958,"Enterprise Account Executive, Philippines",,Hybrid,2026-11-02T23:55:37-05:00,https://boards.greenhouse.io/cloudflare/jobs/8332958?gh_jid=8332958,sales,mid_or_unknown,other,False
 8304855,"Enterprise Account Executive, Thailand",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8304855?gh_jid=8304855,sales,mid_or_unknown,other,False
 8332959,"Enterprise Account Executive, Vietnam",,Hybrid,2026-11-01T20:29:43-05:00,https://boards.greenhouse.io/cloudflare/jobs/8332959?gh_jid=8332959,sales,mid_or_unknown,other,False
 8319377,"Enterprise Architect, Financial Services - Toronto, Canada",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8319377?gh_jid=8319377,other,mid_or_unknown,other,False
@@ -90,14 +92,14 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8140704,"Manager, Presales Customer Engineering",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8140704?gh_jid=8140704,software_engineering,senior,other,False
 8257165,Mid-Market Account Manager. Mexico and Central America.,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8257165?gh_jid=8257165,other,senior,other,False
 8319231,"Model Operations Lead, AI Gateway",,In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8319231?gh_jid=8319231,data_ai,senior,other,True
-6540163,Named Account Executive,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/6540163?gh_jid=6540163,sales,mid_or_unknown,other,False
 7868936,"Named Account Executive, FSI (Hong Kong)",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7868936?gh_jid=7868936,sales,mid_or_unknown,other,False
 8332960,"Named Account Executive, Indonesia (Public Sector)",,Hybrid,2026-11-01T22:44:30-05:00,https://boards.greenhouse.io/cloudflare/jobs/8332960?gh_jid=8332960,sales,mid_or_unknown,other,False
-8332956,"Named Account Executive, Philippines",,Hybrid,2026-11-01T20:30:03-05:00,https://boards.greenhouse.io/cloudflare/jobs/8332956?gh_jid=8332956,sales,mid_or_unknown,other,False
+8332956,"Named Account Executive, Philippines",,Hybrid,2026-11-02T23:55:36-05:00,https://boards.greenhouse.io/cloudflare/jobs/8332956?gh_jid=8332956,sales,mid_or_unknown,other,False
 8155946,"Named Account Executive, Public Sector & Enterprise (Singapore)",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8155946?gh_jid=8155946,sales,mid_or_unknown,other,False
 7783835,"Named Account Executive, Thailand",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7783835?gh_jid=7783835,sales,mid_or_unknown,other,False
 8332951,"Named Account Executive, Vietnam",,Hybrid,2026-11-01T20:29:41-05:00,https://boards.greenhouse.io/cloudflare/jobs/8332951?gh_jid=8332951,sales,mid_or_unknown,other,False
 8231630,"Named Sales Director, East",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8231630?gh_jid=8231630,sales,leadership,other,False
+8345213,"Named Sales Director, PacNW (Seattle)",,Hybrid,2026-11-02T12:29:03-05:00,https://boards.greenhouse.io/cloudflare/jobs/8345213?gh_jid=8345213,sales,leadership,other,False
 8088046,Network Deployment Engineer - APJC,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8088046?gh_jid=8088046,software_engineering,mid_or_unknown,other,False
 8081027,Network Security Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8081027?gh_jid=8081027,software_engineering,mid_or_unknown,other,False
 8159206,Network Security Engineer ,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8159206?gh_jid=8159206,software_engineering,mid_or_unknown,other,False
@@ -107,7 +109,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8049820,"Partner Solutions Architect- Service Providers  Location New York/ New Jersey, Dallas, Denver or Seattle.",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8049820?gh_jid=8049820,other,mid_or_unknown,other,False
 8258111,"People Operations Specialist, Singapore (6 Month Contract)",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8258111?gh_jid=8258111,other,mid_or_unknown,other,False
 8214470,"Performance Engineer, Kernel and Memory",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8214470?gh_jid=8214470,software_engineering,mid_or_unknown,other,False
-8143377,Presales Customer Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8143377?gh_jid=8143377,software_engineering,mid_or_unknown,other,False
 8227192,Principal Campaign Manager,,Distributed; Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8227192?gh_jid=8227192,other,senior,other,False
 8223319,"Principal Customer Engineer, Central Majors - Toronto Canada",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8223319?gh_jid=8223319,software_engineering,senior,other,False
 7967144,"Principal Customer Engineer, Majors",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7967144?gh_jid=7967144,software_engineering,senior,other,False
@@ -117,6 +118,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8288769,Principal Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8288769?gh_jid=8288769,software_engineering,senior,other,False
 8054669,Principal Engineer - GTM Data Platform,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8054669?gh_jid=8054669,software_engineering,senior,other,False
 8306580,"Principal, GTM Automation, RevOps.",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8306580?gh_jid=8306580,other,senior,other,False
+8328820,"Principal, GTM Business Operations Manager",,Hybrid,2026-11-02T13:50:37-05:00,https://boards.greenhouse.io/cloudflare/jobs/8328820?gh_jid=8328820,other,senior,other,False
 8157770,Principal Oracle Supply Chain Lead,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8157770?gh_jid=8157770,other,senior,other,False
 8225546,"Principal Partner Engineer, ANZ",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8225546?gh_jid=8225546,software_engineering,senior,other,False
 8172554,"Principal Partner Engineer, Japan (Based in Tokyo)",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8172554?gh_jid=8172554,software_engineering,senior,other,False
@@ -151,12 +153,13 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8097852,"Senior Account Executive, Colombia",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8097852?gh_jid=8097852,sales,senior,other,False
 7421848,"Senior Account Executive, Digital Native",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7421848?gh_jid=7421848,sales,senior,other,False
 8241905,"Senior Account Executive, SLED (DC Metro)",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8241905?gh_jid=8241905,sales,senior,other,False
+8332504,"Senior Account Executive, SLED (NJ/PA)",,Distributed,2026-11-02T12:27:18-05:00,https://boards.greenhouse.io/cloudflare/jobs/8332504?gh_jid=8332504,sales,senior,other,False
 8279967,"Senior Account Executive, SLED (PacNW)",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8279967?gh_jid=8279967,sales,senior,other,False
 7681220,"Senior Account Executive, Startups (NY Metro)",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7681220?gh_jid=7681220,sales,senior,other,False
 8015719,"Senior Account Executive, Startups (San Francisco)",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8015719?gh_jid=8015719,sales,senior,other,False
 8130735,"Senior Account Executive, Startups (SoCal)",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8130735?gh_jid=8130735,sales,senior,other,False
-8275432,"Senior Account Executive, Startups (Southeast)",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8275432?gh_jid=8275432,sales,senior,other,False
 8275434,"Senior Account Executive, Startups (Southeast)",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8275434?gh_jid=8275434,sales,senior,other,False
+8275432,"Senior Account Executive, Startups (Southeast)",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8275432?gh_jid=8275432,sales,senior,other,False
 8220063,"Senior Account Executive, Strategic Pursuits, ANZ",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8220063?gh_jid=8220063,sales,senior,other,False
 8220060,"Senior Account Executive, Strategic Pursuits - Aviation APAC (Based in Singapore)",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8220060?gh_jid=8220060,sales,senior,other,False
 8222299,"Senior Account Executive, Strategic Pursuits - FSI, SAARC (Based in Bangalore)",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8222299?gh_jid=8222299,sales,senior,other,False
@@ -190,6 +193,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8172200,"Senior Customer Engineer, Majors - Southwest",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8172200?gh_jid=8172200,software_engineering,senior,other,False
 8268965,"Senior Customer Engineer, Majors - TOLA",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8268965?gh_jid=8268965,software_engineering,senior,other,False
 7954702,"Senior Customer Engineer, Named - Cincinnati, OH",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7954702?gh_jid=7954702,software_engineering,senior,other,False
+8335624,"Senior Customer Engineer, Named Enterprise - Montreal, QC",,Distributed,2026-11-02T14:55:43-05:00,https://boards.greenhouse.io/cloudflare/jobs/8335624?gh_jid=8335624,software_engineering,senior,other,False
 8172117,"Senior Customer Engineer, Named - Houston, TX",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8172117?gh_jid=8172117,software_engineering,senior,other,False
 8171942,"Senior Customer Engineer, Named - LA",,Distributed; Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8171942?gh_jid=8171942,software_engineering,senior,other,False
 8121827,"Senior Customer Engineer, Named - Minnesota",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8121827?gh_jid=8121827,software_engineering,senior,other,False
@@ -204,7 +208,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8131833,"Senior Customer Engineer, Public Sector Federal",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8131833?gh_jid=8131833,software_engineering,senior,other,False
 8174368,"Senior Customer Engineer, (Santiago, Chile).",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8174368?gh_jid=8174368,software_engineering,senior,other,False
 8170564,"Senior Customer Engineer, Saudi Arabia",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8170564?gh_jid=8170564,software_engineering,senior,other,False
-8142219,"Senior Customer Engineer, SLED South West (Southern California or Arizona)",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8142219?gh_jid=8142219,software_engineering,senior,other,False
 8238015,"Senior Customer Engineer SLED TX (Austin, Dallas or Houston) ",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8238015?gh_jid=8238015,software_engineering,senior,other,False
 8185549,"Senior Customer Engineer, Start Up AI",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8185549?gh_jid=8185549,data_ai,senior,other,True
 8248554,"Senior Customer Engineer, Strategic Pursuits, APAC (Based in India)",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8248554?gh_jid=8248554,software_engineering,senior,other,False
@@ -215,7 +218,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7610071,"Senior Customer Engineer, Sweden",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7610071?gh_jid=7610071,software_engineering,senior,other,False
 8170534,"Senior Customer Engineer, Turkey",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8170534?gh_jid=8170534,software_engineering,senior,other,False
 8158620,"Senior Customer Engineer, Vietnam",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8158620?gh_jid=8158620,software_engineering,senior,other,False
-6629769,Senior Customer Experience Manager - German Speaking,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/6629769?gh_jid=6629769,other,senior,other,False
 8018536,Senior Customer Reliability Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8018536?gh_jid=8018536,software_engineering,senior,other,False
 8331153,Senior Customer Reliability Engineer ,,Hybrid,2026-11-02T05:45:28-05:00,https://boards.greenhouse.io/cloudflare/jobs/8331153?gh_jid=8331153,software_engineering,senior,other,False
 8055118,Senior Data Engineer,,In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8055118?gh_jid=8055118,data_ai,senior,other,False
@@ -232,11 +234,11 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8185558,"Senior Engineering Manager, Observability",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8185558?gh_jid=8185558,software_engineering,senior,other,False
 8223672,Senior Enterprise Systems Developer - Procurement Systems,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8223672?gh_jid=8223672,software_engineering,senior,other,False
 8259113,Senior Events Manager,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8259113?gh_jid=8259113,other,senior,other,False
-8160655,Senior Forward Deployed Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8160655?gh_jid=8160655,software_engineering,senior,other,False
-8265704,Senior Forward Deployed Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8265704?gh_jid=8265704,software_engineering,senior,other,False
 8206674,Senior Forward Deployed Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8206674?gh_jid=8206674,software_engineering,senior,other,False
+8265704,Senior Forward Deployed Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8265704?gh_jid=8265704,software_engineering,senior,other,False
 8173707,Senior Forward Deployed Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8173707?gh_jid=8173707,software_engineering,senior,other,False
 8184169,Senior Forward Deployed Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8184169?gh_jid=8184169,software_engineering,senior,other,False
+8160655,Senior Forward Deployed Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8160655?gh_jid=8160655,software_engineering,senior,other,False
 8256332,Senior Forward Deployed Infrastructure Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8256332?gh_jid=8256332,software_engineering,senior,other,False
 8282783,Senior GTM Analytics Manager,,Distributed; Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8282783?gh_jid=8282783,other,senior,other,False
 8306604,"Senior GTM Technologist, RevOps",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8306604?gh_jid=8306604,other,senior,other,False
@@ -258,7 +260,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8239900,Senior Majors Account Executive - Wisconsin,,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8239900?gh_jid=8239900,sales,senior,other,False
 8210019,"Senior Manager, BDR Japan",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8210019?gh_jid=8210019,sales,senior,other,False
 8312693,"Senior Manager, Customer Engineering, Central Eastern Europe & Israel - Hebrew Speaking",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8312693?gh_jid=8312693,software_engineering,senior,other,False
-8098311,"Senior Manager, Customer Engineering, Iberia & Italy",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8098311?gh_jid=8098311,software_engineering,senior,other,False
 8304438,"Senior Manager, Demand Marketing",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8304438?gh_jid=8304438,marketing_content,senior,other,False
 8233538,"Senior Manager - GTM Specialists, AMER",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8233538?gh_jid=8233538,other,senior,other,False
 8163076,"Senior Manager, Infrastructure Operations and Compliance",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8163076?gh_jid=8163076,legal,senior,other,False
@@ -291,7 +292,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8227167,"Senior Named Account Executive, Toronto",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8227167?gh_jid=8227167,sales,senior,other,False
 8179405,"Senior Named Account Executive, UAE (Public Sector)",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8179405?gh_jid=8179405,sales,senior,other,False
 7515882,"Senior Named Customer Engineer, UKI",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7515882?gh_jid=7515882,software_engineering,senior,other,False
-7992903,Senior Network Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7992903?gh_jid=7992903,software_engineering,senior,other,False
+7992903,Senior Network Engineer,,Hybrid,2026-11-02T17:57:22-05:00,https://boards.greenhouse.io/cloudflare/jobs/7992903?gh_jid=7992903,software_engineering,senior,other,False
 8147174,Senior Network Hardware Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8147174?gh_jid=8147174,software_engineering,senior,other,False
 7978887,Senior Oracle EPM Specialist,,In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7978887?gh_jid=7978887,other,senior,other,False
 8143957,Senior Oracle Fusion Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8143957?gh_jid=8143957,software_engineering,senior,other,False
@@ -303,15 +304,13 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8024849,"Senior Principal, Sales Compensation Design & Strategy",,Remote,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8024849?gh_jid=8024849,sales,senior,remote,False
 8153015,Senior Product Counsel,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8153015?gh_jid=8153015,legal,senior,other,False
 8200670,Senior Product Manager - Application Protection & Governance,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8200670?gh_jid=8200670,product_management,senior,other,False
-8166601,"Senior Product Manager, Cloudflare Workers",,Hybrid; In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8166601?gh_jid=8166601,product_management,senior,other,False
+8166601,"Senior Product Manager, Cloudflare Workers",,Hybrid; In-Office,2026-11-03T08:17:56-05:00,https://boards.greenhouse.io/cloudflare/jobs/8166601?gh_jid=8166601,product_management,senior,other,False
 8173954,"Senior Product Manager, Email Security",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8173954?gh_jid=8173954,product_management,senior,other,False
 8158527,"Senior Product Manager, Enterprise",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8158527?gh_jid=8158527,product_management,senior,other,False
 8064473,Senior Product Manager - FinTech,,In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8064473?gh_jid=8064473,product_management,senior,other,False
 8243552,Senior Product Manager - Threat Intel,,Hybrid; In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8243552?gh_jid=8243552,product_management,senior,other,False
 8025521,Senior Professional Services Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8025521?gh_jid=8025521,software_engineering,senior,other,False
 8187634,"Senior Program Manager, Data Center Delivery & Site Readiness",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8187634?gh_jid=8187634,other,senior,other,False
-8280097,Senior Recruiter,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8280097?gh_jid=8280097,people_admin,senior,other,False
-8280109,Senior Recruiter,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8280109?gh_jid=8280109,people_admin,senior,other,False
 8172873,"Senior Revenue Operations Support Manager, Singapore",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8172873?gh_jid=8172873,other,senior,other,False
 8219962,"Senior Sales Manager, Central Eastern Europe - Digital Natives",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8219962?gh_jid=8219962,sales,senior,other,False
 7767743,"Senior Sales Manager, Digital Native, Japan (Based in Tokyo)",,"Tokyo, Japan",2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7767743?gh_jid=7767743,sales,senior,other,False
@@ -320,7 +319,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8312254,"Senior Software Engineer, Agentic Commerce",,In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8312254?gh_jid=8312254,software_engineering,senior,other,True
 8262000,"Senior Software Engineer, Agentic Discovery",,In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8262000?gh_jid=8262000,software_engineering,senior,other,True
 8250155,"Senior Software Engineer, Cloudflare for SaaS",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8250155?gh_jid=8250155,software_engineering,senior,other,False
-8016162,"Senior Software Engineer, Cloudflare Hyperdrive",,In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8016162?gh_jid=8016162,software_engineering,senior,other,False
+8016162,"Senior Software Engineer, Cloudflare Hyperdrive",,In-Office,2026-11-02T14:46:47-05:00,https://boards.greenhouse.io/cloudflare/jobs/8016162?gh_jid=8016162,software_engineering,senior,other,False
 8080780,"Senior Software Engineer, Cloudflare Queues",,In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8080780?gh_jid=8080780,software_engineering,senior,other,False
 8178593,"Senior Software Engineer, Deploy at Scale",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8178593?gh_jid=8178593,software_engineering,senior,other,False
 8269100,"Senior Software Engineer, Distributed Databases",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8269100?gh_jid=8269100,software_engineering,senior,other,False
@@ -338,8 +337,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8204256,"Senior Software Engineer, Zero Trust Client",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8204256?gh_jid=8204256,software_engineering,senior,other,False
 8169689,"Senior Solutions Architect, APJC (Developer Platform) - India Market",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8169689?gh_jid=8169689,software_engineering,senior,other,False
 8186045,"Senior Solutions Engineer, Cloudflare One (SASE/SSE)",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8186045?gh_jid=8186045,software_engineering,senior,other,False
-8264043,"Senior Specialist Solutions Engineer, Cloudflare One - Russian or Hebrew speaking",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8264043?gh_jid=8264043,software_engineering,senior,other,False
 8244876,Senior Strategic Partnerships Manager,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8244876?gh_jid=8244876,other,senior,other,False
+8239181,Senior Systems Engineer,,Hybrid,2026-11-02T11:10:30-05:00,https://boards.greenhouse.io/cloudflare/jobs/8239181?gh_jid=8239181,software_engineering,senior,other,False
 8087792,Senior Systems Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8087792?gh_jid=8087792,software_engineering,senior,other,False
 8066589,Senior Systems Engineer,,In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8066589?gh_jid=8066589,software_engineering,senior,other,False
 7560174,"Senior Systems Engineer, AI Gateway",,In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7560174?gh_jid=7560174,data_ai,senior,other,True
@@ -393,8 +392,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7302931,"Software Engineer, Deploy at Scale",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7302931?gh_jid=7302931,software_engineering,mid_or_unknown,other,False
 8195746,Software Engineer - Egress (Go/Rust),,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8195746?gh_jid=8195746,software_engineering,mid_or_unknown,other,False
 8158920,"Software Engineer, FL",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8158920?gh_jid=8158920,software_engineering,mid_or_unknown,other,False
-8245197,Software Engineer Intern (2027),,In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8245197?gh_jid=8245197,software_engineering,intern,other,False
 8245211,Software Engineer Intern (2027),,In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8245211?gh_jid=8245211,software_engineering,intern,other,False
+8245197,Software Engineer Intern (2027),,In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8245197?gh_jid=8245197,software_engineering,intern,other,False
 8199958,"Software Engineer Intern (2027) - Austin, TX",,In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8199958?gh_jid=8199958,software_engineering,intern,other,False
 8248635,"Software Engineer, Mobile SDK",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8248635?gh_jid=8248635,software_engineering,mid_or_unknown,other,False
 7446310,"Software Engineer, Network Performance & Reliability (Argo)",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7446310?gh_jid=7446310,software_engineering,mid_or_unknown,other,False
@@ -405,7 +404,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7309174,"Software Engineer (Threat Intelligence), Cloudforce One",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7309174?gh_jid=7309174,software_engineering,mid_or_unknown,other,False
 7377424,"Software Engineer, Workers Deploy & Config",,In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7377424?gh_jid=7377424,software_engineering,mid_or_unknown,other,False
 8189858,"Solutions Architect, AI/Cloudflare Developer Platform ",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8189858?gh_jid=8189858,data_ai,mid_or_unknown,other,True
-8303150,"Sr. Director, Developer Solutions Strategist",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8303150?gh_jid=8303150,software_engineering,leadership,other,False
+8303150,"Sr. Director, Developer GTM",,Hybrid,2026-11-02T14:26:30-05:00,https://boards.greenhouse.io/cloudflare/jobs/8303150?gh_jid=8303150,software_engineering,leadership,other,False
 8239323,Sr. Product Manager - Dashboards & Configuration (Integrity & Trust),,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8239323?gh_jid=8239323,product_management,senior,other,False
 8248873,Sr. Technical Program Manager,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8248873?gh_jid=8248873,other,senior,other,False
 7053411,Staff/Principal Software Engineer - Security Platform,,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7053411?gh_jid=7053411,software_engineering,senior,other,False
@@ -425,7 +424,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8275392,"Systems Engineer, DNS",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8275392?gh_jid=8275392,software_engineering,mid_or_unknown,other,False
 8175620,"Systems Engineer, Growth Engineering",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8175620?gh_jid=8175620,software_engineering,mid_or_unknown,other,False
 8119184,"Systems Engineering, Metrics and Alerting",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8119184?gh_jid=8119184,software_engineering,mid_or_unknown,other,False
-7742773,"Systems Engineer, MAPS",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7742773?gh_jid=7742773,software_engineering,mid_or_unknown,other,False
+7742773,"Systems Engineer, MAPS",,Hybrid,2026-11-02T15:33:19-05:00,https://boards.greenhouse.io/cloudflare/jobs/7742773?gh_jid=7742773,software_engineering,mid_or_unknown,other,False
 8207326,"Systems Engineer, MCP Portals",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8207326?gh_jid=8207326,software_engineering,mid_or_unknown,other,False
 8142261,"Systems Engineer, Network Automation",,"Lisbon, Portugal",2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8142261?gh_jid=8142261,software_engineering,mid_or_unknown,other,False
 8187404,"Systems Engineer, Network Protocols & Distributed Systems",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8187404?gh_jid=8187404,software_engineering,mid_or_unknown,other,False
@@ -448,13 +447,14 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8168940,"Territory Account Executive, Digital Native (Indonesia)",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8168940?gh_jid=8168940,sales,mid_or_unknown,other,False
 8187921,"Territory Account Executive, Malaysia",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8187921?gh_jid=8187921,sales,mid_or_unknown,other,False
 8233344,"Territory Account Executive, Montreal",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8233344?gh_jid=8233344,sales,mid_or_unknown,other,False
-8329671,"Territory Account Executive, Philippines",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8329671?gh_jid=8329671,sales,mid_or_unknown,other,False
+8329671,"Territory Account Executive, Philippines",,Hybrid,2026-11-02T23:58:00-05:00,https://boards.greenhouse.io/cloudflare/jobs/8329671?gh_jid=8329671,sales,mid_or_unknown,other,False
 8045309,"Territory Account Executive, Qatar",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8045309?gh_jid=8045309,sales,mid_or_unknown,other,False
 8335468,"Territory Account Executive, Saskatchewan / Manitoba",,Distributed,2026-10-30T18:18:36-04:00,https://boards.greenhouse.io/cloudflare/jobs/8335468?gh_jid=8335468,sales,mid_or_unknown,other,False
 8335469,"Territory Account Executive, Saskatchewan / Manitoba",,Remote,2026-10-30T18:18:24-04:00,https://boards.greenhouse.io/cloudflare/jobs/8335469?gh_jid=8335469,sales,mid_or_unknown,remote,False
 7857793,"Territory Account Executive, Saudi Arabia - Startups",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/7857793?gh_jid=7857793,sales,mid_or_unknown,other,False
 8279346,"Territory Account Executive, Toronto",,Distributed,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8279346?gh_jid=8279346,sales,mid_or_unknown,other,False
-8327153,"Territory Account Executive, UAE - Startups",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8327153?gh_jid=8327153,sales,mid_or_unknown,other,False
+8327153,"Territory Account Executive, UAE - Startups",,Hybrid,2026-11-03T06:22:09-05:00,https://boards.greenhouse.io/cloudflare/jobs/8327153?gh_jid=8327153,sales,mid_or_unknown,other,False
+8345223,"Territory Sales Director, West (Los Angeles/Phoenix)",,Hybrid,2026-11-02T12:29:28-05:00,https://boards.greenhouse.io/cloudflare/jobs/8345223?gh_jid=8345223,sales,leadership,other,False
 8172404,"Trust & Safety Investigator II, Singapore",,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8172404?gh_jid=8172404,other,mid_or_unknown,other,False
 8172411,"Vice President, Cloudflare One GTM ",,Distributed; Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8172411?gh_jid=8172411,other,leadership,other,False
 8190563,VoidZero Developer Relations Engineer,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8190563?gh_jid=8190563,software_engineering,mid_or_unknown,other,False
@@ -464,3 +464,4 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8204353,"Workday Analyst, People Operations",,Hybrid; In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8204353?gh_jid=8204353,other,mid_or_unknown,other,False
 8158104,Workday Integration Specialist ,,Hybrid,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8158104?gh_jid=8158104,other,mid_or_unknown,other,False
 8256449,Workplace Coordinator,,In-Office,2026-10-30T18:16:11-04:00,https://boards.greenhouse.io/cloudflare/jobs/8256449?gh_jid=8256449,other,mid_or_unknown,other,False
+8332823,Workplace Operations Manager ,,In-Office,2026-11-02T12:50:19-05:00,https://boards.greenhouse.io/cloudflare/jobs/8332823?gh_jid=8332823,other,senior,other,False
