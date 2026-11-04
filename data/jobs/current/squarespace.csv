@@ -10,7 +10,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8174706,"Manager, Financial Systems ",,New York City,2026-11-03T03:06:38-05:00,http://www.squarespace.com/about/careers?gh_jid=8174706,other,senior,us,False
 8013777,Security Engineer - Incident Response,,Dublin,2026-10-30T08:54:54-04:00,http://www.squarespace.com/about/careers?gh_jid=8013777,software_engineering,mid_or_unknown,dublin,False
 7557494,"Senior Backend Engineer, Domains",,Aveiro,2026-10-01T11:31:58-04:00,http://www.squarespace.com/about/careers?gh_jid=7557494,software_engineering,senior,other,False
-8232865,"Senior Director, FP&A",,New York City,2026-10-30T09:02:13-04:00,http://www.squarespace.com/about/careers?gh_jid=8232865,accounting_finance,leadership,us,False
 8205265,"Senior Lead, AI Pricing & Margin Strategy",,New York City,2026-10-30T09:00:15-04:00,http://www.squarespace.com/about/careers?gh_jid=8205265,data_ai,senior,us,True
 8249791,"Senior Manager, Data Science and Machine Learning",,New York City,2026-10-30T09:01:44-04:00,http://www.squarespace.com/about/careers?gh_jid=8249791,data_ai,senior,us,True
 8159497,Senior Manager International Strategy,,New York City,2026-10-30T08:56:12-04:00,http://www.squarespace.com/about/careers?gh_jid=8159497,other,senior,us,False
@@ -20,8 +19,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8174790,"Senior Software Engineer Backend, Database",,Dublin,2026-10-30T08:58:45-04:00,http://www.squarespace.com/about/careers?gh_jid=8174790,software_engineering,senior,dublin,False
 6305471,Senior Software Engineer - Java (Media Platform),,New York City,2026-09-18T09:29:21-04:00,http://www.squarespace.com/about/careers?gh_jid=6305471,software_engineering,senior,us,False
 8019365,"Software Engineer, Frontend ",,New York City,2026-10-30T08:55:14-04:00,http://www.squarespace.com/about/careers?gh_jid=8019365,software_engineering,mid_or_unknown,us,False
-8079468,Software Engineering Manager - Payments ,,New York City,2026-10-30T08:55:41-04:00,http://www.squarespace.com/about/careers?gh_jid=8079468,software_engineering,senior,us,False
-7114097,Software Engineer - Java,,New York City,2026-10-28T15:41:28-04:00,http://www.squarespace.com/about/careers?gh_jid=7114097,software_engineering,mid_or_unknown,us,False
 8159839,"Staff Software Engineer, Backend (Communications Platform)",,New York City,2026-10-30T08:55:12-04:00,http://www.squarespace.com/about/careers?gh_jid=8159839,software_engineering,senior,us,False
 7760893,"Staff Software Engineer, Domains",,Aveiro,2026-10-30T08:54:24-04:00,http://www.squarespace.com/about/careers?gh_jid=7760893,software_engineering,senior,other,False
 8125420,"Staff Software Engineer, Revenue Systems",,New York City; Remote,2026-10-30T08:55:51-04:00,http://www.squarespace.com/about/careers?gh_jid=8125420,software_engineering,senior,us,False

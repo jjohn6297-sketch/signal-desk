@@ -5,7 +5,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8282217,"Bioinformatics Application Scientist, NGS - AMER",,USA - Remote,2026-10-26T19:26:09-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8282217,other,mid_or_unknown,us,False
 8170761,"Business Development Manager, DNA Synthesis and Protein Solutions - APAC",,APAC - Remote,2026-09-29T01:03:58-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8170761,sales,senior,remote,False
 8279408,Business Lead Data Governance Office,,"USA - South San Francisco, CA",2026-10-23T13:48:02-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8279408,other,senior,us,False
-8334936,Commercial Counsel,,APAC - Remote; EUR - Remote,2026-11-02T11:09:07-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8334936,legal,mid_or_unknown,remote,False
+8334936,Commercial Counsel,,APAC - Remote; EUR - Remote,2026-11-03T14:35:33-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8334936,legal,mid_or_unknown,remote,False
 8255844,Customer Success Specialist ,,USA - Remote,2026-10-22T17:58:15-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8255844,customer_support,mid_or_unknown,us,False
 7676130,Customer Support Representative - India ,,APAC - Remote,2026-09-29T01:03:56-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/7676130,customer_support,mid_or_unknown,remote,False
 8020917,Director Global Logistics,,"USA - Portland, OR",2026-09-29T01:03:57-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8020917,other,leadership,us,False
@@ -17,6 +17,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8255451,"Manager, Sales - DSPS - WEST",,USA - Remote,2026-10-19T10:49:51-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8255451,sales,senior,us,False
 4168795,Manufacturing Associate ,,"USA - Portland, OR",2026-06-08T19:04:39-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/4168795,other,junior,us,False
 8008413,Manufacturing Associate - Gene Production,,"USA - Portland, OR",2026-09-17T11:12:05-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8008413,other,junior,us,False
+8346397,Manufacturing Associate II - 6 months Temporary Position ,,"USA - Quincy, MA",2026-11-03T12:25:58-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8346397,other,junior,us,False
 8139437,Manufacturing Associate - Kitting (Temp),,"USA - Portland, OR",2026-10-09T23:13:40-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8139437,other,junior,us,False
 8301236,"Manufacturing Associate, NGS TE Production",,"USA - South San Francisco, CA",2026-10-29T14:25:08-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8301236,other,junior,us,False
 8240087,"Manufacturing Lead, IgG Production",,"USA - Portland, OR",2026-10-13T16:39:22-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8240087,other,senior,us,False
@@ -24,7 +25,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8196987,Marketing Analytics Manager,,"USA - Carlsbad, CA; USA - South San Francisco, CA",2026-10-06T19:09:48-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8196987,marketing_content,senior,us,False
 8331790,Material Handler II,,"USA - South San Francisco, CA",2026-11-02T13:17:05-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8331790,other,mid_or_unknown,us,False
 8054419,NGS Sales Specialist - NY/NJ/PA,,USA - Remote,2026-09-29T01:03:57-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8054419,sales,mid_or_unknown,us,False
-8187429,Production Material Planner,,"USA - Portland, OR",2026-09-29T01:03:58-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8187429,other,mid_or_unknown,us,False
 8278854,QA Associate II,,"USA - Portland, OR",2026-10-19T11:12:42-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8278854,other,junior,us,False
 8167799,Senior Computational Scientist,,"USA - South San Francisco, CA",2026-09-02T16:42:11-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8167799,other,senior,us,False
 8258404,Shipping Coordinator,,"USA - South San Francisco, CA",2026-10-16T13:26:14-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8258404,other,mid_or_unknown,us,False
