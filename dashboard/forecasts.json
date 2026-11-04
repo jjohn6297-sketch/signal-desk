@@ -1235,10 +1235,13 @@
 "event_date": "2026-11-03",
 "resolves_by": "2026-11-04",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.25,
+"evidence": {
+"summary": "AMD Q3 2026 revenue $13,377m, above the $13.3bn top of guide; Data Center a record $8.5bn, +97% year on year. Release text reproduced from GlobeNewswire",
+"url": "https://www.stocktitan.net/news/AMD/amd-reports-third-quarter-2026-financial-7j6jzo29buqw.html"
+}
 },
 {
 "id": "EV-20261103-ETN-1",
@@ -1257,10 +1260,13 @@
 "event_date": "2026-11-03",
 "resolves_by": "2026-11-04",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.09,
+"evidence": {
+"summary": "Eaton Q3 2026 organic sales growth 19% (sales $8.9bn, +28%); Electrical Americas +22% organic. Full-year organic guide 13-15%",
+"url": "https://www.sec.gov/Archives/edgar/data/0001551182/000155118226000037/etn09302026exhibit99.htm"
+}
 },
 {
 "id": "EV-20261103-ETN-2",
@@ -1279,10 +1285,13 @@
 "event_date": "2026-11-03",
 "resolves_by": "2026-11-04",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.0225,
+"evidence": {
+"summary": "No segment backlog in dollars is disclosed. Electrical Americas backlog +33% year on year at September (same as June); CEO on the call: backlog 'up 33% to another record, and it's still growing'; book-to-bill 1.3. Total company backlog $26.2bn at 30 Sep vs $24.1bn at 30 Jun (10-Qs). Judged yes on the 'another record' statement",
+"url": "https://www.sec.gov/Archives/edgar/data/0001551182/000155118226000040/etn-20260930.htm"
+}
 },
 {
 "id": "EV-20261105-TEP-1",
@@ -1345,10 +1354,13 @@
 "event_date": "2026-11-03",
 "resolves_by": "2026-11-04",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.1849,
+"evidence": {
+"summary": "Q4 2026 revenue guided at about $17.0bn plus or minus 3%, 27% above Q3 revenue of $13,377m",
+"url": "https://www.stocktitan.net/news/AMD/amd-reports-third-quarter-2026-financial-7j6jzo29buqw.html"
+}
 },
 {
 "id": "EV-20261109-CEG-1",
@@ -1432,6 +1444,50 @@
 "made_at": "2026-11-03",
 "event_date": "2026-11-10",
 "resolves_by": "2026-11-11",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261111-ENR-1",
+"kind": "event",
+"thesis": "power-grid-constraint",
+"thesis_title": "Grid equipment and power generation are the binding constraint on AI data-centre build-out",
+"statement": "Siemens Energy reports an FY2026 profit margin before special items of at least 11.0% (midpoint of its 10-12% guide)",
+"probability": 0.918,
+"probability_raw": 0.8,
+"override": null,
+"reasoning": "On the 30 Sep pre-close call management said profitability was trending towards the upper end of the 10-12% range; Q3 alone was 14.2% and Q4 is expected around the first-half level. Pre-close guidance this late is usually met; the risk is Gamesa charges or a weak Q4 mix.",
+"expected": "About 11.5-12%",
+"if_yes": "Grid and gas equipment pricing still converting backlog into margin; supports the grid thesis",
+"if_no": "Delivery or Gamesa costs eating the backlog's value; weakens the pricing-power leg of the grid thesis",
+"made_at": "2026-11-04",
+"event_date": "2026-11-11",
+"resolves_by": "2026-11-12",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261109-CRSP-1",
+"kind": "event",
+"thesis": "in-vivo-gene-editing",
+"thesis_title": "In vivo gene editing reaches commercial proof in 2026-27, lifting CRISPR Therapeutics, Intellia, Beam and their suppliers",
+"statement": "CRISPR Therapeutics' CTX310 Phase 1b data at AHA (9 Nov) show a mean or median triglyceride reduction of at least 50% in the highest-dose cohort of patients with severe hypertriglyceridemia",
+"probability": 0.767,
+"probability_raw": 0.65,
+"override": null,
+"reasoning": "In the Phase 1a (AHA 2025) the top dose (0.8 mg/kg) cut triglycerides and LDL-C by about 50% or more on average; ANGPTL3 loss tends to give similar or larger percentage triglyceride falls when baseline levels are high. Small cohorts and a possible lower top dose in 1b keep this well short of certain.",
+"expected": "Triglycerides down about 55-65% at the top dose, no treatment-related serious adverse events",
+"if_yes": "A second in vivo editing programme with durable one-shot efficacy; supports the gene-editing thesis",
+"if_no": "Weaker effect in the target population; trims the cardiometabolic leg of the thesis",
+"made_at": "2026-11-04",
+"event_date": "2026-11-09",
+"resolves_by": "2026-11-10",
 "method": "judged",
 "status": "open",
 "outcome": null,

@@ -2148,10 +2148,10 @@
 "value": 0.38
 },
 {
-"key": "curve_10y2y|2026-10-30|last",
+"key": "curve_10y2y|2026-11-02|last",
 "id": "curve_10y2y",
-"date": "2026-10-30",
-"value": 0.38
+"date": "2026-11-02",
+"value": 0.32
 },
 {
 "key": "ust10y|2023-01-06",
@@ -3351,13 +3351,13 @@
 "key": "ust10y|2026-10-30",
 "id": "ust10y",
 "date": "2026-10-30",
-"value": 4.98
+"value": 4.94
 },
 {
-"key": "ust10y|2026-10-29|last",
+"key": "ust10y|2026-10-30|last",
 "id": "ust10y",
-"date": "2026-10-29",
-"value": 4.98
+"date": "2026-10-30",
+"value": 4.94
 },
 {
 "key": "inflation_5y5y|2023-01-06",
@@ -4560,10 +4560,10 @@
 "value": 2.22
 },
 {
-"key": "inflation_5y5y|2026-10-30|last",
+"key": "inflation_5y5y|2026-11-02|last",
 "id": "inflation_5y5y",
-"date": "2026-10-30",
-"value": 2.22
+"date": "2026-11-02",
+"value": 2.19
 },
 {
 "key": "brent|2023-01-06",

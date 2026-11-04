@@ -1,5 +1,18 @@
 [
 {
+"key": "0001046179-26-000732|15",
+"transaction_date": "2026-11-01",
+"filed": "2026-11-03",
+"company": "TSMC",
+"ticker": "TSM",
+"insider": "Yuan Lipen",
+"role": "VP",
+"shares": 1000,
+"price": 71.49,
+"value_usd": 71490,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000732/wk-form4_1793707033.xml"
+},
+{
 "key": "0001513845-26-000145|14",
 "transaction_date": "2026-10-29",
 "filed": "2026-10-30",

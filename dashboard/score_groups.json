@@ -3,8 +3,8 @@
 "key": "Kind: event",
 "group_type": "Kind",
 "group": "event",
-"n": 19,
-"brier": 0.1332
+"n": 23,
+"brier": 0.1338
 },
 {
 "key": "Kind: thesis",
@@ -38,15 +38,15 @@
 "key": "Thesis: Grid equipment and power generation are the binding constraint on AI data-centre build-out",
 "group_type": "Thesis",
 "group": "Grid equipment and power generation are the binding constraint on AI data-centre build-out",
-"n": 3,
-"brier": 0.205
+"n": 5,
+"brier": 0.1455
 },
 {
 "key": "Thesis: Hyperscaler AI capex keeps rising through 2027, but the cost moves to depreciation and debt; power, memory and networking suppliers gain while hyperscaler free cash flow falls",
 "group_type": "Thesis",
 "group": "Hyperscaler AI capex keeps rising through 2027, but the cost moves to depreciation and debt; power, memory and networking suppliers gain while hyperscaler free cash flow falls",
-"n": 7,
-"brier": 0.2229
+"n": 9,
+"brier": 0.2217
 },
 {
 "key": "Thesis: In vivo gene editing reaches commercial proof in 2026-27, lifting CRISPR Therapeutics, Intellia, Beam and their suppliers",

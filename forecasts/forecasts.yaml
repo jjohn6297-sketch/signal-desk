@@ -1076,8 +1076,12 @@ forecasts:
   resolution:
     method: judged
     guidance: AMD Q3 2026 results release (8-K exhibit 99.1), GAAP revenue. Guide source https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000121/q22026991.htm
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-04'
+  evidence:
+    summary: 'AMD Q3 2026 revenue $13,377m, above the $13.3bn top of guide; Data Center a record $8.5bn, +97% year on year. Release text reproduced from GlobeNewswire'
+    url: https://www.stocktitan.net/news/AMD/amd-reports-third-quarter-2026-financial-7j6jzo29buqw.html
 - id: EV-20261103-ETN-1
   kind: event
   thesis: power-grid-constraint
@@ -1097,8 +1101,12 @@ forecasts:
   resolution:
     method: judged
     guidance: Eaton Q3 2026 earnings release, 3 Nov 2026; total company organic growth. Guide source https://app.boardroomalpha.com/sec_feed/2026/QTR3/0001551182-26-000027/etn06302026exhibit99.htm
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-04'
+  evidence:
+    summary: 'Eaton Q3 2026 organic sales growth 19% (sales $8.9bn, +28%); Electrical Americas +22% organic. Full-year organic guide 13-15%'
+    url: https://www.sec.gov/Archives/edgar/data/0001551182/000155118226000037/etn09302026exhibit99.htm
 - id: EV-20261103-ETN-2
   kind: event
   thesis: power-grid-constraint
@@ -1120,8 +1128,12 @@ forecasts:
     guidance: Eaton Q3 2026 release or analyst presentation; Electrical Americas total backlog in USD versus the June
       2026 figure. If only percentage changes are given, compare the year-on-year rate with the June rate and void if
       the sequential direction cannot be determined.
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-04'
+  evidence:
+    summary: 'No segment backlog in dollars is disclosed. Electrical Americas backlog +33% year on year at September (same as June); CEO on the call: backlog ''up 33% to another record, and it''s still growing''; book-to-bill 1.3. Total company backlog $26.2bn at 30 Sep vs $24.1bn at 30 Jun (10-Qs). Judged yes on the ''another record'' statement'
+    url: https://www.sec.gov/Archives/edgar/data/0001551182/000155118226000040/etn-20260930.htm
 - id: EV-20261105-TEP-1
   kind: event
   thesis: ai-service-agents-bpo
@@ -1187,8 +1199,12 @@ forecasts:
     method: judged
     guidance: AMD Q3 2026 results release; Q4 revenue outlook midpoint divided by Q3 reported revenue, at least 1.10.
       Guide and consensus source https://www.hudson-labs.com/research/amd-q3-2026-earnings-preview-revenue-guidance-key-drivers
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-04'
+  evidence:
+    summary: 'Q4 2026 revenue guided at about $17.0bn plus or minus 3%, 27% above Q3 revenue of $13,377m'
+    url: https://www.stocktitan.net/news/AMD/amd-reports-third-quarter-2026-financial-7j6jzo29buqw.html
 - id: EV-20261109-CEG-1
   kind: event
   thesis: power-grid-constraint
@@ -1280,5 +1296,55 @@ forecasts:
     guidance: Compare the 2026 revenue guidance midpoint given on the 10 Nov 2026 call or release with $12.8bn (the
       $12.4-13.2bn range from https://valueaddvc.com/pulse/coreweave-q2-2026-earnings-112-percent-revenue-surge). Lower
       midpoint = yes; unchanged or higher = no; guidance withdrawn = yes.
+  status: open
+  outcome: null
+- id: EV-20261111-ENR-1
+  kind: event
+  thesis: power-grid-constraint
+  event_date: '2026-11-11'
+  statement: Siemens Energy reports an FY2026 profit margin before special items of at least 11.0% (midpoint of its 10-12% guide)
+  probability_raw: 0.8
+  probability: 0.918
+  reasoning: On the 30 Sep pre-close call management said profitability was trending towards the upper end of the 10-12%
+    range; Q3 alone was 14.2% and Q4 is expected around the first-half level. Pre-close guidance this late is usually
+    met; the risk is Gamesa charges or a weak Q4 mix.
+  expected: About 11.5-12%
+  implications:
+    if_yes: Grid and gas equipment pricing still converting backlog into margin; supports the grid thesis
+    if_no: Delivery or Gamesa costs eating the backlog's value; weakens the pricing-power leg of the grid thesis
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-04'
+  resolves_by: '2026-11-12'
+  resolution:
+    method: judged
+    guidance: Siemens Energy Q4 FY2026 results release (11 Nov 2026, 07:00 CET), group profit margin before special items
+      for FY2026. Guide sources https://assets.siemens-energy.com/dam/e8ced7ab-8dcc-48e5-b0b5-b4d500fee9a5/2026-09-30---Q4-FY26-Pre-Close-Call_transcript-pdf_Original%20file.pdf
+      and https://www.investing.com/news/transcripts/earnings-call-transcript-siemens-energy-posts-record-q3-2026-results-shares-slip-93CH-4836780
+  status: open
+  outcome: null
+- id: EV-20261109-CRSP-1
+  kind: event
+  thesis: in-vivo-gene-editing
+  event_date: '2026-11-09'
+  statement: CRISPR Therapeutics' CTX310 Phase 1b data at AHA (9 Nov) show a mean or median triglyceride reduction of at
+    least 50% in the highest-dose cohort of patients with severe hypertriglyceridemia
+  probability_raw: 0.65
+  probability: 0.767
+  reasoning: In the Phase 1a (AHA 2025) the top dose (0.8 mg/kg) cut triglycerides and LDL-C by about 50% or more on
+    average; ANGPTL3 loss tends to give similar or larger percentage triglyceride falls when baseline levels are high.
+    Small cohorts and a possible lower top dose in 1b keep this well short of certain.
+  expected: Triglycerides down about 55-65% at the top dose, no treatment-related serious adverse events
+  implications:
+    if_yes: A second in vivo editing programme with durable one-shot efficacy; supports the gene-editing thesis
+    if_no: Weaker effect in the target population; trims the cardiometabolic leg of the thesis
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-04'
+  resolves_by: '2026-11-10'
+  resolution:
+    method: judged
+    guidance: CRISPR Therapeutics release or AHA late-breaker LBS.05 (9 Nov 2026, 08:00 CST). Use the highest dose cohort
+      reported; mean or median percent change in triglycerides from baseline. Void if no cohort-level triglyceride figure
+      is given. Prior data https://www.hcplive.com/view/crispr-gene-editing-therapy-ctx310-lowers-ldl-c-and-triglycerides-in-lipid-disorders;
+      schedule https://finviz.com/news/400391/crispr-therapeutics-to-present-late-breaking-data-at-the-american-heart-association-aha-scientific-sessions-2026
   status: open
   outcome: null

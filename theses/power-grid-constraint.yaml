@@ -29,6 +29,9 @@ evidence_for:
 - date: '2026-10-28'
   claim: 'Vertiv Q3 net sales $4.31bn, +55% organic; organic orders up more than 100%; 2026 sales guide raised by $650m'
   source: https://www.sec.gov/Archives/edgar/data/0001674101/000162828026067707/q32026exhibit991vrt10282026.htm
+- date: '2026-11-03'
+  claim: 'Eaton Q3 organic growth 19%, Electrical Americas +22% organic, rolling orders +39%, book-to-bill 1.3, backlog +33% to a record; total backlog $26.2bn (Jun $24.1bn); 18 of 25 capacity projects complete'
+  source: https://www.sec.gov/Archives/edgar/data/0001551182/000155118226000037/etn09302026exhibit99.htm
 evidence_against:
 - date: '2026-10-28'
   claim: 'GE Vernova gas slot reservations fell 63 -> 58 GW; backlog plus reservations 122 GW, short of the 124 GW line'
