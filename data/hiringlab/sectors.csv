@@ -125306,3 +125306,360 @@ date,country,sector,index
 2026-10-23,US,Media & Communications,67.56
 2026-10-23,US,Project Management,117.77
 2026-10-23,US,Software Development,80.79
+2026-10-24,DE,Accounting,123.2
+2026-10-24,DE,Administrative Assistance,101.05
+2026-10-24,DE,Banking & Finance,103.48
+2026-10-24,DE,Customer Service,68.66
+2026-10-24,DE,Data & Analytics,73.66
+2026-10-24,DE,Human Resources,80.64
+2026-10-24,DE,"IT Infrastructure, Operations & Support",63.69
+2026-10-24,DE,Insurance,91.1
+2026-10-24,DE,Legal,97.54
+2026-10-24,DE,Marketing,63.48
+2026-10-24,DE,Media & Communications,63.69
+2026-10-24,DE,Project Management,81.85
+2026-10-24,DE,Software Development,49.27
+2026-10-24,FR,Accounting,62.98
+2026-10-24,FR,Administrative Assistance,73.66
+2026-10-24,FR,Banking & Finance,83.41
+2026-10-24,FR,Customer Service,70.37
+2026-10-24,FR,Human Resources,68.21
+2026-10-24,FR,"IT Infrastructure, Operations & Support",62.2
+2026-10-24,FR,Insurance,96.04
+2026-10-24,FR,Legal,74.08
+2026-10-24,FR,Marketing,57
+2026-10-24,FR,Media & Communications,55.02
+2026-10-24,FR,Project Management,68.26
+2026-10-24,FR,Software Development,51.65
+2026-10-24,GB,Accounting,63.98
+2026-10-24,GB,Administrative Assistance,64.1
+2026-10-24,GB,Banking & Finance,83.6
+2026-10-24,GB,Customer Service,39.7
+2026-10-24,GB,Data & Analytics,50.07
+2026-10-24,GB,Human Resources,65.44
+2026-10-24,GB,"IT Infrastructure, Operations & Support",46.77
+2026-10-24,GB,Insurance,92.71
+2026-10-24,GB,Legal,94
+2026-10-24,GB,Marketing,48.19
+2026-10-24,GB,Media & Communications,46.08
+2026-10-24,GB,Project Management,76.02
+2026-10-24,GB,Software Development,61.55
+2026-10-24,US,Accounting,107.09
+2026-10-24,US,Administrative Assistance,93.34
+2026-10-24,US,Banking & Finance,107.35
+2026-10-24,US,Customer Service,86.83
+2026-10-24,US,Data & Analytics,62.3
+2026-10-24,US,Human Resources,99.18
+2026-10-24,US,"IT Infrastructure, Operations & Support",69.81
+2026-10-24,US,Insurance,126.28
+2026-10-24,US,Legal,125.68
+2026-10-24,US,Marketing,77
+2026-10-24,US,Media & Communications,67.49
+2026-10-24,US,Project Management,117.8
+2026-10-24,US,Software Development,80.96
+2026-10-25,DE,Accounting,122.8
+2026-10-25,DE,Administrative Assistance,100.82
+2026-10-25,DE,Banking & Finance,103.83
+2026-10-25,DE,Customer Service,68.74
+2026-10-25,DE,Data & Analytics,73.62
+2026-10-25,DE,Human Resources,80.54
+2026-10-25,DE,"IT Infrastructure, Operations & Support",63.44
+2026-10-25,DE,Insurance,90.85
+2026-10-25,DE,Legal,97.49
+2026-10-25,DE,Marketing,63.47
+2026-10-25,DE,Media & Communications,63.67
+2026-10-25,DE,Project Management,81.82
+2026-10-25,DE,Software Development,49.16
+2026-10-25,FR,Accounting,62.83
+2026-10-25,FR,Administrative Assistance,73.6
+2026-10-25,FR,Banking & Finance,83.15
+2026-10-25,FR,Customer Service,70.54
+2026-10-25,FR,Human Resources,67.91
+2026-10-25,FR,"IT Infrastructure, Operations & Support",62.07
+2026-10-25,FR,Insurance,96.13
+2026-10-25,FR,Legal,73.89
+2026-10-25,FR,Marketing,57.28
+2026-10-25,FR,Media & Communications,54.99
+2026-10-25,FR,Project Management,68.19
+2026-10-25,FR,Software Development,51.75
+2026-10-25,GB,Accounting,63.92
+2026-10-25,GB,Administrative Assistance,64.02
+2026-10-25,GB,Banking & Finance,83.18
+2026-10-25,GB,Customer Service,39.73
+2026-10-25,GB,Data & Analytics,50.15
+2026-10-25,GB,Human Resources,65.5
+2026-10-25,GB,"IT Infrastructure, Operations & Support",46.73
+2026-10-25,GB,Insurance,92.42
+2026-10-25,GB,Legal,93.82
+2026-10-25,GB,Marketing,48.17
+2026-10-25,GB,Media & Communications,46.06
+2026-10-25,GB,Project Management,76.03
+2026-10-25,GB,Software Development,61.51
+2026-10-25,US,Accounting,107.01
+2026-10-25,US,Administrative Assistance,93.26
+2026-10-25,US,Banking & Finance,107.4
+2026-10-25,US,Customer Service,86.87
+2026-10-25,US,Data & Analytics,62.2
+2026-10-25,US,Human Resources,99.02
+2026-10-25,US,"IT Infrastructure, Operations & Support",69.89
+2026-10-25,US,Insurance,125.81
+2026-10-25,US,Legal,125.42
+2026-10-25,US,Marketing,77.16
+2026-10-25,US,Media & Communications,67.41
+2026-10-25,US,Project Management,117.81
+2026-10-25,US,Software Development,81.14
+2026-10-26,DE,Accounting,122.41
+2026-10-26,DE,Administrative Assistance,100.6
+2026-10-26,DE,Banking & Finance,104.21
+2026-10-26,DE,Customer Service,68.68
+2026-10-26,DE,Data & Analytics,73.52
+2026-10-26,DE,Human Resources,80.44
+2026-10-26,DE,"IT Infrastructure, Operations & Support",63.26
+2026-10-26,DE,Insurance,90.93
+2026-10-26,DE,Legal,97.46
+2026-10-26,DE,Marketing,63.45
+2026-10-26,DE,Media & Communications,63.61
+2026-10-26,DE,Project Management,81.78
+2026-10-26,DE,Software Development,49.01
+2026-10-26,FR,Accounting,62.66
+2026-10-26,FR,Administrative Assistance,73.49
+2026-10-26,FR,Banking & Finance,82.82
+2026-10-26,FR,Customer Service,70.76
+2026-10-26,FR,Human Resources,67.55
+2026-10-26,FR,"IT Infrastructure, Operations & Support",61.96
+2026-10-26,FR,Insurance,95.91
+2026-10-26,FR,Legal,73.8
+2026-10-26,FR,Marketing,57.53
+2026-10-26,FR,Media & Communications,54.84
+2026-10-26,FR,Project Management,68.16
+2026-10-26,FR,Software Development,51.73
+2026-10-26,GB,Accounting,63.71
+2026-10-26,GB,Administrative Assistance,63.9
+2026-10-26,GB,Banking & Finance,82.75
+2026-10-26,GB,Customer Service,39.69
+2026-10-26,GB,Data & Analytics,50.14
+2026-10-26,GB,Human Resources,65.54
+2026-10-26,GB,"IT Infrastructure, Operations & Support",46.84
+2026-10-26,GB,Insurance,92.18
+2026-10-26,GB,Legal,93.58
+2026-10-26,GB,Marketing,48.22
+2026-10-26,GB,Media & Communications,45.99
+2026-10-26,GB,Project Management,76.04
+2026-10-26,GB,Software Development,61.51
+2026-10-26,US,Accounting,106.91
+2026-10-26,US,Administrative Assistance,93.22
+2026-10-26,US,Banking & Finance,107.55
+2026-10-26,US,Customer Service,86.85
+2026-10-26,US,Data & Analytics,61.99
+2026-10-26,US,Human Resources,98.81
+2026-10-26,US,"IT Infrastructure, Operations & Support",69.84
+2026-10-26,US,Insurance,125.29
+2026-10-26,US,Legal,125.02
+2026-10-26,US,Marketing,77.33
+2026-10-26,US,Media & Communications,67.43
+2026-10-26,US,Project Management,117.75
+2026-10-26,US,Software Development,81.16
+2026-10-27,DE,Accounting,122.79
+2026-10-27,DE,Administrative Assistance,100.49
+2026-10-27,DE,Banking & Finance,104.65
+2026-10-27,DE,Customer Service,68.64
+2026-10-27,DE,Data & Analytics,73.52
+2026-10-27,DE,Human Resources,80.11
+2026-10-27,DE,"IT Infrastructure, Operations & Support",63.21
+2026-10-27,DE,Insurance,90.95
+2026-10-27,DE,Legal,97.75
+2026-10-27,DE,Marketing,63.42
+2026-10-27,DE,Media & Communications,63.57
+2026-10-27,DE,Project Management,81.72
+2026-10-27,DE,Software Development,48.88
+2026-10-27,FR,Accounting,62.5
+2026-10-27,FR,Administrative Assistance,73.28
+2026-10-27,FR,Banking & Finance,82.49
+2026-10-27,FR,Customer Service,71.05
+2026-10-27,FR,Human Resources,67.14
+2026-10-27,FR,"IT Infrastructure, Operations & Support",61.86
+2026-10-27,FR,Insurance,95.54
+2026-10-27,FR,Legal,73.75
+2026-10-27,FR,Marketing,57.61
+2026-10-27,FR,Media & Communications,54.65
+2026-10-27,FR,Project Management,68.06
+2026-10-27,FR,Software Development,51.83
+2026-10-27,GB,Accounting,63.69
+2026-10-27,GB,Administrative Assistance,63.8
+2026-10-27,GB,Banking & Finance,82.44
+2026-10-27,GB,Customer Service,39.65
+2026-10-27,GB,Data & Analytics,50.09
+2026-10-27,GB,Human Resources,65.76
+2026-10-27,GB,"IT Infrastructure, Operations & Support",47.1
+2026-10-27,GB,Insurance,91.94
+2026-10-27,GB,Legal,93.27
+2026-10-27,GB,Marketing,48.34
+2026-10-27,GB,Media & Communications,45.89
+2026-10-27,GB,Project Management,76.01
+2026-10-27,GB,Software Development,61.53
+2026-10-27,US,Accounting,106.86
+2026-10-27,US,Administrative Assistance,93.13
+2026-10-27,US,Banking & Finance,107.84
+2026-10-27,US,Customer Service,86.85
+2026-10-27,US,Data & Analytics,61.86
+2026-10-27,US,Human Resources,98.62
+2026-10-27,US,"IT Infrastructure, Operations & Support",69.91
+2026-10-27,US,Insurance,125.1
+2026-10-27,US,Legal,124.77
+2026-10-27,US,Marketing,77.42
+2026-10-27,US,Media & Communications,67.3
+2026-10-27,US,Project Management,117.73
+2026-10-27,US,Software Development,81.24
+2026-10-28,DE,Accounting,122.9
+2026-10-28,DE,Administrative Assistance,100.61
+2026-10-28,DE,Banking & Finance,105.82
+2026-10-28,DE,Customer Service,68.84
+2026-10-28,DE,Data & Analytics,73.58
+2026-10-28,DE,Human Resources,79.94
+2026-10-28,DE,"IT Infrastructure, Operations & Support",63.23
+2026-10-28,DE,Insurance,90.99
+2026-10-28,DE,Legal,97.76
+2026-10-28,DE,Marketing,63.43
+2026-10-28,DE,Media & Communications,63.59
+2026-10-28,DE,Project Management,81.79
+2026-10-28,DE,Software Development,48.82
+2026-10-28,FR,Accounting,62.25
+2026-10-28,FR,Administrative Assistance,73.1
+2026-10-28,FR,Banking & Finance,81.99
+2026-10-28,FR,Customer Service,71.1
+2026-10-28,FR,Human Resources,66.68
+2026-10-28,FR,"IT Infrastructure, Operations & Support",61.64
+2026-10-28,FR,Insurance,94.74
+2026-10-28,FR,Legal,73.8
+2026-10-28,FR,Marketing,57.63
+2026-10-28,FR,Media & Communications,54.44
+2026-10-28,FR,Project Management,67.92
+2026-10-28,FR,Software Development,51.68
+2026-10-28,GB,Accounting,63.61
+2026-10-28,GB,Administrative Assistance,63.65
+2026-10-28,GB,Banking & Finance,82.16
+2026-10-28,GB,Customer Service,39.83
+2026-10-28,GB,Data & Analytics,50.08
+2026-10-28,GB,Human Resources,66.06
+2026-10-28,GB,"IT Infrastructure, Operations & Support",47.18
+2026-10-28,GB,Insurance,91.18
+2026-10-28,GB,Legal,93.11
+2026-10-28,GB,Marketing,48.41
+2026-10-28,GB,Media & Communications,45.74
+2026-10-28,GB,Project Management,76
+2026-10-28,GB,Software Development,61.5
+2026-10-28,US,Accounting,106.82
+2026-10-28,US,Administrative Assistance,93.07
+2026-10-28,US,Banking & Finance,108.12
+2026-10-28,US,Customer Service,86.9
+2026-10-28,US,Data & Analytics,61.74
+2026-10-28,US,Human Resources,98.56
+2026-10-28,US,"IT Infrastructure, Operations & Support",69.84
+2026-10-28,US,Insurance,125.42
+2026-10-28,US,Legal,124.61
+2026-10-28,US,Marketing,77.37
+2026-10-28,US,Media & Communications,67.2
+2026-10-28,US,Project Management,117.76
+2026-10-28,US,Software Development,81.23
+2026-10-29,DE,Accounting,123.12
+2026-10-29,DE,Administrative Assistance,100.58
+2026-10-29,DE,Banking & Finance,105.75
+2026-10-29,DE,Customer Service,69.02
+2026-10-29,DE,Data & Analytics,73.65
+2026-10-29,DE,Human Resources,79.84
+2026-10-29,DE,"IT Infrastructure, Operations & Support",63.27
+2026-10-29,DE,Insurance,89.87
+2026-10-29,DE,Legal,97.83
+2026-10-29,DE,Marketing,63.44
+2026-10-29,DE,Media & Communications,63.6
+2026-10-29,DE,Project Management,81.91
+2026-10-29,DE,Software Development,48.84
+2026-10-29,FR,Accounting,61.99
+2026-10-29,FR,Administrative Assistance,73.07
+2026-10-29,FR,Banking & Finance,81.87
+2026-10-29,FR,Customer Service,71.11
+2026-10-29,FR,Human Resources,66.62
+2026-10-29,FR,"IT Infrastructure, Operations & Support",61.58
+2026-10-29,FR,Insurance,93.95
+2026-10-29,FR,Legal,73.87
+2026-10-29,FR,Marketing,57.37
+2026-10-29,FR,Media & Communications,54.33
+2026-10-29,FR,Project Management,67.77
+2026-10-29,FR,Software Development,51.49
+2026-10-29,GB,Accounting,63.49
+2026-10-29,GB,Administrative Assistance,63.52
+2026-10-29,GB,Banking & Finance,82.04
+2026-10-29,GB,Customer Service,40.13
+2026-10-29,GB,Data & Analytics,50.04
+2026-10-29,GB,Human Resources,66.25
+2026-10-29,GB,"IT Infrastructure, Operations & Support",47.22
+2026-10-29,GB,Insurance,90.44
+2026-10-29,GB,Legal,93.08
+2026-10-29,GB,Marketing,48.38
+2026-10-29,GB,Media & Communications,45.62
+2026-10-29,GB,Project Management,75.98
+2026-10-29,GB,Software Development,61.46
+2026-10-29,US,Accounting,106.76
+2026-10-29,US,Administrative Assistance,92.95
+2026-10-29,US,Banking & Finance,108.3
+2026-10-29,US,Customer Service,86.92
+2026-10-29,US,Data & Analytics,61.81
+2026-10-29,US,Human Resources,98.55
+2026-10-29,US,"IT Infrastructure, Operations & Support",69.47
+2026-10-29,US,Insurance,125.91
+2026-10-29,US,Legal,124.51
+2026-10-29,US,Marketing,77.32
+2026-10-29,US,Media & Communications,67.21
+2026-10-29,US,Project Management,117.76
+2026-10-29,US,Software Development,81.49
+2026-10-30,DE,Accounting,123.17
+2026-10-30,DE,Administrative Assistance,100.55
+2026-10-30,DE,Banking & Finance,105.67
+2026-10-30,DE,Customer Service,69.07
+2026-10-30,DE,Data & Analytics,73.72
+2026-10-30,DE,Human Resources,79.6
+2026-10-30,DE,"IT Infrastructure, Operations & Support",63.18
+2026-10-30,DE,Insurance,89.65
+2026-10-30,DE,Legal,97.7
+2026-10-30,DE,Marketing,63.37
+2026-10-30,DE,Media & Communications,63.52
+2026-10-30,DE,Project Management,81.91
+2026-10-30,DE,Software Development,48.75
+2026-10-30,FR,Accounting,61.92
+2026-10-30,FR,Administrative Assistance,72.99
+2026-10-30,FR,Banking & Finance,81.8
+2026-10-30,FR,Customer Service,70.96
+2026-10-30,FR,Human Resources,66.59
+2026-10-30,FR,"IT Infrastructure, Operations & Support",61.46
+2026-10-30,FR,Insurance,93.22
+2026-10-30,FR,Legal,74.08
+2026-10-30,FR,Marketing,56.91
+2026-10-30,FR,Media & Communications,54.16
+2026-10-30,FR,Project Management,67.84
+2026-10-30,FR,Software Development,51.45
+2026-10-30,GB,Accounting,63.34
+2026-10-30,GB,Administrative Assistance,63.33
+2026-10-30,GB,Banking & Finance,82.04
+2026-10-30,GB,Customer Service,40.5
+2026-10-30,GB,Data & Analytics,49.87
+2026-10-30,GB,Human Resources,66.34
+2026-10-30,GB,"IT Infrastructure, Operations & Support",47.35
+2026-10-30,GB,Insurance,89.62
+2026-10-30,GB,Legal,92.91
+2026-10-30,GB,Marketing,48.37
+2026-10-30,GB,Media & Communications,45.37
+2026-10-30,GB,Project Management,75.99
+2026-10-30,GB,Software Development,61.28
+2026-10-30,US,Accounting,106.77
+2026-10-30,US,Administrative Assistance,92.93
+2026-10-30,US,Banking & Finance,108.47
+2026-10-30,US,Customer Service,86.95
+2026-10-30,US,Data & Analytics,61.75
+2026-10-30,US,Human Resources,98.55
+2026-10-30,US,"IT Infrastructure, Operations & Support",69.33
+2026-10-30,US,Insurance,125.58
+2026-10-30,US,Legal,124.34
+2026-10-30,US,Marketing,77.32
+2026-10-30,US,Media & Communications,67.19
+2026-10-30,US,Project Management,117.8
+2026-10-30,US,Software Development,81.58

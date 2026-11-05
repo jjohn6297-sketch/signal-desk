@@ -7,7 +7,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8159515,Finance Manager ,,New York City,2026-10-30T08:56:32-04:00,http://www.squarespace.com/about/careers?gh_jid=8159515,other,senior,us,False
 8223803,GRC Analyst ,,New York City,2026-11-03T03:06:45-05:00,http://www.squarespace.com/about/careers?gh_jid=8223803,other,mid_or_unknown,us,False
 8159488,International Strategy and Marketing Lead,,Dublin,2026-10-30T08:56:03-04:00,http://www.squarespace.com/about/careers?gh_jid=8159488,marketing_content,senior,dublin,False
-8174706,"Manager, Financial Systems ",,New York City,2026-11-03T03:06:38-05:00,http://www.squarespace.com/about/careers?gh_jid=8174706,other,senior,us,False
 8013777,Security Engineer - Incident Response,,Dublin,2026-10-30T08:54:54-04:00,http://www.squarespace.com/about/careers?gh_jid=8013777,software_engineering,mid_or_unknown,dublin,False
 7557494,"Senior Backend Engineer, Domains",,Aveiro,2026-10-01T11:31:58-04:00,http://www.squarespace.com/about/careers?gh_jid=7557494,software_engineering,senior,other,False
 8205265,"Senior Lead, AI Pricing & Margin Strategy",,New York City,2026-10-30T09:00:15-04:00,http://www.squarespace.com/about/careers?gh_jid=8205265,data_ai,senior,us,True
@@ -15,7 +14,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8159497,Senior Manager International Strategy,,New York City,2026-10-30T08:56:12-04:00,http://www.squarespace.com/about/careers?gh_jid=8159497,other,senior,us,False
 8232378,"Senior Media Strategist, Creator & Affiliate",,New York City,2026-10-30T09:01:14-04:00,http://www.squarespace.com/about/careers?gh_jid=8232378,other,senior,us,False
 8205239,"Senior Product Manager, Acuity Scheduling, Payments",,New York City,2026-11-02T09:25:26-05:00,http://www.squarespace.com/about/careers?gh_jid=8205239,product_management,senior,us,False
-8205261,"Senior Product Manager, Domains ",,New York City; Remote,2026-10-30T09:00:03-04:00,http://www.squarespace.com/about/careers?gh_jid=8205261,product_management,senior,us,False
+8205261,"Senior Product Manager, Domains ",,New York City; Remote,2026-11-04T14:05:17-05:00,http://www.squarespace.com/about/careers?gh_jid=8205261,product_management,senior,us,False
 8174790,"Senior Software Engineer Backend, Database",,Dublin,2026-10-30T08:58:45-04:00,http://www.squarespace.com/about/careers?gh_jid=8174790,software_engineering,senior,dublin,False
 6305471,Senior Software Engineer - Java (Media Platform),,New York City,2026-09-18T09:29:21-04:00,http://www.squarespace.com/about/careers?gh_jid=6305471,software_engineering,senior,us,False
 8019365,"Software Engineer, Frontend ",,New York City,2026-10-30T08:55:14-04:00,http://www.squarespace.com/about/careers?gh_jid=8019365,software_engineering,mid_or_unknown,us,False
