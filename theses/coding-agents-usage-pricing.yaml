@@ -14,6 +14,10 @@ evidence_for:
 - date: '2026-09-01'
   claim: GitLab moving to hybrid seat and consumption model
   source: https://stockanalysis.com/stocks/gtlb/
+- date: '2026-11-05'
+  claim: Datadog Q3 2026 revenue $1,197.1m, +35% y/y (Q2 +36%), well above the 25% kill line; Q4 guide $1.19-1.20bn
+  source: https://www.globenewswire.com/news-release/2026/11/04/3395166/0/en/datadog-announces-third-quarter-2026-financial-results.html
+  engine: daily-run
 evidence_against:
 - date: '2026-10-24'
   claim: 'Seat vendors up YTD: Atlassian +40%, GitLab +50%; MongoDB -12%'

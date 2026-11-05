@@ -1,5 +1,61 @@
 [
 {
+"key": "2026-11-05-1",
+"date": "2026-11-05",
+"kind": "daily",
+"title": "5 November 2026",
+"rank": 1,
+"text": "Action card, airlines bet: a second kill criterion is hit. The US struck an Iranian anti-aircraft site on Qeshm Island early on 3 Nov (local time); Trump confirmed it as a \"minor attack\". Conviction 33 to 25. With Brent above $126 in October as well, the decision for John is to close the thesis or keep it watch-only with no tranches until a Hormuz deal."
+},
+{
+"key": "2026-11-05-2",
+"date": "2026-11-05",
+"kind": "daily",
+"title": "5 November 2026",
+"rank": 2,
+"text": "Resolved 2. Miss: US strikes on Iran 3-9 Nov (calibrated 9%, raw 20%; Brier 0.82, the worst score so far). Hit: Datadog Q3 revenue $1,197m, up 35%, against the $1.17bn line (55%, Brier 0.20); growth is far above the 25% kill line for the coding-agents thesis."
+},
+{
+"key": "2026-11-05-3",
+"date": "2026-11-05",
+"kind": "daily",
+"title": "5 November 2026",
+"rank": 3,
+"text": "Brier 0.178 on 31 resolved (0.155 on 29 yesterday). The Iran miss moved the recalibration refit to k 0.90, b 0.60 from k 1.60, b 0.40: future forecasts will be pulled less far from their raw values. Today's forecasts used the fit in place at the start of the run."
+},
+{
+"key": "2026-11-05-4",
+"date": "2026-11-05",
+"kind": "daily",
+"title": "5 November 2026",
+"rank": 4,
+"text": "Pre-registered 4 for 12 Nov. Nebius Q3 revenue at least $905m, the consensus (raw 50%, calibrated 60%); Nebius lowers its $3.0-3.4bn 2026 revenue guide midpoint (raw 30%, calibrated 28%), which would support the build-out-delay bet. Twist Q4 revenue at least $124m, the top of guide (raw 75%, calibrated 90%); Twist adjusted EBITDA zero or better, as guided (raw 45%, calibrated 52%)."
+},
+{
+"key": "2026-11-05-5",
+"date": "2026-11-05",
+"kind": "daily",
+"title": "5 November 2026",
+"rank": 5,
+"text": "CoreWeave's October 2031 notes yielded 15.6% (Motley Fool, 3 Nov; 14.44% on 21 Oct), still in watch but close to the 16% stress line. Regime unchanged: Late cycle."
+},
+{
+"key": "2026-11-05-6",
+"date": "2026-11-05",
+"kind": "daily",
+"title": "5 November 2026",
+"rank": 6,
+"text": "Still open today: BoE (raise to 4.00%, 85%) at noon, Teleperformance Q3 revenue at 17:45 CET, Atlassian after the US close. Coming up: payrolls 6 Nov; CTX310 and Constellation 9 Nov; CoreWeave and US CPI 10 Nov; Siemens Energy 11 Nov; Nebius and Twist 12 Nov."
+},
+{
+"key": "2026-11-05-7",
+"date": "2026-11-05",
+"kind": "daily",
+"title": "5 November 2026",
+"rank": 7,
+"text": "No feedback on the Signal Desk docs since the last run. No new 13F filings or FINRA margin data."
+},
+{
 "key": "2026-11-04-1",
 "date": "2026-11-04",
 "kind": "daily",
@@ -230,69 +286,5 @@
 "title": "30 October 2026",
 "rank": 8,
 "text": "Margin debt year-on-year is still not recorded: no source this run gave FINRA's exact September 2025 figure. Macro regime unchanged at Late cycle."
-},
-{
-"key": "2026-10-29-1",
-"date": "2026-10-29",
-"kind": "daily",
-"title": "29 October 2026",
-"rank": 1,
-"text": "Two action cards, neither a kill criterion. Microsoft capex including finance leases was $45.2bn against 80% for at least $50bn (Brier 0.64); the CFO blamed third-party capacity delays and guided FQ2 above $50bn. GE Vernova gas backlog plus reservations was 122 GW against 70% for at least 124 GW (Brier 0.49); the forecast ignored 5 GW of shipments."
-},
-{
-"key": "2026-10-29-2",
-"date": "2026-10-29",
-"kind": "daily",
-"title": "29 October 2026",
-"rank": 2,
-"text": "Resolved 13: 10 hits, 3 misses, mean Brier 0.179 today. Overall Brier is now 0.182 on 15 resolved (recalibration starts at 20)."
-},
-{
-"key": "2026-10-29-3",
-"date": "2026-10-29",
-"kind": "daily",
-"title": "29 October 2026",
-"rank": 3,
-"text": "Hyperscaler demand is strong; supply is the constraint. Azure grew 48%; Google Cloud grew 103% to $30.7bn (forecast 55% for at least 90%). Alphabet kept its $195-205bn 2026 capex guide and said 2027 will rise significantly (85%, hit). Microsoft's delay is the first of the two hyperscaler admissions the build-out-delay bet needs."
-},
-{
-"key": "2026-10-29-4",
-"date": "2026-10-29",
-"kind": "daily",
-"title": "29 October 2026",
-"rank": 4,
-"text": "UK Budget: bank surcharge doubled from 3% to 6% for 15 months (75%, hit); no change to stamp duty on shares, so the UK bet's kill criterion is not hit; headroom £14.5bn, just under the £15bn line (50%, miss; the Treasury rounds it to £15bn and the OBR page could not be opened). Shell announced a $5.0bn buyback (50%, hit)."
-},
-{
-"key": "2026-10-29-5",
-"date": "2026-10-29",
-"kind": "daily",
-"title": "29 October 2026",
-"rank": 5,
-"text": "Fed held at 3.75-4.00% (90%, hit), but two members dissented for a hike. Against the bonds bet; the 10-year is 5.00% (watch)."
-},
-{
-"key": "2026-10-29-6",
-"date": "2026-10-29",
-"kind": "daily",
-"title": "29 October 2026",
-"rank": 6,
-"text": "Grid and software results were strong: GE Vernova orders $29.3bn (+96% organic); Vertiv organic sales +55%, orders up more than 100%, guidance raised. ServiceNow subscription revenue $3,988m, just above the $3.98bn line, and cRPO +21% in constant currency (both hits)."
-},
-{
-"key": "2026-10-29-7",
-"date": "2026-10-29",
-"kind": "daily",
-"title": "29 October 2026",
-"rank": 7,
-"text": "Pre-registered 2 for Teleperformance Q3 revenue (5 Nov, date unconfirmed): like-for-like growth at least 0% (40%); 2026 target of 0-2% lowered (45%). Still open for tomorrow: ECB, Amazon (AWS growth, capex, free cash flow), Illumina (reports tonight, not on 28 Oct as registered), BoJ and BP."
-},
-{
-"key": "2026-10-29-8",
-"date": "2026-10-29",
-"kind": "daily",
-"title": "29 October 2026",
-"rank": 8,
-"text": "Accenture's CEO Julie Sweet bought about $3.0m of shares on 26 Oct, and a director about $0.2m: insiders buying against the AI-labour bear case. Macro regime unchanged at Late cycle."
 }
 ]

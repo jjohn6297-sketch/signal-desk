@@ -29,10 +29,15 @@ evidence_against:
   claim: Dated Brent closed $128.30 (23 Oct) and $128.12 (26 Oct), above the $126 kill line; $123.10 on 27 Oct. Front-month CFD about $108.6 on 2 Nov after diplomacy reports
   source: https://fred.stlouisfed.org/series/DCOILBRENTEU
   engine: daily-run
-system_conviction: 33
+- date: '2026-11-05'
+  claim: US struck an Iranian anti-aircraft facility on Qeshm Island early on 3 Nov (local time); Trump confirmed it as a "minor attack". Kill criterion 2 (strikes on Iran resume) is hit and the tranche-1 condition (no strikes after the midterms) failed
+  source: https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes
+  engine: daily-run
+system_conviction: 25
 conviction_history:
 - {date: '2026-11-01', value: 37, reason: 'Weekly review (Insights log): Dated Brent above the $126 kill line on 23 and 26 Oct'}
 - {date: '2026-11-02', value: 33, reason: 'Ryanair beat on H1 profit, but FY28 is hedged higher than assumed and fares fell 4%'}
+- {date: '2026-11-05', value: 25, reason: 'US strike on Qeshm Island (3 Nov) hits kill criterion 2; the first tranche condition failed'}
 predictions:
 - id: p1
   statement: If no US strike on Iran by 2026-12-31, Brent front-month settles below $100 at least once before 2027-01-31

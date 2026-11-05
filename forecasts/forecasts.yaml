@@ -428,8 +428,12 @@ forecasts:
   resolution:
     method: judged
     guidance: Read Datadog Q3 2026 results (4 Nov 2026, before the US open).
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-05'
+  evidence:
+    summary: 'Q3 2026 revenue $1,197.1m (+35% y/y), above $1.17bn. Q4 guide $1.19-1.20bn; FY26 guide $4.515-4.525bn; 4,860 customers with ARR of $100k+ (+20%)'
+    url: https://www.globenewswire.com/news-release/2026/11/04/3395166/0/en/datadog-announces-third-quarter-2026-financial-results.html
 - id: CODE-2
   kind: thesis
   thesis: coding-agents-usage-pricing
@@ -1249,8 +1253,13 @@ forecasts:
     method: judged
     guidance: Yes if a US government statement or two major outlets (Reuters, AP, FT) report US strikes on Iranian
       territory dated 3-9 Nov 2026. Israeli-only strikes do not count. Context https://www.arabtimesonline.com/news/trump-gives-iran-diplomacy-more-time-as-netanyahu-presses-for-strikes-after-us-midterms/
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-05'
+  evidence:
+    summary: 'US strike on an Iranian anti-aircraft facility on Qeshm Island, early Tuesday 3 Nov local time (Monday night US time), after this forecast was made. Trump confirmed it ("we hit it last night", "a minor attack", "it wasn''t war"); US officials called it defensive after Iranian fire at a US aircraft. Counted as a US government statement under the guidance'
+    url: https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes
+    other: https://www.wsws.org/en/articles/2026/11/04/xutg-n04.html
 - id: EV-20261110-CRWV-1
   kind: event
   thesis: ai-buildout-delay
@@ -1346,5 +1355,100 @@ forecasts:
       reported; mean or median percent change in triglycerides from baseline. Void if no cohort-level triglyceride figure
       is given. Prior data https://www.hcplive.com/view/crispr-gene-editing-therapy-ctx310-lowers-ldl-c-and-triglycerides-in-lipid-disorders;
       schedule https://finviz.com/news/400391/crispr-therapeutics-to-present-late-breaking-data-at-the-american-heart-association-aha-scientific-sessions-2026
+  status: open
+  outcome: null
+- id: EV-20261112-NBIS-1
+  kind: event
+  thesis: ai-buildout-delay
+  event_date: '2026-11-12'
+  statement: Nebius Group Q3 2026 revenue is at least USD 905m (MarketBeat consensus $905.75m)
+  probability_raw: 0.5
+  probability: 0.599
+  reasoning: Q2 revenue was $582.3m, up 46% on Q1; consensus needs about 56% sequential growth. Management said capacity
+    deployed late in Q2 starts contributing in Q3, and Nebius beat Q2 forecasts, but most Q2 deals are said to land in
+    2027. Consensus is a fair starting point; no reason to lean either way.
+  expected: Revenue around $880-950m
+  implications:
+    if_yes: Capacity is coming online roughly on schedule at the second-largest neocloud; against the build-out-delay bet
+    if_no: A miss blamed on deployment timing would support the build-out-delay bet
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-05'
+  resolves_by: '2026-11-13'
+  resolution:
+    method: judged
+    guidance: Nebius Q3 2026 shareholder letter or release (12 Nov 2026, before the US open), group revenue. Consensus
+      https://www.marketbeat.com/earnings/reports/2026-11-12-nebius-group-nv-stock/; Q2 base
+      https://assets.nebius.com/assets/4462517b-ce83-41f2-96ed-f2ac1bc06a05/SHLQ226%20(1).pdf-0
+  status: open
+  outcome: null
+- id: EV-20261112-NBIS-2
+  kind: event
+  thesis: ai-buildout-delay
+  event_date: '2026-11-12'
+  statement: Nebius lowers the midpoint of its full-year 2026 revenue guidance (currently $3.0-3.4bn, midpoint $3.2bn) with
+    its Q3 results
+  probability_raw: 0.3
+  probability: 0.278
+  reasoning: H1 revenue was about $0.98bn, so the guide needs about $2.0-2.4bn in H2, a steep ramp that depends on new
+    capacity going live in Q4. Guidance was reaffirmed in August; companies rarely cut with this much contracted backlog,
+    but the ramp leaves little room for site delays.
+  expected: Guidance kept, possibly narrowed towards the low end
+  implications:
+    if_yes: A second neocloud (with CoreWeave, EV-20261110-CRWV-2) cutting on delivery timing would strongly support the
+      build-out-delay bet
+    if_no: Delivery is holding at Nebius; the bet relies on hyperscaler and CoreWeave signals
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-05'
+  resolves_by: '2026-11-13'
+  resolution:
+    method: judged
+    guidance: Compare the FY2026 revenue guidance midpoint given on 12 Nov 2026 with $3.2bn (range from
+      https://www.tradingkey.com/news/transcripts/262106466-tradingkey). Lower midpoint = yes; unchanged or higher = no;
+      guidance withdrawn = yes. A narrowed range keeps its own midpoint.
+  status: open
+  outcome: null
+- id: EV-20261112-TWST-1
+  kind: event
+  thesis: in-vivo-gene-editing
+  event_date: '2026-11-12'
+  statement: Twist Bioscience fiscal Q4 2026 (Jul-Sep 2026) revenue is at least USD 124.0m (top of its $123-124m guide)
+  probability_raw: 0.75
+  probability: 0.896
+  reasoning: Twist guided Q3 to $114-115m and reported $118.4m, its fourteenth straight quarter of growth, and raised the
+    full-year guide twice. Consensus is $123.55m. A history of beating the top of guidance makes at least $124m likely.
+  expected: About $125-127m
+  implications:
+    if_yes: Steady demand for synthetic DNA and NGS tools; supports the picks-and-shovels leg of the genomics holdings
+    if_no: Growth slowing at a held company; review the Twist position size
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-05'
+  resolves_by: '2026-11-13'
+  resolution:
+    method: judged
+    guidance: Twist fiscal Q4 2026 results (12 Nov 2026, before the US open), total revenue. Guide
+      https://www.sec.gov/Archives/edgar/data/0001581280/000158128026000044/twst-2026630xex991.htm
+  status: open
+  outcome: null
+- id: EV-20261112-TWST-2
+  kind: event
+  thesis: in-vivo-gene-editing
+  event_date: '2026-11-12'
+  statement: Twist Bioscience reports adjusted EBITDA of zero or better for fiscal Q4 2026, as guided
+  probability_raw: 0.45
+  probability: 0.52
+  reasoning: Management reiterated adjusted EBITDA breakeven in Q4, but Q3 was -$11.3m, worse than -$8.0m a year
+    earlier; closing that gap in one quarter needs both higher revenue and lower costs. Companies usually defend a
+    reiterated breakeven date, so close to even.
+  expected: Adjusted EBITDA between -$3m and +$2m
+  implications:
+    if_yes: Twist reaches self-funding; lowers dilution risk for the held position
+    if_no: Breakeven slips into fiscal 2027; dilution risk stays
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-05'
+  resolves_by: '2026-11-13'
+  resolution:
+    method: judged
+    guidance: Twist fiscal Q4 2026 results release, adjusted EBITDA for the quarter (Jul-Sep 2026). Yes if >= $0.
+      Guidance https://www.sec.gov/Archives/edgar/data/0001581280/000158128026000044/twst-2026630xex991.htm
   status: open
   outcome: null

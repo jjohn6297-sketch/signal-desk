@@ -3,15 +3,15 @@
 "key": "Kind: event",
 "group_type": "Kind",
 "group": "event",
-"n": 23,
-"brier": 0.1338
+"n": 24,
+"brier": 0.1625
 },
 {
 "key": "Kind: thesis",
 "group_type": "Kind",
 "group": "thesis",
-"n": 6,
-"brier": 0.2358
+"n": 7,
+"brier": 0.2311
 },
 {
 "key": "Thesis: AI service agents cut outsourced call-centre volumes faster than the market expects",
@@ -24,8 +24,8 @@
 "key": "Thesis: Airline shares are priced for $116 oil while the futures curve prices about $80 a year out; the gap closes in favour of hedged airlines",
 "group_type": "Thesis",
 "group": "Airline shares are priced for $116 oil while the futures curve prices about $80 a year out; the gap closes in favour of hedged airlines",
-"n": 1,
-"brier": 0.25
+"n": 2,
+"brier": 0.5354
 },
 {
 "key": "Thesis: Cheap European staples (Nestle, Unilever, Diageo) outperform expensive US staples as volumes recover",
@@ -68,6 +68,13 @@
 "group": "Other",
 "n": 1,
 "brier": 0.16
+},
+{
+"key": "Thesis: Software vendors that move to usage pricing in 2027 outgrow those that stay per-seat (rewritten: original seat-loss thesis not supported by 2026 evidence)",
+"group_type": "Thesis",
+"group": "Software vendors that move to usage pricing in 2027 outgrow those that stay per-seat (rewritten: original seat-loss thesis not supported by 2026 evidence)",
+"n": 1,
+"brier": 0.2025
 },
 {
 "key": "Thesis: UK large caps outperform global equities in euros as a cheap, low-tech hedge against an AI correction",

@@ -3,9 +3,9 @@
 "band": "0–20%",
 "lo": 0.0,
 "hi": 0.2,
-"n": 1,
-"mean_stated": 0.04,
-"share_happened": 0.0
+"n": 2,
+"mean_stated": 0.067,
+"share_happened": 0.5
 },
 {
 "band": "20–40%",
@@ -19,9 +19,9 @@
 "band": "40–60%",
 "lo": 0.4,
 "hi": 0.6,
-"n": 11,
-"mean_stated": 0.5064,
-"share_happened": 0.6364
+"n": 12,
+"mean_stated": 0.51,
+"share_happened": 0.6667
 },
 {
 "band": "60–80%",
