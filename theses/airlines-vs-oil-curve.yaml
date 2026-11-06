@@ -16,6 +16,10 @@ evidence_for:
   claim: Ryanair H1 FY27 PAT EUR 2,147.6m beat the EUR 2.11bn consensus; Q3 fares trending modestly ahead of a year earlier; EUR 800m buyback from February
   source: https://investor.ryanair.com/wp-content/uploads/2026/10/H1-FY27-Ryanair-Results.pdf
   engine: daily-run
+- date: '2026-11-05'
+  claim: 'Brent futures fell more than 8% on 4 Nov to the lowest since 31 Aug (about $94.6), then settled $98.29 on 5 Nov; Gulf crude exports near pre-war levels; on track for a weekly fall of more than 11% on hopes of a faster end to the conflict'
+  source: https://www.nationthailand.com/news/world/40073162
+  engine: daily-run
 evidence_against:
 - date: '2026-11-02'
   claim: Ryanair FY28 fuel about 25% hedged at c.$95/bbl (the thesis assumed ~15% at ~$85); press reports say Ryanair expects a fuel bill about EUR 2bn higher in FY28 at forward prices
@@ -33,11 +37,16 @@ evidence_against:
   claim: US struck an Iranian anti-aircraft facility on Qeshm Island early on 3 Nov (local time); Trump confirmed it as a "minor attack". Kill criterion 2 (strikes on Iran resume) is hit and the tranche-1 condition (no strikes after the midterms) failed
   source: https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes
   engine: daily-run
-system_conviction: 25
+- date: '2026-11-05'
+  claim: 'At least five vessel incidents in the Gulf since 1 Nov (UKMTO), near October''s record pace; Eurasia Group puts 60% on renewed US strikes on Iran'
+  source: https://www.nationthailand.com/news/world/40073162
+  engine: daily-run
+system_conviction: 30
 conviction_history:
 - {date: '2026-11-01', value: 37, reason: 'Weekly review (Insights log): Dated Brent above the $126 kill line on 23 and 26 Oct'}
 - {date: '2026-11-02', value: 33, reason: 'Ryanair beat on H1 profit, but FY28 is hedged higher than assumed and fares fell 4%'}
 - {date: '2026-11-05', value: 25, reason: 'US strike on Qeshm Island (3 Nov) hits kill criterion 2; the first tranche condition failed'}
+- {date: '2026-11-06', value: 30, reason: 'Brent futures below $100 on 4-5 Nov on peace hopes; strike risk and tanker attacks remain, two kill criteria still hit'}
 predictions:
 - id: p1
   statement: If no US strike on Iran by 2026-12-31, Brent front-month settles below $100 at least once before 2027-01-31

@@ -1398,5 +1398,12 @@
 "stress": 1,
 "watch": 2,
 "known": 9
+},
+{
+"date": "2026-11-06",
+"regime": "Late cycle",
+"stress": 0,
+"watch": 3,
+"known": 9
 }
 ]

@@ -18,6 +18,10 @@ evidence_for:
   claim: Datadog Q3 2026 revenue $1,197.1m, +35% y/y (Q2 +36%), well above the 25% kill line; Q4 guide $1.19-1.20bn
   source: https://www.globenewswire.com/news-release/2026/11/04/3395166/0/en/datadog-announces-third-quarter-2026-financial-results.html
   engine: daily-run
+- date: '2026-11-05'
+  claim: 'Atlassian call: usage-based pricing enforcement for Rovo AI credits begins in early December; management says it is not a near-term revenue driver (secondary summary; supports CODE-2, not yet resolved)'
+  source: https://finance.biggo.com/news/US_TEAM_2026-11-05
+  engine: daily-run
 evidence_against:
 - date: '2026-10-24'
   claim: 'Seat vendors up YTD: Atlassian +40%, GitLab +50%; MongoDB -12%'
@@ -25,6 +29,10 @@ evidence_against:
 - date: '2026-10-16'
   claim: Indeed US software development postings +21% y/y (index 78.9)
   source: https://github.com/hiring-lab/job_postings_tracker
+- date: '2026-11-05'
+  claim: 'Atlassian FQ1 2027 revenue $1,772m (+24%), cloud +31%; Teamwork Collection customers expanding Jira and Confluence seats faster than others. No net retention figure given, so kill criterion 2 is not hit'
+  source: https://newshub.medianet.com.au/2026/11/atlassian-announces-first-quarter-fiscal-year-2027-results/180552/
+  engine: daily-run
 predictions:
 - id: p1
   statement: Datadog Q3 revenue >= $1.17bn

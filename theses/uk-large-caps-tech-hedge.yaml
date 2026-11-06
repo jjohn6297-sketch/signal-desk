@@ -23,6 +23,10 @@ evidence_against:
 - date: '2026-10-28'
   claim: 'UK Budget doubles the bank surcharge to 6% for 15 months from Jan 2027 (about GBP 1.5bn), a hit to UK bank earnings'
   source: https://assets.publishing.service.gov.uk/media/6ae20b9039d29f3f9b9b3f55/E03668986_HMT_Budget_2026_TEXT_PRINT__1_.pdf
+- date: '2026-11-05'
+  claim: 'BoE raised Bank Rate to 4% by 8-1 (Mann for 4.25%); Bailey, Lombardelli, Greene and Pill signal more may be needed; market median path 4.25% in February'
+  source: https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026
+  engine: daily-run
 predictions:
 - id: p1
   statement: FTSE 100 total return in EUR beats MSCI World in EUR from the 2026-10-28 close to 2027-04-30

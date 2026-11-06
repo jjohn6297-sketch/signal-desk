@@ -40,24 +40,24 @@
 "url": "https://job-boards.greenhouse.io/intercom/jobs/7377200"
 },
 {
-"key": "mongodb|7113803",
-"company": "MongoDB",
-"title": "Senior Product Manager",
-"level": "senior",
-"location": "Dublin; Ireland",
-"ai_related": false,
-"updated": "2026-11-04",
-"url": "https://www.mongodb.com/careers/job/?gh_jid=7113803"
-},
-{
 "key": "mongodb|8233734",
 "company": "MongoDB",
 "title": "Senior Product Manager",
 "level": "senior",
 "location": "Dublin, Ireland",
 "ai_related": false,
-"updated": "2026-11-04",
+"updated": "2026-11-05",
 "url": "https://www.mongodb.com/careers/job/?gh_jid=8233734"
+},
+{
+"key": "mongodb|7113803",
+"company": "MongoDB",
+"title": "Senior Product Manager",
+"level": "senior",
+"location": "Dublin; Ireland",
+"ai_related": false,
+"updated": "2026-11-05",
+"url": "https://www.mongodb.com/careers/job/?gh_jid=7113803"
 },
 {
 "key": "mongodb|8328176",
@@ -66,7 +66,7 @@
 "level": "senior",
 "location": "Dublin",
 "ai_related": true,
-"updated": "2026-11-04",
+"updated": "2026-11-05",
 "url": "https://www.mongodb.com/careers/job/?gh_jid=8328176"
 },
 {
@@ -76,7 +76,7 @@
 "level": "senior",
 "location": "Cork, Ireland; Dublin, Ireland",
 "ai_related": false,
-"updated": "2026-11-04",
+"updated": "2026-11-05",
 "url": "https://www.mongodb.com/careers/job/?gh_jid=8127995"
 },
 {
@@ -86,7 +86,7 @@
 "level": "senior",
 "location": "Dublin, Ireland",
 "ai_related": false,
-"updated": "2026-11-04",
+"updated": "2026-11-05",
 "url": "https://www.mongodb.com/careers/job/?gh_jid=8177034"
 },
 {
@@ -96,18 +96,8 @@
 "level": "senior",
 "location": "Dublin, Ireland",
 "ai_related": false,
-"updated": "2026-11-04",
+"updated": "2026-11-05",
 "url": "https://www.mongodb.com/careers/job/?gh_jid=8177496"
-},
-{
-"key": "okta|8247721",
-"company": "Okta",
-"title": "Staff Product Manager - Developer Productivity",
-"level": "senior",
-"location": "Dublin, Ireland; Toronto, Ontario, Canada",
-"ai_related": false,
-"updated": "2026-10-28",
-"url": "https://www.okta.com/company/careers/opportunity/8247721?gh_jid=8247721"
 },
 {
 "key": "stripe|8041655",

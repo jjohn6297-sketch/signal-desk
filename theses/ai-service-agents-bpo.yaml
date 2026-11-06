@@ -13,6 +13,10 @@ evidence_for:
 - date: '2026-10-16'
   claim: Indeed US customer service postings index 86.6 (Feb 2020 = 100), -1.5% y/y; UK 37.4
   source: https://github.com/hiring-lab/job_postings_tracker
+- date: '2026-11-05'
+  claim: 'TP Q3 2026 like-for-like revenue -1.2% (fifth quarter of decline); 2026 outlook cut to -1.5% to -2.5% from 0% to +2%, citing an accelerated decline in Trust and Safety, partly from automation. Kill criterion 1 (H2 like-for-like +2% or more) is now out of reach'
+  source: https://www.tp.com/media/kcdch3fb/tp-press-release-q3-2026-revenue-eng.pdf
+  engine: daily-run
 evidence_against:
 - date: '2026-07-30'
   claim: Teleperformance keeps FY like-for-like guide 0% to +2%; Americas +1.1% in Q2

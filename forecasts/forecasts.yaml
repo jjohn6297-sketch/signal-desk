@@ -380,8 +380,12 @@ forecasts:
   resolution:
     method: judged
     guidance: Read Teleperformance Q3 2026 revenue release (5 Nov 2026).
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-06'
+  evidence:
+    summary: 'TP Q3 2026 revenue EUR 2,532m, -1.2% like-for-like (+1.0% reported); below +1.0%'
+    url: https://www.tp.com/media/kcdch3fb/tp-press-release-q3-2026-revenue-eng.pdf
 - id: BPO-2
   kind: thesis
   thesis: ai-service-agents-bpo
@@ -601,8 +605,12 @@ forecasts:
   resolution:
     method: judged
     guidance: BoE Monetary Policy Summary, 5 Nov 2026.
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-06'
+  evidence:
+    summary: 'MPC voted 8-1 to raise Bank Rate 25bp to 4% (Mann voted for 4.25%); meeting ended 4 Nov, announced 5 Nov'
+    url: https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026
 - id: EV-20261028-UKB-1
   kind: event
   thesis: uk-large-caps-tech-hedge
@@ -983,8 +991,12 @@ forecasts:
   resolution:
     method: judged
     guidance: Atlassian FQ1 2027 results, 5 Nov 2026.
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-06'
+  evidence:
+    summary: 'Atlassian FQ1 2027 revenue $1,772.2m (+24% y/y), above $1.715bn; cloud $1,302.5m (+31%); Q2 guide $1,825-1,835m; FY27 growth about 13.75%'
+    url: https://newshub.medianet.com.au/2026/11/atlassian-announces-first-quarter-fiscal-year-2027-results/180552/
 - id: EV-20261028-NOW-1
   kind: event
   thesis: ai-service-agents-bpo
@@ -1158,8 +1170,12 @@ forecasts:
     method: judged
     guidance: Teleperformance Q3 2026 revenue release (date per MarketScreener 5 Nov, unconfirmed); like-for-like growth
       as reported. Void if not published by 10 Nov. Source for H1 figures https://quartr.com/events/teleperformance-se-tep-q2-2026_oCh0FYeD
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 0
+  resolved_at: '2026-11-06'
+  evidence:
+    summary: 'TP Q3 2026 like-for-like revenue growth -1.2% (Q2 -1.2%); below 0%'
+    url: https://www.tp.com/media/kcdch3fb/tp-press-release-q3-2026-revenue-eng.pdf
 - id: EV-20261105-TEP-2
   kind: event
   thesis: ai-service-agents-bpo
@@ -1180,8 +1196,12 @@ forecasts:
     method: judged
     guidance: Teleperformance Q3 2026 revenue release. "Lowers" means a new range or point below 0-2%, or explicit
       withdrawal of the range. Guiding to the low end of 0-2% is a no. Void if not published by 10 Nov.
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-06'
+  evidence:
+    summary: 'TP lowered its 2026 like-for-like revenue growth outlook to -1.5% to -2.5% (from 0% to +2%), citing an accelerated decline in Trust and Safety; margin and cash guidance confirmed'
+    url: https://www.tp.com/media/kcdch3fb/tp-press-release-q3-2026-revenue-eng.pdf
 - id: EV-20261103-AMD-2
   kind: event
   thesis: hyperscaler-capex-debt
@@ -1450,5 +1470,52 @@ forecasts:
     method: judged
     guidance: Twist fiscal Q4 2026 results release, adjusted EBITDA for the quarter (Jul-Sep 2026). Yes if >= $0.
       Guidance https://www.sec.gov/Archives/edgar/data/0001581280/000158128026000044/twst-2026630xex991.htm
+  status: open
+  outcome: null
+- id: EV-20261106-US-2
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-11-06'
+  statement: US nonfarm payrolls for October (first print, 6 Nov) rise by at least 50,000
+  probability_raw: 0.55
+  probability: 0.686
+  reasoning: Consensus is +65k (forexfundamentals); September printed +29k against a 90k forecast, so recent misses have
+    been to the downside. A 15k cushion is small next to the usual 50-70k forecast error, so this is close to even with
+    a slight lean to the consensus.
+  expected: About +50-60k, unemployment 4.2-4.3%
+  implications:
+    if_yes: Labour market still adding jobs; less support for the bonds bet in the near term
+    if_no: A second weak print in a row supports the bonds bet and BOND-3 (unemployment 4.5% by December)
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-06'
+  resolves_by: '2026-11-06'
+  resolution:
+    method: judged
+    guidance: BLS Employment Situation for October 2026 (6 Nov, 08:30 ET), total nonfarm payroll change, first print.
+      Void if not published by 13 Nov. Consensus https://forexfundamentals.com/economic-calendar/nfp/2026-11-06
+  status: open
+  outcome: null
+- id: EV-20261112-UKGDP-1
+  kind: event
+  thesis: uk-large-caps-tech-hedge
+  event_date: '2026-11-12'
+  statement: UK GDP for July-September 2026 (ONS first quarterly estimate, 12 Nov) grows by at least 0.6% quarter on quarter
+  probability_raw: 0.75
+  probability: 0.83
+  reasoning: Q2 was revised up to +0.5% and Q1 was +0.6%. Polymarket puts about 83% on 0.6% or more (48% on 0.6-0.7%,
+    30% on 0.8-0.9%, 5% on 1.0%+). The market is thin, so I shade it down a little.
+  expected: About +0.6-0.7%
+  implications:
+    if_yes: Domestic growth holding up despite the hike to 4%; more BoE hikes priced, gilts weaker; mildly against the UK
+      bet's rate leg, positive for UK banks and domestic earners
+    if_no: Slower growth eases pressure for a February hike; gilts rally, which helps the UK bet's valuation case
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-06'
+  resolves_by: '2026-11-13'
+  resolution:
+    method: judged
+    guidance: ONS GDP first quarterly estimate, UK, July to September 2026 (12 Nov 2026, 07:00), real GDP change on the
+      previous quarter, as first published. Release https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukjulytoseptember2026;
+      market https://polymarket.com/event/uk-gdp-growth-in-q3-2026-qoq-20260813112748100; Q2 https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/quarterlynationalaccounts/apriltojune2026
   status: open
   outcome: null

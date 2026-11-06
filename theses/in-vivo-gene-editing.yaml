@@ -23,6 +23,10 @@ evidence_for:
 - date: '2026-11-02'
   claim: 'CRISPR Therapeutics: more than 750 patients have started Casgevy treatment; cash $2.28bn; CTX310 Phase 1b data at AHA on 9 Nov; RMAT designations for CTX310'
   source: https://www.sec.gov/Archives/edgar/data/0001674416/000119312526443644/crsp-ex99_1.htm
+- date: '2026-11-05'
+  claim: 'Intellia Q3: lonvo-z PDUFA 10 Mar 2027 under Priority Review, no advisory committee planned, launch planned Q1 2027; no clinical hold on nex-z; cash $614.8m, runway into 2028'
+  source: https://www.sec.gov/Archives/edgar/data/0001652130/000119312526448673/ntla-ex99_1.htm
+  engine: daily-run
 evidence_against:
 - date: '2025-10-29'
   claim: FDA hold on nex-z after Grade 4 liver enzyme rise; lifted early 2026 with monitoring

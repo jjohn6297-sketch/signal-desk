@@ -3,22 +3,22 @@
 "key": "Kind: event",
 "group_type": "Kind",
 "group": "event",
-"n": 24,
-"brier": 0.1625
+"n": 28,
+"brier": 0.1598
 },
 {
 "key": "Kind: thesis",
 "group_type": "Kind",
 "group": "thesis",
-"n": 7,
-"brier": 0.2311
+"n": 8,
+"brier": 0.2134
 },
 {
 "key": "Thesis: AI service agents cut outsourced call-centre volumes faster than the market expects",
 "group_type": "Thesis",
 "group": "AI service agents cut outsourced call-centre volumes faster than the market expects",
-"n": 2,
-"brier": 0.065
+"n": 5,
+"brier": 0.1365
 },
 {
 "key": "Thesis: Airline shares are priced for $116 oil while the futures curve prices about $80 a year out; the gap closes in favour of hedged airlines",
@@ -73,14 +73,14 @@
 "key": "Thesis: Software vendors that move to usage pricing in 2027 outgrow those that stay per-seat (rewritten: original seat-loss thesis not supported by 2026 evidence)",
 "group_type": "Thesis",
 "group": "Software vendors that move to usage pricing in 2027 outgrow those that stay per-seat (rewritten: original seat-loss thesis not supported by 2026 evidence)",
-"n": 1,
-"brier": 0.2025
+"n": 2,
+"brier": 0.1462
 },
 {
 "key": "Thesis: UK large caps outperform global equities in euros as a cheap, low-tech hedge against an AI correction",
 "group_type": "Thesis",
 "group": "UK large caps outperform global equities in euros as a cheap, low-tech hedge against an AI correction",
-"n": 5,
-"brier": 0.1208
+"n": 6,
+"brier": 0.1044
 }
 ]

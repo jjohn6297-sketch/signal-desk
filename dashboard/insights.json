@@ -1,5 +1,69 @@
 [
 {
+"key": "2026-11-06-1",
+"date": "2026-11-06",
+"kind": "daily",
+"title": "6 November 2026",
+"rank": 1,
+"text": "Action card, BPO thesis: TP (Teleperformance) cut its 2026 like-for-like revenue outlook to -1.5% to -2.5% from 0% to +2%, blaming a faster decline in Trust and Safety, partly from automation; Q3 like-for-like was -1.2%. The cut was against the pre-registered expectation (45% for a cut) but supports the thesis, and kill criterion 1 (H2 +2% or more) is now out of reach. No decision needed."
+},
+{
+"key": "2026-11-06-2",
+"date": "2026-11-06",
+"kind": "daily",
+"title": "6 November 2026",
+"rank": 2,
+"text": "Resolved 5: 4 hits, 1 miss. BoE raised to 4.00%, 8-1 (85%, Brier 0.02). Atlassian FQ1 revenue $1,772m, above $1.715bn (70%, 0.09). TP Q3 like-for-like below +1.0% (70%, 0.09). TP cut its target (45%, 0.30). Miss: TP like-for-like at least 0% (40%, 0.16)."
+},
+{
+"key": "2026-11-06-3",
+"date": "2026-11-06",
+"kind": "daily",
+"title": "6 November 2026",
+"rank": 3,
+"text": "Brier 0.172 on 36 resolved (0.178 on 31). The recalibration refit moved to k 1.50, b 0.55 from k 0.90, b 0.60, so new forecasts will again be pushed further from 50%. Today's forecasts used the fit in place at the start of the run."
+},
+{
+"key": "2026-11-06-4",
+"date": "2026-11-06",
+"kind": "daily",
+"title": "6 November 2026",
+"rank": 4,
+"text": "Brent futures fell more than 8% on 4 Nov to about $94.6, the lowest since 31 Aug, and settled $98.29 on 5 Nov on hopes of a faster end to the conflict. AIR-1 (Brent spot below $100 by 31 Jan, 55%) should resolve yes once the FRED spot series reaches 4 Nov (last value $107.03 on 3 Nov). Airlines conviction 25 to 30; two kill criteria are still hit and tanker attacks continue, so the close or watch-only decision is still John's."
+},
+{
+"key": "2026-11-06-5",
+"date": "2026-11-06",
+"kind": "daily",
+"title": "6 November 2026",
+"rank": 5,
+"text": "Pre-registered 2. October payrolls at least +50k, today at 13:30 Dublin (consensus +65k, September +29k; raw 55%, calibrated 69%). UK Q3 GDP at least +0.6% q/q on 12 Nov (Polymarket about 83%; raw 75%, calibrated 83%)."
+},
+{
+"key": "2026-11-06-6",
+"date": "2026-11-06",
+"kind": "daily",
+"title": "6 November 2026",
+"rank": 6,
+"text": "Atlassian said usage-based pricing for Rovo AI credits will be enforced from early December (call summary, secondary source). CODE-2 (usage or credit pricing by 31 Mar, 55%) may resolve yes once a primary source confirms it. Cloud revenue grew 31%; no seat net-retention figure was given, so the coding-agents kill criterion is not hit."
+},
+{
+"key": "2026-11-06-7",
+"date": "2026-11-06",
+"kind": "daily",
+"title": "6 November 2026",
+"rank": 7,
+"text": "Coming up: payrolls and unemployment today (4.3% or higher at 35%); CTX310 and Constellation 9 Nov; CoreWeave and US CPI 10 Nov; Siemens Energy 11 Nov; Nebius, Twist and UK GDP 12 Nov."
+},
+{
+"key": "2026-11-06-8",
+"date": "2026-11-06",
+"kind": "daily",
+"title": "6 November 2026",
+"rank": 8,
+"text": "No feedback on the Signal Desk docs since the last run. No new 13F filings, FINRA margin data or open-market director purchases at the non-US watch-list companies."
+},
+{
 "key": "2026-11-05-1",
 "date": "2026-11-05",
 "kind": "daily",
@@ -222,69 +286,5 @@
 "title": "2 November 2026",
 "rank": 8,
 "text": "Repository gap: Sunday's weekly review is in the Insights log, but its files (weekly summary, airline action card, conviction scores) never reached the repository. Today's card and the airline conviction restore part of it. No CoreWeave 2031 yield newer than 14.44% (21 Oct) was found."
-},
-{
-"key": "2026-10-30-1",
-"date": "2026-10-30",
-"kind": "daily",
-"title": "30 October 2026",
-"rank": 1,
-"text": "Recalibration is now on (23 resolved forecasts, threshold 20). The fit is k = 1.60, b = -0.05: the system has been too cautious, so new forecasts are pushed away from 50%. Overall Brier 0.154; events 0.127, thesis forecasts 0.251. The fit rests on 23 points and will move."
-},
-{
-"key": "2026-10-30-2",
-"date": "2026-10-30",
-"kind": "daily",
-"title": "30 October 2026",
-"rank": 2,
-"text": "Resolved 8 today: 7 right, 1 at 50%, mean Brier 0.100. No action cards and no kill criteria hit."
-},
-{
-"key": "2026-10-30-3",
-"date": "2026-10-30",
-"kind": "daily",
-"title": "30 October 2026",
-"rank": 3,
-"text": "Amazon: trailing free cash flow fell to -$42.4bn (from -$7.6bn at Q2) on Q3 capex of $77.3bn; 2026 capex kept at about $220bn, with 2027 to rise significantly (CAPEX-3, 80%, hit). AWS grew 39.3% (50% for at least 40%, Brier 0.25). Amazon did not blame power or sites for delays, so the build-out-delay bet still has one of the two admissions it needs (Microsoft)."
-},
-{
-"key": "2026-10-30-4",
-"date": "2026-10-30",
-"kind": "daily",
-"title": "30 October 2026",
-"rank": 4,
-"text": "Central banks lean hawkish, against the bonds bet: ECB held at 2.50% (96%, hit) and Lagarde did not rule out a December hike; BoJ held at 1.25% (95%, hit) with one dissent for a hike. No bonds kill criterion is close; the 10-year is 4.99% (watch)."
-},
-{
-"key": "2026-10-30-5",
-"date": "2026-10-30",
-"kind": "daily",
-"title": "30 October 2026",
-"rank": 5,
-"text": "BP made no buyback restart (20%, hit), but net debt fell $8.4bn to $13.9bn, a year ahead of target, on underlying profit of $8.46bn. That leaves room to restart buybacks at the December strategy update. The BP release itself was not opened; the result comes from press reports."
-},
-{
-"key": "2026-10-30-6",
-"date": "2026-10-30",
-"kind": "daily",
-"title": "30 October 2026",
-"rank": 6,
-"text": "Illumina revenue $1,129m, short of the $1.16bn top of guide (45%, hit); the full-year guide was raised to $4.64-4.66bn. Vertiv's +55% organic growth closed GRID-2 (75%, hit)."
-},
-{
-"key": "2026-10-30-7",
-"date": "2026-10-30",
-"kind": "daily",
-"title": "30 October 2026",
-"rank": 7,
-"text": "Pre-registered 1: AMD guides Q4 revenue at least 10% above Q3 (raw 55%, calibrated 57%; results 3 Nov). Coming up: Ryanair and Vertex (2 Nov), AMD and Eaton (3 Nov), BoE, Atlassian, Datadog and Teleperformance (5 Nov; the TP date is now listed as 5 Nov), US payrolls (6 Nov)."
-},
-{
-"key": "2026-10-30-8",
-"date": "2026-10-30",
-"kind": "daily",
-"title": "30 October 2026",
-"rank": 8,
-"text": "Margin debt year-on-year is still not recorded: no source this run gave FINRA's exact September 2025 figure. Macro regime unchanged at Late cycle."
 }
 ]
