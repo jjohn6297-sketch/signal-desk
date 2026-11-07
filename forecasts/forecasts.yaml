@@ -228,7 +228,8 @@ forecasts:
   outcome: 0
   resolved_at: '2026-10-29'
   evidence:
-    summary: 'FQ1 FY27 capital expenditures including finance leases $45.2bn (finance leases $7.4bn; cash PP&E $39.4bn), below $50bn. FQ2 guide over $50bn; calendar 2026 about $170bn'
+    summary: FQ1 FY27 capital expenditures including finance leases $45.2bn (finance leases $7.4bn; cash PP&E $39.4bn),
+      below $50bn. FQ2 guide over $50bn; calendar 2026 about $170bn
     url: https://www.tradingkey.com/news/transcripts/262249601-tradingkey
 - id: CAPEX-2
   kind: thesis
@@ -247,7 +248,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-10-29'
   evidence:
-    summary: 'CFO: 2026 capex guidance of $195-205bn unchanged; "continue to expect our CapEx to increase significantly in 2027". Q3 capex $51.4bn'
+    summary: 'CFO: 2026 capex guidance of $195-205bn unchanged; "continue to expect our CapEx to increase significantly
+      in 2027". Q3 capex $51.4bn'
     url: https://www.marketbeat.com/earnings/reports/2026-10-28-alphabet-inc-stock/
 - id: CAPEX-3
   kind: thesis
@@ -266,7 +268,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-10-30'
   evidence:
-    summary: 'Amazon Q3 2026 trailing-twelve-month free cash flow -$42.4bn (operating cash flow $168.3bn less net capex $210.7bn); Q3 capex $77.3bn'
+    summary: Amazon Q3 2026 trailing-twelve-month free cash flow -$42.4bn (operating cash flow $168.3bn less net
+      capex $210.7bn); Q3 capex $77.3bn
     url: https://www.sec.gov/Archives/edgar/data/0001018724/000101872426000038/amzn-20260930xex991.htm
 - id: GRID-1
   kind: thesis
@@ -285,7 +288,8 @@ forecasts:
   outcome: 0
   resolved_at: '2026-10-29'
   evidence:
-    summary: 'Gas equipment backlog plus slot reservations 122 GW (backlog 53 -> 64 GW, reservations 63 -> 58 GW), below 124 GW; at least 130 GW expected by year-end'
+    summary: Gas equipment backlog plus slot reservations 122 GW (backlog 53 -> 64 GW, reservations 63 -> 58 GW),
+      below 124 GW; at least 130 GW expected by year-end
     url: https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm
 - id: GRID-2
   kind: thesis
@@ -303,7 +307,7 @@ forecasts:
   outcome: 1
   resolved_at: '2026-10-30'
   evidence:
-    summary: 'Vertiv Q3 2026 organic net sales growth 55% (net sales $4.31bn)'
+    summary: Vertiv Q3 2026 organic net sales growth 55% (net sales $4.31bn)
     url: https://www.sec.gov/Archives/edgar/data/0001674101/000162828026067707/q32026exhibit991vrt10282026.htm
 - id: GRID-3
   kind: thesis
@@ -351,7 +355,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-03'
   evidence:
-    summary: 'Q3 2026 Casgevy revenue $99.2m, +30% quarter on quarter (Q2 $76.4m), nearly six times Q3 2025 ($17m); nine-month $218.5m. Vertex raised 2026 revenue guide to $13.15-13.25bn'
+    summary: Q3 2026 Casgevy revenue $99.2m, +30% quarter on quarter (Q2 $76.4m), nearly six times Q3 2025 ($17m);
+      nine-month $218.5m. Vertex raised 2026 revenue guide to $13.15-13.25bn
     url: https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-third-quarter-2026-financial-results
 - id: GENE-3
   kind: thesis
@@ -384,7 +389,7 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-06'
   evidence:
-    summary: 'TP Q3 2026 revenue EUR 2,532m, -1.2% like-for-like (+1.0% reported); below +1.0%'
+    summary: TP Q3 2026 revenue EUR 2,532m, -1.2% like-for-like (+1.0% reported); below +1.0%
     url: https://www.tp.com/media/kcdch3fb/tp-press-release-q3-2026-revenue-eng.pdf
 - id: BPO-2
   kind: thesis
@@ -436,7 +441,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-05'
   evidence:
-    summary: 'Q3 2026 revenue $1,197.1m (+35% y/y), above $1.17bn. Q4 guide $1.19-1.20bn; FY26 guide $4.515-4.525bn; 4,860 customers with ARR of $100k+ (+20%)'
+    summary: Q3 2026 revenue $1,197.1m (+35% y/y), above $1.17bn. Q4 guide $1.19-1.20bn; FY26 guide $4.515-4.525bn;
+      4,860 customers with ARR of $100k+ (+20%)
     url: https://www.globenewswire.com/news-release/2026/11/04/3395166/0/en/datadog-announces-third-quarter-2026-financial-results.html
 - id: CODE-2
   kind: thesis
@@ -495,7 +501,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-10-29'
   evidence:
-    summary: 'FOMC held the target range at 3.75-4.00% on 28 Oct; vote 10-2, Cook and Hammack dissented in favour of a 25bp hike'
+    summary: FOMC held the target range at 3.75-4.00% on 28 Oct; vote 10-2, Cook and Hammack dissented in favour
+      of a 25bp hike
     url: https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm
 - id: EV-20261209-FED-2
   kind: event
@@ -540,7 +547,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-10-30'
   evidence:
-    summary: 'ECB kept the three key rates unchanged on 29 Oct 2026; deposit facility rate 2.50%. Lagarde: the hold does not mean no hike in December'
+    summary: 'ECB kept the three key rates unchanged on 29 Oct 2026; deposit facility rate 2.50%. Lagarde: the hold
+      does not mean no hike in December'
     url: https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html
 - id: EV-202612-ECB-2
   kind: event
@@ -584,7 +592,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-10-30'
   evidence:
-    summary: 'BoJ held the policy rate at 1.25% on 30 Oct 2026 by 8-1; Takata dissented for a hike to 1.50% (BoJ statement not opened; secondary source)'
+    summary: BoJ held the policy rate at 1.25% on 30 Oct 2026 by 8-1; Takata dissented for a hike to 1.50% (BoJ
+      statement not opened; secondary source)
     url: https://www.tradingpedia.com/2026/10/30/sterling-yen-firm-as-boj-keeps-cautious-policy-stance/
 - id: EV-20261105-BOE-1
   kind: event
@@ -609,7 +618,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-06'
   evidence:
-    summary: 'MPC voted 8-1 to raise Bank Rate 25bp to 4% (Mann voted for 4.25%); meeting ended 4 Nov, announced 5 Nov'
+    summary: MPC voted 8-1 to raise Bank Rate 25bp to 4% (Mann voted for 4.25%); meeting ended 4 Nov, announced
+      5 Nov
     url: https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026
 - id: EV-20261028-UKB-1
   kind: event
@@ -633,7 +643,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-10-29'
   evidence:
-    summary: 'Bank Corporation Tax Surcharge raised from 3% to 6% for 15 months, 1 Jan 2027 to 31 Mar 2028 (about GBP 1.5bn)'
+    summary: Bank Corporation Tax Surcharge raised from 3% to 6% for 15 months, 1 Jan 2027 to 31 Mar 2028 (about
+      GBP 1.5bn)
     url: https://assets.publishing.service.gov.uk/media/6ae20b9039d29f3f9b9b3f55/E03668986_HMT_Budget_2026_TEXT_PRINT__1_.pdf
 - id: EV-20261028-UKB-2
   kind: event
@@ -657,7 +668,8 @@ forecasts:
   outcome: 0
   resolved_at: '2026-10-29'
   evidence:
-    summary: 'No change to stamp duty or SDRT on shares found in the Budget document, Tax Policy Associates or MUFG Budget summaries'
+    summary: No change to stamp duty or SDRT on shares found in the Budget document, Tax Policy Associates or MUFG
+      Budget summaries
     url: https://assets.publishing.service.gov.uk/media/6ae20b9039d29f3f9b9b3f55/E03668986_HMT_Budget_2026_TEXT_PRINT__1_.pdf
 - id: EV-20261028-UKB-3
   kind: event
@@ -682,7 +694,8 @@ forecasts:
   outcome: 0
   resolved_at: '2026-10-29'
   evidence:
-    summary: 'Headroom against the stability rule GBP 14.5bn in 2029-30 (MUFG, Newsquawk); HM Treasury rounds it to GBP 15bn. OBR EFO page could not be opened in this run'
+    summary: Headroom against the stability rule GBP 14.5bn in 2029-30 (MUFG, Newsquawk); HM Treasury rounds it
+      to GBP 15bn. OBR EFO page could not be opened in this run
     url: https://www.mufgresearch.com/macro/european-macro-28-october-2026/
 - id: EV-20261106-US-1
   kind: event
@@ -707,8 +720,10 @@ forecasts:
       period: '2026-10-01'
       op: '>='
       threshold: 4.3
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 0
+  resolved_at: '2026-11-07'
+  evidence: 'auto: UNRATE 2026-10-01: 4.1 >= 4.3'
 - id: EV-20261110-US-2
   kind: event
   thesis: long-duration-bonds
@@ -751,7 +766,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-10-29'
   evidence:
-    summary: 'Azure revenue $33.2bn, up 48% (CFO). No constant-currency rate given for Q1; FQ2 guide 49-50% in constant currency'
+    summary: Azure revenue $33.2bn, up 48% (CFO). No constant-currency rate given for Q1; FQ2 guide 49-50% in constant
+      currency
     url: https://www.tradingkey.com/news/transcripts/262249601-tradingkey
 - id: EV-20261028-GOOGL-1
   kind: event
@@ -775,7 +791,7 @@ forecasts:
   outcome: 1
   resolved_at: '2026-10-29'
   evidence:
-    summary: 'Google Cloud revenue $30.71bn vs $15.16bn, up 103% (secondary sources; release PDF not opened)'
+    summary: Google Cloud revenue $30.71bn vs $15.16bn, up 103% (secondary sources; release PDF not opened)
     url: https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Third-Quarter-2026-Results-2026-FCcqxfIfmh/default.aspx
 - id: EV-20261029-AMZN-1
   kind: event
@@ -799,7 +815,7 @@ forecasts:
   outcome: 0
   resolved_at: '2026-10-30'
   evidence:
-    summary: 'AWS Q3 2026 net sales $45,984m, +39.3% year on year, below 40%'
+    summary: AWS Q3 2026 net sales $45,984m, +39.3% year on year, below 40%
     url: https://www.sec.gov/Archives/edgar/data/0001018724/000101872426000038/amzn-20260930xex991.htm
 - id: EV-20261029-AMZN-2
   kind: event
@@ -823,7 +839,8 @@ forecasts:
   outcome: 0
   resolved_at: '2026-10-30'
   evidence:
-    summary: 'Release: ''We continue to expect 2026 cash capital expenditures to be approximately $220 billion'' (not raised); 2027 to rise significantly'
+    summary: 'Release: ''We continue to expect 2026 cash capital expenditures to be approximately $220 billion''
+      (not raised); 2027 to rise significantly'
     url: https://www.sec.gov/Archives/edgar/data/0001018724/000101872426000038/amzn-20260930xex991.htm
 - id: EV-20261028-GEV-1
   kind: event
@@ -847,7 +864,7 @@ forecasts:
   outcome: 1
   resolved_at: '2026-10-29'
   evidence:
-    summary: 'Q3 orders $29.3bn, +96% organic; Power orders $21.8bn'
+    summary: Q3 orders $29.3bn, +96% organic; Power orders $21.8bn
     url: https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm
 - id: EV-20261028-SKH-1
   kind: event
@@ -897,7 +914,7 @@ forecasts:
   outcome: 1
   resolved_at: '2026-10-29'
   evidence:
-    summary: 'Shell announced a $5.0bn buyback for the next three months; adjusted earnings $10.8bn'
+    summary: Shell announced a $5.0bn buyback for the next three months; adjusted earnings $10.8bn
     url: https://www.globenewswire.com/news-release/2026/10/29/3390956/0/en/shell-plc-publishes-third-quarter-2026-press-release.html
 - id: EV-20261030-BP-1
   kind: event
@@ -921,7 +938,8 @@ forecasts:
   outcome: 0
   resolved_at: '2026-10-30'
   evidence:
-    summary: 'BP Q3 2026: underlying RC profit $8.46bn, net debt down $8.4bn to $13.9bn, dividend 8.66c; no buyback announced in the reports read (BP release itself not opened)'
+    summary: 'BP Q3 2026: underlying RC profit $8.46bn, net debt down $8.4bn to $13.9bn, dividend 8.66c; no buyback
+      announced in the reports read (BP release itself not opened)'
     url: https://grafa.com/en/news/united-states/bp-q3-2026-profit-jumps-to-8-46-billion
 - id: EV-20261028-ULVR-1
   kind: event
@@ -971,7 +989,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-02'
   evidence:
-    summary: 'H1 FY27 profit after tax EUR 2,147.6m (H1 FY26 EUR 2,538.8m, -15%), above EUR 2.11bn. Revenue EUR 10,082.0m (+3%); average fare EUR 55.70 (-4%); no FY27 PAT guidance; FY28 fuel about 25% hedged at c.$95/bbl'
+    summary: H1 FY27 profit after tax EUR 2,147.6m (H1 FY26 EUR 2,538.8m, -15%), above EUR 2.11bn. Revenue EUR 10,082.0m
+      (+3%); average fare EUR 55.70 (-4%); no FY27 PAT guidance; FY28 fuel about 25% hedged at c.$95/bbl
     url: https://investor.ryanair.com/wp-content/uploads/2026/10/H1-FY27-Ryanair-Results.pdf
 - id: EV-20261105-TEAM-1
   kind: event
@@ -995,7 +1014,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-06'
   evidence:
-    summary: 'Atlassian FQ1 2027 revenue $1,772.2m (+24% y/y), above $1.715bn; cloud $1,302.5m (+31%); Q2 guide $1,825-1,835m; FY27 growth about 13.75%'
+    summary: Atlassian FQ1 2027 revenue $1,772.2m (+24% y/y), above $1.715bn; cloud $1,302.5m (+31%); Q2 guide $1,825-1,835m;
+      FY27 growth about 13.75%
     url: https://newshub.medianet.com.au/2026/11/atlassian-announces-first-quarter-fiscal-year-2027-results/180552/
 - id: EV-20261028-NOW-1
   kind: event
@@ -1004,8 +1024,8 @@ forecasts:
   statement: ServiceNow Q3 2026 subscription revenue is at least USD 3.98bn (top of its guidance)
   probability_raw: 0.8
   probability: 0.8
-  reasoning: Guidance is USD 3,975-3,980m (20.5% growth) against 24.5% in Q2. ServiceNow has usually beaten the top
-    of its subscription guide; a narrow USD 5m range makes the top an easy bar if the pattern holds.
+  reasoning: Guidance is USD 3,975-3,980m (20.5% growth) against 24.5% in Q2. ServiceNow has usually beaten the
+    top of its subscription guide; a narrow USD 5m range makes the top an easy bar if the pattern holds.
   expected: About USD 4.0bn, slightly above the top of the guide
   implications:
     if_yes: AI-agent workflow platforms still growing above 20%; consistent with labour substitution moving to software
@@ -1021,7 +1041,7 @@ forecasts:
   outcome: 1
   resolved_at: '2026-10-29'
   evidence:
-    summary: 'Q3 subscription revenues $3,988m, +21% (20.5% cc), just above $3.98bn'
+    summary: Q3 subscription revenues $3,988m, +21% (20.5% cc), just above $3.98bn
     url: https://www.sec.gov/Archives/edgar/data/0001373715/000137371526000092/erq3fy26.htm
 - id: EV-20261028-NOW-2
   kind: event
@@ -1030,8 +1050,8 @@ forecasts:
   statement: ServiceNow Q3 2026 current RPO growth is at least 20% in constant currency
   probability_raw: 0.7
   probability: 0.7
-  reasoning: Guidance is 20% constant currency. cRPO beats are usually smaller than revenue beats and depend on deal
-    timing, so less likely than the revenue beat.
+  reasoning: Guidance is 20% constant currency. cRPO beats are usually smaller than revenue beats and depend on
+    deal timing, so less likely than the revenue beat.
   expected: About 20-21% constant currency
   implications:
     if_yes: Forward demand for agent workflows holds
@@ -1046,7 +1066,7 @@ forecasts:
   outcome: 1
   resolved_at: '2026-10-29'
   evidence:
-    summary: 'cRPO $13.65bn, +20.5% reported, +21% constant currency'
+    summary: cRPO $13.65bn, +20.5% reported, +21% constant currency
     url: https://www.sec.gov/Archives/edgar/data/0001373715/000137371526000092/erq3fy26.htm
 - id: EV-20261028-ILMN-1
   kind: event
@@ -1071,7 +1091,8 @@ forecasts:
   outcome: 0
   resolved_at: '2026-10-30'
   evidence:
-    summary: 'Illumina Q3 2026 GAAP revenue $1,129m (+4.2%), below $1.16bn; FY26 guide raised to $4.64-4.66bn. Results were on 29 Oct, after made_at'
+    summary: Illumina Q3 2026 GAAP revenue $1,129m (+4.2%), below $1.16bn; FY26 guide raised to $4.64-4.66bn. Results
+      were on 29 Oct, after made_at
     url: https://www.sec.gov/Archives/edgar/data/0001110803/000111080326000202/q326earningsrelease.htm
 - id: EV-20261103-AMD-1
   kind: event
@@ -1096,7 +1117,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-04'
   evidence:
-    summary: 'AMD Q3 2026 revenue $13,377m, above the $13.3bn top of guide; Data Center a record $8.5bn, +97% year on year. Release text reproduced from GlobeNewswire'
+    summary: AMD Q3 2026 revenue $13,377m, above the $13.3bn top of guide; Data Center a record $8.5bn, +97% year
+      on year. Release text reproduced from GlobeNewswire
     url: https://www.stocktitan.net/news/AMD/amd-reports-third-quarter-2026-financial-7j6jzo29buqw.html
 - id: EV-20261103-ETN-1
   kind: event
@@ -1121,7 +1143,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-04'
   evidence:
-    summary: 'Eaton Q3 2026 organic sales growth 19% (sales $8.9bn, +28%); Electrical Americas +22% organic. Full-year organic guide 13-15%'
+    summary: Eaton Q3 2026 organic sales growth 19% (sales $8.9bn, +28%); Electrical Americas +22% organic. Full-year
+      organic guide 13-15%
     url: https://www.sec.gov/Archives/edgar/data/0001551182/000155118226000037/etn09302026exhibit99.htm
 - id: EV-20261103-ETN-2
   kind: event
@@ -1141,14 +1164,17 @@ forecasts:
   resolves_by: '2026-11-04'
   resolution:
     method: judged
-    guidance: Eaton Q3 2026 release or analyst presentation; Electrical Americas total backlog in USD versus the June
-      2026 figure. If only percentage changes are given, compare the year-on-year rate with the June rate and void if
-      the sequential direction cannot be determined.
+    guidance: Eaton Q3 2026 release or analyst presentation; Electrical Americas total backlog in USD versus the
+      June 2026 figure. If only percentage changes are given, compare the year-on-year rate with the June rate and
+      void if the sequential direction cannot be determined.
   status: resolved
   outcome: 1
   resolved_at: '2026-11-04'
   evidence:
-    summary: 'No segment backlog in dollars is disclosed. Electrical Americas backlog +33% year on year at September (same as June); CEO on the call: backlog ''up 33% to another record, and it''s still growing''; book-to-bill 1.3. Total company backlog $26.2bn at 30 Sep vs $24.1bn at 30 Jun (10-Qs). Judged yes on the ''another record'' statement'
+    summary: 'No segment backlog in dollars is disclosed. Electrical Americas backlog +33% year on year at September
+      (same as June); CEO on the call: backlog ''up 33% to another record, and it''s still growing''; book-to-bill
+      1.3. Total company backlog $26.2bn at 30 Sep vs $24.1bn at 30 Jun (10-Qs). Judged yes on the ''another record''
+      statement'
     url: https://www.sec.gov/Archives/edgar/data/0001551182/000155118226000040/etn-20260930.htm
 - id: EV-20261105-TEP-1
   kind: event
@@ -1157,8 +1183,9 @@ forecasts:
   statement: Teleperformance Q3 2026 like-for-like revenue growth is at least 0%
   probability_raw: 0.4
   probability: 0.4
-  reasoning: LFL improved from -2.2% in Q1 to -1.2% in Q2 (H1 -1.7%); the 0-2% full-year target needs H2 growth of
-    about +1.7% or more. A swing of 1.2 points in one quarter is possible on easier comparisons but is not the base case.
+  reasoning: LFL improved from -2.2% in Q1 to -1.2% in Q2 (H1 -1.7%); the 0-2% full-year target needs H2 growth
+    of about +1.7% or more. A swing of 1.2 points in one quarter is possible on easier comparisons but is not the
+    base case.
   expected: About -0.5% like-for-like
   implications:
     if_yes: Weakens the BPO thesis; volumes are stabilising faster than it assumes
@@ -1168,23 +1195,24 @@ forecasts:
   resolves_by: '2026-11-10'
   resolution:
     method: judged
-    guidance: Teleperformance Q3 2026 revenue release (date per MarketScreener 5 Nov, unconfirmed); like-for-like growth
-      as reported. Void if not published by 10 Nov. Source for H1 figures https://quartr.com/events/teleperformance-se-tep-q2-2026_oCh0FYeD
+    guidance: Teleperformance Q3 2026 revenue release (date per MarketScreener 5 Nov, unconfirmed); like-for-like
+      growth as reported. Void if not published by 10 Nov. Source for H1 figures https://quartr.com/events/teleperformance-se-tep-q2-2026_oCh0FYeD
   status: resolved
   outcome: 0
   resolved_at: '2026-11-06'
   evidence:
-    summary: 'TP Q3 2026 like-for-like revenue growth -1.2% (Q2 -1.2%); below 0%'
+    summary: TP Q3 2026 like-for-like revenue growth -1.2% (Q2 -1.2%); below 0%
     url: https://www.tp.com/media/kcdch3fb/tp-press-release-q3-2026-revenue-eng.pdf
 - id: EV-20261105-TEP-2
   kind: event
   thesis: ai-service-agents-bpo
   event_date: '2026-11-05'
-  statement: Teleperformance lowers its 2026 like-for-like revenue growth target (0% to 2%) with its Q3 revenue release
+  statement: Teleperformance lowers its 2026 like-for-like revenue growth target (0% to 2%) with its Q3 revenue
+    release
   probability_raw: 0.45
   probability: 0.45
-  reasoning: Meeting even the bottom of the range needs H2 growth near +1.7% after H1 -1.7%. Companies often keep a
-    range until Q4 and guide to the low end instead, so a formal cut is close to even odds.
+  reasoning: Meeting even the bottom of the range needs H2 growth near +1.7% after H1 -1.7%. Companies often keep
+    a range until Q4 and guide to the low end instead, so a formal cut is close to even odds.
   expected: Target kept, with a comment pointing to the low end
   implications:
     if_yes: Supports the BPO thesis; outsourced volumes are falling faster than management expected in July
@@ -1200,7 +1228,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-06'
   evidence:
-    summary: 'TP lowered its 2026 like-for-like revenue growth outlook to -1.5% to -2.5% (from 0% to +2%), citing an accelerated decline in Trust and Safety; margin and cash guidance confirmed'
+    summary: TP lowered its 2026 like-for-like revenue growth outlook to -1.5% to -2.5% (from 0% to +2%), citing
+      an accelerated decline in Trust and Safety; margin and cash guidance confirmed
     url: https://www.tp.com/media/kcdch3fb/tp-press-release-q3-2026-revenue-eng.pdf
 - id: EV-20261103-AMD-2
   kind: event
@@ -1221,13 +1250,13 @@ forecasts:
   resolves_by: '2026-11-04'
   resolution:
     method: judged
-    guidance: AMD Q3 2026 results release; Q4 revenue outlook midpoint divided by Q3 reported revenue, at least 1.10.
-      Guide and consensus source https://www.hudson-labs.com/research/amd-q3-2026-earnings-preview-revenue-guidance-key-drivers
+    guidance: AMD Q3 2026 results release; Q4 revenue outlook midpoint divided by Q3 reported revenue, at least
+      1.10. Guide and consensus source https://www.hudson-labs.com/research/amd-q3-2026-earnings-preview-revenue-guidance-key-drivers
   status: resolved
   outcome: 1
   resolved_at: '2026-11-04'
   evidence:
-    summary: 'Q4 2026 revenue guided at about $17.0bn plus or minus 3%, 27% above Q3 revenue of $13,377m'
+    summary: Q4 2026 revenue guided at about $17.0bn plus or minus 3%, 27% above Q3 revenue of $13,377m
     url: https://www.stocktitan.net/news/AMD/amd-reports-third-quarter-2026-financial-7j6jzo29buqw.html
 - id: EV-20261109-CEG-1
   kind: event
@@ -1237,8 +1266,8 @@ forecasts:
   probability_raw: 0.7
   probability: 0.787
   reasoning: Constellation beat EPS consensus in 7 of its last 8 quarters (MarketBeat); Q2 was $2.55 against $2.29.
-    Calpine now contributes and power prices are high, so a beat is the base case; the consensus of $3.88 (+28% on
-    $3.04) already prices much of that.
+    Calpine now contributes and power prices are high, so a beat is the base case; the consensus of $3.88 (+28%
+    on $3.04) already prices much of that.
   expected: Adjusted operating EPS around $3.95-4.10; 2026 guidance of $11.50-12.50 kept or narrowed upwards
   implications:
     if_yes: Supports the power-grid thesis that scarce firm generation earns rising margins from data-centre demand
@@ -1277,7 +1306,10 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-05'
   evidence:
-    summary: 'US strike on an Iranian anti-aircraft facility on Qeshm Island, early Tuesday 3 Nov local time (Monday night US time), after this forecast was made. Trump confirmed it ("we hit it last night", "a minor attack", "it wasn''t war"); US officials called it defensive after Iranian fire at a US aircraft. Counted as a US government statement under the guidance'
+    summary: US strike on an Iranian anti-aircraft facility on Qeshm Island, early Tuesday 3 Nov local time (Monday
+      night US time), after this forecast was made. Trump confirmed it ("we hit it last night", "a minor attack",
+      "it wasn't war"); US officials called it defensive after Iranian fire at a US aircraft. Counted as a US government
+      statement under the guidance
     url: https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes
     other: https://www.wsws.org/en/articles/2026/11/04/xutg-n04.html
 - id: EV-20261110-CRWV-1
@@ -1287,9 +1319,10 @@ forecasts:
   statement: CoreWeave Q3 2026 revenue is at least USD 3.6bn (top of its $3.4-3.6bn guide)
   probability_raw: 0.5
   probability: 0.525
-  reasoning: Q2 revenue was $2.575bn with backlog of about $104bn plus $25bn signed early in Q3; the Q3 guide of $3.4-3.6bn
-    needs +32% to +40% quarter on quarter. CoreWeave beat the top of its guide in most 2025 quarters, but Q3 2025 was
-    held back by a third-party data-centre delay, so revenue now depends on sites going live on time.
+  reasoning: Q2 revenue was $2.575bn with backlog of about $104bn plus $25bn signed early in Q3; the Q3 guide of
+    $3.4-3.6bn needs +32% to +40% quarter on quarter. CoreWeave beat the top of its guide in most 2025 quarters,
+    but Q3 2025 was held back by a third-party data-centre delay, so revenue now depends on sites going live on
+    time.
   expected: Revenue near the top of the guide, around $3.55-3.65bn; demand is not the constraint, delivery is
   implications:
     if_yes: Capacity is arriving on schedule; weakens the delivery-delay part of the build-out-delay bet
@@ -1307,12 +1340,13 @@ forecasts:
   kind: event
   thesis: ai-buildout-delay
   event_date: '2026-11-10'
-  statement: CoreWeave lowers the midpoint of its full-year 2026 revenue guidance (currently $12.4-13.2bn) with its Q3 results
+  statement: CoreWeave lowers the midpoint of its full-year 2026 revenue guidance (currently $12.4-13.2bn) with
+    its Q3 results
   probability_raw: 0.35
   probability: 0.297
-  reasoning: CoreWeave cut its 2025 revenue guide at Q3 2025 because a third-party data-centre partner ran late. The
-    range is already wide ($0.8bn) and backlog grew by $25bn early in Q3, so a cut needs a new delivery slip; one
-    in three is the base case for a builder this dependent on third-party sites.
+  reasoning: CoreWeave cut its 2025 revenue guide at Q3 2025 because a third-party data-centre partner ran late.
+    The range is already wide ($0.8bn) and backlog grew by $25bn early in Q3, so a cut needs a new delivery slip;
+    one in three is the base case for a builder this dependent on third-party sites.
   expected: Guidance kept or narrowed around $12.8bn; management mentions power and site timing as the main constraint
   implications:
     if_yes: Direct support for the build-out-delay bet and the CoreWeave credit-stress indicator
@@ -1323,20 +1357,21 @@ forecasts:
   resolution:
     method: judged
     guidance: Compare the 2026 revenue guidance midpoint given on the 10 Nov 2026 call or release with $12.8bn (the
-      $12.4-13.2bn range from https://valueaddvc.com/pulse/coreweave-q2-2026-earnings-112-percent-revenue-surge). Lower
-      midpoint = yes; unchanged or higher = no; guidance withdrawn = yes.
+      $12.4-13.2bn range from https://valueaddvc.com/pulse/coreweave-q2-2026-earnings-112-percent-revenue-surge).
+      Lower midpoint = yes; unchanged or higher = no; guidance withdrawn = yes.
   status: open
   outcome: null
 - id: EV-20261111-ENR-1
   kind: event
   thesis: power-grid-constraint
   event_date: '2026-11-11'
-  statement: Siemens Energy reports an FY2026 profit margin before special items of at least 11.0% (midpoint of its 10-12% guide)
+  statement: Siemens Energy reports an FY2026 profit margin before special items of at least 11.0% (midpoint of
+    its 10-12% guide)
   probability_raw: 0.8
   probability: 0.918
-  reasoning: On the 30 Sep pre-close call management said profitability was trending towards the upper end of the 10-12%
-    range; Q3 alone was 14.2% and Q4 is expected around the first-half level. Pre-close guidance this late is usually
-    met; the risk is Gamesa charges or a weak Q4 mix.
+  reasoning: On the 30 Sep pre-close call management said profitability was trending towards the upper end of the
+    10-12% range; Q3 alone was 14.2% and Q4 is expected around the first-half level. Pre-close guidance this late
+    is usually met; the risk is Gamesa charges or a weak Q4 mix.
   expected: About 11.5-12%
   implications:
     if_yes: Grid and gas equipment pricing still converting backlog into margin; supports the grid thesis
@@ -1346,8 +1381,8 @@ forecasts:
   resolves_by: '2026-11-12'
   resolution:
     method: judged
-    guidance: Siemens Energy Q4 FY2026 results release (11 Nov 2026, 07:00 CET), group profit margin before special items
-      for FY2026. Guide sources https://assets.siemens-energy.com/dam/e8ced7ab-8dcc-48e5-b0b5-b4d500fee9a5/2026-09-30---Q4-FY26-Pre-Close-Call_transcript-pdf_Original%20file.pdf
+    guidance: Siemens Energy Q4 FY2026 results release (11 Nov 2026, 07:00 CET), group profit margin before special
+      items for FY2026. Guide sources https://assets.siemens-energy.com/dam/e8ced7ab-8dcc-48e5-b0b5-b4d500fee9a5/2026-09-30---Q4-FY26-Pre-Close-Call_transcript-pdf_Original%20file.pdf
       and https://www.investing.com/news/transcripts/earnings-call-transcript-siemens-energy-posts-record-q3-2026-results-shares-slip-93CH-4836780
   status: open
   outcome: null
@@ -1355,13 +1390,13 @@ forecasts:
   kind: event
   thesis: in-vivo-gene-editing
   event_date: '2026-11-09'
-  statement: CRISPR Therapeutics' CTX310 Phase 1b data at AHA (9 Nov) show a mean or median triglyceride reduction of at
-    least 50% in the highest-dose cohort of patients with severe hypertriglyceridemia
+  statement: CRISPR Therapeutics' CTX310 Phase 1b data at AHA (9 Nov) show a mean or median triglyceride reduction
+    of at least 50% in the highest-dose cohort of patients with severe hypertriglyceridemia
   probability_raw: 0.65
   probability: 0.767
-  reasoning: In the Phase 1a (AHA 2025) the top dose (0.8 mg/kg) cut triglycerides and LDL-C by about 50% or more on
-    average; ANGPTL3 loss tends to give similar or larger percentage triglyceride falls when baseline levels are high.
-    Small cohorts and a possible lower top dose in 1b keep this well short of certain.
+  reasoning: In the Phase 1a (AHA 2025) the top dose (0.8 mg/kg) cut triglycerides and LDL-C by about 50% or more
+    on average; ANGPTL3 loss tends to give similar or larger percentage triglyceride falls when baseline levels
+    are high. Small cohorts and a possible lower top dose in 1b keep this well short of certain.
   expected: Triglycerides down about 55-65% at the top dose, no treatment-related serious adverse events
   implications:
     if_yes: A second in vivo editing programme with durable one-shot efficacy; supports the gene-editing thesis
@@ -1371,9 +1406,9 @@ forecasts:
   resolves_by: '2026-11-10'
   resolution:
     method: judged
-    guidance: CRISPR Therapeutics release or AHA late-breaker LBS.05 (9 Nov 2026, 08:00 CST). Use the highest dose cohort
-      reported; mean or median percent change in triglycerides from baseline. Void if no cohort-level triglyceride figure
-      is given. Prior data https://www.hcplive.com/view/crispr-gene-editing-therapy-ctx310-lowers-ldl-c-and-triglycerides-in-lipid-disorders;
+    guidance: CRISPR Therapeutics release or AHA late-breaker LBS.05 (9 Nov 2026, 08:00 CST). Use the highest dose
+      cohort reported; mean or median percent change in triglycerides from baseline. Void if no cohort-level triglyceride
+      figure is given. Prior data https://www.hcplive.com/view/crispr-gene-editing-therapy-ctx310-lowers-ldl-c-and-triglycerides-in-lipid-disorders;
       schedule https://finviz.com/news/400391/crispr-therapeutics-to-present-late-breaking-data-at-the-american-heart-association-aha-scientific-sessions-2026
   status: open
   outcome: null
@@ -1384,12 +1419,13 @@ forecasts:
   statement: Nebius Group Q3 2026 revenue is at least USD 905m (MarketBeat consensus $905.75m)
   probability_raw: 0.5
   probability: 0.599
-  reasoning: Q2 revenue was $582.3m, up 46% on Q1; consensus needs about 56% sequential growth. Management said capacity
-    deployed late in Q2 starts contributing in Q3, and Nebius beat Q2 forecasts, but most Q2 deals are said to land in
-    2027. Consensus is a fair starting point; no reason to lean either way.
+  reasoning: Q2 revenue was $582.3m, up 46% on Q1; consensus needs about 56% sequential growth. Management said
+    capacity deployed late in Q2 starts contributing in Q3, and Nebius beat Q2 forecasts, but most Q2 deals are
+    said to land in 2027. Consensus is a fair starting point; no reason to lean either way.
   expected: Revenue around $880-950m
   implications:
-    if_yes: Capacity is coming online roughly on schedule at the second-largest neocloud; against the build-out-delay bet
+    if_yes: Capacity is coming online roughly on schedule at the second-largest neocloud; against the build-out-delay
+      bet
     if_no: A miss blamed on deployment timing would support the build-out-delay bet
   forecaster: system:claude-opus-5-5
   made_at: '2026-11-05'
@@ -1397,45 +1433,45 @@ forecasts:
   resolution:
     method: judged
     guidance: Nebius Q3 2026 shareholder letter or release (12 Nov 2026, before the US open), group revenue. Consensus
-      https://www.marketbeat.com/earnings/reports/2026-11-12-nebius-group-nv-stock/; Q2 base
-      https://assets.nebius.com/assets/4462517b-ce83-41f2-96ed-f2ac1bc06a05/SHLQ226%20(1).pdf-0
+      https://www.marketbeat.com/earnings/reports/2026-11-12-nebius-group-nv-stock/; Q2 base https://assets.nebius.com/assets/4462517b-ce83-41f2-96ed-f2ac1bc06a05/SHLQ226%20(1).pdf-0
   status: open
   outcome: null
 - id: EV-20261112-NBIS-2
   kind: event
   thesis: ai-buildout-delay
   event_date: '2026-11-12'
-  statement: Nebius lowers the midpoint of its full-year 2026 revenue guidance (currently $3.0-3.4bn, midpoint $3.2bn) with
-    its Q3 results
+  statement: Nebius lowers the midpoint of its full-year 2026 revenue guidance (currently $3.0-3.4bn, midpoint $3.2bn)
+    with its Q3 results
   probability_raw: 0.3
   probability: 0.278
-  reasoning: H1 revenue was about $0.98bn, so the guide needs about $2.0-2.4bn in H2, a steep ramp that depends on new
-    capacity going live in Q4. Guidance was reaffirmed in August; companies rarely cut with this much contracted backlog,
-    but the ramp leaves little room for site delays.
+  reasoning: H1 revenue was about $0.98bn, so the guide needs about $2.0-2.4bn in H2, a steep ramp that depends
+    on new capacity going live in Q4. Guidance was reaffirmed in August; companies rarely cut with this much contracted
+    backlog, but the ramp leaves little room for site delays.
   expected: Guidance kept, possibly narrowed towards the low end
   implications:
-    if_yes: A second neocloud (with CoreWeave, EV-20261110-CRWV-2) cutting on delivery timing would strongly support the
-      build-out-delay bet
+    if_yes: A second neocloud (with CoreWeave, EV-20261110-CRWV-2) cutting on delivery timing would strongly support
+      the build-out-delay bet
     if_no: Delivery is holding at Nebius; the bet relies on hyperscaler and CoreWeave signals
   forecaster: system:claude-opus-5-5
   made_at: '2026-11-05'
   resolves_by: '2026-11-13'
   resolution:
     method: judged
-    guidance: Compare the FY2026 revenue guidance midpoint given on 12 Nov 2026 with $3.2bn (range from
-      https://www.tradingkey.com/news/transcripts/262106466-tradingkey). Lower midpoint = yes; unchanged or higher = no;
-      guidance withdrawn = yes. A narrowed range keeps its own midpoint.
+    guidance: Compare the FY2026 revenue guidance midpoint given on 12 Nov 2026 with $3.2bn (range from https://www.tradingkey.com/news/transcripts/262106466-tradingkey).
+      Lower midpoint = yes; unchanged or higher = no; guidance withdrawn = yes. A narrowed range keeps its own midpoint.
   status: open
   outcome: null
 - id: EV-20261112-TWST-1
   kind: event
   thesis: in-vivo-gene-editing
   event_date: '2026-11-12'
-  statement: Twist Bioscience fiscal Q4 2026 (Jul-Sep 2026) revenue is at least USD 124.0m (top of its $123-124m guide)
+  statement: Twist Bioscience fiscal Q4 2026 (Jul-Sep 2026) revenue is at least USD 124.0m (top of its $123-124m
+    guide)
   probability_raw: 0.75
   probability: 0.896
-  reasoning: Twist guided Q3 to $114-115m and reported $118.4m, its fourteenth straight quarter of growth, and raised the
-    full-year guide twice. Consensus is $123.55m. A history of beating the top of guidance makes at least $124m likely.
+  reasoning: Twist guided Q3 to $114-115m and reported $118.4m, its fourteenth straight quarter of growth, and raised
+    the full-year guide twice. Consensus is $123.55m. A history of beating the top of guidance makes at least $124m
+    likely.
   expected: About $125-127m
   implications:
     if_yes: Steady demand for synthetic DNA and NGS tools; supports the picks-and-shovels leg of the genomics holdings
@@ -1445,8 +1481,7 @@ forecasts:
   resolves_by: '2026-11-13'
   resolution:
     method: judged
-    guidance: Twist fiscal Q4 2026 results (12 Nov 2026, before the US open), total revenue. Guide
-      https://www.sec.gov/Archives/edgar/data/0001581280/000158128026000044/twst-2026630xex991.htm
+    guidance: Twist fiscal Q4 2026 results (12 Nov 2026, before the US open), total revenue. Guide https://www.sec.gov/Archives/edgar/data/0001581280/000158128026000044/twst-2026630xex991.htm
   status: open
   outcome: null
 - id: EV-20261112-TWST-2
@@ -1457,8 +1492,8 @@ forecasts:
   probability_raw: 0.45
   probability: 0.52
   reasoning: Management reiterated adjusted EBITDA breakeven in Q4, but Q3 was -$11.3m, worse than -$8.0m a year
-    earlier; closing that gap in one quarter needs both higher revenue and lower costs. Companies usually defend a
-    reiterated breakeven date, so close to even.
+    earlier; closing that gap in one quarter needs both higher revenue and lower costs. Companies usually defend
+    a reiterated breakeven date, so close to even.
   expected: Adjusted EBITDA between -$3m and +$2m
   implications:
     if_yes: Twist reaches self-funding; lowers dilution risk for the held position
@@ -1479,9 +1514,9 @@ forecasts:
   statement: US nonfarm payrolls for October (first print, 6 Nov) rise by at least 50,000
   probability_raw: 0.55
   probability: 0.686
-  reasoning: Consensus is +65k (forexfundamentals); September printed +29k against a 90k forecast, so recent misses have
-    been to the downside. A 15k cushion is small next to the usual 50-70k forecast error, so this is close to even with
-    a slight lean to the consensus.
+  reasoning: Consensus is +65k (forexfundamentals); September printed +29k against a 90k forecast, so recent misses
+    have been to the downside. A 15k cushion is small next to the usual 50-70k forecast error, so this is close
+    to even with a slight lean to the consensus.
   expected: About +50-60k, unemployment 4.2-4.3%
   implications:
     if_yes: Labour market still adding jobs; less support for the bonds bet in the near term
@@ -1499,23 +1534,24 @@ forecasts:
   kind: event
   thesis: uk-large-caps-tech-hedge
   event_date: '2026-11-12'
-  statement: UK GDP for July-September 2026 (ONS first quarterly estimate, 12 Nov) grows by at least 0.6% quarter on quarter
+  statement: UK GDP for July-September 2026 (ONS first quarterly estimate, 12 Nov) grows by at least 0.6% quarter
+    on quarter
   probability_raw: 0.75
   probability: 0.83
   reasoning: Q2 was revised up to +0.5% and Q1 was +0.6%. Polymarket puts about 83% on 0.6% or more (48% on 0.6-0.7%,
     30% on 0.8-0.9%, 5% on 1.0%+). The market is thin, so I shade it down a little.
   expected: About +0.6-0.7%
   implications:
-    if_yes: Domestic growth holding up despite the hike to 4%; more BoE hikes priced, gilts weaker; mildly against the UK
-      bet's rate leg, positive for UK banks and domestic earners
+    if_yes: Domestic growth holding up despite the hike to 4%; more BoE hikes priced, gilts weaker; mildly against
+      the UK bet's rate leg, positive for UK banks and domestic earners
     if_no: Slower growth eases pressure for a February hike; gilts rally, which helps the UK bet's valuation case
   forecaster: system:claude-opus-5-5
   made_at: '2026-11-06'
   resolves_by: '2026-11-13'
   resolution:
     method: judged
-    guidance: ONS GDP first quarterly estimate, UK, July to September 2026 (12 Nov 2026, 07:00), real GDP change on the
-      previous quarter, as first published. Release https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukjulytoseptember2026;
+    guidance: ONS GDP first quarterly estimate, UK, July to September 2026 (12 Nov 2026, 07:00), real GDP change
+      on the previous quarter, as first published. Release https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukjulytoseptember2026;
       market https://polymarket.com/event/uk-gdp-growth-in-q3-2026-qoq-20260813112748100; Q2 https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/quarterlynationalaccounts/apriltojune2026
   status: open
   outcome: null
