@@ -4,6 +4,6 @@
   "n": 37,
   "min_n": 20,
   "active": true,
-  "fitted_at": "2026-11-07",
+  "fitted_at": "2026-11-08",
   "rule": "new system forecasts: p_final = sigmoid(k * logit(p_raw) + b); record both"
 }

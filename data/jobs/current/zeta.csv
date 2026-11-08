@@ -9,13 +9,13 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 6234974004,Client Experience Specialist,,"New York, NY",2026-10-30T10:26:35-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6234974004,other,mid_or_unknown,us,False
 6219224004,Client Success Manager,,"New York, NY",2026-11-02T12:12:24-05:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6219224004,other,senior,us,False
 6233152004,Corporate Development Manager,,"Hyderabad, India",2026-10-30T10:26:17-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6233152004,other,senior,other,False
-6217021004,Customer Success Manager,,Remote - United States,2026-10-30T10:25:42-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6217021004,customer_support,senior,us,False
 5830867004,Customer Success Manager,,Remote - United States,2026-11-04T11:39:33-05:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5830867004,customer_support,senior,us,False
+6217021004,Customer Success Manager,,Remote - United States,2026-10-30T10:25:42-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6217021004,customer_support,senior,us,False
 6237490004,Data Engineer,,"Copenhagen, Denmark",2026-10-30T10:24:55-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6237490004,data_ai,mid_or_unknown,other,False
 5998538004,"Director, Agency Services",,"New York, NY",2026-11-04T11:39:47-05:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5998538004,other,leadership,us,False
 6147115004,"Director, Analytics",,Remote - United States,2026-10-30T10:23:41-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6147115004,other,leadership,us,False
-6165086004,"Director, Application Security",,Remote - United States,2026-10-30T10:14:26-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6165086004,other,leadership,us,False
 5541205004,"Director, Application Security",,"San Francisco, CA",2026-10-30T10:14:26-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5541205004,other,leadership,us,False
+6165086004,"Director, Application Security",,Remote - United States,2026-10-30T10:14:26-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6165086004,other,leadership,us,False
 6030642004,"Director, Client Partnerships",,Paris,2026-10-30T10:21:25-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6030642004,other,leadership,other,False
 6093475004,"Director, Client Partnerships",,Paris,2026-10-30T10:21:25-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6093475004,other,leadership,other,False
 6238983004,"Director, Client Partnerships ",,Remote - Texas,2026-10-29T17:02:47-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6238983004,other,leadership,remote,False
@@ -25,15 +25,15 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 5573705004,"Director, Enterprise Sales - ESP/CDP",,Remote - United States,2026-10-02T18:53:12-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5573705004,sales,leadership,us,False
 5987393004,Director of Engineering,,"Bengaluru, Karnataka, India",2026-10-30T10:19:44-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5987393004,software_engineering,leadership,other,False
 6123537004,"Director of Paid Search, EDU",,Remote - United States,2026-10-30T10:22:43-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6123537004,other,leadership,us,False
-6224152004,"Director of Product Management, Acquisition Intelligence",,"Atlanta, GA",2026-10-30T10:25:52-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6224152004,product_management,leadership,us,False
 6219228004,"Director of Product Management, Acquisition Intelligence",,"New York, NY",2026-10-30T10:25:52-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6219228004,product_management,leadership,us,False
+6224152004,"Director of Product Management, Acquisition Intelligence",,"Atlanta, GA",2026-10-30T10:25:52-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6224152004,product_management,leadership,us,False
 6190959004,Enterprise Sales - CRM,,"London, UK",2026-10-02T18:53:12-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6190959004,sales,mid_or_unknown,uk,False
 5701071004,Equity Accounting,,"Hyderabad, Telangana, India",2026-10-02T18:53:12-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5701071004,accounting_finance,mid_or_unknown,other,False
 6151249004,FP&A Associate Analyst,,"Hyderabad, India",2026-10-30T10:24:01-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6151249004,accounting_finance,junior,other,False
 6021993004,General Ledger & Commissions Analyst,,"Hyderabad, Telangana, India",2026-10-30T10:21:22-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6021993004,other,mid_or_unknown,other,False
 6146537004,"Group Vice President, UK Customer Growth - CRM ",,"London, UK",2026-10-02T18:53:12-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6146537004,other,leadership,uk,False
-6103718004,Lead Application Security Engineer,,"San Francisco, CA",2026-10-30T10:21:54-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6103718004,software_engineering,senior,us,False
 6115724004,Lead Application Security Engineer,,Remote - United States,2026-10-30T10:21:54-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6115724004,software_engineering,senior,us,False
+6103718004,Lead Application Security Engineer,,"San Francisco, CA",2026-10-30T10:21:54-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6103718004,software_engineering,senior,us,False
 5978699004,Lead Backend Engineer ,,"Bangalore, India",2026-10-30T10:19:27-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5978699004,software_engineering,senior,other,False
 5982747004,Lead Data Engineer - Healthcare Data & Audience Applications,,"Nashville, TN",2026-10-30T10:19:24-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5982747004,data_ai,senior,other,False
 5978158004,Lead Data Engineer - Healthcare Data & Audience Applications,,Remote - United States,2026-10-30T10:19:24-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5978158004,data_ai,senior,us,False
@@ -43,8 +43,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 6240760004,Lead Software Engineer,,"Bangalore, India",2026-11-03T03:28:19-05:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6240760004,software_engineering,senior,other,False
 5685356004,"Lead Software Engineer, Identity",,Remote - United States,2026-10-30T10:15:04-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5685356004,software_engineering,senior,us,False
 5687056004,"Lead Software Engineer, Identity",,"San Francisco, California, United States",2026-10-30T10:15:04-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5687056004,software_engineering,senior,us,False
-6147695004,Lead Software Engineer – Real-Time Events,,Remote - United States,2026-10-30T10:23:43-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6147695004,software_engineering,senior,us,False
 6165145004,Lead Software Engineer – Real-Time Events,,"San Francisco, CA",2026-10-30T10:23:43-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6165145004,software_engineering,senior,us,False
+6147695004,Lead Software Engineer – Real-Time Events,,Remote - United States,2026-10-30T10:23:43-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6147695004,software_engineering,senior,us,False
 6222903004,Lead Sr. Business System Analyst,,Remote - California,2026-11-04T14:53:15-05:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6222903004,other,senior,remote,False
 6112689004,Lead Sr. Business System Analyst,,"San Francisco, CA",2026-11-04T14:53:15-05:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6112689004,other,senior,us,False
 6222905004,Lead Sr. Business System Analyst,,"Denver, CO",2026-11-04T14:53:15-05:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6222905004,other,senior,us,False
@@ -64,10 +64,10 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 6234720004,"Senior Analyst, Analytics & Insights - Programmatic",,"Bangalore, India",2026-11-02T07:48:15-05:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6234720004,other,senior,other,False
 6202678004,Senior Art Director,,"New York, NY",2026-10-30T10:25:04-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6202678004,other,leadership,us,False
 5997281004,"Senior Associate, Data & Intelligence Strategy ",,"New York, NY; Remote - United States",2026-10-30T10:20:01-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5997281004,other,junior,us,False
-5117219004,Senior Backend Engineer,,"Bangalore, IN",2026-10-02T18:53:12-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5117219004,software_engineering,senior,other,False
 5978700004,Senior Backend Engineer,,"Bengaluru, Karnataka, India",2026-10-30T10:19:33-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5978700004,software_engineering,senior,other,False
-6019923004,Senior Client Success Manager - Programmatic,,Remote - Canada,2026-11-04T15:23:06-05:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6019923004,other,senior,remote,False
+5117219004,Senior Backend Engineer,,"Bangalore, IN",2026-10-02T18:53:12-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5117219004,software_engineering,senior,other,False
 6205848004,Senior Client Success Manager - Programmatic,,"New York, NY",2026-11-04T15:23:08-05:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6205848004,other,senior,us,False
+6019923004,Senior Client Success Manager - Programmatic,,Remote - Canada,2026-11-04T15:23:06-05:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6019923004,other,senior,remote,False
 6116836004,Senior Compute Platform Engineer,,"Copenhagen, Denmark",2026-10-30T10:22:24-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6116836004,software_engineering,senior,other,False
 6223557004,Senior Customer Success Manager,,Remote - United States,2026-10-30T10:26:06-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6223557004,customer_support,senior,us,False
 6228274004,Senior Customer Success Manager (7 month FTC) ,,"Hasselt, Belgium",2026-11-05T04:38:37-05:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6228274004,customer_support,senior,other,False
@@ -78,24 +78,24 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 6219226004,Senior Product Designer,,"New York, NY",2026-10-30T10:25:44-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6219226004,other,senior,us,False
 5972630004,Senior Product Manager,,"New York, NY",2026-11-04T11:39:42-05:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5972630004,product_management,senior,us,False
 5353877004,Senior QA Automation Engineer,,"Bengaluru, Karnataka, India",2026-10-02T18:53:12-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5353877004,software_engineering,senior,other,False
-5671126004,Senior Software Engineer,,"Bangalore, India",2026-10-30T10:14:50-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5671126004,software_engineering,senior,other,False
 5520068004,Senior Software Engineer,,"Bengaluru, Karnataka, India",2026-10-02T18:53:12-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5520068004,software_engineering,senior,other,False
-6250064004,Senior Software Engineer,,"New York, NY",2026-11-05T12:37:47-05:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6250064004,software_engineering,senior,us,False
 6208553004,Senior Software Engineer,,"Berlin, Germany",2026-10-30T10:25:32-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6208553004,software_engineering,senior,other,False
+6250064004,Senior Software Engineer,,"New York, NY",2026-11-05T12:37:47-05:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6250064004,software_engineering,senior,us,False
+5671126004,Senior Software Engineer,,"Bangalore, India",2026-10-30T10:14:50-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5671126004,software_engineering,senior,other,False
 6147722004,Senior Software Engineer - Automation & Tooling,,"Bangalore, India",2026-10-02T18:53:12-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6147722004,software_engineering,senior,other,False
 6198938004,"Senior Software Engineer, Data Platform",,"San Francisco, CA",2026-10-30T10:25:02-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6198938004,software_engineering,senior,us,False
 6179913004,Senior Software Engineer – Forecasting & Recommendations,,"Bangalore, India",2026-10-30T10:24:31-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6179913004,software_engineering,senior,other,False
 6180411004,"Senior Software Engineer, Identity",,"San Francisco, CA",2026-10-30T10:24:33-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6180411004,software_engineering,senior,us,False
 6191802004,"Senior Software Engineer, Identity",,Remote - United States,2026-10-30T10:24:33-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6191802004,software_engineering,senior,us,False
 5869865004,Senior Software Engineer — Real-Time Ad Serving ,,"London, England, United Kingdom",2026-10-02T18:53:12-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5869865004,software_engineering,senior,uk,False
-5841825004,Senior Software Engineer — Real-Time Ad Serving ,,"Prague, Czech Republic",2026-10-02T18:53:12-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5841825004,software_engineering,senior,other,False
 5869852004,Senior Software Engineer — Real-Time Ad Serving ,,"Berlin, Germany",2026-10-02T18:53:12-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5869852004,software_engineering,senior,other,False
+5841825004,Senior Software Engineer — Real-Time Ad Serving ,,"Prague, Czech Republic",2026-10-02T18:53:12-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5841825004,software_engineering,senior,other,False
 5594985004,Sr. Graphic Designer,,"Hyderabad, Telangana, India",2026-10-02T18:53:12-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5594985004,other,senior,other,False
 5594984004,Sr. Systems Administrator,,"Hyderabad, Telangana, India",2026-10-02T18:53:12-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5594984004,other,senior,other,False
 5594986004,Sr. Systems Engineer,,"Hyderabad, Telangana, India",2026-10-02T18:53:12-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/5594986004,software_engineering,senior,other,False
 6005470004,Staff QA Automation Engineer,,"Bengaluru, Karnataka, India",2026-10-30T10:20:13-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6005470004,software_engineering,senior,other,False
-6214600004,Staff Software Engineer,,"San Francisco, CA",2026-10-03T09:37:40-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6214600004,software_engineering,senior,us,False
 6179911004,Staff Software Engineer,,"Bangalore, India",2026-10-30T10:24:23-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6179911004,software_engineering,senior,other,False
+6214600004,Staff Software Engineer,,"San Francisco, CA",2026-10-03T09:37:40-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6214600004,software_engineering,senior,us,False
 6132234004,Staff Software Engineer - Performance Advisor,,Remote - United States,2026-10-30T10:23:10-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6132234004,software_engineering,senior,us,False
 6141018004,Staff Software Engineer - Performance Advisor,,"San Francisco, CA",2026-10-30T10:23:10-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6141018004,software_engineering,senior,us,False
 6234968004,Strategic Account Director,,Remote - Canada,2026-10-30T10:26:29-04:00,https://job-boards.greenhouse.io/zetaglobal/jobs/6234968004,other,leadership,remote,False
