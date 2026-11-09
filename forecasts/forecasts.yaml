@@ -742,8 +742,15 @@ forecasts:
   resolution:
     method: judged
     guidance: 'BLS CPI release, 10 Nov 2026: core CPI 12-month change.'
-  status: open
+  status: void
   outcome: null
+  resolved_at: '2026-11-09'
+  evidence:
+    summary: 'Void: the data will not exist on the stated basis. BLS will not publish 12-month changes for October
+      2026 where October 2025 data are missing (not collected in the 2025 shutdown), which covers all items and core.
+      The forecast''s premise (a 2.48% year-on-year core nowcast) was wrong. Replaced by EV-20261110-US-3 (monthly
+      core change).'
+    url: https://www.bls.gov/cpi/additional-resources/2025-federal-government-shutdown-impact-cpi-faq.htm
 - id: EV-20261028-MSFT-1
   kind: event
   thesis: hyperscaler-capex-debt
@@ -1528,8 +1535,13 @@ forecasts:
     method: judged
     guidance: BLS Employment Situation for October 2026 (6 Nov, 08:30 ET), total nonfarm payroll change, first print.
       Void if not published by 13 Nov. Consensus https://forexfundamentals.com/economic-calendar/nfp/2026-11-06
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-09'
+  evidence:
+    summary: Total nonfarm payrolls +165,000 in October (first print); unemployment 4.1%; August revised to +186,000
+      and September to +60,000
+    url: https://www.bls.gov/news.release/archives/empsit_11062026.htm
 - id: EV-20261112-UKGDP-1
   kind: event
   thesis: uk-large-caps-tech-hedge
@@ -1553,5 +1565,31 @@ forecasts:
     guidance: ONS GDP first quarterly estimate, UK, July to September 2026 (12 Nov 2026, 07:00), real GDP change
       on the previous quarter, as first published. Release https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukjulytoseptember2026;
       market https://polymarket.com/event/uk-gdp-growth-in-q3-2026-qoq-20260813112748100; Q2 https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/quarterlynationalaccounts/apriltojune2026
+  status: open
+  outcome: null
+- id: EV-20261110-US-3
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-11-10'
+  statement: US October core CPI (all items less food and energy, seasonally adjusted) rises 0.2% or less month on
+    month, as first published to one decimal
+  probability_raw: 0.55
+  probability: 0.684
+  reasoning: The consensus is +0.2% m/m; the Cleveland Fed nowcast is +0.21%, Bloomberg Economics +0.24%, Morgan
+    Stanley +0.19%, while RBC and ING expect +0.3%. The centre of the forecasts is about 0.23%, just under the 0.25%
+    rounding line, so slightly better than even.
+  expected: Core +0.2% m/m, headline +0.2-0.3% m/m; no 12-month rates published
+  implications:
+    if_yes: Core inflation contained; lowers the odds of a December hike a little and supports the bonds bet
+    if_no: A 0.3% core print keeps two more hikes priced; against the bonds bet
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-09'
+  resolves_by: '2026-11-10'
+  revises: EV-20261110-US-2
+  resolution:
+    method: judged
+    guidance: BLS CPI news release for October 2026 (10 Nov, 08:30 ET), all items less food and energy, seasonally
+      adjusted one-month percent change, as first published. Forecasts https://www.mitrade.com/insights/more/inflation/cpi-no-year-over-year-20261109J1123;
+      nowcast https://www.stocktitan.net/articles/october-2026-cpi-preview-no-yearly-rate
   status: open
   outcome: null

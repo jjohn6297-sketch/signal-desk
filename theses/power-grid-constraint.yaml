@@ -39,6 +39,15 @@ evidence_against:
 - date: '2026-08-06'
   claim: GE Vernova expanding turbine output to 20 GW/yr now, 30 GW by 2030
   source: https://www.turbomachinerymag.com/view/siemens-energy-posts-record-backlog-joining-ge-vernova-and-baker-hughes-in-a-record-quarter-for-gas-turbines
+- date: '2026-11-04'
+  claim: 'Democratic governors in Texas, Georgia and Ohio elected on data-centre moratorium or pause pledges; fewer new loads would ease the grid bottleneck'
+  source: https://fortune.com/2026/11/04/democrats-midterm-election-2026-anti-data-center-governors-texas-georgia-ohio-ai-infrastructure-big-tech-spending-moratorium-regulations/
+system_conviction: 55
+conviction_history:
+- date: '2026-11-08'
+  value: 55
+  reason: 'Weekly review 2026-45 (8 Nov); recovered from the Insights log because that run''s push failed'
+  source: https://claude.ai/artifact/WwpbnTDszXxUHpCnbVKEu3
 predictions:
 - id: p1
   statement: GE Vernova gas backlog + reservations >= 124 GW

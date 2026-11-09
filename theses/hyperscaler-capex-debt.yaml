@@ -39,6 +39,15 @@ evidence_against:
 - date: '2026-10-29'
   claim: 'AWS revenue $46.0bn, +39.3%, fastest in nearly five years; AWS backlog $578bn (call, secondary)'
   source: https://finance.yahoo.com/markets/stocks/articles/amazon-com-q3-earnings-call-001416198.html
+- date: '2026-11-04'
+  claim: 'Democratic governors in Texas, Georgia and Ohio elected on data-centre moratorium or pause pledges; a risk to capex delivery'
+  source: https://fortune.com/2026/11/04/democrats-midterm-election-2026-anti-data-center-governors-texas-georgia-ohio-ai-infrastructure-big-tech-spending-moratorium-regulations/
+system_conviction: 60
+conviction_history:
+- date: '2026-11-08'
+  value: 60
+  reason: 'Weekly review 2026-45 (8 Nov); recovered from the Insights log because that run''s push failed'
+  source: https://claude.ai/artifact/WwpbnTDszXxUHpCnbVKEu3
 predictions:
 - id: p1
   statement: Microsoft September-quarter capex >= $50bn

@@ -33,6 +33,12 @@ evidence_against:
   claim: 'Atlassian FQ1 2027 revenue $1,772m (+24%), cloud +31%; Teamwork Collection customers expanding Jira and Confluence seats faster than others. No net retention figure given, so kill criterion 2 is not hit'
   source: https://newshub.medianet.com.au/2026/11/atlassian-announces-first-quarter-fiscal-year-2027-results/180552/
   engine: daily-run
+system_conviction: 60
+conviction_history:
+- date: '2026-11-08'
+  value: 60
+  reason: 'Weekly review 2026-45 (8 Nov); recovered from the Insights log because that run''s push failed'
+  source: https://claude.ai/artifact/WwpbnTDszXxUHpCnbVKEu3
 predictions:
 - id: p1
   statement: Datadog Q3 revenue >= $1.17bn

@@ -16,6 +16,12 @@ evidence_for:
     raised to at least 3%
   source: https://www.unilever.com/news/press-and-media/press-releases/2026/continued-strong-performance-in-the-third-quarter/
 evidence_against: []
+system_conviction: 55
+conviction_history:
+- date: '2026-11-08'
+  value: 55
+  reason: 'Weekly review 2026-45 (8 Nov); recovered from the Insights log because that run''s push failed'
+  source: https://claude.ai/artifact/WwpbnTDszXxUHpCnbVKEu3
 predictions:
 - id: p1
   statement: Equal-weight Nestle, Unilever, Diageo beats XLP in EUR from 2026-10-26 to 2027-04-30

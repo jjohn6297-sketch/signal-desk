@@ -70,6 +70,16 @@
 "url": "https://www.mongodb.com/careers/job/?gh_jid=8328176"
 },
 {
+"key": "mongodb|8355989",
+"company": "MongoDB",
+"title": "Senior Product Manager, Marketing AI ",
+"level": "senior",
+"location": "Dublin, Ireland",
+"ai_related": true,
+"updated": "2026-11-06",
+"url": "https://www.mongodb.com/careers/job/?gh_jid=8355989"
+},
+{
 "key": "mongodb|8127995",
 "company": "MongoDB",
 "title": "Senior Staff Product Manager, Atlas Clusters",
@@ -148,15 +158,5 @@
 "ai_related": false,
 "updated": "2026-11-04",
 "url": "https://careers.toasttab.com/jobs?gh_jid=8333439"
-},
-{
-"key": "toast|8258222",
-"company": "Toast",
-"title": "Senior Product Manager, Team Management",
-"level": "senior",
-"location": "Dublin",
-"ai_related": false,
-"updated": "2026-10-21",
-"url": "https://careers.toasttab.com/jobs?gh_jid=8258222"
 }
 ]

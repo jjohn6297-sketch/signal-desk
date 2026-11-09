@@ -37,6 +37,12 @@ evidence_against:
 - date: '2026-10-29'
   claim: 'Illumina Q3 revenue $1,129m (+4.2%), below the top of its guide; FY26 guide raised to $4.64-4.66bn'
   source: https://www.sec.gov/Archives/edgar/data/0001110803/000111080326000202/q326earningsrelease.htm
+system_conviction: 60
+conviction_history:
+- date: '2026-11-08'
+  value: 60
+  reason: 'Weekly review 2026-45 (8 Nov); recovered from the Insights log because that run''s push failed'
+  source: https://claude.ai/artifact/WwpbnTDszXxUHpCnbVKEu3
 predictions:
 - id: p1
   statement: FDA approves lonvo-z by 2027-03-10

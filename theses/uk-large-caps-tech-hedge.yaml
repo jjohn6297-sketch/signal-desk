@@ -27,6 +27,12 @@ evidence_against:
   claim: 'BoE raised Bank Rate to 4% by 8-1 (Mann for 4.25%); Bailey, Lombardelli, Greene and Pill signal more may be needed; market median path 4.25% in February'
   source: https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026
   engine: daily-run
+system_conviction: 55
+conviction_history:
+- date: '2026-11-08'
+  value: 55
+  reason: 'Weekly review 2026-45 (8 Nov); recovered from the Insights log because that run''s push failed'
+  source: https://claude.ai/artifact/WwpbnTDszXxUHpCnbVKEu3
 predictions:
 - id: p1
   statement: FTSE 100 total return in EUR beats MSCI World in EUR from the 2026-10-28 close to 2027-04-30

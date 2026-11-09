@@ -1,19 +1,19 @@
 [
 {
-"as_of": "2026-11-06",
-"total": 70,
-"open": 34,
-"resolved": 36,
-"void": 0,
-"hits": 30,
-"brier_system": 0.1717,
+"as_of": "2026-11-09",
+"total": 71,
+"open": 32,
+"resolved": 38,
+"void": 1,
+"hits": 32,
+"brier_system": 0.1685,
 "n_override": 0,
 "brier_override": null,
 "brier_system_same": null,
 "recal_active": true,
-"recal_k": 1.5,
-"recal_b": 0.55,
-"recal_n": 36,
+"recal_k": 1.6,
+"recal_b": 0.5,
+"recal_n": 38,
 "recal_min_n": 20
 }
 ]

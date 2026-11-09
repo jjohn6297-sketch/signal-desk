@@ -21,6 +21,12 @@ evidence_against:
 - date: '2026-07-30'
   claim: Teleperformance keeps FY like-for-like guide 0% to +2%; Americas +1.1% in Q2
   source: https://quartr.com/events/teleperformance-se-tep-q2-2026_oCh0FYeD
+system_conviction: 65
+conviction_history:
+- date: '2026-11-08'
+  value: 65
+  reason: 'Weekly review 2026-45 (8 Nov); recovered from the Insights log because that run''s push failed'
+  source: https://claude.ai/artifact/WwpbnTDszXxUHpCnbVKEu3
 predictions:
 - id: p1
   statement: Teleperformance Q3 like-for-like growth below +1.0%

@@ -22,6 +22,15 @@ evidence_against:
 - date: '2026-10-30'
   claim: 'BoJ held at 1.25% by 8-1, with one dissent for a hike to 1.50%'
   source: https://www.tradingpedia.com/2026/10/30/sterling-yen-firm-as-boj-keeps-cautious-policy-stance/
+- date: '2026-11-06'
+  claim: 'October payrolls +165,000 (consensus +65k), unemployment 4.1%; August and September revised up 84,000 combined'
+  source: https://www.bls.gov/news.release/archives/empsit_11062026.htm
+system_conviction: 35
+conviction_history:
+- date: '2026-11-08'
+  value: 35
+  reason: 'Weekly review 2026-45 (8 Nov); recovered from the Insights log because that run''s push failed'
+  source: https://claude.ai/artifact/WwpbnTDszXxUHpCnbVKEu3
 predictions:
 - id: p1
   statement: 10-year Treasury does not close above 5.31% before 2027-01-31

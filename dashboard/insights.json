@@ -1,5 +1,61 @@
 [
 {
+"key": "2026-11-09-1",
+"date": "2026-11-09",
+"kind": "daily",
+"title": "9 November 2026",
+"rank": 1,
+"text": "Run problem fixed: Sunday's weekly review never reached the repository (its push was refused). Its conviction scores are now in the thesis files and its write-up is saved as insights/weekly/2026-45.md, both recovered from the Insights log."
+},
+{
+"key": "2026-11-09-2",
+"date": "2026-11-09",
+"kind": "daily",
+"title": "9 November 2026",
+"rank": 2,
+"text": "Resolved 1, voided 1. Hit: October payrolls at least +50k (68.6%, Brier 0.10). BLS: +165,000, unemployment 4.1%, August and September revised up 84,000 combined ([BLS](https://www.bls.gov/news.release/archives/empsit_11062026.htm)). Voided: core CPI 2.5% year on year or lower, because BLS will not publish 12-month rates for October 2026 (October 2025 prices were not collected in the shutdown) ([BLS FAQ](https://www.bls.gov/cpi/additional-resources/2025-federal-government-shutdown-impact-cpi-faq.htm)). The forecast's premise was wrong. Brier 0.168 on 38 resolved."
+},
+{
+"key": "2026-11-09-3",
+"date": "2026-11-09",
+"kind": "daily",
+"title": "9 November 2026",
+"rank": 3,
+"text": "Pre-registered 1: October core CPI rises 0.2% or less month on month (tomorrow, 13:30 Dublin). Consensus +0.2%; forecasts range from +0.19% to +0.3% ([Mitrade](https://www.mitrade.com/insights/more/inflation/cpi-no-year-over-year-20261109J1123)). Raw 55%, calibrated 68%."
+},
+{
+"key": "2026-11-09-4",
+"date": "2026-11-09",
+"kind": "daily",
+"title": "9 November 2026",
+"rank": 4,
+"text": "CoreWeave's 9.625% 2032 notes yielded above 16% on 6 Nov ([24/7 Wall St](https://247wallst.com/investing/2026/11/07/coreweaves-bonds-now-yield-more-than-16-days-before-earnings/); the price source isn't named). No 2031 quote was found, so the weekly AI-financing reading was not updated; the last 2031 reading was 15.6% (3 Nov), in the watch band below the 16% stress line. Results tomorrow: revenue at least $3.6bn 52.5%; guidance midpoint cut 29.7%."
+},
+{
+"key": "2026-11-09-5",
+"date": "2026-11-09",
+"kind": "daily",
+"title": "9 November 2026",
+"rank": 5,
+"text": "5 Nov sell-off: S&P 500 tech sector -7.3%, Philadelphia semiconductor index more than -12%, Nasdaq nearly 12% below its 6 Oct high; futures still price about a 65% chance of a December Fed hike ([Reuters via Kitco](https://www.kitco.com/news/off-the-wire/2026-11-06/wall-st-week-ahead-tech-swoon-roils-market-us-inflation-data-tap)). Logged as evidence for build-out delay and against hyperscaler capex and grid. No kill criterion hit (10-year 4.84% on 5 Nov against the 5.40% line; 5y5y 2.17% against 2.6%)."
+},
+{
+"key": "2026-11-09-6",
+"date": "2026-11-09",
+"kind": "daily",
+"title": "9 November 2026",
+"rank": 6,
+"text": "Coming up: CTX310 data at AHA and Constellation results today; CPI and CoreWeave 10 Nov; Siemens Energy 11 Nov (margin at least 11%, 92%; backlog at least EUR 165bn, 60%); Nebius, Twist and UK GDP 12 Nov."
+},
+{
+"key": "2026-11-09-7",
+"date": "2026-11-09",
+"kind": "daily",
+"title": "9 November 2026",
+"rank": 7,
+"text": "No comments or edits from John on the Signal Desk docs. No new 13F filings, no new director purchases at the non-US watch-list companies, no new FINRA margin data. Recalibration refit to k 1.60, b 0.50."
+},
+{
 "key": "2026-11-06-1",
 "date": "2026-11-06",
 "kind": "daily",
@@ -224,67 +280,59 @@
 "text": "No feedback on the Signal Desk docs since the last run. No new 13F filings; no new manual macro values (FINRA October margin debt is not out yet)."
 },
 {
-"key": "2026-11-02-1",
-"date": "2026-11-02",
-"kind": "daily",
-"title": "2 November 2026",
+"key": "2026-45-1",
+"date": "2026-45",
+"kind": "weekly",
+"title": "Week 2026-45 review (8 November 2026)",
 "rank": 1,
-"text": "Action card, airlines bet: kill criterion hit (Dated Brent closed $128.30 on 23 Oct and $128.12 on 26 Oct, above $126), first flagged in Sunday's review. Conviction 37 to 33. Decision for John: close the thesis, or rewrite the criterion to name ICE front-month settlement (peak about $116.7)."
+"text": "Brier 0.168 on 38 resolved, 32 open (events 0.157, n 30; thesis forecasts 0.213, n 8). Always forecasting the observed 74% yes rate would score 0.194, so the edge over a naive baseline is small. Most thesis groups have fewer than 6 resolved, so rankings are not reliable yet."
 },
 {
-"key": "2026-11-02-2",
-"date": "2026-11-02",
-"kind": "daily",
-"title": "2 November 2026",
+"key": "2026-45-2",
+"date": "2026-45",
+"kind": "weekly",
+"title": "Week 2026-45 review (8 November 2026)",
 "rank": 2,
-"text": "Ryanair H1 FY27 profit after tax EUR 2,147.6m, down 15% but above the EUR 2.11bn line (50%, hit, Brier 0.25). Against the bet: FY28 fuel is about 25% hedged at c.$95/bbl (the thesis assumed ~15% at ~$85), H1 fares fell 4%, the traffic target was cut to 214m and there is no FY27 profit guidance. Q3 fares are trending modestly ahead."
+"text": "Resolved: October payrolls at least +50k, hit (68.6%, Brier 0.10). BLS: +165,000, unemployment 4.1% (https://www.bls.gov/news.release/empsit.nr0.htm). Against the bonds bet; BOND-3 (4.5% by the December report) now needs a 0.4-point rise in two months."
 },
 {
-"key": "2026-11-02-3",
-"date": "2026-11-02",
-"kind": "daily",
-"title": "2 November 2026",
+"key": "2026-45-3",
+"date": "2026-45",
+"kind": "weekly",
+"title": "Week 2026-45 review (8 November 2026)",
 "rank": 3,
-"text": "Margin debt is now recorded: $1,480bn in September, up 31.4% on a year earlier, above the 30% watch line (FINRA; the September 2025 base of $1,126bn comes from Convex, whose October 2025 figure matches FINRA). Watch indicators go from 1 to 2; regime still Late cycle."
+"text": "Calibration: the 40-60% band resolved yes 64% of the time (n 14) and the 60-80% band 91% (n 11), so the system is still underconfident on yes. The refit swung from k 1.60 to 0.90 to 1.50 to 1.60 between 4 and 8 Nov on single outcomes."
 },
 {
-"key": "2026-11-02-4",
-"date": "2026-11-02",
-"kind": "daily",
-"title": "2 November 2026",
+"key": "2026-45-4",
+"date": "2026-45",
+"kind": "weekly",
+"title": "Week 2026-45 review (8 November 2026)",
 "rank": 4,
-"text": "Pre-registered 2: US strikes on Iranian territory 3-9 Nov (raw 20%, calibrated 9%; Trump said on 31 Oct he was \"not in much of a hurry\"); Constellation Q3 adjusted operating EPS at least $3.88 (raw 70%, calibrated 79%; results 9 Nov). Brent front-month was about $108.6 today, down 4% on the diplomacy reports."
+"text": "New this week for three theses: Democrats won the Texas, Georgia and Ohio governor races on 3 Nov on pledges of data-centre moratoria or pauses (https://fortune.com/2026/11/04/democrats-midterm-election-2026-anti-data-center-governors-texas-georgia-ohio-ai-infrastructure-big-tech-spending-moratorium-regulations/); on 5 Nov the S&P 500 fell 4.36% and the Nasdaq-100 6.36%, VIX 28.18 (FRED; index moves from a secondary recap, https://cappnotes.substack.com/p/closing-look-thursday-november-5). Evidence for build-out delay and UK large caps; against hyperscaler capex and grid."
 },
 {
-"key": "2026-11-02-5",
-"date": "2026-11-02",
-"kind": "daily",
-"title": "2 November 2026",
+"key": "2026-45-5",
+"date": "2026-45",
+"kind": "weekly",
+"title": "Week 2026-45 review (8 November 2026)",
 "rank": 5,
-"text": "Brier 0.158 on 24 resolved. The refit after today's resolution moved recalibration to k 1.55, b 0.10; today's two forecasts used the earlier fit (k 1.60, b -0.05)."
+"text": "Conviction (change from Week 2026-44): service agents 65 (+7), build-out delay 60 (+3), hyperscaler capex 60 (-2), usage pricing 60 (+10), gene editing 60 (+7), staples 55 (+10), grid 55 (-8), UK large caps 55 (-2), long bonds 35 (-8), airlines 30. No move of 15 or more, no kill criterion newly hit, no action card."
 },
 {
-"key": "2026-11-02-6",
-"date": "2026-11-02",
-"kind": "daily",
-"title": "2 November 2026",
+"key": "2026-45-6",
+"date": "2026-45",
+"kind": "weekly",
+"title": "Week 2026-45 review (8 November 2026)",
 "rank": 6,
-"text": "Coming up: Vertex tonight (Casgevy at least $90m, 60%), AMD and Eaton 3 Nov, BoE, Atlassian, Datadog and Teleperformance 5 Nov, payrolls 6 Nov. Siemens Energy (11 Nov) and CoreWeave (10 Nov) fall outside the 7-day window."
+"text": "No comments or edits on the Signal Desk docs. No new contrarian bet passed the test. No manager statements added. No overrides from John, so no comparison or blend. No post-mortem (not the first Sunday)."
 },
 {
-"key": "2026-11-02-7",
-"date": "2026-11-02",
-"kind": "daily",
-"title": "2 November 2026",
+"key": "2026-45-7",
+"date": "2026-45",
+"kind": "weekly",
+"title": "Week 2026-45 review (8 November 2026)",
 "rank": 7,
-"text": "Insider buying: Oxford Nanopore non-executive director Adrian Hennah bought 24,000 shares at £2.164 (about £52k) on 12 Oct. No new 13F filings (Q3 filings are due by 14 Nov)."
-},
-{
-"key": "2026-11-02-8",
-"date": "2026-11-02",
-"kind": "daily",
-"title": "2 November 2026",
-"rank": 8,
-"text": "Repository gap: Sunday's weekly review is in the Insights log, but its files (weekly summary, airline action card, conviction scores) never reached the repository. Today's card and the airline conviction restore part of it. No CoreWeave 2031 yield newer than 14.44% (21 Oct) was found."
+"text": "Decisions for John: (1) airlines, close or watch-only; (2) long bonds, keep the small position to the 9 Dec FOMC or go watch-only; (3) freeze or shrink the recalibration until 60 resolved; (4) add 'two or more of Texas, Georgia, Ohio enact a data-centre pause' as a catalyst for build-out delay and a risk for hyperscaler capex and grid; (5) set your own convictions or a few overrides so they can be compared."
 }
 ]

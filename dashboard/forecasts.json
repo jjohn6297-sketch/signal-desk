@@ -853,10 +853,10 @@
 "event_date": "2026-11-06",
 "resolves_by": "2026-11-06",
 "method": "auto",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 0,
+"brier": 0.1225,
+"evidence": "auto: UNRATE 2026-10-01: 4.1 >= 4.3"
 },
 {
 "id": "EV-20261110-US-2",
@@ -875,10 +875,13 @@
 "event_date": "2026-11-10",
 "resolves_by": "2026-11-10",
 "method": "judged",
-"status": "open",
+"status": "void",
 "outcome": null,
 "brier": null,
-"evidence": null
+"evidence": {
+"summary": "Void: the data will not exist on the stated basis. BLS will not publish 12-month changes for October 2026 where October 2025 data are missing (not collected in the 2025 shutdown), which covers all items and core. The forecast's premise (a 2.48% year-on-year core nowcast) was wrong. Replaced by EV-20261110-US-3 (monthly core change).",
+"url": "https://www.bls.gov/cpi/additional-resources/2025-federal-government-shutdown-impact-cpi-faq.htm"
+}
 },
 {
 "id": "EV-20261028-MSFT-1",
@@ -1621,10 +1624,13 @@
 "event_date": "2026-11-06",
 "resolves_by": "2026-11-06",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.0986,
+"evidence": {
+"summary": "Total nonfarm payrolls +165,000 in October (first print); unemployment 4.1%; August revised to +186,000 and September to +60,000",
+"url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
+}
 },
 {
 "id": "EV-20261112-UKGDP-1",
@@ -1642,6 +1648,28 @@
 "made_at": "2026-11-06",
 "event_date": "2026-11-12",
 "resolves_by": "2026-11-13",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261110-US-3",
+"kind": "event",
+"thesis": "long-duration-bonds",
+"thesis_title": "Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
+"statement": "US October core CPI (all items less food and energy, seasonally adjusted) rises 0.2% or less month on month, as first published to one decimal",
+"probability": 0.684,
+"probability_raw": 0.55,
+"override": null,
+"reasoning": "The consensus is +0.2% m/m; the Cleveland Fed nowcast is +0.21%, Bloomberg Economics +0.24%, Morgan Stanley +0.19%, while RBC and ING expect +0.3%. The centre of the forecasts is about 0.23%, just under the 0.25% rounding line, so slightly better than even.",
+"expected": "Core +0.2% m/m, headline +0.2-0.3% m/m; no 12-month rates published",
+"if_yes": "Core inflation contained; lowers the odds of a December hike a little and supports the bonds bet",
+"if_no": "A 0.3% core print keeps two more hikes priced; against the bonds bet",
+"made_at": "2026-11-09",
+"event_date": "2026-11-10",
+"resolves_by": "2026-11-10",
 "method": "judged",
 "status": "open",
 "outcome": null,
