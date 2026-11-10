@@ -1286,8 +1286,13 @@ forecasts:
     method: judged
     guidance: Constellation Q3 2026 earnings release (call 9 Nov 2026, 9:00 ET, https://investors.constellationenergy.com/events/event-details/q3-2026-constellation-energy-corporation-earnings-conference-call);
       adjusted (non-GAAP) operating EPS at least $3.88. Consensus https://www.marketbeat.com/earnings/reports/2026-11-9-745964-stock/
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-10'
+  evidence:
+    summary: Q3 2026 adjusted operating EPS $5.06 (GAAP $5.19) against $3.88 consensus; 2026 guidance raised to $12.50-12.80
+      from $11.50-12.50; new 20-year PPAs with Google (890 MW uprates) and Amazon (690 MW)
+    url: https://www.sec.gov/Archives/edgar/data/0001868275/000186827526000116/ceg-20261109991.htm
 - id: EV-20261103-IRAN-1
   kind: event
   thesis: airlines-vs-oil-curve
@@ -1417,8 +1422,14 @@ forecasts:
       cohort reported; mean or median percent change in triglycerides from baseline. Void if no cohort-level triglyceride
       figure is given. Prior data https://www.hcplive.com/view/crispr-gene-editing-therapy-ctx310-lowers-ldl-c-and-triglycerides-in-lipid-disorders;
       schedule https://finviz.com/news/400391/crispr-therapeutics-to-present-late-breaking-data-at-the-american-heart-association-aha-scientific-sessions-2026
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-10'
+  evidence:
+    summary: Phase 1b sHTG cohort (n=10, single flat dose of 40 or 50 mg, about 0.8 mg/kg, the top Phase 1a dose) showed
+      a mean 63% triglyceride reduction at day 30; no treatment-related serious adverse events or pancreatitis. Only one
+      dose level was reported, so it is the highest-dose cohort.
+    url: https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-presents-phase-1b-data-ctx310r-demonstrating
 - id: EV-20261112-NBIS-1
   kind: event
   thesis: ai-buildout-delay
@@ -1591,5 +1602,55 @@ forecasts:
     guidance: BLS CPI news release for October 2026 (10 Nov, 08:30 ET), all items less food and energy, seasonally
       adjusted one-month percent change, as first published. Forecasts https://www.mitrade.com/insights/more/inflation/cpi-no-year-over-year-20261109J1123;
       nowcast https://www.stocktitan.net/articles/october-2026-cpi-preview-no-yearly-rate
+  status: open
+  outcome: null
+- id: EV-20261117-NVDA-1
+  kind: event
+  thesis: hyperscaler-capex-debt
+  event_date: '2026-11-17'
+  statement: Nvidia Q3 fiscal 2027 (quarter to 25 Oct 2026) revenue is at least USD 110.2bn (top of its $108.0bn +/- 2%
+    guide)
+  probability_raw: 0.85
+  probability: 0.964
+  reasoning: Nvidia has reported revenue above the top of its own range in each of the last 10 quarters, typically by
+    4-6% over the midpoint (Q2 $96.2bn against $91.0bn). Consensus is $108.8bn, below the top of the range. The 5 Nov
+    chip sell-off and the zero-China assumption do not change shipments already made in the quarter.
+  expected: Revenue around $112-114bn; data centre about $104bn
+  implications:
+    if_yes: Hyperscaler spending was still accelerating through October; against near-term build-out delay
+    if_no: First result below the top of the range in 11 quarters; supports the build-out-delay bet and the capex-debt
+      thesis that spending growth is peaking
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-10'
+  resolves_by: '2026-11-18'
+  resolution:
+    method: judged
+    guidance: Nvidia Q3 FY2027 press release (17 Nov 2026, about 13:20 PT; date https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx).
+      Total revenue at least $110.2bn. Guide https://app.sentisense.ai/stories/nvidia-beats-across-the-board-guides-108-billion-with-zero-china-revenue-assume-08262026;
+      consensus $108.8bn https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-nvda-sell-off-211700494.html
+  status: open
+  outcome: null
+- id: EV-20261117-NVDA-2
+  kind: event
+  thesis: ai-buildout-delay
+  event_date: '2026-11-17'
+  statement: Nvidia guides Q4 fiscal 2027 revenue at a midpoint of at least USD 120bn
+  probability_raw: 0.6
+  probability: 0.759
+  reasoning: The last guide rose $17bn (to $108bn) on a $96.2bn quarter. If Q3 comes in near $113bn, a guide 6-8% higher
+    gives $120-122bn. Memory costs, the 71-72% Q4 margin outlook and possible power or site delays at customers argue for
+    a more cautious step, so only a modest lean above even.
+  expected: Q4 guide around $120-123bn, China data-centre revenue still excluded
+  implications:
+    if_yes: No sign of customers deferring deliveries; against the build-out-delay bet
+    if_no: A smaller step-up would be the first quantitative sign of deliveries slipping, supporting the build-out-delay
+      bet
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-10'
+  resolves_by: '2026-11-18'
+  resolution:
+    method: judged
+    guidance: Nvidia Q3 FY2027 press release or CFO commentary (17 Nov 2026), outlook for Q4 FY2027 revenue; midpoint
+      at least $120.0bn.
   status: open
   outcome: null

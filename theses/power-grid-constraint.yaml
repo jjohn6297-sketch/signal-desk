@@ -7,6 +7,10 @@ opened: '2026-10-26'
 horizon: 12-24 months
 owner_conviction: null
 evidence_for:
+- date: '2026-11-09'
+  claim: Constellation Q3 adjusted operating EPS $5.06 against $3.88 consensus; 2026 guide raised to $12.50-12.80;
+    20-year PPAs with Google (about 890 MW of nuclear uprates) and Amazon (690 MW at Calvert Cliffs)
+  source: https://www.sec.gov/Archives/edgar/data/0001868275/000186827526000116/ceg-20261109991.htm
 - date: '2026-10-16'
   claim: Schneider Electric Q3 revenue EUR11.46bn, +16.9% organic; data-centre demand up triple digits; record backlog;
     2026 EBITA growth target raised to +18-21%

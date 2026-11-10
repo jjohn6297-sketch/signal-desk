@@ -939,13 +939,13 @@
 "key": "hy_spread|2026-11-06",
 "id": "hy_spread",
 "date": "2026-11-06",
-"value": 3.48
+"value": 3.42
 },
 {
-"key": "hy_spread|2026-11-05|last",
+"key": "hy_spread|2026-11-06|last",
 "id": "hy_spread",
-"date": "2026-11-05",
-"value": 3.48
+"date": "2026-11-06",
+"value": 3.42
 },
 {
 "key": "curve_10y2y|2023-01-06",

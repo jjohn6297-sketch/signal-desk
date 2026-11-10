@@ -8,6 +8,10 @@ opened: '2026-10-26'
 horizon: 6-18 months
 owner_conviction: null
 evidence_for:
+- date: '2026-11-09'
+  claim: CTX310 Phase 1b in severe hypertriglyceridemia (n=10, about 0.8 mg/kg) cut triglycerides 63% on average at
+    day 30, no treatment-related serious adverse events; FDA RMAT designations in sHTG and elevated LDL-C
+  source: https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-presents-phase-1b-data-ctx310r-demonstrating
 - date: '2026-09-08'
   claim: Lonvo-z BLA accepted, priority review, PDUFA 2027-03-10; Phase 3 attacks -87% vs placebo
   source: https://www.sec.gov/Archives/edgar/data/0001652130/000119312526385194/ntla-ex99_1.htm

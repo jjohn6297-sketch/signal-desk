@@ -1,5 +1,61 @@
 [
 {
+"key": "2026-11-10-1",
+"date": "2026-11-10",
+"kind": "daily",
+"title": "10 November 2026",
+"rank": 1,
+"text": "Resolved 2, both hits. Constellation Q3 adjusted operating EPS $5.06 against the $3.88 consensus (78.7%, Brier 0.05); it raised its 2026 guide to $12.50-12.80 from $11.50-12.50 and signed 20-year power deals with Google (about 890 MW of nuclear uprates) and Amazon (690 MW) ([8-K](https://www.sec.gov/Archives/edgar/data/0001868275/000186827526000116/ceg-20261109991.htm)). CRISPR's CTX310 cut triglycerides 63% on average at day 30 in 10 patients with severe hypertriglyceridemia, with no treatment-related serious adverse events (76.7%, Brier 0.05) ([release](https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-presents-phase-1b-data-ctx310r-demonstrating)). Both logged as evidence for the power-grid and gene-editing theses; convictions unchanged."
+},
+{
+"key": "2026-11-10-2",
+"date": "2026-11-10",
+"kind": "daily",
+"title": "10 November 2026",
+"rank": 2,
+"text": "Brier 0.163 on 40 resolved (0.168 on 38). Recalibration unchanged at k 1.60, b 0.50. No action cards and no kill criteria hit."
+},
+{
+"key": "2026-11-10-3",
+"date": "2026-11-10",
+"kind": "daily",
+"title": "10 November 2026",
+"rank": 3,
+"text": "Pre-registered 2 for Nvidia on 17 Nov. Q3 revenue at least $110.2bn, the top of its $108bn +/- 2% guide (raw 85%, calibrated 96.4%): it has beaten the top of its range in each of the last 10 quarters; consensus is $108.8bn ([Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-nvda-sell-off-211700494.html)). Q4 guide midpoint at least $120bn (raw 60%, calibrated 75.9%); a smaller step-up would support the build-out-delay bet."
+},
+{
+"key": "2026-11-10-4",
+"date": "2026-11-10",
+"kind": "daily",
+"title": "10 November 2026",
+"rank": 4,
+"text": "Baillie Gifford filed its Q3 13F, the first of the tracked funds for the September quarter. It cut Amazon; its largest moves were trims of SpaceX and AppLovin and a new Bending Spoons stake. The other 10 funds are due by 16 Nov."
+},
+{
+"key": "2026-11-10-5",
+"date": "2026-11-10",
+"kind": "daily",
+"title": "10 November 2026",
+"rank": 5,
+"text": "Today: US October core CPI at 13:30 Dublin (0.2% or less, 68.4%) and CoreWeave Q3 after the US close (revenue at least $3.6bn, 52.5%; guidance midpoint cut, 29.7%). Then Siemens Energy 11 Nov; Nebius, Twist and UK GDP 12 Nov; Nvidia 17 Nov."
+},
+{
+"key": "2026-11-10-6",
+"date": "2026-11-10",
+"kind": "daily",
+"title": "10 November 2026",
+"rank": 6,
+"text": "No new reading for the CoreWeave 2031 yield: press reports since 5 Nov quote other maturities or unnamed bonds above 16-17%, not the 2031 notes. Last 2031 reading 15.6% (3 Nov), watch band. No new FINRA margin data."
+},
+{
+"key": "2026-11-10-7",
+"date": "2026-11-10",
+"kind": "daily",
+"title": "10 November 2026",
+"rank": 7,
+"text": "No comments or edits from John on the Signal Desk docs."
+},
+{
 "key": "2026-11-09-1",
 "date": "2026-11-09",
 "kind": "daily",
@@ -230,54 +286,6 @@
 "title": "4 November 2026",
 "rank": 7,
 "text": "No feedback on the Signal Desk docs since the last run. No new 13F filings or manual macro values. The GitHub snapshot job is not failing but starts hours late (scheduled for 06:17 UTC, recent runs began 13:25-15:53 UTC), so each daily run sees the previous day's snapshot."
-},
-{
-"key": "2026-11-03-1",
-"date": "2026-11-03",
-"kind": "daily",
-"title": "3 November 2026",
-"rank": 1,
-"text": "Resolved 1, a hit: Vertex Q3 Casgevy revenue $99.2m against the $90m line (60%, Brier 0.16), up 30% on Q2. CRISPR Therapeutics says more than 750 patients have started treatment. Added as evidence for the gene-editing thesis; its Casgevy kill criterion (two quarterly falls) is far off."
-},
-{
-"key": "2026-11-03-2",
-"date": "2026-11-03",
-"kind": "daily",
-"title": "3 November 2026",
-"rank": 2,
-"text": "Pre-registered 2 for CoreWeave Q3 (10 Nov, after the US close), both for the build-out-delay bet: revenue at least $3.6bn, the top of its $3.4-3.6bn guide (raw 50%, calibrated 53%); full-year 2026 revenue guide midpoint ($12.8bn) lowered (raw 35%, calibrated 30%). A cut blamed on site delays would support the bet."
-},
-{
-"key": "2026-11-03-3",
-"date": "2026-11-03",
-"kind": "daily",
-"title": "3 November 2026",
-"rank": 3,
-"text": "Brier 0.158 on 25 resolved. After today's resolution the refit moved recalibration to k 1.60, b 0.20; today's forecasts used the fit in place at the start of the run (k 1.55, b 0.10)."
-},
-{
-"key": "2026-11-03-4",
-"date": "2026-11-03",
-"kind": "daily",
-"title": "3 November 2026",
-"rank": 4,
-"text": "No action cards and no new kill criteria hit. The airlines decision from yesterday (close the thesis or rewrite the Brent criterion) is still open for John."
-},
-{
-"key": "2026-11-03-5",
-"date": "2026-11-03",
-"kind": "daily",
-"title": "3 November 2026",
-"rank": 5,
-"text": "Still open today: AMD (revenue and Q4 guide, after the US close) and Eaton (organic growth and Electrical Americas backlog); neither had reported at this run. Coming up: BoE, Atlassian, Datadog and Teleperformance 5 Nov, payrolls 6 Nov, CRISPR CTX310 data at AHA and Constellation 9 Nov, CoreWeave and US October CPI 10 Nov."
-},
-{
-"key": "2026-11-03-6",
-"date": "2026-11-03",
-"kind": "daily",
-"title": "3 November 2026",
-"rank": 6,
-"text": "No feedback on the Signal Desk docs since the last run. No new 13F filings; no new manual macro values (FINRA October margin debt is not out yet)."
 },
 {
 "key": "2026-45-1",

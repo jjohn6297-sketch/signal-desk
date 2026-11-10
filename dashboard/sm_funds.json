@@ -112,12 +112,12 @@
 "cik": 1088875,
 "edgar_name": "BAILLIE GIFFORD & CO",
 "ok": true,
-"latest_period": "2026-06-30",
-"filed": "2026-08-06",
-"positions": 277,
-"total_value_usd": 110225053010,
-"top_holdings": "Space Exploration Technologies Corp, Nvidia, Amazon.Com, Mercadolibre, Sea Ltd Adr",
-"moves": 180
+"latest_period": "2026-09-30",
+"filed": "2026-11-09",
+"positions": 283,
+"total_value_usd": 105895756538,
+"top_holdings": "Nvidia, Amazon.Com, Space Exploration Technologies Corp, Mercadolibre, Cloudflare Inc",
+"moves": 150
 },
 {
 "fund": "ark",

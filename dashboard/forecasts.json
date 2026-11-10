@@ -1400,10 +1400,13 @@
 "event_date": "2026-11-09",
 "resolves_by": "2026-11-10",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.0454,
+"evidence": {
+"summary": "Q3 2026 adjusted operating EPS $5.06 (GAAP $5.19) against $3.88 consensus; 2026 guidance raised to $12.50-12.80 from $11.50-12.50; new 20-year PPAs with Google (890 MW uprates) and Amazon (690 MW)",
+"url": "https://www.sec.gov/Archives/edgar/data/0001868275/000186827526000116/ceg-20261109991.htm"
+}
 },
 {
 "id": "EV-20261103-IRAN-1",
@@ -1514,10 +1517,13 @@
 "event_date": "2026-11-09",
 "resolves_by": "2026-11-10",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.0543,
+"evidence": {
+"summary": "Phase 1b sHTG cohort (n=10, single flat dose of 40 or 50 mg, about 0.8 mg/kg, the top Phase 1a dose) showed a mean 63% triglyceride reduction at day 30; no treatment-related serious adverse events or pancreatitis. Only one dose level was reported, so it is the highest-dose cohort.",
+"url": "https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-presents-phase-1b-data-ctx310r-demonstrating"
+}
 },
 {
 "id": "EV-20261112-NBIS-1",
@@ -1670,6 +1676,50 @@
 "made_at": "2026-11-09",
 "event_date": "2026-11-10",
 "resolves_by": "2026-11-10",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261117-NVDA-1",
+"kind": "event",
+"thesis": "hyperscaler-capex-debt",
+"thesis_title": "Hyperscaler AI capex keeps rising through 2027, but the cost moves to depreciation and debt; power, memory and networking suppliers gain while hyperscaler free cash flow falls",
+"statement": "Nvidia Q3 fiscal 2027 (quarter to 25 Oct 2026) revenue is at least USD 110.2bn (top of its $108.0bn +/- 2% guide)",
+"probability": 0.964,
+"probability_raw": 0.85,
+"override": null,
+"reasoning": "Nvidia has reported revenue above the top of its own range in each of the last 10 quarters, typically by 4-6% over the midpoint (Q2 $96.2bn against $91.0bn). Consensus is $108.8bn, below the top of the range. The 5 Nov chip sell-off and the zero-China assumption do not change shipments already made in the quarter.",
+"expected": "Revenue around $112-114bn; data centre about $104bn",
+"if_yes": "Hyperscaler spending was still accelerating through October; against near-term build-out delay",
+"if_no": "First result below the top of the range in 11 quarters; supports the build-out-delay bet and the capex-debt thesis that spending growth is peaking",
+"made_at": "2026-11-10",
+"event_date": "2026-11-17",
+"resolves_by": "2026-11-18",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261117-NVDA-2",
+"kind": "event",
+"thesis": "ai-buildout-delay",
+"thesis_title": "The AI risk for 2027 is delivery delay, not demand: leveraged builders suffer, bottleneck owners gain",
+"statement": "Nvidia guides Q4 fiscal 2027 revenue at a midpoint of at least USD 120bn",
+"probability": 0.759,
+"probability_raw": 0.6,
+"override": null,
+"reasoning": "The last guide rose $17bn (to $108bn) on a $96.2bn quarter. If Q3 comes in near $113bn, a guide 6-8% higher gives $120-122bn. Memory costs, the 71-72% Q4 margin outlook and possible power or site delays at customers argue for a more cautious step, so only a modest lean above even.",
+"expected": "Q4 guide around $120-123bn, China data-centre revenue still excluded",
+"if_yes": "No sign of customers deferring deliveries; against the build-out-delay bet",
+"if_no": "A smaller step-up would be the first quantitative sign of deliveries slipping, supporting the build-out-delay bet",
+"made_at": "2026-11-10",
+"event_date": "2026-11-17",
+"resolves_by": "2026-11-18",
 "method": "judged",
 "status": "open",
 "outcome": null,

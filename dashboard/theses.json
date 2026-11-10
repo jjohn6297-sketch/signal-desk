@@ -16,7 +16,7 @@
 "kill_criteria": "Hyperscalers report capacity ahead of plan · Texas lifts its pause and clears the queue · CoreWeave CDS below 500bp · Group capex below 80% of operating cash flow without slower deliveries",
 "kill_hit": "",
 "variant_view": "Capex exceeds operating cash flow (Meta 106%, Amazon ~105%); Texas paused data-centre grid approvals; 47+ large US projects delayed or blocked in 2026; CoreWeave 2031 bond yield above 16%",
-"open_forecasts": 7,
+"open_forecasts": 8,
 "resolved_forecasts": 0,
 "next_resolves": "2026-11-10"
 },
@@ -121,9 +121,9 @@
 "kill_criteria": "Two or more of MSFT, GOOGL, AMZN, META, ORCL cut 2027 capex plans by Feb 2027 calls · Group capex below 80% of operating cash flow",
 "kill_hit": "",
 "variant_view": null,
-"open_forecasts": 0,
+"open_forecasts": 1,
 "resolved_forecasts": 9,
-"next_resolves": null
+"next_resolves": "2026-11-17"
 },
 {
 "id": "in-vivo-gene-editing",
@@ -137,14 +137,14 @@
 "conviction_prev": null,
 "conviction_reason": null,
 "owner_conviction": null,
-"evidence_for": 6,
+"evidence_for": 7,
 "evidence_against": 3,
 "kill_criteria": "Lonvo-z complete response letter or PDUFA delay > 3 months · New clinical hold or treatment-related death in any LNP-CRISPR programme · Casgevy revenue falls quarter on quarter twice in a row",
 "kill_hit": "",
 "variant_view": null,
-"open_forecasts": 5,
-"resolved_forecasts": 2,
-"next_resolves": "2026-11-09"
+"open_forecasts": 4,
+"resolved_forecasts": 3,
+"next_resolves": "2026-11-12"
 },
 {
 "id": "long-duration-bonds",
@@ -179,14 +179,14 @@
 "conviction_prev": null,
 "conviction_reason": null,
 "owner_conviction": null,
-"evidence_for": 8,
+"evidence_for": 9,
 "evidence_against": 3,
 "kill_criteria": "GE Vernova gas book-to-bill below 1.5 · Eaton or Vertiv backlog falls quarter on quarter · Transformer lead times shorten",
 "kill_hit": "",
 "variant_view": null,
-"open_forecasts": 3,
-"resolved_forecasts": 5,
-"next_resolves": "2026-11-09"
+"open_forecasts": 2,
+"resolved_forecasts": 6,
+"next_resolves": "2026-11-11"
 },
 {
 "id": "uk-large-caps-tech-hedge",

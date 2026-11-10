@@ -1,5 +1,18 @@
 [
 {
+"key": "0001046179-26-000734|16",
+"transaction_date": "2026-11-05",
+"filed": "2026-11-09",
+"company": "TSMC",
+"ticker": "TSM",
+"insider": "Splinter Michael R",
+"role": "Director",
+"shares": 840,
+"price": 357.0,
+"value_usd": 299880,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000734/wk-form4_1794222904.xml"
+},
+{
 "key": "0001046179-26-000732|15",
 "transaction_date": "2026-11-01",
 "filed": "2026-11-03",
