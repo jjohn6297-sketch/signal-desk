@@ -4,7 +4,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8881612002,"AI Research Engineer, New PhD Graduate ",,"New York, NY; Pittsburgh, PA",2026-11-03T13:15:33-05:00,https://careers.duolingo.com/jobs/8881612002?gh_jid=8881612002,data_ai,intern,us,True
 8928712002,AI Research Intern (PhD),,"New York, NY; Pittsburgh, PA",2026-11-06T13:45:51-05:00,https://careers.duolingo.com/jobs/8928712002?gh_jid=8928712002,data_ai,intern,us,True
 8576434002,Corporate Counsel,,"Pittsburgh, PA",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8576434002?gh_jid=8576434002,legal,mid_or_unknown,other,False
-8888721002,"Data Scientist, Intern",,"New York, NY; Pittsburgh, PA",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8888721002?gh_jid=8888721002,data_ai,intern,us,False
 8888848002,"Data Scientist, Intern (PhD)",,"New York, NY; Pittsburgh, PA",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8888848002?gh_jid=8888848002,data_ai,intern,us,False
 8761234002,Director of Ad Sales - West,,Remote - California,2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8761234002?gh_jid=8761234002,sales,leadership,remote,False
 8602840002,Executive Assistant to the CEO,,"New York, NY; Pittsburgh, PA",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8602840002?gh_jid=8602840002,people_admin,mid_or_unknown,us,False
@@ -17,6 +16,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8917787002,Performance Marketing Lead,,"New York, NY",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8917787002?gh_jid=8917787002,marketing_content,senior,us,False
 8858333002,"Proctor Quality and Learning Manager, Scaling Operations",,"London, England",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8858333002?gh_jid=8858333002,other,senior,uk,False
 8858331002,"Proctor Quality and Learning Manager, Scaling Operations",,"New York, NY; Pittsburgh, PA",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8858331002?gh_jid=8858331002,other,senior,us,False
+8933791002,"Product Designer, Thrive Intern",,"Pittsburgh, PA",2026-11-09T16:06:35-05:00,https://careers.duolingo.com/jobs/8933791002?gh_jid=8933791002,other,intern,other,False
 8888045002,"Product Manager, MBA Intern",,"Pittsburgh, PA",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8888045002?gh_jid=8888045002,product_management,intern,other,False
 8927565002,"QA Specialist I, Recent Graduate",,"New York, NY; Pittsburgh, PA",2026-11-03T17:55:27-05:00,https://careers.duolingo.com/jobs/8927565002?gh_jid=8927565002,other,intern,us,False
 8933285002,"Senior Business Development Manager, China",,"Beijing, China",2026-11-06T11:05:06-05:00,https://careers.duolingo.com/jobs/8933285002?gh_jid=8933285002,sales,senior,other,False
@@ -32,8 +32,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8393272002,Senior iOS Engineer,,"New York, NY; Pittsburgh, PA",2026-11-05T17:18:13-05:00,https://careers.duolingo.com/jobs/8393272002?gh_jid=8393272002,software_engineering,senior,us,False
 8722385002,"Senior Learning Designer, Indian Languages",,"Pittsburgh, PA",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8722385002?gh_jid=8722385002,other,senior,other,False
 8759720002,Senior Marketing Analytics Manager,,"New York, NY",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8759720002?gh_jid=8759720002,marketing_content,senior,us,False
-8489189002,Senior Product Designer,,"New York, NY; Pittsburgh, PA",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8489189002?gh_jid=8489189002,other,senior,us,False
 8675713002,Senior Product Designer,,"Beijing, China",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8675713002?gh_jid=8675713002,other,senior,other,False
+8489189002,Senior Product Designer,,"New York, NY; Pittsburgh, PA",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8489189002?gh_jid=8489189002,other,senior,us,False
 8675670002,Senior Product Manager,,"Beijing, China",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8675670002?gh_jid=8675670002,product_management,senior,other,False
 8530395002,"Senior Product Manager, DET",,"New York, NY; Pittsburgh, PA",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8530395002?gh_jid=8530395002,product_management,senior,us,False
 8747171002,"Senior Product Manager, Growth",,"New York, NY; Pittsburgh, PA",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8747171002?gh_jid=8747171002,product_management,senior,us,False
@@ -53,8 +53,10 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8729596002,"Staff Product Designer, Monetization",,"New York, NY; Pittsburgh, PA",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8729596002?gh_jid=8729596002,other,senior,us,False
 8932477002,"Staff Product Manager, Core App Experience ",,"New York, NY; Pittsburgh, PA",2026-11-05T15:58:41-05:00,https://careers.duolingo.com/jobs/8932477002?gh_jid=8932477002,product_management,senior,us,False
 8474673002,"Staff Product Manager, Monetization",,"New York, NY",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8474673002?gh_jid=8474673002,product_management,senior,us,False
+8935541002,Staff Security Engineer,,"New York, NY",2026-11-09T16:11:46-05:00,https://careers.duolingo.com/jobs/8935541002?gh_jid=8935541002,software_engineering,senior,us,False
 8875080002,Staff Technical Program Manager,,"New York, NY",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8875080002?gh_jid=8875080002,other,senior,us,False
 8638482002,"Staff Technical Program Manager, Developer Amplification ",,"Seattle, WA",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8638482002?gh_jid=8638482002,software_engineering,senior,us,False
+8935389002,Talent Mobility Specialist,,"Pittsburgh, PA",2026-11-09T15:31:50-05:00,https://careers.duolingo.com/jobs/8935389002?gh_jid=8935389002,people_admin,mid_or_unknown,other,False
 8929982002,VP of Learning Design,,"New York, NY; Pittsburgh, PA",2026-11-04T09:49:20-05:00,https://careers.duolingo.com/jobs/8929982002?gh_jid=8929982002,other,leadership,us,False
 8747077002,"VP of Product, Growth and Monetization",,"New York, NY; Pittsburgh, PA",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8747077002?gh_jid=8747077002,product_management,leadership,us,False
 8562297002,VP of Strategy and Corporate Development,,"New York, NY; Pittsburgh, PA",2026-11-02T11:38:30-05:00,https://careers.duolingo.com/jobs/8562297002?gh_jid=8562297002,other,leadership,us,False
