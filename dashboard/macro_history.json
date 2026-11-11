@@ -2154,10 +2154,10 @@
 "value": 0.35
 },
 {
-"key": "curve_10y2y|2026-11-06|last",
+"key": "curve_10y2y|2026-11-09|last",
 "id": "curve_10y2y",
-"date": "2026-11-06",
-"value": 0.35
+"date": "2026-11-09",
+"value": 0.32
 },
 {
 "key": "ust10y|2023-01-06",
@@ -3363,13 +3363,13 @@
 "key": "ust10y|2026-11-06",
 "id": "ust10y",
 "date": "2026-11-06",
-"value": 4.84
+"value": 4.86
 },
 {
-"key": "ust10y|2026-11-05|last",
+"key": "ust10y|2026-11-06|last",
 "id": "ust10y",
-"date": "2026-11-05",
-"value": 4.84
+"date": "2026-11-06",
+"value": 4.86
 },
 {
 "key": "inflation_5y5y|2023-01-06",
@@ -4578,10 +4578,10 @@
 "value": 2.17
 },
 {
-"key": "inflation_5y5y|2026-11-06|last",
+"key": "inflation_5y5y|2026-11-09|last",
 "id": "inflation_5y5y",
-"date": "2026-11-06",
-"value": 2.17
+"date": "2026-11-09",
+"value": 2.19
 },
 {
 "key": "brent|2023-01-06",
@@ -9423,13 +9423,13 @@
 "key": "vix|2026-11-06",
 "id": "vix",
 "date": "2026-11-06",
-"value": 28.18
+"value": 25.64
 },
 {
-"key": "vix|2026-11-05|last",
+"key": "vix|2026-11-09|last",
 "id": "vix",
-"date": "2026-11-05",
-"value": 28.18
+"date": "2026-11-09",
+"value": 19.92
 },
 {
 "key": "margin_debt_yoy|2026-10-02",

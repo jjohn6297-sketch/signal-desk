@@ -321,8 +321,12 @@ forecasts:
   resolution:
     method: judged
     guidance: Read Siemens Energy Q4 FY2026 results (November 2026).
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 0
+  resolved_at: '2026-11-11'
+  evidence:
+    summary: 'Backlog EUR 164bn at the end of FY2026 (record), EUR 1bn short of the EUR 165bn threshold; orders EUR 68.1bn.'
+    url: https://www.siemens-energy.com/global/en/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html
 - id: GENE-1
   kind: thesis
   thesis: in-vivo-gene-editing
@@ -1346,8 +1350,12 @@ forecasts:
     method: judged
     guidance: CoreWeave Q3 2026 results press release (10 Nov 2026, after the US close, https://investors.coreweave.com).
       Total revenue at least $3,600m. Guide from https://valueaddvc.com/pulse/coreweave-q2-2026-earnings-112-percent-revenue-surge
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-11'
+  evidence:
+    summary: 'Q3 2026 revenue $3,661m, above the $3.6bn top of the guide; backlog about $132.5bn.'
+    url: https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx
 - id: EV-20261110-CRWV-2
   kind: event
   thesis: ai-buildout-delay
@@ -1371,8 +1379,12 @@ forecasts:
     guidance: Compare the 2026 revenue guidance midpoint given on the 10 Nov 2026 call or release with $12.8bn (the
       $12.4-13.2bn range from https://valueaddvc.com/pulse/coreweave-q2-2026-earnings-112-percent-revenue-surge).
       Lower midpoint = yes; unchanged or higher = no; guidance withdrawn = yes.
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 0
+  resolved_at: '2026-11-11'
+  evidence:
+    summary: 'Full-year 2026 revenue guidance raised to $13.0-13.3bn (midpoint $13.15bn against $12.8bn); capex guide raised to $37-39bn to deliver capacity sooner than planned.'
+    url: https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx
 - id: EV-20261111-ENR-1
   kind: event
   thesis: power-grid-constraint
@@ -1396,8 +1408,12 @@ forecasts:
     guidance: Siemens Energy Q4 FY2026 results release (11 Nov 2026, 07:00 CET), group profit margin before special
       items for FY2026. Guide sources https://assets.siemens-energy.com/dam/e8ced7ab-8dcc-48e5-b0b5-b4d500fee9a5/2026-09-30---Q4-FY26-Pre-Close-Call_transcript-pdf_Original%20file.pdf
       and https://www.investing.com/news/transcripts/earnings-call-transcript-siemens-energy-posts-record-q3-2026-results-shares-slip-93CH-4836780
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-11'
+  evidence:
+    summary: 'FY2026 profit margin before special items 12.4% (profit EUR 5,486m on revenue EUR 44.2bn).'
+    url: https://www.siemens-energy.com/global/en/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html
 - id: EV-20261109-CRSP-1
   kind: event
   thesis: in-vivo-gene-editing
@@ -1602,8 +1618,12 @@ forecasts:
     guidance: BLS CPI news release for October 2026 (10 Nov, 08:30 ET), all items less food and energy, seasonally
       adjusted one-month percent change, as first published. Forecasts https://www.mitrade.com/insights/more/inflation/cpi-no-year-over-year-20261109J1123;
       nowcast https://www.stocktitan.net/articles/october-2026-cpi-preview-no-yearly-rate
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 0
+  resolved_at: '2026-11-11'
+  evidence:
+    summary: 'BLS: core CPI (all items less food and energy) rose 0.3% s.a. in October; headline +0.4%, shelter +0.3%, energy +0.7%.'
+    url: https://www.bls.gov/news.release/cpi.htm?lv=true
 - id: EV-20261117-NVDA-1
   kind: event
   thesis: hyperscaler-capex-debt
@@ -1652,5 +1672,31 @@ forecasts:
     method: judged
     guidance: Nvidia Q3 FY2027 press release or CFO commentary (17 Nov 2026), outlook for Q4 FY2027 revenue; midpoint
       at least $120.0bn.
+  status: open
+  outcome: null
+- id: EV-20261118-UKCPI-1
+  kind: event
+  thesis: uk-large-caps-tech-hedge
+  event_date: '2026-11-18'
+  statement: UK CPI annual rate for October 2026 (ONS, 18 Nov) is 3.6% or higher, as first published
+  probability_raw: 0.45
+  probability: 0.545
+  reasoning: September was 3.5%, up from 3.1% in August, and the HM Treasury average of independent forecasts puts
+    Q4 at 3.6% (range 3.3-3.9%). Ofgem's cap rose 4% in October against 2% a year earlier, a small upward base effect,
+    but one nowcast (Scanalytics, draft) has 3.4%. Slightly less than even for a rise to 3.6%.
+  expected: About 3.5%, with energy and fuel pushing up and core steady near 2.8%
+  implications:
+    if_yes: Inflation still rising after the 5 Nov hike to 4%; more BoE hikes priced and gilt yields higher, closer
+      to the UK bet's 6% gilt kill criterion
+    if_no: The rise pauses; less pressure for a February hike, gilts steadier, mildly supportive of the UK bet
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-11'
+  resolves_by: '2026-11-19'
+  resolution:
+    method: judged
+    guidance: ONS Consumer price inflation, UK, October 2026 (18 Nov 2026, 07:00), CPI 12-month rate as first published.
+      Release https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026; Q4 consensus and September figures
+      https://forexuro.com/articles/uk-cpi-forecast-2026; Ofgem https://ofgem.gov.uk/press-release/energy-price-cap-will-rise-4-october-2026;
+      nowcast https://www.scanalytics.co.uk/cpi-forecast/
   status: open
   outcome: null

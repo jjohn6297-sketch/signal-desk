@@ -1,5 +1,61 @@
 [
 {
+"key": "2026-11-11-1",
+"date": "2026-11-11",
+"kind": "daily",
+"title": "11 November 2026",
+"rank": 1,
+"text": "Action card, long-duration bonds: US October core CPI rose 0.3% m/m (headline 0.4%), against 68.4% for 0.2% or less (miss, Brier 0.47) ([BLS](https://www.bls.gov/news.release/cpi.htm?lv=true)). CME FedWatch now prices a December hike in full: 88.8% for 25bp, 11.2% for 50bp ([Investing.com](https://ca.investing.com/news/economy-news/fed-rate-hike-odds-in-december-at-88-after-hot-cpi-cme-fedwatch-4948680)). Conviction 35 to 30. Kill criteria not hit (10-year 4.86% on 6 Nov, 5y5y 2.19% on 9 Nov). The raw call was 55%; recalibration lifted it to 68%."
+},
+{
+"key": "2026-11-11-2",
+"date": "2026-11-11",
+"kind": "daily",
+"title": "11 November 2026",
+"rank": 2,
+"text": "CoreWeave beat and raised. Q3 revenue $3.66bn, above the $3.6bn top of its guide (52.5%, hit, Brier 0.23); 2026 guide raised to $13.0-13.3bn, so no cut (29.7%, Brier 0.09); capex guide $37-39bn to deliver capacity \"sooner than planned\"; backlog $132.5bn ([release](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx)). Evidence against the build-out-delay bet; conviction 60 to 52. It is close to the \"capacity ahead of plan\" kill criterion, which names hyperscalers, not neoclouds."
+},
+{
+"key": "2026-11-11-3",
+"date": "2026-11-11",
+"kind": "daily",
+"title": "11 November 2026",
+"rank": 3,
+"text": "Action card, power grid: Siemens Energy FY2026 margin before special items 12.4% (91.8%, hit, Brier 0.01), but backlog EUR 164bn, EUR 1bn short of the EUR 165bn line (60%, miss, Brier 0.36). Orders EUR 68.1bn (+18.8%), FY2027 margin guide 14-16%, 2030 target 20-22%, buyback raised by EUR 9bn ([release](https://www.siemens-energy.com/global/en/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html)). The thesis is stronger, not weaker; conviction 55 to 58."
+},
+{
+"key": "2026-11-11-4",
+"date": "2026-11-11",
+"kind": "daily",
+"title": "11 November 2026",
+"rank": 4,
+"text": "Resolved 5: 3 hits, 2 misses. Brier 0.170 on 45 (0.163 on 40). Recalibration refitted to k 1.60, b 0.30 (from 0.50)."
+},
+{
+"key": "2026-11-11-5",
+"date": "2026-11-11",
+"kind": "daily",
+"title": "11 November 2026",
+"rank": 5,
+"text": "Pre-registered 1: UK October CPI (18 Nov) at 3.6% or higher, raw 45%, calibrated 54.5% (fitted this morning with b 0.50). September was 3.5%; HM Treasury's average of independent forecasts has Q4 at 3.6%; the Ofgem cap rose 4% in October against 2% a year earlier ([ONS release](https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026))."
+},
+{
+"key": "2026-11-11-6",
+"date": "2026-11-11",
+"kind": "daily",
+"title": "11 November 2026",
+"rank": 6,
+"text": "Next: Nebius, Twist and UK GDP on 12 Nov; US PPI 13 Nov; the other ten 13Fs by 16 Nov; Nvidia and US retail sales 17 Nov; UK CPI and FOMC minutes 18 Nov."
+},
+{
+"key": "2026-11-11-7",
+"date": "2026-11-11",
+"kind": "daily",
+"title": "11 November 2026",
+"rank": 7,
+"text": "No new 13F filings. The new Form 4 purchases are about 30 small TSMC executive buys on 6 Nov ($0.4k-11k each), not a signal. No new CoreWeave 2031 yield or FINRA margin data. No comments or edits from John."
+},
+{
 "key": "2026-11-10-1",
 "date": "2026-11-10",
 "kind": "daily",
@@ -230,62 +286,6 @@
 "title": "5 November 2026",
 "rank": 7,
 "text": "No feedback on the Signal Desk docs since the last run. No new 13F filings or FINRA margin data."
-},
-{
-"key": "2026-11-04-1",
-"date": "2026-11-04",
-"kind": "daily",
-"title": "4 November 2026",
-"rank": 1,
-"text": "Resolved 4, all hits, mean Brier 0.137. AMD Q3 revenue $13.38bn, just above the $13.3bn top of guide (50%, Brier 0.25); Q4 guided at about $17.0bn, 27% above Q3 (57%, Brier 0.18). Data Center was a record $8.5bn, up 97%. Added as evidence for the hyperscaler capex thesis."
-},
-{
-"key": "2026-11-04-2",
-"date": "2026-11-04",
-"kind": "daily",
-"title": "4 November 2026",
-"rank": 2,
-"text": "Eaton organic growth 19%, well above the 14.5% line (70%, Brier 0.09); Electrical Americas +22% organic, book-to-bill 1.3. Its backlog forecast (85%, Brier 0.02) was judged yes on management calling Americas backlog \"another record\"; Eaton gives no segment backlog in dollars. Total backlog rose to $26.2bn from $24.1bn in June, so the grid thesis kill criterion (Eaton or Vertiv backlog falling) is not close."
-},
-{
-"key": "2026-11-04-3",
-"date": "2026-11-04",
-"kind": "daily",
-"title": "4 November 2026",
-"rank": 3,
-"text": "Pre-registered 2: Siemens Energy FY2026 margin before special items at least 11.0% (raw 80%, calibrated 92%; results 11 Nov; management said on 30 Sep it was trending to the upper end of 10-12%); CRISPR CTX310 Phase 1b at AHA shows at least a 50% triglyceride cut at the top dose (raw 65%, calibrated 77%; 9 Nov)."
-},
-{
-"key": "2026-11-04-4",
-"date": "2026-11-04",
-"kind": "daily",
-"title": "4 November 2026",
-"rank": 4,
-"text": "Brier 0.155 on 29 resolved. The refit moved recalibration to k 1.60, b 0.40 (from b 0.20); today's forecasts used the fit in place at the start of the run."
-},
-{
-"key": "2026-11-04-5",
-"date": "2026-11-04",
-"kind": "daily",
-"title": "4 November 2026",
-"rank": 5,
-"text": "No action cards. The airlines decision (close the thesis or rewrite the Brent criterion) is still open for John."
-},
-{
-"key": "2026-11-04-6",
-"date": "2026-11-04",
-"kind": "daily",
-"title": "4 November 2026",
-"rank": 6,
-"text": "Coming up: BoE (raise to 4.00%, 85%), Atlassian, Datadog and Teleperformance 5 Nov; payrolls 6 Nov; CTX310 and Constellation 9 Nov; CoreWeave and US CPI 10 Nov; Siemens Energy 11 Nov. Nebius reports 12 Nov."
-},
-{
-"key": "2026-11-04-7",
-"date": "2026-11-04",
-"kind": "daily",
-"title": "4 November 2026",
-"rank": 7,
-"text": "No feedback on the Signal Desk docs since the last run. No new 13F filings or manual macro values. The GitHub snapshot job is not failing but starts hours late (scheduled for 06:17 UTC, recent runs began 13:25-15:53 UTC), so each daily run sees the previous day's snapshot."
 },
 {
 "key": "2026-45-1",

@@ -36,6 +36,9 @@ evidence_for:
 - date: '2026-11-03'
   claim: 'Eaton Q3 organic growth 19%, Electrical Americas +22% organic, rolling orders +39%, book-to-bill 1.3, backlog +33% to a record; total backlog $26.2bn (Jun $24.1bn); 18 of 25 capacity projects complete'
   source: https://www.sec.gov/Archives/edgar/data/0001551182/000155118226000037/etn09302026exhibit99.htm
+- date: '2026-11-11'
+  claim: 'Siemens Energy FY2026: orders EUR 68.1bn (+18.8% comparable), record backlog EUR 164bn, margin before special items 12.4%; FY2027 guide 14-16% margin; 2030 target 20-22%; buyback up by EUR 9bn'
+  source: https://www.siemens-energy.com/global/en/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html
 evidence_against:
 - date: '2026-10-28'
   claim: 'GE Vernova gas slot reservations fell 63 -> 58 GW; backlog plus reservations 122 GW, short of the 124 GW line'
@@ -46,12 +49,15 @@ evidence_against:
 - date: '2026-11-04'
   claim: 'Democratic governors in Texas, Georgia and Ohio elected on data-centre moratorium or pause pledges; fewer new loads would ease the grid bottleneck'
   source: https://fortune.com/2026/11/04/democrats-midterm-election-2026-anti-data-center-governors-texas-georgia-ohio-ai-infrastructure-big-tech-spending-moratorium-regulations/
-system_conviction: 55
+system_conviction: 58
 conviction_history:
 - date: '2026-11-08'
   value: 55
   reason: 'Weekly review 2026-45 (8 Nov); recovered from the Insights log because that run''s push failed'
   source: https://claude.ai/artifact/WwpbnTDszXxUHpCnbVKEu3
+- date: '2026-11-11'
+  value: 58
+  reason: 'Siemens Energy margin above guide and a much higher FY2027 margin guide show pricing power; backlog EUR 1bn short of GRID-3 threshold'
 predictions:
 - id: p1
   statement: GE Vernova gas backlog + reservations >= 124 GW

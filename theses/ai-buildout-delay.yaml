@@ -31,12 +31,18 @@ evidence_against:
 - date: '2026-10-29'
   claim: 'Amazon did not cite power or site delays; Jassy: customers take capacity almost as fast as it is installed (secondary summary)'
   source: https://finance.yahoo.com/markets/stocks/articles/amazon-com-q3-earnings-call-001416198.html
-system_conviction: 60
+- date: '2026-11-10'
+  claim: 'CoreWeave Q3 revenue $3.66bn beat the top of its guide; 2026 guide raised to $13.0-13.3bn; capex guide raised to $37-39bn to deliver capacity sooner than planned; active power over 1.7 GW, contracted 4.6 GW; no delays cited'
+  source: https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx
+system_conviction: 52
 conviction_history:
 - date: '2026-11-08'
   value: 60
   reason: 'Weekly review 2026-45 (8 Nov); recovered from the Insights log because that run''s push failed'
   source: https://claude.ai/artifact/WwpbnTDszXxUHpCnbVKEu3
+- date: '2026-11-11'
+  value: 52
+  reason: 'CoreWeave beat and raised and says delivery is ahead of plan; close to the "capacity ahead of plan" kill criterion, though it is a neocloud, not a hyperscaler'
 predictions:
 - id: p1
   statement: At least two of MSFT, GOOGL, AMZN, META, ORCL say on a results call that power or site availability

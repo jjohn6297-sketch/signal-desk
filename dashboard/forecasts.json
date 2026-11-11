@@ -405,10 +405,13 @@
 "event_date": null,
 "resolves_by": "2026-11-30",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 0,
+"brier": 0.36,
+"evidence": {
+"summary": "Backlog EUR 164bn at the end of FY2026 (record), EUR 1bn short of the EUR 165bn threshold; orders EUR 68.1bn.",
+"url": "https://www.siemens-energy.com/global/en/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html"
+}
 },
 {
 "id": "GENE-1",
@@ -1451,10 +1454,13 @@
 "event_date": "2026-11-10",
 "resolves_by": "2026-11-11",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.2256,
+"evidence": {
+"summary": "Q3 2026 revenue $3,661m, above the $3.6bn top of the guide; backlog about $132.5bn.",
+"url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
+}
 },
 {
 "id": "EV-20261110-CRWV-2",
@@ -1473,10 +1479,13 @@
 "event_date": "2026-11-10",
 "resolves_by": "2026-11-11",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 0,
+"brier": 0.0882,
+"evidence": {
+"summary": "Full-year 2026 revenue guidance raised to $13.0-13.3bn (midpoint $13.15bn against $12.8bn); capex guide raised to $37-39bn to deliver capacity sooner than planned.",
+"url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
+}
 },
 {
 "id": "EV-20261111-ENR-1",
@@ -1495,10 +1504,13 @@
 "event_date": "2026-11-11",
 "resolves_by": "2026-11-12",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.0067,
+"evidence": {
+"summary": "FY2026 profit margin before special items 12.4% (profit EUR 5,486m on revenue EUR 44.2bn).",
+"url": "https://www.siemens-energy.com/global/en/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html"
+}
 },
 {
 "id": "EV-20261109-CRSP-1",
@@ -1677,10 +1689,13 @@
 "event_date": "2026-11-10",
 "resolves_by": "2026-11-10",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 0,
+"brier": 0.4679,
+"evidence": {
+"summary": "BLS: core CPI (all items less food and energy) rose 0.3% s.a. in October; headline +0.4%, shelter +0.3%, energy +0.7%.",
+"url": "https://www.bls.gov/news.release/cpi.htm?lv=true"
+}
 },
 {
 "id": "EV-20261117-NVDA-1",
@@ -1720,6 +1735,28 @@
 "made_at": "2026-11-10",
 "event_date": "2026-11-17",
 "resolves_by": "2026-11-18",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261118-UKCPI-1",
+"kind": "event",
+"thesis": "uk-large-caps-tech-hedge",
+"thesis_title": "UK large caps outperform global equities in euros as a cheap, low-tech hedge against an AI correction",
+"statement": "UK CPI annual rate for October 2026 (ONS, 18 Nov) is 3.6% or higher, as first published",
+"probability": 0.545,
+"probability_raw": 0.45,
+"override": null,
+"reasoning": "September was 3.5%, up from 3.1% in August, and the HM Treasury average of independent forecasts puts Q4 at 3.6% (range 3.3-3.9%). Ofgem's cap rose 4% in October against 2% a year earlier, a small upward base effect, but one nowcast (Scanalytics, draft) has 3.4%. Slightly less than even for a rise to 3.6%.",
+"expected": "About 3.5%, with energy and fuel pushing up and core steady near 2.8%",
+"if_yes": "Inflation still rising after the 5 Nov hike to 4%; more BoE hikes priced and gilt yields higher, closer to the UK bet's 6% gilt kill criterion",
+"if_no": "The rise pauses; less pressure for a February hike, gilts steadier, mildly supportive of the UK bet",
+"made_at": "2026-11-11",
+"event_date": "2026-11-18",
+"resolves_by": "2026-11-19",
 "method": "judged",
 "status": "open",
 "outcome": null,

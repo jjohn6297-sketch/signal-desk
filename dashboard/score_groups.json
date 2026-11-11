@@ -3,15 +3,15 @@
 "key": "Kind: event",
 "group_type": "Kind",
 "group": "event",
-"n": 32,
-"brier": 0.1498
+"n": 36,
+"brier": 0.1551
 },
 {
 "key": "Kind: thesis",
 "group_type": "Kind",
 "group": "thesis",
-"n": 8,
-"brier": 0.2134
+"n": 9,
+"brier": 0.2297
 },
 {
 "key": "Thesis: AI service agents cut outsourced call-centre volumes faster than the market expects",
@@ -38,8 +38,8 @@
 "key": "Thesis: Grid equipment and power generation are the binding constraint on AI data-centre build-out",
 "group_type": "Thesis",
 "group": "Grid equipment and power generation are the binding constraint on AI data-centre build-out",
-"n": 6,
-"brier": 0.1288
+"n": 8,
+"brier": 0.1424
 },
 {
 "key": "Thesis: Hyperscaler AI capex keeps rising through 2027, but the cost moves to depreciation and debt; power, memory and networking suppliers gain while hyperscaler free cash flow falls",
@@ -59,8 +59,8 @@
 "key": "Thesis: Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
 "group_type": "Thesis",
 "group": "Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
-"n": 5,
-"brier": 0.047
+"n": 6,
+"brier": 0.1172
 },
 {
 "key": "Thesis: Other",
@@ -75,6 +75,13 @@
 "group": "Software vendors that move to usage pricing in 2027 outgrow those that stay per-seat (rewritten: original seat-loss thesis not supported by 2026 evidence)",
 "n": 2,
 "brier": 0.1462
+},
+{
+"key": "Thesis: The AI risk for 2027 is delivery delay, not demand: leveraged builders suffer, bottleneck owners gain",
+"group_type": "Thesis",
+"group": "The AI risk for 2027 is delivery delay, not demand: leveraged builders suffer, bottleneck owners gain",
+"n": 2,
+"brier": 0.1569
 },
 {
 "key": "Thesis: UK large caps outperform global equities in euros as a cheap, low-tech hedge against an AI correction",

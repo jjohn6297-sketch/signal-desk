@@ -40,16 +40,6 @@
 "url": "https://job-boards.greenhouse.io/intercom/jobs/7377200"
 },
 {
-"key": "mongodb|8233734",
-"company": "MongoDB",
-"title": "Senior Product Manager",
-"level": "senior",
-"location": "Dublin, Ireland",
-"ai_related": false,
-"updated": "2026-11-05",
-"url": "https://www.mongodb.com/careers/job/?gh_jid=8233734"
-},
-{
 "key": "mongodb|7113803",
 "company": "MongoDB",
 "title": "Senior Product Manager",
@@ -58,6 +48,16 @@
 "ai_related": false,
 "updated": "2026-11-05",
 "url": "https://www.mongodb.com/careers/job/?gh_jid=7113803"
+},
+{
+"key": "mongodb|8233734",
+"company": "MongoDB",
+"title": "Senior Product Manager",
+"level": "senior",
+"location": "Dublin, Ireland",
+"ai_related": false,
+"updated": "2026-11-05",
+"url": "https://www.mongodb.com/careers/job/?gh_jid=8233734"
 },
 {
 "key": "mongodb|8328176",

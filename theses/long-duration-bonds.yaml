@@ -25,12 +25,21 @@ evidence_against:
 - date: '2026-11-06'
   claim: 'October payrolls +165,000 (consensus +65k), unemployment 4.1%; August and September revised up 84,000 combined'
   source: https://www.bls.gov/news.release/archives/empsit_11062026.htm
-system_conviction: 35
+- date: '2026-11-10'
+  claim: 'October core CPI +0.3% m/m for a second month, headline +0.4%; EV-20261110-US-3 (68.4% for 0.2% or less) missed'
+  source: https://www.bls.gov/news.release/cpi.htm?lv=true
+- date: '2026-11-10'
+  claim: 'CME FedWatch: 88.8% for a 25bp December hike and 11.2% for 50bp; no hold priced (Investing.com)'
+  source: https://ca.investing.com/news/economy-news/fed-rate-hike-odds-in-december-at-88-after-hot-cpi-cme-fedwatch-4948680
+system_conviction: 30
 conviction_history:
 - date: '2026-11-08'
   value: 35
   reason: 'Weekly review 2026-45 (8 Nov); recovered from the Insights log because that run''s push failed'
   source: https://claude.ai/artifact/WwpbnTDszXxUHpCnbVKEu3
+- date: '2026-11-11'
+  value: 30
+  reason: 'Second 0.3% core print and a December hike fully priced; kill criteria not hit (10-year 4.86% on 6 Nov, 5y5y 2.19% on 9 Nov)'
 predictions:
 - id: p1
   statement: 10-year Treasury does not close above 5.31% before 2027-01-31
