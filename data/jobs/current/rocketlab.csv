@@ -1,7 +1,7 @@
 job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_related
 8165912003,Accounts Payable Specialist,,"Long Beach, CA",2026-11-09T03:48:03-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8165912003,other,mid_or_unknown,us,False
-8040480003,Accounts Receivable Accountant II,,"Albuquerque, NM",2026-11-10T15:01:05-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8040480003,accounting_finance,mid_or_unknown,other,False
-8040606003,Accounts Receivable Accountant II,,"Long Beach, CA",2026-11-09T12:47:16-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8040606003,accounting_finance,mid_or_unknown,us,False
+8040606003,Accounts Receivable Accountant II,,"Long Beach, CA",2026-11-11T13:17:01-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8040606003,accounting_finance,mid_or_unknown,us,False
+8040480003,Accounts Receivable Accountant II,,"Albuquerque, NM",2026-11-11T13:17:01-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8040480003,accounting_finance,mid_or_unknown,other,False
 7984600003,Additive Manufacturing Intern Summer 2027,,"Long Beach, CA",2026-11-02T17:24:54-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7984600003,other,intern,us,False
 7998880003,Aerodynamics Analyst - Neutron,,"Auckland, NZ",2026-11-02T17:29:48-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7998880003,other,mid_or_unknown,other,False
 8019938003,Aerospace Production Technician II,,"Silver Spring, MD",2026-11-04T13:54:59-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8019938003,other,mid_or_unknown,other,False
@@ -18,11 +18,11 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8019481003,Avionics Test and Launch Engineer II,,"Wallops Island, VA",2026-11-03T11:44:15-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8019481003,software_engineering,mid_or_unknown,us,False
 8007196003,Build Engineer II / Senior Build Engineer I,,"Stennis Space Center, MS",2026-11-02T17:32:19-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8007196003,software_engineering,junior,other,False
 7753916003,"Business Development Director, National Security - TS/SCI Clearance",,"Littleton, CO",2026-11-03T13:51:37-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7753916003,sales,leadership,us,False
+7753918003,"Business Development Director, National Security - TS/SCI Clearance",,"Tucson, AZ",2026-11-03T13:51:37-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7753918003,sales,leadership,other,False
 7980935003,"Business Development Director, National Security - TS/SCI Clearance",,"Long Beach, CA",2026-11-03T13:51:37-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7980935003,sales,leadership,us,False
 7753935003,"Business Development Director, National Security - TS/SCI Clearance",,"Chantilly, VA",2026-11-03T13:51:37-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7753935003,sales,leadership,us,False
-7753918003,"Business Development Director, National Security - TS/SCI Clearance",,"Tucson, AZ",2026-11-03T13:51:37-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7753918003,sales,leadership,other,False
-8196886003,Business Development Engineer I,,"Long Beach, CA",2026-11-05T13:47:36-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8196886003,software_engineering,junior,us,False
 8196889003,Business Development Engineer I,,"Littleton, CO",2026-11-05T13:47:36-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8196889003,software_engineering,junior,us,False
+8196886003,Business Development Engineer I,,"Long Beach, CA",2026-11-05T13:47:36-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8196886003,software_engineering,junior,us,False
 8046979003,Business Development Engineer II,,"Long Beach, CA",2026-11-05T13:47:36-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8046979003,software_engineering,mid_or_unknown,us,False
 8196882003,Business Development Engineer II,,"Littleton, CO",2026-11-05T13:47:36-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8196882003,software_engineering,mid_or_unknown,us,False
 7993736003,Business Development Intern Spring 2027,,"Toronto, CAN",2026-11-02T17:29:42-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7993736003,sales,intern,other,False
@@ -50,8 +50,9 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7748984003,Director of Planning & Fulfillment,,"Long Beach, CA",2026-11-02T17:17:40-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7748984003,other,leadership,us,False
 7984982003,"Director, Radar Payload",,"Long Beach, CA",2026-11-05T19:54:04-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7984982003,other,leadership,us,False
 8008872003,"Director, RF Payloads",,"Long Beach, CA",2026-11-05T11:55:54-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8008872003,other,leadership,us,False
-8046148003,Electrical Engineer I,,"Pasadena, CA",2026-11-02T11:16:36-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8046148003,software_engineering,junior,us,False
+8199770003,Dynamics and Structures Analyst,,"Auckland, NZ",2026-11-11T20:55:06-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8199770003,other,mid_or_unknown,other,False
 8055708003,Electrical Engineer I,,"Long Beach, CA",2026-11-03T13:50:23-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8055708003,software_engineering,junior,us,False
+8046148003,Electrical Engineer I,,"Pasadena, CA",2026-11-02T11:16:36-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8046148003,software_engineering,junior,us,False
 8013389003,Electrical Engineer II,,"Pasadena, CA",2026-11-02T11:16:36-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8013389003,software_engineering,mid_or_unknown,us,False
 8055730003,Electrical Engineer II ,,"Long Beach, CA",2026-11-02T11:27:10-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8055730003,software_engineering,mid_or_unknown,us,False
 7990045003,Electrical Engineering Intern Spring 2027,,"Toronto, CAN",2026-11-02T17:27:56-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7990045003,software_engineering,intern,other,False
@@ -84,8 +85,9 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8001399003,Government Operations Intern Spring 2027,,"Littleton, CO",2026-11-02T17:31:26-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8001399003,other,intern,us,False
 7992754003,Government Operations Intern Summer 2027,,"Washington, DC",2026-11-02T17:29:17-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7992754003,other,intern,us,False
 8001401003,Government Operations Intern Summer 2027,,"Littleton, CO",2026-11-02T17:31:43-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8001401003,other,intern,us,False
-7919465003,Graphic Designer,,"Long Beach, CA",2026-11-05T12:25:19-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7919465003,other,mid_or_unknown,us,False
 8015258003,Graphic Designer,,"Auckland, NZ",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/8015258003,other,mid_or_unknown,other,False
+7919465003,Graphic Designer,,"Long Beach, CA",2026-11-05T12:25:19-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7919465003,other,mid_or_unknown,us,False
+7992127003,Ground Software Engineer II ,,"Long Beach, CA",2026-11-11T12:49:17-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7992127003,software_engineering,mid_or_unknown,us,False
 8199655003,Ground Support Engineer II,,"Middle River, MD",2026-11-09T17:12:40-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8199655003,software_engineering,mid_or_unknown,other,False
 7703264003,"Ground Systems Engineer, Automation Controls",,"Stennis Space Center, MS",2026-11-02T11:28:58-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7703264003,software_engineering,mid_or_unknown,other,False
 8179116003,Ground Systems Engineer II - Fluids,,"Wallops Island, VA",2026-11-06T18:06:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8179116003,software_engineering,mid_or_unknown,us,False
@@ -94,8 +96,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7821140003,Ground Systems Engineering Intern,,"Auckland, NZ",2026-11-02T17:20:37-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7821140003,software_engineering,intern,other,False
 8007204003,Ground Systems Engineering Intern Spring 2027,,"Stennis Space Center, MS",2026-11-02T17:32:26-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8007204003,software_engineering,intern,other,False
 8042094003,Ground Systems Engineering Intern Spring 2027,,"Middle River, MD",2026-11-02T18:30:38-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8042094003,software_engineering,intern,other,False
-8007202003,Ground Systems Engineering Intern Summer 2027,,"Stennis Space Center, MS",2026-11-02T17:32:25-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8007202003,software_engineering,intern,other,False
 8042092003,Ground Systems Engineering Intern Summer 2027,,"Middle River, MD",2026-11-02T18:37:42-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8042092003,software_engineering,intern,other,False
+8007202003,Ground Systems Engineering Intern Summer 2027,,"Stennis Space Center, MS",2026-11-02T17:32:25-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8007202003,software_engineering,intern,other,False
 8107633003,GSE Mechanical Technician II,,"Stennis Space Center, MS",2026-11-02T11:28:58-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8107633003,other,mid_or_unknown,other,False
 8055821003,Harness Engineer I,,"Long Beach, CA",2026-11-06T10:41:00-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8055821003,software_engineering,junior,us,False
 8055849003,Harness Engineer II,,"Long Beach, CA",2026-11-06T10:41:36-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8055849003,software_engineering,mid_or_unknown,us,False
@@ -104,7 +106,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8015149003,HITL Engineer I,,"Long Beach, CA",2026-11-02T17:34:11-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8015149003,software_engineering,junior,us,False
 8007392003,HITL Engineer II,,"Long Beach, CA",2026-11-02T17:32:45-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8007392003,software_engineering,mid_or_unknown,us,False
 7990268003,HITL Engineering Intern Summer 2027,,"Long Beach, CA",2026-11-02T17:28:14-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7990268003,software_engineering,intern,us,False
-8014231003,Incoming Quality Control Inspector - Mechanical,,"Auckland, NZ",2026-11-02T17:34:07-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8014231003,other,mid_or_unknown,other,False
+8014231003,Incoming Quality Control Inspector - Mechanical,,"Auckland, NZ",2026-11-11T18:22:01-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8014231003,other,mid_or_unknown,other,False
 7989035003,Indirect Procurement Intern Spring 2027,,"Long Beach, CA",2026-11-02T17:26:50-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7989035003,other,intern,us,False
 7989063003,Indirect Procurement Intern Summer 2027,,"Long Beach, CA",2026-11-02T17:27:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7989063003,other,intern,us,False
 7598613003,Integrated Operations Engineer,,"Auckland, NZ",2026-11-02T17:15:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7598613003,software_engineering,mid_or_unknown,other,False
@@ -114,9 +116,9 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7987250003,Integration & Test Intern Summer 2027,,"Long Beach, CA",2026-11-10T17:17:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7987250003,other,intern,us,False
 7647286003,Investor Relations Manager,,"Long Beach, CA",2026-11-02T17:15:22-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7647286003,other,senior,us,False
 7980985003,IT Network Engineer II - Launch,,"Wallops Island, VA",2026-11-02T17:24:18-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7980985003,software_engineering,mid_or_unknown,us,False
-8004692003,IT Support Specialist,,"Long Beach, CA",2026-11-02T17:32:09-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8004692003,customer_support,mid_or_unknown,us,False
-7998365003,IT Support Specialist,,"Auckland, NZ",2026-11-02T17:30:50-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7998365003,customer_support,mid_or_unknown,other,False
 8005412003,IT Support Specialist,,"Albuquerque, NM",2026-11-02T17:32:09-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8005412003,customer_support,mid_or_unknown,other,False
+7998365003,IT Support Specialist,,"Auckland, NZ",2026-11-02T17:30:50-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7998365003,customer_support,mid_or_unknown,other,False
+8004692003,IT Support Specialist,,"Long Beach, CA",2026-11-02T17:32:09-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8004692003,customer_support,mid_or_unknown,us,False
 7790865003,IT Systems Engineer,,"Auckland, NZ",2026-11-02T17:19:06-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7790865003,software_engineering,mid_or_unknown,other,False
 7790862003,IT Systems Engineer II,,"Auckland, NZ",2026-11-02T17:18:59-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7790862003,software_engineering,mid_or_unknown,other,False
 7968936003,IT Systems Engineer - Launch (Linux),,"Auckland, NZ",2026-11-02T17:23:50-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7968936003,software_engineering,mid_or_unknown,other,False
@@ -130,16 +132,16 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7792532003,"Lead Engineer, GSE and Production Tooling",,"Middle River, MD",2026-11-04T20:36:14-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7792532003,software_engineering,senior,other,False
 7920967003,Leading Hand - Inventory,,"Auckland, NZ",2026-11-02T17:23:28-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7920967003,other,senior,other,False
 8039696003,Lead Inventory Coordinator,,"Middle River, MD",2026-11-02T17:19:47-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8039696003,other,senior,other,False
-7992602003,"Lead, Manufacturing Engineer",,"Silver Spring, MD",2026-11-02T17:29:21-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7992602003,software_engineering,senior,other,False
+7992602003,"Lead, Manufacturing Engineer",,"Silver Spring, MD",2026-11-12T10:13:40-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7992602003,software_engineering,senior,other,False
 8079937003,Lead Manufacturing Engineer - Avionics & Test,,"Long Beach, CA",2026-11-05T03:03:58-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8079937003,software_engineering,senior,us,False
 8017451003,Lead - Operations Software,,"Auckland, NZ",2026-11-02T17:34:24-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8017451003,software_engineering,senior,other,False
 8016273003,"Lead, Operations Software",,"Long Beach, CA",2026-11-02T17:34:24-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8016273003,software_engineering,senior,us,False
 8041751003,"Lead, Planning & Fulfillment",,"Long Beach, CA",2026-11-02T17:21:54-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8041751003,other,senior,us,False
 7989226003,"Lead, Propulsion Test Engineer",,"Stennis Space Center, MS",2026-11-02T17:27:16-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7989226003,software_engineering,senior,other,False
-8025174003,Lead Systems Engineer,,"Tucson, AZ",2026-11-02T17:16:01-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8025174003,software_engineering,senior,other,False
-8165847003,"Lead, Test & Launch Operations Engineer - Launch Pad",,"Wallops Island, VA",2026-11-11T09:17:10-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8165847003,software_engineering,senior,us,False
-8165879003,"Lead, Test & Launch Operations Engineer - Vehicle",,"Wallops Island, VA",2026-11-11T09:17:13-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8165879003,software_engineering,senior,us,False
-8165852003,"Lead, Test & Launch Operations Engineer – Avionics ",,"Wallops Island, VA",2026-11-11T09:17:11-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8165852003,software_engineering,senior,us,False
+8025174003,Lead Systems Engineer,,"Tucson, AZ",2026-11-11T15:16:54-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8025174003,software_engineering,senior,other,False
+8165847003,"Lead, Test & Launch Operations Engineer - Launch Pad",,"Wallops Island, VA",2026-11-12T10:02:15-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8165847003,software_engineering,senior,us,False
+8165879003,"Lead, Test & Launch Operations Engineer - Vehicle",,"Wallops Island, VA",2026-11-12T10:02:17-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8165879003,software_engineering,senior,us,False
+8165852003,"Lead, Test & Launch Operations Engineer – Avionics ",,"Wallops Island, VA",2026-11-12T10:02:16-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8165852003,software_engineering,senior,us,False
 7987651003,Learning & Development Advisor ,,"Auckland, NZ",2026-11-02T22:26:36-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7987651003,other,mid_or_unknown,other,False
 8036113003,"Manager, Inventory and Logistics",,"Long Beach, CA",2026-11-02T17:35:39-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8036113003,other,senior,us,False
 7982071003,"Manager, Inventory and Logistics",,"Middle River, MD",2026-11-05T14:32:13-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7982071003,other,senior,other,False
@@ -148,14 +150,14 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7695636003,Manager- Test & Launch Operations,,"Auckland, NZ",2026-11-02T17:16:31-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7695636003,other,senior,other,False
 7825132003,Manufacturing Engineer,,"Auckland, NZ",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/7825132003,software_engineering,mid_or_unknown,other,False
 7524182003,Manufacturing Engineer I,,"Middle River, MD",2026-11-10T17:16:58-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7524182003,software_engineering,junior,other,False
-8016996003,Manufacturing Engineer II,,"Middle River, MD",2026-11-10T17:16:58-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8016996003,software_engineering,mid_or_unknown,other,False
 7829597003,Manufacturing Engineer II,,"Wallops Island, VA",2026-11-02T11:25:55-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7829597003,software_engineering,mid_or_unknown,us,False
+8016996003,Manufacturing Engineer II,,"Middle River, MD",2026-11-10T17:16:58-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8016996003,software_engineering,mid_or_unknown,other,False
 8198334003,Manufacturing Engineer II - Propulsion,,"Long Beach, CA",2026-11-09T13:23:01-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8198334003,software_engineering,mid_or_unknown,us,False
 8020080003,Manufacturing Engineer II - TPA,,"Long Beach, CA",2026-11-02T11:18:57-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8020080003,software_engineering,mid_or_unknown,us,False
-7984943003,Manufacturing Engineering Intern Spring 2027,,"Long Beach, CA",2026-11-02T19:02:17-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7984943003,software_engineering,intern,us,False
 7987020003,Manufacturing Engineering Intern Spring 2027,,"Middle River, MD",2026-11-02T17:26:12-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7987020003,software_engineering,intern,other,False
-7988835003,Manufacturing Engineering Intern Summer 2027,,"Middle River, MD",2026-11-02T17:27:01-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7988835003,software_engineering,intern,other,False
+7984943003,Manufacturing Engineering Intern Spring 2027,,"Long Beach, CA",2026-11-02T19:02:17-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7984943003,software_engineering,intern,us,False
 7984564003,Manufacturing Engineering Intern Summer 2027,,"Long Beach, CA",2026-11-02T17:24:40-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7984564003,software_engineering,intern,us,False
+7988835003,Manufacturing Engineering Intern Summer 2027,,"Middle River, MD",2026-11-02T17:27:01-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7988835003,software_engineering,intern,other,False
 7996623003,Manufacturing Engineering Intern Summer 2027,,"Wallops Island, VA",2026-11-02T17:26:58-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7996623003,software_engineering,intern,us,False
 8198332003,Manufacturing Engineer I - Propulsion,,"Long Beach, CA",2026-11-09T13:23:03-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8198332003,software_engineering,mid_or_unknown,us,False
 7825201003,Manufacturing Engineer - Nightshift,,"Auckland, NZ",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/7825201003,software_engineering,mid_or_unknown,other,False
@@ -163,16 +165,16 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7608110003,Mechanical Assembly Technician (Evening Shift) ,,"Auckland, NZ",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/7608110003,other,mid_or_unknown,other,False
 8037710003,Mechanical Development & Test Engineer II,,"Long Beach, CA",2026-11-04T11:34:16-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8037710003,software_engineering,mid_or_unknown,us,False
 8199266003,Mechanical Engineer I,,"Silver Spring, MD",2026-11-09T15:06:52-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8199266003,software_engineering,junior,other,False
+7932677003,Mechanical Engineer II,,"Pasadena, CA",2026-11-02T11:16:36-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7932677003,software_engineering,mid_or_unknown,us,False
 8199259003,Mechanical Engineer II,,"Silver Spring, MD",2026-11-09T15:06:53-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8199259003,software_engineering,mid_or_unknown,other,False
 8007217003,Mechanical Engineer II,,"Silver Spring, MD",2026-11-02T17:16:34-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8007217003,software_engineering,mid_or_unknown,other,False
-7932677003,Mechanical Engineer II,,"Pasadena, CA",2026-11-02T11:16:36-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7932677003,software_engineering,mid_or_unknown,us,False
 7599452003,"Mechanical Engineer II, Neutron Avionics",,"Long Beach, CA",2026-11-02T17:15:04-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7599452003,software_engineering,mid_or_unknown,us,False
-7989904003,Mechanical Engineering Intern Summer 2027,,"Silver Spring, MD",2026-11-02T17:27:53-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7989904003,software_engineering,intern,other,False
 7991448003,Mechanical Engineering Intern Summer 2027,,"Long Beach, CA",2026-11-02T17:28:55-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7991448003,software_engineering,intern,us,False
 7991769003,Mechanical Engineering Intern Summer 2027,,"Toronto, CAN",2026-11-06T18:32:20-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7991769003,software_engineering,intern,other,False
+7989904003,Mechanical Engineering Intern Summer 2027,,"Silver Spring, MD",2026-11-02T17:27:53-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7989904003,software_engineering,intern,other,False
 7635801003,Mechanical Technician - all levels,,"Middle River, MD",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/7635801003,other,mid_or_unknown,other,False
-8165561003,Mission Manager,,"Middle River, MD",2026-11-09T11:41:35-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8165561003,other,senior,other,False
 8004614003,Mission Manager,,"Long Beach, CA",2026-11-09T11:41:35-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8004614003,other,senior,us,False
+8165561003,Mission Manager,,"Middle River, MD",2026-11-09T11:41:35-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8165561003,other,senior,other,False
 7496191003,Mission Manager -  Neutron,,"Long Beach, CA",2026-11-05T11:56:19-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7496191003,other,senior,us,False
 8014790003,Mission Manager- TS/SCI Clearance,,"Littleton, CO",2026-11-02T17:31:59-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8014790003,other,senior,us,False
 8004610003,Mission Manager- TS/SCI Clearance,,"Long Beach, CA",2026-11-02T17:31:59-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8004610003,other,senior,us,False
@@ -188,10 +190,10 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7990245003,People & Culture Intern Summer 2027,,"Long Beach, CA",2026-11-02T17:28:19-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7990245003,other,intern,us,False
 8109826003,Precision Cleaning Technician II - B Shift ,,"Long Beach, CA",2026-11-06T18:17:05-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8109826003,other,mid_or_unknown,us,False
 7530005003,Precision Cleaning Technician - (Overnight Shift),,"Auckland, NZ",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/7530005003,other,mid_or_unknown,other,False
-7997781003,Principal Algorithm Engineer (EO/IR Image Analysis),,"Chantilly, VA",2026-11-02T11:24:46-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7997781003,software_engineering,senior,us,False
-8024986003,Principal Algorithm Engineer (EO/IR Image Analysis),,"Tucson, AZ",2026-11-02T17:19:09-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8024986003,software_engineering,senior,other,False
-7997785003,Principal Algorithm Engineer (EO/IR Image Analysis),,"Long Beach, CA",2026-11-02T11:24:46-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7997785003,software_engineering,senior,us,False
 7997776003,Principal Algorithm Engineer (EO/IR Image Analysis),,"Tucson, AZ",2026-11-02T11:24:46-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7997776003,software_engineering,senior,other,False
+8024986003,Principal Algorithm Engineer (EO/IR Image Analysis),,"Tucson, AZ",2026-11-02T17:19:09-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8024986003,software_engineering,senior,other,False
+7997781003,Principal Algorithm Engineer (EO/IR Image Analysis),,"Chantilly, VA",2026-11-02T11:24:46-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7997781003,software_engineering,senior,us,False
+7997785003,Principal Algorithm Engineer (EO/IR Image Analysis),,"Long Beach, CA",2026-11-02T11:24:46-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7997785003,software_engineering,senior,us,False
 7983107003,Principal Avionics Engineer - Neutron,,"Auckland, NZ",2026-11-02T17:24:26-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7983107003,software_engineering,senior,other,False
 7994656003,Principal Cloud Security Engineer,,"Long Beach, CA",2026-11-02T17:30:05-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7994656003,software_engineering,senior,us,False
 8017071003,Principal Combustion Devices Engineer,,"Long Beach, CA",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/8017071003,software_engineering,senior,us,False
@@ -216,12 +218,12 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8107846003,Principal Spacecraft GNC Engineer - Secret Clearance ,,"Long Beach, CA",2026-11-02T17:18:54-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8107846003,software_engineering,senior,us,False
 7984051003,Principal Spacecraft Operations Engineer - Secret Clearance Preferred,,"Long Beach, CA",2026-11-02T17:19:04-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7984051003,software_engineering,senior,us,False
 7865719003,Principal Stage Fluids Engineer,,"Long Beach, CA",2026-11-10T16:56:00-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7865719003,software_engineering,senior,us,False
-8025172003,Principal Systems Engineer,,"Tucson, AZ",2026-11-02T17:16:01-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8025172003,software_engineering,senior,other,False
+8025172003,Principal Systems Engineer,,"Tucson, AZ",2026-11-11T15:16:54-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8025172003,software_engineering,senior,other,False
 8046132003,Principal Systems Engineer - Mission Architecture,,"Long Beach, CA",2026-11-03T13:51:48-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8046132003,software_engineering,senior,us,False
 8039444003,Production Coordinator II,,"Long Beach, CA",2026-11-02T17:36:04-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8039444003,other,mid_or_unknown,us,False
 8200829003,Production Engineer II,,"Albuquerque, NM",2026-11-10T15:30:14-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8200829003,software_engineering,mid_or_unknown,other,False
-8085934003,Production Planner I,,"Long Beach, CA",2026-11-09T03:47:58-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8085934003,other,junior,us,False
 8010670003,Production Planner I,,"Long Beach, CA",2026-11-02T11:18:57-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8010670003,other,junior,us,False
+8085934003,Production Planner I,,"Long Beach, CA",2026-11-09T03:47:58-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8085934003,other,junior,us,False
 7712441003,Production Supervisor,,"Middle River, MD",2026-11-04T10:35:37-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7712441003,other,mid_or_unknown,other,False
 6584837003,"Production Supervisor, Composites",,"Middle River, MD",2026-11-04T10:35:01-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/6584837003,other,mid_or_unknown,other,False
 7852687003,Production Test Technician,,"Auckland, NZ",2026-11-02T17:21:58-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7852687003,other,mid_or_unknown,other,False
@@ -245,20 +247,20 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8056083003,RF Phased Array Engineer II,,"Long Beach, CA",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/8056083003,software_engineering,mid_or_unknown,us,False
 8056192003,RF Test Engineer II,,"Long Beach, CA",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/8056192003,software_engineering,mid_or_unknown,us,False
 8025012003,Scientist (EO/IR Image Analysis),,"Tucson, AZ",2026-11-02T17:19:09-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8025012003,other,mid_or_unknown,other,False
-7986872003,Security Analyst Intern Spring 2027,,"Albuquerque, NM",2026-11-02T17:25:53-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7986872003,other,intern,other,False
 7986954003,Security Analyst Intern Spring 2027,,"Long Beach, CA",2026-11-02T17:25:56-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7986954003,other,intern,us,False
 7986965003,Security Analyst Intern Spring 2027,,"Middle River, MD",2026-11-02T17:26:11-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7986965003,other,intern,other,False
-7986963003,Security Analyst Intern Summer 2027,,"Middle River, MD",2026-11-02T17:26:10-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7986963003,other,intern,other,False
-7986874003,Security Analyst Intern Summer 2027,,"Albuquerque, NM",2026-11-02T17:25:54-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7986874003,other,intern,other,False
+7986872003,Security Analyst Intern Spring 2027,,"Albuquerque, NM",2026-11-02T17:25:53-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7986872003,other,intern,other,False
 7986956003,Security Analyst Intern Summer 2027,,"Long Beach, CA",2026-11-02T17:26:07-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7986956003,other,intern,us,False
+7986963003,Security Analyst Intern Summer 2027,,"Middle River, MD",2026-11-02T17:26:10-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7986963003,other,intern,other,False
 7986961003,Security Analyst Intern Summer 2027,,"Wallops Island, VA",2026-11-02T17:26:09-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7986961003,other,intern,us,False
+7986874003,Security Analyst Intern Summer 2027,,"Albuquerque, NM",2026-11-02T17:25:54-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7986874003,other,intern,other,False
 7993785003,Senior Aerodynamics Analyst - Neutron,,"Auckland, NZ",2026-11-02T17:29:48-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7993785003,other,senior,other,False
+7997698003,Senior Algorithm Engineer II (EO/IR Image Analysis),,"Tucson, AZ",2026-11-02T11:24:46-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7997698003,software_engineering,senior,other,False
+7997743003,Senior Algorithm Engineer II (EO/IR Image Analysis),,"Chantilly, VA",2026-11-02T11:24:46-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7997743003,software_engineering,senior,us,False
 8024984003,Senior Algorithm Engineer II (EO/IR Image Analysis),,"Tucson, AZ",2026-11-02T17:19:09-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8024984003,software_engineering,senior,other,False
 7997756003,Senior Algorithm Engineer II (EO/IR Image Analysis),,"Long Beach, CA",2026-11-02T11:24:46-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7997756003,software_engineering,senior,us,False
-7997743003,Senior Algorithm Engineer II (EO/IR Image Analysis),,"Chantilly, VA",2026-11-02T11:24:46-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7997743003,software_engineering,senior,us,False
-7997698003,Senior Algorithm Engineer II (EO/IR Image Analysis),,"Tucson, AZ",2026-11-02T11:24:46-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7997698003,software_engineering,senior,other,False
-8009916003,Senior Avionics Engineer I - Mission Formulation,,"Long Beach, CA",2026-11-02T11:18:57-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8009916003,software_engineering,senior,us,False
 8009917003,Senior Avionics Engineer I - Mission Formulation,,"Littleton, CO",2026-11-02T11:18:57-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8009917003,software_engineering,senior,us,False
+8009916003,Senior Avionics Engineer I - Mission Formulation,,"Long Beach, CA",2026-11-02T11:18:57-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8009916003,software_engineering,senior,us,False
 8179243003,Senior Avionics Test and Launch Engineer,,"Wallops Island, VA",2026-11-03T11:45:29-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8179243003,software_engineering,senior,us,False
 8109568003,Senior CNC Machinist - C Shift ,,"Long Beach, CA",2026-10-30T16:14:55-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/8109568003,other,senior,us,False
 8109582003,Senior CNC Machinist - D Shift ,,"Long Beach, CA",2026-10-30T16:17:57-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/8109582003,other,senior,us,False
@@ -272,12 +274,12 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8036107003,Senior Design Engineer I,,"Tucson, AZ",2026-11-02T17:35:22-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8036107003,software_engineering,junior,other,False
 8015234003,Senior Development Engineer - Neutron,,"Auckland, NZ",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/8015234003,software_engineering,senior,other,False
 7978938003,Senior Development Engineer (Propulsion) - Electron,,"Auckland, NZ",2026-11-02T17:24:07-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7978938003,software_engineering,senior,other,False
-8009584003,"Senior Director, Business Development - Civil & Commercial",,"Chantilly, VA",2026-11-02T17:32:31-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8009584003,sales,leadership,us,False
 8006991003,"Senior Director, Business Development - Civil & Commercial",,"Long Beach, CA",2026-11-02T17:32:31-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8006991003,sales,leadership,us,False
+8009584003,"Senior Director, Business Development - Civil & Commercial",,"Chantilly, VA",2026-11-02T17:32:31-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8009584003,sales,leadership,us,False
 8009530003,"Senior Director, Business Development - Civil & Commercial",,"Littleton, CO",2026-11-02T17:32:31-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8009530003,sales,leadership,us,False
 8009590003,"Senior Director, Business Development - Civil & Commercial",,"Tucson, AZ",2026-11-02T17:32:31-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8009590003,sales,leadership,other,False
-7996086003,"Senior Director, Business Development - National Security (TS/SCI Clearance)",,"Tucson, AZ",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/7996086003,sales,leadership,other,False
 7996084003,"Senior Director, Business Development - National Security (TS/SCI Clearance)",,"Littleton, CO",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/7996084003,sales,leadership,us,False
+7996086003,"Senior Director, Business Development - National Security (TS/SCI Clearance)",,"Tucson, AZ",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/7996086003,sales,leadership,other,False
 7996085003,"Senior Director, Business Development - National Security (TS/SCI Clearance)",,"Chantilly, VA",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/7996085003,sales,leadership,us,False
 7996082003,"Senior Director, Business Development - National Security (TS/SCI Clearance)",,"Long Beach, CA",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/7996082003,sales,leadership,us,False
 7989650003,Senior Dynamics Engineer,,"Auckland, NZ",2026-11-02T17:27:33-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7989650003,software_engineering,senior,other,False
@@ -308,17 +310,19 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7984906003,Senior Global Supply Manager II,,"Pasadena, CA",2026-11-02T17:25:08-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7984906003,other,senior,us,False
 7829880003,Senior Global Supply Manager I - PCBA,,"Long Beach, CA",2026-11-02T17:21:40-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7829880003,other,senior,us,False
 7978900003,Senior GNC Engineer,,"Auckland, NZ",2026-11-02T17:24:11-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7978900003,software_engineering,senior,other,False
-7783208003,Senior GNC Engineer II- Mission Formulation,,"Long Beach, CA",2026-11-02T11:18:57-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7783208003,software_engineering,senior,us,False
 7783209003,Senior GNC Engineer II- Mission Formulation,,"Littleton, CO",2026-11-02T11:18:57-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7783209003,software_engineering,senior,us,False
+7783208003,Senior GNC Engineer II- Mission Formulation,,"Long Beach, CA",2026-11-02T11:18:57-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7783208003,software_engineering,senior,us,False
 7664584003,Senior GNC Engineer I - Mission Formulation,,"Littleton, CO",2026-11-02T17:15:56-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7664584003,software_engineering,senior,us,False
 7663527003,Senior GNC Engineer I - Mission Formulation,,"Long Beach, CA",2026-11-02T17:15:56-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7663527003,software_engineering,senior,us,False
+8200972003,Senior Ground Software Engineer I,,"Long Beach, CA",2026-11-11T13:16:42-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8200972003,software_engineering,junior,us,False
 8200818003,Senior Ground Software Engineer I ,,"Littleton, CO",2026-11-10T15:32:09-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8200818003,software_engineering,senior,us,False
+7985574003,Senior Ground Software Engineer II,,"Long Beach, CA",2026-11-11T13:16:44-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7985574003,software_engineering,senior,us,False
 8003038003,Senior Ground Support Engineer I,,"Middle River, MD",2026-11-09T17:12:42-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8003038003,software_engineering,junior,other,False
 8179118003,Senior Ground Systems Engineer – Fluids,,"Wallops Island, VA",2026-11-06T18:06:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8179118003,software_engineering,senior,us,False
 7513269003,"Senior Ground Systems Engineer I, Mechanical",,"Stennis Space Center, MS",2026-11-02T11:28:58-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7513269003,software_engineering,senior,other,False
 8197860003,Senior Ground Systems Engineer - Structures & Mechanisms ,,"Wallops Island, VA",2026-11-06T18:05:28-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8197860003,software_engineering,senior,us,False
-8060445003,Senior Harness Engineer I,,"Long Beach, CA",2026-11-06T11:02:11-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8060445003,software_engineering,junior,us,False
 8055987003,Senior Harness Engineer I,,"Long Beach, CA",2026-11-06T11:02:13-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8055987003,software_engineering,junior,us,False
+8060445003,Senior Harness Engineer I,,"Long Beach, CA",2026-11-06T11:02:11-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8060445003,software_engineering,junior,us,False
 8060464003,Senior Harness Engineer II,,"Long Beach, CA",2026-11-06T11:02:11-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8060464003,software_engineering,senior,us,False
 7990274003,Senior HITL Engineer I,,"Long Beach, CA",2026-11-03T16:15:55-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7990274003,software_engineering,junior,us,False
 8045796003,Senior HITL Technician,,"Auckland, NZ",2026-11-02T17:36:35-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8045796003,other,senior,other,False
@@ -330,22 +334,22 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7965787003,Senior Integration & Test Engineer I,,"Pasadena, CA",2026-11-02T17:23:40-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7965787003,software_engineering,junior,us,False
 8034766003,Senior Integration & Test Engineer I,,"Long Beach, CA",2026-11-02T17:19:45-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8034766003,software_engineering,junior,us,False
 8034767003, Senior Integration & Test Engineer II,,"Long Beach, CA",2026-11-02T17:19:45-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8034767003,software_engineering,senior,us,False
-8197875003,Senior Inventory Coordinator I,,"Toronto, CAN",2026-11-06T17:51:44-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8197875003,other,junior,other,False
 7826300003,Senior Inventory Coordinator I,,"Middle River, MD",2026-11-02T17:21:19-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7826300003,other,junior,other,False
+8197875003,Senior Inventory Coordinator I,,"Toronto, CAN",2026-11-06T17:51:44-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8197875003,other,junior,other,False
 8108143003,Senior IT Network Engineer II,,"Long Beach, CA",2026-11-02T17:17:07-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8108143003,software_engineering,senior,us,False
-8004802003,Senior IT Support Analyst I,,"Wallops Island, VA",2026-11-02T17:31:56-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8004802003,other,junior,us,False
 8004788003,Senior IT Support Analyst I,,"Middle River, MD",2026-11-02T17:31:56-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8004788003,other,junior,other,False
+8004802003,Senior IT Support Analyst I,,"Wallops Island, VA",2026-11-02T17:31:56-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8004802003,other,junior,us,False
 8003909003,Senior IT Support Analyst I,,"Stennis Space Center, MS",2026-11-02T17:31:56-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8003909003,other,junior,other,False
-8004986003,Senior IT Support Specialist,,"Albuquerque, NM",2026-11-02T17:31:45-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8004986003,customer_support,senior,other,False
 8002677003,Senior IT Support Specialist,,"Long Beach, CA",2026-11-04T12:36:36-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8002677003,customer_support,senior,us,False
-7932125003,Senior IT Systems Engineer I,,"Albuquerque, NM",2026-11-02T17:23:23-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7932125003,software_engineering,junior,other,False
+8004986003,Senior IT Support Specialist,,"Albuquerque, NM",2026-11-02T17:31:45-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8004986003,customer_support,senior,other,False
 8165893003,Senior IT Systems Engineer I,,"Long Beach, CA",2026-11-02T18:54:11-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8165893003,software_engineering,junior,us,False
+7932125003,Senior IT Systems Engineer I,,"Albuquerque, NM",2026-11-02T17:23:23-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7932125003,software_engineering,junior,other,False
 8021117003,Senior Legal Counsel II,,"Long Beach, CA",2026-11-10T20:02:26-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8021117003,legal,senior,us,False
 7741227003,Senior LN Development and Integration Lead,,"Long Beach, CA",2026-11-02T17:17:21-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7741227003,other,senior,us,False
 8025567003,Senior Machine Learning Engineer II (EO/IR Image Analysis),,"Long Beach, CA",2026-11-04T14:06:34-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8025567003,data_ai,senior,us,True
 8025569003,Senior Machine Learning Engineer II (EO/IR Image Analysis),,"Tucson, AZ",2026-11-04T14:06:34-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8025569003,data_ai,senior,other,True
-7825154003,Senior Manufacturing Engineer,,"Auckland, NZ",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/7825154003,software_engineering,senior,other,False
 7829601003,Senior Manufacturing Engineer,,"Wallops Island, VA",2026-11-02T11:25:55-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7829601003,software_engineering,senior,us,False
+7825154003,Senior Manufacturing Engineer,,"Auckland, NZ",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/7825154003,software_engineering,senior,other,False
 7824283003,Senior Manufacturing Engineer ,,"Middle River, MD",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/7824283003,software_engineering,senior,other,False
 7784295003,Senior Manufacturing Engineer I,,"Pasadena, CA",2026-11-02T17:18:36-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7784295003,software_engineering,junior,us,False
 8043399003,Senior Manufacturing Engineer I - Assembly & Integration,,"Long Beach, CA",2026-11-05T03:04:10-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8043399003,software_engineering,senior,us,False
@@ -359,20 +363,20 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8004641003,Senior Material Planner I,,"Long Beach, CA",2026-11-02T17:21:50-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8004641003,other,junior,us,False
 8054388003,Senior Mechanical Development & Test Engineer  I,,"Long Beach, CA",2026-11-02T17:25:27-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8054388003,software_engineering,junior,us,False
 8054447003,Senior Mechanical Development & Test Engineer II,,"Long Beach, CA",2026-11-02T17:25:27-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8054447003,software_engineering,senior,us,False
+8004481003,Senior Mechanical Engineer I,,"Pasadena, CA",2026-11-02T17:23:48-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8004481003,software_engineering,junior,us,False
 7814585003,Senior Mechanical Engineer I,,"Silver Spring, MD",2026-11-02T17:16:34-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7814585003,software_engineering,junior,other,False
 8054076003,Senior Mechanical Engineer I,,"Long Beach, CA",2026-11-10T14:28:50-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8054076003,software_engineering,junior,us,False
-8004481003,Senior Mechanical Engineer I,,"Pasadena, CA",2026-11-02T17:23:48-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8004481003,software_engineering,junior,us,False
-7932386003,Senior Mechanical Engineer II,,"Pasadena, CA",2026-11-02T11:16:36-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7932386003,software_engineering,senior,us,False
 7965793003,Senior Mechanical Engineer II,,"Pasadena, CA",2026-11-02T17:23:48-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7965793003,software_engineering,senior,us,False
 7814589003,Senior Mechanical Engineer II,,"Silver Spring, MD",2026-11-02T17:16:34-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7814589003,software_engineering,senior,other,False
+7932386003,Senior Mechanical Engineer II,,"Pasadena, CA",2026-11-02T11:16:36-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7932386003,software_engineering,senior,us,False
 8108059003,Senior Mechanical Technician ,,"Wallops Island, VA",2026-11-02T11:25:55-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8108059003,other,senior,us,False
 7994294003,Senior Network Software Engineer II -Secret Clearance,,"Littleton, CO",2026-11-02T17:15:29-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7994294003,software_engineering,senior,us,False
 7633425003,Senior Payload Integration Engineer I,,"Long Beach, CA",2026-11-02T17:15:36-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7633425003,software_engineering,junior,us,False
 8162203003,Senior PLM Business Analyst II - Teamcenter Development,,"Long Beach, CA",2026-11-02T17:16:43-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8162203003,other,senior,us,False
 7980649003,Senior Production Engineer I,,"Albuquerque, NM",2026-11-10T12:52:49-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7980649003,software_engineering,junior,other,False
 8055818003,Senior Production Planner,,"Warkworth, NZ",2026-11-02T17:36:47-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8055818003,other,senior,other,False
-7984859003,Senior Program Manager I,,"Albuquerque, NM",2026-11-02T17:25:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7984859003,other,junior,other,False
 8059448003,Senior Program Manager I,,"Long Beach, CA",2026-11-02T17:23:13-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8059448003,other,junior,us,False
+7984859003,Senior Program Manager I,,"Albuquerque, NM",2026-11-02T17:25:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7984859003,other,junior,other,False
 8056718003,Senior Program Manager I - Flatellite,,"Long Beach, CA",2026-11-02T17:18:21-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8056718003,other,senior,us,False
 8056744003,Senior Program Manager II - Flatellite,,"Long Beach, CA",2026-11-02T17:18:21-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8056744003,other,senior,us,False
 8056858003,Senior Program Manager II - Laser Communications,,"Long Beach, CA",2026-11-02T17:30:24-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8056858003,marketing_content,senior,us,False
@@ -380,14 +384,14 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8055489003,Senior Program Manager II(TS/SCI),,"Long Beach, CA",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/8055489003,other,senior,us,False
 8056919003,Senior Program Manager I - Laser Communications,,"Long Beach, CA",2026-11-02T17:30:24-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8056919003,marketing_content,senior,us,False
 8056563003,Senior Program Manager I - Space Sensing & Domain Awareness (TS/SCI),,"Long Beach, CA",2026-11-02T17:18:10-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8056563003,other,senior,us,False
-8010034003,Senior Proposal Manager I,,"Long Beach, CA",2026-11-02T17:32:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8010034003,other,junior,us,False
 8003944003,Senior Proposal Manager I,,"Littleton, CO",2026-11-02T17:32:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8003944003,other,junior,us,False
-8010037003,Senior Proposal Manager I,,"Chantilly, VA",2026-11-02T17:32:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8010037003,other,junior,us,False
 8010039003,Senior Proposal Manager I,,"Tucson, AZ",2026-11-02T17:32:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8010039003,other,junior,other,False
-8004018003,Senior Proposal Manager II,,"Littleton, CO",2026-11-02T17:32:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8004018003,other,senior,us,False
+8010034003,Senior Proposal Manager I,,"Long Beach, CA",2026-11-02T17:32:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8010034003,other,junior,us,False
+8010037003,Senior Proposal Manager I,,"Chantilly, VA",2026-11-02T17:32:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8010037003,other,junior,us,False
 8010038003,Senior Proposal Manager II,,"Chantilly, VA",2026-11-02T17:32:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8010038003,other,senior,us,False
-8010036003,Senior Proposal Manager II,,"Long Beach, CA",2026-11-02T17:32:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8010036003,other,senior,us,False
+8004018003,Senior Proposal Manager II,,"Littleton, CO",2026-11-02T17:32:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8004018003,other,senior,us,False
 8010042003,Senior Proposal Manager II,,"Tucson, AZ",2026-11-02T17:32:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8010042003,other,senior,other,False
+8010036003,Senior Proposal Manager II,,"Long Beach, CA",2026-11-02T17:32:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8010036003,other,senior,us,False
 7805047003,Senior Propulsion and Fluids Test Engineer,,"Auckland, NZ",2026-11-08T16:20:17-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7805047003,software_engineering,senior,other,False
 7735085003,Senior Propulsion Automation & Test Systems Engineer,,"Waikato, NZ",2026-11-02T17:17:09-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7735085003,software_engineering,senior,other,False
 7833415003,Senior Propulsion Design Engineer I,,"Long Beach, CA",2026-11-02T17:21:47-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7833415003,software_engineering,junior,us,False
@@ -397,8 +401,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8016269003,Senior Quality Engineer I,,"Chantilly, VA",2026-11-02T17:34:14-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8016269003,software_engineering,junior,us,False
 8200561003,Senior Quality Inspector,,"Long Beach, CA",2026-11-10T14:15:48-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8200561003,other,senior,us,False
 8165866003,Senior Quality Technician,,"Albuquerque, NM",2026-11-03T15:59:23-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8165866003,other,senior,other,False
-7747032003,Senior Quality Technician,,"Tucson, AZ",2026-11-09T17:50:27-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7747032003,other,senior,other,False
 7821020003,Senior Quality Technician,,"Middle River, MD",2026-11-10T15:01:38-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7821020003,other,senior,other,False
+7747032003,Senior Quality Technician,,"Tucson, AZ",2026-11-09T17:50:27-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7747032003,other,senior,other,False
 8056274003,Senior RF Digital Payload Engineer II Pipeline,,"Long Beach, CA",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/8056274003,software_engineering,senior,us,False
 8056325003,Senior RF Digital Payload Engineer I Pipeline,,"Long Beach, CA",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/8056325003,software_engineering,senior,us,False
 7984955003,Senior RF Engineer II - Radar,,"Long Beach, CA",2026-11-02T16:26:54-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7984955003,software_engineering,senior,us,False
@@ -410,11 +414,11 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8201104003,Senior Software Engineer I - Data Engineering,,"Long Beach, CA",2026-11-10T19:10:12-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8201104003,data_ai,senior,us,False
 7987630003,Senior Software Engineer II,,"Tucson, AZ",2026-11-02T11:20:20-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7987630003,software_engineering,senior,other,False
 7987628003,Senior Software Engineer II ,,"Chantilly, VA",2026-11-02T11:20:20-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7987628003,software_engineering,senior,us,False
-8033666003,Senior Software Systems Engineer II,,"Tucson, AZ",2026-11-02T17:16:01-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8033666003,software_engineering,senior,other,False
-8038115003,Senior Spacecraft GNC Engineer I,,"Littleton, CO",2026-11-02T17:19:03-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8038115003,software_engineering,junior,us,False
+8033666003,Senior Software Systems Engineer II,,"Tucson, AZ",2026-11-11T15:16:54-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8033666003,software_engineering,senior,other,False
 8109162003,Senior Spacecraft GNC Engineer I,,"Long Beach, CA",2026-11-02T17:15:57-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8109162003,software_engineering,junior,us,False
-8038125003,Senior Spacecraft GNC Engineer II,,"Littleton, CO",2026-11-02T17:19:03-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8038125003,software_engineering,senior,us,False
+8038115003,Senior Spacecraft GNC Engineer I,,"Littleton, CO",2026-11-02T17:19:03-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8038115003,software_engineering,junior,us,False
 8109164003,Senior Spacecraft GNC Engineer II,,"Long Beach, CA",2026-11-02T17:15:57-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8109164003,software_engineering,senior,us,False
+8038125003,Senior Spacecraft GNC Engineer II,,"Littleton, CO",2026-11-02T17:19:03-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8038125003,software_engineering,senior,us,False
 7724323003,Senior Spacecraft Operations Engineer,,"Auckland, NZ",2026-11-05T03:04:05-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7724323003,software_engineering,senior,other,False
 7997670003,Senior Spacecraft Operations Engineer I,,"Long Beach, CA",2026-11-02T17:30:49-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7997670003,software_engineering,junior,us,False
 7978574003,Senior Spacecraft Operations Engineer II,,"Long Beach, CA",2026-11-02T17:23:52-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7978574003,software_engineering,senior,us,False
@@ -436,9 +440,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8059304003,Senior System Administrator I,,"Chantilly, VA",2026-11-02T17:37:08-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8059304003,other,junior,us,False
 7984980003,Senior Systems Engineer - Configuration and Change Management,,"Auckland, NZ",2026-11-02T17:16:41-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7984980003,software_engineering,senior,other,False
 8056294003,Senior Systems Engineer I,,"Long Beach, CA",2026-11-02T17:17:20-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8056294003,software_engineering,junior,us,False
-8056450003,Senior Systems Engineer II,,"Long Beach, CA",2026-11-02T17:17:20-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8056450003,software_engineering,senior,us,False
 7963735003,Senior Systems Engineer II,,"Pasadena, CA",2026-11-02T17:23:46-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7963735003,software_engineering,senior,us,False
-8025166003,Senior Systems Engineer II ,,"Tucson, AZ",2026-11-02T17:16:01-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8025166003,software_engineering,senior,other,False
+8056450003,Senior Systems Engineer II,,"Long Beach, CA",2026-11-02T17:17:20-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8056450003,software_engineering,senior,us,False
 8020899003,Senior Systems Engineer II - Mission Architecture,,"Long Beach, CA",2026-11-03T13:51:48-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8020899003,software_engineering,senior,us,False
 7982165003,Senior Systems Engineer II - RF Mission Solutions,,"Long Beach, CA",2026-11-02T17:24:24-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7982165003,software_engineering,senior,us,False
 8055035003,Senior Systems Engineer II - Secret Clearance,,"Long Beach, CA",2026-11-02T17:18:35-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8055035003,software_engineering,senior,us,False
@@ -449,7 +452,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7984931003,Senior Systems Engineer I - Spacecraft Design,,"Long Beach, CA",2026-11-02T17:19:26-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7984931003,software_engineering,senior,us,False
 8049802003,Senior Systems Safety Engineer I ,,"Long Beach, CA",2026-11-02T17:18:30-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8049802003,software_engineering,senior,us,False
 7784156003,Senior Systems Safety Engineer II,,"Long Beach, CA",2026-11-02T17:18:30-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7784156003,software_engineering,senior,us,False
-7776760003,Senior Systems Test Engineer I,,"Littleton, CO",2026-11-02T17:18:17-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7776760003,software_engineering,junior,us,False
+7776760003,Senior Systems Test Engineer I,,"Littleton, CO",2026-11-11T13:32:16-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7776760003,software_engineering,junior,us,False
 8041473003,Senior Talent Acquisition Partner II,,"Chantilly, VA",2026-11-02T17:36:10-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8041473003,people_admin,senior,us,False
 7978430003,Senior Talent Acquisition Sourcer I - Temporary,,"Long Beach, CA",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/7978430003,people_admin,senior,us,False
 8080472003,Senior Technical Payroll Analyst I - ADP System Configuration,,"Long Beach, CA",2026-11-02T17:37:58-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8080472003,accounting_finance,senior,us,False
@@ -481,7 +484,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7784244003,Spacecraft Structural Engineer I,,"Long Beach, CA",2026-11-02T19:01:30-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7784244003,software_engineering,junior,us,False
 7551977003,Stage Fluids Engineer II,,"Long Beach, CA",2026-10-29T13:46:32-04:00,https://job-boards.greenhouse.io/rocketlab/jobs/7551977003,software_engineering,mid_or_unknown,us,False
 7996040003,Structural Analysis Engineer II,,"Long Beach, CA",2026-11-03T18:55:04-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7996040003,software_engineering,mid_or_unknown,us,False
-8199770003,Structural Analyst,,"Auckland, NZ",2026-11-10T15:24:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8199770003,other,mid_or_unknown,other,False
 7595715003,Structural Analyst II,,"Long Beach, CA",2026-11-02T17:14:58-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7595715003,other,mid_or_unknown,us,False
 8028472003,"Supervisor, Facilities",,"Albuquerque, NM",2026-11-02T17:34:58-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8028472003,other,mid_or_unknown,other,False
 7900069003,Supervisor - Mechanical Production (Evening Shift) ,,"Auckland, NZ",2026-11-02T17:22:53-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7900069003,other,mid_or_unknown,other,False
@@ -501,10 +503,11 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8007422003,Systems Engineer – Configuration and Change Management,,"Auckland, NZ",2026-11-02T17:16:41-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8007422003,software_engineering,mid_or_unknown,other,False
 8054797003,Systems Engineer I,,"Long Beach, CA",2026-11-09T19:30:17-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8054797003,software_engineering,junior,us,False
 8054918003,Systems Engineer II,,"Long Beach, CA",2026-11-09T19:30:20-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8054918003,software_engineering,mid_or_unknown,us,False
-7987046003,Systems Engineering Intern Summer 2027,,"Long Beach, CA",2026-11-02T17:26:17-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7987046003,software_engineering,intern,us,False
+8025166003,Systems Engineer II ,,"Tucson, AZ",2026-11-11T15:16:54-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8025166003,software_engineering,mid_or_unknown,other,False
 7990270003,Systems Engineering Intern Summer 2027,,"Tucson, AZ",2026-11-02T17:28:15-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7990270003,software_engineering,intern,other,False
-7990272003,Systems Engineering Intern Summer 2027,,"Chantilly, VA",2026-11-02T17:28:16-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7990272003,software_engineering,intern,us,False
 7990138003,Systems Engineering Intern Summer 2027,,"Pasadena, CA",2026-11-02T17:27:47-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7990138003,software_engineering,intern,us,False
+7987046003,Systems Engineering Intern Summer 2027,,"Long Beach, CA",2026-11-02T17:26:17-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7987046003,software_engineering,intern,us,False
+7990272003,Systems Engineering Intern Summer 2027,,"Chantilly, VA",2026-11-02T17:28:16-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7990272003,software_engineering,intern,us,False
 7989768003,Systems Engineer - Mechanical,,"Auckland, NZ",2026-11-02T17:27:36-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7989768003,software_engineering,mid_or_unknown,other,False
 7812022003,Systems Safety Engineer II - Regulatory Compliance ,,"Auckland, NZ",2026-11-02T17:19:38-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7812022003,software_engineering,mid_or_unknown,other,False
 8198729003,Talent Acquisition Advisor,,"Auckland, NZ",2026-11-10T15:08:24-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8198729003,people_admin,mid_or_unknown,other,False
@@ -520,13 +523,14 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8195972003,Technical Project Manager - Ground Systems,,"Littleton, CO",2026-11-04T14:37:30-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8195972003,other,senior,us,False
 8194855003,Technical Project Manager - Ground Systems,,"Long Beach, CA",2026-11-04T14:37:33-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8194855003,other,senior,us,False
 7787940003,"Technician I-III, Ops Support – Facilities",,"Albuquerque, NM",2026-11-02T17:19:00-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7787940003,other,mid_or_unknown,other,False
-7798318003,Technician - Materials Development and Testing (Neutron),,"Auckland, NZ",2026-11-02T17:19:12-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7798318003,other,mid_or_unknown,other,False
+7798318003,Technician - Materials Development and Testing (Neutron),,"Auckland, NZ",2026-11-12T03:02:47-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7798318003,other,mid_or_unknown,other,False
 7804698003,Test and Launch Engineer II - Launch Pad,,"Wallops Island, VA",2026-11-02T11:25:55-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7804698003,software_engineering,mid_or_unknown,us,False
 8179300003,Test and Launch Engineer II - Vehicle ,,"Wallops Island, VA",2026-11-03T11:48:29-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8179300003,software_engineering,mid_or_unknown,us,False
-8107255003,Test and Launch Operations Engineer II,,"Wallops Island, VA",2026-11-11T09:17:02-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8107255003,software_engineering,mid_or_unknown,us,False
-8040212003,Test and Launch Operations Engineer II,,"Wallops Island, VA",2026-11-11T09:17:09-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8040212003,software_engineering,mid_or_unknown,us,False
+8010571003,Test and Launch Operations Engineer I,,"Wallops Island, VA",2026-11-12T10:02:11-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8010571003,software_engineering,junior,us,False
+8107255003,Test and Launch Operations Engineer II,,"Wallops Island, VA",2026-11-12T10:02:06-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8107255003,software_engineering,mid_or_unknown,us,False
+8040212003,Test and Launch Operations Engineer II,,"Wallops Island, VA",2026-11-12T10:02:13-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8040212003,software_engineering,mid_or_unknown,us,False
 7987042003,Test Engineering Intern - Manufacturing Spring 2027,,"Long Beach, CA",2026-11-02T17:26:15-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7987042003,software_engineering,intern,us,False
-8003533003,Test Engineering Intern Spring 2027,,"Wallops Island, VA",2026-11-11T09:17:06-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8003533003,software_engineering,intern,us,False
+8003533003,Test Engineering Intern Spring 2027,,"Wallops Island, VA",2026-11-12T10:02:10-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8003533003,software_engineering,intern,us,False
 7990352003,Test Engineering Intern Spring 2027,,"Stennis Space Center, MS",2026-11-02T17:28:23-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7990352003,software_engineering,intern,other,False
 7990350003,Test Engineering Intern Summer 2027,,"Stennis Space Center, MS",2026-11-02T17:28:22-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/7990350003,software_engineering,intern,other,False
 8010087003,Test Operations Electrical Technician II/III,,"Stennis Space Center, MS",2026-11-02T11:28:58-05:00,https://job-boards.greenhouse.io/rocketlab/jobs/8010087003,other,mid_or_unknown,other,False

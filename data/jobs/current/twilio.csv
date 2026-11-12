@@ -1,126 +1,122 @@
 job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_related
 8249615,Account Executive 4,,Remote - US,2026-11-06T04:17:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8249615,sales,mid_or_unknown,us,False
 8304419,Americas Sales Business Partner Manager,,Remote - US,2026-11-06T04:17:46-05:00,https://job-boards.greenhouse.io/twilio/jobs/8304419,sales,senior,us,False
-7781659,Applications Engineer 2,,Remote - India,2026-11-10T10:27:29-05:00,https://job-boards.greenhouse.io/twilio/jobs/7781659,software_engineering,mid_or_unknown,remote,False
-8261245,Billing Operations Analyst 1,,Remote - Mexico,2026-11-09T10:29:33-05:00,https://job-boards.greenhouse.io/twilio/jobs/8261245,other,junior,remote,False
+7781659,Applications Engineer 2,,Remote - India,2026-11-11T10:30:28-05:00,https://job-boards.greenhouse.io/twilio/jobs/7781659,software_engineering,mid_or_unknown,remote,False
+8316035,Architect,,Remote - US,2026-11-11T19:49:42-05:00,https://job-boards.greenhouse.io/twilio/jobs/8316035,other,mid_or_unknown,us,False
+8261245,Billing Operations Analyst 1,,Remote - Mexico,2026-11-11T10:27:56-05:00,https://job-boards.greenhouse.io/twilio/jobs/8261245,other,junior,remote,False
 8240694,"Commercial Finance Manager, Carrier Relations",,Remote - US,2026-11-06T04:17:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8240694,other,senior,us,False
-8312421,Compliance Operations Specialist,,Remote - Colombia,2026-11-09T10:25:20-05:00,https://job-boards.greenhouse.io/twilio/jobs/8312421,legal,mid_or_unknown,remote,False
+8312421,Compliance Operations Specialist,,Remote - Colombia,2026-11-11T10:24:27-05:00,https://job-boards.greenhouse.io/twilio/jobs/8312421,legal,mid_or_unknown,remote,False
 8246725,Customer Success Manager,,Remote - US,2026-11-06T04:17:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8246725,customer_support,senior,us,False
 8266975,Developer Success Engineer,,Remote - US,2026-11-06T04:17:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8266975,software_engineering,mid_or_unknown,us,False
-8108771,DevOps Engineer (Observability),,Remote - Ireland,2026-11-09T10:28:55-05:00,https://job-boards.greenhouse.io/twilio/jobs/8108771,software_engineering,mid_or_unknown,ireland_other,False
-8168599,Digital Sales Representative,,Remote - United Kingdom,2026-11-10T10:26:20-05:00,https://job-boards.greenhouse.io/twilio/jobs/8168599,sales,mid_or_unknown,uk,False
+8108771,DevOps Engineer (Observability),,Remote - Ireland,2026-11-11T10:27:59-05:00,https://job-boards.greenhouse.io/twilio/jobs/8108771,software_engineering,mid_or_unknown,ireland_other,False
+8168599,Digital Sales Representative,,Remote - United Kingdom,2026-11-11T10:27:46-05:00,https://job-boards.greenhouse.io/twilio/jobs/8168599,sales,mid_or_unknown,uk,False
 8205254,Digital Sales Representative - Activate,,Remote - US,2026-11-06T10:56:58-05:00,https://job-boards.greenhouse.io/twilio/jobs/8205254,sales,mid_or_unknown,us,False
 8327942,Digital Sales Representative - Expansion,,Remote - US,2026-11-06T04:17:46-05:00,https://job-boards.greenhouse.io/twilio/jobs/8327942,sales,mid_or_unknown,us,False
 8175075,"Director, LATAM Carrier Relations",,Remote - Brazil; Remote - Colombia,2026-11-06T04:17:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/8175075,other,leadership,remote,False
 8195222,"Director, Supplier Relations APAC",,Remote - Australia; Remote - Japan,2026-11-06T04:17:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/8195222,other,leadership,remote,False
-8281950,Executive Assistant 3,,Remote - Colombia,2026-11-09T10:25:08-05:00,https://job-boards.greenhouse.io/twilio/jobs/8281950,people_admin,mid_or_unknown,remote,False
+8281950,Executive Assistant 3,,Remote - Colombia,2026-11-11T10:24:17-05:00,https://job-boards.greenhouse.io/twilio/jobs/8281950,people_admin,mid_or_unknown,remote,False
 8301926,Executive Business Partner,,Remote - US,2026-11-06T04:17:46-05:00,https://job-boards.greenhouse.io/twilio/jobs/8301926,other,mid_or_unknown,us,False
-8097524,Fast Track Operations Specialist 2,,Remote - Colombia,2026-11-09T10:29:36-05:00,https://job-boards.greenhouse.io/twilio/jobs/8097524,other,mid_or_unknown,remote,False
-8292798,"Fraud Specialist, Supplier Operations & Governance ",,Remote - Canada,2026-11-09T10:26:21-05:00,https://job-boards.greenhouse.io/twilio/jobs/8292798,other,mid_or_unknown,remote,False
+8097524,Fast Track Operations Specialist 2,,Remote - Colombia,2026-11-11T10:28:34-05:00,https://job-boards.greenhouse.io/twilio/jobs/8097524,other,mid_or_unknown,remote,False
+8292798,"Fraud Specialist, Supplier Operations & Governance ",,Remote - Canada,2026-11-11T10:25:30-05:00,https://job-boards.greenhouse.io/twilio/jobs/8292798,other,mid_or_unknown,remote,False
 8209103,GTM Innovation Account Executive,,Remote - US,2026-11-06T04:17:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8209103,sales,mid_or_unknown,us,False
-8256423,HR Partner,,Remote - Canada,2026-11-09T10:28:56-05:00,https://job-boards.greenhouse.io/twilio/jobs/8256423,people_admin,mid_or_unknown,remote,False
-8256431,HR Partner,,Remote - India,2026-11-10T10:24:12-05:00,https://job-boards.greenhouse.io/twilio/jobs/8256431,people_admin,mid_or_unknown,remote,False
-8256373,Inside Sales - Representative (Active) 2,,Remote - United Kingdom,2026-11-10T10:24:32-05:00,https://job-boards.greenhouse.io/twilio/jobs/8256373,sales,mid_or_unknown,uk,False
-8303973,Legal Services Manager,,Remote - United Kingdom,2026-11-10T10:24:02-05:00,https://job-boards.greenhouse.io/twilio/jobs/8303973,legal,senior,uk,False
+8256423,HR Partner,,Remote - Canada,2026-11-11T10:26:09-05:00,https://job-boards.greenhouse.io/twilio/jobs/8256423,people_admin,mid_or_unknown,remote,False
+8256373,Inside Sales - Representative (Active) 2,,Remote - United Kingdom,2026-11-11T10:26:42-05:00,https://job-boards.greenhouse.io/twilio/jobs/8256373,sales,mid_or_unknown,uk,False
+8303973,Legal Services Manager,,Remote - United Kingdom,2026-11-11T10:23:56-05:00,https://job-boards.greenhouse.io/twilio/jobs/8303973,legal,senior,uk,False
 8240487,Machine Learning Engineer 2,,Remote - US,2026-11-06T04:17:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8240487,data_ai,mid_or_unknown,us,True
 8337880,Marketing Operations Manager,,Remote - US,2026-11-06T04:17:46-05:00,https://job-boards.greenhouse.io/twilio/jobs/8337880,marketing_content,senior,us,False
-8125581,New Business Account Executive,,Remote - Japan,2026-11-10T10:25:56-05:00,https://job-boards.greenhouse.io/twilio/jobs/8125581,sales,mid_or_unknown,remote,False
 8327527,New Business Account Executive,,Remote - United Kingdom,2026-11-06T04:17:46-05:00,https://job-boards.greenhouse.io/twilio/jobs/8327527,sales,mid_or_unknown,uk,False
+8125581,New Business Account Executive,,Remote - Japan,2026-11-11T10:29:04-05:00,https://job-boards.greenhouse.io/twilio/jobs/8125581,sales,mid_or_unknown,remote,False
 6372770,New Business Account Executive ,,Remote - Singapore,2026-11-06T04:17:43-05:00,https://job-boards.greenhouse.io/twilio/jobs/6372770,sales,mid_or_unknown,remote,False
-8143768,New Business Account Executive (German speaker),,Remote - United Kingdom,2026-11-10T10:25:47-05:00,https://job-boards.greenhouse.io/twilio/jobs/8143768,sales,mid_or_unknown,uk,False
-8355804,Onboarding Operations Specialist 1,,Remote - India,2026-11-10T10:25:07-05:00,https://job-boards.greenhouse.io/twilio/jobs/8355804,other,junior,remote,False
+8143768,New Business Account Executive (German speaker),,Remote - United Kingdom,2026-11-11T10:28:55-05:00,https://job-boards.greenhouse.io/twilio/jobs/8143768,sales,mid_or_unknown,uk,False
+8355804,Onboarding Operations Specialist 1,,Remote - India,2026-11-11T10:25:16-05:00,https://job-boards.greenhouse.io/twilio/jobs/8355804,other,junior,remote,False
 8370335,Partner Program Manager,,Remote - US,2026-11-10T13:04:04-05:00,https://job-boards.greenhouse.io/twilio/jobs/8370335,other,senior,us,False
-8324443,Payroll Analyst II (Colombia and LATAM Payroll),,Remote - Mexico,2026-11-09T10:23:42-05:00,https://job-boards.greenhouse.io/twilio/jobs/8324443,accounting_finance,mid_or_unknown,remote,False
-8324448,Payroll Analyst II (US and Mexico Payroll),,Remote - Mexico,2026-11-09T10:23:57-05:00,https://job-boards.greenhouse.io/twilio/jobs/8324448,accounting_finance,mid_or_unknown,remote,False
-8265268,Payroll Tax and Compliance Analyst,,Remote - Ireland,2026-11-09T10:30:02-05:00,https://job-boards.greenhouse.io/twilio/jobs/8265268,legal,mid_or_unknown,ireland_other,False
-8213730,Personalized Support Engineer,,Remote - India,2026-11-10T10:26:00-05:00,https://job-boards.greenhouse.io/twilio/jobs/8213730,software_engineering,mid_or_unknown,remote,False
-8355801,Phone Numbers Operations Specialist 2,,Remote - India,2026-11-10T10:25:04-05:00,https://job-boards.greenhouse.io/twilio/jobs/8355801,other,mid_or_unknown,remote,False
-8346263,Phone Number specialist 1,,Remote - India,2026-11-10T10:23:28-05:00,https://job-boards.greenhouse.io/twilio/jobs/8346263,other,junior,remote,False
-8334053,Phone Number specialist 1,,Remote - India,2026-11-10T10:23:51-05:00,https://job-boards.greenhouse.io/twilio/jobs/8334053,other,junior,remote,False
-8064090,Presales Engineer,,Remote - United Kingdom,2026-11-10T10:26:14-05:00,https://job-boards.greenhouse.io/twilio/jobs/8064090,software_engineering,mid_or_unknown,uk,False
-8243073,Presales Engineer,,Remote - United Kingdom,2026-11-10T10:24:59-05:00,https://job-boards.greenhouse.io/twilio/jobs/8243073,software_engineering,mid_or_unknown,uk,False
-8157509,Presales Engineer ,,Remote - Ireland,2026-11-10T10:26:30-05:00,https://job-boards.greenhouse.io/twilio/jobs/8157509,software_engineering,mid_or_unknown,ireland_other,False
-8000178,Presales Engineer (German Speaking) ,,Remote - United Kingdom,2026-11-11T04:46:27-05:00,https://job-boards.greenhouse.io/twilio/jobs/8000178,software_engineering,mid_or_unknown,uk,False
+8324443,Payroll Analyst II (Colombia and LATAM Payroll),,Remote - Mexico,2026-11-11T10:23:00-05:00,https://job-boards.greenhouse.io/twilio/jobs/8324443,accounting_finance,mid_or_unknown,remote,False
+8324448,Payroll Analyst II (US and Mexico Payroll),,Remote - Mexico,2026-11-11T10:23:12-05:00,https://job-boards.greenhouse.io/twilio/jobs/8324448,accounting_finance,mid_or_unknown,remote,False
+8265268,Payroll Tax and Compliance Analyst,,Remote - Ireland,2026-11-11T10:28:40-05:00,https://job-boards.greenhouse.io/twilio/jobs/8265268,legal,mid_or_unknown,ireland_other,False
+8213730,Personalized Support Engineer,,Remote - India,2026-11-11T10:26:36-05:00,https://job-boards.greenhouse.io/twilio/jobs/8213730,software_engineering,mid_or_unknown,remote,False
+8355801,Phone Numbers Operations Specialist 2,,Remote - India,2026-11-11T10:25:13-05:00,https://job-boards.greenhouse.io/twilio/jobs/8355801,other,mid_or_unknown,remote,False
+8346263,Phone Number specialist 1,,Remote - India,2026-11-11T10:23:24-05:00,https://job-boards.greenhouse.io/twilio/jobs/8346263,other,junior,remote,False
+8334053,Phone Number specialist 1,,Remote - India,2026-11-11T10:23:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8334053,other,junior,remote,False
+8064090,Presales Engineer,,Remote - United Kingdom,2026-11-11T10:29:22-05:00,https://job-boards.greenhouse.io/twilio/jobs/8064090,software_engineering,mid_or_unknown,uk,False
+8243073,Presales Engineer,,Remote - United Kingdom,2026-11-11T10:27:40-05:00,https://job-boards.greenhouse.io/twilio/jobs/8243073,software_engineering,mid_or_unknown,uk,False
+8000178,Presales Engineer (German Speaking) ,,Remote - United Kingdom,2026-11-11T10:29:43-05:00,https://job-boards.greenhouse.io/twilio/jobs/8000178,software_engineering,mid_or_unknown,uk,False
 8319388,Principal Engineer (L5),,Remote - India,2026-11-06T04:17:46-05:00,https://job-boards.greenhouse.io/twilio/jobs/8319388,software_engineering,senior,remote,False
 8208337,"Principal Executive Communications Manager, Chief Product & Technology Officer",,Remote - US,2026-11-06T04:17:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8208337,marketing_content,leadership,us,False
 8258597,"Principal, Machine Learning Engineer (L5)",,Remote - India,2026-11-06T04:17:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8258597,data_ai,senior,remote,True
 8348199,"Principal Manager, Procurement Enablement & Contingent Workforce",,Remote - US,2026-11-06T04:17:46-05:00,https://job-boards.greenhouse.io/twilio/jobs/8348199,other,senior,us,False
 8237699,Principal Presales Engineer,,Remote - US,2026-11-06T04:17:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8237699,software_engineering,senior,us,False
 8145984,Principal Presales Engineer ,,Remote - US,2026-11-06T04:17:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/8145984,software_engineering,senior,us,False
-8267928,"Principal Presales Engineer, Product Specialist",,Remote - Brazil,2026-11-09T10:26:14-05:00,https://job-boards.greenhouse.io/twilio/jobs/8267928,software_engineering,senior,remote,False
-7987837,Principal Price Realization Strategy Manager - Digital & PLG Pricing,,Remote - US,2026-11-06T04:17:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/7987837,other,senior,us,False
+8267928,"Principal Presales Engineer, Product Specialist",,Remote - Brazil,2026-11-11T10:25:24-05:00,https://job-boards.greenhouse.io/twilio/jobs/8267928,software_engineering,senior,remote,False
 8236862,Principal Product Manager,,Remote - US,2026-11-06T04:17:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8236862,product_management,senior,us,False
-8136763,Product Manager L2 (mid-level),,Remote - Estonia,2026-11-09T15:32:04-05:00,https://job-boards.greenhouse.io/twilio/jobs/8136763,product_management,mid_or_unknown,remote,False
-8263280,"Program Manager, Carrier Operations & Governance",,Remote - Canada,2026-11-09T10:26:34-05:00,https://job-boards.greenhouse.io/twilio/jobs/8263280,other,senior,remote,False
+8136763,Product Manager L2 (mid-level),,Remote - Estonia,2026-11-11T10:28:46-05:00,https://job-boards.greenhouse.io/twilio/jobs/8136763,product_management,mid_or_unknown,remote,False
+8263280,"Program Manager, Carrier Operations & Governance",,Remote - Canada,2026-11-11T10:25:48-05:00,https://job-boards.greenhouse.io/twilio/jobs/8263280,other,senior,remote,False
 8347887,Sales Development Representative,,Remote - US,2026-11-06T04:17:46-05:00,https://job-boards.greenhouse.io/twilio/jobs/8347887,sales,mid_or_unknown,us,False
-8261528,Sales Development Representative,,Remote - Ireland,2026-11-09T10:30:12-05:00,https://job-boards.greenhouse.io/twilio/jobs/8261528,sales,mid_or_unknown,ireland_other,False
-8112239,Sales Development Representative 2,,Remote - United Kingdom,2026-11-10T10:25:35-05:00,https://job-boards.greenhouse.io/twilio/jobs/8112239,sales,mid_or_unknown,uk,False
-8055481,"Security Engineer, Incident Response",,Remote - United Kingdom,2026-11-10T10:26:47-05:00,https://job-boards.greenhouse.io/twilio/jobs/8055481,software_engineering,mid_or_unknown,uk,False
+8261528,Sales Development Representative,,Remote - Ireland,2026-11-11T10:28:49-05:00,https://job-boards.greenhouse.io/twilio/jobs/8261528,sales,mid_or_unknown,ireland_other,False
+8112239,Sales Development Representative 2,,Remote - United Kingdom,2026-11-11T10:28:06-05:00,https://job-boards.greenhouse.io/twilio/jobs/8112239,sales,mid_or_unknown,uk,False
+8055481,"Security Engineer, Incident Response",,Remote - United Kingdom,2026-11-11T10:29:25-05:00,https://job-boards.greenhouse.io/twilio/jobs/8055481,software_engineering,mid_or_unknown,uk,False
 8327434,Senior Account Executive,,Remote - US,2026-11-06T04:17:46-05:00,https://job-boards.greenhouse.io/twilio/jobs/8327434,sales,senior,us,False
 8261247,Senior Accounting Manager,,Remote - Mexico,2026-11-06T13:32:34-05:00,https://job-boards.greenhouse.io/twilio/jobs/8261247,accounting_finance,senior,remote,False
 8044650,Senior Analytics Engineer,,Remote - US,2026-11-06T04:17:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/8044650,software_engineering,senior,us,False
 8093320,"Senior Director, Developer Relations",,Remote - US,2026-11-06T04:17:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/8093320,software_engineering,leadership,us,False
 8001804,Senior Engineering Manager (L5),,Remote - India,2026-11-11T06:01:37-05:00,https://job-boards.greenhouse.io/twilio/jobs/8001804,software_engineering,senior,remote,False
-8306461,Senior Field Marketing Manager - DACH,,Remote - United Kingdom,2026-11-10T10:24:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8306461,marketing_content,senior,uk,False
-8306459,Senior Field Marketing Manager - North,,Remote - United Kingdom,2026-11-10T10:24:38-05:00,https://job-boards.greenhouse.io/twilio/jobs/8306459,marketing_content,senior,uk,False
+8306461,Senior Field Marketing Manager - DACH,,Remote - United Kingdom,2026-11-11T10:24:42-05:00,https://job-boards.greenhouse.io/twilio/jobs/8306461,marketing_content,senior,uk,False
+8306459,Senior Field Marketing Manager - North,,Remote - United Kingdom,2026-11-11T10:24:38-05:00,https://job-boards.greenhouse.io/twilio/jobs/8306459,marketing_content,senior,uk,False
 8256114,"Senior Financial Manager, Partnerships",,Remote - US,2026-11-06T04:17:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8256114,other,senior,us,False
-8256912,Senior Internal Auditor,,Remote - Canada,2026-11-09T10:28:20-05:00,https://job-boards.greenhouse.io/twilio/jobs/8256912,accounting_finance,senior,remote,False
 8256427,Senior Internal Auditor,,Remote - US,2026-11-06T04:17:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8256427,accounting_finance,senior,us,False
-8249285,Senior International Payroll Analyst,,Remote - Ireland,2026-11-09T10:27:16-05:00,https://job-boards.greenhouse.io/twilio/jobs/8249285,accounting_finance,senior,ireland_other,False
+8256912,Senior Internal Auditor,,Remote - Canada,2026-11-11T10:26:55-05:00,https://job-boards.greenhouse.io/twilio/jobs/8256912,accounting_finance,senior,remote,False
+8249285,Senior International Payroll Analyst,,Remote - Ireland,2026-11-11T10:26:05-05:00,https://job-boards.greenhouse.io/twilio/jobs/8249285,accounting_finance,senior,ireland_other,False
 8213826,"Senior Manager, Customer Success",,Remote - Australia,2026-11-06T04:17:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8213826,customer_support,senior,remote,False
 8362926,"Senior Manager, Strategic Accounts",,Remote - Japan,2026-11-08T22:20:16-05:00,https://job-boards.greenhouse.io/twilio/jobs/8362926,other,senior,remote,False
 8245812,Senior Partner Marketing Manager,,Remote - US,2026-11-06T04:17:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8245812,marketing_content,senior,us,False
 8287927,Senior Partner Program Manager,,Remote - US,2026-11-10T11:34:14-05:00,https://job-boards.greenhouse.io/twilio/jobs/8287927,other,senior,us,False
 8202189,Senior People Technology Analyst - Talent Acquisition,,Remote - US,2026-11-10T10:32:13-05:00,https://job-boards.greenhouse.io/twilio/jobs/8202189,people_admin,senior,us,False
 8247185,Senior Product Manager,,Remote - US,2026-11-06T04:17:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8247185,product_management,senior,us,False
-8332638,"Senior Program Manager, Talent Development",,Remote - Canada,2026-11-09T10:24:20-05:00,https://job-boards.greenhouse.io/twilio/jobs/8332638,people_admin,senior,remote,False
+8332638,"Senior Program Manager, Talent Development",,Remote - Canada,2026-11-11T10:23:27-05:00,https://job-boards.greenhouse.io/twilio/jobs/8332638,people_admin,senior,remote,False
 8065040,"Senior Security Engineer, Incident Response",,Remote - US,2026-11-06T17:03:07-05:00,https://job-boards.greenhouse.io/twilio/jobs/8065040,software_engineering,senior,us,False
-8015771,Senior Software Engineer,,Remote - Ireland,2026-11-09T10:30:59-05:00,https://job-boards.greenhouse.io/twilio/jobs/8015771,software_engineering,senior,ireland_other,False
-8327839,Senior Solutions Engineer,,Remote - United Kingdom,2026-11-10T10:23:40-05:00,https://job-boards.greenhouse.io/twilio/jobs/8327839,software_engineering,senior,uk,False
-8157507,Senior Strategic Account Executive (French Speaker),,Remote - United Kingdom,2026-11-10T10:26:27-05:00,https://job-boards.greenhouse.io/twilio/jobs/8157507,sales,senior,uk,False
+8015771,Senior Software Engineer,,Remote - Ireland,2026-11-11T10:29:36-05:00,https://job-boards.greenhouse.io/twilio/jobs/8015771,software_engineering,senior,ireland_other,False
+8327839,Senior Solutions Engineer,,Remote - United Kingdom,2026-11-11T10:23:37-05:00,https://job-boards.greenhouse.io/twilio/jobs/8327839,software_engineering,senior,uk,False
+8157507,Senior Strategic Account Executive (French Speaker),,Remote - United Kingdom,2026-11-11T10:29:15-05:00,https://job-boards.greenhouse.io/twilio/jobs/8157507,sales,senior,uk,False
 8185629,Senior Strategic Account Executive - SEA,,Remote - Singapore,2026-11-06T04:17:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/8185629,sales,senior,remote,False
 8026199,Software Engineer (L3) Email,,Remote - US,2026-11-06T04:17:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/8026199,software_engineering,mid_or_unknown,us,False
-8114393,Solution Engineer,,Remote - Singapore,2026-11-10T10:25:50-05:00,https://job-boards.greenhouse.io/twilio/jobs/8114393,software_engineering,mid_or_unknown,remote,False
+8114393,Solution Engineer,,Remote - Singapore,2026-11-11T10:28:58-05:00,https://job-boards.greenhouse.io/twilio/jobs/8114393,software_engineering,mid_or_unknown,remote,False
 7960476,Sr Architect - Emerging Technologies,,Remote - US,2026-11-06T04:17:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/7960476,other,senior,us,False
 8325734,"Sr. Director, Marketing Strategy and Analytics",,Remote - US,2026-11-09T15:31:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8325734,marketing_content,leadership,us,False
 8108776,Sr. Principal Product Manager,,Remote - US,2026-11-06T04:17:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/8108776,product_management,senior,us,False
 8160279,"Staff Enterprise Security Engineer, AI Security",,Remote - US,2026-11-06T04:17:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/8160279,data_ai,senior,us,True
-8207721,"Staff, Escalations Manager",,Remote - Spain,2026-11-09T10:28:09-05:00,https://job-boards.greenhouse.io/twilio/jobs/8207721,other,senior,remote,False
-8258589,Staff Machine Learning Engineer,,"Remote - Ontario, Canada (DNU)",2026-11-09T10:29:50-05:00,https://job-boards.greenhouse.io/twilio/jobs/8258589,data_ai,senior,remote,True
-8258581,Staff Machine Learning Engineer,,"Remote - Ontario, Canada (DNU)",2026-11-09T10:27:59-05:00,https://job-boards.greenhouse.io/twilio/jobs/8258581,data_ai,senior,remote,True
+8207721,"Staff, Escalations Manager",,Remote - Spain,2026-11-11T10:27:28-05:00,https://job-boards.greenhouse.io/twilio/jobs/8207721,other,senior,remote,False
+8258581,Staff Machine Learning Engineer,,"Remote - Ontario, Canada (DNU)",2026-11-11T10:26:39-05:00,https://job-boards.greenhouse.io/twilio/jobs/8258581,data_ai,senior,remote,True
+8258589,Staff Machine Learning Engineer,,"Remote - Ontario, Canada (DNU)",2026-11-11T10:28:25-05:00,https://job-boards.greenhouse.io/twilio/jobs/8258589,data_ai,senior,remote,True
 8067027,Staff Mobile Software Engineer (P4),,Remote - US,2026-11-06T04:17:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/8067027,software_engineering,senior,us,False
-8131091,Staff Product Manager,,Remote - US,2026-11-06T04:17:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/8131091,product_management,senior,us,False
-7904293,Staff Product Manager,,Remote - Canada,2026-11-06T04:17:43-05:00,https://job-boards.greenhouse.io/twilio/jobs/7904293,product_management,senior,remote,False
 8268235,Staff Product Manager,,Remote - US,2026-11-06T04:17:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8268235,product_management,senior,us,False
+7904293,Staff Product Manager,,Remote - Canada,2026-11-06T04:17:43-05:00,https://job-boards.greenhouse.io/twilio/jobs/7904293,product_management,senior,remote,False
+8131091,Staff Product Manager,,Remote - US,2026-11-06T04:17:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/8131091,product_management,senior,us,False
 8319160,"Staff, Product Manager - Identity",,Remote - US,2026-11-06T04:17:46-05:00,https://job-boards.greenhouse.io/twilio/jobs/8319160,product_management,senior,us,False
-8240288,Staff Software Engineer (L4),,Remote - Ireland,2026-11-10T16:06:59-05:00,https://job-boards.greenhouse.io/twilio/jobs/8240288,software_engineering,senior,ireland_other,False
-8236865,Staff Software Engineer (L4),,Remote - India,2026-11-10T10:24:48-05:00,https://job-boards.greenhouse.io/twilio/jobs/8236865,software_engineering,senior,remote,False
-8319434,"Staff, Software Engineer (L4)",,Remote - India,2026-11-10T10:23:10-05:00,https://job-boards.greenhouse.io/twilio/jobs/8319434,software_engineering,senior,remote,False
+8240288,Staff Software Engineer (L4),,Remote - Ireland,2026-11-11T10:27:37-05:00,https://job-boards.greenhouse.io/twilio/jobs/8240288,software_engineering,senior,ireland_other,False
+8319434,"Staff, Software Engineer (L4)",,Remote - India,2026-11-11T10:23:05-05:00,https://job-boards.greenhouse.io/twilio/jobs/8319434,software_engineering,senior,remote,False
 7782805,Staff Software Engineer (L4) Data Platform,,Remote - US,2026-11-06T04:17:43-05:00,https://job-boards.greenhouse.io/twilio/jobs/7782805,software_engineering,senior,us,False
 8356548,"Staff Software Engineer, Mobile (P4)",,Remote - Canada,2026-11-06T04:17:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/8356548,software_engineering,senior,remote,False
 8350197,"Staff, Technical Account Manager",,Remote - US,2026-11-06T04:17:46-05:00,https://job-boards.greenhouse.io/twilio/jobs/8350197,other,senior,us,False
-8076981,Strategic Account Excecutive,,Remote - Mexico,2026-11-09T10:30:40-05:00,https://job-boards.greenhouse.io/twilio/jobs/8076981,other,mid_or_unknown,remote,False
+8076981,Strategic Account Excecutive,,Remote - Mexico,2026-11-11T10:29:12-05:00,https://job-boards.greenhouse.io/twilio/jobs/8076981,other,mid_or_unknown,remote,False
+8350289,Strategic Account Executive,,Remote - Japan,2026-11-11T10:24:58-05:00,https://job-boards.greenhouse.io/twilio/jobs/8350289,sales,mid_or_unknown,remote,False
 8243069,Strategic Account Executive,,Remote - United Kingdom,2026-11-09T12:47:16-05:00,https://job-boards.greenhouse.io/twilio/jobs/8243069,sales,mid_or_unknown,uk,False
-8178812,Strategic Account Executive,,Remote - Singapore,2026-11-10T10:25:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/8178812,sales,mid_or_unknown,remote,False
-8160532,Strategic Account Executive,,Remote - United Kingdom,2026-11-10T10:26:16-05:00,https://job-boards.greenhouse.io/twilio/jobs/8160532,sales,mid_or_unknown,uk,False
-8350289,Strategic Account Executive,,Remote - Japan,2026-11-10T10:24:55-05:00,https://job-boards.greenhouse.io/twilio/jobs/8350289,sales,mid_or_unknown,remote,False
-8330326,Strategic Account Executive,,Remote - Australia,2026-11-10T10:23:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/8330326,sales,mid_or_unknown,remote,False
+8160532,Strategic Account Executive,,Remote - United Kingdom,2026-11-11T10:27:43-05:00,https://job-boards.greenhouse.io/twilio/jobs/8160532,sales,mid_or_unknown,uk,False
+8178812,Strategic Account Executive,,Remote - Singapore,2026-11-11T10:26:02-05:00,https://job-boards.greenhouse.io/twilio/jobs/8178812,sales,mid_or_unknown,remote,False
+8330326,Strategic Account Executive,,Remote - Australia,2026-11-11T10:23:41-05:00,https://job-boards.greenhouse.io/twilio/jobs/8330326,sales,mid_or_unknown,remote,False
 8261705,Strategic Account Executive 4 - Regverts,,Remote - US,2026-11-06T04:17:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8261705,sales,mid_or_unknown,us,False
 8241250,Strategic Account Executive 5,,Remote - US,2026-11-10T11:17:33-05:00,https://job-boards.greenhouse.io/twilio/jobs/8241250,sales,mid_or_unknown,us,False
-7865849,Strategic Account Executive (German Speaking),,Remote - Spain,2026-11-10T10:27:17-05:00,https://job-boards.greenhouse.io/twilio/jobs/7865849,sales,mid_or_unknown,remote,False
+7865849,Strategic Account Executive (German Speaking),,Remote - Spain,2026-11-11T10:30:03-05:00,https://job-boards.greenhouse.io/twilio/jobs/7865849,sales,mid_or_unknown,remote,False
 8281078,Strategy & Operations Manager,,Remote - US,2026-11-06T04:17:46-05:00,https://job-boards.greenhouse.io/twilio/jobs/8281078,other,senior,us,False
-8324446,"Supervisor, Billing Operations",,"Mexico City, Mexico",2026-11-09T10:23:54-05:00,https://job-boards.greenhouse.io/twilio/jobs/8324446,other,mid_or_unknown,other,False
+8324446,"Supervisor, Billing Operations",,"Mexico City, Mexico",2026-11-11T10:23:09-05:00,https://job-boards.greenhouse.io/twilio/jobs/8324446,other,mid_or_unknown,other,False
 7966928,Tech Lead /Sr. Principal Engineer (L6),,Remote - India,2026-11-06T04:17:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/7966928,software_engineering,senior,remote,False
+8300856,Technical Account Manager,,Remote - Colombia,2026-11-11T10:23:48-05:00,https://job-boards.greenhouse.io/twilio/jobs/8300856,other,senior,remote,False
 8360564,Technical Account Manager,,Remote - Colombia,2026-11-11T08:57:47-05:00,https://job-boards.greenhouse.io/twilio/jobs/8360564,other,senior,remote,False
-8300856,Technical Account Manager,,Remote - Colombia,2026-11-09T10:24:45-05:00,https://job-boards.greenhouse.io/twilio/jobs/8300856,other,senior,remote,False
-8201498,Technical Account Manager 3,,Remote - Colombia,2026-11-09T10:27:10-05:00,https://job-boards.greenhouse.io/twilio/jobs/8201498,other,senior,remote,False
-8028958,Technical Account Manager 3,,Remote - Colombia,2026-11-09T10:31:22-05:00,https://job-boards.greenhouse.io/twilio/jobs/8028958,other,senior,remote,False
-8204407,Technical Support Engineer,,Remote - Ireland,2026-11-09T10:28:02-05:00,https://job-boards.greenhouse.io/twilio/jobs/8204407,software_engineering,mid_or_unknown,ireland_other,False
-8261710,Technical Support Engineer 2,,Remote - Ireland,2026-11-09T10:30:19-05:00,https://job-boards.greenhouse.io/twilio/jobs/8261710,software_engineering,mid_or_unknown,ireland_other,False
-8028473,Technical Support Engineer 2,,Remote - India,2026-11-10T10:26:57-05:00,https://job-boards.greenhouse.io/twilio/jobs/8028473,software_engineering,mid_or_unknown,remote,False
-8258962,Technical Support Engineer 2,,Remote - Ireland,2026-11-09T10:29:47-05:00,https://job-boards.greenhouse.io/twilio/jobs/8258962,software_engineering,mid_or_unknown,ireland_other,False
-8244723,Technical Support Engineer 2,,Remote - Ireland,2026-11-09T10:29:08-05:00,https://job-boards.greenhouse.io/twilio/jobs/8244723,software_engineering,mid_or_unknown,ireland_other,False
-8226571,Technical Support Expert 2,,Remote - Colombia,2026-11-09T10:26:48-05:00,https://job-boards.greenhouse.io/twilio/jobs/8226571,other,mid_or_unknown,remote,False
-8280711,Technical Support Expert 2,,Remote - Colombia,2026-11-09T10:24:58-05:00,https://job-boards.greenhouse.io/twilio/jobs/8280711,other,mid_or_unknown,remote,False
-8206834,Technical Support Expert 2,,Remote - Colombia,2026-11-09T10:28:13-05:00,https://job-boards.greenhouse.io/twilio/jobs/8206834,other,mid_or_unknown,remote,False
+8201498,Technical Account Manager 3,,Remote - Colombia,2026-11-11T10:26:51-05:00,https://job-boards.greenhouse.io/twilio/jobs/8201498,other,senior,remote,False
+8028958,Technical Account Manager 3,,Remote - Colombia,2026-11-11T10:29:52-05:00,https://job-boards.greenhouse.io/twilio/jobs/8028958,other,senior,remote,False
+8204407,Technical Support Engineer,,Remote - Ireland,2026-11-11T10:27:25-05:00,https://job-boards.greenhouse.io/twilio/jobs/8204407,software_engineering,mid_or_unknown,ireland_other,False
+8028473,Technical Support Engineer 2,,Remote - India,2026-11-11T10:29:27-05:00,https://job-boards.greenhouse.io/twilio/jobs/8028473,software_engineering,mid_or_unknown,remote,False
+8244723,Technical Support Engineer 2,,Remote - Ireland,2026-11-11T10:27:34-05:00,https://job-boards.greenhouse.io/twilio/jobs/8244723,software_engineering,mid_or_unknown,ireland_other,False
+8261710,Technical Support Engineer 2,,Remote - Ireland,2026-11-11T10:28:52-05:00,https://job-boards.greenhouse.io/twilio/jobs/8261710,software_engineering,mid_or_unknown,ireland_other,False
+8280711,Technical Support Expert 2,,Remote - Colombia,2026-11-11T10:24:02-05:00,https://job-boards.greenhouse.io/twilio/jobs/8280711,other,mid_or_unknown,remote,False
+8206834,Technical Support Expert 2,,Remote - Colombia,2026-11-11T10:27:31-05:00,https://job-boards.greenhouse.io/twilio/jobs/8206834,other,mid_or_unknown,remote,False
+8226571,Technical Support Expert 2,,Remote - Colombia,2026-11-11T10:25:40-05:00,https://job-boards.greenhouse.io/twilio/jobs/8226571,other,mid_or_unknown,remote,False
 8185920,Vendor Operations & Governance Specialist,,Remote - US,2026-11-06T04:17:44-05:00,https://job-boards.greenhouse.io/twilio/jobs/8185920,other,mid_or_unknown,us,False

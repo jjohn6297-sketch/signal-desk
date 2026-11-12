@@ -2,7 +2,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8205248,Corporate Development Manager,,New York City,2026-10-30T08:59:51-04:00,http://www.squarespace.com/about/careers?gh_jid=8205248,other,senior,us,False
 7962046,Database Engineering Team Manager,,Dublin,2026-11-10T14:45:59-05:00,http://www.squarespace.com/about/careers?gh_jid=7962046,software_engineering,senior,dublin,False
 8249787,"Director, Corporate Communications",,New York City,2026-10-30T09:01:32-04:00,http://www.squarespace.com/about/careers?gh_jid=8249787,marketing_content,leadership,us,False
-8174807,"Director, GTM & Growth Marketing",,New York City,2026-10-30T08:59:14-04:00,http://www.squarespace.com/about/careers?gh_jid=8174807,marketing_content,leadership,us,False
 8101306,"Enterprise Transformation, Senior Lead ",,New York City,2026-11-03T03:06:35-05:00,http://www.squarespace.com/about/careers?gh_jid=8101306,other,senior,us,False
 8349561,"Executive Assistant, R&D",,New York City,2026-11-09T12:09:42-05:00,http://www.squarespace.com/about/careers?gh_jid=8349561,people_admin,mid_or_unknown,us,False
 8159515,Finance Manager ,,New York City,2026-10-30T08:56:32-04:00,http://www.squarespace.com/about/careers?gh_jid=8159515,other,senior,us,False
@@ -11,7 +10,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7557494,"Senior Backend Engineer, Domains",,Aveiro,2026-10-01T11:31:58-04:00,http://www.squarespace.com/about/careers?gh_jid=7557494,software_engineering,senior,other,False
 8205265,"Senior Lead, AI Pricing & Margin Strategy",,New York City,2026-10-30T09:00:15-04:00,http://www.squarespace.com/about/careers?gh_jid=8205265,data_ai,senior,us,True
 8249791,"Senior Manager, Data Science and Machine Learning",,New York City,2026-10-30T09:01:44-04:00,http://www.squarespace.com/about/careers?gh_jid=8249791,data_ai,senior,us,True
-8159497,Senior Manager International Strategy,,New York City,2026-10-30T08:56:12-04:00,http://www.squarespace.com/about/careers?gh_jid=8159497,other,senior,us,False
 8232378,"Senior Media Strategist, Creator & Affiliate",,New York City,2026-10-30T09:01:14-04:00,http://www.squarespace.com/about/careers?gh_jid=8232378,other,senior,us,False
 8205239,"Senior Product Manager, Acuity Scheduling, Payments",,New York City,2026-11-02T09:25:26-05:00,http://www.squarespace.com/about/careers?gh_jid=8205239,product_management,senior,us,False
 8205261,"Senior Product Manager, Domains ",,New York City; Remote,2026-11-04T14:05:17-05:00,http://www.squarespace.com/about/careers?gh_jid=8205261,product_management,senior,us,False
