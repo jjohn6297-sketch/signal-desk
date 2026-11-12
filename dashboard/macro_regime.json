@@ -1,10 +1,10 @@
 [
 {
-"as_of": "2026-11-11",
+"as_of": "2026-11-12",
 "regime": "Late cycle",
 "since": "2026-10-09",
 "stress": 0,
-"watch": 3,
+"watch": 4,
 "known": 9,
 "total": 9,
 "size_limit": "One band lower; maximum positions capped at standard",

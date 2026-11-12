@@ -461,8 +461,14 @@ forecasts:
   resolution:
     method: judged
     guidance: Check Atlassian announcements and results calls to 31 Mar 2027.
-  status: open
+  status: void
   outcome: null
+  resolved_at: '2026-11-12'
+  evidence:
+    summary: 'Void: the outcome was already public when the forecast was made (26 Oct). Atlassian announced expanded
+      usage-based pricing, including Rovo credits and per-resolution charges for AI agents, on 1 Sep 2026, with billing
+      from 3 Dec 2026. Scoring it would reward a known outcome.'
+    url: https://www.atlassian.com/blog/company-news/expanded-usage-based-pricing
 - id: CODE-3
   kind: thesis
   thesis: coding-agents-usage-pricing
@@ -1592,8 +1598,13 @@ forecasts:
     guidance: ONS GDP first quarterly estimate, UK, July to September 2026 (12 Nov 2026, 07:00), real GDP change
       on the previous quarter, as first published. Release https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukjulytoseptember2026;
       market https://polymarket.com/event/uk-gdp-growth-in-q3-2026-qoq-20260813112748100; Q2 https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/quarterlynationalaccounts/apriltojune2026
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-12'
+  evidence:
+    summary: 'ONS first estimate: real GDP +0.7% q/q in Q3 2026 (+1.9% y/y); services +0.9%, production +0.1%, construction
+      -0.7%; September +0.2% m/m, August revised to 0.0%; Q2 +0.5%.'
+    url: https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/julytoseptember2026
 - id: EV-20261110-US-3
   kind: event
   thesis: long-duration-bonds
@@ -1698,5 +1709,57 @@ forecasts:
       Release https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026; Q4 consensus and September figures
       https://forexuro.com/articles/uk-cpi-forecast-2026; Ofgem https://ofgem.gov.uk/press-release/energy-price-cap-will-rise-4-october-2026;
       nowcast https://www.scanalytics.co.uk/cpi-forecast/
+  status: open
+  outcome: null
+- id: EV-20261113-US-1
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-11-13'
+  statement: US October PPI final demand less foods and energy (seasonally adjusted) rises 0.3% or less month on month,
+    as first published to one decimal
+  probability_raw: 0.5
+  probability: 0.574
+  reasoning: Consensus is +0.3% after +0.7% in September. Core PPI printed at or below its consensus in 4 of the last 10
+    months and above it in 5, so the base rate for at or below consensus is about even; some reversal of September's
+    jump is likely, but October core CPI was hot (+0.3%).
+  expected: Core +0.3% m/m; headline about +0.3-0.4% as oil fell in the pricing window
+  implications:
+    if_yes: Pipeline pressure easing after September; a small relief for the bonds bet, though a December hike stays
+      priced
+    if_no: A second hot core PPI after hot core CPI; raises the odds of a 50bp December move or more hikes in 2027,
+      against the bonds bet
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-12'
+  resolves_by: '2026-11-13'
+  resolution:
+    method: judged
+    guidance: BLS PPI news release for October 2026 (13 Nov 2026, 08:30 ET), final demand less foods and energy, seasonally
+      adjusted one-month percent change, as first published. Consensus https://www.stocktitan.net/articles/october-2026-ppi-preview-yearly-rate
+      and https://tradingeconomics.com/united-states/core-producer-prices-mom; history https://www.investing.com/economic-calendar/united-states-core-producer-price-index-(ppi)-mom-62
+  status: open
+  outcome: null
+- id: EV-20261113-US-2
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-11-13'
+  statement: US October PPI final demand (seasonally adjusted) rises 0.4% or more month on month, as first published to
+    one decimal
+  probability_raw: 0.45
+  probability: 0.495
+  reasoning: Dow Jones consensus is +0.4% after +1.3% in September. Brent fell about 4% and WTI about 11% between the
+    September and October pricing days, which argues for a softer energy component than the consensus may assume; headline
+    PPI misses its consensus by 0.3 points or more in most months, so this is close to a coin toss with a slight lean below.
+  expected: Headline about +0.3%, with energy flat to lower
+  implications:
+    if_yes: Producer inflation still broad even with oil off its highs; against the bonds bet
+    if_no: Energy pass-through fading; mildly supportive of the bonds bet and of the airlines thesis's oil leg
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-12'
+  resolves_by: '2026-11-13'
+  resolution:
+    method: judged
+    guidance: BLS PPI news release for October 2026 (13 Nov 2026, 08:30 ET), final demand, seasonally adjusted one-month
+      percent change, as first published. Consensus https://www.stocktitan.net/articles/october-2026-ppi-preview-yearly-rate;
+      history https://www.investing.com/economic-calendar/united-states-producer-price-index-(ppi)-mom-238
   status: open
   outcome: null

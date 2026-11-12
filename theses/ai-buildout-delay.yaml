@@ -27,6 +27,10 @@ evidence_for:
 - date: '2026-11-05'
   claim: 'S&P 500 tech sector fell 7.3% and the Philadelphia semiconductor index over 12% on 5 Nov on worries that Democratic wins slow the data-centre build-out (Reuters via Kitco)'
   source: https://www.kitco.com/news/off-the-wire/2026-11-06/wall-st-week-ahead-tech-swoon-roils-market-us-inflation-data-tap
+- date: '2026-11-05'
+  claim: 'IREN delayed infrastructure for Microsoft after Microsoft asked for network-design changes, plus supplier timing; its $4bn+ run-rate target moves from year-end to January, possibly end-February; no penalties (Reuters)'
+  source: https://thestar.com.my/tech/tech-news/2026/11/06/ai-data-center-firm-iren-delays-microsoft-ai-deliveries-plans-15-billion-spending-push
+  engine: daily-run
 evidence_against:
 - date: '2026-10-29'
   claim: 'Amazon did not cite power or site delays; Jassy: customers take capacity almost as fast as it is installed (secondary summary)'

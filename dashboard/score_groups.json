@@ -3,8 +3,8 @@
 "key": "Kind: event",
 "group_type": "Kind",
 "group": "event",
-"n": 36,
-"brier": 0.1551
+"n": 37,
+"brier": 0.1517
 },
 {
 "key": "Kind: thesis",
@@ -87,7 +87,7 @@
 "key": "Thesis: UK large caps outperform global equities in euros as a cheap, low-tech hedge against an AI correction",
 "group_type": "Thesis",
 "group": "UK large caps outperform global equities in euros as a cheap, low-tech hedge against an AI correction",
-"n": 6,
-"brier": 0.1044
+"n": 7,
+"brier": 0.0936
 }
 ]

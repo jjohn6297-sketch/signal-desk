@@ -22,6 +22,10 @@ evidence_for:
   claim: 'Atlassian call: usage-based pricing enforcement for Rovo AI credits begins in early December; management says it is not a near-term revenue driver (secondary summary; supports CODE-2, not yet resolved)'
   source: https://finance.biggo.com/news/US_TEAM_2026-11-05
   engine: daily-run
+- date: '2026-11-12'
+  claim: 'Primary source: Atlassian (1 Sep 2026) expanded usage-based pricing with Rovo credits, per-resolution charges for AI agents and automation steps; allowance limits and billing take effect 3 Dec 2026. CODE-2 voided because this predates the forecast'
+  source: https://www.atlassian.com/blog/company-news/expanded-usage-based-pricing
+  engine: daily-run
 evidence_against:
 - date: '2026-10-24'
   claim: 'Seat vendors up YTD: Atlassian +40%, GitLab +50%; MongoDB -12%'

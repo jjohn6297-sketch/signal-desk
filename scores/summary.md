@@ -1,12 +1,12 @@
-# Forecast scores, 2026-11-11
+# Forecast scores, 2026-11-12
 
-45 resolved, 28 open, 74 in total.
+46 resolved, 28 open, 76 in total.
 
-Brier score, system forecasts: **0.170** (0.25 = always 50%; lower is better).
+Brier score, system forecasts: **0.167** (0.25 = always 50%; lower is better).
 
 | Group | n | Brier |
 | --- | --- | --- |
-| kind: event | 36 | 0.155 |
+| kind: event | 37 | 0.152 |
 | kind: thesis | 9 | 0.230 |
 | thesis: ai-buildout-delay | 2 | 0.157 |
 | thesis: ai-service-agents-bpo | 5 | 0.137 |
@@ -18,7 +18,7 @@ Brier score, system forecasts: **0.170** (0.25 = always 50%; lower is better).
 | thesis: long-duration-bonds | 6 | 0.117 |
 | thesis: other | 1 | 0.160 |
 | thesis: power-grid-constraint | 8 | 0.142 |
-| thesis: uk-large-caps-tech-hedge | 6 | 0.104 |
+| thesis: uk-large-caps-tech-hedge | 7 | 0.094 |
 
 ## Calibration
 
@@ -28,8 +28,8 @@ Brier score, system forecasts: **0.170** (0.25 = always 50%; lower is better).
 | 20%–40% | 3 | 28% | 0% |
 | 40%–60% | 15 | 50% | 67% |
 | 60%–80% | 15 | 70% | 80% |
-| 80%–100% | 10 | 87% | 90% |
+| 80%–100% | 11 | 86% | 91% |
 
 ## Recalibration
 
-Active: k = 1.60, b = 0.30, fitted on 45 forecasts.
+Active: k = 1.60, b = 0.30, fitted on 46 forecasts.
