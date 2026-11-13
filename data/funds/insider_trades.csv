@@ -80,3 +80,7 @@ transaction_date,filed,company,ticker,insider,role,code,shares,price,value_usd,a
 2026-11-06,2026-11-10,TSMC,TSM,Yeap Choh Fei,SVP,P,57,70.5,4018,0001046179-26-000792,https://www.sec.gov/Archives/edgar/data/1046179/000104617926000792/wk-form4_1794310883.xml
 2026-11-06,2026-11-10,TSMC,TSM,Yoo Chue-San,VP,P,54,70.5,3807,0001046179-26-000793,https://www.sec.gov/Archives/edgar/data/1046179/000104617926000793/wk-form4_1794310890.xml
 2026-11-06,2026-11-10,TSMC,TSM,Wu Shien-Yang,SVP,P,59,70.5,4159,0001046179-26-000794,https://www.sec.gov/Archives/edgar/data/1046179/000104617926000794/wk-form4_1794310898.xml
+2026-11-11,2026-11-12,Atlassian,TEAM,Cannon-Brookes Michael,"Director, CEO, Co-Founder, 10% owner",P,1300,151.2631,196642,0001666120-26-000033,https://www.sec.gov/Archives/edgar/data/1650372/000166612026000033/primarydocument.xml
+2026-11-11,2026-11-12,Atlassian,TEAM,Cannon-Brookes Michael,"Director, CEO, Co-Founder, 10% owner",P,714,152.992,109236,0001666120-26-000033,https://www.sec.gov/Archives/edgar/data/1650372/000166612026000033/primarydocument.xml
+2026-11-11,2026-11-12,Atlassian,TEAM,Cannon-Brookes Michael,"Director, CEO, Co-Founder, 10% owner",P,10000,149.7212,1497212,0001666120-26-000033,https://www.sec.gov/Archives/edgar/data/1650372/000166612026000033/primarydocument.xml
+2026-11-11,2026-11-12,Atlassian,TEAM,Cannon-Brookes Michael,"Director, CEO, Co-Founder, 10% owner",P,1386,152.1644,210899,0001666120-26-000033,https://www.sec.gov/Archives/edgar/data/1650372/000166612026000033/primarydocument.xml

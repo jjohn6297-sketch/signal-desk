@@ -81,8 +81,10 @@ forecasts:
       threshold: 100
       start: '2026-10-27'
       end: '2027-01-31'
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-13'
+  evidence: 'auto: BRENT 2026-11-04: 91.84 < 100.0'
 - id: AIR-2
   kind: thesis
   thesis: airlines-vs-oil-curve
@@ -325,7 +327,8 @@ forecasts:
   outcome: 0
   resolved_at: '2026-11-11'
   evidence:
-    summary: 'Backlog EUR 164bn at the end of FY2026 (record), EUR 1bn short of the EUR 165bn threshold; orders EUR 68.1bn.'
+    summary: Backlog EUR 164bn at the end of FY2026 (record), EUR 1bn short of the EUR 165bn threshold; orders EUR
+      68.1bn.
     url: https://www.siemens-energy.com/global/en/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html
 - id: GENE-1
   kind: thesis
@@ -466,8 +469,8 @@ forecasts:
   resolved_at: '2026-11-12'
   evidence:
     summary: 'Void: the outcome was already public when the forecast was made (26 Oct). Atlassian announced expanded
-      usage-based pricing, including Rovo credits and per-resolution charges for AI agents, on 1 Sep 2026, with billing
-      from 3 Dec 2026. Scoring it would reward a known outcome.'
+      usage-based pricing, including Rovo credits and per-resolution charges for AI agents, on 1 Sep 2026, with
+      billing from 3 Dec 2026. Scoring it would reward a known outcome.'
     url: https://www.atlassian.com/blog/company-news/expanded-usage-based-pricing
 - id: CODE-3
   kind: thesis
@@ -757,9 +760,9 @@ forecasts:
   resolved_at: '2026-11-09'
   evidence:
     summary: 'Void: the data will not exist on the stated basis. BLS will not publish 12-month changes for October
-      2026 where October 2025 data are missing (not collected in the 2025 shutdown), which covers all items and core.
-      The forecast''s premise (a 2.48% year-on-year core nowcast) was wrong. Replaced by EV-20261110-US-3 (monthly
-      core change).'
+      2026 where October 2025 data are missing (not collected in the 2025 shutdown), which covers all items and
+      core. The forecast''s premise (a 2.48% year-on-year core nowcast) was wrong. Replaced by EV-20261110-US-3
+      (monthly core change).'
     url: https://www.bls.gov/cpi/additional-resources/2025-federal-government-shutdown-impact-cpi-faq.htm
 - id: EV-20261028-MSFT-1
   kind: event
@@ -1300,8 +1303,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-10'
   evidence:
-    summary: Q3 2026 adjusted operating EPS $5.06 (GAAP $5.19) against $3.88 consensus; 2026 guidance raised to $12.50-12.80
-      from $11.50-12.50; new 20-year PPAs with Google (890 MW uprates) and Amazon (690 MW)
+    summary: Q3 2026 adjusted operating EPS $5.06 (GAAP $5.19) against $3.88 consensus; 2026 guidance raised to
+      $12.50-12.80 from $11.50-12.50; new 20-year PPAs with Google (890 MW uprates) and Amazon (690 MW)
     url: https://www.sec.gov/Archives/edgar/data/0001868275/000186827526000116/ceg-20261109991.htm
 - id: EV-20261103-IRAN-1
   kind: event
@@ -1360,7 +1363,7 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-11'
   evidence:
-    summary: 'Q3 2026 revenue $3,661m, above the $3.6bn top of the guide; backlog about $132.5bn.'
+    summary: Q3 2026 revenue $3,661m, above the $3.6bn top of the guide; backlog about $132.5bn.
     url: https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx
 - id: EV-20261110-CRWV-2
   kind: event
@@ -1389,7 +1392,8 @@ forecasts:
   outcome: 0
   resolved_at: '2026-11-11'
   evidence:
-    summary: 'Full-year 2026 revenue guidance raised to $13.0-13.3bn (midpoint $13.15bn against $12.8bn); capex guide raised to $37-39bn to deliver capacity sooner than planned.'
+    summary: Full-year 2026 revenue guidance raised to $13.0-13.3bn (midpoint $13.15bn against $12.8bn); capex guide
+      raised to $37-39bn to deliver capacity sooner than planned.
     url: https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx
 - id: EV-20261111-ENR-1
   kind: event
@@ -1418,7 +1422,7 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-11'
   evidence:
-    summary: 'FY2026 profit margin before special items 12.4% (profit EUR 5,486m on revenue EUR 44.2bn).'
+    summary: FY2026 profit margin before special items 12.4% (profit EUR 5,486m on revenue EUR 44.2bn).
     url: https://www.siemens-energy.com/global/en/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html
 - id: EV-20261109-CRSP-1
   kind: event
@@ -1448,9 +1452,9 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-10'
   evidence:
-    summary: Phase 1b sHTG cohort (n=10, single flat dose of 40 or 50 mg, about 0.8 mg/kg, the top Phase 1a dose) showed
-      a mean 63% triglyceride reduction at day 30; no treatment-related serious adverse events or pancreatitis. Only one
-      dose level was reported, so it is the highest-dose cohort.
+    summary: Phase 1b sHTG cohort (n=10, single flat dose of 40 or 50 mg, about 0.8 mg/kg, the top Phase 1a dose)
+      showed a mean 63% triglyceride reduction at day 30; no treatment-related serious adverse events or pancreatitis.
+      Only one dose level was reported, so it is the highest-dose cohort.
     url: https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-presents-phase-1b-data-ctx310r-demonstrating
 - id: EV-20261112-NBIS-1
   kind: event
@@ -1478,7 +1482,7 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-13'
   evidence:
-    summary: 'Nebius Q3 2026 revenue $980.8m (+571% y/y), above $905m (release, 12 Nov 2026).'
+    summary: Nebius Q3 2026 revenue $980.8m (+571% y/y), above $905m (release, 12 Nov 2026).
     url: https://www.sec.gov/Archives/edgar/data/0001513845/000110465926126008/tm2629571d1_ex99-1.htm
 - id: EV-20261112-NBIS-2
   kind: event
@@ -1507,7 +1511,10 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-13'
   evidence:
-    summary: 'Shareholder letter: "we now expect 2026 revenue at the low end of our $3.0-3.4 billion range", so expected revenue moves from the $3.2bn midpoint to about $3.0bn; judged a lower midpoint (the range itself was not restated). Cause: third-party colocation delivery dates shifted into H1 2027; ARR target of $7-9bn by December moved to over $7bn for February; capex raised to about $27bn.'
+    summary: 'Shareholder letter: "we now expect 2026 revenue at the low end of our $3.0-3.4 billion range", so
+      expected revenue moves from the $3.2bn midpoint to about $3.0bn; judged a lower midpoint (the range itself
+      was not restated). Cause: third-party colocation delivery dates shifted into H1 2027; ARR target of $7-9bn
+      by December moved to over $7bn for February; capex raised to about $27bn.'
     url: https://www.sec.gov/Archives/edgar/data/0001513845/000110465926126008/tm2629571d1_ex99-2.htm
 - id: EV-20261112-TWST-1
   kind: event
@@ -1534,7 +1541,7 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-13'
   evidence:
-    summary: 'Twist fiscal Q4 2026 revenue $126.6m (+28% y/y), above $124.0m (release, 12 Nov 2026).'
+    summary: Twist fiscal Q4 2026 revenue $126.6m (+28% y/y), above $124.0m (release, 12 Nov 2026).
     url: https://www.sec.gov/Archives/edgar/data/0001581280/000158128026000053/twst-2026930xex991.htm
 - id: EV-20261112-TWST-2
   kind: event
@@ -1561,7 +1568,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-13'
   evidence:
-    summary: 'Twist fiscal Q4 2026 adjusted EBITDA +$2.2m (year earlier -$7.8m). FY2027 guide: revenue $550-560m, positive adjusted EBITDA.'
+    summary: 'Twist fiscal Q4 2026 adjusted EBITDA +$2.2m (year earlier -$7.8m). FY2027 guide: revenue $550-560m,
+      positive adjusted EBITDA.'
     url: https://www.sec.gov/Archives/edgar/data/0001581280/000158128026000053/twst-2026930xex991.htm
 - id: EV-20261106-US-2
   kind: event
@@ -1625,8 +1633,8 @@ forecasts:
   kind: event
   thesis: long-duration-bonds
   event_date: '2026-11-10'
-  statement: US October core CPI (all items less food and energy, seasonally adjusted) rises 0.2% or less month on
-    month, as first published to one decimal
+  statement: US October core CPI (all items less food and energy, seasonally adjusted) rises 0.2% or less month
+    on month, as first published to one decimal
   probability_raw: 0.55
   probability: 0.684
   reasoning: The consensus is +0.2% m/m; the Cleveland Fed nowcast is +0.21%, Bloomberg Economics +0.24%, Morgan
@@ -1649,19 +1657,20 @@ forecasts:
   outcome: 0
   resolved_at: '2026-11-11'
   evidence:
-    summary: 'BLS: core CPI (all items less food and energy) rose 0.3% s.a. in October; headline +0.4%, shelter +0.3%, energy +0.7%.'
+    summary: 'BLS: core CPI (all items less food and energy) rose 0.3% s.a. in October; headline +0.4%, shelter
+      +0.3%, energy +0.7%.'
     url: https://www.bls.gov/news.release/cpi.htm?lv=true
 - id: EV-20261117-NVDA-1
   kind: event
   thesis: hyperscaler-capex-debt
   event_date: '2026-11-17'
-  statement: Nvidia Q3 fiscal 2027 (quarter to 25 Oct 2026) revenue is at least USD 110.2bn (top of its $108.0bn +/- 2%
-    guide)
+  statement: Nvidia Q3 fiscal 2027 (quarter to 25 Oct 2026) revenue is at least USD 110.2bn (top of its $108.0bn
+    +/- 2% guide)
   probability_raw: 0.85
   probability: 0.964
-  reasoning: Nvidia has reported revenue above the top of its own range in each of the last 10 quarters, typically by
-    4-6% over the midpoint (Q2 $96.2bn against $91.0bn). Consensus is $108.8bn, below the top of the range. The 5 Nov
-    chip sell-off and the zero-China assumption do not change shipments already made in the quarter.
+  reasoning: Nvidia has reported revenue above the top of its own range in each of the last 10 quarters, typically
+    by 4-6% over the midpoint (Q2 $96.2bn against $91.0bn). Consensus is $108.8bn, below the top of the range. The
+    5 Nov chip sell-off and the zero-China assumption do not change shipments already made in the quarter.
   expected: Revenue around $112-114bn; data centre about $104bn
   implications:
     if_yes: Hyperscaler spending was still accelerating through October; against near-term build-out delay
@@ -1684,9 +1693,9 @@ forecasts:
   statement: Nvidia guides Q4 fiscal 2027 revenue at a midpoint of at least USD 120bn
   probability_raw: 0.6
   probability: 0.759
-  reasoning: The last guide rose $17bn (to $108bn) on a $96.2bn quarter. If Q3 comes in near $113bn, a guide 6-8% higher
-    gives $120-122bn. Memory costs, the 71-72% Q4 margin outlook and possible power or site delays at customers argue for
-    a more cautious step, so only a modest lean above even.
+  reasoning: The last guide rose $17bn (to $108bn) on a $96.2bn quarter. If Q3 comes in near $113bn, a guide 6-8%
+    higher gives $120-122bn. Memory costs, the 71-72% Q4 margin outlook and possible power or site delays at customers
+    argue for a more cautious step, so only a modest lean above even.
   expected: Q4 guide around $120-123bn, China data-centre revenue still excluded
   implications:
     if_yes: No sign of customers deferring deliveries; against the build-out-delay bet
@@ -1731,13 +1740,13 @@ forecasts:
   kind: event
   thesis: long-duration-bonds
   event_date: '2026-11-13'
-  statement: US October PPI final demand less foods and energy (seasonally adjusted) rises 0.3% or less month on month,
-    as first published to one decimal
+  statement: US October PPI final demand less foods and energy (seasonally adjusted) rises 0.3% or less month on
+    month, as first published to one decimal
   probability_raw: 0.5
   probability: 0.574
-  reasoning: Consensus is +0.3% after +0.7% in September. Core PPI printed at or below its consensus in 4 of the last 10
-    months and above it in 5, so the base rate for at or below consensus is about even; some reversal of September's
-    jump is likely, but October core CPI was hot (+0.3%).
+  reasoning: Consensus is +0.3% after +0.7% in September. Core PPI printed at or below its consensus in 4 of the
+    last 10 months and above it in 5, so the base rate for at or below consensus is about even; some reversal of
+    September's jump is likely, but October core CPI was hot (+0.3%).
   expected: Core +0.3% m/m; headline about +0.3-0.4% as oil fell in the pricing window
   implications:
     if_yes: Pipeline pressure easing after September; a small relief for the bonds bet, though a December hike stays
@@ -1749,8 +1758,8 @@ forecasts:
   resolves_by: '2026-11-13'
   resolution:
     method: judged
-    guidance: BLS PPI news release for October 2026 (13 Nov 2026, 08:30 ET), final demand less foods and energy, seasonally
-      adjusted one-month percent change, as first published. Consensus https://www.stocktitan.net/articles/october-2026-ppi-preview-yearly-rate
+    guidance: BLS PPI news release for October 2026 (13 Nov 2026, 08:30 ET), final demand less foods and energy,
+      seasonally adjusted one-month percent change, as first published. Consensus https://www.stocktitan.net/articles/october-2026-ppi-preview-yearly-rate
       and https://tradingeconomics.com/united-states/core-producer-prices-mom; history https://www.investing.com/economic-calendar/united-states-core-producer-price-index-(ppi)-mom-62
   status: open
   outcome: null
@@ -1758,13 +1767,14 @@ forecasts:
   kind: event
   thesis: long-duration-bonds
   event_date: '2026-11-13'
-  statement: US October PPI final demand (seasonally adjusted) rises 0.4% or more month on month, as first published to
-    one decimal
+  statement: US October PPI final demand (seasonally adjusted) rises 0.4% or more month on month, as first published
+    to one decimal
   probability_raw: 0.45
   probability: 0.495
-  reasoning: Dow Jones consensus is +0.4% after +1.3% in September. Brent fell about 4% and WTI about 11% between the
-    September and October pricing days, which argues for a softer energy component than the consensus may assume; headline
-    PPI misses its consensus by 0.3 points or more in most months, so this is close to a coin toss with a slight lean below.
+  reasoning: Dow Jones consensus is +0.4% after +1.3% in September. Brent fell about 4% and WTI about 11% between
+    the September and October pricing days, which argues for a softer energy component than the consensus may assume;
+    headline PPI misses its consensus by 0.3 points or more in most months, so this is close to a coin toss with
+    a slight lean below.
   expected: Headline about +0.3%, with energy flat to lower
   implications:
     if_yes: Producer inflation still broad even with oil off its highs; against the bonds bet
@@ -1787,23 +1797,23 @@ forecasts:
     by 0.0% or more month on month, as first published to one decimal
   probability_raw: 0.55
   probability: 0.65
-  reasoning: Consensus is 0.0% after +0.8% in September (control group +0.1%); Trading Economics' own model has +0.6%.
-    With the consensus exactly at the line, the base rate is about even, and a print of exactly 0.0% counts as yes,
-    so a small lean to yes.
+  reasoning: Consensus is 0.0% after +0.8% in September (control group +0.1%); Trading Economics' own model has
+    +0.6%. With the consensus exactly at the line, the base rate is about even, and a print of exactly 0.0% counts
+    as yes, so a small lean to yes.
   expected: Headline about 0.0% to +0.3%; control group flat to +0.3%
   implications:
-    if_yes: Spending holding up after the September jump; keeps a December hike and more in 2027 priced, against the
-      bonds bet
-    if_no: A fall in sales would be the first sign of demand cooling under higher rates; supports the bonds bet and
-      the 2027 path being priced too high
+    if_yes: Spending holding up after the September jump; keeps a December hike and more in 2027 priced, against
+      the bonds bet
+    if_no: A fall in sales would be the first sign of demand cooling under higher rates; supports the bonds bet
+      and the 2027 path being priced too high
   forecaster: system:claude-opus-5-5
   made_at: '2026-11-13'
   resolves_by: '2026-11-17'
   resolution:
     method: judged
-    guidance: Census Bureau Advance Monthly Retail Trade report for October 2026 (17 Nov 2026, 08:30 ET), total retail
-      and food services, seasonally adjusted percent change from September, as first published. Consensus and prior
-      https://tradingeconomics.com/united-states/retail-sales; schedule https://www.financecalendar.com/us-retail-sales/;
+    guidance: Census Bureau Advance Monthly Retail Trade report for October 2026 (17 Nov 2026, 08:30 ET), total
+      retail and food services, seasonally adjusted percent change from September, as first published. Consensus
+      and prior https://tradingeconomics.com/united-states/retail-sales; schedule https://www.financecalendar.com/us-retail-sales/;
       report https://www.census.gov/retail/marts/www/marts_current.pdf
   status: open
   outcome: null

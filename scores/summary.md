@@ -1,16 +1,16 @@
 # Forecast scores, 2026-11-13
 
-50 resolved, 25 open, 77 in total.
+51 resolved, 24 open, 77 in total.
 
-Brier score, system forecasts: **0.172** (0.25 = always 50%; lower is better).
+Brier score, system forecasts: **0.173** (0.25 = always 50%; lower is better).
 
 | Group | n | Brier |
 | --- | --- | --- |
 | kind: event | 41 | 0.159 |
-| kind: thesis | 9 | 0.230 |
+| kind: thesis | 10 | 0.227 |
 | thesis: ai-buildout-delay | 4 | 0.249 |
 | thesis: ai-service-agents-bpo | 5 | 0.137 |
-| thesis: airlines-vs-oil-curve | 2 | 0.535 |
+| thesis: airlines-vs-oil-curve | 3 | 0.424 |
 | thesis: coding-agents-usage-pricing | 2 | 0.146 |
 | thesis: european-staples-gap | 1 | 0.250 |
 | thesis: hyperscaler-capex-debt | 9 | 0.222 |
@@ -26,10 +26,10 @@ Brier score, system forecasts: **0.172** (0.25 = always 50%; lower is better).
 | --- | --- | --- | --- |
 | 0%–20% | 2 | 7% | 50% |
 | 20%–40% | 4 | 28% | 25% |
-| 40%–60% | 17 | 51% | 71% |
+| 40%–60% | 18 | 51% | 72% |
 | 60%–80% | 15 | 70% | 80% |
 | 80%–100% | 12 | 87% | 92% |
 
 ## Recalibration
 
-Active: k = 1.15, b = 0.55, fitted on 50 forecasts.
+Active: k = 1.15, b = 0.60, fitted on 51 forecasts.
