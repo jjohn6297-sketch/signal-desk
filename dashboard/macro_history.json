@@ -936,10 +936,16 @@
 "value": 3.42
 },
 {
-"key": "hy_spread|2026-11-09|last",
+"key": "hy_spread|2026-11-13",
 "id": "hy_spread",
-"date": "2026-11-09",
-"value": 3.34
+"date": "2026-11-13",
+"value": 3.3
+},
+{
+"key": "hy_spread|2026-11-11|last",
+"id": "hy_spread",
+"date": "2026-11-11",
+"value": 3.3
 },
 {
 "key": "curve_10y2y|2023-01-06",
@@ -2146,6 +2152,12 @@
 "id": "curve_10y2y",
 "date": "2026-11-06",
 "value": 0.35
+},
+{
+"key": "curve_10y2y|2026-11-13",
+"id": "curve_10y2y",
+"date": "2026-11-13",
+"value": 0.25
 },
 {
 "key": "curve_10y2y|2026-11-10|last",
@@ -3360,6 +3372,12 @@
 "value": 4.86
 },
 {
+"key": "ust10y|2026-11-13",
+"id": "ust10y",
+"date": "2026-11-13",
+"value": 4.88
+},
+{
 "key": "ust10y|2026-11-09|last",
 "id": "ust10y",
 "date": "2026-11-09",
@@ -4572,6 +4590,12 @@
 "value": 2.17
 },
 {
+"key": "inflation_5y5y|2026-11-13",
+"id": "inflation_5y5y",
+"date": "2026-11-13",
+"value": 2.15
+},
+{
 "key": "inflation_5y5y|2026-11-10|last",
 "id": "inflation_5y5y",
 "date": "2026-11-10",
@@ -5781,6 +5805,12 @@
 "key": "brent|2026-11-06",
 "id": "brent",
 "date": "2026-11-06",
+"value": 107.03
+},
+{
+"key": "brent|2026-11-13",
+"id": "brent",
+"date": "2026-11-13",
 "value": 107.03
 },
 {
@@ -6996,6 +7026,12 @@
 "value": 0.0
 },
 {
+"key": "sahm|2026-11-13",
+"id": "sahm",
+"date": "2026-11-13",
+"value": 0.0
+},
+{
 "key": "sahm|2026-10-01|last",
 "id": "sahm",
 "date": "2026-10-01",
@@ -7005,163 +7041,163 @@
 "key": "nfci|2023-01-06",
 "id": "nfci",
 "date": "2023-01-06",
-"value": -0.245
+"value": -0.241
 },
 {
 "key": "nfci|2023-01-13",
 "id": "nfci",
 "date": "2023-01-13",
-"value": -0.269
+"value": -0.265
 },
 {
 "key": "nfci|2023-01-20",
 "id": "nfci",
 "date": "2023-01-20",
-"value": -0.29
+"value": -0.287
 },
 {
 "key": "nfci|2023-01-27",
 "id": "nfci",
 "date": "2023-01-27",
-"value": -0.306
+"value": -0.304
 },
 {
 "key": "nfci|2023-02-03",
 "id": "nfci",
 "date": "2023-02-03",
-"value": -0.313
+"value": -0.311
 },
 {
 "key": "nfci|2023-02-10",
 "id": "nfci",
 "date": "2023-02-10",
-"value": -0.309
+"value": -0.307
 },
 {
 "key": "nfci|2023-02-17",
 "id": "nfci",
 "date": "2023-02-17",
-"value": -0.295
+"value": -0.292
 },
 {
 "key": "nfci|2023-02-24",
 "id": "nfci",
 "date": "2023-02-24",
-"value": -0.269
+"value": -0.266
 },
 {
 "key": "nfci|2023-03-03",
 "id": "nfci",
 "date": "2023-03-03",
-"value": -0.239
+"value": -0.235
 },
 {
 "key": "nfci|2023-03-10",
 "id": "nfci",
 "date": "2023-03-10",
-"value": -0.206
+"value": -0.202
 },
 {
 "key": "nfci|2023-03-17",
 "id": "nfci",
 "date": "2023-03-17",
-"value": -0.175
+"value": -0.17
 },
 {
 "key": "nfci|2023-03-24",
 "id": "nfci",
 "date": "2023-03-24",
-"value": -0.156
+"value": -0.151
 },
 {
 "key": "nfci|2023-03-31",
 "id": "nfci",
 "date": "2023-03-31",
-"value": -0.151
+"value": -0.146
 },
 {
 "key": "nfci|2023-04-07",
 "id": "nfci",
 "date": "2023-04-07",
-"value": -0.154
+"value": -0.149
 },
 {
 "key": "nfci|2023-04-14",
 "id": "nfci",
 "date": "2023-04-14",
-"value": -0.165
+"value": -0.16
 },
 {
 "key": "nfci|2023-04-21",
 "id": "nfci",
 "date": "2023-04-21",
-"value": -0.178
+"value": -0.173
 },
 {
 "key": "nfci|2023-04-28",
 "id": "nfci",
 "date": "2023-04-28",
-"value": -0.189
+"value": -0.185
 },
 {
 "key": "nfci|2023-05-05",
 "id": "nfci",
 "date": "2023-05-05",
-"value": -0.198
+"value": -0.195
 },
 {
 "key": "nfci|2023-05-12",
 "id": "nfci",
 "date": "2023-05-12",
-"value": -0.205
+"value": -0.203
 },
 {
 "key": "nfci|2023-05-19",
 "id": "nfci",
 "date": "2023-05-19",
-"value": -0.21
+"value": -0.208
 },
 {
 "key": "nfci|2023-05-26",
 "id": "nfci",
 "date": "2023-05-26",
-"value": -0.212
+"value": -0.211
 },
 {
 "key": "nfci|2023-06-02",
 "id": "nfci",
 "date": "2023-06-02",
-"value": -0.214
+"value": -0.213
 },
 {
 "key": "nfci|2023-06-09",
 "id": "nfci",
 "date": "2023-06-09",
-"value": -0.215
+"value": -0.214
 },
 {
 "key": "nfci|2023-06-16",
 "id": "nfci",
 "date": "2023-06-16",
-"value": -0.217
+"value": -0.216
 },
 {
 "key": "nfci|2023-06-23",
 "id": "nfci",
 "date": "2023-06-23",
-"value": -0.221
+"value": -0.22
 },
 {
 "key": "nfci|2023-06-30",
 "id": "nfci",
 "date": "2023-06-30",
-"value": -0.227
+"value": -0.226
 },
 {
 "key": "nfci|2023-07-07",
 "id": "nfci",
 "date": "2023-07-07",
-"value": -0.236
+"value": -0.235
 },
 {
 "key": "nfci|2023-07-14",
@@ -7185,103 +7221,103 @@
 "key": "nfci|2023-08-04",
 "id": "nfci",
 "date": "2023-08-04",
-"value": -0.297
+"value": -0.296
 },
 {
 "key": "nfci|2023-08-11",
 "id": "nfci",
 "date": "2023-08-11",
-"value": -0.313
+"value": -0.312
 },
 {
 "key": "nfci|2023-08-18",
 "id": "nfci",
 "date": "2023-08-18",
-"value": -0.325
+"value": -0.324
 },
 {
 "key": "nfci|2023-08-25",
 "id": "nfci",
 "date": "2023-08-25",
-"value": -0.334
+"value": -0.333
 },
 {
 "key": "nfci|2023-09-01",
 "id": "nfci",
 "date": "2023-09-01",
-"value": -0.339
+"value": -0.338
 },
 {
 "key": "nfci|2023-09-08",
 "id": "nfci",
 "date": "2023-09-08",
-"value": -0.338
+"value": -0.337
 },
 {
 "key": "nfci|2023-09-15",
 "id": "nfci",
 "date": "2023-09-15",
-"value": -0.333
+"value": -0.332
 },
 {
 "key": "nfci|2023-09-22",
 "id": "nfci",
 "date": "2023-09-22",
-"value": -0.324
+"value": -0.322
 },
 {
 "key": "nfci|2023-09-29",
 "id": "nfci",
 "date": "2023-09-29",
-"value": -0.312
+"value": -0.31
 },
 {
 "key": "nfci|2023-10-06",
 "id": "nfci",
 "date": "2023-10-06",
-"value": -0.301
+"value": -0.298
 },
 {
 "key": "nfci|2023-10-13",
 "id": "nfci",
 "date": "2023-10-13",
-"value": -0.292
+"value": -0.289
 },
 {
 "key": "nfci|2023-10-20",
 "id": "nfci",
 "date": "2023-10-20",
-"value": -0.286
+"value": -0.283
 },
 {
 "key": "nfci|2023-10-27",
 "id": "nfci",
 "date": "2023-10-27",
-"value": -0.285
+"value": -0.282
 },
 {
 "key": "nfci|2023-11-03",
 "id": "nfci",
 "date": "2023-11-03",
-"value": -0.29
+"value": -0.287
 },
 {
 "key": "nfci|2023-11-10",
 "id": "nfci",
 "date": "2023-11-10",
-"value": -0.298
+"value": -0.296
 },
 {
 "key": "nfci|2023-11-17",
 "id": "nfci",
 "date": "2023-11-17",
-"value": -0.309
+"value": -0.307
 },
 {
 "key": "nfci|2023-11-24",
 "id": "nfci",
 "date": "2023-11-24",
-"value": -0.32
+"value": -0.319
 },
 {
 "key": "nfci|2023-12-01",
@@ -7311,25 +7347,25 @@
 "key": "nfci|2023-12-29",
 "id": "nfci",
 "date": "2023-12-29",
-"value": -0.365
+"value": -0.366
 },
 {
 "key": "nfci|2024-01-05",
 "id": "nfci",
 "date": "2024-01-05",
-"value": -0.373
+"value": -0.374
 },
 {
 "key": "nfci|2024-01-12",
 "id": "nfci",
 "date": "2024-01-12",
-"value": -0.381
+"value": -0.382
 },
 {
 "key": "nfci|2024-01-19",
 "id": "nfci",
 "date": "2024-01-19",
-"value": -0.388
+"value": -0.389
 },
 {
 "key": "nfci|2024-01-26",
@@ -7347,133 +7383,133 @@
 "key": "nfci|2024-02-09",
 "id": "nfci",
 "date": "2024-02-09",
-"value": -0.409
+"value": -0.41
 },
 {
 "key": "nfci|2024-02-16",
 "id": "nfci",
 "date": "2024-02-16",
-"value": -0.417
+"value": -0.418
 },
 {
 "key": "nfci|2024-02-23",
 "id": "nfci",
 "date": "2024-02-23",
-"value": -0.425
+"value": -0.426
 },
 {
 "key": "nfci|2024-03-01",
 "id": "nfci",
 "date": "2024-03-01",
-"value": -0.432
+"value": -0.433
 },
 {
 "key": "nfci|2024-03-08",
 "id": "nfci",
 "date": "2024-03-08",
-"value": -0.436
+"value": -0.437
 },
 {
 "key": "nfci|2024-03-15",
 "id": "nfci",
 "date": "2024-03-15",
-"value": -0.437
+"value": -0.439
 },
 {
 "key": "nfci|2024-03-22",
 "id": "nfci",
 "date": "2024-03-22",
-"value": -0.435
+"value": -0.437
 },
 {
 "key": "nfci|2024-03-29",
 "id": "nfci",
 "date": "2024-03-29",
-"value": -0.43
+"value": -0.432
 },
 {
 "key": "nfci|2024-04-05",
 "id": "nfci",
 "date": "2024-04-05",
-"value": -0.425
+"value": -0.427
 },
 {
 "key": "nfci|2024-04-12",
 "id": "nfci",
 "date": "2024-04-12",
-"value": -0.419
+"value": -0.42
 },
 {
 "key": "nfci|2024-04-19",
 "id": "nfci",
 "date": "2024-04-19",
-"value": -0.414
+"value": -0.415
 },
 {
 "key": "nfci|2024-04-26",
 "id": "nfci",
 "date": "2024-04-26",
-"value": -0.411
+"value": -0.413
 },
 {
 "key": "nfci|2024-05-03",
 "id": "nfci",
 "date": "2024-05-03",
-"value": -0.411
+"value": -0.412
 },
 {
 "key": "nfci|2024-05-10",
 "id": "nfci",
 "date": "2024-05-10",
-"value": -0.411
+"value": -0.413
 },
 {
 "key": "nfci|2024-05-17",
 "id": "nfci",
 "date": "2024-05-17",
-"value": -0.411
+"value": -0.412
 },
 {
 "key": "nfci|2024-05-24",
 "id": "nfci",
 "date": "2024-05-24",
-"value": -0.41
+"value": -0.411
 },
 {
 "key": "nfci|2024-05-31",
 "id": "nfci",
 "date": "2024-05-31",
-"value": -0.406
+"value": -0.408
 },
 {
 "key": "nfci|2024-06-07",
 "id": "nfci",
 "date": "2024-06-07",
-"value": -0.4
+"value": -0.402
 },
 {
 "key": "nfci|2024-06-14",
 "id": "nfci",
 "date": "2024-06-14",
-"value": -0.393
+"value": -0.394
 },
 {
 "key": "nfci|2024-06-21",
 "id": "nfci",
 "date": "2024-06-21",
-"value": -0.385
+"value": -0.386
 },
 {
 "key": "nfci|2024-06-28",
 "id": "nfci",
 "date": "2024-06-28",
-"value": -0.378
+"value": -0.379
 },
 {
 "key": "nfci|2024-07-05",
 "id": "nfci",
 "date": "2024-07-05",
-"value": -0.372
+"value": -0.373
 },
 {
 "key": "nfci|2024-07-12",
@@ -7491,7 +7527,7 @@
 "key": "nfci|2024-07-26",
 "id": "nfci",
 "date": "2024-07-26",
-"value": -0.358
+"value": -0.359
 },
 {
 "key": "nfci|2024-08-02",
@@ -7503,7 +7539,7 @@
 "key": "nfci|2024-08-09",
 "id": "nfci",
 "date": "2024-08-09",
-"value": -0.358
+"value": -0.359
 },
 {
 "key": "nfci|2024-08-16",
@@ -7515,7 +7551,7 @@
 "key": "nfci|2024-08-23",
 "id": "nfci",
 "date": "2024-08-23",
-"value": -0.377
+"value": -0.378
 },
 {
 "key": "nfci|2024-08-30",
@@ -7527,163 +7563,163 @@
 "key": "nfci|2024-09-06",
 "id": "nfci",
 "date": "2024-09-06",
-"value": -0.4
+"value": -0.401
 },
 {
 "key": "nfci|2024-09-13",
 "id": "nfci",
 "date": "2024-09-13",
-"value": -0.41
+"value": -0.411
 },
 {
 "key": "nfci|2024-09-20",
 "id": "nfci",
 "date": "2024-09-20",
-"value": -0.418
+"value": -0.419
 },
 {
 "key": "nfci|2024-09-27",
 "id": "nfci",
 "date": "2024-09-27",
-"value": -0.425
+"value": -0.426
 },
 {
 "key": "nfci|2024-10-04",
 "id": "nfci",
 "date": "2024-10-04",
-"value": -0.43
+"value": -0.431
 },
 {
 "key": "nfci|2024-10-11",
 "id": "nfci",
 "date": "2024-10-11",
-"value": -0.433
+"value": -0.435
 },
 {
 "key": "nfci|2024-10-18",
 "id": "nfci",
 "date": "2024-10-18",
-"value": -0.438
+"value": -0.439
 },
 {
 "key": "nfci|2024-10-25",
 "id": "nfci",
 "date": "2024-10-25",
-"value": -0.443
+"value": -0.444
 },
 {
 "key": "nfci|2024-11-01",
 "id": "nfci",
 "date": "2024-11-01",
-"value": -0.449
+"value": -0.451
 },
 {
 "key": "nfci|2024-11-08",
 "id": "nfci",
 "date": "2024-11-08",
-"value": -0.457
+"value": -0.459
 },
 {
 "key": "nfci|2024-11-15",
 "id": "nfci",
 "date": "2024-11-15",
-"value": -0.464
+"value": -0.467
 },
 {
 "key": "nfci|2024-11-22",
 "id": "nfci",
 "date": "2024-11-22",
-"value": -0.469
+"value": -0.472
 },
 {
 "key": "nfci|2024-11-29",
 "id": "nfci",
 "date": "2024-11-29",
-"value": -0.473
+"value": -0.475
 },
 {
 "key": "nfci|2024-12-06",
 "id": "nfci",
 "date": "2024-12-06",
-"value": -0.475
+"value": -0.478
 },
 {
 "key": "nfci|2024-12-13",
 "id": "nfci",
 "date": "2024-12-13",
-"value": -0.477
+"value": -0.48
 },
 {
 "key": "nfci|2024-12-20",
 "id": "nfci",
 "date": "2024-12-20",
-"value": -0.478
+"value": -0.481
 },
 {
 "key": "nfci|2024-12-27",
 "id": "nfci",
 "date": "2024-12-27",
-"value": -0.482
+"value": -0.485
 },
 {
 "key": "nfci|2025-01-03",
 "id": "nfci",
 "date": "2025-01-03",
-"value": -0.487
+"value": -0.489
 },
 {
 "key": "nfci|2025-01-10",
 "id": "nfci",
 "date": "2025-01-10",
-"value": -0.493
+"value": -0.495
 },
 {
 "key": "nfci|2025-01-17",
 "id": "nfci",
 "date": "2025-01-17",
-"value": -0.498
+"value": -0.5
 },
 {
 "key": "nfci|2025-01-24",
 "id": "nfci",
 "date": "2025-01-24",
-"value": -0.503
+"value": -0.505
 },
 {
 "key": "nfci|2025-01-31",
 "id": "nfci",
 "date": "2025-01-31",
-"value": -0.506
+"value": -0.508
 },
 {
 "key": "nfci|2025-02-07",
 "id": "nfci",
 "date": "2025-02-07",
-"value": -0.505
+"value": -0.507
 },
 {
 "key": "nfci|2025-02-14",
 "id": "nfci",
 "date": "2025-02-14",
-"value": -0.501
+"value": -0.503
 },
 {
 "key": "nfci|2025-02-21",
 "id": "nfci",
 "date": "2025-02-21",
-"value": -0.491
+"value": -0.493
 },
 {
 "key": "nfci|2025-02-28",
 "id": "nfci",
 "date": "2025-02-28",
-"value": -0.478
+"value": -0.48
 },
 {
 "key": "nfci|2025-03-07",
 "id": "nfci",
 "date": "2025-03-07",
-"value": -0.461
+"value": -0.462
 },
 {
 "key": "nfci|2025-03-14",
@@ -7695,7 +7731,7 @@
 "key": "nfci|2025-03-21",
 "id": "nfci",
 "date": "2025-03-21",
-"value": -0.424
+"value": -0.425
 },
 {
 "key": "nfci|2025-03-28",
@@ -7713,31 +7749,31 @@
 "key": "nfci|2025-04-11",
 "id": "nfci",
 "date": "2025-04-11",
-"value": -0.382
+"value": -0.381
 },
 {
 "key": "nfci|2025-04-18",
 "id": "nfci",
 "date": "2025-04-18",
-"value": -0.382
+"value": -0.381
 },
 {
 "key": "nfci|2025-04-25",
 "id": "nfci",
 "date": "2025-04-25",
-"value": -0.389
+"value": -0.388
 },
 {
 "key": "nfci|2025-05-02",
 "id": "nfci",
 "date": "2025-05-02",
-"value": -0.402
+"value": -0.401
 },
 {
 "key": "nfci|2025-05-09",
 "id": "nfci",
 "date": "2025-05-09",
-"value": -0.42
+"value": -0.419
 },
 {
 "key": "nfci|2025-05-16",
@@ -7755,403 +7791,403 @@
 "key": "nfci|2025-05-30",
 "id": "nfci",
 "date": "2025-05-30",
-"value": -0.464
+"value": -0.465
 },
 {
 "key": "nfci|2025-06-06",
 "id": "nfci",
 "date": "2025-06-06",
-"value": -0.474
+"value": -0.475
 },
 {
 "key": "nfci|2025-06-13",
 "id": "nfci",
 "date": "2025-06-13",
-"value": -0.481
+"value": -0.482
 },
 {
 "key": "nfci|2025-06-20",
 "id": "nfci",
 "date": "2025-06-20",
-"value": -0.488
+"value": -0.489
 },
 {
 "key": "nfci|2025-06-27",
 "id": "nfci",
 "date": "2025-06-27",
-"value": -0.494
+"value": -0.496
 },
 {
 "key": "nfci|2025-07-04",
 "id": "nfci",
 "date": "2025-07-04",
-"value": -0.501
+"value": -0.502
 },
 {
 "key": "nfci|2025-07-11",
 "id": "nfci",
 "date": "2025-07-11",
-"value": -0.507
+"value": -0.509
 },
 {
 "key": "nfci|2025-07-18",
 "id": "nfci",
 "date": "2025-07-18",
-"value": -0.512
+"value": -0.513
 },
 {
 "key": "nfci|2025-07-25",
 "id": "nfci",
 "date": "2025-07-25",
-"value": -0.516
+"value": -0.518
 },
 {
 "key": "nfci|2025-08-01",
 "id": "nfci",
 "date": "2025-08-01",
-"value": -0.519
+"value": -0.52
 },
 {
 "key": "nfci|2025-08-08",
 "id": "nfci",
 "date": "2025-08-08",
-"value": -0.521
+"value": -0.522
 },
 {
 "key": "nfci|2025-08-15",
 "id": "nfci",
 "date": "2025-08-15",
-"value": -0.523
+"value": -0.525
 },
 {
 "key": "nfci|2025-08-22",
 "id": "nfci",
 "date": "2025-08-22",
-"value": -0.524
+"value": -0.526
 },
 {
 "key": "nfci|2025-08-29",
 "id": "nfci",
 "date": "2025-08-29",
-"value": -0.525
+"value": -0.527
 },
 {
 "key": "nfci|2025-09-05",
 "id": "nfci",
 "date": "2025-09-05",
-"value": -0.525
+"value": -0.527
 },
 {
 "key": "nfci|2025-09-12",
 "id": "nfci",
 "date": "2025-09-12",
-"value": -0.525
+"value": -0.527
 },
 {
 "key": "nfci|2025-09-19",
 "id": "nfci",
 "date": "2025-09-19",
-"value": -0.524
+"value": -0.527
 },
 {
 "key": "nfci|2025-09-26",
 "id": "nfci",
 "date": "2025-09-26",
-"value": -0.523
+"value": -0.526
 },
 {
 "key": "nfci|2025-10-03",
 "id": "nfci",
 "date": "2025-10-03",
-"value": -0.522
+"value": -0.525
 },
 {
 "key": "nfci|2025-10-10",
 "id": "nfci",
 "date": "2025-10-10",
-"value": -0.521
+"value": -0.523
 },
 {
 "key": "nfci|2025-10-17",
 "id": "nfci",
 "date": "2025-10-17",
-"value": -0.517
+"value": -0.52
 },
 {
 "key": "nfci|2025-10-24",
 "id": "nfci",
 "date": "2025-10-24",
-"value": -0.514
+"value": -0.517
 },
 {
 "key": "nfci|2025-10-31",
 "id": "nfci",
 "date": "2025-10-31",
-"value": -0.511
+"value": -0.514
 },
 {
 "key": "nfci|2025-11-07",
 "id": "nfci",
 "date": "2025-11-07",
-"value": -0.508
+"value": -0.511
 },
 {
 "key": "nfci|2025-11-14",
 "id": "nfci",
 "date": "2025-11-14",
-"value": -0.506
+"value": -0.509
 },
 {
 "key": "nfci|2025-11-21",
 "id": "nfci",
 "date": "2025-11-21",
-"value": -0.505
+"value": -0.508
 },
 {
 "key": "nfci|2025-11-28",
 "id": "nfci",
 "date": "2025-11-28",
-"value": -0.507
+"value": -0.51
 },
 {
 "key": "nfci|2025-12-05",
 "id": "nfci",
 "date": "2025-12-05",
-"value": -0.51
+"value": -0.513
 },
 {
 "key": "nfci|2025-12-12",
 "id": "nfci",
 "date": "2025-12-12",
-"value": -0.515
+"value": -0.519
 },
 {
 "key": "nfci|2025-12-19",
 "id": "nfci",
 "date": "2025-12-19",
-"value": -0.524
+"value": -0.528
 },
 {
 "key": "nfci|2025-12-26",
 "id": "nfci",
 "date": "2025-12-26",
-"value": -0.535
+"value": -0.539
 },
 {
 "key": "nfci|2026-01-02",
 "id": "nfci",
 "date": "2026-01-02",
-"value": -0.547
+"value": -0.551
 },
 {
 "key": "nfci|2026-01-09",
 "id": "nfci",
 "date": "2026-01-09",
-"value": -0.558
+"value": -0.562
 },
 {
 "key": "nfci|2026-01-16",
 "id": "nfci",
 "date": "2026-01-16",
-"value": -0.564
+"value": -0.569
 },
 {
 "key": "nfci|2026-01-23",
 "id": "nfci",
 "date": "2026-01-23",
-"value": -0.566
+"value": -0.571
 },
 {
 "key": "nfci|2026-01-30",
 "id": "nfci",
 "date": "2026-01-30",
-"value": -0.563
+"value": -0.567
 },
 {
 "key": "nfci|2026-02-06",
 "id": "nfci",
 "date": "2026-02-06",
-"value": -0.554
+"value": -0.559
 },
 {
 "key": "nfci|2026-02-13",
 "id": "nfci",
 "date": "2026-02-13",
-"value": -0.541
+"value": -0.545
 },
 {
 "key": "nfci|2026-02-20",
 "id": "nfci",
 "date": "2026-02-20",
-"value": -0.525
+"value": -0.528
 },
 {
 "key": "nfci|2026-02-27",
 "id": "nfci",
 "date": "2026-02-27",
-"value": -0.506
+"value": -0.509
 },
 {
 "key": "nfci|2026-03-06",
 "id": "nfci",
 "date": "2026-03-06",
-"value": -0.487
+"value": -0.49
 },
 {
 "key": "nfci|2026-03-13",
 "id": "nfci",
 "date": "2026-03-13",
-"value": -0.472
+"value": -0.474
 },
 {
 "key": "nfci|2026-03-20",
 "id": "nfci",
 "date": "2026-03-20",
-"value": -0.463
+"value": -0.464
 },
 {
 "key": "nfci|2026-03-27",
 "id": "nfci",
 "date": "2026-03-27",
-"value": -0.459
+"value": -0.46
 },
 {
 "key": "nfci|2026-04-03",
 "id": "nfci",
 "date": "2026-04-03",
-"value": -0.463
+"value": -0.465
 },
 {
 "key": "nfci|2026-04-10",
 "id": "nfci",
 "date": "2026-04-10",
-"value": -0.473
+"value": -0.475
 },
 {
 "key": "nfci|2026-04-17",
 "id": "nfci",
 "date": "2026-04-17",
-"value": -0.485
+"value": -0.487
 },
 {
 "key": "nfci|2026-04-24",
 "id": "nfci",
 "date": "2026-04-24",
-"value": -0.495
+"value": -0.497
 },
 {
 "key": "nfci|2026-05-01",
 "id": "nfci",
 "date": "2026-05-01",
-"value": -0.502
+"value": -0.505
 },
 {
 "key": "nfci|2026-05-08",
 "id": "nfci",
 "date": "2026-05-08",
-"value": -0.507
+"value": -0.51
 },
 {
 "key": "nfci|2026-05-15",
 "id": "nfci",
 "date": "2026-05-15",
-"value": -0.508
+"value": -0.512
 },
 {
 "key": "nfci|2026-05-22",
 "id": "nfci",
 "date": "2026-05-22",
-"value": -0.507
+"value": -0.511
 },
 {
 "key": "nfci|2026-05-29",
 "id": "nfci",
 "date": "2026-05-29",
-"value": -0.506
+"value": -0.51
 },
 {
 "key": "nfci|2026-06-05",
 "id": "nfci",
 "date": "2026-06-05",
-"value": -0.505
+"value": -0.509
 },
 {
 "key": "nfci|2026-06-12",
 "id": "nfci",
 "date": "2026-06-12",
-"value": -0.504
+"value": -0.508
 },
 {
 "key": "nfci|2026-06-19",
 "id": "nfci",
 "date": "2026-06-19",
-"value": -0.506
+"value": -0.509
 },
 {
 "key": "nfci|2026-06-26",
 "id": "nfci",
 "date": "2026-06-26",
-"value": -0.509
+"value": -0.512
 },
 {
 "key": "nfci|2026-07-03",
 "id": "nfci",
 "date": "2026-07-03",
-"value": -0.515
+"value": -0.517
 },
 {
 "key": "nfci|2026-07-10",
 "id": "nfci",
 "date": "2026-07-10",
-"value": -0.521
+"value": -0.523
 },
 {
 "key": "nfci|2026-07-17",
 "id": "nfci",
 "date": "2026-07-17",
-"value": -0.527
+"value": -0.528
 },
 {
 "key": "nfci|2026-07-24",
 "id": "nfci",
 "date": "2026-07-24",
-"value": -0.533
+"value": -0.534
 },
 {
 "key": "nfci|2026-07-31",
 "id": "nfci",
 "date": "2026-07-31",
-"value": -0.538
+"value": -0.539
 },
 {
 "key": "nfci|2026-08-07",
 "id": "nfci",
 "date": "2026-08-07",
-"value": -0.542
+"value": -0.544
 },
 {
 "key": "nfci|2026-08-14",
 "id": "nfci",
 "date": "2026-08-14",
-"value": -0.546
+"value": -0.548
 },
 {
 "key": "nfci|2026-08-21",
 "id": "nfci",
 "date": "2026-08-21",
-"value": -0.547
+"value": -0.548
 },
 {
 "key": "nfci|2026-08-28",
 "id": "nfci",
 "date": "2026-08-28",
-"value": -0.545
+"value": -0.546
 },
 {
 "key": "nfci|2026-09-04",
 "id": "nfci",
 "date": "2026-09-04",
-"value": -0.54
+"value": -0.541
 },
 {
 "key": "nfci|2026-09-11",
@@ -8163,55 +8199,61 @@
 "key": "nfci|2026-09-18",
 "id": "nfci",
 "date": "2026-09-18",
-"value": -0.522
+"value": -0.521
 },
 {
 "key": "nfci|2026-09-25",
 "id": "nfci",
 "date": "2026-09-25",
-"value": -0.51
+"value": -0.509
 },
 {
 "key": "nfci|2026-10-02",
 "id": "nfci",
 "date": "2026-10-02",
-"value": -0.498
+"value": -0.497
 },
 {
 "key": "nfci|2026-10-09",
 "id": "nfci",
 "date": "2026-10-09",
-"value": -0.487
+"value": -0.488
 },
 {
 "key": "nfci|2026-10-16",
 "id": "nfci",
 "date": "2026-10-16",
-"value": -0.477
+"value": -0.479
 },
 {
 "key": "nfci|2026-10-23",
 "id": "nfci",
 "date": "2026-10-23",
-"value": -0.467
+"value": -0.471
 },
 {
 "key": "nfci|2026-10-30",
 "id": "nfci",
 "date": "2026-10-30",
-"value": -0.459
+"value": -0.465
 },
 {
 "key": "nfci|2026-11-06",
 "id": "nfci",
 "date": "2026-11-06",
-"value": -0.459
+"value": -0.462
 },
 {
-"key": "nfci|2026-10-30|last",
+"key": "nfci|2026-11-13",
 "id": "nfci",
-"date": "2026-10-30",
-"value": -0.459
+"date": "2026-11-13",
+"value": -0.462
+},
+{
+"key": "nfci|2026-11-06|last",
+"id": "nfci",
+"date": "2026-11-06",
+"value": -0.462
 },
 {
 "key": "vix|2023-01-06",
@@ -9420,10 +9462,16 @@
 "value": 25.64
 },
 {
-"key": "vix|2026-11-09|last",
+"key": "vix|2026-11-13",
 "id": "vix",
-"date": "2026-11-09",
-"value": 19.92
+"date": "2026-11-13",
+"value": 17.49
+},
+{
+"key": "vix|2026-11-11|last",
+"id": "vix",
+"date": "2026-11-11",
+"value": 17.49
 },
 {
 "key": "margin_debt_yoy|2026-10-02",
@@ -9462,6 +9510,12 @@
 "value": 31.39
 },
 {
+"key": "margin_debt_yoy|2026-11-13",
+"id": "margin_debt_yoy",
+"date": "2026-11-13",
+"value": 31.39
+},
+{
 "key": "margin_debt_yoy|2026-09-30|last",
 "id": "margin_debt_yoy",
 "date": "2026-09-30",
@@ -9483,6 +9537,12 @@
 "key": "ai_financing|2026-11-06",
 "id": "ai_financing",
 "date": "2026-11-06",
+"value": 15.6
+},
+{
+"key": "ai_financing|2026-11-13",
+"id": "ai_financing",
+"date": "2026-11-13",
 "value": 15.6
 },
 {

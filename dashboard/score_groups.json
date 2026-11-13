@@ -3,8 +3,8 @@
 "key": "Kind: event",
 "group_type": "Kind",
 "group": "event",
-"n": 37,
-"brier": 0.1517
+"n": 41,
+"brier": 0.1594
 },
 {
 "key": "Kind: thesis",
@@ -52,8 +52,8 @@
 "key": "Thesis: In vivo gene editing reaches commercial proof in 2026-27, lifting CRISPR Therapeutics, Intellia, Beam and their suppliers",
 "group_type": "Thesis",
 "group": "In vivo gene editing reaches commercial proof in 2026-27, lifting CRISPR Therapeutics, Intellia, Beam and their suppliers",
-"n": 3,
-"brier": 0.1389
+"n": 5,
+"brier": 0.1316
 },
 {
 "key": "Thesis: Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
@@ -80,8 +80,8 @@
 "key": "Thesis: The AI risk for 2027 is delivery delay, not demand: leveraged builders suffer, bottleneck owners gain",
 "group_type": "Thesis",
 "group": "The AI risk for 2027 is delivery delay, not demand: leveraged builders suffer, bottleneck owners gain",
-"n": 2,
-"brier": 0.1569
+"n": 4,
+"brier": 0.249
 },
 {
 "key": "Thesis: UK large caps outperform global equities in euros as a cheap, low-tech hedge against an AI correction",

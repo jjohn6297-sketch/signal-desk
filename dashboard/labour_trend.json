@@ -26882,337 +26882,673 @@
 {
 "country": "DE",
 "series": "Accounting",
-"date": "2026-10-30",
-"index": 123.17
+"date": "2026-10-31",
+"index": 123.13
 },
 {
 "country": "DE",
 "series": "Administrative Assistance",
-"date": "2026-10-30",
-"index": 100.55
+"date": "2026-10-31",
+"index": 100.33
 },
 {
 "country": "DE",
 "series": "All postings",
-"date": "2026-10-30",
-"index": 105.11
+"date": "2026-10-31",
+"index": 104.93
 },
 {
 "country": "DE",
 "series": "Banking & Finance",
-"date": "2026-10-30",
-"index": 105.67
+"date": "2026-10-31",
+"index": 105.25
 },
 {
 "country": "DE",
 "series": "Customer Service",
-"date": "2026-10-30",
-"index": 69.07
+"date": "2026-10-31",
+"index": 69.11
 },
 {
 "country": "DE",
 "series": "Data & Analytics",
-"date": "2026-10-30",
-"index": 73.72
+"date": "2026-10-31",
+"index": 73.82
 },
 {
 "country": "DE",
 "series": "Human Resources",
-"date": "2026-10-30",
-"index": 79.6
+"date": "2026-10-31",
+"index": 79.38
 },
 {
 "country": "DE",
 "series": "IT Infrastructure, Operations & Support",
-"date": "2026-10-30",
-"index": 63.18
+"date": "2026-10-31",
+"index": 63.08
 },
 {
 "country": "DE",
 "series": "Insurance",
-"date": "2026-10-30",
-"index": 89.65
+"date": "2026-10-31",
+"index": 89.53
 },
 {
 "country": "DE",
 "series": "Legal",
-"date": "2026-10-30",
-"index": 97.7
+"date": "2026-10-31",
+"index": 97.43
 },
 {
 "country": "DE",
 "series": "Marketing",
-"date": "2026-10-30",
-"index": 63.37
+"date": "2026-10-31",
+"index": 63.21
 },
 {
 "country": "DE",
 "series": "Media & Communications",
-"date": "2026-10-30",
-"index": 63.52
+"date": "2026-10-31",
+"index": 63.42
 },
 {
 "country": "DE",
 "series": "Project Management",
-"date": "2026-10-30",
-"index": 81.91
+"date": "2026-10-31",
+"index": 81.79
 },
 {
 "country": "DE",
 "series": "Software Development",
-"date": "2026-10-30",
-"index": 48.75
+"date": "2026-10-31",
+"index": 48.64
 },
 {
 "country": "FR",
 "series": "Accounting",
-"date": "2026-10-30",
-"index": 61.92
+"date": "2026-10-31",
+"index": 61.71
 },
 {
 "country": "FR",
 "series": "Administrative Assistance",
-"date": "2026-10-30",
-"index": 72.99
+"date": "2026-10-31",
+"index": 72.84
 },
 {
 "country": "FR",
 "series": "All postings",
-"date": "2026-10-30",
-"index": 88.48
+"date": "2026-10-31",
+"index": 88.28
 },
 {
 "country": "FR",
 "series": "Banking & Finance",
-"date": "2026-10-30",
-"index": 81.8
+"date": "2026-10-31",
+"index": 81.63
 },
 {
 "country": "FR",
 "series": "Customer Service",
-"date": "2026-10-30",
-"index": 70.96
+"date": "2026-10-31",
+"index": 70.81
 },
 {
 "country": "FR",
 "series": "Human Resources",
-"date": "2026-10-30",
-"index": 66.59
+"date": "2026-10-31",
+"index": 66.43
 },
 {
 "country": "FR",
 "series": "IT Infrastructure, Operations & Support",
-"date": "2026-10-30",
-"index": 61.46
+"date": "2026-10-31",
+"index": 61.3
 },
 {
 "country": "FR",
 "series": "Insurance",
-"date": "2026-10-30",
-"index": 93.22
+"date": "2026-10-31",
+"index": 92.35
 },
 {
 "country": "FR",
 "series": "Legal",
-"date": "2026-10-30",
-"index": 74.08
+"date": "2026-10-31",
+"index": 74.19
 },
 {
 "country": "FR",
 "series": "Marketing",
-"date": "2026-10-30",
-"index": 56.91
+"date": "2026-10-31",
+"index": 56.49
 },
 {
 "country": "FR",
 "series": "Media & Communications",
-"date": "2026-10-30",
-"index": 54.16
+"date": "2026-10-31",
+"index": 53.9
 },
 {
 "country": "FR",
 "series": "Project Management",
-"date": "2026-10-30",
-"index": 67.84
+"date": "2026-10-31",
+"index": 67.87
 },
 {
 "country": "FR",
 "series": "Software Development",
-"date": "2026-10-30",
-"index": 51.45
+"date": "2026-10-31",
+"index": 51.29
 },
 {
 "country": "GB",
 "series": "Accounting",
-"date": "2026-10-30",
-"index": 63.34
+"date": "2026-10-31",
+"index": 63.14
 },
 {
 "country": "GB",
 "series": "Administrative Assistance",
-"date": "2026-10-30",
-"index": 63.33
+"date": "2026-10-31",
+"index": 63.08
 },
 {
 "country": "GB",
 "series": "All postings",
-"date": "2026-10-30",
-"index": 69.14
+"date": "2026-10-31",
+"index": 69.08
 },
 {
 "country": "GB",
 "series": "Banking & Finance",
-"date": "2026-10-30",
-"index": 82.04
+"date": "2026-10-31",
+"index": 82.07
 },
 {
 "country": "GB",
 "series": "Customer Service",
-"date": "2026-10-30",
-"index": 40.5
+"date": "2026-10-31",
+"index": 40.82
 },
 {
 "country": "GB",
 "series": "Data & Analytics",
-"date": "2026-10-30",
-"index": 49.87
+"date": "2026-10-31",
+"index": 49.65
 },
 {
 "country": "GB",
 "series": "Human Resources",
-"date": "2026-10-30",
-"index": 66.34
+"date": "2026-10-31",
+"index": 66.22
 },
 {
 "country": "GB",
 "series": "IT Infrastructure, Operations & Support",
-"date": "2026-10-30",
-"index": 47.35
+"date": "2026-10-31",
+"index": 47.5
 },
 {
 "country": "GB",
 "series": "Insurance",
-"date": "2026-10-30",
-"index": 89.62
+"date": "2026-10-31",
+"index": 89.3
 },
 {
 "country": "GB",
 "series": "Legal",
-"date": "2026-10-30",
-"index": 92.91
+"date": "2026-10-31",
+"index": 92.63
 },
 {
 "country": "GB",
 "series": "Marketing",
-"date": "2026-10-30",
-"index": 48.37
+"date": "2026-10-31",
+"index": 48.29
 },
 {
 "country": "GB",
 "series": "Media & Communications",
-"date": "2026-10-30",
-"index": 45.37
+"date": "2026-10-31",
+"index": 45.11
 },
 {
 "country": "GB",
 "series": "Project Management",
-"date": "2026-10-30",
+"date": "2026-10-31",
 "index": 75.99
 },
 {
 "country": "GB",
 "series": "Software Development",
-"date": "2026-10-30",
-"index": 61.28
+"date": "2026-10-31",
+"index": 61.2
 },
 {
 "country": "IE",
 "series": "All postings",
-"date": "2026-10-30",
-"index": 103.77
+"date": "2026-10-31",
+"index": 103.7
 },
 {
 "country": "US",
 "series": "Accounting",
-"date": "2026-10-30",
-"index": 106.77
+"date": "2026-10-31",
+"index": 106.76
 },
 {
 "country": "US",
 "series": "Administrative Assistance",
-"date": "2026-10-30",
-"index": 92.93
+"date": "2026-10-31",
+"index": 92.86
 },
 {
 "country": "US",
 "series": "All postings",
-"date": "2026-10-30",
-"index": 103.79
+"date": "2026-10-31",
+"index": 103.75
 },
 {
 "country": "US",
 "series": "Banking & Finance",
-"date": "2026-10-30",
-"index": 108.47
+"date": "2026-10-31",
+"index": 108.64
 },
 {
 "country": "US",
 "series": "Customer Service",
-"date": "2026-10-30",
-"index": 86.95
+"date": "2026-10-31",
+"index": 86.99
 },
 {
 "country": "US",
 "series": "Data & Analytics",
-"date": "2026-10-30",
-"index": 61.75
+"date": "2026-10-31",
+"index": 61.79
 },
 {
 "country": "US",
 "series": "Human Resources",
-"date": "2026-10-30",
-"index": 98.55
+"date": "2026-10-31",
+"index": 98.52
 },
 {
 "country": "US",
 "series": "IT Infrastructure, Operations & Support",
-"date": "2026-10-30",
-"index": 69.33
+"date": "2026-10-31",
+"index": 69.21
 },
 {
 "country": "US",
 "series": "Insurance",
-"date": "2026-10-30",
-"index": 125.58
+"date": "2026-10-31",
+"index": 125.45
 },
 {
 "country": "US",
 "series": "Legal",
-"date": "2026-10-30",
-"index": 124.34
+"date": "2026-10-31",
+"index": 124.28
 },
 {
 "country": "US",
 "series": "Marketing",
-"date": "2026-10-30",
-"index": 77.32
+"date": "2026-10-31",
+"index": 77.28
 },
 {
 "country": "US",
 "series": "Media & Communications",
-"date": "2026-10-30",
+"date": "2026-10-31",
 "index": 67.19
 },
 {
 "country": "US",
 "series": "Project Management",
-"date": "2026-10-30",
-"index": 117.8
+"date": "2026-10-31",
+"index": 117.85
 },
 {
 "country": "US",
 "series": "Software Development",
-"date": "2026-10-30",
-"index": 81.58
+"date": "2026-10-31",
+"index": 81.57
+},
+{
+"country": "DE",
+"series": "Accounting",
+"date": "2026-11-06",
+"index": 123.1
+},
+{
+"country": "DE",
+"series": "Administrative Assistance",
+"date": "2026-11-06",
+"index": 100.94
+},
+{
+"country": "DE",
+"series": "All postings",
+"date": "2026-11-06",
+"index": 104.84
+},
+{
+"country": "DE",
+"series": "Banking & Finance",
+"date": "2026-11-06",
+"index": 102.63
+},
+{
+"country": "DE",
+"series": "Customer Service",
+"date": "2026-11-06",
+"index": 68.7
+},
+{
+"country": "DE",
+"series": "Data & Analytics",
+"date": "2026-11-06",
+"index": 74.0
+},
+{
+"country": "DE",
+"series": "Human Resources",
+"date": "2026-11-06",
+"index": 79.17
+},
+{
+"country": "DE",
+"series": "IT Infrastructure, Operations & Support",
+"date": "2026-11-06",
+"index": 63.14
+},
+{
+"country": "DE",
+"series": "Insurance",
+"date": "2026-11-06",
+"index": 90.81
+},
+{
+"country": "DE",
+"series": "Legal",
+"date": "2026-11-06",
+"index": 96.02
+},
+{
+"country": "DE",
+"series": "Marketing",
+"date": "2026-11-06",
+"index": 62.93
+},
+{
+"country": "DE",
+"series": "Media & Communications",
+"date": "2026-11-06",
+"index": 63.34
+},
+{
+"country": "DE",
+"series": "Project Management",
+"date": "2026-11-06",
+"index": 81.48
+},
+{
+"country": "DE",
+"series": "Software Development",
+"date": "2026-11-06",
+"index": 48.56
+},
+{
+"country": "FR",
+"series": "Accounting",
+"date": "2026-11-06",
+"index": 61.87
+},
+{
+"country": "FR",
+"series": "Administrative Assistance",
+"date": "2026-11-06",
+"index": 73.54
+},
+{
+"country": "FR",
+"series": "All postings",
+"date": "2026-11-06",
+"index": 88.63
+},
+{
+"country": "FR",
+"series": "Banking & Finance",
+"date": "2026-11-06",
+"index": 82.13
+},
+{
+"country": "FR",
+"series": "Customer Service",
+"date": "2026-11-06",
+"index": 69.78
+},
+{
+"country": "FR",
+"series": "Human Resources",
+"date": "2026-11-06",
+"index": 65.78
+},
+{
+"country": "FR",
+"series": "IT Infrastructure, Operations & Support",
+"date": "2026-11-06",
+"index": 62.13
+},
+{
+"country": "FR",
+"series": "Insurance",
+"date": "2026-11-06",
+"index": 90.91
+},
+{
+"country": "FR",
+"series": "Legal",
+"date": "2026-11-06",
+"index": 75.23
+},
+{
+"country": "FR",
+"series": "Marketing",
+"date": "2026-11-06",
+"index": 55.12
+},
+{
+"country": "FR",
+"series": "Media & Communications",
+"date": "2026-11-06",
+"index": 54.89
+},
+{
+"country": "FR",
+"series": "Project Management",
+"date": "2026-11-06",
+"index": 69.17
+},
+{
+"country": "FR",
+"series": "Software Development",
+"date": "2026-11-06",
+"index": 51.1
+},
+{
+"country": "GB",
+"series": "Accounting",
+"date": "2026-11-06",
+"index": 62.62
+},
+{
+"country": "GB",
+"series": "Administrative Assistance",
+"date": "2026-11-06",
+"index": 62.95
+},
+{
+"country": "GB",
+"series": "All postings",
+"date": "2026-11-06",
+"index": 70.1
+},
+{
+"country": "GB",
+"series": "Banking & Finance",
+"date": "2026-11-06",
+"index": 81.15
+},
+{
+"country": "GB",
+"series": "Customer Service",
+"date": "2026-11-06",
+"index": 44.04
+},
+{
+"country": "GB",
+"series": "Data & Analytics",
+"date": "2026-11-06",
+"index": 49.77
+},
+{
+"country": "GB",
+"series": "Human Resources",
+"date": "2026-11-06",
+"index": 66.29
+},
+{
+"country": "GB",
+"series": "IT Infrastructure, Operations & Support",
+"date": "2026-11-06",
+"index": 48.08
+},
+{
+"country": "GB",
+"series": "Insurance",
+"date": "2026-11-06",
+"index": 90.64
+},
+{
+"country": "GB",
+"series": "Legal",
+"date": "2026-11-06",
+"index": 93.89
+},
+{
+"country": "GB",
+"series": "Marketing",
+"date": "2026-11-06",
+"index": 48.62
+},
+{
+"country": "GB",
+"series": "Media & Communications",
+"date": "2026-11-06",
+"index": 45.63
+},
+{
+"country": "GB",
+"series": "Project Management",
+"date": "2026-11-06",
+"index": 74.75
+},
+{
+"country": "GB",
+"series": "Software Development",
+"date": "2026-11-06",
+"index": 60.93
+},
+{
+"country": "IE",
+"series": "All postings",
+"date": "2026-11-06",
+"index": 106.26
+},
+{
+"country": "US",
+"series": "Accounting",
+"date": "2026-11-06",
+"index": 107.45
+},
+{
+"country": "US",
+"series": "Administrative Assistance",
+"date": "2026-11-06",
+"index": 92.21
+},
+{
+"country": "US",
+"series": "All postings",
+"date": "2026-11-06",
+"index": 104.56
+},
+{
+"country": "US",
+"series": "Banking & Finance",
+"date": "2026-11-06",
+"index": 109.11
+},
+{
+"country": "US",
+"series": "Customer Service",
+"date": "2026-11-06",
+"index": 87.46
+},
+{
+"country": "US",
+"series": "Data & Analytics",
+"date": "2026-11-06",
+"index": 62.09
+},
+{
+"country": "US",
+"series": "Human Resources",
+"date": "2026-11-06",
+"index": 99.31
+},
+{
+"country": "US",
+"series": "IT Infrastructure, Operations & Support",
+"date": "2026-11-06",
+"index": 69.4
+},
+{
+"country": "US",
+"series": "Insurance",
+"date": "2026-11-06",
+"index": 124.11
+},
+{
+"country": "US",
+"series": "Legal",
+"date": "2026-11-06",
+"index": 125.33
+},
+{
+"country": "US",
+"series": "Marketing",
+"date": "2026-11-06",
+"index": 78.01
+},
+{
+"country": "US",
+"series": "Media & Communications",
+"date": "2026-11-06",
+"index": 66.8
+},
+{
+"country": "US",
+"series": "Project Management",
+"date": "2026-11-06",
+"index": 118.69
+},
+{
+"country": "US",
+"series": "Software Development",
+"date": "2026-11-06",
+"index": 81.4
 }
 ]

@@ -23,6 +23,10 @@ evidence_for:
   claim: 'UK Q3 GDP +0.7% q/q (first estimate), services +0.9%, above the 0.6% line; supports domestic earnings but keeps BoE hikes priced'
   source: https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/julytoseptember2026
   engine: daily-run
+- date: '2026-11-12'
+  claim: 'Nvidia CEO Jensen Huang resigned with immediate effect, no reason given; CFO Colette Kress interim CEO. Shares fell about 11% intraday to $148.80 on 12 Nov after about 10% over the two prior sessions (Barchart via Yahoo). A governance shock at the largest index weight is the kind of tech-specific risk the FTSE 100 avoids'
+  source: https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm
+  engine: daily-run
 evidence_against:
 - date: '2026-10-28'
   claim: 'UK Budget doubles the bank surcharge to 6% for 15 months from Jan 2027 (about GBP 1.5bn), a hit to UK bank earnings'

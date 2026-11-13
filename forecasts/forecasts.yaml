@@ -1474,8 +1474,12 @@ forecasts:
     method: judged
     guidance: Nebius Q3 2026 shareholder letter or release (12 Nov 2026, before the US open), group revenue. Consensus
       https://www.marketbeat.com/earnings/reports/2026-11-12-nebius-group-nv-stock/; Q2 base https://assets.nebius.com/assets/4462517b-ce83-41f2-96ed-f2ac1bc06a05/SHLQ226%20(1).pdf-0
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-13'
+  evidence:
+    summary: 'Nebius Q3 2026 revenue $980.8m (+571% y/y), above $905m (release, 12 Nov 2026).'
+    url: https://www.sec.gov/Archives/edgar/data/0001513845/000110465926126008/tm2629571d1_ex99-1.htm
 - id: EV-20261112-NBIS-2
   kind: event
   thesis: ai-buildout-delay
@@ -1499,8 +1503,12 @@ forecasts:
     method: judged
     guidance: Compare the FY2026 revenue guidance midpoint given on 12 Nov 2026 with $3.2bn (range from https://www.tradingkey.com/news/transcripts/262106466-tradingkey).
       Lower midpoint = yes; unchanged or higher = no; guidance withdrawn = yes. A narrowed range keeps its own midpoint.
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-13'
+  evidence:
+    summary: 'Shareholder letter: "we now expect 2026 revenue at the low end of our $3.0-3.4 billion range", so expected revenue moves from the $3.2bn midpoint to about $3.0bn; judged a lower midpoint (the range itself was not restated). Cause: third-party colocation delivery dates shifted into H1 2027; ARR target of $7-9bn by December moved to over $7bn for February; capex raised to about $27bn.'
+    url: https://www.sec.gov/Archives/edgar/data/0001513845/000110465926126008/tm2629571d1_ex99-2.htm
 - id: EV-20261112-TWST-1
   kind: event
   thesis: in-vivo-gene-editing
@@ -1522,8 +1530,12 @@ forecasts:
   resolution:
     method: judged
     guidance: Twist fiscal Q4 2026 results (12 Nov 2026, before the US open), total revenue. Guide https://www.sec.gov/Archives/edgar/data/0001581280/000158128026000044/twst-2026630xex991.htm
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-13'
+  evidence:
+    summary: 'Twist fiscal Q4 2026 revenue $126.6m (+28% y/y), above $124.0m (release, 12 Nov 2026).'
+    url: https://www.sec.gov/Archives/edgar/data/0001581280/000158128026000053/twst-2026930xex991.htm
 - id: EV-20261112-TWST-2
   kind: event
   thesis: in-vivo-gene-editing
@@ -1545,8 +1557,12 @@ forecasts:
     method: judged
     guidance: Twist fiscal Q4 2026 results release, adjusted EBITDA for the quarter (Jul-Sep 2026). Yes if >= $0.
       Guidance https://www.sec.gov/Archives/edgar/data/0001581280/000158128026000044/twst-2026630xex991.htm
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-13'
+  evidence:
+    summary: 'Twist fiscal Q4 2026 adjusted EBITDA +$2.2m (year earlier -$7.8m). FY2027 guide: revenue $550-560m, positive adjusted EBITDA.'
+    url: https://www.sec.gov/Archives/edgar/data/0001581280/000158128026000053/twst-2026930xex991.htm
 - id: EV-20261106-US-2
   kind: event
   thesis: long-duration-bonds
@@ -1761,5 +1777,33 @@ forecasts:
     guidance: BLS PPI news release for October 2026 (13 Nov 2026, 08:30 ET), final demand, seasonally adjusted one-month
       percent change, as first published. Consensus https://www.stocktitan.net/articles/october-2026-ppi-preview-yearly-rate;
       history https://www.investing.com/economic-calendar/united-states-producer-price-index-(ppi)-mom-238
+  status: open
+  outcome: null
+- id: EV-20261117-US-1
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-11-17'
+  statement: US advance retail and food services sales for October 2026 (Census, 17 Nov, seasonally adjusted) change
+    by 0.0% or more month on month, as first published to one decimal
+  probability_raw: 0.55
+  probability: 0.65
+  reasoning: Consensus is 0.0% after +0.8% in September (control group +0.1%); Trading Economics' own model has +0.6%.
+    With the consensus exactly at the line, the base rate is about even, and a print of exactly 0.0% counts as yes,
+    so a small lean to yes.
+  expected: Headline about 0.0% to +0.3%; control group flat to +0.3%
+  implications:
+    if_yes: Spending holding up after the September jump; keeps a December hike and more in 2027 priced, against the
+      bonds bet
+    if_no: A fall in sales would be the first sign of demand cooling under higher rates; supports the bonds bet and
+      the 2027 path being priced too high
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-13'
+  resolves_by: '2026-11-17'
+  resolution:
+    method: judged
+    guidance: Census Bureau Advance Monthly Retail Trade report for October 2026 (17 Nov 2026, 08:30 ET), total retail
+      and food services, seasonally adjusted percent change from September, as first published. Consensus and prior
+      https://tradingeconomics.com/united-states/retail-sales; schedule https://www.financecalendar.com/us-retail-sales/;
+      report https://www.census.gov/retail/marts/www/marts_current.pdf
   status: open
   outcome: null

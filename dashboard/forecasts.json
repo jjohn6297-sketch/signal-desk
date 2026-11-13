@@ -1557,10 +1557,13 @@
 "event_date": "2026-11-12",
 "resolves_by": "2026-11-13",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.1608,
+"evidence": {
+"summary": "Nebius Q3 2026 revenue $980.8m (+571% y/y), above $905m (release, 12 Nov 2026).",
+"url": "https://www.sec.gov/Archives/edgar/data/0001513845/000110465926126008/tm2629571d1_ex99-1.htm"
+}
 },
 {
 "id": "EV-20261112-NBIS-2",
@@ -1579,10 +1582,13 @@
 "event_date": "2026-11-12",
 "resolves_by": "2026-11-13",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.5213,
+"evidence": {
+"summary": "Shareholder letter: \"we now expect 2026 revenue at the low end of our $3.0-3.4 billion range\", so expected revenue moves from the $3.2bn midpoint to about $3.0bn; judged a lower midpoint (the range itself was not restated). Cause: third-party colocation delivery dates shifted into H1 2027; ARR target of $7-9bn by December moved to over $7bn for February; capex raised to about $27bn.",
+"url": "https://www.sec.gov/Archives/edgar/data/0001513845/000110465926126008/tm2629571d1_ex99-2.htm"
+}
 },
 {
 "id": "EV-20261112-TWST-1",
@@ -1601,10 +1607,13 @@
 "event_date": "2026-11-12",
 "resolves_by": "2026-11-13",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.0108,
+"evidence": {
+"summary": "Twist fiscal Q4 2026 revenue $126.6m (+28% y/y), above $124.0m (release, 12 Nov 2026).",
+"url": "https://www.sec.gov/Archives/edgar/data/0001581280/000158128026000053/twst-2026930xex991.htm"
+}
 },
 {
 "id": "EV-20261112-TWST-2",
@@ -1623,10 +1632,13 @@
 "event_date": "2026-11-12",
 "resolves_by": "2026-11-13",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.2304,
+"evidence": {
+"summary": "Twist fiscal Q4 2026 adjusted EBITDA +$2.2m (year earlier -$7.8m). FY2027 guide: revenue $550-560m, positive adjusted EBITDA.",
+"url": "https://www.sec.gov/Archives/edgar/data/0001581280/000158128026000053/twst-2026930xex991.htm"
+}
 },
 {
 "id": "EV-20261106-US-2",
@@ -1807,6 +1819,28 @@
 "made_at": "2026-11-12",
 "event_date": "2026-11-13",
 "resolves_by": "2026-11-13",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261117-US-1",
+"kind": "event",
+"thesis": "long-duration-bonds",
+"thesis_title": "Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
+"statement": "US advance retail and food services sales for October 2026 (Census, 17 Nov, seasonally adjusted) change by 0.0% or more month on month, as first published to one decimal",
+"probability": 0.65,
+"probability_raw": 0.55,
+"override": null,
+"reasoning": "Consensus is 0.0% after +0.8% in September (control group +0.1%); Trading Economics' own model has +0.6%. With the consensus exactly at the line, the base rate is about even, and a print of exactly 0.0% counts as yes, so a small lean to yes.",
+"expected": "Headline about 0.0% to +0.3%; control group flat to +0.3%",
+"if_yes": "Spending holding up after the September jump; keeps a December hike and more in 2027 priced, against the bonds bet",
+"if_no": "A fall in sales would be the first sign of demand cooling under higher rates; supports the bonds bet and the 2027 path being priced too high",
+"made_at": "2026-11-13",
+"event_date": "2026-11-17",
+"resolves_by": "2026-11-17",
 "method": "judged",
 "status": "open",
 "outcome": null,

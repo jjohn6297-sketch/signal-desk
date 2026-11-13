@@ -11,17 +11,17 @@
 "band": "20–40%",
 "lo": 0.2,
 "hi": 0.4,
-"n": 3,
-"mean_stated": 0.2823,
-"share_happened": 0.0
+"n": 4,
+"mean_stated": 0.2812,
+"share_happened": 0.25
 },
 {
 "band": "40–60%",
 "lo": 0.4,
 "hi": 0.6,
-"n": 15,
-"mean_stated": 0.4997,
-"share_happened": 0.6667
+"n": 17,
+"mean_stated": 0.5067,
+"share_happened": 0.7059
 },
 {
 "band": "60–80%",
@@ -35,8 +35,8 @@
 "band": "80–100%",
 "lo": 0.8,
 "hi": 1.0,
-"n": 11,
-"mean_stated": 0.8644,
-"share_happened": 0.9091
+"n": 12,
+"mean_stated": 0.867,
+"share_happened": 0.9167
 }
 ]
