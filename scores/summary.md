@@ -1,4 +1,4 @@
-# Forecast scores, 2026-11-13
+# Forecast scores, 2026-11-14
 
 51 resolved, 24 open, 77 in total.
 
