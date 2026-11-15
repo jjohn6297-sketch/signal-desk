@@ -1,6 +1,5 @@
 job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_related
 ee8e3e34-ad5a-410b-a9de-ce29fe39064d,Business Development Representative,Revenue,Dublin,2026-07-17T14:01:12.096+00:00,https://jobs.ashbyhq.com/wayflyer/ee8e3e34-ad5a-410b-a9de-ce29fe39064d,sales,mid_or_unknown,dublin,False
-9fef0c55-7dc5-4bdf-b16e-9d7be59348f3,"Business Development Representative, US",Revenue,"Charlotte, North Carolina",2026-02-17T16:43:56.912+00:00,https://jobs.ashbyhq.com/wayflyer/9fef0c55-7dc5-4bdf-b16e-9d7be59348f3,sales,mid_or_unknown,other,False
 029ece7c-cf42-4c7f-bc3d-12a3e51f26cb,Sales Development Representative,Revenue,"Charlotte, North Carolina",2026-02-17T16:45:23.969+00:00,https://jobs.ashbyhq.com/wayflyer/029ece7c-cf42-4c7f-bc3d-12a3e51f26cb,sales,mid_or_unknown,other,False
 8b4052a5-9e11-4acd-babc-963e5f5111ba,Backend Software Engineer,Technology,Remote Europe,2026-02-25T09:39:57.911+00:00,https://jobs.ashbyhq.com/wayflyer/8b4052a5-9e11-4acd-babc-963e5f5111ba,software_engineering,mid_or_unknown,remote,False
 f0052cb0-541c-4dd4-8717-1877fa4b4e35,Broker Account Manager,Revenue,London,2026-09-10T14:08:30.043+00:00,https://jobs.ashbyhq.com/wayflyer/f0052cb0-541c-4dd4-8717-1877fa4b4e35,other,senior,uk,False
