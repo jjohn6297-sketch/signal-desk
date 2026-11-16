@@ -127,12 +127,12 @@
 "cik": 1697748,
 "edgar_name": "ARK Investment Management LLC",
 "ok": true,
-"latest_period": "2026-06-30",
-"filed": "2026-08-14",
-"positions": 191,
-"total_value_usd": 15402068886,
-"top_holdings": "Tesla Inc, Advanced Micro Devices Inc, Space Exploration Technologies Corp, Tempus Ai Inc, Robinhood Markets Inc",
-"moves": 105
+"latest_period": "2026-09-30",
+"filed": "2026-11-13",
+"positions": 182,
+"total_value_usd": 17373614456,
+"top_holdings": "Tesla Inc, Space Exploration Technologies, Tempus Ai Inc, Twist Bioscience Corp, Nvidia Corp",
+"moves": 141
 },
 {
 "fund": "baker_bros",

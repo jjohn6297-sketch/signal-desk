@@ -11,7 +11,10 @@ consensus:
     16 of 18 officials expect more
 variant_view: Inflation is energy-led (core CPI 2.6%, 5y5y 2.20%) while growth stalls (Sep payrolls +29k); if oil
   fades the hiking path breaks
-evidence_for: []
+evidence_for:
+- date: '2026-11-13'
+  claim: 'October PPI final demand +0.3% m/m against a +0.4% consensus; energy -0.1%; core (less foods and energy) +0.3%, in line'
+  source: https://www.bls.gov/news.release/ppi.nr0.htm
 evidence_against:
 - date: '2026-10-28'
   claim: 'Fed held at 3.75-4.00% but two members (Cook, Hammack) dissented for a hike; statement says inflation remains elevated'
@@ -35,7 +38,11 @@ evidence_against:
   claim: '10-year yield up 11bp to 4.99% and 2-year up 17bp to 4.74% after hot CPI; weakest 10-year auction demand since June; markets price a December hike plus two more by June; Waller open to 50bp, Logan wants at least two more hikes. Kill criterion (10-year above 5.40% for three sessions) not hit'
   source: https://www.home.saxo/en-sg/content/articles/macro/market-quick-take---us-treasury-yields-rip-higher---11-november-2026-11112026
   engine: daily-run
-system_conviction: 30
+- date: '2026-11-13'
+  claim: '10-year Treasury yield 5.15% and 2-year 4.88% on 13 Nov, up from 4.88% and 4.56% on 9 Nov; 16bp below the BOND-1 line (5.31%) and 25bp below the kill line (5.40%)'
+  source: https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611
+  engine: weekly-review
+system_conviction: 25
 conviction_history:
 - date: '2026-11-08'
   value: 35
@@ -44,6 +51,10 @@ conviction_history:
 - date: '2026-11-11'
   value: 30
   reason: 'Second 0.3% core print and a December hike fully priced; kill criteria not hit (10-year 4.86% on 6 Nov, 5y5y 2.19% on 9 Nov)'
+- date: '2026-11-15'
+  value: 25
+  reason: 'Weekly review 2026-46 (15 Nov): 10-year up 27bp in the week to 5.15%; recovered from the Insights log because that run''s push failed'
+  source: https://claude.ai/artifact/WwpbnTDszXxUHpCnbVKEu3
 predictions:
 - id: p1
   statement: 10-year Treasury does not close above 5.31% before 2027-01-31

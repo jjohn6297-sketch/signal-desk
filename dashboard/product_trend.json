@@ -160,5 +160,32 @@
 "pm_share": 0.0357,
 "pm_ai_share": 0.1166,
 "pm_ireland": 16
+},
+{
+"date": "2026-11-13",
+"boards": 32,
+"all_open": 7915,
+"pm_open": 286,
+"pm_share": 0.0361,
+"pm_ai_share": 0.1189,
+"pm_ireland": 16
+},
+{
+"date": "2026-11-14",
+"boards": 32,
+"all_open": 7910,
+"pm_open": 279,
+"pm_share": 0.0353,
+"pm_ai_share": 0.1183,
+"pm_ireland": 16
+},
+{
+"date": "2026-11-15",
+"boards": 32,
+"all_open": 7908,
+"pm_open": 278,
+"pm_share": 0.0352,
+"pm_ai_share": 0.1151,
+"pm_ireland": 16
 }
 ]

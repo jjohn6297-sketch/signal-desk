@@ -82,10 +82,10 @@
 "event_date": null,
 "resolves_by": "2027-01-31",
 "method": "auto",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.2025,
+"evidence": "auto: BRENT 2026-11-04: 91.84 < 100.0"
 },
 {
 "id": "AIR-2",
@@ -1798,10 +1798,13 @@
 "event_date": "2026-11-13",
 "resolves_by": "2026-11-13",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.1815,
+"evidence": {
+"summary": "BLS: PPI final demand less foods and energy rose 0.3% s.a. in October, at the 0.3% line; less foods, energy and trade +0.5%. Core figure read from BLS table 1 in the 15 Nov weekly review; headline confirmed in the news release on 16 Nov.",
+"url": "https://www.bls.gov/news.release/ppi.t01.htm"
+}
 },
 {
 "id": "EV-20261113-US-2",
@@ -1820,10 +1823,13 @@
 "event_date": "2026-11-13",
 "resolves_by": "2026-11-13",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 0,
+"brier": 0.245,
+"evidence": {
+"summary": "BLS: PPI final demand rose 0.3% s.a. in October, below the 0.4% line; energy -0.1%; September revised to +1.4%.",
+"url": "https://www.bls.gov/news.release/ppi.nr0.htm"
+}
 },
 {
 "id": "EV-20261117-US-1",
@@ -1841,6 +1847,28 @@
 "made_at": "2026-11-13",
 "event_date": "2026-11-17",
 "resolves_by": "2026-11-17",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261118-FOMC-1",
+"kind": "event",
+"thesis": "long-duration-bonds",
+"thesis_title": "Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
+"statement": "The minutes of the 27-28 Oct 2026 FOMC meeting (published 18 Nov) say that \"many\", \"most\", \"a majority\" or \"almost all\" participants judged further policy firming (a rate increase) likely to be appropriate",
+"probability": 0.828,
+"probability_raw": 0.7,
+"override": null,
+"reasoning": "The Fed hiked in September with 16 of 18 officials projecting more, then held in October with two dissents for a hike (Cook, Hammack). Minutes usually describe a clear majority view in \"many\" or \"most\" terms; the risk to yes is softer wording such as \"some\" or \"several\" if the hold reflected doubts about growth.",
+"expected": "Minutes say many participants see further firming as likely appropriate, with some worried about growth",
+"if_yes": "Confirms the hiking bias that markets already price for December; against the bonds bet and closer to its \"December FOMC signals two or more further hikes\" kill criterion",
+"if_no": "A softer committee than the December pricing implies; supports the bonds bet",
+"made_at": "2026-11-16",
+"event_date": "2026-11-18",
+"resolves_by": "2026-11-19",
 "method": "judged",
 "status": "open",
 "outcome": null,

@@ -19,9 +19,9 @@
 "band": "40–60%",
 "lo": 0.4,
 "hi": 0.6,
-"n": 17,
-"mean_stated": 0.5067,
-"share_happened": 0.7059
+"n": 20,
+"mean_stated": 0.5117,
+"share_happened": 0.7
 },
 {
 "band": "60–80%",

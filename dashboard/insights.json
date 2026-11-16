@@ -1,5 +1,61 @@
 [
 {
+"key": "2026-11-16-1",
+"date": "2026-11-16",
+"kind": "daily",
+"title": "16 November 2026",
+"rank": 1,
+"text": "Nvidia (held) reports tomorrow after the US close under pressure. The shares fell more than 12% last week. On 15 Nov Treasury Secretary Bessent gave Nvidia 10 days to explain whether advanced chips reached China through shell companies, and called for \"a dramatic shake-up\" with an outside CEO. The Justice Department's criminal probe is into Megaspeed, not Nvidia ([Kuwait Times/AFP](https://kuwaittimes.com/article/53719/world/us-treasury-chief-wants-answers-soon-from-nvidia-over-china-chip-sales/)). Revenue consensus is $108.8-109.2bn ([FXEmpire](https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719), [IG](https://www.ig.com/uk/news-and-trade-ideas/_nvidia-q3-earnings-preview--can-ai-growth-outweigh-the-jensen-h-261110)). The forecasts stand: revenue at least $110.2bn (96.4%) and a Q4 guide midpoint of at least $120bn (75.9%)."
+},
+{
+"key": "2026-11-16-2",
+"date": "2026-11-16",
+"kind": "daily",
+"title": "16 November 2026",
+"rank": 2,
+"text": "Resolved 2 October PPI forecasts. Core rose 0.3%, at the line (hit, 57.4%, Brier 0.18). Headline rose 0.3%, below 0.4% (miss, 49.5%, Brier 0.25) ([BLS](https://www.bls.gov/news.release/ppi.nr0.htm)). Brier is 0.174 on 53 resolved (0.172 on 50). Recalibration was refitted to k 1.20, b 0.55, from k 1.15, b 0.60. The GitHub job also resolved AIR-1 as a hit: Brent closed below $100 on 4 Nov (55%, Brier 0.20)."
+},
+{
+"key": "2026-11-16-3",
+"date": "2026-11-16",
+"kind": "daily",
+"title": "16 November 2026",
+"rank": 3,
+"text": "CoreWeave 2031 notes: the yield reached 16.33% on 6 Nov, inside the stress band (16%), according to FINRA TRACE data cited by [FourWeekMBA](https://fourweekmba.com/ai-metas-2031-bonds-yield-5-85-coreweaves-trade-at-16-3/). After Q3 the notes rose to 82.25 on 12 Nov, about 15.0% by my calculation, which is back in the watch band. CDS costs fell, and the company plans a $4bn investment-grade loan at 7-7.5% ([Yahoo/Bloomberg](https://finance.yahoo.com/markets/stocks/articles/coreweave-bonds-signal-cooling-investor-192736400.html)). This is evidence against the build-out-delay bet. Conviction stays at 56; no CDS level was published to test the 500bp kill line."
+},
+{
+"key": "2026-11-16-4",
+"date": "2026-11-16",
+"kind": "daily",
+"title": "16 November 2026",
+"rank": 4,
+"text": "Long bonds: the 10-year closed at 5.15% on 13 Nov, 25bp below the kill line. 5y5y inflation expectations were 2.18% against a 2.6% kill line. Conviction is now 25 in the repository, carried over from Sunday's review. Pre-registered 1 forecast for the FOMC minutes (18 Nov): \"many\" or \"most\" participants favour further hikes, raw 70%, calibrated 82.8%."
+},
+{
+"key": "2026-11-16-5",
+"date": "2026-11-16",
+"kind": "daily",
+"title": "16 November 2026",
+"rank": 5,
+"text": "Sunday's weekly review failed to push to GitHub again. Today's run recovered it into the repository as insights/weekly/2026-46.md. John still has its five open decisions: airlines, the long-bonds kill rule, freezing recalibration, Nvidia position size, and his own overrides."
+},
+{
+"key": "2026-11-16-6",
+"date": "2026-11-16",
+"kind": "daily",
+"title": "16 November 2026",
+"rank": 6,
+"text": "Coming up: US retail sales and Nvidia on 17 Nov, with retail-sales consensus between 0.0% and +0.2% against our line of 0.0% or better (65%). UK CPI is 18 Nov (consensus 3.6%; we have 54.5% for 3.6% or higher), as are the FOMC minutes. Anthropic is expected to start trading on 19 Nov. The 13F deadline is today, with nine funds including Berkshire still to file; tomorrow's run will report them."
+},
+{
+"key": "2026-11-16-7",
+"date": "2026-11-16",
+"kind": "daily",
+"title": "16 November 2026",
+"rank": 7,
+"text": "No comments or edits from John. No new director purchases at Siemens Energy, Schneider or Teleperformance. No October FINRA margin data yet."
+},
+{
 "key": "2026-11-13-1",
 "date": "2026-11-13",
 "kind": "daily",
@@ -232,60 +288,76 @@
 "text": "No comments or edits from John on the Signal Desk docs."
 },
 {
-"key": "2026-11-09-1",
-"date": "2026-11-09",
-"kind": "daily",
-"title": "9 November 2026",
+"key": "2026-46-1",
+"date": "2026-46",
+"kind": "weekly",
+"title": "Week 2026-46 review (15 November 2026)",
 "rank": 1,
-"text": "Run problem fixed: Sunday's weekly review never reached the repository (its push was refused). Its conviction scores are now in the thesis files and its write-up is saved as insights/weekly/2026-45.md, both recovered from the Insights log."
+"text": "Brier 0.174 on 53 resolved, 22 open (events 0.162, n 43; thesis forecasts 0.227, n 10). Always forecasting the observed 74% yes rate would score 0.194, so the edge over a naive baseline is about 0.02, unchanged from last week. This week: 15 resolved, Brier 0.189, 12 of 15 on the right side of 50%; the worst miss was the Nebius guidance cut (27.8%, Brier 0.52)."
 },
 {
-"key": "2026-11-09-2",
-"date": "2026-11-09",
-"kind": "daily",
-"title": "9 November 2026",
+"key": "2026-46-2",
+"date": "2026-46",
+"kind": "weekly",
+"title": "Week 2026-46 review (15 November 2026)",
 "rank": 2,
-"text": "Resolved 1, voided 1. Hit: October payrolls at least +50k (68.6%, Brier 0.10). BLS: +165,000, unemployment 4.1%, August and September revised up 84,000 combined ([BLS](https://www.bls.gov/news.release/archives/empsit_11062026.htm)). Voided: core CPI 2.5% year on year or lower, because BLS will not publish 12-month rates for October 2026 (October 2025 prices were not collected in the shutdown) ([BLS FAQ](https://www.bls.gov/cpi/additional-resources/2025-federal-government-shutdown-impact-cpi-faq.htm)). The forecast's premise was wrong. Brier 0.168 on 38 resolved."
+"text": "Calibration still leans underconfident on yes: forecasts at 40-60% happened 70% of the time (n 20), 60-80% 80% (n 15), 80-100% 92% (n 12). The recalibration fit moved from k 1.60, b 0.30 (12 Nov) to k 1.15, b 0.60 (14 Nov) to k 1.20, b 0.55 (15 Nov, in the review's own fit)."
 },
 {
-"key": "2026-11-09-3",
-"date": "2026-11-09",
-"kind": "daily",
-"title": "9 November 2026",
+"key": "2026-46-3",
+"date": "2026-46",
+"kind": "weekly",
+"title": "Week 2026-46 review (15 November 2026)",
 "rank": 3,
-"text": "Pre-registered 1: October core CPI rises 0.2% or less month on month (tomorrow, 13:30 Dublin). Consensus +0.2%; forecasts range from +0.19% to +0.3% ([Mitrade](https://www.mitrade.com/insights/more/inflation/cpi-no-year-over-year-20261109J1123)). Raw 55%, calibrated 68%."
+"text": "Every thesis has 9 or fewer resolved, so no ranking is reliable. Lowest Brier: UK large caps 0.094 (n 7), gene editing 0.132 (n 5), service agents 0.137 (n 5). Highest: airlines 0.424 (n 3), build-out delay 0.249 (n 4), hyperscaler capex 0.222 (n 9)."
 },
 {
-"key": "2026-11-09-4",
-"date": "2026-11-09",
-"kind": "daily",
-"title": "9 November 2026",
+"key": "2026-46-4",
+"date": "2026-46",
+"kind": "weekly",
+"title": "Week 2026-46 review (15 November 2026)",
 "rank": 4,
-"text": "CoreWeave's 9.625% 2032 notes yielded above 16% on 6 Nov ([24/7 Wall St](https://247wallst.com/investing/2026/11/07/coreweaves-bonds-now-yield-more-than-16-days-before-earnings/); the price source isn't named). No 2031 quote was found, so the weekly AI-financing reading was not updated; the last 2031 reading was 15.6% (3 Nov), in the watch band below the 16% stress line. Results tomorrow: revenue at least $3.6bn 52.5%; guidance midpoint cut 29.7%."
+"text": "October PPI: core +0.3% m/m, at the line, hit (57.4%, Brier 0.18); headline +0.3%, below 0.4%, miss (49.5%, Brier 0.25); energy -0.1%, September revised to +1.4% (https://www.bls.gov/news.release/ppi.nr0.htm, https://www.bls.gov/news.release/ppi.t01.htm). Recorded in the registry on 16 Nov."
 },
 {
-"key": "2026-11-09-5",
-"date": "2026-11-09",
-"kind": "daily",
-"title": "9 November 2026",
+"key": "2026-46-5",
+"date": "2026-46",
+"kind": "weekly",
+"title": "Week 2026-46 review (15 November 2026)",
 "rank": 5,
-"text": "5 Nov sell-off: S&P 500 tech sector -7.3%, Philadelphia semiconductor index more than -12%, Nasdaq nearly 12% below its 6 Oct high; futures still price about a 65% chance of a December Fed hike ([Reuters via Kitco](https://www.kitco.com/news/off-the-wire/2026-11-06/wall-st-week-ahead-tech-swoon-roils-market-us-inflation-data-tap)). Logged as evidence for build-out delay and against hyperscaler capex and grid. No kill criterion hit (10-year 4.84% on 5 Nov against the 5.40% line; 5y5y 2.17% against 2.6%)."
+"text": "Long bonds: the 10-year rose from 4.88% on 9 Nov to 5.15% on 13 Nov and the 2-year from 4.56% to 4.88% (US Treasury). That is 16bp below the BOND-1 line (5.31%) and 25bp below the kill line (above 5.40% for three sessions). Conviction 30 to 25."
 },
 {
-"key": "2026-11-09-6",
-"date": "2026-11-09",
-"kind": "daily",
-"title": "9 November 2026",
+"key": "2026-46-6",
+"date": "2026-46",
+"kind": "weekly",
+"title": "Week 2026-46 review (15 November 2026)",
 "rank": 6,
-"text": "Coming up: CTX310 data at AHA and Constellation results today; CPI and CoreWeave 10 Nov; Siemens Energy 11 Nov (margin at least 11%, 92%; backlog at least EUR 165bn, 60%); Nebius, Twist and UK GDP 12 Nov."
+"text": "Conviction (change from Week 2026-45): service agents 65 (0), hyperscaler capex 60 (0), usage pricing 60 (0), gene editing 60 (0), grid 58 (+3), build-out delay 56 (-4), staples 55 (0), UK large caps 55 (0), airlines 30 (0), long bonds 25 (-10). No move of 15 or more and no kill criterion newly hit, so no action card. Airlines has had kill criterion 2 (strikes on Iran resumed, 3 Nov) hit since 5 Nov."
 },
 {
-"key": "2026-11-09-7",
-"date": "2026-11-09",
-"kind": "daily",
-"title": "9 November 2026",
+"key": "2026-46-7",
+"date": "2026-46",
+"kind": "weekly",
+"title": "Week 2026-46 review (15 November 2026)",
 "rank": 7,
-"text": "No comments or edits from John on the Signal Desk docs. No new 13F filings, no new director purchases at the non-US watch-list companies, no new FINRA margin data. Recalibration refit to k 1.60, b 0.50."
+"text": "Smart money: ARK's Q3 13F, filed 13 Nov, added 85% to its Nvidia shares, opened TSMC and cut AMD by 52% (EDGAR); nine of the eleven funds were still due by 16 Nov. Atlassian CEO Mike Cannon-Brookes bought about $4.0m of TEAM shares at $148-154 on 11-12 Nov (Form 4)."
+},
+{
+"key": "2026-46-8",
+"date": "2026-46",
+"kind": "weekly",
+"title": "Week 2026-46 review (15 November 2026)",
+"rank": 8,
+"text": "No comments or edits on the Signal Desk docs and no overrides. No new contrarian bet; the November BofA survey was not out. No manager statements added. No post-mortem or reweighting this week."
+},
+{
+"key": "2026-46-9",
+"date": "2026-46",
+"kind": "weekly",
+"title": "Week 2026-46 review (15 November 2026)",
+"rank": 9,
+"text": "Decisions for John: (1) airlines, close or watch-only; (2) long bonds, decide now whether a breach of the kill line means closing; (3) freeze the recalibration until 60 resolved, or keep refitting daily; (4) Nvidia, whether the CEO exit changes the position size before the 17 Nov results; (5) set your own convictions or a few overrides so they can be compared."
 },
 {
 "key": "2026-45-1",

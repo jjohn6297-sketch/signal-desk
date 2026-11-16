@@ -42,6 +42,9 @@ evidence_against:
 - date: '2026-11-10'
   claim: 'CoreWeave Q3 revenue $3.66bn beat the top of its guide; 2026 guide raised to $13.0-13.3bn; capex guide raised to $37-39bn to deliver capacity sooner than planned; active power over 1.7 GW, contracted 4.6 GW; no delays cited'
   source: https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx
+- date: '2026-11-12'
+  claim: 'CoreWeave 9.75% 2031 notes rose to 82.25 after Q3 results (about 15.0% yield to maturity, computed from the price; 16.33% on 6 Nov per FINRA TRACE via FourWeekMBA); CDS cost fell; CEO expects a planned $4bn investment-grade loan at 7-7.5%. Financing stress easing'
+  source: https://finance.yahoo.com/markets/stocks/articles/coreweave-bonds-signal-cooling-investor-192736400.html
 system_conviction: 56
 conviction_history:
 - date: '2026-11-08'
