@@ -1,6 +1,5 @@
 job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_related
 8268331,B2B Growth Marketing Manager,,"San Francisco, CA, US; Remote, US",2026-11-06T16:55:13-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8268331,marketing_content,senior,us,False
-8268316,"Brand Partnerships Manager, Europe ",,"London, UK",2026-11-06T16:46:24-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8268316,marketing_content,senior,uk,False
 8319154,"Business Development, AI Product Partnerships",,"San Francisco, CA, US; Remote, US",2026-11-06T16:55:13-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8319154,data_ai,mid_or_unknown,us,True
 7488432,"Chief of Staff to GM, Ads",,"San Francisco, CA, US",2026-11-06T19:32:23-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=7488432,other,leadership,us,False
 8016642,Client Account Manager II,,"Singapore, SG",2026-11-10T18:12:42-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8016642,other,senior,other,False
@@ -20,8 +19,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8247248,Integrated Marketing Manager,,"Singapore, SG",2026-11-04T13:49:14-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8247248,marketing_content,senior,other,False
 8304896,Lead Client Account Manager (Entertainment App) - Greater China Region,,"Singapore, SG",2026-11-04T13:56:17-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8304896,other,senior,other,False
 8265119,"Lead Client Partner, Financial Services",,"Toronto, ON, Canada",2026-11-06T16:50:39-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8265119,other,senior,other,False
-8206782,"Lead Client Partner, Travel",,"Atlanta, GA, US",2026-11-06T16:55:11-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8206782,other,senior,us,False
 8273738,"Lead Client Partner, Travel",,"Amsterdam, Netherlands",2026-11-06T16:46:24-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8273738,other,senior,other,False
+8206782,"Lead Client Partner, Travel",,"Atlanta, GA, US",2026-11-06T16:55:11-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8206782,other,senior,us,False
 8129668,Lead Client Partner (tvScientific),,"New York, NY, US; Chicago, IL, US",2026-11-06T16:55:10-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8129668,other,senior,us,False
 8268318,Lead Digital Producer,,"San Francisco, CA, US; Remote, CA, US",2026-11-12T12:40:21-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8268318,other,senior,us,False
 8239002,Lead Industry Manager,,"Singapore, SG",2026-11-10T02:35:56-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8239002,other,senior,other,False
@@ -71,11 +70,10 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7838577,Software Engineer Intern 2027 (USA),,"San Francisco, CA, US; Remote, US",2026-11-06T16:55:09-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=7838577,software_engineering,intern,us,False
 6922682,"Software Engineer, iOS",,"Toronto, ON, CA",2026-11-06T16:50:40-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=6922682,software_engineering,mid_or_unknown,us,False
 8214788,Solutions Engineer Intern 2027 (USA),,"San Francisco, CA, US; Remote, US",2026-11-06T16:55:11-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8214788,software_engineering,intern,us,False
-8350415,"Sr. Business Analyst, Strategy & Operations (12 month contract)",,"Singapore, SG",2026-11-13T16:46:31-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8350415,other,senior,other,False
 8239061,Sr. Client Account Manager (12 Months Fixed Term),,"Sydney, Australia",2026-11-04T13:58:09-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8239061,other,senior,other,False
 8016626,Sr. Client Account Manager (Entertainment App) - Greater China Region,,"Singapore, SG",2026-11-04T13:36:11-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8016626,other,senior,other,False
-7656243,"Sr. Client Account Manager, Financial Services",,"Chicago, IL, US",2026-11-06T16:55:09-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=7656243,other,senior,us,False
 8331469,"Sr. Client Account Manager, Financial Services",,"New York, NY, US",2026-11-13T15:17:36-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8331469,other,senior,us,False
+7656243,"Sr. Client Account Manager, Financial Services",,"Chicago, IL, US",2026-11-06T16:55:09-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=7656243,other,senior,us,False
 8081002,Sr. Client Account Manager (Growth) - Greater China Region,,"Singapore, SG",2026-11-12T08:14:13-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8081002,other,senior,other,False
 8081452,"Sr. Client Account Manager, Home Retail",,"New York, NY, US",2026-11-06T16:55:10-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8081452,other,senior,us,False
 8233213,"Sr. Client Account Manager, Luxury Fashion",,"New York, NY, US",2026-11-06T16:55:12-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8233213,other,senior,us,False
@@ -135,7 +133,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8302281,"Staff Motion Designer, Design Innovation",,"San Francisco, CA, US; Remote, US",2026-11-06T16:55:13-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8302281,other,senior,us,False
 8109770,"Staff Product Manager, Ads Measurement",,"New York, NY, US",2026-11-06T16:55:10-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8109770,product_management,senior,us,False
 7985302,"Staff Product Manager, Ads Quality Ranking",,"Palo Alto, CA, US; Seattle, WA, US",2026-11-06T16:55:09-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=7985302,product_management,senior,us,False
-7940537,"Staff Product Manager, App Install",,"San Francisco, CA, US; Seattle, WA, US; Remote, US",2026-11-11T21:12:44-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=7940537,product_management,senior,us,False
+7940537,"Staff Product Manager, App Install",,"San Francisco, CA, US; Seattle, WA, US; Remote, US",2026-11-16T03:17:05-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=7940537,product_management,senior,us,False
 8239171,"Staff Product Manager, Content-to-Discovery Infrastructure",,"San Francisco, CA, US; Seattle, WA, US; Remote, CA, US",2026-11-06T16:55:12-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8239171,product_management,senior,us,False
 8239954,"Staff Product Manager, Measurement Partner Optimization",,"San Francisco, CA, US; Los Angeles, CA, US; New York, NY, US",2026-11-06T16:55:12-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8239954,product_management,senior,us,False
 8234538,"Staff Product Manager, Privacy-Centric Measurement",,"Palo Alto, CA, US; Seattle, WA, US; New York, NY, US",2026-11-06T16:55:12-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8234538,product_management,senior,us,False
@@ -160,5 +158,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8209014,"Staff Technical Program Manager, Data Engineering",,"San Francisco, CA, US; Remote, US",2026-11-06T16:55:11-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8209014,data_ai,senior,us,False
 7494650,"Staff Technical Program Manager, Security",,"San Francisco, CA, US; Remote, US",2026-11-06T16:55:08-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=7494650,other,senior,us,False
 8334878,Strategy & Operations Intern 2027 (USA),,"San Francisco, CA, US; Remote, CA, US",2026-11-06T16:55:14-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8334878,other,intern,us,False
+8268312,UK Brand Partnerships Manager,,"London, UK",2026-11-16T09:34:07-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8268312,marketing_content,senior,uk,False
 7838591,University Grad Software Engineer 2027 (USA),,"San Francisco, CA, US; Remote, US",2026-11-06T16:55:09-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=7838591,software_engineering,mid_or_unknown,us,False
 8140217,UX Quantitative Research Intern (USA),,"Remote, US; San Francisco, CA, US; Seattle, WA, US; New York, NY, US",2026-11-06T18:53:14-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8140217,other,intern,us,False
