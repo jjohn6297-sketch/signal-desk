@@ -3,6 +3,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8857185002,"Associate Renewals Manager, SMB",,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8857185002,other,junior,us,False
 8771512002,"Backend Engineer, GitLab Orbit",,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8771512002,software_engineering,mid_or_unknown,us,False
 8704363002,"Backend Engineer (Python),AI Engineering: Agent Foundations",,"Remote, Canada; Remote, Poland; Remote, United Kingdom",2026-11-10T10:45:04-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8704363002,data_ai,mid_or_unknown,uk,True
+8940898002,"Backend Engineer (Ruby), AI Engineering: AI Catalog ",,"Remote, United Kingdom",2026-11-17T08:18:23-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8940898002,data_ai,mid_or_unknown,uk,True
 8749950002,"Backend Engineer (Ruby), Plan: Spec-Driven Development",,"Remote, Poland",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8749950002,software_engineering,mid_or_unknown,remote,False
 8682860002,"Backend Engineer (Ruby), Plan: Spec-Driven Development",,"Remote, United Kingdom",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8682860002,software_engineering,mid_or_unknown,uk,False
 8912709002,"Backend Engineer, Source Code: Repository Services (Ruby)",,"Remote, United Kingdom",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8912709002,software_engineering,mid_or_unknown,uk,False
@@ -12,11 +13,13 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8532272002,Business Development Representative ,,"Remote, North America",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8532272002,sales,mid_or_unknown,remote,False
 8532274002,Business Development Representative ,,"Remote, Ireland; Remote, Spain; Remote, United Kingdom",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8532274002,sales,mid_or_unknown,ireland_other,False
 8932246002,"Business Development Representative, Financial Services ",,"Remote, Canada; Remote, United States",2026-11-09T12:57:54-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8932246002,sales,mid_or_unknown,us,False
+8939857002,"Business Development Representative, Financial Services - UKI",,"Remote Ireland; Remote, United Kingdom",2026-11-16T10:52:10-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8939857002,sales,mid_or_unknown,ireland_other,False
 8872457002,"Business Development Representative, German Speaking ",,"Remote Ireland; Remote, Spain; Remote, United Kingdom",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8872457002,sales,mid_or_unknown,ireland_other,False
-8932282002,"Business Development Representative, SLED - West",,"Remote, United States",2026-11-09T13:21:43-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8932282002,sales,mid_or_unknown,us,False
-8882367002,"Business Development Representative, Spanish Speaking",,"Remote, Spain",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8882367002,sales,mid_or_unknown,remote,False
+8932282002,"Business Development Representative, SLED - West",,"Remote, United States",2026-11-16T15:47:36-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8932282002,sales,mid_or_unknown,us,False
 8932248002,Business Development Representative - West,,"Remote, Canada; Remote, United States",2026-11-12T14:16:20-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8932248002,sales,mid_or_unknown,us,False
 8782471002,"Candidate Experience Specialist, Contractor ",,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8782471002,other,mid_or_unknown,us,False
+8929253002,"Candidate Experience Specialist, Team Lead (AMER)",,"Remote, Canada; Remote, United States",2026-11-17T10:54:09-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8929253002,other,senior,us,False
+8943636002,"Candidate Experience Specialist, Team Lead (APJ)",,"Remote, India",2026-11-17T10:56:22-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8943636002,other,senior,remote,False
 8889193002,Cloud Platform Engineer,,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8889193002,software_engineering,mid_or_unknown,us,False
 8887265002,Commercial Account Executive - Australia ,,"Remote, Australia",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8887265002,sales,mid_or_unknown,remote,False
 8921443002,"Commercial Account Executive, Belux",,"Remote, France; Remote, Netherlands",2026-11-16T06:38:28-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8921443002,sales,mid_or_unknown,remote,False
@@ -27,12 +30,13 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8904961002,"Contract Talent Acquisition Sourcer, Sales (APJ)",,"Remote, Australia; Remote, Singapore",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8904961002,sales,mid_or_unknown,remote,False
 8872259002,Corporate Development Director,,"Remote, United States",2026-11-13T11:00:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8872259002,other,leadership,us,False
 8920912002,Customer Experience Enablement Lead,,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8920912002,other,senior,us,False
-8877426002,Customer Success Architect,,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8877426002,customer_support,mid_or_unknown,us,False
+8877426002,Customer Success Architect,,"Remote, United States",2026-11-16T18:42:19-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8877426002,customer_support,mid_or_unknown,us,False
 8926449002,"Customer Success Architect, Australia",,"Remote, Australia",2026-11-16T01:33:02-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8926449002,customer_support,mid_or_unknown,remote,False
 8931313002,Customer Success Architect - East,,"Remote, United States",2026-11-12T13:10:41-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8931313002,customer_support,mid_or_unknown,us,False
 8937803002,"Customer Success Architect, France",,"Remote, France",2026-11-15T02:58:19-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8937803002,customer_support,mid_or_unknown,remote,False
 8880999002,"Customer Success Architect, Japan",,"Remote, Japan",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8880999002,customer_support,mid_or_unknown,remote,False
 8937797002,"Customer Success Architect, NEUR",,"Remote, United Kingdom",2026-11-15T02:56:39-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8937797002,customer_support,mid_or_unknown,uk,False
+8939861002,Customer Success Architect - West,,"Remote, United States",2026-11-16T18:19:42-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8939861002,customer_support,mid_or_unknown,us,False
 8931347002,Customer Success Engineer,,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8931347002,customer_support,mid_or_unknown,us,False
 8937825002,"Customer Success Engineer, EMEA",,"Remote, Israel",2026-11-15T03:00:12-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8937825002,customer_support,mid_or_unknown,remote,False
 8926443002,"Customer Success Engineer, India",,"Remote, India",2026-11-16T00:59:50-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8926443002,customer_support,mid_or_unknown,remote,False
@@ -48,11 +52,12 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8883597002,"Director of Engineering, Dedicated Infrastructure & Platforms",,"Remote, Canada; Remote, United Kingdom; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8883597002,software_engineering,leadership,uk,False
 8806017002,"Director of Product Management, Agentic Software Delivery",,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8806017002,product_management,leadership,us,True
 8893054002,"Director of Product Management, Platforms ",,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8893054002,product_management,leadership,us,False
+8940610002,"Director, Professional Services Technical Architects",,"Remote, United States",2026-11-16T18:18:11-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8940610002,other,leadership,us,False
 8893938002,"Director, Regional Sales",,"Remote, Japan",2026-11-09T02:57:35-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8893938002,sales,leadership,remote,False
 8792475002,"Director, Social Media",,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8792475002,other,leadership,us,False
 8629019002,"Director, Support (Bengaluru)",,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8629019002,other,leadership,other,False
-8831350002,"Distinguished Engineer, Core DevOps",,"Remote, Canada; Remote, United Kingdom; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8831350002,software_engineering,mid_or_unknown,uk,False
 8907694002,Ecosystem Operations Specialist,,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8907694002,other,mid_or_unknown,us,False
+8943456002,Enablement Operations Manager,,"Remote, United States",2026-11-16T17:43:41-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8943456002,other,senior,us,False
 8799044002,Engineering Manager,,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8799044002,software_engineering,senior,other,False
 8921380002,"Engineering Manager, Architecture Engineering: Async",,"Remote, Poland; Remote, United Kingdom",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8921380002,software_engineering,senior,uk,False
 8636648002," Engineering Manager, Dedicated Integrations",,"Remote, United Kingdom",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8636648002,software_engineering,senior,uk,False
@@ -68,14 +73,11 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8775507002,"Intermediate Backend Engineer, India",,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8775507002,software_engineering,mid_or_unknown,other,False
 8773028002,"Intermediate Backend Engineer, Pipeline Authoring",,"Remote, Poland",2026-11-09T16:32:16-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8773028002,software_engineering,mid_or_unknown,remote,False
 8890971002,"Intermediate Backend Engineer , Security Factory",,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8890971002,software_engineering,mid_or_unknown,other,False
-8911684002,"Intermediate Fullstack Engineer (Ruby/Vue.js), Growth",,"Remote, Poland",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8911684002,software_engineering,mid_or_unknown,remote,False
-8891836002,"Intermediate Fullstack Engineer (Ruby/Vue.js), Growth",,"Remote, United Kingdom",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8891836002,software_engineering,mid_or_unknown,uk,False
 8922249002,"Intermediate Fullstack Engineer, Subscription Lifecycle ",,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8922249002,software_engineering,mid_or_unknown,us,False
 8688078002,"Intermediate Software Engineer, Security Factory: Vulnerability Management ",,"Remote, Israel; Remote, United Kingdom",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8688078002,software_engineering,mid_or_unknown,uk,False
 8931179002,"Lead, Community Growth Marketing Manager ",,"Remote, Canada; Remote, United States",2026-11-06T18:20:16-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8931179002,marketing_content,senior,us,False
 8891827002,"Lead Customer Advocacy Manager, APJ",,"Remote, Australia; Remote, Singapore",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8891827002,other,senior,remote,False
 8895451002,Lead Investor Relations,,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8895451002,other,senior,us,False
-8929004002,Lead Journey Architect,,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8929004002,other,senior,us,False
 8842630002,"Lead Legal Counsel, Corporate",,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8842630002,legal,senior,us,False
 8633807002,Lead SEC Analyst,,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8633807002,other,senior,us,False
 8860093002,Major Account Executive ,,"Remote, Germany",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8860093002,sales,mid_or_unknown,remote,False
@@ -85,7 +87,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8860271002,"Major Account Executive, UK Public Sector",,"Remote, United Kingdom",2026-11-12T08:02:32-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8860271002,sales,mid_or_unknown,uk,False
 8860281002,"Major Account Manager, Sweden ",,"Remote, Sweden",2026-11-12T14:32:48-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8860281002,other,senior,remote,False
 8861795002,"Manager, Assigned Support Engineering (EMEA)",,"Remote, United Kingdom",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8861795002,software_engineering,senior,uk,False
-8896290002,"Manager, Customer Success ",,"Remote, United States",2026-11-10T18:09:33-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8896290002,customer_support,senior,us,False
+8940626002,"Manager, Corporate Security - Platform Security ",,"Remote, United States",2026-11-17T10:54:24-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8940626002,other,senior,us,False
 8929477002,"Manager, Customer Success Manager (PubSec)",,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8929477002,customer_support,senior,us,False
 8916753002,"Manager, Professional Services Engineers, EMEA",,"Remote Ireland; Remote, France; Remote, Germany; Remote, Spain; Remote, United Kingdom",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8916753002,software_engineering,senior,ireland_other,False
 8922862002,"Manager, Sales Recruiting (AMER)",,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8922862002,sales,senior,us,False
@@ -108,8 +110,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8927630002,"Principal Security GRC Manager, Legal Assurance (USA)",,"Remote, United States",2026-11-10T11:17:49-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8927630002,legal,senior,us,False
 8731718002,Principal Security Researcher,,"Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8731718002,other,senior,uk,False
 8642786002,Principal Strategic Sourcing Lead - Technology,,"Remote, United States",2026-11-09T20:12:18-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8642786002,other,senior,us,False
-8784056002,Principal Technical Program Manager,,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8784056002,other,senior,other,False
 8693068002,Principal Technical Program Manager,,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8693068002,other,senior,us,False
+8784056002,Principal Technical Program Manager,,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8784056002,other,senior,other,False
 8928253002,Professional Services Engineer - KSA,,"Remote, KSA",2026-11-09T13:21:42-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8928253002,software_engineering,mid_or_unknown,remote,False
 8929468002,"Professional Services, Program Manager",,"Remote, Canada; Remote, United States",2026-11-12T14:45:27-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8929468002,other,senior,us,False
 8857335002,Professional Services Technical Architect - West ,,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8857335002,other,mid_or_unknown,us,False
@@ -137,13 +139,11 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8918853002,Senior Assigned Support Engineer-(Designated / Premier Support),,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8918853002,software_engineering,senior,other,False
 8701290002,Senior Assigned Support Engineer (EMEA),,"Remote, United Kingdom",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8701290002,software_engineering,senior,uk,False
 8621733002,"Senior Backend Engineer, AI Engineering: Chat   ",,"Remote, United Kingdom",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8621733002,data_ai,senior,uk,True
-8800507002,"Senior Backend Engineer, Cloud Cost & Capacity ",,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8800507002,software_engineering,senior,other,False
 8689243002,"Senior Backend Engineer, Core DevOps",,"Remote, United Kingdom",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8689243002,software_engineering,senior,uk,False
 8687958002,"Senior Backend Engineer, Core DevOps: Artifact Central - PST",,"Remote, United States",2026-11-09T15:10:40-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8687958002,software_engineering,senior,us,False
-8928675002,"Senior Backend Engineer, Development Health",,"Bangalore, India",2026-11-10T10:17:24-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8928675002,software_engineering,senior,other,False
+8928675002,"Senior Backend Engineer, Development Health",,"Bangalore, India",2026-11-17T00:14:31-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8928675002,software_engineering,senior,other,False
 8716143002,"Senior Backend Engineer, India",,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8716143002,software_engineering,senior,other,False
 8750842002,"Senior Backend Engineer, Platform Enablement",,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8750842002,software_engineering,senior,us,False
-8929253002,"Senior Candidate Experience Specialist, AMER",,"Remote, Canada; Remote, United States",2026-11-13T18:30:02-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8929253002,other,senior,us,False
 8918216002,Senior Compensation Manager,,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8918216002,other,senior,us,False
 8811842002,"Senior Contracts Manager, Commercial (EMEA)",,"Remote Ireland; Remote, United Kingdom",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8811842002,legal,senior,ireland_other,False
 8844846002,"Senior Customer Success Architect, CEUR",,"Remote, Austria; Remote, Germany",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8844846002,customer_support,senior,remote,False
@@ -173,7 +173,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8894806002,"Senior Product Manager, Switchboard",,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8894806002,product_management,senior,us,False
 8920764002,"Senior Professional Services Engineer - Charlotte, NC",,"Remote, United States",2026-11-12T16:15:57-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8920764002,software_engineering,senior,us,False
 8859657002,"Senior Professional Services Engineer, Japan",,"Remote, Japan",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8859657002,software_engineering,senior,remote,False
-8838394002,Senior Professional Services Engineer - PubSec - DC Metro,,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8838394002,software_engineering,senior,us,False
+8838394002,Senior Professional Services Engineer - PubSec - DC Metro,,"Remote, United States",2026-11-16T15:36:57-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8838394002,software_engineering,senior,us,False
 8622433002,Senior Professional Services Project Manager (EMEA),,"Remote, United Kingdom",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8622433002,other,senior,uk,False
 8936091002,"Senior Professional Services Project Manager, Paris",,"Remote, France",2026-11-11T10:24:53-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8936091002,other,senior,remote,False
 8730125002,Senior Release Engineer,,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8730125002,software_engineering,senior,other,False
@@ -182,9 +182,9 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8928711002,"Senior Security Technical Program Manager, Fraud & Abuse ",,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8928711002,other,senior,us,False
 8738179002,"Senior Software Engineer, Security Factory: Code Security",,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8738179002,software_engineering,senior,us,False
 8878486002,"Senior Software Engineer, SSCS : Authentication",,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8878486002,software_engineering,senior,other,False
-8731996002,Senior Solutions Architect,,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8731996002,other,senior,other,False
-8829837002,Senior Solutions Architect,,"Remote, India",2026-11-09T00:45:45-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8829837002,other,senior,remote,False
 8783485002,Senior Solutions Architect,,"Remote, South Korea",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8783485002,other,senior,remote,False
+8829837002,Senior Solutions Architect,,"Remote, India",2026-11-09T00:45:45-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8829837002,other,senior,remote,False
+8731996002,Senior Solutions Architect,,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8731996002,other,senior,other,False
 8880947002,Senior Solutions Architect ,,"Remote, Singapore",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8880947002,other,senior,remote,False
 8906915002,Senior Solutions Architect - East Enterprise team,,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8906915002,other,senior,us,False
 8890389002,Senior Solutions Architect - Japan,,"Remote, Japan",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8890389002,other,senior,remote,False
@@ -193,42 +193,44 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8826637002,Senior Solutions Architect- Sydney ,,"Remote, Australia",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8826637002,other,senior,remote,False
 8894457002,Senior Solutions Architect - UAE,,"Remote, UAE",2026-11-13T13:00:50-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8894457002,other,senior,remote,False
 8742248002,Senior Strategic Account Executive - California ,,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8742248002,sales,senior,us,False
-8692874002,Senior Support Engineer,,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8692874002,software_engineering,senior,other,False
 8692880002,Senior Support Engineer,,"Remote, South Korea",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8692880002,software_engineering,senior,remote,False
+8692874002,Senior Support Engineer,,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8692874002,software_engineering,senior,other,False
 8753656002,Senior Talent Brand Manager,,"Remote; Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8753656002,marketing_content,senior,us,False
 8928762002,"Senior Website Manager, about.gitlab.com",,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8928762002,other,senior,us,False
 8867756002,"Site Reliability Engineer, Cells Infrastructure",,"Bangalore, India",2026-11-09T23:45:31-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8867756002,software_engineering,mid_or_unknown,other,False
 8623389002,"Site Reliability Engineer, Infrastructure Platforms — AMER (Intermediate to Senior Staff)",,"Remote, Canada; Remote, US",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8623389002,software_engineering,senior,us,False
 8773546002,"Site Reliability Engineer, Infrastructure Platforms — UK (Intermediate to Senior Staff)",,Remote,2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8773546002,software_engineering,senior,remote,False
 8916232002,"Software Engineer, Delivery : Release",,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8916232002,software_engineering,mid_or_unknown,other,False
+8940485002,Solutions Architect - Federal,,"Remote, United States",2026-11-16T17:25:56-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8940485002,other,mid_or_unknown,us,False
 8907111002,Solutions Architect - SLED (East),,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8907111002,other,mid_or_unknown,us,False
 8907130002,Solutions Architect - SLED (West),,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8907130002,other,mid_or_unknown,us,False
 8886626002,"Sr. Manager, Solutions Architect - SMB",,"Remote, United States",2026-11-13T15:14:13-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8886626002,other,senior,us,False
+8944779002,"Sr. Manager, Support Engineering (Public Sector) ",,"Remote, United States",2026-11-17T10:37:22-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8944779002,software_engineering,senior,us,False
 8646544002,"Staff Backend Engineer, Architecture Engineering: Nonlinear Productivity",,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8646544002,software_engineering,senior,us,False
 8689236002,"Staff Backend Engineer, Core DevOps: CI/CD Artifact Management (PST)",,"Remote, United States",2026-11-09T15:33:33-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8689236002,software_engineering,senior,us,False
 8770702002,"Staff Backend Engineer, Database Automation (Go)",,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8770702002,software_engineering,senior,us,False
 8490477002,"Staff Backend Engineer, Developer Experience",,"Remote, Canada; Remote, United Kingdom; Remote, US",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8490477002,software_engineering,senior,uk,False
 8775136002,"Staff Backend Engineer, India",,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8775136002,software_engineering,senior,other,False
 8926105002,"Staff Backend Engineer, Performance Enablement",,"Remote, Poland",2026-11-12T09:14:54-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8926105002,software_engineering,senior,remote,False
-8827370002,Staff Data Analyst,,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8827370002,other,senior,other,False
+8827370002,Staff Data Analyst,,"Bangalore, India",2026-11-17T08:26:31-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8827370002,other,senior,other,False
 8936153002,"Staff Forward Deployed Engineer, EMEA",,"Remote Ireland; Remote, Austria; Remote, France; Remote, Germany; Remote, Netherlands; Remote, Spain; Remote, United Kingdom",2026-11-12T09:31:21-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8936153002,software_engineering,senior,ireland_other,False
 8845277002,"Staff Fullstack Engineer, Data Products (Golang / Node)",,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8845277002,software_engineering,senior,us,False
 8907028002,Staff Global Partner Programs Manager,,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8907028002,other,senior,us,False
 8909618002,"Staff Product Manager, Agentic Planning",,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8909618002,product_management,senior,us,True
 8871820002,"Staff Product Manager, Agentic Test Intelligence",,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8871820002,product_management,senior,us,True
-8612937002,"Staff Product Manager,  RevOps & Finance Systems",,"Remote, US",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8612937002,product_management,senior,us,False
+8612937002,"Staff Product Manager,  RevOps & Finance Systems",,"Remote, US",2026-11-16T15:40:57-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8612937002,product_management,senior,us,False
 8919537002,"Staff Product Manager, Tenant Scale",,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8919537002,product_management,senior,us,False
 8691770002,Staff Professional Services Operations Manager,,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8691770002,other,senior,us,False
 8920177002,"Staff Regional Marketing Manager, West",,"Remote, Canada; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8920177002,marketing_content,senior,us,False
-8846277002,"Staff Security Governance Engineer, Policies & Standards",,"Remote, United States",2026-11-13T09:27:04-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8846277002,software_engineering,senior,us,False
 8800489002,"Staff Site Reliability Engineer, Environment Automation ",,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8800489002,software_engineering,senior,other,False
 8615268002,Staff Site Reliability Engineer - Monitoring and Anomaly Detection (Monetization)   ,,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8615268002,software_engineering,senior,other,False
 8781299002,Staff Software Engineer - NLP,,"Bangalore, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8781299002,software_engineering,senior,other,False
 8693563002,"Staff Software Engineer, Security Factory: Static Analysis",,"Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8693563002,software_engineering,senior,uk,False
 8632446002,"Staff Software Engineer, Security Foundations",,"Bangalore, India",2026-11-11T05:59:38-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8632446002,software_engineering,senior,other,False
 8930224002,"Staff Software Engineer, Security Platform: Authentication",,"Bangalore, India",2026-11-10T22:06:50-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8930224002,software_engineering,senior,other,False
-8886426002,"Staff Solutions Architect, AI Subject Matter Expert",,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8886426002,data_ai,senior,us,True
 8860196002,"Staff Solutions Architect, AI Subject Matter Expert",,"Remote, France; Remote, Germany; Remote, Netherlands; Remote, Spain; Remote, United Kingdom",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8860196002,data_ai,senior,uk,True
+8886426002,"Staff Solutions Architect, AI Subject Matter Expert",,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8886426002,data_ai,senior,us,True
+8922693002,Staff Technical Writer ,,"Remote, Canada; Remote, Poland; Remote, United Kingdom; Remote, United States",2026-11-16T17:28:52-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8922693002,other,senior,uk,False
 8860106002,Strategic Account Executive,,"Remote, Germany",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8860106002,sales,mid_or_unknown,remote,False
 8895523002,"Strategic Account Executive - AI, San Francisco   ",,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8895523002,data_ai,mid_or_unknown,us,True
 8877434002,Strategic Account Executive - Brazil,,"Remote, Brazil",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8877434002,sales,mid_or_unknown,remote,False
@@ -239,9 +241,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8887401002,Strategic Account Executive - India ,,"Remote, India",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8887401002,sales,mid_or_unknown,remote,False
 8637995002,Strategic Account Executive - MENA,,"Remote, KSA; Remote, UAE",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8637995002,sales,mid_or_unknown,remote,False
 8858197002,"Strategic Account Executive, Northeast",,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8858197002,sales,mid_or_unknown,us,False
-8675560002,"Strategic Account Executive, Poland",,Remote,2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8675560002,sales,mid_or_unknown,remote,False
 8789017002,"Strategic Account Executive, Poland",,"Remote, Poland",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8789017002,sales,mid_or_unknown,remote,False
-8860134002,Strategic Account Executive - Public Sector ,,"Remote, Germany",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8860134002,sales,mid_or_unknown,remote,False
+8675560002,"Strategic Account Executive, Poland",,Remote,2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8675560002,sales,mid_or_unknown,remote,False
 8691382002,Strategic Account Executive - San Francisco,,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8691382002,sales,mid_or_unknown,us,False
 8706202002,Strategic Account Executive - Seattle ,,"Remote, United States",2026-11-06T15:25:07-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8706202002,sales,mid_or_unknown,us,False
 8887399002,Strategic Account Executive - Singapore,,"Remote, Singapore",2026-11-08T23:25:01-05:00,https://job-boards.greenhouse.io/gitlab/jobs/8887399002,sales,mid_or_unknown,remote,False
