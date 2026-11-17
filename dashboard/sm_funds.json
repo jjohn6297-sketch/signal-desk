@@ -52,12 +52,12 @@
 "cik": 1135730,
 "edgar_name": "COATUE MANAGEMENT LLC",
 "ok": true,
-"latest_period": "2026-06-30",
-"filed": "2026-08-14",
-"positions": 66,
-"total_value_usd": 48629053706,
-"top_holdings": "Taiwan Semiconductor Manufac, Lam Research Corp, Micron Technology Inc, Space Exploration Techn Corp, Applied Matls Inc",
-"moves": 29
+"latest_period": "2026-09-30",
+"filed": "2026-11-16",
+"positions": 73,
+"total_value_usd": 54495247703,
+"top_holdings": "Taiwan Semiconductor Manufac, Micron Technology Inc, Microsoft Corp, Meta Platforms Inc, Lam Research Corp",
+"moves": 34
 },
 {
 "fund": "tiger",

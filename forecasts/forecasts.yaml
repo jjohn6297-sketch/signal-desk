@@ -1853,3 +1853,75 @@ forecasts:
       https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm
   status: open
   outcome: null
+- id: EV-20261118-EZHICP-1
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-11-18'
+  statement: Eurostat's final euro-area HICP annual rate for October 2026 (published 18 Nov) is 4.0%, unchanged from the
+    flash estimate
+  probability_raw: 0.85
+  probability: 0.933
+  reasoning: The flash estimate on 4 Nov was 4.0% (core 2.5%). Final euro-area HICP prints match the flash in most months
+    and revisions are usually 0.1pp; the risk is a rounding revision with headline sitting near 3.95-4.05%.
+  expected: Confirmed at 4.0%, core 2.5%
+  implications:
+    if_yes: Keeps a December ECB hike (EV-202612-ECB-2, 70%) the base case; global yields stay under upward pressure, against
+      the bonds bet
+    if_no: A downward revision to 3.9% would trim December hike odds a little; an upward one would add to them
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-17'
+  resolves_by: '2026-11-19'
+  resolution:
+    method: judged
+    guidance: Eurostat euro indicators release for October 2026 HICP (final), all-items annual rate for the euro area. Yes if
+      4.0%; no otherwise. Flash https://tradingeconomics.com/euro-area/inflation-cpi/news/598103; schedule
+      https://en.bloomingbit.io/feed/news/124482
+  status: open
+  outcome: null
+- id: EV-20261118-ANT-1
+  kind: event
+  thesis: hyperscaler-capex-debt
+  event_date: '2026-11-18'
+  statement: Anthropic prices its Class A IPO at USD 78 or more per share (at or above the top of the $70-78 range)
+  probability_raw: 0.4
+  probability: 0.516
+  reasoning: Heavily marketed large tech IPOs often price at or above the top of the range, but this is the largest offering
+    on record ($58-64bn) and comes during a sell-off in AI infrastructure stocks, with Nvidia under pressure. I put it a
+    little below even.
+  expected: Prices within the range, near the top
+  implications:
+    if_yes: Public-market appetite for AI paper is intact despite the sell-off; evidence that the AI build-out can still be
+      financed, against the delay bet's funding-stress leg
+    if_no: Pricing below the top is a sign that funding for AI capex is getting harder; supports the delay bet
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-17'
+  resolves_by: '2026-11-20'
+  resolution:
+    method: judged
+    guidance: Anthropic's pricing announcement or final prospectus (424B4) on SEC EDGAR. Yes if the Class A IPO price is at
+      least $78.00. Void if the IPO is postponed beyond 30 Nov 2026. Range and timing
+      https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/
+  status: open
+  outcome: null
+- id: EV-20261119-ANT-2
+  kind: event
+  thesis: hyperscaler-capex-debt
+  event_date: '2026-11-19'
+  statement: Anthropic (Nasdaq ANT) closes its first trading day above its IPO price
+  probability_raw: 0.7
+  probability: 0.827
+  reasoning: Most large US tech IPOs close above the offer on day one because underwriters price for a first-day gain, and
+    up to 20% of the deal goes to retail. The size of the float and the weak AI tape are the main risks.
+  expected: Closes above the offer, with a smaller gain than typical for a hot tech IPO
+  implications:
+    if_yes: Investors still pay up for AI model companies; supports continued capex funding
+    if_no: A broken deal on the largest IPO on record would be a clear sign of AI funding fatigue; supports the delay bet
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-17'
+  resolves_by: '2026-11-20'
+  resolution:
+    method: judged
+    guidance: Nasdaq official closing price for ANT on its first trading day against the IPO price in the pricing release.
+      Yes if the close is above the IPO price. Void if trading has not started by 30 Nov 2026.
+  status: open
+  outcome: null

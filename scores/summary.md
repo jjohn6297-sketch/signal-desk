@@ -1,6 +1,6 @@
-# Forecast scores, 2026-11-16
+# Forecast scores, 2026-11-17
 
-53 resolved, 23 open, 78 in total.
+53 resolved, 26 open, 81 in total.
 
 Brier score, system forecasts: **0.174** (0.25 = always 50%; lower is better).
 
