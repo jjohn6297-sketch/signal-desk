@@ -7,11 +7,11 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8255844,Customer Success Specialist ,,USA - Remote,2026-10-22T17:58:15-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8255844,customer_support,mid_or_unknown,us,False
 7676130,Customer Support Representative - India ,,APAC - Remote,2026-09-29T01:03:56-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/7676130,customer_support,mid_or_unknown,remote,False
 8020917,Director Global Logistics,,"USA - Portland, OR",2026-09-29T01:03:57-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8020917,other,leadership,us,False
+8382924,"Director, Protein Operations",,"USA - Portland, OR",2026-11-17T22:27:42-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8382924,other,leadership,us,False
 8257271,"Director, Security and Compliance",,"USA - South San Francisco, CA",2026-10-15T15:15:41-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8257271,legal,leadership,us,False
 487462,General Job Application,,"USA - South San Francisco, CA",2026-06-08T19:04:39-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/487462,other,mid_or_unknown,us,False
 8187153,Inside Sales Specialist & Technical Concierge - Japan,,APAC - Remote,2026-09-29T01:03:58-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8187153,sales,mid_or_unknown,remote,False
 8204198,"Key Account Manager, NGS - Singapore, Hong Kong, Taiwan",,APAC - Remote,2026-09-29T01:03:59-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8204198,other,senior,remote,False
-8279022,"Manager, Quality Management Systems",,"USA - South San Francisco, CA",2026-10-14T08:27:42-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8279022,other,senior,us,False
 8255451,"Manager, Sales - DSPS - WEST",,USA - Remote,2026-10-19T10:49:51-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8255451,sales,senior,us,False
 4168795,Manufacturing Associate ,,"USA - Portland, OR",2026-06-08T19:04:39-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/4168795,other,junior,us,False
 8008413,Manufacturing Associate - Gene Production,,"USA - Portland, OR",2026-09-17T11:12:05-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8008413,other,junior,us,False
@@ -23,12 +23,12 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8382912,"Manufacturing Associate, NGS TE Production",,"USA - South San Francisco, CA",2026-11-16T17:35:22-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8382912,other,junior,us,False
 8382916,Manufacturing Associate - Specialty Production,,"USA - Portland, OR",2026-11-16T17:14:20-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8382916,other,junior,us,False
 8240087,"Manufacturing Lead, IgG Production",,"USA - Portland, OR",2026-11-12T20:47:41-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8240087,other,senior,us,False
-8328862,"Manufacturing Supervisor, NGS TE Production",,"USA - South San Francisco, CA",2026-10-27T16:13:30-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8328862,other,mid_or_unknown,us,False
+8382927,"Manufacturing Lead, Protein Characterization",,"USA - Portland, OR",2026-11-17T16:22:35-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8382927,other,senior,us,False
 8196987,Marketing Analytics Manager,,"USA - Carlsbad, CA; USA - South San Francisco, CA",2026-10-06T19:09:48-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8196987,marketing_content,senior,us,False
 8331790,Material Handler II,,"USA - South San Francisco, CA",2026-11-02T13:17:05-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8331790,other,mid_or_unknown,us,False
 8054419,NGS Sales Specialist - NY/NJ/PA,,USA - Remote,2026-09-29T01:03:57-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8054419,sales,mid_or_unknown,us,False
-8394697,"Quality Engineer, Change Management",,"USA - South San Francisco, CA",2026-11-16T21:09:43-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8394697,software_engineering,mid_or_unknown,us,False
 8394684,"Quality Engineer, Change Management",,"USA - Portland, OR",2026-11-16T21:09:41-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8394684,software_engineering,mid_or_unknown,us,False
+8394697,"Quality Engineer, Change Management",,"USA - South San Francisco, CA",2026-11-16T21:09:43-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8394697,software_engineering,mid_or_unknown,us,False
 8167799,Senior Computational Scientist,,"USA - South San Francisco, CA",2026-09-02T16:42:11-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8167799,other,senior,us,False
 8241320,Sr Bioinformatics Scientist,,"USA - South San Francisco, CA",2026-10-02T18:59:12-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8241320,other,senior,us,False
 8159343,"Sr Business Development Manager, Antibody Discovery - EAST",,USA - Remote,2026-09-29T01:03:58-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8159343,sales,senior,us,False
