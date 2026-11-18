@@ -7,11 +7,11 @@
 "cik": 1541617,
 "edgar_name": "Altimeter Capital Management, LP",
 "ok": true,
-"latest_period": "2026-06-30",
-"filed": "2026-08-14",
-"positions": 20,
-"total_value_usd": 9829676383,
-"top_holdings": "Nvidia Corporation, Cerebras Systems Inc, Meta Platforms Inc, Taiwan Semiconductor Mfg Ltd, Coreweave Inc",
+"latest_period": "2026-09-30",
+"filed": "2026-11-16",
+"positions": 17,
+"total_value_usd": 9797175663,
+"top_holdings": "Nvidia Corporation, Meta Platforms Inc, Cerebras Systems Inc, Tesla Inc, Snowflake Inc",
 "moves": 14
 },
 {
@@ -22,11 +22,11 @@
 "cik": 2045724,
 "edgar_name": "Situational Awareness LP",
 "ok": true,
-"latest_period": "2026-06-30",
-"filed": "2026-08-14",
-"positions": 26,
-"total_value_usd": 20169035068,
-"top_holdings": "Sandisk Corp, Micron Technology Inc, Bloom Energy Corp, Taiwan Semiconductor Manufac, Nebius Group N.V.",
+"latest_period": "2026-09-30",
+"filed": "2026-11-16",
+"positions": 9,
+"total_value_usd": 532680878,
+"top_holdings": "Sharonai Holdings Inc, Cleanspark Inc, Iren Limited, Bitdeer Technologies Group, Fermi Inc",
 "moves": 24
 },
 {
@@ -37,12 +37,12 @@
 "cik": 1536411,
 "edgar_name": "Duquesne Family Office LLC",
 "ok": true,
-"latest_period": "2026-06-30",
-"filed": "2026-08-14",
-"positions": 95,
-"total_value_usd": 4354220000,
-"top_holdings": "Natera Inc, Taiwan Semiconductor Manufac, Stmicroelectronics N V, Insmed Inc, Fox Corp",
-"moves": 86
+"latest_period": "2026-09-30",
+"filed": "2026-11-16",
+"positions": 65,
+"total_value_usd": 4148873000,
+"top_holdings": "Natera Inc, Seagate Technology Hldngs Pl, Fox Corp, Amazon Com Inc, Ypf Sociedad Anonima",
+"moves": 84
 },
 {
 "fund": "coatue",
@@ -67,12 +67,12 @@
 "cik": 1167483,
 "edgar_name": "TIGER GLOBAL MANAGEMENT LLC",
 "ok": true,
-"latest_period": "2026-06-30",
-"filed": "2026-08-14",
-"positions": 46,
-"total_value_usd": 23981506027,
-"top_holdings": "Taiwan Semiconductor Manufac, Amazon Com Inc, Nvidia Corporation, Alphabet Inc, Meta Platforms Inc",
-"moves": 43
+"latest_period": "2026-09-30",
+"filed": "2026-11-16",
+"positions": 45,
+"total_value_usd": 20173101170,
+"top_holdings": "Nvidia Corporation, Amazon Com Inc, Meta Platforms Inc, Taiwan Semiconductor Manufac, Microsoft Corp",
+"moves": 26
 },
 {
 "fund": "pershing",
@@ -97,12 +97,12 @@
 "cik": 1067983,
 "edgar_name": "BERKSHIRE HATHAWAY INC",
 "ok": true,
-"latest_period": "2026-06-30",
-"filed": "2026-08-14",
-"positions": 29,
-"total_value_usd": 299253556246,
+"latest_period": "2026-09-30",
+"filed": "2026-11-16",
+"positions": 30,
+"total_value_usd": 304196581325,
 "top_holdings": "Apple Inc, American Express Co, Alphabet Inc, Coca Cola Co, Bank Of Amer Corp",
-"moves": 13
+"moves": 7
 },
 {
 "fund": "baillie_gifford",
@@ -142,12 +142,12 @@
 "cik": 1263508,
 "edgar_name": "BAKER BROS. ADVISORS LP",
 "ok": true,
-"latest_period": "2026-06-30",
-"filed": "2026-08-14",
-"positions": 84,
-"total_value_usd": 19955238553,
-"top_holdings": "Incyte Corporation, Beone Medicines Ltd., Revolution Medicines, Inc., Madrigal Pharmaceuticals, Inc., Acadia Pharmaceuticals Inc.",
-"moves": 30
+"latest_period": "2026-09-30",
+"filed": "2026-11-16",
+"positions": 80,
+"total_value_usd": 21044442318,
+"top_holdings": "Incyte Corporation, Beone Medicines Ltd., Revolution Medicines, Inc., Kodiak Sciences Inc., Madrigal Pharmaceuticals, Inc.",
+"moves": 27
 },
 {
 "fund": "ra_capital",
@@ -157,11 +157,11 @@
 "cik": 1346824,
 "edgar_name": "RA CAPITAL MANAGEMENT, L.P.",
 "ok": true,
-"latest_period": "2026-06-30",
-"filed": "2026-08-14",
-"positions": 84,
-"total_value_usd": 11507522068,
-"top_holdings": "Ascendis Pharma A/S, Parabilis Medicines Inc, Rhythm Pharmaceuticals Inc, Vaxcyte Inc, Sionna Therapeutics Inc",
-"moves": 46
+"latest_period": "2026-09-30",
+"filed": "2026-11-16",
+"positions": 92,
+"total_value_usd": 9969410191,
+"top_holdings": "Ascendis Pharma A/S, Parabilis Medicines Inc, Vaxcyte Inc, Rhythm Pharmaceuticals Inc, Edgewise Therapeutics Inc",
+"moves": 44
 }
 ]

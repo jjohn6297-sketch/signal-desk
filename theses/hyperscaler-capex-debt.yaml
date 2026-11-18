@@ -32,6 +32,7 @@ evidence_for:
 - date: '2026-11-03'
   claim: 'AMD Q3 revenue $13.38bn, Data Center a record $8.5bn (+97%); Q4 guided at about $17.0bn (+27% quarter on quarter) as Helios and Venice ramp'
   source: https://www.stocktitan.net/news/AMD/amd-reports-third-quarter-2026-financial-7j6jzo29buqw.html
+- {"date": "2026-11-18", "claim": "Nvidia Q3 FY2027 revenue $115.8bn (+103% y/y), data centre $107.6bn; Q4 guided to $130bn +/-3% with no China data-centre compute; supply and capacity commitments rose to $390bn from $279bn (CoinCentral)", "source": "https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-third-quarter-fiscal-fpx9dw5egxqa.html", "engine": "daily-run"}
 evidence_against:
 - date: '2026-07-30'
   claim: Amazon operating cash flow +33%; Microsoft expects <1pt margin decline in FY27
@@ -42,12 +43,13 @@ evidence_against:
 - date: '2026-11-04'
   claim: 'Democratic governors in Texas, Georgia and Ohio elected on data-centre moratorium or pause pledges; a risk to capex delivery'
   source: https://fortune.com/2026/11/04/democrats-midterm-election-2026-anti-data-center-governors-texas-georgia-ohio-ai-infrastructure-big-tech-spending-moratorium-regulations/
-system_conviction: 60
+system_conviction: 63
 conviction_history:
 - date: '2026-11-08'
   value: 60
   reason: 'Weekly review 2026-45 (8 Nov); recovered from the Insights log because that run''s push failed'
   source: https://claude.ai/artifact/WwpbnTDszXxUHpCnbVKEu3
+- {"date": "2026-11-18", "value": 63, "reason": "Nvidia beat and a $130bn Q4 guide show customer capex still accelerating into early 2027"}
 predictions:
 - id: p1
   statement: Microsoft September-quarter capex >= $50bn

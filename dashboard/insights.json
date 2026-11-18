@@ -1,5 +1,69 @@
 [
 {
+"key": "2026-11-18-1",
+"date": "2026-11-18",
+"kind": "daily",
+"title": "18 November 2026",
+"rank": 1,
+"text": "Nvidia (held) beat clearly. Q3 revenue was $115.8bn against the $110.2bn line, data centre $107.6bn, and the Q4 guide is $130bn ±3% with no China data-centre compute and an extra week ([press release](https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-third-quarter-fiscal-fpx9dw5egxqa.html)). The shares rose about 4% after hours. The board says it is not considering bringing Huang back; Kress stays interim CEO; the WSJ reports an SEC inquiry into Nvidia's disclosures ([CoinCentral](https://coincentral.com/nvidia-nvda-stock-rises-4-after-earnings-beat-as-board-rules-out-huang-return/)). Conviction: hyperscaler capex 60 to 63, build-out-delay bet 56 to 54."
+},
+{
+"key": "2026-11-18-2",
+"date": "2026-11-18",
+"kind": "daily",
+"title": "18 November 2026",
+"rank": 2,
+"text": "Resolved 4, all hits: Nvidia revenue (96.4%, Brier 0.001), Nvidia guide (75.9%, 0.058), US October retail sales +0.2% against a 0.0% line (65%, 0.123; [Census](https://www.census.gov/retail/marts/www/marts_current.pdf)), UK October CPI 3.6% at the 3.6% line (54.5%, 0.207; [ONS](https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026)). Brier is 0.169 on 57 resolved (0.174 on 53). Recalibration refitted to k 1.30, b 0.60 (from 1.20, 0.55)."
+},
+{
+"key": "2026-11-18-3",
+"date": "2026-11-18",
+"kind": "daily",
+"title": "18 November 2026",
+"rank": 3,
+"text": "Situational Awareness cut its reported US holdings from $20.2bn to $1.6bn in Q3. It sold all its shares in Micron, Nebius, CoreWeave and Bloom Energy (all held by you) and in TSMC and Sandisk, but kept call options on Bloom, Nebius, Sandisk and a memory ETF ([SEC filing index](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000610/)). A 13F does not show shorts or swaps, so this is a large de-risking, not necessarily a bearish bet."
+},
+{
+"key": "2026-11-18-4",
+"date": "2026-11-18",
+"kind": "daily",
+"title": "18 November 2026",
+"rank": 4,
+"text": "13F consensus (Q3 filings): five funds cut Alphabet (held), with Altimeter and Duquesne exiting. Three cut TSMC and three cut AMD (Coatue and Duquesne exited AMD). ARK, Altimeter and Coatue added to Meta (held), while Baillie Gifford and Tiger trimmed. ARK, Baillie Gifford and Duquesne added to Beam. Berkshire made no changes in watch-list names."
+},
+{
+"key": "2026-11-18-5",
+"date": "2026-11-18",
+"kind": "daily",
+"title": "18 November 2026",
+"rank": 5,
+"text": "Pre-registered 2 forecasts for 25 Nov (bonds bet). Core PCE for October rises 0.3% or more m/m: raw 62%, calibrated 75.7%. The Conference Board maps October CPI and PPI to +0.3% and 3.3% y/y ([Conference Board](https://www.conference-board.org/research/global-economy-briefs/cpi-insights-october-2026)). Q3 GDP second estimate at 3.4% or higher (advance 3.4%): raw 50%, calibrated 63.4% ([BEA](https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026/))."
+},
+{
+"key": "2026-11-18-6",
+"date": "2026-11-18",
+"kind": "daily",
+"title": "18 November 2026",
+"rank": 6,
+"text": "No kill criteria hit. Close: the bonds bet's \"core PCE above 3.3%\" line, if the 25 Nov print lands at the 3.3% nowcast or higher. The 10-year was about 5.13% on 16 Nov, 27bp below the 5.40% kill line, with a December hike priced at over 93% ([Trading Economics](https://tradingeconomics.com/united-states/government-bond-yield/news/601580)). UK CPI at 3.6% (motor fuels +33% y/y) is mild evidence against the UK bet through gilt yields."
+},
+{
+"key": "2026-11-18-7",
+"date": "2026-11-18",
+"kind": "daily",
+"title": "18 November 2026",
+"rank": 7,
+"text": "Still open today: the FOMC minutes (19:00 Dublin; \"many\" or \"most\" favour further hikes, 82.8%), the euro-area HICP final (4.0%, 93.3%), and Anthropic's IPO pricing ($78 or more, 51.6%), with first-day trading on 19 Nov (close above the IPO price, 82.7%)."
+},
+{
+"key": "2026-11-18-8",
+"date": "2026-11-18",
+"kind": "daily",
+"title": "18 November 2026",
+"rank": 8,
+"text": "No comments or edits from you on the Signal Desk docs. Pershing Square's Q2 and Q3 13Fs are not loaded (latest is Q1), so its moves on the dashboard are stale. No October FINRA margin data yet."
+},
+{
 "key": "2026-11-17-1",
 "date": "2026-11-17",
 "kind": "daily",
@@ -230,62 +294,6 @@
 "title": "12 November 2026",
 "rank": 8,
 "text": "No comments or edits from John on the Signal Desk docs. No new 13F filings, CoreWeave 2031 yield quote or FINRA margin data."
-},
-{
-"key": "2026-11-11-1",
-"date": "2026-11-11",
-"kind": "daily",
-"title": "11 November 2026",
-"rank": 1,
-"text": "Action card, long-duration bonds: US October core CPI rose 0.3% m/m (headline 0.4%), against 68.4% for 0.2% or less (miss, Brier 0.47) ([BLS](https://www.bls.gov/news.release/cpi.htm?lv=true)). CME FedWatch now prices a December hike in full: 88.8% for 25bp, 11.2% for 50bp ([Investing.com](https://ca.investing.com/news/economy-news/fed-rate-hike-odds-in-december-at-88-after-hot-cpi-cme-fedwatch-4948680)). Conviction 35 to 30. Kill criteria not hit (10-year 4.86% on 6 Nov, 5y5y 2.19% on 9 Nov). The raw call was 55%; recalibration lifted it to 68%."
-},
-{
-"key": "2026-11-11-2",
-"date": "2026-11-11",
-"kind": "daily",
-"title": "11 November 2026",
-"rank": 2,
-"text": "CoreWeave beat and raised. Q3 revenue $3.66bn, above the $3.6bn top of its guide (52.5%, hit, Brier 0.23); 2026 guide raised to $13.0-13.3bn, so no cut (29.7%, Brier 0.09); capex guide $37-39bn to deliver capacity \"sooner than planned\"; backlog $132.5bn ([release](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx)). Evidence against the build-out-delay bet; conviction 60 to 52. It is close to the \"capacity ahead of plan\" kill criterion, which names hyperscalers, not neoclouds."
-},
-{
-"key": "2026-11-11-3",
-"date": "2026-11-11",
-"kind": "daily",
-"title": "11 November 2026",
-"rank": 3,
-"text": "Action card, power grid: Siemens Energy FY2026 margin before special items 12.4% (91.8%, hit, Brier 0.01), but backlog EUR 164bn, EUR 1bn short of the EUR 165bn line (60%, miss, Brier 0.36). Orders EUR 68.1bn (+18.8%), FY2027 margin guide 14-16%, 2030 target 20-22%, buyback raised by EUR 9bn ([release](https://www.siemens-energy.com/global/en/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html)). The thesis is stronger, not weaker; conviction 55 to 58."
-},
-{
-"key": "2026-11-11-4",
-"date": "2026-11-11",
-"kind": "daily",
-"title": "11 November 2026",
-"rank": 4,
-"text": "Resolved 5: 3 hits, 2 misses. Brier 0.170 on 45 (0.163 on 40). Recalibration refitted to k 1.60, b 0.30 (from 0.50)."
-},
-{
-"key": "2026-11-11-5",
-"date": "2026-11-11",
-"kind": "daily",
-"title": "11 November 2026",
-"rank": 5,
-"text": "Pre-registered 1: UK October CPI (18 Nov) at 3.6% or higher, raw 45%, calibrated 54.5% (fitted this morning with b 0.50). September was 3.5%; HM Treasury's average of independent forecasts has Q4 at 3.6%; the Ofgem cap rose 4% in October against 2% a year earlier ([ONS release](https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026))."
-},
-{
-"key": "2026-11-11-6",
-"date": "2026-11-11",
-"kind": "daily",
-"title": "11 November 2026",
-"rank": 6,
-"text": "Next: Nebius, Twist and UK GDP on 12 Nov; US PPI 13 Nov; the other ten 13Fs by 16 Nov; Nvidia and US retail sales 17 Nov; UK CPI and FOMC minutes 18 Nov."
-},
-{
-"key": "2026-11-11-7",
-"date": "2026-11-11",
-"kind": "daily",
-"title": "11 November 2026",
-"rank": 7,
-"text": "No new 13F filings. The new Form 4 purchases are about 30 small TSMC executive buys on 6 Nov ($0.4k-11k each), not a signal. No new CoreWeave 2031 yield or FINRA margin data. No comments or edits from John."
 },
 {
 "key": "2026-46-1",

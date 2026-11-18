@@ -19,24 +19,24 @@
 "band": "40–60%",
 "lo": 0.4,
 "hi": 0.6,
-"n": 20,
-"mean_stated": 0.5117,
-"share_happened": 0.7
+"n": 21,
+"mean_stated": 0.5132,
+"share_happened": 0.7143
 },
 {
 "band": "60–80%",
 "lo": 0.6,
 "hi": 0.8,
-"n": 15,
-"mean_stated": 0.6983,
-"share_happened": 0.8
+"n": 17,
+"mean_stated": 0.699,
+"share_happened": 0.8235
 },
 {
 "band": "80–100%",
 "lo": 0.8,
 "hi": 1.0,
-"n": 12,
-"mean_stated": 0.867,
-"share_happened": 0.9167
+"n": 13,
+"mean_stated": 0.8745,
+"share_happened": 0.9231
 }
 ]

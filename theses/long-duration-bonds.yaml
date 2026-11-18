@@ -42,6 +42,7 @@ evidence_against:
   claim: '10-year Treasury yield 5.15% and 2-year 4.88% on 13 Nov, up from 4.88% and 4.56% on 9 Nov; 16bp below the BOND-1 line (5.31%) and 25bp below the kill line (5.40%)'
   source: https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611
   engine: weekly-review
+- {"date": "2026-11-18", "claim": "US October retail sales +0.2% (consensus 0.0%) after +0.8% in September; spending holding up under higher rates. 10-year about 5.13% on 16 Nov; markets price a December hike at over 93%", "source": "https://www.census.gov/retail/marts/www/marts_current.pdf", "engine": "daily-run"}
 system_conviction: 25
 conviction_history:
 - date: '2026-11-08'

@@ -1,11 +1,5 @@
 [
 {
-"key": "hy_spread|2023-11-17",
-"id": "hy_spread",
-"date": "2023-11-17",
-"value": 3.99
-},
-{
 "key": "hy_spread|2023-11-24",
 "id": "hy_spread",
 "date": "2023-11-24",
@@ -942,10 +936,10 @@
 "value": 3.23
 },
 {
-"key": "hy_spread|2026-11-13|last",
+"key": "hy_spread|2026-11-16|last",
 "id": "hy_spread",
-"date": "2026-11-13",
-"value": 3.23
+"date": "2026-11-16",
+"value": 3.34
 },
 {
 "key": "curve_10y2y|2023-01-06",
@@ -2160,10 +2154,10 @@
 "value": 0.27
 },
 {
-"key": "curve_10y2y|2026-11-13|last",
+"key": "curve_10y2y|2026-11-16|last",
 "id": "curve_10y2y",
-"date": "2026-11-13",
-"value": 0.27
+"date": "2026-11-16",
+"value": 0.29
 },
 {
 "key": "ust10y|2023-01-06",
@@ -3375,13 +3369,13 @@
 "key": "ust10y|2026-11-13",
 "id": "ust10y",
 "date": "2026-11-13",
-"value": 5.1
+"value": 5.15
 },
 {
-"key": "ust10y|2026-11-12|last",
+"key": "ust10y|2026-11-13|last",
 "id": "ust10y",
-"date": "2026-11-12",
-"value": 5.1
+"date": "2026-11-13",
+"value": 5.15
 },
 {
 "key": "inflation_5y5y|2023-01-06",
@@ -4596,10 +4590,10 @@
 "value": 2.18
 },
 {
-"key": "inflation_5y5y|2026-11-13|last",
+"key": "inflation_5y5y|2026-11-16|last",
 "id": "inflation_5y5y",
-"date": "2026-11-13",
-"value": 2.18
+"date": "2026-11-16",
+"value": 2.15
 },
 {
 "key": "brent|2023-01-06",
@@ -9468,10 +9462,10 @@
 "value": 19.3
 },
 {
-"key": "vix|2026-11-13|last",
+"key": "vix|2026-11-16|last",
 "id": "vix",
-"date": "2026-11-13",
-"value": 19.3
+"date": "2026-11-16",
+"value": 22.91
 },
 {
 "key": "margin_debt_yoy|2026-10-02",

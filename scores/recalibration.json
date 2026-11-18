@@ -1,9 +1,9 @@
 {
-  "k": 1.2,
-  "b": 0.55,
-  "n": 53,
+  "k": 1.3,
+  "b": 0.6,
+  "n": 57,
   "min_n": 20,
   "active": true,
-  "fitted_at": "2026-11-17",
+  "fitted_at": "2026-11-18",
   "rule": "new system forecasts: p_final = sigmoid(k * logit(p_raw) + b); record both"
 }

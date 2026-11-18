@@ -1732,10 +1732,13 @@
 "event_date": "2026-11-17",
 "resolves_by": "2026-11-18",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.0013,
+"evidence": {
+"summary": "Nvidia Q3 FY2027 revenue $115.8bn (quarter to 25 Oct), above the $110.2bn line; data centre $107.6bn; press release 17 Nov 2026.",
+"url": "https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-third-quarter-fiscal-fpx9dw5egxqa.html"
+}
 },
 {
 "id": "EV-20261117-NVDA-2",
@@ -1754,10 +1757,13 @@
 "event_date": "2026-11-17",
 "resolves_by": "2026-11-18",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.0581,
+"evidence": {
+"summary": "Nvidia guides Q4 FY2027 revenue to $130.0bn +/- 3% (includes an extra week; no China data-centre compute), above the $120bn line.",
+"url": "https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-third-quarter-fiscal-fpx9dw5egxqa.html"
+}
 },
 {
 "id": "EV-20261118-UKCPI-1",
@@ -1776,10 +1782,13 @@
 "event_date": "2026-11-18",
 "resolves_by": "2026-11-19",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.207,
+"evidence": {
+"summary": "ONS: CPI rose 3.6% in the 12 months to October 2026, up from 3.5%, at the 3.6% line; core 2.8%, services 3.7%; motor fuels +33.2% y/y.",
+"url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026"
+}
 },
 {
 "id": "EV-20261113-US-1",
@@ -1848,10 +1857,13 @@
 "event_date": "2026-11-17",
 "resolves_by": "2026-11-17",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.1225,
+"evidence": {
+"summary": "Census advance report: October total retail and food services sales $748.2bn s.a., +0.2% (+/-0.4%) from September, at or above the 0.0% line; September +0.8% unrevised.",
+"url": "https://www.census.gov/retail/marts/www/marts_current.pdf"
+}
 },
 {
 "id": "EV-20261118-FOMC-1",
@@ -1935,6 +1947,50 @@
 "made_at": "2026-11-17",
 "event_date": "2026-11-19",
 "resolves_by": "2026-11-20",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261125-US-1",
+"kind": "event",
+"thesis": "long-duration-bonds",
+"thesis_title": "Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
+"statement": "US core PCE price index (excluding food and energy) for October 2026 rises 0.3% or more month on month, seasonally adjusted, as first published by BEA to one decimal",
+"probability": 0.757,
+"probability_raw": 0.62,
+"override": null,
+"reasoning": "October core CPI rose 0.3% (consensus 0.2%) and core PPI 0.3%; the Conference Board's mapping gives core PCE +0.3% m/m (3.3% y/y). September core PCE was +0.5%. With the nowcast at the line and a print at 0.3% counting as yes, a modest lean to yes.",
+"expected": "Core PCE about +0.3% m/m, about 3.3% y/y; headline about +0.4%",
+"if_yes": "Inflation persistence confirmed after hot CPI; supports a December hike and more in 2027, against the bonds bet",
+"if_no": "A 0.2% or lower print would be the first softening since the summer; mildly supportive of the bonds bet",
+"made_at": "2026-11-18",
+"event_date": "2026-11-25",
+"resolves_by": "2026-11-26",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261125-US-2",
+"kind": "event",
+"thesis": "long-duration-bonds",
+"thesis_title": "Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
+"statement": "BEA second estimate of US real GDP growth for Q3 2026 (annualised, seasonally adjusted) is 3.4% or higher, as published on 25 Nov",
+"probability": 0.634,
+"probability_raw": 0.5,
+"override": null,
+"reasoning": "The advance estimate was 3.4% (consensus was 3.2%). Second-estimate revisions are roughly symmetric and usually within 0.3 points, and an unchanged print counts as yes, so about even; no strong signal from September retail sales (unrevised at +0.8%).",
+"expected": "About 3.3-3.5%",
+"if_yes": "Growth still strong into the hiking cycle; term premium stays high, against the bonds bet",
+"if_no": "A downward revision is a small first sign of cooling; mildly supportive of the bonds bet",
+"made_at": "2026-11-18",
+"event_date": "2026-11-25",
+"resolves_by": "2026-11-26",
 "method": "judged",
 "status": "open",
 "outcome": null,

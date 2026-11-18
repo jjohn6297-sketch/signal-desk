@@ -1684,8 +1684,12 @@ forecasts:
     guidance: Nvidia Q3 FY2027 press release (17 Nov 2026, about 13:20 PT; date https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx).
       Total revenue at least $110.2bn. Guide https://app.sentisense.ai/stories/nvidia-beats-across-the-board-guides-108-billion-with-zero-china-revenue-assume-08262026;
       consensus $108.8bn https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-nvda-sell-off-211700494.html
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-18'
+  evidence:
+    summary: 'Nvidia Q3 FY2027 revenue $115.8bn (quarter to 25 Oct), above the $110.2bn line; data centre $107.6bn; press release 17 Nov 2026.'
+    url: https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-third-quarter-fiscal-fpx9dw5egxqa.html
 - id: EV-20261117-NVDA-2
   kind: event
   thesis: ai-buildout-delay
@@ -1708,8 +1712,12 @@ forecasts:
     method: judged
     guidance: Nvidia Q3 FY2027 press release or CFO commentary (17 Nov 2026), outlook for Q4 FY2027 revenue; midpoint
       at least $120.0bn.
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-18'
+  evidence:
+    summary: 'Nvidia guides Q4 FY2027 revenue to $130.0bn +/- 3% (includes an extra week; no China data-centre compute), above the $120bn line.'
+    url: https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-third-quarter-fiscal-fpx9dw5egxqa.html
 - id: EV-20261118-UKCPI-1
   kind: event
   thesis: uk-large-caps-tech-hedge
@@ -1734,8 +1742,12 @@ forecasts:
       Release https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026; Q4 consensus and September figures
       https://forexuro.com/articles/uk-cpi-forecast-2026; Ofgem https://ofgem.gov.uk/press-release/energy-price-cap-will-rise-4-october-2026;
       nowcast https://www.scanalytics.co.uk/cpi-forecast/
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-18'
+  evidence:
+    summary: 'ONS: CPI rose 3.6% in the 12 months to October 2026, up from 3.5%, at the 3.6% line; core 2.8%, services 3.7%; motor fuels +33.2% y/y.'
+    url: https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026
 - id: EV-20261113-US-1
   kind: event
   thesis: long-duration-bonds
@@ -1823,8 +1835,12 @@ forecasts:
       retail and food services, seasonally adjusted percent change from September, as first published. Consensus
       and prior https://tradingeconomics.com/united-states/retail-sales; schedule https://www.financecalendar.com/us-retail-sales/;
       report https://www.census.gov/retail/marts/www/marts_current.pdf
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-18'
+  evidence:
+    summary: 'Census advance report: October total retail and food services sales $748.2bn s.a., +0.2% (+/-0.4%) from September, at or above the 0.0% line; September +0.8% unrevised.'
+    url: https://www.census.gov/retail/marts/www/marts_current.pdf
 - id: EV-20261118-FOMC-1
   kind: event
   thesis: long-duration-bonds
@@ -1923,5 +1939,56 @@ forecasts:
     method: judged
     guidance: Nasdaq official closing price for ANT on its first trading day against the IPO price in the pricing release.
       Yes if the close is above the IPO price. Void if trading has not started by 30 Nov 2026.
+  status: open
+  outcome: null
+- id: EV-20261125-US-1
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-11-25'
+  statement: US core PCE price index (excluding food and energy) for October 2026 rises 0.3% or more month on month,
+    seasonally adjusted, as first published by BEA to one decimal
+  probability_raw: 0.62
+  probability: 0.757
+  reasoning: October core CPI rose 0.3% (consensus 0.2%) and core PPI 0.3%; the Conference Board's mapping gives core
+    PCE +0.3% m/m (3.3% y/y). September core PCE was +0.5%. With the nowcast at the line and a print at 0.3% counting
+    as yes, a modest lean to yes.
+  expected: Core PCE about +0.3% m/m, about 3.3% y/y; headline about +0.4%
+  implications:
+    if_yes: Inflation persistence confirmed after hot CPI; supports a December hike and more in 2027, against the
+      bonds bet
+    if_no: A 0.2% or lower print would be the first softening since the summer; mildly supportive of the bonds bet
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-18'
+  resolves_by: '2026-11-26'
+  resolution:
+    method: judged
+    guidance: BEA Personal Income and Outlays, October 2026 (25 Nov 2026, 08:30 ET), PCE price index excluding food
+      and energy, percent change from preceding month, as first published. Nowcast https://www.conference-board.org/research/global-economy-briefs/cpi-insights-october-2026;
+      schedule https://helious.io/calendar/2026-11; September +0.5% https://investinglive.com/news/us-september-pce-core-inflation-m-m-vs-0-3-expected/
+  status: open
+  outcome: null
+- id: EV-20261125-US-2
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-11-25'
+  statement: BEA second estimate of US real GDP growth for Q3 2026 (annualised, seasonally adjusted) is 3.4% or higher,
+    as published on 25 Nov
+  probability_raw: 0.5
+  probability: 0.634
+  reasoning: The advance estimate was 3.4% (consensus was 3.2%). Second-estimate revisions are roughly symmetric and
+    usually within 0.3 points, and an unchanged print counts as yes, so about even; no strong signal from September
+    retail sales (unrevised at +0.8%).
+  expected: About 3.3-3.5%
+  implications:
+    if_yes: Growth still strong into the hiking cycle; term premium stays high, against the bonds bet
+    if_no: A downward revision is a small first sign of cooling; mildly supportive of the bonds bet
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-18'
+  resolves_by: '2026-11-26'
+  resolution:
+    method: judged
+    guidance: BEA "GDP (Second Estimate), 3rd Quarter 2026" news release (25 Nov 2026, 08:30 ET), real GDP percent change
+      at annual rate. Advance estimate https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026/; schedule
+      https://helious.io/calendar/2026-11
   status: open
   outcome: null
