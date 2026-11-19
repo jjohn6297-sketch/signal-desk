@@ -1,5 +1,61 @@
 [
 {
+"key": "2026-11-19-1",
+"date": "2026-11-19",
+"kind": "daily",
+"title": "19 November 2026",
+"rank": 1,
+"text": "Anthropic priced its IPO at $83, above the $70-78 range: 980m shares, about $81.3bn gross, about $1.5T valuation. Trading on Nasdaq (ANT) starts today ([Anthropic](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)). Capital for AI compute is still easy to raise. Conviction: hyperscaler capex 63 to 64, build-out-delay bet 54 to 53."
+},
+{
+"key": "2026-11-19-2",
+"date": "2026-11-19",
+"kind": "daily",
+"title": "19 November 2026",
+"rank": 2,
+"text": "Resolved 3, all hits. FOMC minutes said \"almost all\" participants see further hikes as likely appropriate (82.8%, Brier 0.030; [Yahoo Finance](https://finance.yahoo.com/economy/policy/article/fed-minutes-officials-favored-holding-rates-steady-in-october-but-they-see-hikes-ahead-195719301.html)). Euro-area October HICP was confirmed at 4.0%, with energy at 21.0% (93.3%, 0.004; [Eunews](https://www.eunews.it/en/2026/11/18/eurozone-inflation-confirmed-at-4-per-cent-in-october/)). Anthropic priced at $78 or more (51.6%, 0.234). Brier is now 0.165 on 60 resolved, down from 0.169 on 57. Recalibration refitted to k 1.35, b 0.60."
+},
+{
+"key": "2026-11-19-3",
+"date": "2026-11-19",
+"kind": "daily",
+"title": "19 November 2026",
+"rank": 3,
+"text": "Bonds bet (24, down from 25): the minutes are hawkish. \"A couple\" of officials were open to more than 25bp in December, and Waller backs 50bp. Futures put about a 10% chance on a half-point move ([TheStreet](https://pro.thestreet.com/stock-market-today/2026-11-18)). The kill line \"December FOMC signals two or more further hikes\" now depends on the 8-9 December dot plot. No kill criteria hit. The 10-year was 5.12% on 16 Nov, 28bp below the 5.40% kill line."
+},
+{
+"key": "2026-11-19-4",
+"date": "2026-11-19",
+"kind": "daily",
+"title": "19 November 2026",
+"rank": 4,
+"text": "Insider buying: Atlassian CEO Mike Cannon-Brookes bought about $2.0m of shares at $145-150 on 16 Nov ([SEC Form 4](https://www.sec.gov/Archives/edgar/data/1650372/000166612026000036/primarydocument.xml)). This is relevant to the coding-agents bet, which assumes seat-based software is under pressure. Smaller buys: two Eaton directors (about $171k) and TSMC director Ursula Burns ($0.5m). The weekly RNS check found no discretionary director purchases at the non-US watch-list names."
+},
+{
+"key": "2026-11-19-5",
+"date": "2026-11-19",
+"kind": "daily",
+"title": "19 November 2026",
+"rank": 5,
+"text": "Pre-registered 3 forecasts, all for the bonds bet:"
+},
+{
+"key": "2026-11-19-6",
+"date": "2026-11-19",
+"kind": "daily",
+"title": "19 November 2026",
+"rank": 6,
+"text": "Still open: Anthropic closes its first day above $83 (82.7%; resolve tomorrow). Then on 25 Nov, core PCE at +0.3% m/m or more (75.7%) and Q3 GDP second estimate at 3.4% or more (63.4%). Flash PMIs come on 23 Nov."
+},
+{
+"key": "2026-11-19-7",
+"date": "2026-11-19",
+"kind": "daily",
+"title": "19 November 2026",
+"rank": 7,
+"text": "No comments or edits from you on the Signal Desk docs. No October FINRA margin data yet. Today's GitHub snapshot had not run by 09:40 Dublin; yesterday's ran at 15:41 UTC."
+},
+{
 "key": "2026-11-18-1",
 "date": "2026-11-18",
 "kind": "daily",
@@ -229,70 +285,6 @@
 "kind": "daily",
 "title": "13 November 2026",
 "rank": 7,
-"text": "No comments or edits from John on the Signal Desk docs. No new 13F filings, CoreWeave 2031 yield quote or FINRA margin data."
-},
-{
-"key": "2026-11-12-1",
-"date": "2026-11-12",
-"kind": "daily",
-"title": "12 November 2026",
-"rank": 1,
-"text": "Resolved 1, hit: UK Q3 GDP grew 0.7% q/q in the ONS first estimate, above the 0.6% line (83%, Brier 0.03); services +0.9%, construction -0.7%, September +0.2% m/m ([ONS](https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/julytoseptember2026)). Brier 0.167 on 46 resolved (0.170 on 45). Recalibration unchanged at k 1.60, b 0.30."
-},
-{
-"key": "2026-11-12-2",
-"date": "2026-11-12",
-"kind": "daily",
-"title": "12 November 2026",
-"rank": 2,
-"text": "Voided CODE-2 (Atlassian usage or credit pricing for AI agents by 31 Mar, 55%). Atlassian announced it on 1 Sep, before the forecast was written on 26 Oct, so it cannot be scored; billing for Rovo credits and AI-agent resolutions starts 3 Dec ([Atlassian](https://www.atlassian.com/blog/company-news/expanded-usage-based-pricing)). Logged as evidence for the coding-agents thesis."
-},
-{
-"key": "2026-11-12-3",
-"date": "2026-11-12",
-"kind": "daily",
-"title": "12 November 2026",
-"rank": 3,
-"text": "Pre-registered 2 for US October PPI tomorrow (13:30 Dublin): core 0.3% or less m/m (consensus +0.3%, September +0.7%; raw 50%, calibrated 57.4%); headline 0.4% or more (consensus +0.4%, September +1.3%; raw 45%, calibrated 49.5%), leaning lower because oil fell in the pricing window ([StockTitan](https://www.stocktitan.net/articles/october-2026-ppi-preview-yearly-rate))."
-},
-{
-"key": "2026-11-12-4",
-"date": "2026-11-12",
-"kind": "daily",
-"title": "12 November 2026",
-"rank": 4,
-"text": "Rates moved against the bonds bet: the 10-year rose 11bp to 4.99% and the 2-year 17bp to 4.74% on 10 Nov after the hot CPI; markets price a December hike plus two more by June, and Waller said 50bp could be considered ([Saxo](https://www.home.saxo/en-sg/content/articles/macro/market-quick-take---us-treasury-yields-rip-higher---11-november-2026-11112026)). Kill criteria not hit (5.40% line); the \"December FOMC signals two or more further hikes\" criterion is the one to watch on 9 Dec. Conviction stays 30."
-},
-{
-"key": "2026-11-12-5",
-"date": "2026-11-12",
-"kind": "daily",
-"title": "12 November 2026",
-"rank": 5,
-"text": "IREN pushed back infrastructure for Microsoft because Microsoft asked for network-design changes, moving its $4bn+ run-rate target to January or February (Reuters via [The Star](https://thestar.com.my/tech/tech-news/2026/11/06/ai-data-center-firm-iren-delays-microsoft-ai-deliveries-plans-15-billion-spending-push)). Small evidence for the build-out-delay bet against yesterday's CoreWeave beat; conviction stays 52."
-},
-{
-"key": "2026-11-12-6",
-"date": "2026-11-12",
-"kind": "daily",
-"title": "12 November 2026",
-"rank": 6,
-"text": "Brent traded about $92.5 on 10-11 Nov, below the $95 watch line, after Trump signalled further Iran strikes were unlikely (Saxo, above). The FRED series the dashboard uses still stops at 3 Nov ($107.03), so the Brent indicator and AIR-1 (below $100 by 31 Jan, 55%) will update when FRED catches up."
-},
-{
-"key": "2026-11-12-7",
-"date": "2026-11-12",
-"kind": "daily",
-"title": "12 November 2026",
-"rank": 7,
-"text": "Today: Nebius Q3 (revenue at least $905m, 59.9%; guidance midpoint cut, 27.8%) and Twist fiscal Q4 (revenue at least $124m, 89.6%; adjusted EBITDA zero or better, 52%) are not out yet and resolve tomorrow. Then PPI 13 Nov; Nvidia 17 Nov; UK CPI and FOMC minutes 18 Nov."
-},
-{
-"key": "2026-11-12-8",
-"date": "2026-11-12",
-"kind": "daily",
-"title": "12 November 2026",
-"rank": 8,
 "text": "No comments or edits from John on the Signal Desk docs. No new 13F filings, CoreWeave 2031 yield quote or FINRA margin data."
 },
 {
