@@ -1882,10 +1882,13 @@
 "event_date": "2026-11-18",
 "resolves_by": "2026-11-19",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.0296,
+"evidence": {
+"summary": "Minutes of the 27-28 Oct FOMC (published 18 Nov): \"almost all\" participants judged that further action to raise the target range would likely be appropriate; \"a couple\" said a move above 25bp could be considered in December.",
+"url": "https://finance.yahoo.com/economy/policy/article/fed-minutes-officials-favored-holding-rates-steady-in-october-but-they-see-hikes-ahead-195719301.html"
+}
 },
 {
 "id": "EV-20261118-EZHICP-1",
@@ -1904,10 +1907,13 @@
 "event_date": "2026-11-18",
 "resolves_by": "2026-11-19",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.0045,
+"evidence": {
+"summary": "Eurostat final October 2026 euro-area HICP 4.0% y/y, unchanged from the flash; energy 21.0% (flash 20.8%), services 3.3%. Eurostat release https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-18112026-ap (blocked to fetch; confirmed via report).",
+"url": "https://www.eunews.it/en/2026/11/18/eurozone-inflation-confirmed-at-4-per-cent-in-october/"
+}
 },
 {
 "id": "EV-20261118-ANT-1",
@@ -1926,10 +1932,13 @@
 "event_date": "2026-11-18",
 "resolves_by": "2026-11-20",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.2343,
+"evidence": {
+"summary": "Anthropic priced 980m Class A shares at $83.00, above the $70-78 range; about $81.3bn gross; trading on Nasdaq (ANT) from 19 Nov.",
+"url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+}
 },
 {
 "id": "EV-20261119-ANT-2",
@@ -1992,6 +2001,72 @@
 "event_date": "2026-11-25",
 "resolves_by": "2026-11-26",
 "method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261119-US-1",
+"kind": "event",
+"thesis": "long-duration-bonds",
+"thesis_title": "Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
+"statement": "US initial jobless claims (seasonally adjusted) for the week ending 14 Nov 2026, as first published by the Department of Labor on 19 Nov, are 205,000 or fewer",
+"probability": 0.829,
+"probability_raw": 0.68,
+"override": null,
+"reasoning": "Consensus is 199K after 200K the prior week; weekly surprises have a standard deviation of roughly 10K, so a print above 205K is about a one-in-three outcome. No sign of a turn in layoffs in recent prints.",
+"expected": "Claims about 200K, little changed",
+"if_yes": "Layoffs stay low; no labour-market support for the bonds bet before the December FOMC",
+"if_no": "A jump in claims would be the first sign the labour market is cracking; supportive of the bonds bet",
+"made_at": "2026-11-19",
+"event_date": "2026-11-19",
+"resolves_by": "2026-11-20",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261119-US-2",
+"kind": "event",
+"thesis": "long-duration-bonds",
+"thesis_title": "Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
+"statement": "The Philadelphia Fed Manufacturing Business Outlook Survey current general activity index for November 2026 (published 19 Nov) is 15.0 or higher",
+"probability": 0.803,
+"probability_raw": 0.65,
+"override": null,
+"reasoning": "Consensus 19.2 after 20.9 in October. The index is noisy (monthly moves of 8-10 points are common), so a drop below 15 has roughly a one-in-three chance.",
+"expected": "About 18-20, still firm",
+"if_yes": "Manufacturing stays strong into a December hike; against the bonds bet",
+"if_no": "A sharp fall would add to growth-slowdown evidence; mildly supportive of the bonds bet",
+"made_at": "2026-11-19",
+"event_date": "2026-11-19",
+"resolves_by": "2026-11-20",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261125-UST-1",
+"kind": "event",
+"thesis": "long-duration-bonds",
+"thesis_title": "Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
+"statement": "The 10-year US Treasury yield (constant maturity) closes at or below 5.10% on 2026-11-25, the day of the October core PCE and Q3 GDP second estimate",
+"probability": 0.584,
+"probability_raw": 0.45,
+"override": null,
+"reasoning": "The 10-year was 5.12% on 16 Nov and fund managers in the BofA November survey expect easing to 4.9%, but the October minutes said almost all officials see further hikes and a December hike is over 90% priced. A roughly driftless path with a slight hawkish lean puts it just under even.",
+"expected": "About 5.10-5.20%, with PCE the swing factor",
+"if_yes": "Yields stall despite a hawkish Fed; mild support for the bonds bet",
+"if_no": "Yields drift toward the 5.40% kill line; against the bonds bet",
+"made_at": "2026-11-19",
+"event_date": "2026-11-25",
+"resolves_by": "2026-11-27",
+"method": "auto",
 "status": "open",
 "outcome": null,
 "brier": null,

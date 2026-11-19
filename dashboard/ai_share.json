@@ -2323,5 +2323,30 @@
 "country": "US",
 "date": "2026-09-30",
 "ai_share": 7.3382
+},
+{
+"country": "DE",
+"date": "2026-10-31",
+"ai_share": 6.2805
+},
+{
+"country": "FR",
+"date": "2026-10-31",
+"ai_share": 5.2601
+},
+{
+"country": "GB",
+"date": "2026-10-31",
+"ai_share": 10.6062
+},
+{
+"country": "IE",
+"date": "2026-10-31",
+"ai_share": 15.2445
+},
+{
+"country": "US",
+"date": "2026-10-31",
+"ai_share": 7.7607
 }
 ]

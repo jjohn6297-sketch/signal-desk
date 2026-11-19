@@ -46,7 +46,10 @@ evidence_against:
   claim: 'CoreWeave 9.75% 2031 notes rose to 82.25 after Q3 results (about 15.0% yield to maturity, computed from the price; 16.33% on 6 Nov per FINRA TRACE via FourWeekMBA); CDS cost fell; CEO expects a planned $4bn investment-grade loan at 7-7.5%. Financing stress easing'
   source: https://finance.yahoo.com/markets/stocks/articles/coreweave-bonds-signal-cooling-investor-192736400.html
 - {"date": "2026-11-18", "claim": "Nvidia Q3 revenue $115.8bn against a $110.2bn top of range; Q4 guide $130bn; supply commitments $390bn. Chips are still being bought and shipped at a rising rate, though this does not measure site energisation", "source": "https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-third-quarter-fiscal-fpx9dw5egxqa.html", "engine": "daily-run"}
-system_conviction: 54
+- date: '2026-11-18'
+  claim: 'Anthropic priced its IPO at $83, above the $70-78 range, raising about $81.3bn (largest IPO on record); capital for AI compute remains readily available'
+  source: https://www.anthropic.com/news/anthropic-prices-initial-public-offering
+system_conviction: 53
 conviction_history:
 - date: '2026-11-08'
   value: 60
@@ -59,6 +62,7 @@ conviction_history:
   value: 56
   reason: 'Nebius cut its effective 2026 revenue guide and moved its ARR target by two months because third-party colocation sites slipped into H1 2027; partly offsets the CoreWeave beat'
 - {"date": "2026-11-18", "value": 54, "reason": "Nvidia beat and raised; no sign yet that delivery delays are cutting chip orders"}
+- {"date": "2026-11-19", "value": 53, "reason": "Anthropic IPO priced above range and raised about $81bn; financing is not the bottleneck"}
 predictions:
 - id: p1
   statement: At least two of MSFT, GOOGL, AMZN, META, ORCL say on a results call that power or site availability

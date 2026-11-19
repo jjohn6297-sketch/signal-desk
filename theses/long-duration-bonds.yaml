@@ -43,7 +43,13 @@ evidence_against:
   source: https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611
   engine: weekly-review
 - {"date": "2026-11-18", "claim": "US October retail sales +0.2% (consensus 0.0%) after +0.8% in September; spending holding up under higher rates. 10-year about 5.13% on 16 Nov; markets price a December hike at over 93%", "source": "https://www.census.gov/retail/marts/www/marts_current.pdf", "engine": "daily-run"}
-system_conviction: 25
+- date: '2026-11-18'
+  claim: 'October FOMC minutes: "almost all" participants judged further rate increases likely appropriate; "a couple" open to more than 25bp in December; Waller backs 50bp'
+  source: https://finance.yahoo.com/economy/policy/article/fed-minutes-officials-favored-holding-rates-steady-in-october-but-they-see-hikes-ahead-195719301.html
+- date: '2026-11-18'
+  claim: 'Euro-area October HICP final confirmed at 4.0% (energy 21.0%); global inflation pressure persists'
+  source: https://www.eunews.it/en/2026/11/18/eurozone-inflation-confirmed-at-4-per-cent-in-october/
+system_conviction: 24
 conviction_history:
 - date: '2026-11-08'
   value: 35
@@ -56,6 +62,7 @@ conviction_history:
   value: 25
   reason: 'Weekly review 2026-46 (15 Nov): 10-year up 27bp in the week to 5.15%; recovered from the Insights log because that run''s push failed'
   source: https://claude.ai/artifact/WwpbnTDszXxUHpCnbVKEu3
+- {"date": "2026-11-19", "value": 24, "reason": "Minutes say almost all officials expect more hikes and a couple floated 50bp; the \"two or more further hikes\" kill line now depends on the December dots"}
 predictions:
 - id: p1
   statement: 10-year Treasury does not close above 5.31% before 2027-01-31

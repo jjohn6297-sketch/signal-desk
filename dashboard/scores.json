@@ -1,12 +1,12 @@
 [
 {
-"as_of": "2026-11-18",
-"total": 83,
+"as_of": "2026-11-19",
+"total": 86,
 "open": 24,
-"resolved": 57,
+"resolved": 60,
 "void": 2,
-"hits": 48,
-"brier_system": 0.1688,
+"hits": 51,
+"brier_system": 0.1648,
 "n_override": 0,
 "brier_override": null,
 "brier_system_same": null,

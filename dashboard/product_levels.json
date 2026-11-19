@@ -2,13 +2,13 @@
 {
 "level": "leadership",
 "order": 0,
-"open_roles": 18,
+"open_roles": 19,
 "ireland": 0
 },
 {
 "level": "senior",
 "order": 1,
-"open_roles": 166,
+"open_roles": 168,
 "ireland": 14
 },
 {
@@ -20,7 +20,7 @@
 {
 "level": "junior",
 "order": 3,
-"open_roles": 1,
+"open_roles": 0,
 "ireland": 0
 },
 {
