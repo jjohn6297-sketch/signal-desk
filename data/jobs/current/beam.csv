@@ -1,5 +1,6 @@
 job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_related
 8795480002,Alliance Management Co-op,,"Cambridge, MA",2026-09-21T15:08:03-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8795480002,other,mid_or_unknown,us,False
+8687101002,"Associate Director, Compliance and Training",,"Durham, NC",2026-11-18T16:01:59-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8687101002,legal,leadership,us,False
 8902768002,"Associate Director, Contracts",,"Cambridge, MA",2026-10-20T10:55:25-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8902768002,other,leadership,us,False
 8870973002,"Associate Director/Director, Clinical Pharmacology",,"Cambridge, MA",2026-10-22T07:42:30-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8870973002,other,leadership,us,False
 8641907002,"Associate Director/Director, Gene Therapy Operations",,Field ,2026-10-20T12:18:23-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8641907002,other,leadership,other,False
@@ -25,7 +26,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8687065002,"Senior IT Technical Analyst I, IT Lab Systems",,"Cambridge, MA",2026-10-22T07:52:36-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8687065002,other,senior,us,False
 8621019002,"Senior Manager/Associate Director, Biostatistics",,"Cambridge, MA",2026-10-22T07:47:45-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8621019002,other,leadership,us,False
 8885779002,"Senior Manager / Associate Director, Clinical Quality Assurance",,"Cambridge, MA",2026-10-20T13:07:31-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8885779002,other,leadership,us,False
-8687101002,"Senior Manager, Compliance and Training",,"Durham, NC",2026-10-20T13:15:19-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8687101002,legal,senior,us,False
 6305863002,Submit your resume for future full time openings,,"Cambridge, MA and Durham, NC",2026-02-02T10:40:26-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/6305863002,other,mid_or_unknown,us,False
 6440268002,"Submit your resume for future Manufacturing and Quality roles located in RTP, NC",,"Durham, NC",2026-10-16T11:36:43-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/6440268002,other,mid_or_unknown,us,False
 8831677002,Technical Operations Co-op ,,"Durham, NC",2026-09-30T11:38:41-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8831677002,other,mid_or_unknown,us,False
