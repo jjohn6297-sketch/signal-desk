@@ -3,8 +3,8 @@
 "key": "Kind: event",
 "group_type": "Kind",
 "group": "event",
-"n": 50,
-"brier": 0.1524
+"n": 53,
+"brier": 0.157
 },
 {
 "key": "Kind: thesis",
@@ -45,8 +45,8 @@
 "key": "Thesis: Hyperscaler AI capex keeps rising through 2027, but the cost moves to depreciation and debt; power, memory and networking suppliers gain while hyperscaler free cash flow falls",
 "group_type": "Thesis",
 "group": "Hyperscaler AI capex keeps rising through 2027, but the cost moves to depreciation and debt; power, memory and networking suppliers gain while hyperscaler free cash flow falls",
-"n": 11,
-"brier": 0.2028
+"n": 12,
+"brier": 0.1884
 },
 {
 "key": "Thesis: In vivo gene editing reaches commercial proof in 2026-27, lifting CRISPR Therapeutics, Intellia, Beam and their suppliers",
@@ -59,8 +59,8 @@
 "key": "Thesis: Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
 "group_type": "Thesis",
 "group": "Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
-"n": 11,
-"brier": 0.1169
+"n": 13,
+"brier": 0.1508
 },
 {
 "key": "Thesis: Other",

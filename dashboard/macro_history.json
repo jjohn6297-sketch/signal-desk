@@ -936,10 +936,16 @@
 "value": 3.23
 },
 {
-"key": "hy_spread|2026-11-17|last",
+"key": "hy_spread|2026-11-20",
 "id": "hy_spread",
-"date": "2026-11-17",
-"value": 3.43
+"date": "2026-11-20",
+"value": 3.47
+},
+{
+"key": "hy_spread|2026-11-18|last",
+"id": "hy_spread",
+"date": "2026-11-18",
+"value": 3.47
 },
 {
 "key": "curve_10y2y|2023-01-06",
@@ -2154,10 +2160,16 @@
 "value": 0.27
 },
 {
-"key": "curve_10y2y|2026-11-17|last",
+"key": "curve_10y2y|2026-11-20",
 "id": "curve_10y2y",
-"date": "2026-11-17",
-"value": 0.3
+"date": "2026-11-20",
+"value": 0.27
+},
+{
+"key": "curve_10y2y|2026-11-18|last",
+"id": "curve_10y2y",
+"date": "2026-11-18",
+"value": 0.27
 },
 {
 "key": "ust10y|2023-01-06",
@@ -3372,10 +3384,16 @@
 "value": 5.15
 },
 {
-"key": "ust10y|2026-11-16|last",
+"key": "ust10y|2026-11-20",
 "id": "ust10y",
-"date": "2026-11-16",
-"value": 5.12
+"date": "2026-11-20",
+"value": 5.1
+},
+{
+"key": "ust10y|2026-11-17|last",
+"id": "ust10y",
+"date": "2026-11-17",
+"value": 5.1
 },
 {
 "key": "inflation_5y5y|2023-01-06",
@@ -4590,10 +4608,16 @@
 "value": 2.18
 },
 {
-"key": "inflation_5y5y|2026-11-17|last",
+"key": "inflation_5y5y|2026-11-20",
 "id": "inflation_5y5y",
-"date": "2026-11-17",
-"value": 2.16
+"date": "2026-11-20",
+"value": 2.15
+},
+{
+"key": "inflation_5y5y|2026-11-18|last",
+"id": "inflation_5y5y",
+"date": "2026-11-18",
+"value": 2.15
 },
 {
 "key": "brent|2023-01-06",
@@ -5805,13 +5829,19 @@
 "key": "brent|2026-11-13",
 "id": "brent",
 "date": "2026-11-13",
-"value": 92.14
+"value": 95.17
 },
 {
-"key": "brent|2026-11-11|last",
+"key": "brent|2026-11-20",
 "id": "brent",
-"date": "2026-11-11",
-"value": 92.14
+"date": "2026-11-20",
+"value": 92.94
+},
+{
+"key": "brent|2026-11-17|last",
+"id": "brent",
+"date": "2026-11-17",
+"value": 92.94
 },
 {
 "key": "sahm|2023-01-06",
@@ -7023,6 +7053,12 @@
 "key": "sahm|2026-11-13",
 "id": "sahm",
 "date": "2026-11-13",
+"value": 0.0
+},
+{
+"key": "sahm|2026-11-20",
+"id": "sahm",
+"date": "2026-11-20",
 "value": 0.0
 },
 {
@@ -8244,6 +8280,12 @@
 "value": -0.478
 },
 {
+"key": "nfci|2026-11-20",
+"id": "nfci",
+"date": "2026-11-20",
+"value": -0.478
+},
+{
 "key": "nfci|2026-11-13|last",
 "id": "nfci",
 "date": "2026-11-13",
@@ -9462,10 +9504,16 @@
 "value": 19.3
 },
 {
-"key": "vix|2026-11-17|last",
+"key": "vix|2026-11-20",
 "id": "vix",
-"date": "2026-11-17",
-"value": 25.46
+"date": "2026-11-20",
+"value": 24.56
+},
+{
+"key": "vix|2026-11-18|last",
+"id": "vix",
+"date": "2026-11-18",
+"value": 24.56
 },
 {
 "key": "margin_debt_yoy|2026-10-02",
@@ -9510,6 +9558,12 @@
 "value": 31.39
 },
 {
+"key": "margin_debt_yoy|2026-11-20",
+"id": "margin_debt_yoy",
+"date": "2026-11-20",
+"value": 31.39
+},
+{
 "key": "margin_debt_yoy|2026-09-30|last",
 "id": "margin_debt_yoy",
 "date": "2026-09-30",
@@ -9537,6 +9591,12 @@
 "key": "ai_financing|2026-11-13",
 "id": "ai_financing",
 "date": "2026-11-13",
+"value": 15.0
+},
+{
+"key": "ai_financing|2026-11-20",
+"id": "ai_financing",
+"date": "2026-11-20",
 "value": 15.0
 },
 {

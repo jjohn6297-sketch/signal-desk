@@ -1408,9 +1408,16 @@
 },
 {
 "date": "2026-11-13",
-"regime": "Risk-on",
+"regime": "Late cycle",
 "stress": 0,
-"watch": 2,
+"watch": 3,
+"known": 9
+},
+{
+"date": "2026-11-20",
+"regime": "Late cycle",
+"stress": 0,
+"watch": 3,
 "known": 9
 }
 ]

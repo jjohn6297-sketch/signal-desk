@@ -1957,10 +1957,13 @@
 "event_date": "2026-11-19",
 "resolves_by": "2026-11-20",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.0299,
+"evidence": {
+"summary": "Anthropic (ANT) closed its first day at $97.17, 17.1% above the $83 IPO price; opened at $111.50, high $115.10.",
+"url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-stock-closes-day-at-97-up-more-than-17/"
+}
 },
 {
 "id": "EV-20261125-US-1",
@@ -2023,10 +2026,13 @@
 "event_date": "2026-11-19",
 "resolves_by": "2026-11-20",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.0292,
+"evidence": {
+"summary": "Initial claims rose 1,000 to 203,000 (SA) in the week to 14 Nov; consensus 197,000; continuing claims 1.763m (+70k).",
+"url": "https://www.spokesman.com/stories/2026/nov/19/us-weekly-jobless-claims-edge-up-but-labor-market-/"
+}
 },
 {
 "id": "EV-20261119-US-2",
@@ -2045,10 +2051,13 @@
 "event_date": "2026-11-19",
 "resolves_by": "2026-11-20",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 0,
+"brier": 0.6448,
+"evidence": {
+"summary": "Philadelphia Fed current general activity index fell to 6.3 in November from 20.9 (consensus about 17-20); prices paid rose to 58.2 from 43.2; new orders near zero.",
+"url": "https://tradingeconomics.com/united-states/philadelphia-fed-manufacturing-index/news/602751"
+}
 },
 {
 "id": "EV-20261125-UST-1",
@@ -2067,6 +2076,50 @@
 "event_date": "2026-11-25",
 "resolves_by": "2026-11-27",
 "method": "auto",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261123-US-1",
+"kind": "event",
+"thesis": "long-duration-bonds",
+"thesis_title": "Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
+"statement": "The S&P Global US flash composite PMI for November 2026 (published 23 Nov) is 55.0 or higher",
+"probability": 0.646,
+"probability_raw": 0.5,
+"override": null,
+"reasoning": "October's final composite was 55.9, down from 58.4 in September and well below the 57.6 flash, so momentum is falling. The 19 Nov Philadelphia Fed index fell to 6.3 from 20.9. A further one-point drop is about as likely as not; no published consensus found yet.",
+"expected": "About 55, slightly lower than October",
+"if_yes": "Activity still firm ahead of a December hike; against the bonds bet",
+"if_no": "Confirms a slowdown that started in the regional surveys; supportive of the bonds bet",
+"made_at": "2026-11-20",
+"event_date": "2026-11-23",
+"resolves_by": "2026-11-24",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261123-EZ-1",
+"kind": "event",
+"thesis": "european-staples-gap",
+"thesis_title": "Cheap European staples (Nestle, Unilever, Diageo) outperform expensive US staples as volumes recover",
+"statement": "The HCOB euro-area flash composite PMI for November 2026 (published 23 Nov) is 51.5 or higher",
+"probability": 0.582,
+"probability_raw": 0.45,
+"override": null,
+"reasoning": "October's final composite was 51.7, a four-month low, down from 53.1, with input prices at a five-month high from energy costs. The trend is down and euro-area inflation is 4.0%, so a reading under 51.5 is slightly more likely than not.",
+"expected": "About 51.2-51.6",
+"if_yes": "Euro-area demand holding up despite energy costs; mild support for staples volumes and for an ECB hike",
+"if_no": "Consumer squeeze deepening; a risk to staples volumes (kill line on Q4 volumes) and to the ECB hike forecast",
+"made_at": "2026-11-20",
+"event_date": "2026-11-23",
+"resolves_by": "2026-11-24",
+"method": "judged",
 "status": "open",
 "outcome": null,
 "brier": null,
