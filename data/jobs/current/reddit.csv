@@ -9,8 +9,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8049518,"Client Account Manager, Large Customer Sales (Tech)",,"Los Angeles, CA; San Francisco, CA",2026-11-18T19:20:23-05:00,https://job-boards.greenhouse.io/reddit/jobs/8049518,sales,senior,us,False
 8303790,"Client Account Manager, Mid-Market Sales (Goods)",,"Toronto, Canada",2026-11-18T19:20:20-05:00,https://job-boards.greenhouse.io/reddit/jobs/8303790,sales,senior,other,False
 8275952,"Community Manager, Dutch Speaking (Contract)",,Remote - The Netherlands,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/8275952,other,senior,remote,False
-8143677,Community Manager – French Speaking (12-Month Contract),,Remote - United Kingdom,2026-11-18T06:38:35-05:00,https://job-boards.greenhouse.io/reddit/jobs/8143677,other,senior,uk,False
 8275964,Community Manager – French Speaking (12-Month Contract),,Remote - Ireland,2026-11-18T06:38:48-05:00,https://job-boards.greenhouse.io/reddit/jobs/8275964,other,senior,ireland_other,False
+8143677,Community Manager – French Speaking (12-Month Contract),,Remote - United Kingdom,2026-11-18T06:38:35-05:00,https://job-boards.greenhouse.io/reddit/jobs/8143677,other,senior,uk,False
 8121099,"Country Lead, Business Marketing, UK",,"London, United Kingdom",2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/8121099,marketing_content,senior,uk,False
 8191664,Creative Strategist (M&E/Retail),,"Los Angeles, CA",2026-11-18T19:20:18-05:00,https://job-boards.greenhouse.io/reddit/jobs/8191664,other,mid_or_unknown,us,False
 8142128,"Director, Intellectual Property",,Remote - United States,2026-11-18T19:20:20-05:00,https://job-boards.greenhouse.io/reddit/jobs/8142128,other,leadership,us,False
@@ -20,24 +20,26 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8379092,"Engineering Manager, Ranking Platform ",,Remote - United States,2026-11-11T11:03:16-05:00,https://job-boards.greenhouse.io/reddit/jobs/8379092,software_engineering,senior,us,False
 8194576,"Frontend Engineer, Ads",,Remote - United States,2026-11-18T19:20:17-05:00,https://job-boards.greenhouse.io/reddit/jobs/8194576,software_engineering,mid_or_unknown,us,False
 8240716,"Frontend Engineer, Ads Campaign Manager",,Remote - United States,2026-11-18T19:20:17-05:00,https://job-boards.greenhouse.io/reddit/jobs/8240716,software_engineering,senior,us,False
-8147559,"Front End Software Engineer, Consumer Engineering",,Remote - United States,2026-10-26T10:32:24-04:00,https://job-boards.greenhouse.io/reddit/jobs/8147559,software_engineering,mid_or_unknown,us,False
-8198102,"Front End Software Engineer, Media Player",,Remote - United States,2026-10-26T10:32:24-04:00,https://job-boards.greenhouse.io/reddit/jobs/8198102,software_engineering,mid_or_unknown,us,False
 8189894,Global Indirect Tax Manager,,Remote - United Kingdom,2026-11-19T06:02:27-05:00,https://job-boards.greenhouse.io/reddit/jobs/8189894,accounting_finance,senior,uk,False
 8189899,Global Indirect Tax Manager,,Remote - Ireland,2026-11-19T06:02:27-05:00,https://job-boards.greenhouse.io/reddit/jobs/8189899,accounting_finance,senior,ireland_other,False
 8186566,Global Indirect Tax Manager ,,Remote - United States,2026-11-19T06:02:27-05:00,https://job-boards.greenhouse.io/reddit/jobs/8186566,accounting_finance,senior,us,False
-8075185,"Group Product Manager, Finance Technology",,Remote - United States,2026-11-18T19:20:21-05:00,https://job-boards.greenhouse.io/reddit/jobs/8075185,product_management,senior,us,False
+8075185,"Group Product Manager, Finance Technology",,Remote - United States,2026-11-19T11:37:50-05:00,https://job-boards.greenhouse.io/reddit/jobs/8075185,product_management,senior,us,False
 8143702,Growth Manager (Contract),,Remote - United Kingdom,2026-11-18T12:32:09-05:00,https://job-boards.greenhouse.io/reddit/jobs/8143702,other,senior,uk,False
-8234154,International Payroll Analyst,,Remote - United Kingdom,2026-11-18T19:20:20-05:00,https://job-boards.greenhouse.io/reddit/jobs/8234154,accounting_finance,mid_or_unknown,uk,False
 8192369,International Payroll Analyst,,Remote - United States,2026-11-18T19:20:20-05:00,https://job-boards.greenhouse.io/reddit/jobs/8192369,accounting_finance,mid_or_unknown,us,False
-8257083,"Lead Client Partner, Large Customer Sales (Restaurants & Drinks)",,"Chicago, IL; Los Angeles, CA; New York City, NY; San Francisco, CA",2026-11-18T23:33:47-05:00,https://job-boards.greenhouse.io/reddit/jobs/8257083,sales,senior,us,False
+8234154,International Payroll Analyst,,Remote - United Kingdom,2026-11-18T19:20:20-05:00,https://job-boards.greenhouse.io/reddit/jobs/8234154,accounting_finance,mid_or_unknown,uk,False
 8396679,"Lead Client Partner, Large Customer Sales (Tech / AI)",,"San Francisco, CA",2026-11-18T19:20:37-05:00,https://job-boards.greenhouse.io/reddit/jobs/8396679,data_ai,senior,us,True
 8301736,Lead Forward Deployed Engineer (AI Enablement),,Remote - United States,2026-11-18T19:20:21-05:00,https://job-boards.greenhouse.io/reddit/jobs/8301736,data_ai,senior,us,True
+8237375,Lead Partnerships & Insights Manager,,"New York City, NY",2026-11-19T17:58:40-05:00,https://job-boards.greenhouse.io/reddit/jobs/8237375,other,senior,us,False
 8263435,"Lead Product Adoption Strategist, SMB",,"Chicago, IL; New York City, NY",2026-11-18T19:20:21-05:00,https://job-boards.greenhouse.io/reddit/jobs/8263435,other,senior,us,False
-7131934,Machine Learning Engineer,,"Remote - Ontario, Canada",2026-11-18T12:19:53-05:00,https://job-boards.greenhouse.io/reddit/jobs/7131934,data_ai,mid_or_unknown,remote,True
-7131932,Machine Learning Engineer,,Remote - United States,2026-11-18T12:19:51-05:00,https://job-boards.greenhouse.io/reddit/jobs/7131932,data_ai,mid_or_unknown,us,True
+7131932,Machine Learning Engineer,,Remote - United States,2026-11-19T14:49:39-05:00,https://job-boards.greenhouse.io/reddit/jobs/7131932,data_ai,mid_or_unknown,us,True
+7131934,Machine Learning Engineer,,"Remote - Ontario, Canada",2026-11-19T14:49:39-05:00,https://job-boards.greenhouse.io/reddit/jobs/7131934,data_ai,mid_or_unknown,remote,True
 8095009,"Machine Learning Manager, Feed Ecosystems",,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/8095009,data_ai,senior,us,True
 8094985,"Machine Learning Manager, Feed Relevance (Retrieval)",,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/8094985,data_ai,senior,us,True
 8395504,"Manager, Business Risk and AI Automation",,Remote - United States,2026-11-18T19:20:19-05:00,https://job-boards.greenhouse.io/reddit/jobs/8395504,data_ai,senior,us,True
+8399227,"Manager, Creative Strategy",,"New York City, NY",2026-11-20T10:10:31-05:00,https://job-boards.greenhouse.io/reddit/jobs/8399227,other,senior,us,False
+8406146,"Manager, Creative Strategy",,"Los Angeles, CA",2026-11-20T10:10:35-05:00,https://job-boards.greenhouse.io/reddit/jobs/8406146,other,senior,us,False
+8406144,"Manager, Creative Strategy",,"Chicago, IL",2026-11-20T10:10:33-05:00,https://job-boards.greenhouse.io/reddit/jobs/8406144,other,senior,us,False
+8406151,"Manager, Creative Strategy",,"San Francisco, CA",2026-11-20T10:10:36-05:00,https://job-boards.greenhouse.io/reddit/jobs/8406151,other,senior,us,False
 8318010,"Manager, EMEA Community (Contract)",,Remote - United Kingdom,2026-10-23T12:46:41-04:00,https://job-boards.greenhouse.io/reddit/jobs/8318010,other,senior,uk,False
 7957771,"Principal, Consumer Insights ",,Remote - United States,2026-11-17T12:10:35-05:00,https://job-boards.greenhouse.io/reddit/jobs/7957771,other,senior,us,False
 7330347,"Principal Data Scientist, Ads",,Remote - United States,2026-11-18T19:20:22-05:00,https://job-boards.greenhouse.io/reddit/jobs/7330347,data_ai,senior,us,False
@@ -55,6 +57,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8171546,"Senior Client Account Manager, App Dev Enterprise",,"New York City, NY",2026-11-18T19:20:17-05:00,https://job-boards.greenhouse.io/reddit/jobs/8171546,other,senior,us,False
 8399813,"Senior Client Account Manager, Large Customer Sales (AUS)",,"Sydney, Australia",2026-11-18T18:48:29-05:00,https://job-boards.greenhouse.io/reddit/jobs/8399813,sales,senior,other,False
 8017274,"Senior Client Account Manager, Large Customer Sales - UK",,"London, United Kingdom",2026-11-18T09:39:25-05:00,https://job-boards.greenhouse.io/reddit/jobs/8017274,sales,senior,uk,False
+8351484,"Senior Client Account Manager, Mid-Market (Goods - Shopping)",,"New York City, NY",2026-11-19T10:55:25-05:00,https://job-boards.greenhouse.io/reddit/jobs/8351484,other,senior,us,False
 8140121,"Senior Client Partner, Large Customer Sales (Big Box Retail)",,"New York City, NY",2026-11-18T19:20:22-05:00,https://job-boards.greenhouse.io/reddit/jobs/8140121,sales,senior,us,False
 8293700,"Senior Client Partner, Mid-Market Sales (Goods)",,"San Francisco, CA",2026-11-18T19:20:23-05:00,https://job-boards.greenhouse.io/reddit/jobs/8293700,sales,senior,us,False
 8360267,"Senior Client Partner, Mid-Market Sales (Goods)",,"Los Angeles, CA",2026-11-18T19:20:23-05:00,https://job-boards.greenhouse.io/reddit/jobs/8360267,sales,senior,us,False
@@ -67,8 +70,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8287466,"Senior Frontend Engineer, Ads Formats",,Remote - United States,2026-11-18T19:20:21-05:00,https://job-boards.greenhouse.io/reddit/jobs/8287466,software_engineering,senior,us,False
 8147617,"Senior Frontend Software Engineer, Consumer Engineering",,Remote - United States,2026-10-26T10:39:44-04:00,https://job-boards.greenhouse.io/reddit/jobs/8147617,software_engineering,senior,us,False
 8263374,"Senior iOS Software Engineer, Consumer Engineering",,"San Francisco, CA",2026-10-26T10:38:23-04:00,https://job-boards.greenhouse.io/reddit/jobs/8263374,software_engineering,senior,us,False
-6960831,Senior Machine Learning Engineer,,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/6960831,data_ai,senior,us,True
-6960833,Senior Machine Learning Engineer,,"Remote - Ontario, Canada",2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/6960833,data_ai,senior,remote,True
+6960831,Senior Machine Learning Engineer,,Remote - United States,2026-11-19T14:49:06-05:00,https://job-boards.greenhouse.io/reddit/jobs/6960831,data_ai,senior,us,True
+6960833,Senior Machine Learning Engineer,,"Remote - Ontario, Canada",2026-11-19T14:49:06-05:00,https://job-boards.greenhouse.io/reddit/jobs/6960833,data_ai,senior,remote,True
 8029120,"Senior Machine Learning Engineer, Ads Forecasting & Scenarios",,Remote - United States,2026-11-18T19:20:19-05:00,https://job-boards.greenhouse.io/reddit/jobs/8029120,data_ai,senior,us,True
 8304463,"Senior Machine Learning Engineer, Ads ML Efficiency",,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/8304463,data_ai,senior,us,True
 8125507,"Senior Machine Learning Manager, Video Ranking ",,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/8125507,data_ai,senior,us,True
@@ -93,14 +96,15 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8369767,"Senior SRE, Site Experience",,Remote - United States,2026-11-09T19:57:20-05:00,https://job-boards.greenhouse.io/reddit/jobs/8369767,software_engineering,senior,us,False
 8282748,"Senior Staff Applied Scientist, Science Platform",,Remote - United States,2026-11-18T19:20:23-05:00,https://job-boards.greenhouse.io/reddit/jobs/8282748,other,senior,us,False
 7974605,"Senior Staff Data Scientist, Consumer Relevance",,Remote - United States,2026-11-18T19:20:19-05:00,https://job-boards.greenhouse.io/reddit/jobs/7974605,data_ai,senior,us,False
+8368600,"Senior Staff Machine Learning Engineer, Ads Ranking ",,Remote - United States,2026-11-19T14:18:02-05:00,https://job-boards.greenhouse.io/reddit/jobs/8368600,data_ai,senior,us,True
 8122606,"Senior Staff Machine Learning Engineer, Feed Relevance",,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/8122606,data_ai,senior,us,True
 7772274,"Senior Staff Machine Learning Engineer, GenAI Platform",,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/7772274,data_ai,senior,us,True
 8243010,"Senior Staff Machine Learning Engineer, ML Understanding",,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/8243010,data_ai,senior,us,True
 8157275,"Senior Staff Machine Learning Systems Engineer, Ads ML Platform",,Remote - United States,2026-11-18T19:20:17-05:00,https://job-boards.greenhouse.io/reddit/jobs/8157275,data_ai,senior,us,True
 8369169,"Senior Staff SRE, Site Experience",,Remote - United States,2026-11-09T20:06:00-05:00,https://job-boards.greenhouse.io/reddit/jobs/8369169,software_engineering,senior,us,False
 8221539,Senior Technical Solutions Manager,,"London, United Kingdom",2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/8221539,other,senior,uk,False
-6469397,"Software Engineer, Ads",,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/6469397,software_engineering,mid_or_unknown,us,False
 6512458,"Software Engineer, Ads",,"Remote - Ontario, Canada",2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/6512458,software_engineering,mid_or_unknown,remote,False
+6469397,"Software Engineer, Ads",,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/6469397,software_engineering,mid_or_unknown,us,False
 8319655,"Software Engineer, Ad Signals",,Remote - United States,2026-11-18T19:20:22-05:00,https://job-boards.greenhouse.io/reddit/jobs/8319655,software_engineering,mid_or_unknown,us,False
 8172457,"Software Engineer, Consumer Engineering",,Remote - United States,2026-10-26T10:34:03-04:00,https://job-boards.greenhouse.io/reddit/jobs/8172457,software_engineering,mid_or_unknown,us,False
 8139781,"Software Engineer, Content Platform",,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/8139781,software_engineering,mid_or_unknown,us,False
@@ -110,16 +114,16 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8204924,"Staff Backend Engineer, User Safety",,Remote - United States,2026-10-26T12:51:51-04:00,https://job-boards.greenhouse.io/reddit/jobs/8204924,software_engineering,senior,us,False
 7721851,"Staff Data Scientist, Ads",,"Remote - Ontario, Canada",2026-11-18T19:20:16-05:00,https://job-boards.greenhouse.io/reddit/jobs/7721851,data_ai,senior,remote,False
 7721787,"Staff Data Scientist, Ads",,Remote - United States,2026-11-18T19:20:16-05:00,https://job-boards.greenhouse.io/reddit/jobs/7721787,data_ai,senior,us,False
-8072076,"Staff Data Scientist - Ads Measurement, Signals, Privacy",,Remote - United States,2026-11-18T19:20:20-05:00,https://job-boards.greenhouse.io/reddit/jobs/8072076,data_ai,senior,us,False
 8103609,"Staff Data Scientist - Ads Measurement, Signals, Privacy",,"Remote - British Columbia, Canada",2026-11-18T19:20:20-05:00,https://job-boards.greenhouse.io/reddit/jobs/8103609,data_ai,senior,remote,False
+8072076,"Staff Data Scientist - Ads Measurement, Signals, Privacy",,Remote - United States,2026-11-18T19:20:20-05:00,https://job-boards.greenhouse.io/reddit/jobs/8072076,data_ai,senior,us,False
 7445240,"Staff Data Scientist, Marketing",,Remote - United States,2026-11-18T19:20:18-05:00,https://job-boards.greenhouse.io/reddit/jobs/7445240,data_ai,senior,us,False
 7931000,"Staff Data Scientist, Marketing",,"Remote - Ontario, Canada",2026-11-18T19:20:18-05:00,https://job-boards.greenhouse.io/reddit/jobs/7931000,data_ai,senior,remote,False
 7895156,"Staff iOS Engineer, Media Foundation",,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/7895156,software_engineering,senior,us,False
 8250389,"Staff Machine Learning Engineer, Ads Creative Effectiveness",,Remote - United States,2026-11-18T19:20:19-05:00,https://job-boards.greenhouse.io/reddit/jobs/8250389,data_ai,senior,us,True
 8334138,"Staff Machine Learning Engineer, Ads Forecasting & Scenarios",,Remote - United States,2026-11-18T19:20:21-05:00,https://job-boards.greenhouse.io/reddit/jobs/8334138,data_ai,senior,us,True
-8382925,"Staff Machine Learning Engineer, Ads Foundational Representations",,"New York City, NY",2026-11-17T13:11:21-05:00,https://job-boards.greenhouse.io/reddit/jobs/8382925,data_ai,senior,us,True
 8018513,"Staff Machine Learning Engineer, Ads Foundational Representations",,Remote - United Kingdom,2026-11-16T10:57:52-05:00,https://job-boards.greenhouse.io/reddit/jobs/8018513,data_ai,senior,uk,True
 8018517,"Staff Machine Learning Engineer, Ads Foundational Representations",,Remote - The Netherlands,2026-11-16T10:57:55-05:00,https://job-boards.greenhouse.io/reddit/jobs/8018517,data_ai,senior,remote,True
+8382925,"Staff Machine Learning Engineer, Ads Foundational Representations",,"New York City, NY",2026-11-17T13:11:21-05:00,https://job-boards.greenhouse.io/reddit/jobs/8382925,data_ai,senior,us,True
 8247280,"Staff Machine Learning Engineer, Ads ML Efficiency",,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/8247280,data_ai,senior,us,True
 8203478,"Staff Machine Learning Engineer, AI Security",,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/8203478,data_ai,senior,us,True
 7747244,"Staff Machine Learning Engineer, Consumer ",,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/7747244,data_ai,senior,us,True
@@ -127,11 +131,9 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8316086,"Staff Machine Learning Engineer, Retrieval & Targeting",,Remote - United States,2026-11-18T19:20:22-05:00,https://job-boards.greenhouse.io/reddit/jobs/8316086,data_ai,senior,us,True
 7731788,Staff Machine Learning Systems Engineer,,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/7731788,data_ai,senior,us,True
 7701558,"Staff Product Designer, Growth",,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/7701558,other,senior,us,False
-7868511,Staff Product Security Engineer,,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/7868511,software_engineering,senior,us,False
 8319764,"Staff Program Manager, Human & LLM Data Annotation Operations",,Remote - United States,2026-10-30T18:54:09-04:00,https://job-boards.greenhouse.io/reddit/jobs/8319764,data_ai,senior,us,True
 8237636,"Staff Software Engineer, Android Design System",,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/8237636,software_engineering,senior,us,False
 8205702,"Staff Software Engineer, Consumer Engineering",,Remote - United States,2026-11-11T15:14:33-05:00,https://job-boards.greenhouse.io/reddit/jobs/8205702,software_engineering,senior,us,False
-8180636,"Staff Software Engineer, Developer Ecosystem",,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/8180636,software_engineering,senior,us,False
 8049901,"Staff Software Engineer, DevPlatform",,Remote - United States,2026-10-26T10:35:34-04:00,https://job-boards.greenhouse.io/reddit/jobs/8049901,software_engineering,senior,us,False
 8031491,"Staff Software Engineer, Identity & Access Management",,Remote - United States,2026-11-06T16:16:34-05:00,https://job-boards.greenhouse.io/reddit/jobs/8031491,software_engineering,senior,us,False
 8205402,Staff Software Engineer - Ingestion Platform ,,Remote - United States,2026-10-23T10:06:06-04:00,https://job-boards.greenhouse.io/reddit/jobs/8205402,software_engineering,senior,us,False
