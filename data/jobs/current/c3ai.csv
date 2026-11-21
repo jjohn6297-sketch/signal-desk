@@ -1,7 +1,7 @@
 job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_related
 8860563002,AI Product Manager - MBA Intern (Summer 2027),,"Redwood City, California, United States",2026-11-16T14:33:00-05:00,https://c3.ai/job-description/8860563002?gh_jid=8860563002,product_management,intern,us,True
 8879453002,Associate Site Reliability Engineer/Site Reliability Engineer,,"Redwood City, California, United States",2026-11-16T14:34:03-05:00,https://c3.ai/job-description/8879453002?gh_jid=8879453002,software_engineering,junior,us,False
-8642770002,Business Applications Manager,,"Redwood City, California, United States",2026-10-29T13:42:49-04:00,https://c3.ai/job-description/8642770002?gh_jid=8642770002,other,senior,us,False
+8642770002,Business Applications Manager,,"Redwood City, California, United States",2026-11-20T13:06:10-05:00,https://c3.ai/job-description/8642770002?gh_jid=8642770002,other,senior,us,False
 8864977002,Communications Manager ,,"Redwood City, California, United States",2026-11-16T14:39:14-05:00,https://c3.ai/job-description/8864977002?gh_jid=8864977002,marketing_content,senior,us,False
 8738918002,Data Science - Intern (Summer 2027),,"Redwood City, California, United States",2026-09-23T11:57:08-04:00,https://c3.ai/job-description/8738918002?gh_jid=8738918002,data_ai,intern,us,False
 8610437002,Data Scientist - Defence ,,"London, Greater London, England, United Kingdom",2026-11-16T16:25:50-05:00,https://c3.ai/job-description/8610437002?gh_jid=8610437002,data_ai,mid_or_unknown,uk,False
@@ -27,10 +27,10 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8886602002,"Forward Deployed Engineer, Federal (Onsite - Lexington Park, MD)",,Remote,2026-11-16T16:47:14-05:00,https://c3.ai/job-description/8886602002?gh_jid=8886602002,software_engineering,mid_or_unknown,remote,False
 8804558002,"Forward Deployed Engineer,  New Grad 2027",,"Redwood City, California, United States",2026-11-16T16:49:25-05:00,https://c3.ai/job-description/8804558002?gh_jid=8804558002,software_engineering,intern,us,False
 8912177002,Front Desk Coordinator,,"Redwood City, California, United States",2026-11-16T17:06:59-05:00,https://c3.ai/job-description/8912177002?gh_jid=8912177002,other,mid_or_unknown,us,False
-8952836002,"Industry Solution Leader, AI Deployments",,"Chicago, Illinois, United States",2026-11-19T14:51:06-05:00,https://c3.ai/job-description/8952836002?gh_jid=8952836002,data_ai,senior,us,True
-8952805002,"Industry Solution Leader, AI Deployments",,"Atlanta, Georgia, United States",2026-11-19T14:50:43-05:00,https://c3.ai/job-description/8952805002?gh_jid=8952805002,data_ai,senior,us,True
-8952825002,"Industry Solution Leader, AI Deployments",,"Redwood City, California, United States",2026-11-19T14:50:59-05:00,https://c3.ai/job-description/8952825002?gh_jid=8952825002,data_ai,senior,us,True
-8952729002,"Industry Solution Leader, AI Deployments ",,"New York, New York, United States",2026-11-19T14:50:52-05:00,https://c3.ai/job-description/8952729002?gh_jid=8952729002,data_ai,senior,us,True
+8952836002,"Industry Solution Leader, AI Deployments",,"Chicago, Illinois, United States",2026-11-20T13:05:42-05:00,https://c3.ai/job-description/8952836002?gh_jid=8952836002,data_ai,senior,us,True
+8952805002,"Industry Solution Leader, AI Deployments",,"Atlanta, Georgia, United States",2026-11-20T13:05:02-05:00,https://c3.ai/job-description/8952805002?gh_jid=8952805002,data_ai,senior,us,True
+8952825002,"Industry Solution Leader, AI Deployments",,"Redwood City, California, United States",2026-11-20T13:05:31-05:00,https://c3.ai/job-description/8952825002?gh_jid=8952825002,data_ai,senior,us,True
+8952729002,"Industry Solution Leader, AI Deployments ",,"New York, New York, United States",2026-11-20T13:05:55-05:00,https://c3.ai/job-description/8952729002?gh_jid=8952729002,data_ai,senior,us,True
 8817694002,Industry Solution Leader - Food & Agriculture (Food Manufacturing),,"Chicago, Illinois, United States",2026-11-16T17:18:58-05:00,https://c3.ai/job-description/8817694002?gh_jid=8817694002,other,senior,us,False
 8817690002,Industry Solution Leader - Heavy Industrial (Complex Manufacturing / Shipbuilding),,"Redwood City, California, United States",2026-11-16T17:21:02-05:00,https://c3.ai/job-description/8817690002?gh_jid=8817690002,other,senior,us,False
 8817444002,Industry Solution Leader - Heavy Industrial (Integrated Steel Optimization and Asset Performance) ,,"New York, New York, United States",2026-11-16T18:00:17-05:00,https://c3.ai/job-description/8817444002?gh_jid=8817444002,other,senior,us,False
@@ -69,8 +69,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8618618002,Senior Product Manager - C3 Generative AI,,"Redwood City, California, United States",2026-09-23T11:57:08-04:00,https://c3.ai/job-description/8618618002?gh_jid=8618618002,product_management,senior,us,True
 8625476002,"Senior Quality Engineer, AI and Automation",,"Guadalajara, Jalisco, Mexico",2026-09-23T11:57:08-04:00,https://c3.ai/job-description/8625476002?gh_jid=8625476002,data_ai,senior,other,True
 8621286002,"Senior Software Engineer, Agentic AI Platform",,"Redwood City, California, United States",2026-11-17T14:31:34-05:00,https://c3.ai/job-description/8621286002?gh_jid=8621286002,data_ai,senior,us,True
-8018454002,"Senior Software Engineer, Full-Stack - Applications",,"Guadalajara, Jalisco, Mexico",2026-09-23T11:57:08-04:00,https://c3.ai/job-description/8018454002?gh_jid=8018454002,software_engineering,senior,other,False
 7734925002,"Senior Software Engineer, Full-Stack - Applications",,"Redwood City, California, United States",2026-11-17T14:36:08-05:00,https://c3.ai/job-description/7734925002?gh_jid=7734925002,software_engineering,senior,us,False
+8018454002,"Senior Software Engineer, Full-Stack - Applications",,"Guadalajara, Jalisco, Mexico",2026-09-23T11:57:08-04:00,https://c3.ai/job-description/8018454002?gh_jid=8018454002,software_engineering,senior,other,False
 8623459002,Senior Software Engineer - Generative AI ,,"Redwood City, California, United States",2026-11-17T14:38:36-05:00,https://c3.ai/job-description/8623459002?gh_jid=8623459002,data_ai,senior,us,True
 8637025002,Senior Software Engineer - Platform,,"Redwood City, California, United States",2026-09-23T11:57:08-04:00,https://c3.ai/job-description/8637025002?gh_jid=8637025002,software_engineering,senior,us,False
 8365468002,"Senior Software Engineer, Platform - Data + AI (Back-End)",,"Redwood City, California, United States",2026-11-17T14:44:13-05:00,https://c3.ai/job-description/8365468002?gh_jid=8365468002,data_ai,senior,us,True

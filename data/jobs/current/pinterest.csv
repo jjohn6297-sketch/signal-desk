@@ -13,10 +13,10 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8274384,"Director, Product Management - Personalization & Marketplace",,"Palo Alto, CA, US; San Francisco, CA, US; Seattle, WA, US; Los Angeles, CA, US",2026-11-18T11:14:02-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8274384,product_management,leadership,us,False
 8336037,Editor,,"Tokyo, Japan",2026-11-13T01:20:21-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8336037,other,mid_or_unknown,other,False
 8015531,"Engineering Manager II, Android Modernization",,"Toronto, ON, CA",2026-11-06T16:50:39-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8015531,software_engineering,senior,us,False
+8267725,"Engineering Manager II, Performance Ad Formats",,"Toronto, ON, CA",2026-11-20T11:17:47-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8267725,software_engineering,senior,us,False
 8331360,Equity Administrator II,,"San Francisco, CA, US; Remote, US",2026-11-17T10:17:59-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8331360,other,mid_or_unknown,us,False
 7807888,Head of Verticals,,"Tokyo, JP",2026-11-04T13:36:03-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=7807888,other,leadership,other,False
 8201668,Industry Manager II,,"Toronto, ON, CA",2026-11-13T10:44:26-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8201668,other,senior,us,False
-7678372,Insights Solutions Partner II,,"Mexico City, MX",2026-11-04T13:35:13-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=7678372,other,mid_or_unknown,other,False
 8247248,Integrated Marketing Manager,,"Singapore, SG",2026-11-04T13:49:14-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8247248,marketing_content,senior,other,False
 8268340,Lead Art Director,,"London, UK",2026-11-17T11:29:17-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8268340,other,leadership,uk,False
 8304896,Lead Client Account Manager (Entertainment App) - Greater China Region,,"Singapore, SG",2026-11-04T13:56:17-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8304896,other,senior,other,False
@@ -35,7 +35,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8244922,Machine Learning Intern 2027 (Dublin),,"Dublin, IE",2026-11-06T16:46:24-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8244922,data_ai,intern,dublin,True
 8138080,Machine Learning Intern 2027 (Toronto),,"Toronto, ON, CA",2026-11-06T16:50:40-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8138080,data_ai,intern,us,True
 8214757,Machine Learning Intern 2027 (Zurich),,"Zurich, CH",2026-11-06T16:46:24-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8214757,data_ai,intern,other,True
-8121609,"Manager II, Customer Support",,"New York, US",2026-11-06T16:55:10-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8121609,customer_support,senior,us,False
 8015360,"Manager II, Engineering- Analytics Engineering, Core Data Science",,"San Francisco, CA, US; Remote, US",2026-11-06T16:55:10-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8015360,data_ai,senior,us,False
 8139439,"Manager II, Engineering - Kubernetes Platform",,"San Francisco, CA, US; Remote, CA, US",2026-11-16T21:16:35-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8139439,software_engineering,senior,us,False
 7957635,"Manager II, Engineering, Serving Infrastructure",,"Palo Alto, CA, US; San Francisco, CA, US",2026-11-06T16:55:09-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=7957635,software_engineering,senior,us,False
@@ -54,8 +53,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7685466,"Principal Software Engineer, ML & Media Infra",,"Palo Alto, CA; US;  San Francisco, CA, US",2026-11-06T16:55:09-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=7685466,data_ai,senior,us,True
 8350814,Product Design Intern (USA),,"San Francisco, CA, US; Remote, US",2026-11-09T19:58:51-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8350814,other,intern,us,False
 8287196,"Product Policy Lead, Ads",,"San Francisco, CA, US; Remote, US",2026-11-06T16:55:13-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8287196,other,senior,us,False
-8312674,Programmatic Ads Sales Lead,,"Chicago, IL, US ; New York, NY, US; Remote, US",2026-11-19T10:33:14-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8312674,sales,senior,us,False
 8129654,Programmatic Ads Sales Lead,,"Chicago, IL, US",2026-11-06T16:55:10-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8129654,sales,senior,us,False
+8312674,Programmatic Ads Sales Lead,,"Chicago, IL, US ; New York, NY, US",2026-11-20T13:43:59-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8312674,sales,senior,us,False
 8214783,Sales Analytics Intern 2027 (USA),,"San Francisco, CA, US; Remote, US",2026-11-12T14:42:59-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8214783,sales,intern,us,False
 7507652,Sales Finance Analyst II,,"New York, NY, USA; Hybrid",2026-11-09T15:21:44-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=7507652,sales,mid_or_unknown,us,False
 8209050,Sales Strategy & Operations Lead,,"San Francisco, CA, US; Los Angeles, CA, US",2026-11-16T17:06:22-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8209050,sales,senior,us,False
@@ -73,6 +72,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8138039,Software Engineering Intern 2027 (Toronto),,"Toronto, ON, CA",2026-11-06T16:50:40-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8138039,software_engineering,intern,us,False
 8214745,Software Engineering Intern 2027 (Zurich),,"Zurich, CH",2026-11-06T16:46:24-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8214745,software_engineering,intern,other,False
 7838577,Software Engineer Intern 2027 (USA),,"San Francisco, CA, US; Remote, US",2026-11-06T16:55:09-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=7838577,software_engineering,intern,us,False
+8356222,Solutions Engineer - Ads Product & Innovation,,"San Francisco, CA, US; Remote, US",2026-11-20T18:46:41-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8356222,software_engineering,mid_or_unknown,us,False
 8214788,Solutions Engineer Intern 2027 (USA),,"San Francisco, CA, US; Remote, US",2026-11-06T16:55:11-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8214788,software_engineering,intern,us,False
 8239061,Sr. Client Account Manager (12 Months Fixed Term),,"Sydney, Australia",2026-11-04T13:58:09-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8239061,other,senior,other,False
 8016626,Sr. Client Account Manager (Entertainment App) - Greater China Region,,"Singapore, SG",2026-11-04T13:36:11-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8016626,other,senior,other,False
@@ -87,7 +87,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8347744,"Sr. Client Account Manager, Walmart",,"New York, NY, US",2026-11-12T11:17:04-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8347744,other,senior,us,False
 8381752,Sr. Client Partner,,"Tokyo, Japan",2026-11-12T20:18:35-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8381752,other,senior,other,False
 8257653,"Sr. Client Partner, Auto",,"New York, NY, US",2026-11-06T16:55:12-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8257653,other,senior,us,False
-8346364,"Sr. Client Partner, Tech",,"New York, NY, US; San Francisco, CA, US",2026-11-06T16:55:10-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8346364,other,senior,us,False
 8280215,"Sr. Communications Lead, Product & Consumer Communications",,"Los Angeles, CA, US; Remote, US",2026-11-19T12:11:07-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8280215,marketing_content,senior,us,False
 8356287,Sr. Counsel,,"San Francisco, CA, US; Remote, US",2026-11-13T15:58:19-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8356287,legal,senior,us,False
 8402791,"Sr. Counsel - Product, Engineering & AI ",,"New York, NY, US; Remote, US",2026-11-19T14:28:52-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8402791,data_ai,senior,us,True
@@ -105,8 +104,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 6121464,"Sr. Machine Learning Engineer, Core Engineering ",,"San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",2026-11-06T16:55:07-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=6121464,data_ai,senior,us,True
 6121551,"Sr. Machine Learning Engineer, EPD Ads",,"San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",2026-11-06T16:55:08-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=6121551,data_ai,senior,us,True
 5691478,"Sr. Machine Learning Engineer, Growth Science ",,"Toronto, ON, CA",2026-11-06T16:50:40-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=5691478,data_ai,senior,us,True
-8395884,"Sr. Manager, Ads Product Marketing",,"London, UK",2026-11-18T09:47:08-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8395884,marketing_content,senior,uk,False
 7638564,"Sr. Manager, Ads Product Marketing",,"Dublin, IE",2026-11-18T10:03:27-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=7638564,marketing_content,senior,dublin,False
+8395884,"Sr. Manager, Ads Product Marketing",,"London, UK",2026-11-18T09:47:08-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8395884,marketing_content,senior,uk,False
 8239425,"Sr. Manager, Ads Product Marketing- PerformanceAutomation",,"Los Angeles, CA, US; San Francisco, CA, US; Chicago, IL, US; New York, NY, US; Remote, US",2026-11-19T13:30:05-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8239425,marketing_content,senior,us,False
 8015504,"Sr. Manager, Machine Learning Engineering-Applied Research",,"San Francisco, CA, US; Remote, US",2026-11-06T16:55:10-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8015504,data_ai,senior,us,True
 8238682,"Sr. Manager, Policy Communications",,"New York, NY, US; Los Angeles, CA, US; District of Columbia, Washington, US",2026-11-06T16:55:12-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8238682,marketing_content,senior,us,False
@@ -161,8 +160,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 7990090,"Staff Software Engineer, Edge",,"Palo Alto, CA, US; Remote, US",2026-11-06T16:55:09-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=7990090,software_engineering,senior,us,False
 8162539,"Staff Software Engineer, Infrastructure Data Engineering   ",,"New York, NY, US; Remote, US",2026-11-06T16:55:11-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8162539,data_ai,senior,us,False
 8015346," Staff Software, Engineering – Analytics Engineering, Core Data Science",,"San Francisco, CA, US; Remote, US",2026-11-06T16:55:09-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8015346,data_ai,senior,us,False
-8336944,"Staff Software Engineer, Product Infrastructure",,"San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",2026-11-16T15:26:18-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8336944,software_engineering,senior,us,False
 8055266,"Staff Software Engineer, Product Infrastructure",,"Palo Alto, CA, US; San Francisco, CA, US",2026-11-10T11:48:50-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8055266,software_engineering,senior,us,False
+8336944,"Staff Software Engineer, Product Infrastructure",,"San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",2026-11-16T15:26:18-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8336944,software_engineering,senior,us,False
 8046838,"Staff Software Engineer, Service Configuration Deployments",,"San Francisco, CA, US; Remote, US",2026-11-06T16:55:10-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8046838,software_engineering,senior,us,False
 8075888,"Staff Software Engineer, Web Product Enablement ",,"San Francisco, CA, US; Remote, CA, US",2026-11-06T16:55:10-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8075888,software_engineering,senior,us,False
 8263122,"Staff Technical Program Manager, Advanced Technology Group",,"San Francisco, CA, US; Remote, US",2026-11-06T16:55:12-05:00,https://www.pinterestcareers.com/jobs/?gh_jid=8263122,other,senior,us,False

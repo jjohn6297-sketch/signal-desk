@@ -21,8 +21,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8382914,Manufacturing Associate - IgG,,"USA - Portland, OR",2026-11-16T17:14:39-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8382914,other,junior,us,False
 8346397,Manufacturing Associate II - 6 months Temporary Position ,,"USA - Quincy, MA",2026-11-03T12:25:58-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8346397,other,junior,us,False
 8139437,Manufacturing Associate - Kitting (Temp),,"USA - Portland, OR",2026-10-09T23:13:40-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8139437,other,junior,us,False
-8301236,"Manufacturing Associate, NGS TE Production",,"USA - South San Francisco, CA",2026-10-29T14:25:08-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8301236,other,junior,us,False
 8382912,"Manufacturing Associate, NGS TE Production",,"USA - South San Francisco, CA",2026-11-16T17:35:22-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8382912,other,junior,us,False
+8301236,"Manufacturing Associate, NGS TE Production",,"USA - South San Francisco, CA",2026-10-29T14:25:08-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8301236,other,junior,us,False
 8382916,Manufacturing Associate - Specialty Production,,"USA - Portland, OR",2026-11-16T17:14:20-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8382916,other,junior,us,False
 8240087,"Manufacturing Lead, IgG Production",,"USA - Portland, OR",2026-11-12T20:47:41-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8240087,other,senior,us,False
 8382927,"Manufacturing Lead, Protein Characterization",,"USA - Portland, OR",2026-11-17T16:22:35-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8382927,other,senior,us,False
@@ -39,6 +39,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8278891,"Sr. Financial Analyst, Corporate FP&A",,"USA - South San Francisco, CA",2026-11-06T18:13:33-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8278891,accounting_finance,senior,us,False
 7396496,"Sr Global Product Marketing Manager, NGS",,"USA - South San Francisco, CA",2026-09-29T01:03:54-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/7396496,marketing_content,senior,us,False
 8164586,Sr Manager Protein Sciences ,,"USA - South San Francisco, CA",2026-09-29T01:03:32-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8164586,other,senior,us,False
+8407320,Sr NGS Sales Specialist - SF,,"USA - San Francisco Bay Area, CA (Field-Based Role)",2026-11-20T16:52:05-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8407320,sales,senior,us,False
 8250339,Sr NGS Sales Specialist - SF,,"USA - San Francisco Bay Area, CA (Field-Based Role)",2026-10-02T18:15:55-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8250339,sales,senior,us,False
 8304006,"Sr Project Manager, Custom Antibodies",,"USA - South San Francisco, CA",2026-10-28T14:50:25-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8304006,other,senior,us,False
 8357021,"Sr Research Associate, Tech Transfer ",,"USA - Portland, OR",2026-11-10T11:07:46-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8357021,other,junior,us,False
@@ -46,7 +47,6 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8155514,Sr. Staff Scientist - Protein Sciences R&D,,"USA - South San Francisco, CA",2026-08-28T11:50:14-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8155514,other,senior,us,False
 8357163,Sr Technical Product Owner,,"USA - South San Francisco, CA",2026-11-09T19:20:29-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8357163,product_management,senior,us,False
 8357608,Staff API Solutions Architect - B2B & Platform Integrations,,"USA - South San Francisco, CA",2026-11-16T17:20:27-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8357608,other,senior,us,False
-7811823,Staff Product Manager - Protein Solutions,,"USA - Carlsbad, CA; USA - South San Francisco, CA",2026-09-29T01:03:57-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/7811823,product_management,senior,us,False
 8359536,"Staff Project Manager, Custom Antibodies",,"USA - Carlsbad, CA; USA - Portland, OR; USA - Quincy, MA; USA - South San Francisco, CA",2026-11-11T15:47:21-05:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8359536,other,senior,us,False
 8331985,Staff Recruiter - Commercial,,USA - Remote,2026-10-30T14:01:22-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8331985,people_admin,senior,us,False
 8127030,Staff Technical Category Manager – Plastics (Technical CBM),,"APAC - China, Guangzhou",2026-09-29T21:24:57-04:00,https://job-boards.greenhouse.io/twistbioscience/jobs/8127030,other,senior,other,False
