@@ -35,6 +35,7 @@ evidence_for:
   claim: 'Nebius: delivery dates at several third-party colocation sites moved into H1 2027 (remaining Microsoft New Jersey tranches to Q2 2027); 2026 revenue now expected at the low end of $3.0-3.4bn; ARR target of $7-9bn by December moved to over $7bn in February; owned sites on time; capex raised to about $27bn. Q3 revenue $980.8m beat consensus'
   source: https://www.sec.gov/Archives/edgar/data/0001513845/000110465926126008/tm2629571d1_ex99-2.htm
   engine: daily-run
+- {"date": "2026-11-20", "claim": "S&P 500 fell 3.7% to 6,910 on 20 Nov, a seventh straight fall and 11.6% below its 6 Oct record; Nasdaq -5.3%, VIX 35.9. Equity funding for leveraged AI builders is getting harder", "source": "https://www.schwab.com/learn/story/market-volatility", "engine": "daily-run"}
 evidence_against:
 - date: '2026-10-29'
   claim: 'Amazon did not cite power or site delays; Jassy: customers take capacity almost as fast as it is installed (secondary summary)'
@@ -49,7 +50,7 @@ evidence_against:
 - date: '2026-11-18'
   claim: 'Anthropic priced its IPO at $83, above the $70-78 range, raising about $81.3bn (largest IPO on record); capital for AI compute remains readily available'
   source: https://www.anthropic.com/news/anthropic-prices-initial-public-offering
-system_conviction: 53
+system_conviction: 55
 conviction_history:
 - date: '2026-11-08'
   value: 60
@@ -63,6 +64,7 @@ conviction_history:
   reason: 'Nebius cut its effective 2026 revenue guide and moved its ARR target by two months because third-party colocation sites slipped into H1 2027; partly offsets the CoreWeave beat'
 - {"date": "2026-11-18", "value": 54, "reason": "Nvidia beat and raised; no sign yet that delivery delays are cutting chip orders"}
 - {"date": "2026-11-19", "value": 53, "reason": "Anthropic IPO priced above range and raised about $81bn; financing is not the bottleneck"}
+- {"date": "2026-11-22", "value": 55, "reason": "Weekly review 2026-47 (22 Nov): Semiconductors almost 30% off their peak in the AI sell-off; recovered from the Insights log because that run's push failed", "source": "https://claude.ai/artifact/WwpbnTDszXxUHpCnbVKEu3"}
 predictions:
 - id: p1
   statement: At least two of MSFT, GOOGL, AMZN, META, ORCL say on a results call that power or site availability

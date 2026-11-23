@@ -2135,5 +2135,102 @@ forecasts:
     method: judged
     guidance: HCOB Flash Eurozone PMI press release (S&P Global), 23 Nov 2026 (10:00 CET), composite output index, as
       first published. October final https://www.tasnimnews.ir/en/news/2026/11/04/3740443/euro-zone-economic-growth-slows-to-four-month-low-in-october/amp
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-23'
+  evidence:
+    summary: 'HCOB euro-area flash composite PMI 51.7 in November, unchanged from October final (Reuters poll 51.9); services 51.2 (five-month low), manufacturing 52.9; Germany composite 55.0 (56-month high), France 46.2; input-cost and output-price inflation eased to three-month lows.'
+    url: https://www.investing.com/news/economic-indicators/euro-zone-growth-holds-steady-but-frances-deepening-downturn-clouds-outlook-pmi-shows-5044744
+- id: EV-20261124-DELL-1
+  kind: event
+  thesis: hyperscaler-capex-debt
+  event_date: '2026-11-24'
+  statement: Dell Technologies reports fiscal Q3 2027 (Aug-Oct 2026) revenue of $50.0B or more (results 24 Nov after the
+    US close)
+  probability_raw: 0.65
+  probability: 0.783
+  reasoning: Dell guided about $49.0B and consensus is $50.63B after a $95B AI backlog and $60.9B of AI orders last quarter.
+    Big AI-server vendors have mostly beaten their own guides this year; memory shortages and shipment timing are the
+    main risk.
+  expected: About $50-51B
+  implications:
+    if_yes: AI server demand converting to revenue despite the sell-off; supports hyperscaler capex (64 path) and weakens
+      the build-out delay bet's delivery-delay story
+    if_no: Shipments slipping on memory or power constraints; supports the build-out delay bet
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-23'
+  resolves_by: '2026-11-25'
+  resolution:
+    method: judged
+    guidance: Dell Technologies fiscal Q3 2027 results press release (24 Nov 2026), total net revenue as reported. Guide
+      and consensus https://finviz.com/news/423394/dell-must-prove-its-95-billion-ai-backlog-can-convert-despite-memory-constraints
+  status: open
+  outcome: null
+- id: EV-20261124-DELL-2
+  kind: event
+  thesis: hyperscaler-capex-debt
+  event_date: '2026-11-24'
+  statement: Dell raises its fiscal 2027 revenue guidance midpoint above $192B in its fiscal Q3 2027 results (24 Nov)
+  probability_raw: 0.55
+  probability: 0.694
+  reasoning: Dell lifted its full-year range from $165-169B to about $192B last quarter on a record backlog. Another raise
+    is more likely than not, but it already raised hard once and memory supply limits what it can ship by January.
+  expected: A small raise, or the guide held at about $192B
+  implications:
+    if_yes: AI hardware demand still rising into 2027; supports hyperscaler capex
+    if_no: Backlog not converting faster; mild support for the build-out delay bet
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-23'
+  resolves_by: '2026-11-25'
+  resolution:
+    method: judged
+    guidance: Dell fiscal Q3 2027 press release or call (24 Nov 2026), full-year fiscal 2027 revenue guidance midpoint
+      compared with about $192B. Prior guide https://finviz.com/news/423394/dell-must-prove-its-95-billion-ai-backlog-can-convert-despite-memory-constraints
+  status: open
+  outcome: null
+- id: EV-20261124-WDAY-1
+  kind: event
+  thesis: coding-agents-usage-pricing
+  event_date: '2026-11-24'
+  statement: Workday reports fiscal Q3 2027 (Aug-Oct 2026) total revenue of $2.69B or more (results 24 Nov after the US
+    close)
+  probability_raw: 0.62
+  probability: 0.757
+  reasoning: Consensus is about $2.69B (10.6% growth) after $2.65B last quarter, and the full-year subscription guide was
+    narrowed to $9.94-9.95B. Workday usually meets or slightly beats; a seat-based HR vendor missing would be a sign of
+    AI pressure on seats.
+  expected: About $2.69-2.71B
+  implications:
+    if_yes: Seat-based software still growing steadily; against the coding-agents bet's per-seat pressure view
+    if_no: Supports the view that seat-based vendors are slowing
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-23'
+  resolves_by: '2026-11-25'
+  resolution:
+    method: judged
+    guidance: Workday fiscal Q3 2027 results press release (24 Nov 2026), total revenues as reported. Consensus https://finviz.com/news/423401/workdays-promised-second-half-ai-bookings-surge-faces-its-first-real-test
+  status: open
+  outcome: null
+- id: EV-20261125-US-3
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-11-25'
+  statement: US initial jobless claims for the week ending 21 Nov 2026 (published Wed 25 Nov) are 215,000 or fewer, seasonally
+    adjusted, as first published
+  probability_raw: 0.72
+  probability: 0.837
+  reasoning: Claims were 203,000 the prior week and have stayed low even as continuing claims rose. Thanksgiving-week
+    seasonal adjustment adds noise, so a jump above 215,000 has roughly a one-in-four chance.
+  expected: About 200-212K
+  implications:
+    if_yes: Layoffs still low; keeps the December hike priced; against the bonds bet
+    if_no: Layoffs starting to rise after the Philly Fed drop; supports the bonds bet
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-23'
+  resolves_by: '2026-11-26'
+  resolution:
+    method: judged
+    guidance: US Department of Labor weekly claims release (25 Nov 2026, 08:30 ET), initial claims SA, advance figure. Prior
+      https://www.spokesman.com/stories/2026/nov/19/us-weekly-jobless-claims-edge-up-but-labor-market-/
   status: open
   outcome: null

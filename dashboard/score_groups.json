@@ -3,8 +3,8 @@
 "key": "Kind: event",
 "group_type": "Kind",
 "group": "event",
-"n": 53,
-"brier": 0.157
+"n": 54,
+"brier": 0.1574
 },
 {
 "key": "Kind: thesis",
@@ -31,8 +31,8 @@
 "key": "Thesis: Cheap European staples (Nestle, Unilever, Diageo) outperform expensive US staples as volumes recover",
 "group_type": "Thesis",
 "group": "Cheap European staples (Nestle, Unilever, Diageo) outperform expensive US staples as volumes recover",
-"n": 1,
-"brier": 0.25
+"n": 2,
+"brier": 0.2124
 },
 {
 "key": "Thesis: Grid equipment and power generation are the binding constraint on AI data-centre build-out",

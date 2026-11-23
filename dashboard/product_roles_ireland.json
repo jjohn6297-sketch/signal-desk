@@ -6,7 +6,7 @@
 "level": "senior",
 "location": "Dublin, Ireland",
 "ai_related": false,
-"updated": "2026-10-28",
+"updated": "2026-11-20",
 "url": "https://job-boards.greenhouse.io/intercom/jobs/8327865"
 },
 {
@@ -16,18 +16,8 @@
 "level": "senior",
 "location": "Dublin, Ireland",
 "ai_related": false,
-"updated": "2026-11-04",
+"updated": "2026-11-20",
 "url": "https://job-boards.greenhouse.io/intercom/jobs/8350909"
-},
-{
-"key": "intercom|8090570",
-"company": "Intercom",
-"title": "Senior Product Manager, Messenger",
-"level": "senior",
-"location": "Dublin, Ireland",
-"ai_related": false,
-"updated": "2026-09-16",
-"url": "https://job-boards.greenhouse.io/intercom/jobs/8090570"
 },
 {
 "key": "intercom|7377200",
@@ -36,18 +26,8 @@
 "level": "senior",
 "location": "Dublin, Ireland",
 "ai_related": true,
-"updated": "2026-09-16",
+"updated": "2026-11-20",
 "url": "https://job-boards.greenhouse.io/intercom/jobs/7377200"
-},
-{
-"key": "mongodb|7113803",
-"company": "MongoDB",
-"title": "Senior Product Manager",
-"level": "senior",
-"location": "Dublin; Ireland",
-"ai_related": false,
-"updated": "2026-11-17",
-"url": "https://www.mongodb.com/careers/job/?gh_jid=7113803"
 },
 {
 "key": "mongodb|8233734",
@@ -58,6 +38,16 @@
 "ai_related": false,
 "updated": "2026-11-17",
 "url": "https://www.mongodb.com/careers/job/?gh_jid=8233734"
+},
+{
+"key": "mongodb|7113803",
+"company": "MongoDB",
+"title": "Senior Product Manager",
+"level": "senior",
+"location": "Dublin; Ireland",
+"ai_related": false,
+"updated": "2026-11-17",
+"url": "https://www.mongodb.com/careers/job/?gh_jid=7113803"
 },
 {
 "key": "mongodb|8328176",
@@ -116,8 +106,18 @@
 "level": "mid_or_unknown",
 "location": "Dublin, Ireland",
 "ai_related": false,
-"updated": "2026-10-29",
+"updated": "2026-11-19",
 "url": "https://stripe.com/jobs/search?gh_jid=8041655"
+},
+{
+"key": "stripe|8406995",
+"company": "Stripe",
+"title": "Product Manager, Payment Methods, EMEA",
+"level": "mid_or_unknown",
+"location": "Dublin",
+"ai_related": false,
+"updated": "2026-11-20",
+"url": "https://stripe.com/jobs/search?gh_jid=8406995"
 },
 {
 "key": "stripe|8143563",
@@ -126,7 +126,7 @@
 "level": "mid_or_unknown",
 "location": "Dublin, Ireland ",
 "ai_related": false,
-"updated": "2026-10-29",
+"updated": "2026-11-19",
 "url": "https://stripe.com/jobs/search?gh_jid=8143563"
 },
 {
@@ -136,7 +136,7 @@
 "level": "senior",
 "location": "Dublin",
 "ai_related": false,
-"updated": "2026-10-29",
+"updated": "2026-11-19",
 "url": "https://stripe.com/jobs/search?gh_jid=8264005"
 },
 {
@@ -146,7 +146,7 @@
 "level": "senior",
 "location": "Dublin, Ireland",
 "ai_related": false,
-"updated": "2026-10-29",
+"updated": "2026-11-19",
 "url": "https://stripe.com/jobs/search?gh_jid=8124304"
 },
 {

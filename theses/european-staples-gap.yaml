@@ -15,6 +15,7 @@ evidence_for:
   claim: Unilever Q3 underlying sales growth 5.2% (volume +2.9%) against 4.8% consensus; full-year volume outlook
     raised to at least 3%
   source: https://www.unilever.com/news/press-and-media/press-releases/2026/continued-strong-performance-in-the-third-quarter/
+- {"date": "2026-11-23", "claim": "Euro-area flash composite PMI 51.7 in November (unchanged; poll 51.9), new orders up for a fifth month; input-cost and output-price inflation at three-month lows as oil fell; France composite 46.2 against Germany 55.0", "source": "https://www.investing.com/news/economic-indicators/euro-zone-growth-holds-steady-but-frances-deepening-downturn-clouds-outlook-pmi-shows-5044744", "engine": "daily-run"}
 evidence_against: []
 system_conviction: 55
 conviction_history:

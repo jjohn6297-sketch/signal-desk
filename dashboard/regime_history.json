@@ -1403,21 +1403,21 @@
 "date": "2026-11-06",
 "regime": "Late cycle",
 "stress": 0,
-"watch": 4,
+"watch": 3,
 "known": 9
 },
 {
 "date": "2026-11-13",
-"regime": "Late cycle",
+"regime": "Risk-on",
 "stress": 0,
-"watch": 3,
+"watch": 2,
 "known": 9
 },
 {
 "date": "2026-11-20",
-"regime": "Late cycle",
+"regime": "Risk-on",
 "stress": 0,
-"watch": 3,
+"watch": 2,
 "known": 9
 }
 ]

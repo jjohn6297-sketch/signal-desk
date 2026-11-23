@@ -1,6 +1,214 @@
 [
 {
-"key": "0001046179-26-000803|37",
+"key": "0002114032-26-000002|57",
+"transaction_date": "2026-11-20",
+"filed": "2026-11-20",
+"company": "TSMC",
+"ticker": "TSM",
+"insider": "Lu Lee-Chung",
+"role": "VP",
+"shares": 2000,
+"price": 60.57,
+"value_usd": 121140,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000211403226000002/wk-form4_1795172790.xml"
+},
+{
+"key": "0002114032-26-000002|58",
+"transaction_date": "2026-11-20",
+"filed": "2026-11-20",
+"company": "TSMC",
+"ticker": "TSM",
+"insider": "Lu Lee-Chung",
+"role": "VP",
+"shares": 3000,
+"price": 60.57,
+"value_usd": 181710,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000211403226000002/wk-form4_1795172790.xml"
+},
+{
+"key": "0001666120-26-000039|50",
+"transaction_date": "2026-11-19",
+"filed": "2026-11-20",
+"company": "Atlassian",
+"ticker": "TEAM",
+"insider": "Cannon-Brookes Michael",
+"role": "Director, CEO, Co-Founder, 10% owner",
+"shares": 470,
+"price": 139.8738,
+"value_usd": 65740,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000039/primarydocument.xml"
+},
+{
+"key": "0001666120-26-000039|51",
+"transaction_date": "2026-11-19",
+"filed": "2026-11-20",
+"company": "Atlassian",
+"ticker": "TEAM",
+"insider": "Cannon-Brookes Michael",
+"role": "Director, CEO, Co-Founder, 10% owner",
+"shares": 6400,
+"price": 138.9491,
+"value_usd": 889274,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000039/primarydocument.xml"
+},
+{
+"key": "0001666120-26-000039|52",
+"transaction_date": "2026-11-19",
+"filed": "2026-11-20",
+"company": "Atlassian",
+"ticker": "TEAM",
+"insider": "Cannon-Brookes Michael",
+"role": "Director, CEO, Co-Founder, 10% owner",
+"shares": 2775,
+"price": 137.9957,
+"value_usd": 382938,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000039/primarydocument.xml"
+},
+{
+"key": "0001666120-26-000039|53",
+"transaction_date": "2026-11-19",
+"filed": "2026-11-20",
+"company": "Atlassian",
+"ticker": "TEAM",
+"insider": "Cannon-Brookes Michael",
+"role": "Director, CEO, Co-Founder, 10% owner",
+"shares": 945,
+"price": 137.1344,
+"value_usd": 129592,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000039/primarydocument.xml"
+},
+{
+"key": "0001666120-26-000039|54",
+"transaction_date": "2026-11-19",
+"filed": "2026-11-20",
+"company": "Atlassian",
+"ticker": "TEAM",
+"insider": "Cannon-Brookes Michael",
+"role": "Director, CEO, Co-Founder, 10% owner",
+"shares": 1329,
+"price": 135.5448,
+"value_usd": 180139,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000039/primarydocument.xml"
+},
+{
+"key": "0001666120-26-000039|55",
+"transaction_date": "2026-11-19",
+"filed": "2026-11-20",
+"company": "Atlassian",
+"ticker": "TEAM",
+"insider": "Cannon-Brookes Michael",
+"role": "Director, CEO, Co-Founder, 10% owner",
+"shares": 781,
+"price": 134.2957,
+"value_usd": 104884,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000039/primarydocument.xml"
+},
+{
+"key": "0001666120-26-000039|56",
+"transaction_date": "2026-11-19",
+"filed": "2026-11-20",
+"company": "Atlassian",
+"ticker": "TEAM",
+"insider": "Cannon-Brookes Michael",
+"role": "Director, CEO, Co-Founder, 10% owner",
+"shares": 700,
+"price": 133.0114,
+"value_usd": 93107,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000039/primarydocument.xml"
+},
+{
+"key": "0001666120-26-000038|43",
+"transaction_date": "2026-11-18",
+"filed": "2026-11-19",
+"company": "Atlassian",
+"ticker": "TEAM",
+"insider": "Cannon-Brookes Michael",
+"role": "Director, CEO, Co-Founder, 10% owner",
+"shares": 3038,
+"price": 140.9597,
+"value_usd": 428235,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000038/primarydocument.xml"
+},
+{
+"key": "0001666120-26-000038|44",
+"transaction_date": "2026-11-18",
+"filed": "2026-11-19",
+"company": "Atlassian",
+"ticker": "TEAM",
+"insider": "Cannon-Brookes Michael",
+"role": "Director, CEO, Co-Founder, 10% owner",
+"shares": 200,
+"price": 138.26,
+"value_usd": 27652,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000038/primarydocument.xml"
+},
+{
+"key": "0001666120-26-000038|45",
+"transaction_date": "2026-11-18",
+"filed": "2026-11-19",
+"company": "Atlassian",
+"ticker": "TEAM",
+"insider": "Cannon-Brookes Michael",
+"role": "Director, CEO, Co-Founder, 10% owner",
+"shares": 600,
+"price": 137.41,
+"value_usd": 82446,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000038/primarydocument.xml"
+},
+{
+"key": "0001666120-26-000038|46",
+"transaction_date": "2026-11-18",
+"filed": "2026-11-19",
+"company": "Atlassian",
+"ticker": "TEAM",
+"insider": "Cannon-Brookes Michael",
+"role": "Director, CEO, Co-Founder, 10% owner",
+"shares": 1800,
+"price": 135.6994,
+"value_usd": 244258,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000038/primarydocument.xml"
+},
+{
+"key": "0001666120-26-000038|47",
+"transaction_date": "2026-11-18",
+"filed": "2026-11-19",
+"company": "Atlassian",
+"ticker": "TEAM",
+"insider": "Cannon-Brookes Michael",
+"role": "Director, CEO, Co-Founder, 10% owner",
+"shares": 600,
+"price": 134.8664,
+"value_usd": 80919,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000038/primarydocument.xml"
+},
+{
+"key": "0001666120-26-000038|48",
+"transaction_date": "2026-11-18",
+"filed": "2026-11-19",
+"company": "Atlassian",
+"ticker": "TEAM",
+"insider": "Cannon-Brookes Michael",
+"role": "Director, CEO, Co-Founder, 10% owner",
+"shares": 1620,
+"price": 142.8519,
+"value_usd": 231420,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000038/primarydocument.xml"
+},
+{
+"key": "0001666120-26-000038|49",
+"transaction_date": "2026-11-18",
+"filed": "2026-11-19",
+"company": "Atlassian",
+"ticker": "TEAM",
+"insider": "Cannon-Brookes Michael",
+"role": "Director, CEO, Co-Founder, 10% owner",
+"shares": 5542,
+"price": 141.9984,
+"value_usd": 786955,
+"source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000038/primarydocument.xml"
+},
+{
+"key": "0001046179-26-000803|36",
 "transaction_date": "2026-11-17",
 "filed": "2026-11-18",
 "company": "TSMC",
@@ -13,7 +221,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000803/wk-form4_1794999834.xml"
 },
 {
-"key": "0001666120-26-000037|38",
+"key": "0001666120-26-000037|37",
 "transaction_date": "2026-11-17",
 "filed": "2026-11-18",
 "company": "Atlassian",
@@ -26,7 +234,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000037/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000037|39",
+"key": "0001666120-26-000037|38",
 "transaction_date": "2026-11-17",
 "filed": "2026-11-18",
 "company": "Atlassian",
@@ -39,7 +247,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000037/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000037|40",
+"key": "0001666120-26-000037|39",
 "transaction_date": "2026-11-17",
 "filed": "2026-11-18",
 "company": "Atlassian",
@@ -52,7 +260,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000037/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000037|41",
+"key": "0001666120-26-000037|40",
 "transaction_date": "2026-11-17",
 "filed": "2026-11-18",
 "company": "Atlassian",
@@ -65,7 +273,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000037/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000037|42",
+"key": "0001666120-26-000037|41",
 "transaction_date": "2026-11-17",
 "filed": "2026-11-18",
 "company": "Atlassian",
@@ -78,7 +286,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000037/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000037|43",
+"key": "0001666120-26-000037|42",
 "transaction_date": "2026-11-17",
 "filed": "2026-11-18",
 "company": "Atlassian",
@@ -91,7 +299,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000037/primarydocument.xml"
 },
 {
-"key": "0001104659-26-129065|31",
+"key": "0001104659-26-129065|30",
 "transaction_date": "2026-11-16",
 "filed": "2026-11-17",
 "company": "Eaton",
@@ -104,7 +312,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1551182/000110465926129065/tm2630058-1_4seq1.xml"
 },
 {
-"key": "0001104659-26-129068|32",
+"key": "0001104659-26-129068|31",
 "transaction_date": "2026-11-16",
 "filed": "2026-11-17",
 "company": "Eaton",
@@ -117,7 +325,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1551182/000110465926129068/tm2630058-2_4seq1.xml"
 },
 {
-"key": "0001666120-26-000036|33",
+"key": "0001666120-26-000036|32",
 "transaction_date": "2026-11-16",
 "filed": "2026-11-17",
 "company": "Atlassian",
@@ -130,7 +338,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000036/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000036|34",
+"key": "0001666120-26-000036|33",
 "transaction_date": "2026-11-16",
 "filed": "2026-11-17",
 "company": "Atlassian",
@@ -143,7 +351,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000036/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000036|35",
+"key": "0001666120-26-000036|34",
 "transaction_date": "2026-11-16",
 "filed": "2026-11-17",
 "company": "Atlassian",
@@ -156,7 +364,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000036/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000036|36",
+"key": "0001666120-26-000036|35",
 "transaction_date": "2026-11-16",
 "filed": "2026-11-17",
 "company": "Atlassian",
@@ -169,7 +377,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000036/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000035|26",
+"key": "0001666120-26-000035|25",
 "transaction_date": "2026-11-13",
 "filed": "2026-11-16",
 "company": "Atlassian",
@@ -182,7 +390,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000035/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000035|27",
+"key": "0001666120-26-000035|26",
 "transaction_date": "2026-11-13",
 "filed": "2026-11-16",
 "company": "Atlassian",
@@ -195,7 +403,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000035/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000035|28",
+"key": "0001666120-26-000035|27",
 "transaction_date": "2026-11-13",
 "filed": "2026-11-16",
 "company": "Atlassian",
@@ -208,7 +416,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000035/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000035|29",
+"key": "0001666120-26-000035|28",
 "transaction_date": "2026-11-13",
 "filed": "2026-11-16",
 "company": "Atlassian",
@@ -221,7 +429,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000035/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000035|30",
+"key": "0001666120-26-000035|29",
 "transaction_date": "2026-11-13",
 "filed": "2026-11-16",
 "company": "Atlassian",
@@ -234,7 +442,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000035/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000034|21",
+"key": "0001666120-26-000034|20",
 "transaction_date": "2026-11-12",
 "filed": "2026-11-13",
 "company": "Atlassian",
@@ -247,7 +455,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000034/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000034|22",
+"key": "0001666120-26-000034|21",
 "transaction_date": "2026-11-12",
 "filed": "2026-11-13",
 "company": "Atlassian",
@@ -260,7 +468,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000034/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000034|23",
+"key": "0001666120-26-000034|22",
 "transaction_date": "2026-11-12",
 "filed": "2026-11-13",
 "company": "Atlassian",
@@ -273,7 +481,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000034/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000034|24",
+"key": "0001666120-26-000034|23",
 "transaction_date": "2026-11-12",
 "filed": "2026-11-13",
 "company": "Atlassian",
@@ -286,7 +494,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000034/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000034|25",
+"key": "0001666120-26-000034|24",
 "transaction_date": "2026-11-12",
 "filed": "2026-11-13",
 "company": "Atlassian",
@@ -299,7 +507,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000034/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000033|17",
+"key": "0001666120-26-000033|16",
 "transaction_date": "2026-11-11",
 "filed": "2026-11-12",
 "company": "Atlassian",
@@ -312,7 +520,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000033/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000033|18",
+"key": "0001666120-26-000033|17",
 "transaction_date": "2026-11-11",
 "filed": "2026-11-12",
 "company": "Atlassian",
@@ -325,7 +533,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000033/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000033|19",
+"key": "0001666120-26-000033|18",
 "transaction_date": "2026-11-11",
 "filed": "2026-11-12",
 "company": "Atlassian",
@@ -338,7 +546,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000033/primarydocument.xml"
 },
 {
-"key": "0001666120-26-000033|20",
+"key": "0001666120-26-000033|19",
 "transaction_date": "2026-11-11",
 "filed": "2026-11-12",
 "company": "Atlassian",
@@ -351,7 +559,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000033/primarydocument.xml"
 },
 {
-"key": "0001046179-26-000734|16",
+"key": "0001046179-26-000734|15",
 "transaction_date": "2026-11-05",
 "filed": "2026-11-09",
 "company": "TSMC",
@@ -364,7 +572,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000734/wk-form4_1794222904.xml"
 },
 {
-"key": "0001046179-26-000732|15",
+"key": "0001046179-26-000732|14",
 "transaction_date": "2026-11-01",
 "filed": "2026-11-03",
 "company": "TSMC",
@@ -377,7 +585,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000732/wk-form4_1793707033.xml"
 },
 {
-"key": "0001513845-26-000145|14",
+"key": "0001513845-26-000145|13",
 "transaction_date": "2026-10-29",
 "filed": "2026-10-30",
 "company": "Nebius Group",
@@ -390,7 +598,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000145/form4.xml"
 },
 {
-"key": "0001513845-26-000143|13",
+"key": "0001513845-26-000143|12",
 "transaction_date": "2026-10-28",
 "filed": "2026-10-29",
 "company": "Nebius Group",
@@ -403,7 +611,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000143/form4.xml"
 },
 {
-"key": "0001513845-26-000143|12",
+"key": "0001513845-26-000143|11",
 "transaction_date": "2026-10-27",
 "filed": "2026-10-29",
 "company": "Nebius Group",
@@ -416,7 +624,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000143/form4.xml"
 },
 {
-"key": "0001513845-26-000141|8",
+"key": "0001513845-26-000141|7",
 "transaction_date": "2026-10-26",
 "filed": "2026-10-26",
 "company": "Nebius Group",
@@ -429,7 +637,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000141/form4.xml"
 },
 {
-"key": "0001369240-26-000014|9",
+"key": "0001369240-26-000014|8",
 "transaction_date": "2026-10-26",
 "filed": "2026-10-28",
 "company": "Accenture",
@@ -442,7 +650,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1467373/000136924026000014/wk-form4_1793184332.xml"
 },
 {
-"key": "0001487630-26-000022|10",
+"key": "0001487630-26-000022|9",
 "transaction_date": "2026-10-26",
 "filed": "2026-10-28",
 "company": "Accenture",
@@ -455,7 +663,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1467373/000148763026000022/wk-form4_1793184338.xml"
 },
 {
-"key": "0001487630-26-000022|11",
+"key": "0001487630-26-000022|10",
 "transaction_date": "2026-10-26",
 "filed": "2026-10-28",
 "company": "Accenture",
@@ -468,7 +676,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1467373/000148763026000022/wk-form4_1793184338.xml"
 },
 {
-"key": "0001513845-26-000141|7",
+"key": "0001513845-26-000141|6",
 "transaction_date": "2026-10-23",
 "filed": "2026-10-26",
 "company": "Nebius Group",
@@ -481,7 +689,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000141/form4.xml"
 },
 {
-"key": "0001513845-26-000141|6",
+"key": "0001513845-26-000141|5",
 "transaction_date": "2026-10-22",
 "filed": "2026-10-26",
 "company": "Nebius Group",
@@ -494,7 +702,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000141/form4.xml"
 },
 {
-"key": "0001513845-26-000134|5",
+"key": "0001513845-26-000134|4",
 "transaction_date": "2026-10-19",
 "filed": "2026-10-20",
 "company": "Nebius Group",
@@ -507,7 +715,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000134/form4.xml"
 },
 {
-"key": "0001513845-26-000130|4",
+"key": "0001513845-26-000130|3",
 "transaction_date": "2026-10-16",
 "filed": "2026-10-16",
 "company": "Nebius Group",
@@ -520,7 +728,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000130/form4.xml"
 },
 {
-"key": "0001513845-26-000130|3",
+"key": "0001513845-26-000130|2",
 "transaction_date": "2026-10-15",
 "filed": "2026-10-16",
 "company": "Nebius Group",
@@ -533,7 +741,7 @@
 "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000130/form4.xml"
 },
 {
-"key": "rns:9818878|2",
+"key": "rns:9818878|1",
 "transaction_date": "2026-10-12",
 "filed": "2026-10-12",
 "company": "Oxford Nanopore Technologies",
@@ -546,7 +754,7 @@
 "source_url": "https://www.investegate.co.uk/announcement/rns/oxford-nanopore-technologies--ont/director-pdmr-shareholding/9818878"
 },
 {
-"key": "0001341439-26-000099|1",
+"key": "0001341439-26-000099|0",
 "transaction_date": "2026-09-29",
 "filed": "2026-10-01",
 "company": "Oracle",
@@ -557,18 +765,5 @@
 "price": 139.352,
 "value_usd": 3483800,
 "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000099/form4.xml"
-},
-{
-"key": "0001108524-26-000212|0",
-"transaction_date": "2026-09-18",
-"filed": "2026-09-21",
-"company": "Salesforce",
-"ticker": "CRM",
-"insider": "Kirk David Blair",
-"role": "Director",
-"shares": 4176,
-"price": 239.3321,
-"value_usd": 999450,
-"source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000212/form4.xml"
 }
 ]
