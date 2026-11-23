@@ -3,8 +3,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 4461450008,"Account Executive, AI Native",,"New York City, NY; San Francisco, CA | New York City, NY",2026-08-21T21:32:54-04:00,https://job-boards.greenhouse.io/anthropic/jobs/4461450008,data_ai,mid_or_unknown,us,True
 4976314008,"Account Executive, Nonprofit ",,"San Francisco, CA | New York City, NY",2026-10-26T10:45:53-04:00,https://job-boards.greenhouse.io/anthropic/jobs/4976314008,sales,mid_or_unknown,us,False
 5391381008,Account Executive - Public Sector (ASEAN),,Singapore,2026-08-28T16:47:28-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5391381008,sales,mid_or_unknown,other,False
-5400138008,"Account Executive, Startups",,"San Francisco, CA | New York City, NY",2026-08-24T16:19:13-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5400138008,sales,mid_or_unknown,us,False
 5391313008,"Account Executive, Startups",,"Dublin, IE",2026-09-07T12:12:06-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5391313008,sales,mid_or_unknown,dublin,False
+5400138008,"Account Executive, Startups",,"San Francisco, CA | New York City, NY",2026-08-24T16:19:13-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5400138008,sales,mid_or_unknown,us,False
 5398438008,"Activation Manager, Beneficial Deployments",,"San Francisco, CA | New York City, NY",2026-10-13T13:20:04-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5398438008,other,senior,us,False
 5382750008,"AI Infrastructure Operations, Demand Planning",,"San Francisco, CA | New York City, NY",2026-08-21T12:50:48-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5382750008,data_ai,mid_or_unknown,us,True
 5454800008,"AI Outcomes Manager, Enterprise Tech",,"San Francisco, CA | New York City, NY",2026-11-09T17:11:54-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5454800008,data_ai,senior,us,True
@@ -16,14 +16,12 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 5183044008,"Anthropic Fellows Program, AI Safety & Security",,"London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",2026-11-11T20:39:10-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5183044008,data_ai,mid_or_unknown,uk,True
 5183051008,"Anthropic Fellows Program, ML Systems & Reinforcement Learning",,"London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",2026-11-11T20:39:45-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5183051008,data_ai,mid_or_unknown,uk,True
 5183053008,"Anthropic Fellows Program, The Anthropic Institute (Economics & Policy)",,"London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",2026-11-11T20:39:58-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5183053008,other,mid_or_unknown,uk,False
-5439169008,Anthropic Research Resident,,"London, UK",2026-11-04T02:14:30-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5439169008,other,mid_or_unknown,uk,False
-5438311008,Anthropic Research Resident,,"San Francisco, CA | New York City, NY",2026-11-04T02:13:33-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5438311008,other,mid_or_unknown,us,False
 5426627008, APAC GTM Enablement Lead,,"Sydney, Australia",2026-10-14T06:31:45-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5426627008,other,senior,other,False
 5427309008,APAC Recruiting Coordinator,,Singapore,2026-09-24T09:45:15-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5427309008,people_admin,mid_or_unknown,other,False
 5358148008,APAC Tax Lead,,Singapore,2026-08-28T16:47:27-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5358148008,accounting_finance,senior,other,False
-5424310008,Applied AI Architect,,"Mumbai, India",2026-09-21T03:22:45-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5424310008,data_ai,mid_or_unknown,other,True
 5443882008,Applied AI Architect,,"Bangalore, India",2026-10-09T00:06:04-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5443882008,data_ai,mid_or_unknown,other,True
 5476577008,Applied AI Architect,,"Seoul, South Korea",2026-11-09T01:47:38-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5476577008,data_ai,mid_or_unknown,other,True
+5424310008,Applied AI Architect,,"Mumbai, India",2026-09-21T03:22:45-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5424310008,data_ai,mid_or_unknown,other,True
 5076109008,Applied AI Architect,,"Tokyo, Japan",2026-09-02T02:28:25-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5076109008,data_ai,mid_or_unknown,other,True
 5450798008,Applied AI Architect,,"Sydney, Australia",2026-11-02T19:45:18-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5450798008,data_ai,mid_or_unknown,other,True
 5486780008,"Applied AI Architect, Beneficial Deployment",,"Sydney, Australia",2026-11-19T21:36:10-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5486780008,data_ai,mid_or_unknown,other,True
@@ -70,8 +68,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 5459290008,Audit Operations Lead,,"San Francisco, CA",2026-11-19T16:48:42-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5459290008,accounting_finance,senior,us,False
 5457137008,"Audit, Security GRC",,"San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",2026-10-19T17:25:12-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5457137008,accounting_finance,mid_or_unknown,us,False
 5462972008,Autonomous Systems Security Engineer,,"Remote-Friendly (Travel Required) | San Francisco, CA",2026-10-27T16:42:45-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5462972008,software_engineering,mid_or_unknown,us,False
-5385590008,"AV Engineer, Builds and Design",,"London, UK",2026-10-05T19:50:32-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5385590008,software_engineering,mid_or_unknown,uk,False
 5385588008,"AV Engineer, Builds and Design",,"San Francisco, CA",2026-10-05T19:49:04-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5385588008,software_engineering,mid_or_unknown,us,False
+5385590008,"AV Engineer, Builds and Design",,"London, UK",2026-10-05T19:50:32-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5385590008,software_engineering,mid_or_unknown,uk,False
 5383714008,"AV Engineer, Platform & Automation",,"San Francisco, CA | New York City, NY",2026-10-05T16:08:11-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5383714008,software_engineering,mid_or_unknown,us,False
 5383710008,AV Operations Specialist,,"New York City, NY",2026-09-22T21:10:30-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5383710008,other,mid_or_unknown,us,False
 5379593008,AV Production Specialist,,"San Francisco, CA",2026-08-21T12:50:45-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5379593008,other,mid_or_unknown,us,False
@@ -82,6 +80,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 5471118008,Business Recruiter,,"Dublin, IE",2026-11-04T15:30:04-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5471118008,people_admin,mid_or_unknown,dublin,False
 5471100008,"Business Recruiter, London",,"London, UK",2026-11-04T11:27:36-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5471100008,people_admin,mid_or_unknown,uk,False
 5416829008,"Business Systems Analyst, New Product Introduction",,"San Francisco, CA | New York City, NY | Seattle, WA",2026-09-08T19:38:34-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5416829008,other,mid_or_unknown,us,False
+5491575008,Campaign Manager,,"San Francisco, CA | New York City, NY",2026-11-22T14:38:51-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5491575008,other,senior,us,False
 5432020008,Capacity Deployment Lead - Data Center Operations,,"Remote-Friendly, United States",2026-09-22T19:49:20-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5432020008,other,senior,us,False
 5391257008,Channel Partner Manager,,"Seoul, South Korea",2026-08-31T00:40:44-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5391257008,other,senior,other,False
 5441387008,"Channel Partner Manager, Public Sector",,"Washington, DC",2026-10-01T17:45:11-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5441387008,other,senior,us,False
@@ -117,8 +116,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 5463187008,"Customer Program Manager, Executive Briefings",,"London, UK",2026-11-17T15:21:01-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5463187008,other,senior,uk,False
 5451376008,Customer  Success Manager,,"Munich, Germany",2026-10-21T10:57:15-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5451376008,other,senior,other,False
 5391102008,Customer Success Manager,,"London, UK",2026-10-08T13:56:24-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5391102008,customer_support,senior,uk,False
-5456491008,Customer Success Manager,,"Tokyo, Japan",2026-10-19T05:37:49-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5456491008,customer_support,senior,other,False
 5391112008,Customer Success Manager,,"Seoul, South Korea",2026-08-31T00:22:34-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5391112008,customer_support,senior,other,False
+5456491008,Customer Success Manager,,"Tokyo, Japan",2026-10-19T05:37:49-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5456491008,customer_support,senior,other,False
 5462040008,"Customer Success Manager, Beneficial Deployments EMEA",,"London, UK",2026-11-10T14:24:20-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5462040008,customer_support,senior,uk,False
 5416026008,"Customer Success Manager, Beneficial Deployments - Life Sciences",,"San Francisco, CA | New York City, NY",2026-10-19T12:50:53-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5416026008,customer_support,senior,us,False
 5427479008,"Customer Success Manager, Public Sector (National Security) ",,"Washington, DC",2026-09-18T18:50:40-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5427479008,customer_support,senior,us,False
@@ -204,22 +203,21 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 4610158008,"[Expression of Interest] Research Engineer / Scientist, Alignment - London",,"London, UK",2026-08-28T14:43:57-04:00,https://job-boards.greenhouse.io/anthropic/jobs/4610158008,software_engineering,mid_or_unknown,uk,False
 4980436008," [Expression of Interest] Research Manager, Interpretability",,"San Francisco, CA",2026-10-20T16:52:42-04:00,https://job-boards.greenhouse.io/anthropic/jobs/4980436008,other,senior,us,False
 5479890008,"External Affairs, Southeast Asia",,Singapore,2026-11-12T23:21:30-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5479890008,other,mid_or_unknown,other,False
-5417967008,"External Affairs, South Korea",,"Seoul, South Korea",2026-09-24T10:28:04-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5417967008,other,mid_or_unknown,other,False
 5466517008,"Field Engineer, Data Center Design and Engineering",,"Remote-Friendly, United States",2026-10-30T19:50:06-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5466517008,software_engineering,mid_or_unknown,us,False
 5277776008,Field Executive Architect,,"San Francisco, CA | New York City, NY",2026-09-29T12:24:34-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5277776008,other,mid_or_unknown,us,False
 5444773008,"Field Marketing Lead, Cybersecurity ",,"San Francisco, CA | New York City, NY",2026-10-06T14:17:13-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5444773008,marketing_content,senior,us,False
 5358098008,"Finance & Strategy, Compute",,"San Francisco, CA",2026-09-29T16:58:44-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5358098008,other,mid_or_unknown,us,False
+5437933008,"Finance & Strategy, Deal Strategy",,"Dublin, IE",2026-11-20T09:39:00-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5437933008,other,mid_or_unknown,dublin,False
 5433843008,"Finance & Strategy, Deal Strategy",,"London, UK",2026-11-20T09:38:56-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5433843008,other,mid_or_unknown,uk,False
 5358090008,"Finance & Strategy, Deal Strategy",,"San Francisco, CA | New York City, NY",2026-08-21T12:50:38-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5358090008,other,mid_or_unknown,us,False
-5437933008,"Finance & Strategy, Deal Strategy",,"Dublin, IE",2026-11-20T09:39:00-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5437933008,other,mid_or_unknown,dublin,False
 5386793008,"Finance & Strategy, Deal Velocity",,"San Francisco, CA | New York City, NY",2026-09-16T13:15:30-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5386793008,other,mid_or_unknown,us,False
 5079133008,"Finance & Strategy, GTM - Korea",,"Seoul, South Korea",2026-10-07T17:24:38-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5079133008,other,mid_or_unknown,other,False
 5357947008,"Finance Systems Analyst, Tax",,"San Francisco, CA | Seattle, WA",2026-10-13T17:07:51-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5357947008,accounting_finance,mid_or_unknown,us,False
 5475456008,"Finance Systems Lead, International",,"Dublin, IE",2026-11-06T15:50:15-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5475456008,other,senior,dublin,False
 5483403008,Finance Systems Production Support Lead,,"San Francisco, CA | Seattle, WA",2026-11-19T18:24:42-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5483403008,other,senior,us,False
+5391016008,Forward Deployed Engineer,,"Munich, Germany",2026-08-28T16:45:54-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5391016008,software_engineering,mid_or_unknown,other,False
 5391021008,Forward Deployed Engineer,,"Paris, France",2026-08-28T16:46:44-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5391021008,software_engineering,mid_or_unknown,other,False
 5423029008,Forward Deployed Engineer,,"London, UK",2026-09-14T05:27:39-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5423029008,software_engineering,mid_or_unknown,uk,False
-5391016008,Forward Deployed Engineer,,"Munich, Germany",2026-08-28T16:45:54-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5391016008,software_engineering,mid_or_unknown,other,False
 5386971008,"Front End Engineer, Marketing",,"San Francisco, CA | New York City, NY",2026-08-21T12:50:51-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5386971008,software_engineering,mid_or_unknown,us,False
 5469337008,"Gas Supply and Transport Lead, US and Canada",,"San Francisco, CA | New York City, NY",2026-11-04T11:50:06-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5469337008,other,senior,us,False
 5237923008,"Global Head of Renewals, Product & Engineering",,"San Francisco, CA | New York City, NY",2026-11-09T22:12:50-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5237923008,software_engineering,leadership,us,False
@@ -232,7 +230,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 5378092008,Hardware Lab Manager,,"San Francisco, CA | New York City, NY",2026-08-21T12:50:44-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5378092008,other,senior,us,False
 5286362008,Hardware Systems Architect,,"San Francisco, CA | New York City, NY | Seattle, WA",2026-08-21T12:50:29-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5286362008,other,mid_or_unknown,us,False
 5424312008,"Head of ASEAN, Applied AI",,Singapore,2026-11-03T19:47:54-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5424312008,data_ai,leadership,other,True
-5456315008,"Head of Community Relations, Compute",,"San Francisco, CA | New York City, NY",2026-11-19T12:30:20-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5456315008,other,leadership,us,False
+5491578008,Head of Campaign Operations,,"San Francisco, CA | New York City, NY",2026-11-22T14:40:48-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5491578008,other,leadership,us,False
+5456315008,"Head of Community Relations, Compute",,"San Francisco, CA | New York City, NY",2026-11-23T10:04:21-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5456315008,other,leadership,us,False
 5424443008," Head of Customer Success, APAC ",,"Sydney, Australia",2026-09-28T08:54:48-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5424443008,customer_support,leadership,other,False
 5461190008,Head of Enablement Experience & Innovation,,"San Francisco, CA | New York City, NY",2026-11-05T12:18:44-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5461190008,other,leadership,us,False
 5391504008,Head of National Security Sales (DoW/IC),,"Washington, DC",2026-08-31T13:51:51-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5391504008,sales,leadership,us,False
@@ -244,14 +243,14 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 5419210008,Head of Strategic Startups,,"San Francisco, CA",2026-09-14T09:37:25-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5419210008,other,leadership,us,False
 5415529008,Head of Technical Training,,"San Francisco, CA",2026-09-21T11:32:58-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5415529008,other,leadership,us,False
 5391155008,Head of Technology Partnerships,,"San Francisco, CA | New York City, NY | Seattle, WA",2026-11-09T13:20:16-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5391155008,other,leadership,us,False
-5397751008,Incident Manager - Detection & Response,,"Zürich, CH",2026-11-02T06:49:44-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5397751008,other,senior,other,False
 5397749008,Incident Manager - Detection & Response,,"San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",2026-08-21T14:34:30-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5397749008,other,senior,us,False
+5397751008,Incident Manager - Detection & Response,,"Zürich, CH",2026-11-02T06:49:44-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5397751008,other,senior,other,False
 5462881008,"Incident Manager, Safeguards",,"Boston, MA; San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",2026-10-24T22:33:03-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5462881008,other,senior,us,False
 5205495008,Incident Response Manager - Product & Engineering,,"Dublin, IE; London, UK; New York City, NY; Remote-Friendly, United States",2026-08-27T16:42:29-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5205495008,software_engineering,senior,dublin,False
+5293104008,"Industry Principal, Insurance",,"San Francisco, CA | New York City, NY",2026-11-23T10:43:32-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5293104008,other,senior,us,False
 5382744008,"Infrastructure Capacity Planner, Demand Planning",,"San Francisco, CA | New York City, NY",2026-08-21T12:50:48-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5382744008,other,mid_or_unknown,us,False
 5442842008,"Internal Communications, GTM",,"San Francisco, CA | New York City, NY",2026-10-26T12:25:04-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5442842008,marketing_content,mid_or_unknown,us,False
 5444002008,"Internal Communications Manager, Product",,"San Francisco, CA",2026-11-05T11:54:12-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5444002008,marketing_content,senior,us,False
-5440812008,"International Accounting, APAC",,Singapore,2026-10-07T05:03:53-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5440812008,accounting_finance,mid_or_unknown,other,False
 5463197008,International Equity Accounting and Reporting,,"San Francisco, CA | Seattle, WA",2026-11-09T19:17:08-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5463197008,accounting_finance,mid_or_unknown,us,False
 5460837008,International Finance Program Management,,"Dublin, IE",2026-10-23T06:48:50-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5460837008,other,mid_or_unknown,dublin,False
 5475136008,International Infrastructure Accounting,,"Dublin, IE",2026-11-11T05:18:15-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5475136008,accounting_finance,mid_or_unknown,dublin,False
@@ -290,8 +289,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 5138289008,"Manager, Enterprise Sales - MedTech",,"Boston, MA; New York City, NY; San Francisco, CA",2026-10-27T13:49:18-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5138289008,sales,senior,us,False
 5464926008,"Manager, Enterprise Sales - Pharma",,"Boston, MA; San Francisco, CA | New York City, NY",2026-10-27T13:49:20-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5464926008,sales,senior,us,False
 5442048008,"Manager, Forward Deployed Engineering",,"Munich, Germany",2026-11-03T16:54:03-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5442048008,software_engineering,senior,other,False
-5471721008,"Manager, Forward Deployed Engineering",,"Paris, France",2026-11-04T05:15:20-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5471721008,software_engineering,senior,other,False
 5385634008,"Manager, Forward Deployed Engineering",,"London, UK",2026-08-28T14:44:00-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5385634008,software_engineering,senior,uk,False
+5471721008,"Manager, Forward Deployed Engineering",,"Paris, France",2026-11-04T05:15:20-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5471721008,software_engineering,senior,other,False
 5099753008,"Manager, Forward Deployed Engineering",,"New York City, NY",2026-08-31T15:59:18-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5099753008,software_engineering,senior,us,False
 4976328008,Manager– Growth Sales (AI-Native),,"San Francisco, CA",2026-09-09T13:32:04-04:00,https://job-boards.greenhouse.io/anthropic/jobs/4976328008,data_ai,senior,us,True
 5357961008,"Manager, Infrastructure Capex Accounting",,"San Francisco, CA | Seattle, WA",2026-08-21T12:50:38-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5357961008,accounting_finance,senior,us,False
@@ -339,8 +338,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 5453564008,"Policy Program Manager, Safeguards Regulatory ",,"San Francisco, CA | New York City, NY | Washington, DC",2026-10-19T13:43:14-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5453564008,other,senior,us,False
 4973067008,Pre-training Data Infrastructure Engineer,,"San Francisco, CA",2026-09-17T19:17:22-04:00,https://job-boards.greenhouse.io/anthropic/jobs/4973067008,software_engineering,mid_or_unknown,us,False
 5490974008,Principal Engineer Capacity/Compute,,"San Francisco, CA",2026-11-20T13:04:58-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5490974008,software_engineering,senior,us,False
-5490976008,Principal Engineer Capacity/Compute,,"New York City, NY",2026-11-20T13:05:11-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5490976008,software_engineering,senior,us,False
 5490978008,Principal Engineer Capacity/Compute,,"Seattle, WA",2026-11-20T13:05:21-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5490978008,software_engineering,senior,us,False
+5490976008,Principal Engineer Capacity/Compute,,"New York City, NY",2026-11-20T13:05:11-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5490976008,software_engineering,senior,us,False
 5477753008,"Principal Engineer, Privacy",,"London, UK; Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",2026-11-20T19:46:56-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5477753008,software_engineering,senior,uk,False
 5430695008,Privacy Counsel ,,"San Francisco, CA | New York City, NY",2026-09-29T14:40:26-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5430695008,legal,mid_or_unknown,us,False
 5357933008,"Procurement Operations Business Partner, R&D Operations",,"San Francisco, CA | Seattle, WA",2026-09-06T20:17:39-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5357933008,other,mid_or_unknown,us,False
@@ -364,6 +363,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 5424078008,"Product Marketing Manager, Platform",,"San Francisco, CA | New York City, NY",2026-09-14T19:30:25-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5424078008,marketing_content,senior,us,False
 5138042008,Product Support Specialist,,"Tokyo, Japan",2026-08-28T16:49:11-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5138042008,customer_support,mid_or_unknown,other,False
 5409551008,Product Support Specialist ,,"Sydney, Australia",2026-10-21T03:23:43-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5409551008,customer_support,mid_or_unknown,other,False
+5491573008,"Program Manager, Cloud Partners",,"San Francisco, CA | New York City, NY",2026-11-22T14:46:05-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5491573008,other,senior,us,False
 5422952008,Protective Intelligence Analyst ,,"San Francisco, CA | New York City, NY | Washington, DC",2026-11-17T13:05:28-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5422952008,other,mid_or_unknown,us,False
 5473110008,"Public Policy, Strategic Advisory ",,"San Francisco, CA; Washington, DC",2026-11-05T19:03:42-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5473110008,other,mid_or_unknown,us,False
 4935314008,"Recruiter, AI Research",,"San Francisco, CA | Seattle, WA",2026-08-21T12:49:41-04:00,https://job-boards.greenhouse.io/anthropic/jobs/4935314008,data_ai,mid_or_unknown,us,True
@@ -376,17 +376,17 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 5473862008,"Recruiter, GTM  - Seoul",,"Seoul, South Korea",2026-11-06T03:13:34-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5473862008,people_admin,mid_or_unknown,other,False
 5424111008,Recruiting Analytics Data Engineer ,,"San Francisco, CA | New York City, NY | Seattle, WA",2026-09-17T20:04:58-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5424111008,data_ai,mid_or_unknown,us,False
 5320469008,"Red Team Engineer, Safeguards",,"San Francisco, CA",2026-10-21T15:08:00-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5320469008,software_engineering,mid_or_unknown,us,False
-5460519008,"Regional Research Economist, Economic Research",,"Seoul, South Korea",2026-10-22T14:23:39-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5460519008,other,mid_or_unknown,other,False
-5460524008,"Regional Research Economist, Economic Research",,"Bangalore, India",2026-11-02T12:13:03-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5460524008,other,mid_or_unknown,other,False
-5460521008,"Regional Research Economist, Economic Research",,"Tokyo, Japan",2026-10-22T14:23:58-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5460521008,other,mid_or_unknown,other,False
-5231205008,"Regional Research Economist, Economic Research",,Singapore,2026-08-28T16:47:27-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5231205008,other,mid_or_unknown,other,False
 5231200008,"Regional Research Economist, Economic Research",,"London, UK",2026-08-28T14:43:59-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5231200008,other,mid_or_unknown,uk,False
+5231205008,"Regional Research Economist, Economic Research",,Singapore,2026-08-28T16:47:27-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5231205008,other,mid_or_unknown,other,False
+5460524008,"Regional Research Economist, Economic Research",,"Bangalore, India",2026-11-02T12:13:03-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5460524008,other,mid_or_unknown,other,False
+5460519008,"Regional Research Economist, Economic Research",,"Seoul, South Korea",2026-10-22T14:23:39-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5460519008,other,mid_or_unknown,other,False
+5460521008,"Regional Research Economist, Economic Research",,"Tokyo, Japan",2026-10-22T14:23:58-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5460521008,other,mid_or_unknown,other,False
 5460515008,"Regional Research Economist, Economic Research",,"Sydney, Australia",2026-10-22T14:23:17-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5460515008,other,mid_or_unknown,other,False
 5468548008,Resale Operations Lead,,"San Francisco, CA | New York City, NY",2026-11-12T15:18:09-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5468548008,other,senior,us,False
 5285248008,"Research Associate, Biology",,"San Francisco, CA",2026-10-22T08:53:49-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5285248008,other,junior,us,False
 5413418008,Research Counsel,,"San Francisco, CA | New York City, NY",2026-09-25T14:51:47-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5413418008,legal,mid_or_unknown,us,False
 5477416008,"Research Engineer, AI Monitoring",,"London, UK",2026-11-16T18:53:08-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5477416008,data_ai,mid_or_unknown,uk,True
-5485188008,"Research Engineer, Beneficial Deployments",,"San Francisco, CA",2026-11-20T11:39:45-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5485188008,software_engineering,mid_or_unknown,us,False
+5485188008,"Research Engineer, Beneficial Deployments",,"San Francisco, CA",2026-11-23T12:25:48-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5485188008,software_engineering,mid_or_unknown,us,False
 5459098008,"Research Engineer, Chip Design RL",,"San Francisco, CA",2026-10-21T15:30:55-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5459098008,software_engineering,mid_or_unknown,us,False
 5254364008,"Research Engineer, Code RL (Reinforcement Learning)",,"San Francisco, CA | New York City, NY",2026-08-21T12:50:24-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5254364008,software_engineering,mid_or_unknown,us,False
 5459191008,"Research Engineer, Cybersecurity RL",,"San Francisco, CA | New York City, NY",2026-11-08T14:15:37-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5459191008,software_engineering,mid_or_unknown,us,False
@@ -399,8 +399,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 5265365008,"Research Engineer, Life Sciences",,"San Francisco, CA",2026-08-21T12:50:26-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5265365008,software_engineering,mid_or_unknown,us,False
 5115935008,"Research Engineer, Machine Learning (Reinforcement Learning)",,"London, UK",2026-08-28T14:43:58-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5115935008,data_ai,mid_or_unknown,uk,True
 4613568008,"Research Engineer, Machine Learning (Reinforcement Learning) ",,"San Francisco, CA | New York City, NY",2026-08-21T12:49:37-04:00,https://job-boards.greenhouse.io/anthropic/jobs/4613568008,data_ai,mid_or_unknown,us,True
-5198108008,"Research Engineer, Machine Learning (RL Velocity)",,"Remote-Friendly (Travel-Required) | San Francisco, CA | New York City, NY",2026-08-21T12:50:09-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5198108008,data_ai,mid_or_unknown,us,True
 5198074008,"Research Engineer, Machine Learning (RL Velocity)",,"London, UK",2026-08-28T14:43:58-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5198074008,data_ai,mid_or_unknown,uk,True
+5198108008,"Research Engineer, Machine Learning (RL Velocity)",,"Remote-Friendly (Travel-Required) | San Francisco, CA | New York City, NY",2026-08-21T12:50:09-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5198108008,data_ai,mid_or_unknown,us,True
 5438030008,"Research Engineer / Performance Engineer, RL Distributed Systems",,"San Francisco, CA | New York City, NY | Seattle, WA",2026-09-29T15:03:34-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5438030008,software_engineering,mid_or_unknown,us,False
 5198255008,"Research Engineer, Post-Training Model Evaluations",,"San Francisco, CA | Seattle, WA",2026-09-27T23:35:11-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5198255008,software_engineering,mid_or_unknown,us,False
 5119713008,"Research Engineer, Pretraining",,"London, UK",2026-08-28T14:43:58-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5119713008,software_engineering,mid_or_unknown,uk,False
@@ -465,10 +465,11 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 5134895008,"Senior Staff Software Engineer, API",,"San Francisco, CA | New York City, NY",2026-08-21T12:49:59-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5134895008,software_engineering,senior,us,False
 5286348008,Silicon Engineer,,"San Francisco, CA",2026-09-11T11:32:34-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5286348008,software_engineering,mid_or_unknown,us,False
 4942024008,"Software Engineer, Beneficial Deployments ",,"San Francisco, CA | New York City, NY",2026-11-09T21:15:01-05:00,https://job-boards.greenhouse.io/anthropic/jobs/4942024008,software_engineering,mid_or_unknown,us,False
-5400160008,"Software Engineer, Business Technology",,"London, UK",2026-08-28T14:44:02-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5400160008,software_engineering,mid_or_unknown,uk,False
 5400153008,"Software Engineer, Business Technology",,"New York City, NY | Seattle, WA; San Francisco, CA | New York City, NY",2026-08-24T16:46:48-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5400153008,software_engineering,mid_or_unknown,us,False
+5400160008,"Software Engineer, Business Technology",,"London, UK",2026-08-28T14:44:02-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5400160008,software_engineering,mid_or_unknown,uk,False
 5484171008,"Software Engineer, Datacenter Server Lifecycle",,"Remote-Friendly, United States",2026-11-16T20:53:14-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5484171008,software_engineering,mid_or_unknown,us,False
 5017202008,"Software Engineer, Labs",,"San Francisco, CA | New York City, NY | Seattle, WA",2026-09-23T02:18:24-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5017202008,software_engineering,mid_or_unknown,us,False
+5487188008,"Software Engineer, Model-to-Product Behavior Engineering",,"San Francisco, CA",2026-11-23T09:45:28-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5487188008,software_engineering,mid_or_unknown,us,False
 5412272008,"Software Engineer, Observability & Profiling",,"London, UK",2026-10-13T06:11:02-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5412272008,software_engineering,mid_or_unknown,uk,False
 5283063008,"Software Engineer, Research Productivity",,"San Francisco, CA | New York City, NY",2026-10-15T17:32:54-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5283063008,software_engineering,mid_or_unknown,us,False
 4981828008,"Software Engineer, Research Tools",,"San Francisco, CA | New York City, NY; San Francisco, CA | New York City, NY | Seattle, WA",2026-08-21T12:49:45-04:00,https://job-boards.greenhouse.io/anthropic/jobs/4981828008,software_engineering,mid_or_unknown,us,False
@@ -499,7 +500,7 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 5174755008,"Staff+ Software Engineer, Backend",,"San Francisco, CA | New York City, NY",2026-10-30T19:57:42-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5174755008,software_engineering,senior,us,False
 5146298008,"Staff+ Software Engineer, Billing Platform",,"San Francisco, CA | New York City, NY | Seattle, WA",2026-09-30T14:19:21-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5146298008,software_engineering,senior,us,False
 5301737008,"Staff+ Software Engineer, Caching",,"San Francisco, CA | New York City, NY | Seattle, WA",2026-08-21T12:50:31-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5301737008,software_engineering,senior,us,False
-5490979008,"Staff+ Software Engineer, Capacity Engineering",,"San Francisco, CA | New York City, NY | Seattle, WA",2026-11-20T13:05:27-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5490979008,software_engineering,senior,us,False
+5490979008,"Staff+ Software Engineer, Capacity Engineering",,"San Francisco, CA | New York City, NY | Seattle, WA",2026-11-23T10:50:53-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5490979008,software_engineering,senior,us,False
 5065894008,"Staff+ Software Engineer, Claude App Infrastructure",,"San Francisco, CA | New York City, NY | Seattle, WA",2026-08-21T12:49:49-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5065894008,software_engineering,senior,us,False
 5383610008,"Staff Software Engineer, Claude Code",,"San Francisco, CA | New York City, NY | Seattle, WA",2026-08-21T12:50:49-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5383610008,software_engineering,senior,us,False
 5477746008,"Staff+ Software Engineer, Claude Design",,"San Francisco, CA | New York City, NY",2026-11-13T21:48:38-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5477746008,software_engineering,senior,us,False
@@ -511,8 +512,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 5063007008,"Staff+ Software Engineer, Cybersecurity Products",,"San Francisco, CA",2026-08-21T12:49:48-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5063007008,software_engineering,senior,us,False
 5301750008,"Staff+ Software Engineer, Databases",,"San Francisco, CA | New York City, NY | Seattle, WA",2026-08-21T12:50:31-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5301750008,software_engineering,senior,us,False
 5114768008,"Staff+ Software Engineer, Data Infrastructure",,"Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",2026-08-21T12:49:56-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5114768008,software_engineering,senior,us,False
-5484144008,"Staff+ Software Engineer, Deployment",,"London, UK",2026-11-16T19:33:44-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5484144008,software_engineering,senior,uk,False
 5466480008,"Staff+ Software Engineer, Deployment",,"Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",2026-10-28T16:52:27-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5466480008,software_engineering,senior,us,False
+5484144008,"Staff+ Software Engineer, Deployment",,"London, UK",2026-11-16T19:33:44-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5484144008,software_engineering,senior,uk,False
 5290360008,"Staff+ Software Engineer, Developer Acceleration",,"San Francisco, CA | Seattle, WA",2026-08-21T12:49:55-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5290360008,software_engineering,senior,us,False
 5110511008,"Staff+ Software Engineer, Developer Productivity",,"San Francisco, CA | New York City, NY | Seattle, WA",2026-08-21T12:49:55-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5110511008,software_engineering,senior,us,False
 5424404008,"Staff+ Software Engineer, Distributed Systems ",,"New York City, NY; San Francisco, CA",2026-09-16T09:14:25-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5424404008,software_engineering,senior,us,False
@@ -595,10 +596,10 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 5421566008,Technical Architect ,,"Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",2026-09-11T19:40:53-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5421566008,other,mid_or_unknown,us,False
 5066997008,Technical CBRN-E  Threat Investigator ,,"San Francisco, CA | New York City, NY | Washington, DC",2026-11-03T15:51:50-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5066997008,other,mid_or_unknown,us,False
 5066995008,Technical Cyber Threat Investigator ,,"San Francisco, CA; San Francisco, CA | New York City, NY | Washington, DC",2026-10-21T15:07:09-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5066995008,other,mid_or_unknown,us,False
-5391108008,Technical Deployment Lead,,"London, UK",2026-08-28T17:14:34-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5391108008,other,senior,uk,False
-5017903008,Technical Deployment Lead,,"Boston, MA; New York City, NY; San Francisco, CA; Seattle, WA",2026-10-13T19:38:22-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5017903008,other,senior,us,False
 5467153008,Technical Deployment Lead,,"Paris, France",2026-11-02T04:21:17-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5467153008,other,senior,other,False
 5467159008,Technical Deployment Lead,,"Munich, Germany",2026-11-02T04:30:29-05:00,https://job-boards.greenhouse.io/anthropic/jobs/5467159008,other,senior,other,False
+5391108008,Technical Deployment Lead,,"London, UK",2026-08-28T17:14:34-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5391108008,other,senior,uk,False
+5017903008,Technical Deployment Lead,,"Boston, MA; New York City, NY; San Francisco, CA; Seattle, WA",2026-10-13T19:38:22-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5017903008,other,senior,us,False
 5460216008,"Technical Program Manager, Agent Safety & Security ",,"San Francisco, CA | New York City, NY",2026-10-21T16:26:23-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5460216008,other,senior,us,False
 5256303008,"Technical Program Manager, API Platform",,"San Francisco, CA | Seattle, WA",2026-10-07T18:56:13-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5256303008,other,senior,us,False
 5251609008,"Technical Program Manager, Apps Platform",,"San Francisco, CA | Seattle, WA",2026-08-21T12:50:23-04:00,https://job-boards.greenhouse.io/anthropic/jobs/5251609008,other,senior,us,False
