@@ -2112,8 +2112,13 @@ forecasts:
     guidance: S&P Global US Flash PMI press release, 23 Nov 2026 (09:45 ET), composite output index, as first published.
       October final https://www.newsquawk.com/headlines/us-sp-global-composite-pmi-final-oct-559-vs-exp-576-prev-584;
       calendar https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-23112026-29112026/
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 0
+  resolved_at: '2026-11-24'
+  evidence:
+    summary: 'S&P Global US flash composite PMI 54.6 in November (October final 55.9; consensus 55.6), a four-month
+      low; services 54.7, manufacturing 54.5. Hiring stayed strong; price inflation cooled but stayed elevated.'
+    url: https://pro.thestreet.com/market-commentary/flash-pmi-slips-to-a-4-month-low-signals-3-gdp-growth
 - id: EV-20261123-EZ-1
   kind: event
   thesis: european-staples-gap
@@ -2232,5 +2237,56 @@ forecasts:
     method: judged
     guidance: US Department of Labor weekly claims release (25 Nov 2026, 08:30 ET), initial claims SA, advance figure. Prior
       https://www.spokesman.com/stories/2026/nov/19/us-weekly-jobless-claims-edge-up-but-labor-market-/
+  status: open
+  outcome: null
+- id: EV-20261201-US-1
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-12-01'
+  statement: The ISM Manufacturing PMI for November 2026 (published 1 Dec) is 55.0 or higher
+  probability_raw: 0.42
+  probability: 0.557
+  reasoning: October was 55.5. The S&P Global flash manufacturing PMI fell to 54.5 from 54.9 with output at 53.7, and the
+    Philadelphia Fed index fell to 6.3, so a drop of more than half a point is slightly more likely than not. No consensus
+    found yet.
+  expected: About 54.5-55.0
+  implications:
+    if_yes: Factory activity still firm a week before an expected December hike; against the bonds bet
+    if_no: Adds to the slowdown seen in the flash PMIs and regional surveys; supportive of the bonds bet
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-24'
+  resolves_by: '2026-12-02'
+  resolution:
+    method: judged
+    guidance: ISM Manufacturing PMI Report on Business for November 2026 (1 Dec, 10:00 ET), headline PMI as first published.
+      October https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/october ; flash
+      PMI https://pro.thestreet.com/market-commentary/flash-pmi-slips-to-a-4-month-low-signals-3-gdp-growth ; calendar
+      https://letterstoayounginvestor.substack.com/p/weekly-economic-calendar-november-3ec
+  status: open
+  outcome: null
+- id: EV-20261201-EZ-1
+  kind: event
+  thesis: european-staples-gap
+  event_date: '2026-12-01'
+  statement: Eurostat's flash estimate of euro-area annual HICP inflation for November 2026 (published 1 Dec) is 4.0% or
+    higher
+  probability_raw: 0.35
+  probability: 0.472
+  reasoning: October was 4.0%, a three-year high driven by energy. Oil fell through November (Brent about $89 on 23 Nov)
+    and the euro-area flash PMI showed input and output price inflation at three-month lows, so a stable or higher print
+    is less likely than a dip.
+  expected: About 3.8-3.9%
+  implications:
+    if_yes: Keeps the ECB December hike likely (EV-202612-ECB-2) and the squeeze on staples volumes
+    if_no: Energy-led inflation peaking; eases pressure on the ECB and on European consumers
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-24'
+  resolves_by: '2026-12-02'
+  resolution:
+    method: judged
+    guidance: Eurostat euro indicators flash estimate, euro-area HICP annual rate for November 2026, as first published.
+      October https://stockanalysis.com/news/eurozone-inflation-rises-october-2026/ ; calendar
+      https://forexfundamentals.com/economic-calendar/eur-cpi/2026-12-01 ; PMI prices
+      https://www.investing.com/news/economic-indicators/euro-zone-growth-holds-steady-but-frances-deepening-downturn-clouds-outlook-pmi-shows-5044744
   status: open
   outcome: null

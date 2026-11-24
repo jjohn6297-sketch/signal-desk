@@ -50,7 +50,8 @@ evidence_against:
 - date: '2026-11-18'
   claim: 'Anthropic priced its IPO at $83, above the $70-78 range, raising about $81.3bn (largest IPO on record); capital for AI compute remains readily available'
   source: https://www.anthropic.com/news/anthropic-prices-initial-public-offering
-system_conviction: 55
+- {"date": "2026-11-23", "claim": "Leveraged AI builders rebounded with Nvidia: CoreWeave about +22% and Nebius about +20% before the open on 23 Nov; equity funding pressure on neoclouds eased for now", "source": "https://www.foxbusiness.com/markets/stocks-november-23-2026", "engine": "daily-run"}
+system_conviction: 53
 conviction_history:
 - date: '2026-11-08'
   value: 60
@@ -65,6 +66,7 @@ conviction_history:
 - {"date": "2026-11-18", "value": 54, "reason": "Nvidia beat and raised; no sign yet that delivery delays are cutting chip orders"}
 - {"date": "2026-11-19", "value": 53, "reason": "Anthropic IPO priced above range and raised about $81bn; financing is not the bottleneck"}
 - {"date": "2026-11-22", "value": 55, "reason": "Weekly review 2026-47 (22 Nov): Semiconductors almost 30% off their peak in the AI sell-off; recovered from the Insights log because that run's push failed", "source": "https://claude.ai/artifact/WwpbnTDszXxUHpCnbVKEu3"}
+- {"date": "2026-11-24", "value": 53, "reason": "Neocloud equity rebounded about 20% on 23 Nov; no new CoreWeave 2031 bond quote since 15.0% on 12 Nov", "source": "https://www.foxbusiness.com/markets/stocks-november-23-2026"}
 predictions:
 - id: p1
   statement: At least two of MSFT, GOOGL, AMZN, META, ORCL say on a results call that power or site availability

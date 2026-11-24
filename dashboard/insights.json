@@ -1,5 +1,61 @@
 [
 {
+"key": "2026-11-24-1",
+"date": "2026-11-24",
+"kind": "daily",
+"title": "24 November 2026",
+"rank": 1,
+"text": "US stocks rebounded on Monday 23 Nov after Nvidia's board reinstated Jensen Huang as CEO (he resigned on 12 Nov). Nvidia (held) closed $165.05, +31.5%; the S&P 500 rose 4.7% to about 7,238, its best day since April 2025; the Nasdaq rose 6.5%. Micron (held) +19%, Dell +20%, CoreWeave (held) about +22%, Nebius (held) about +20% ([Motley Fool](https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/), [Fox Business](https://www.foxbusiness.com/markets/stocks-november-23-2026)). The SEC accounting inquiry is unresolved and the Q3 10-Q is still due 4 Dec. Hyperscaler capex conviction 61 to 63; build-out delay 55 to 53. No kill criteria hit, no action cards."
+},
+{
+"key": "2026-11-24-2",
+"date": "2026-11-24",
+"kind": "daily",
+"title": "24 November 2026",
+"rank": 2,
+"text": "Resolved 1, a miss: the US flash composite PMI was 54.6 (October 55.9, consensus 55.6) against our 55.0-or-higher line (64.6%, Brier 0.417). Services 54.7, a four-month low; manufacturing 54.5; hiring among the strongest in four years; price inflation cooled but stayed high ([TheStreet](https://pro.thestreet.com/market-commentary/flash-pmi-slips-to-a-4-month-low-signals-3-gdp-growth)). Brier is 0.172 on 65 resolved (0.168 on 64). Recalibration refitted to k 1.00, b 0.60 (from 1.15)."
+},
+{
+"key": "2026-11-24-3",
+"date": "2026-11-24",
+"kind": "daily",
+"title": "24 November 2026",
+"rank": 3,
+"text": "Bonds bet (30, unchanged): the 10-year was about 4.92% on 23 Nov; futures put about 96% on a 25bp hike on 9 Dec. Wednesday decides a lot: core PCE (kill line above 3.3%; our +0.3% m/m-or-more line is 75.7%), Q3 GDP 3.4% or more (63.4%), claims 215,000 or fewer (83.7%) and the 10-year at or below 5.10% (58.4%, in the money today)."
+},
+{
+"key": "2026-11-24-4",
+"date": "2026-11-24",
+"kind": "daily",
+"title": "24 November 2026",
+"rank": 4,
+"text": "Tonight after the US close: Dell revenue $50.0B or more (78.3%) and a fiscal 2027 guide above $192B (69.4%); Workday revenue $2.69B or more (75.7%). Dell rose 20% on Monday, so the bar for a positive reaction is higher."
+},
+{
+"key": "2026-11-24-5",
+"date": "2026-11-24",
+"kind": "daily",
+"title": "24 November 2026",
+"rank": 5,
+"text": "Pre-registered 2 forecasts for 1 Dec (calibrated with k 1.15, b 0.60): ISM manufacturing for November 55.0 or more (October 55.5; flash manufacturing PMI fell to 54.5): raw 42%, calibrated 55.7%. Euro-area flash HICP for November 4.0% or more (October 4.0%; oil and PMI price gauges fell): raw 35%, calibrated 47.2%. Note that the +0.6 intercept turns both \"more likely no\" views into roughly even or \"yes\" forecasts. Salesforce reports on 2 Dec and will be pre-registered tomorrow."
+},
+{
+"key": "2026-11-24-6",
+"date": "2026-11-24",
+"kind": "daily",
+"title": "24 November 2026",
+"rank": 6,
+"text": "Outside the watch list: CrowdStrike agreed to buy Zscaler in an all-stock deal worth about $43.9bn (1.135 CrowdStrike shares per Zscaler share); CrowdStrike fell 8.9% ([Wall Street Republic, secondary](https://thewallstreetrepublic.substack.com/p/nvidia-surges-3148-as-jensen-huang))."
+},
+{
+"key": "2026-11-24-7",
+"date": "2026-11-24",
+"kind": "daily",
+"title": "24 November 2026",
+"rank": 7,
+"text": "Housekeeping: no comments or edits from you on the Signal Desk docs. Today's GitHub snapshot (06:17 UTC) was not in the repository at 09:40 Dublin. No CoreWeave 2031 bond quote newer than 15.0% on 12 Nov was found."
+},
+{
 "key": "2026-11-23-1",
 "date": "2026-11-23",
 "kind": "daily",
@@ -230,62 +286,6 @@
 "title": "18 November 2026",
 "rank": 8,
 "text": "No comments or edits from you on the Signal Desk docs. Pershing Square's Q2 and Q3 13Fs are not loaded (latest is Q1), so its moves on the dashboard are stale. No October FINRA margin data yet."
-},
-{
-"key": "2026-11-17-1",
-"date": "2026-11-17",
-"kind": "daily",
-"title": "17 November 2026",
-"rank": 1,
-"text": "Nvidia (held) reports tonight after the US close. On 16 Nov the FT reported that Jensen Huang has discussed returning as CEO with allies, and the shares fell about 2% premarket to $159.32 after a 2% fall on Friday ([Forbes, citing the FT](https://www.forbes.com/sites/zacharyfolk/2026/11/16/nvidia-shares-slip-in-premarket-as-jensen-huang-reportedly-weighs-ceo-comeback/)). Bessent's 10-day deadline on China chip sales still runs. The forecasts stand: revenue at least $110.2bn (96.4%) and Q4 guide midpoint at least $120bn (75.9%)."
-},
-{
-"key": "2026-11-17-2",
-"date": "2026-11-17",
-"kind": "daily",
-"title": "17 November 2026",
-"rank": 2,
-"text": "Coatue filed its Q3 13F: it more than doubled Microsoft (2.9m to 6.5m shares), raised Meta 79% and Broadcom 14%, and opened a $1.8bn Salesforce stake; it cut Eaton 25% and Alphabet 12%, trimmed GE Vernova and Amazon, and sold its small AMD stake ([SEC filing](https://www.sec.gov/Archives/edgar/data/1135730/000091957426007862/)). All three funds that have filed for Q3 added to Nvidia (ARK nearly doubled, Baillie Gifford and Coatue +2-3%); no other watch-list name has three funds moving the same way yet."
-},
-{
-"key": "2026-11-17-3",
-"date": "2026-11-17",
-"kind": "daily",
-"title": "17 November 2026",
-"rank": 3,
-"text": "Pre-registered 3. Euro-area October HICP final (18 Nov) confirmed at the 4.0% flash: raw 85%, calibrated 93.3% ([flash](https://tradingeconomics.com/euro-area/inflation-cpi/news/598103)). Anthropic prices its IPO at $78 or more, the top of the $70-78 range: raw 40%, calibrated 51.6%. Anthropic closes its first trading day (expected 19 Nov) above the IPO price: raw 70%, calibrated 82.7% ([TechCrunch](https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/)). A weak deal would support the build-out-delay bet; a strong one is evidence that AI capex can still be financed."
-},
-{
-"key": "2026-11-17-4",
-"date": "2026-11-17",
-"kind": "daily",
-"title": "17 November 2026",
-"rank": 4,
-"text": "Nothing resolved today. US October retail sales come out at 13:30 Dublin (0.0% or more, 65%) and will be resolved tomorrow with Nvidia. Brier stays 0.174 on 53 resolved; recalibration unchanged at k 1.20, b 0.55."
-},
-{
-"key": "2026-11-17-5",
-"date": "2026-11-17",
-"kind": "daily",
-"title": "17 November 2026",
-"rank": 5,
-"text": "Then on 18 Nov: UK CPI (3.6% or higher, 54.5%), the euro-area HICP final, and the FOMC minutes (\"many\" or \"most\" favour further hikes, 82.8%). Anthropic pricing is expected on 18 Nov and trading on 19 Nov."
-},
-{
-"key": "2026-11-17-6",
-"date": "2026-11-17",
-"kind": "daily",
-"title": "17 November 2026",
-"rank": 6,
-"text": "No kill criteria hit or newly close. The 10-year was 5.16% on 13 Nov, 24bp below the bonds kill line (5.40%) ([Trading Economics](https://tradingeconomics.com/united-states/government-bond-yield/news/601151))."
-},
-{
-"key": "2026-11-17-7",
-"date": "2026-11-17",
-"kind": "daily",
-"title": "17 November 2026",
-"rank": 7,
-"text": "No comments or edits from John on the Signal Desk docs. The other nine 13Fs (including Berkshire) were due 16 Nov but have not been loaded yet; today's GitHub snapshot had not run by 09:40 Dublin. No October FINRA margin data yet."
 },
 {
 "key": "2026-47-1",

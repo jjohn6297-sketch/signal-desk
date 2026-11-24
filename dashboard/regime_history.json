@@ -1415,9 +1415,9 @@
 },
 {
 "date": "2026-11-20",
-"regime": "Risk-on",
-"stress": 0,
-"watch": 2,
+"regime": "Late cycle",
+"stress": 1,
+"watch": 1,
 "known": 9
 }
 ]
