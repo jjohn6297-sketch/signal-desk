@@ -11,9 +11,9 @@
 "brier_override": null,
 "brier_system_same": null,
 "recal_active": true,
-"recal_k": 1.0,
+"recal_k": 1.1,
 "recal_b": 0.6,
-"recal_n": 65,
+"recal_n": 68,
 "recal_min_n": 20
 }
 ]

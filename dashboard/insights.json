@@ -1,5 +1,53 @@
 [
 {
+"key": "2026-11-25-1",
+"date": "2026-11-25",
+"kind": "daily",
+"title": "25 November 2026",
+"rank": 1,
+"text": "Resolved 3, all hits. Dell fiscal Q3 revenue was $54.9B (+103% y/y) against our $50.0B line (78.3%, Brier 0.047), and Dell raised its fiscal 2027 revenue guide to $202B from $192B (our above-$192B line, 69.4%, Brier 0.094). AI-optimized server revenue was $22.0B (+291%), AI orders $60.2B and the AI backlog a record $132.3B ([Dell 8-K](https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000050/exhibit991earnings8kq3fy27.htm)). Workday revenue was $2.705B (+11.2%) against our $2.69B line (75.7%, Brier 0.059) ([Workday 8-K](https://www.sec.gov/Archives/edgar/data/0001327811/000132781126000057/wday-10312026x991.htm)). Brier is 0.167 on 68 resolved (0.172 on 65). Recalibration refitted to k 1.10, b 0.60 (from 1.00)."
+},
+{
+"key": "2026-11-25-2",
+"date": "2026-11-25",
+"kind": "daily",
+"title": "25 November 2026",
+"rank": 2,
+"text": "Convictions: hyperscaler capex 63 to 64 (Dell's backlog and raised guide); build-out delay 53 to 51 (server deliveries are not slipping; the delay case now rests on power and grid, not shipments). Usage pricing unchanged at 58: Workday beat but guided Q4 subscription growth to 10% from 12.8%, and its shares fell about 7% after hours. No kill criteria hit, no action cards."
+},
+{
+"key": "2026-11-25-3",
+"date": "2026-11-25",
+"kind": "daily",
+"title": "25 November 2026",
+"rank": 3,
+"text": "Markets gave back part of Monday's rally on Tuesday 24 Nov: S&P 500 -0.5% to 7,201, Nasdaq -1.5%, Dow +0.9% to 50,019; the semiconductor index fell 7.9%. Nvidia (held) -5.9% to $155.38, Micron (held) -11%. Anthropic closed about $81.91, below its $83 IPO price ([TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/262321021-market-recap-nasdaq-slips-nvidia-anthropic-breaks-ipo-price-dell-tradingkey), secondary). Dell traded roughly flat to +4% after hours."
+},
+{
+"key": "2026-11-25-4",
+"date": "2026-11-25",
+"kind": "daily",
+"title": "25 November 2026",
+"rank": 4,
+"text": "Today at 13:30 Dublin: core PCE +0.3% m/m or more (75.7%; the bonds-bet kill line is core PCE above 3.3% y/y), Q3 GDP 3.4% or more (63.4%), jobless claims 215,000 or fewer (83.7%), and the 10-year at or below 5.10% at today's close (58.4%; about 4.9% on 24 Nov). Futures put about 95-97% on a 25bp hike on 9 Dec ([Trading Economics](https://tradingeconomics.com/united-states/government-bond-yield/news/603774))."
+},
+{
+"key": "2026-11-25-5",
+"date": "2026-11-25",
+"kind": "daily",
+"title": "25 November 2026",
+"rank": 5,
+"text": "Pre-registered 3 forecasts (calibrated with k 1.00, b 0.60): MongoDB Q3 revenue $780M or more on 1 Dec (guide $756-761M; Q2 was $771.8M, +30%): raw 60%, calibrated 73.2%. Salesforce Q3 revenue $11.50B or more on 2 Dec (guide $11.42-11.50B): raw 55%, 69.0%. Salesforce raises its FY27 revenue guide midpoint above $46.25B: raw 50%, 64.6%. Together they test usage-priced versus per-seat software in the same week."
+},
+{
+"key": "2026-11-25-6",
+"date": "2026-11-25",
+"kind": "daily",
+"title": "25 November 2026",
+"rank": 6,
+"text": "Housekeeping: no comments or edits from you on the Signal Desk docs. No new director purchases found in UK or European regulatory news for watch-list companies this week. No CoreWeave 2031 bond quote newer than 15.0% on 12 Nov; a newsletter puts CoreWeave bond yields at 16-17% without naming the issue, so it was not logged."
+},
+{
 "key": "2026-11-24-1",
 "date": "2026-11-24",
 "kind": "daily",
@@ -222,70 +270,6 @@
 "title": "19 November 2026",
 "rank": 7,
 "text": "No comments or edits from you on the Signal Desk docs. No October FINRA margin data yet. Today's GitHub snapshot had not run by 09:40 Dublin; yesterday's ran at 15:41 UTC."
-},
-{
-"key": "2026-11-18-1",
-"date": "2026-11-18",
-"kind": "daily",
-"title": "18 November 2026",
-"rank": 1,
-"text": "Nvidia (held) beat clearly. Q3 revenue was $115.8bn against the $110.2bn line, data centre $107.6bn, and the Q4 guide is $130bn ±3% with no China data-centre compute and an extra week ([press release](https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-third-quarter-fiscal-fpx9dw5egxqa.html)). The shares rose about 4% after hours. The board says it is not considering bringing Huang back; Kress stays interim CEO; the WSJ reports an SEC inquiry into Nvidia's disclosures ([CoinCentral](https://coincentral.com/nvidia-nvda-stock-rises-4-after-earnings-beat-as-board-rules-out-huang-return/)). Conviction: hyperscaler capex 60 to 63, build-out-delay bet 56 to 54."
-},
-{
-"key": "2026-11-18-2",
-"date": "2026-11-18",
-"kind": "daily",
-"title": "18 November 2026",
-"rank": 2,
-"text": "Resolved 4, all hits: Nvidia revenue (96.4%, Brier 0.001), Nvidia guide (75.9%, 0.058), US October retail sales +0.2% against a 0.0% line (65%, 0.123; [Census](https://www.census.gov/retail/marts/www/marts_current.pdf)), UK October CPI 3.6% at the 3.6% line (54.5%, 0.207; [ONS](https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026)). Brier is 0.169 on 57 resolved (0.174 on 53). Recalibration refitted to k 1.30, b 0.60 (from 1.20, 0.55)."
-},
-{
-"key": "2026-11-18-3",
-"date": "2026-11-18",
-"kind": "daily",
-"title": "18 November 2026",
-"rank": 3,
-"text": "Situational Awareness cut its reported US holdings from $20.2bn to $1.6bn in Q3. It sold all its shares in Micron, Nebius, CoreWeave and Bloom Energy (all held by you) and in TSMC and Sandisk, but kept call options on Bloom, Nebius, Sandisk and a memory ETF ([SEC filing index](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000610/)). A 13F does not show shorts or swaps, so this is a large de-risking, not necessarily a bearish bet."
-},
-{
-"key": "2026-11-18-4",
-"date": "2026-11-18",
-"kind": "daily",
-"title": "18 November 2026",
-"rank": 4,
-"text": "13F consensus (Q3 filings): five funds cut Alphabet (held), with Altimeter and Duquesne exiting. Three cut TSMC and three cut AMD (Coatue and Duquesne exited AMD). ARK, Altimeter and Coatue added to Meta (held), while Baillie Gifford and Tiger trimmed. ARK, Baillie Gifford and Duquesne added to Beam. Berkshire made no changes in watch-list names."
-},
-{
-"key": "2026-11-18-5",
-"date": "2026-11-18",
-"kind": "daily",
-"title": "18 November 2026",
-"rank": 5,
-"text": "Pre-registered 2 forecasts for 25 Nov (bonds bet). Core PCE for October rises 0.3% or more m/m: raw 62%, calibrated 75.7%. The Conference Board maps October CPI and PPI to +0.3% and 3.3% y/y ([Conference Board](https://www.conference-board.org/research/global-economy-briefs/cpi-insights-october-2026)). Q3 GDP second estimate at 3.4% or higher (advance 3.4%): raw 50%, calibrated 63.4% ([BEA](https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026/))."
-},
-{
-"key": "2026-11-18-6",
-"date": "2026-11-18",
-"kind": "daily",
-"title": "18 November 2026",
-"rank": 6,
-"text": "No kill criteria hit. Close: the bonds bet's \"core PCE above 3.3%\" line, if the 25 Nov print lands at the 3.3% nowcast or higher. The 10-year was about 5.13% on 16 Nov, 27bp below the 5.40% kill line, with a December hike priced at over 93% ([Trading Economics](https://tradingeconomics.com/united-states/government-bond-yield/news/601580)). UK CPI at 3.6% (motor fuels +33% y/y) is mild evidence against the UK bet through gilt yields."
-},
-{
-"key": "2026-11-18-7",
-"date": "2026-11-18",
-"kind": "daily",
-"title": "18 November 2026",
-"rank": 7,
-"text": "Still open today: the FOMC minutes (19:00 Dublin; \"many\" or \"most\" favour further hikes, 82.8%), the euro-area HICP final (4.0%, 93.3%), and Anthropic's IPO pricing ($78 or more, 51.6%), with first-day trading on 19 Nov (close above the IPO price, 82.7%)."
-},
-{
-"key": "2026-11-18-8",
-"date": "2026-11-18",
-"kind": "daily",
-"title": "18 November 2026",
-"rank": 8,
-"text": "No comments or edits from you on the Signal Desk docs. Pershing Square's Q2 and Q3 13Fs are not loaded (latest is Q1), so its moves on the dashboard are stale. No October FINRA margin data yet."
 },
 {
 "key": "2026-47-1",
