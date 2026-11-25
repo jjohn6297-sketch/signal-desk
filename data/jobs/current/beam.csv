@@ -1,7 +1,7 @@
 job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_related
 8687101002,"Associate Director, Compliance and Training",,"Durham, NC",2026-11-18T16:01:59-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8687101002,legal,leadership,us,False
-8902768002,"Associate Director, Contracts",,"Cambridge, MA",2026-10-20T10:55:25-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8902768002,other,leadership,us,False
 8870973002,"Associate Director/Director, Clinical Pharmacology",,"Cambridge, MA",2026-11-20T12:22:00-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8870973002,other,leadership,us,False
+8960375002,"Associate Director/Director, Forecasting",,"Cambridge, MA",2026-11-25T11:58:16-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8960375002,other,leadership,us,False
 8641907002,"Associate Director/Director, Gene Therapy Operations",,Field ,2026-10-20T12:18:23-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8641907002,other,leadership,other,False
 8596479002,"Associate Director, Marketing Promotions",,"Cambridge, MA",2026-10-23T16:41:17-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8596479002,marketing_content,leadership,us,False
 8853917002,"Associate Director, Product Quality Assurance",,"Cambridge, MA",2026-11-20T12:30:00-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8853917002,product_management,leadership,us,False
@@ -11,9 +11,10 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8617840002,"Director, Key Account Management ",,Field,2026-07-16T10:36:15-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8617840002,other,leadership,other,False
 8821602002,"Director, Patient Services",,"Cambridge, MA",2026-10-20T13:28:55-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8821602002,other,leadership,us,False
 8583823002,"Director, Pharmacovigilance",,"Cambridge, MA",2026-10-20T14:08:31-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8583823002,other,leadership,us,False
-8814985002,"Director, Regulatory CMC",,"Cambridge, MA",2026-10-20T13:31:07-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8814985002,other,leadership,us,False
+8814985002,"Director, Regulatory CMC",,"Cambridge, MA",2026-11-24T17:35:28-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8814985002,other,leadership,us,False
 8846365002,"Engineer II/Senior Engineer I, Automation and MES",,"Durham, NC",2026-10-20T12:45:17-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8846365002,software_engineering,senior,us,False
-8954117002,Manufacturing Associate II (mRNA/LNP),,"Durham, NC",2026-11-19T16:52:45-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8954117002,other,junior,us,False
+8961378002,IT Validation/Compliance Specialist II,,"Cambridge, MA",2026-11-24T16:47:00-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8961378002,legal,mid_or_unknown,us,False
+8954117002,Manufacturing Associate II (mRNA/LNP),,"Durham, NC",2026-11-24T14:44:20-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8954117002,other,junior,us,False
 8953298002,Manufacturing Specialist I/II (Cell Therapy),,"Durham, NC",2026-11-23T13:10:42-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8953298002,other,mid_or_unknown,us,False
 8953594002,Manufacturing Specialist (mRNA/LNP),,"Durham, NC",2026-11-19T16:36:43-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8953594002,other,mid_or_unknown,us,False
 8952996002,Manufacturing Supervisor (Cell Therapy),,"Durham, NC",2026-11-23T12:55:18-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8952996002,other,mid_or_unknown,us,False
@@ -24,8 +25,12 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8621019002,"Senior Manager/Associate Director, Biostatistics",,"Cambridge, MA",2026-11-20T12:27:04-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8621019002,other,leadership,us,False
 8885779002,"Senior Manager / Associate Director, Clinical Quality Assurance",,"Cambridge, MA",2026-10-20T13:07:31-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8885779002,other,leadership,us,False
 8957109002,"Senior Manager, Product Quality Assurance",,"Durham, NC",2026-11-20T14:57:05-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8957109002,other,senior,us,False
+8962162002,"Senior Project Manager, Process Validation",,Durham. NC,2026-11-25T10:58:20-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8962162002,other,senior,other,False
 8960120002,"Senior Scientist II, Clinical Bioanalytics & Biomarkers",,"Cambridge, MA",2026-11-24T10:28:41-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8960120002,other,senior,us,False
+8962168002,"Site Services Technician, Facility Maintenance ",,"Durham, NC",2026-11-25T10:54:00-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8962168002,other,mid_or_unknown,us,False
 6305863002,Submit your resume for future full time openings,,"Cambridge, MA and Durham, NC",2026-02-02T10:40:26-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/6305863002,other,mid_or_unknown,us,False
 6440268002,"Submit your resume for future Manufacturing and Quality roles located in RTP, NC",,"Durham, NC",2026-10-16T11:36:43-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/6440268002,other,mid_or_unknown,us,False
 8594598002,"Vice President, Clinical Development",,"Cambridge, MA",2026-10-20T13:56:21-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8594598002,other,leadership,us,False
+8961076002,"Vice President, Engineering & Facilities",,"Durham, NC",2026-11-24T14:59:22-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8961076002,software_engineering,leadership,us,False
+8961109002,"Vice President, Manufacturing Sciences and Technology",,"Durham, NC",2026-11-24T18:09:22-05:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8961109002,other,leadership,us,False
 8902715002,"Vice President, Patient Operations",,"Cambridge, MA",2026-10-27T19:41:47-04:00,https://job-boards.greenhouse.io/beamtherapeutics/jobs/8902715002,other,leadership,us,False

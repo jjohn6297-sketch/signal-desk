@@ -1,29 +1,28 @@
 job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_related
 7564777,"Account Executive, Defence & Intelligence",,"Japan, Remote",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/7564777,sales,mid_or_unknown,remote,False
 8289835,"Account Executive, Texas",,"United States, Remote",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8289835,sales,mid_or_unknown,us,False
-8244395,"Analyst, Sales Strategy & GTM Planning",,"Arlington, VA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8244395,sales,mid_or_unknown,us,False
 8231902,"Analyst, Sales Strategy & GTM Planning",,"San Francisco, CA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8231902,sales,mid_or_unknown,us,False
-8328786,Customer Success Manager,,"Arlington, VA",2026-11-09T15:44:00-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8328786,customer_support,senior,us,False
+8244395,"Analyst, Sales Strategy & GTM Planning",,"Arlington, VA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8244395,sales,mid_or_unknown,us,False
 8052729,Customer Success Manager,,"APAC, Remote",2026-11-10T08:48:58-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8052729,customer_support,senior,remote,False
 8318998,Customer Success Manager,,"San Francisco, CA",2026-11-09T15:43:56-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8318998,customer_support,senior,us,False
+8328786,Customer Success Manager,,"Arlington, VA",2026-11-09T15:44:00-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8328786,customer_support,senior,us,False
 8324519,"Customer Success Manager, Defence & Intelligence",,"Singapore, remote",2026-11-17T04:30:45-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8324519,customer_support,senior,remote,False
 7772699,Customer Success Manager  (D&I - South Korea),,"South Korea, Remote",2026-11-10T23:54:34-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/7772699,customer_support,senior,remote,False
 8334402,"Customer Success Manager II, Commercial Markets",,"San Francisco, CA; Denver, CO",2026-11-16T17:32:27-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8334402,customer_support,senior,us,False
 8255987,Data Analyst - Cloud Financial Operations,,"San Francisco, CA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8255987,other,mid_or_unknown,us,False
-7907756,"Deployment Strategist, Professional Services Global D&I",,"Stockholm, Sweden",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/7907756,other,junior,other,False
+7907756,"Deployment Strategist, Professional Services Global D&I",,"Stockholm, Sweden",2026-11-25T03:48:11-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/7907756,other,junior,other,False
 8319004,"Director, Global Commercial Sales (Agriculture)",,"United States, Remote",2026-11-09T16:37:54-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8319004,sales,leadership,us,False
-8178696,"Director of Sales, Europe",,"United Kingdom, Remote",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8178696,sales,leadership,uk,False
 8245407,"Director of Sales, Europe",,"Germany, Remote",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8245407,sales,leadership,remote,False
+8178696,"Director of Sales, Europe",,"United Kingdom, Remote",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8178696,sales,leadership,uk,False
 8249630,"Director of Software Engineering, Analytics",,"Arlington, VA; Denver, CO",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8249630,software_engineering,leadership,us,False
 8221862,Electrical Engineer,,"San Francisco, CA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8221862,software_engineering,mid_or_unknown,us,False
 7907733,Electrical Engineer,,"San Francisco, CA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/7907733,software_engineering,mid_or_unknown,us,False
-8258316,EU Regulatory Licensing & Spectrum Manager,,"Berlin, Germany",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8258316,other,senior,other,False
 8258424,EU Regulatory Licensing & Spectrum Manager,,"Haarlem, Netherlands",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8258424,other,senior,other,False
+8258316,EU Regulatory Licensing & Spectrum Manager,,"Berlin, Germany",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8258316,other,senior,other,False
 8345709,"FP&A Manager, Commercial & Marketing",,"San Francisco, CA",2026-11-20T20:14:33-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8345709,accounting_finance,senior,us,False
 8302862,Internal Audit Analyst,,"San Francisco, CA",2026-11-10T19:03:07-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8302862,accounting_finance,mid_or_unknown,us,False
 8211718,Inventory Analyst,,"San Francisco, CA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8211718,other,mid_or_unknown,us,False
 8354040,Inventory Operations Specialist,,"San Francisco, CA",2026-11-17T14:00:24-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8354040,other,mid_or_unknown,us,False
-8209807,"Manager, Workplace & Facilities",,"Berlin, Germany",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8209807,other,senior,other,False
 8353172,Manufacturing Engineer,,"San Francisco, CA",2026-11-13T20:03:57-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8353172,software_engineering,mid_or_unknown,us,False
 8354045,Materials Coordinator,,"San Francisco, CA",2026-11-17T14:00:07-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8354045,other,mid_or_unknown,us,False
 8394110,Mission Operations Training Specialist,,"United Arab Emirates, Remote",2026-11-24T09:04:22-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8394110,other,mid_or_unknown,remote,False
@@ -32,16 +31,16 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8197384,Revenue Operations Manager,,"San Francisco, CA; Arlington, VA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8197384,other,senior,us,False
 8204476,Sales Development Representative,,"Berlin, Germany",2026-11-19T13:18:49-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8204476,sales,mid_or_unknown,other,False
 8094173,"Sales Development Representative, North America Civil Government",,"San Francisco, CA",2026-11-16T12:37:37-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8094173,sales,mid_or_unknown,us,False
-8396505,"Senior Analyst, International Trade Compliance",,"United States, Remote",2026-11-23T12:24:37-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8396505,legal,senior,us,False
 8069677,"Senior Analyst, International Trade Compliance",,"San Francisco, CA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8069677,legal,senior,us,False
+8396505,"Senior Analyst, International Trade Compliance",,"United States, Remote",2026-11-23T12:24:37-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8396505,legal,senior,us,False
 8319000,"Senior Business Development Manager, US Army",,"Arlington, VA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8319000,sales,senior,us,False
 7644560,Senior Camera Systems Engineer,,"San Francisco, CA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/7644560,software_engineering,senior,us,False
 8231548,"Senior Data Engineer, GMS Data Team",,"Arlington, VA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8231548,data_ai,senior,us,False
 8046738,Senior Deployment Strategist,,"Seoul, South Korea",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8046738,other,senior,other,False
 8081498,"Senior Director, Global Talent Acquisition",,"San Francisco, CA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8081498,people_admin,leadership,us,False
 8324235,Senior Director of Engineering - Civil Government and Commercial,,"Haarlem, Netherlands",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8324235,software_engineering,leadership,other,False
-8318600,Senior Director of Engineering - Civil Government and Commercial,,"Berlin, Germany",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8318600,software_engineering,leadership,other,False
 8324236,Senior Director of Engineering - Civil Government and Commercial,,"Ljubljana, Slovenia",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8324236,software_engineering,leadership,other,False
+8318600,Senior Director of Engineering - Civil Government and Commercial,,"Berlin, Germany",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8318600,software_engineering,leadership,other,False
 8263945,"Senior Director, Product Management - Defense and Intelligence",,"San Francisco, CA",2026-11-17T19:38:10-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8263945,product_management,leadership,us,False
 8287786,"Senior Director, Product Management - Defense and Intelligence",,"Arlington, VA",2026-11-17T19:38:20-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8287786,product_management,leadership,us,False
 8221607,Senior Engineering Program Manager,,"Berlin, Germany",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8221607,software_engineering,senior,other,False
@@ -49,46 +48,45 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8231897,"Senior Forward Deployment Engineer, Strategic Customer Engagements U.S.",,"Washington, D.C.",2026-11-04T16:30:51-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8231897,software_engineering,senior,us,False
 7527437,Senior FP&A Revenue Manager,,"United States, Remote ",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/7527437,accounting_finance,senior,us,False
 8128479,Senior General Ledger Accountant / Bilanzbuchhalter (m/w/f),,"Berlin, Germany",2026-11-16T05:17:39-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8128479,accounting_finance,senior,other,False
-8185816,Senior Identity Platform Engineer,,"Ljubljana, Slovenia",2026-11-05T06:50:21-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8185816,software_engineering,senior,other,False
 8276008,Senior Identity Platform Engineer,,"Haarlem, Netherlands",2026-11-05T06:50:23-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8276008,software_engineering,senior,other,False
+8185816,Senior Identity Platform Engineer,,"Ljubljana, Slovenia",2026-11-05T06:50:21-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8185816,software_engineering,senior,other,False
 8276009,Senior Identity Platform Engineer,,"Berlin, Germany",2026-11-05T06:50:25-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8276009,software_engineering,senior,other,False
-8226250,Senior Infrastructure Solutions Engineer,,"Slovenia, Remote",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8226250,software_engineering,senior,remote,False
 8223348,Senior Infrastructure Solutions Engineer,,"Germany, Remote",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8223348,software_engineering,senior,remote,False
+8226250,Senior Infrastructure Solutions Engineer,,"Slovenia, Remote",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8226250,software_engineering,senior,remote,False
 8226246,Senior Infrastructure Solutions Engineer,,"Netherlands, Remote",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8226246,software_engineering,senior,remote,False
 8164995,"Senior PreSales Engineer, Civil Government and Commercial",,"Germany, Remote",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8164995,software_engineering,senior,remote,False
-8284784,"Senior Product Manager, Sovereign & Hybrid Deployments",,"Berlin, Germany",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8284784,product_management,senior,other,False
 8288673,"Senior Product Manager, Sovereign & Hybrid Deployments",,"Ljubljana, Slovenia",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8288673,product_management,senior,other,False
+8284784,"Senior Product Manager, Sovereign & Hybrid Deployments",,"Berlin, Germany",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8284784,product_management,senior,other,False
 8287081,"Senior Product Manager, Sovereign & Hybrid Deployments",,"Haarlem, Netherlands",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8287081,product_management,senior,other,False
 8350905,Senior Security Engineer,,"United States, Remote",2026-11-20T19:18:23-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8350905,software_engineering,senior,us,False
 8106198,Senior Site Reliability Engineer,,"US, Remote; Canada, Remote",2026-11-13T11:04:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8106198,software_engineering,senior,us,False
 8255417,  Senior Software Engineer,,"Ljubljana, Slovenia",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8255417,software_engineering,senior,other,False
 8346050,Senior Software Engineer,,"Graz, Austria",2026-11-06T06:54:40-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8346050,software_engineering,senior,other,False
 8337803,Senior Software Engineer,,"Ljubljana, Slovenia",2026-11-06T06:54:37-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8337803,software_engineering,senior,other,False
-8197622,"Senior Software Engineer, Mission Optimization",,"San Francisco, CA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8197622,software_engineering,senior,us,False
 8160294,"Senior Software Engineer, Storage Infrastructure",,"Canada, Remote",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8160294,software_engineering,senior,remote,False
 8154780,"Senior Software Engineer, Storage Infrastructure",,"United States, Remote",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8154780,software_engineering,senior,us,False
-8202848,"Senior Solutions Architect I, Pre-Sales - NATO",,Netherlands,2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8202848,sales,senior,other,False
 8229990,"Senior Solutions Architect I, Pre-Sales - NATO",,Belgium,2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8229990,sales,senior,other,False
+8202848,"Senior Solutions Architect I, Pre-Sales - NATO",,Netherlands,2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8202848,sales,senior,other,False
 8394389,"Senior Solutions Architect I, Pre-Sales - UK Defence & Intelligence",,"United Kingdom, Remote",2026-11-23T05:46:23-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8394389,sales,senior,uk,False
 8240591,"Senior Solutions Architect I, Pre-Sales - US Government Defense & Intelligence",,"Arlington, VA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8240591,sales,senior,us,False
 8188420,"Senior Solutions Architect I, Pre-Sales - US Government Defense & Intelligence",,"Arlington, VA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8188420,sales,senior,us,False
+7774850,Senior Spacecraft Systems Engineer,,"San Francisco, CA",2026-11-25T11:56:27-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/7774850,software_engineering,senior,us,False
 8221584,Senior Spacecraft Systems Engineer,,"San Francisco, CA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8221584,software_engineering,senior,us,False
 8211706,"Senior Space Systems Engineer, Mission Optimization",,"Berlin, Germany",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8211706,software_engineering,senior,other,False
 8306456,"Senior Technical Program Manager, Solutions",,"Berlin, Germany",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8306456,other,senior,other,False
 8302899,Site Reliability Engineer,,"San Francisco, CA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8302899,software_engineering,mid_or_unknown,us,False
 8280824,Social Media Specialist ,,"San Francisco, CA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8280824,other,mid_or_unknown,us,False
-8337813,Software Engineer,,"Berlin, Germany",2026-11-05T08:54:47-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8337813,software_engineering,mid_or_unknown,other,False
-8233192,Software Engineer,,"Haarlem, Netherlands",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8233192,software_engineering,mid_or_unknown,other,False
 8233193,Software Engineer,,"Ljubljana, Slovenia",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8233193,software_engineering,mid_or_unknown,other,False
+8233192,Software Engineer,,"Haarlem, Netherlands",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8233192,software_engineering,mid_or_unknown,other,False
 8190766,Software Engineer,,"Berlin, Germany",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8190766,software_engineering,mid_or_unknown,other,False
+8337813,Software Engineer,,"Berlin, Germany",2026-11-05T08:54:47-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8337813,software_engineering,mid_or_unknown,other,False
 8345618,Software Engineer,,"Ljubljana, Slovenia",2026-11-05T08:54:50-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8345618,software_engineering,mid_or_unknown,other,False
-7377994,Solutions Architect Deployment Strategist,,"Abu Dhabi, UAE",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/7377994,other,mid_or_unknown,other,False
+7377994,Solutions Architect Deployment Strategist,,"Abu Dhabi, UAE",2026-11-25T03:48:11-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/7377994,other,mid_or_unknown,other,False
 8161967,"Solutions Architect I, Professional Services",,"Berlin, Germany",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8161967,other,mid_or_unknown,other,False
 8239815,"Solutions Architect I, Professional Services",,"Arlington, VA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8239815,other,mid_or_unknown,us,False
-8134793,"Solutions Architect, Pre-Sales - German Defense & Intelligence",,"Germany, Remote",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8134793,sales,mid_or_unknown,remote,False
 8302165,Space Systems Engineer,,"San Francisco, CA",2026-11-19T17:48:06-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8302165,software_engineering,mid_or_unknown,us,False
-8204493,"Space Systems Engineer, Space Operations",,"Berlin, Germany",2026-11-11T05:09:59-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8204493,software_engineering,mid_or_unknown,other,False
 8276027,"Space Systems Engineer, Space Operations",,"San Francisco, CA",2026-11-06T14:21:10-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8276027,software_engineering,mid_or_unknown,us,False
+8204493,"Space Systems Engineer, Space Operations",,"Berlin, Germany",2026-11-11T05:09:59-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8204493,software_engineering,mid_or_unknown,other,False
 8231925,"Space Systems Engineer, Space Operations ",,"Berlin, Germany",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8231925,software_engineering,mid_or_unknown,other,False
 8220995,"Space Systems Engineer, Space Operations ",,"San Francisco, CA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8220995,software_engineering,mid_or_unknown,us,False
 7524896,Sr. Satcom Modem Engineer,,"San Francisco, CA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/7524896,software_engineering,senior,us,False
@@ -100,8 +98,8 @@ job_id,title,department,location,updated_at,url,role_group,seniority,region,ai_r
 8042428,Technical Support Engineer III,,"Berlin, Germany",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8042428,software_engineering,mid_or_unknown,other,False
 7704446,US Army Account Executive,,"Washington, D.C.",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/7704446,sales,mid_or_unknown,us,False
 8163185,Vice President Defense and Intelligence Engineering,,"San Francisco, CA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8163185,software_engineering,leadership,us,False
-8165021,Vice President Defense and Intelligence Engineering,,"Arlington, VA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8165021,software_engineering,leadership,us,False
 8167760,Vice President Defense and Intelligence Engineering,,"Denver, CO",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8167760,software_engineering,leadership,us,False
+8165021,Vice President Defense and Intelligence Engineering,,"Arlington, VA",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8165021,software_engineering,leadership,us,False
 8396468,"Working Student, Export Control/ International Trade Compliance (m/f/d)",,"Berlin, Germany",2026-11-23T05:12:02-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8396468,legal,mid_or_unknown,other,False
 8164904,"Working Student, Professional Services",,"Berlin, Germany",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8164904,other,mid_or_unknown,other,False
 8287776,"Working Student, SpaceOps",,"Berlin, Germany",2026-11-04T13:44:08-05:00,https://job-boards.greenhouse.io/planetlabs/jobs/8287776,other,mid_or_unknown,other,False
