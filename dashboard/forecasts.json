@@ -2148,10 +2148,13 @@
 "event_date": "2026-11-24",
 "resolves_by": "2026-11-25",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.0471,
+"evidence": {
+"summary": "Dell fiscal Q3 2027 (quarter ended 30 Oct 2026) net revenue $54.937B, up 103% y/y; ISG $42.0B; AI-optimized servers $22.0B; AI orders $60.2B and AI backlog $132.3B.",
+"url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000050/exhibit991earnings8kq3fy27.htm"
+}
 },
 {
 "id": "EV-20261124-DELL-2",
@@ -2170,10 +2173,13 @@
 "event_date": "2026-11-24",
 "resolves_by": "2026-11-25",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.0936,
+"evidence": {
+"summary": "Dell raised full-year fiscal 2027 revenue guidance to $202.0B (single figure) from $192.0B, and AI-optimized server guidance to $78B from $74B; Q4 guide $56.3B.",
+"url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000050/exhibit991earnings8kq3fy27.htm"
+}
 },
 {
 "id": "EV-20261124-WDAY-1",
@@ -2192,10 +2198,13 @@
 "event_date": "2026-11-24",
 "resolves_by": "2026-11-25",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.059,
+"evidence": {
+"summary": "Workday fiscal Q3 2027 total revenues $2.705B, up 11.2% y/y; subscription $2.532B (+12.8%); FY27 subscription guide raised to $9.958B; Q4 subscription guide $2.600B (+10%). Shares fell about 7% after hours.",
+"url": "https://www.sec.gov/Archives/edgar/data/0001327811/000132781126000057/wday-10312026x991.htm"
+}
 },
 {
 "id": "EV-20261125-US-3",
@@ -2255,6 +2264,72 @@
 "if_yes": "Keeps the ECB December hike likely (EV-202612-ECB-2) and the squeeze on staples volumes",
 "if_no": "Energy-led inflation peaking; eases pressure on the ECB and on European consumers",
 "made_at": "2026-11-24",
+"event_date": "2026-12-01",
+"resolves_by": "2026-12-02",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261202-CRM-1",
+"kind": "event",
+"thesis": "coding-agents-usage-pricing",
+"thesis_title": "Software vendors that move to usage pricing in 2027 outgrow those that stay per-seat (rewritten: original seat-loss thesis not supported by 2026 evidence)",
+"statement": "Salesforce reports fiscal Q3 2027 (Aug-Oct 2026) total revenue of $11.50B or more (results 2 Dec after the US close)",
+"probability": 0.69,
+"probability_raw": 0.55,
+"override": null,
+"reasoning": "Salesforce guided $11.42-11.50B including about 4 points from Informatica; a press preview cites consensus near $11.5B (unverified) and Oppenheimer $11.46B. Salesforce usually lands at or slightly above the top of its range, but the line sits exactly at the top, so this is close to even.",
+"expected": "About $11.48-11.53B",
+"if_yes": "Seat-based CRM still growing at guide; against the per-seat pressure view in the usage-pricing thesis",
+"if_no": "Supports the view that per-seat vendors are slowing as AI agents cut seats",
+"made_at": "2026-11-25",
+"event_date": "2026-12-02",
+"resolves_by": "2026-12-03",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261202-CRM-2",
+"kind": "event",
+"thesis": "coding-agents-usage-pricing",
+"thesis_title": "Software vendors that move to usage pricing in 2027 outgrow those that stay per-seat (rewritten: original seat-loss thesis not supported by 2026 evidence)",
+"statement": "Salesforce raises the midpoint of its fiscal 2027 revenue guidance above $46.25B (current range $46.1-46.4B) in its Q3 results on 2 Dec",
+"probability": 0.646,
+"probability_raw": 0.5,
+"override": null,
+"reasoning": "Salesforce raised the range in Q2. With one quarter left, it often nudges the range up by the size of the Q3 beat, but a stronger dollar and weaker software demand after the Anthropic IPO sell-off could lead it to hold.",
+"expected": "Range held or raised by about $0.1B",
+"if_yes": "Enterprise software demand holding; against seat-pressure arguments",
+"if_no": "A held or cut guide supports the view that per-seat vendors are slowing",
+"made_at": "2026-11-25",
+"event_date": "2026-12-02",
+"resolves_by": "2026-12-03",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261201-MDB-1",
+"kind": "event",
+"thesis": "coding-agents-usage-pricing",
+"thesis_title": "Software vendors that move to usage pricing in 2027 outgrow those that stay per-seat (rewritten: original seat-loss thesis not supported by 2026 evidence)",
+"statement": "MongoDB reports fiscal Q3 2027 (Aug-Oct 2026) total revenue of $780M or more (results 1 Dec after the US close)",
+"probability": 0.732,
+"probability_raw": 0.6,
+"override": null,
+"reasoning": "MongoDB guided $756-761M. In Q2 it reported $771.8M (+30% y/y) with Atlas up about 29% and cRPO up 73%, and it usually beats its own guide by 3-5%; $780M needs a beat of about 2.8% on the midpoint.",
+"expected": "About $780-795M",
+"if_yes": "Usage-priced infrastructure software still growing near 25-30%; supports the usage-pricing thesis",
+"if_no": "Usage-based vendors slowing too; weakens the thesis's core contrast",
+"made_at": "2026-11-25",
 "event_date": "2026-12-01",
 "resolves_by": "2026-12-02",
 "method": "judged",

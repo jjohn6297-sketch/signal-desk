@@ -38,6 +38,7 @@ evidence_for:
   source: https://www.anthropic.com/news/anthropic-prices-initial-public-offering
 - {"date": "2026-11-19", "claim": "Anthropic closed its first trading day at $97.17, 17.1% above the $83 offer (about $1.27T market value), on a day the S&P 500 fell 2%; public demand for AI-lab equity is strong", "source": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-stock-closes-day-at-97-up-more-than-17/", "engine": "daily-run"}
 - {"date": "2026-11-23", "claim": "Nvidia's board reinstated Jensen Huang as CEO (he resigned on 12 Nov); Nvidia closed $165.05, +31.5%, and the S&P 500 rose 4.7% to about 7,238, its best day since April 2025. The SEC accounting inquiry is unresolved and the Q3 10-Q is still due 4 Dec", "source": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/", "engine": "daily-run"}
+- {"date": "2026-11-24", "claim": "Dell fiscal Q3 2027 revenue $54.9B (+103% y/y), AI-optimized server revenue $22.0B (+291%), AI orders $60.2B, AI backlog a record $132.3B; FY27 revenue guide raised to $202B from $192B", "source": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000050/exhibit991earnings8kq3fy27.htm", "engine": "daily-run"}
 evidence_against:
 - date: '2026-07-30'
   claim: Amazon operating cash flow +33%; Microsoft expects <1pt margin decline in FY27
@@ -49,7 +50,8 @@ evidence_against:
   claim: 'Democratic governors in Texas, Georgia and Ohio elected on data-centre moratorium or pause pledges; a risk to capex delivery'
   source: https://fortune.com/2026/11/04/democrats-midterm-election-2026-anti-data-center-governors-texas-georgia-ohio-ai-infrastructure-big-tech-spending-moratorium-regulations/
 - {"date": "2026-11-20", "claim": "Reuters: SEC enforcement staff examining potential accounting issues at Nvidia; Nvidia closed $125.53 on 20 Nov, down about 14% on the day and 23% on the week, about 48% below its 6 Oct high; its Q3 10-Q is not yet filed (due 4 Dec). Financing risk for the AI build-out rises; no capex cut announced", "source": "https://ca.investing.com/news/stock-market-news/nvidia-shares-fall-115-as-report-of-sec-accounting-probe-adds-to-pressure-4973044", "engine": "daily-run"}
-system_conviction: 63
+- {"date": "2026-11-24", "claim": "Chip stocks reversed Monday's rally: Philadelphia semiconductor index -7.9%, Nvidia -5.9% to $155.38, Micron -11%; Anthropic shares closed about $81.91, below the $83 IPO price", "source": "https://www.tradingkey.com/analysis/stocks/us-stocks/262321021-market-recap-nasdaq-slips-nvidia-anthropic-breaks-ipo-price-dell-tradingkey", "engine": "daily-run"}
+system_conviction: 64
 conviction_history:
 - date: '2026-11-08'
   value: 60
@@ -59,6 +61,7 @@ conviction_history:
 - {"date": "2026-11-19", "value": 64, "reason": "Anthropic IPO above range adds about $79bn of equity-funded compute demand"}
 - {"date": "2026-11-22", "value": 61, "reason": "Weekly review 2026-47 (22 Nov): BofA survey: 52% of fund managers expect a hyperscaler capex cut within six months; none has cut; recovered from the Insights log because that run's push failed", "source": "https://claude.ai/artifact/WwpbnTDszXxUHpCnbVKEu3"}
 - {"date": "2026-11-24", "value": 63, "reason": "Equity markets reopened to AI names on Huang's return (Nvidia +31.5%, Micron +19%); no capex cuts; SEC inquiry still open", "source": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/"}
+- {"date": "2026-11-25", "value": 64, "reason": "Dell's record $132.3B AI backlog and raised FY27 guide show server demand still rising; equity funding for AI names remains volatile", "source": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000050/exhibit991earnings8kq3fy27.htm"}
 predictions:
 - id: p1
   statement: Microsoft September-quarter capex >= $50bn

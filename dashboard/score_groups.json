@@ -3,8 +3,8 @@
 "key": "Kind: event",
 "group_type": "Kind",
 "group": "event",
-"n": 55,
-"brier": 0.1621
+"n": 58,
+"brier": 0.1572
 },
 {
 "key": "Kind: thesis",
@@ -45,8 +45,8 @@
 "key": "Thesis: Hyperscaler AI capex keeps rising through 2027, but the cost moves to depreciation and debt; power, memory and networking suppliers gain while hyperscaler free cash flow falls",
 "group_type": "Thesis",
 "group": "Hyperscaler AI capex keeps rising through 2027, but the cost moves to depreciation and debt; power, memory and networking suppliers gain while hyperscaler free cash flow falls",
-"n": 12,
-"brier": 0.1884
+"n": 14,
+"brier": 0.1715
 },
 {
 "key": "Thesis: In vivo gene editing reaches commercial proof in 2026-27, lifting CRISPR Therapeutics, Intellia, Beam and their suppliers",
@@ -73,8 +73,8 @@
 "key": "Thesis: Software vendors that move to usage pricing in 2027 outgrow those that stay per-seat (rewritten: original seat-loss thesis not supported by 2026 evidence)",
 "group_type": "Thesis",
 "group": "Software vendors that move to usage pricing in 2027 outgrow those that stay per-seat (rewritten: original seat-loss thesis not supported by 2026 evidence)",
-"n": 2,
-"brier": 0.1462
+"n": 3,
+"brier": 0.1172
 },
 {
 "key": "Thesis: The AI risk for 2027 is delivery delay, not demand: leveraged builders suffer, bottleneck owners gain",
