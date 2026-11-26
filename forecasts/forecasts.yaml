@@ -1688,7 +1688,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-18'
   evidence:
-    summary: 'Nvidia Q3 FY2027 revenue $115.8bn (quarter to 25 Oct), above the $110.2bn line; data centre $107.6bn; press release 17 Nov 2026.'
+    summary: Nvidia Q3 FY2027 revenue $115.8bn (quarter to 25 Oct), above the $110.2bn line; data centre $107.6bn;
+      press release 17 Nov 2026.
     url: https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-third-quarter-fiscal-fpx9dw5egxqa.html
 - id: EV-20261117-NVDA-2
   kind: event
@@ -1716,7 +1717,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-18'
   evidence:
-    summary: 'Nvidia guides Q4 FY2027 revenue to $130.0bn +/- 3% (includes an extra week; no China data-centre compute), above the $120bn line.'
+    summary: Nvidia guides Q4 FY2027 revenue to $130.0bn +/- 3% (includes an extra week; no China data-centre compute),
+      above the $120bn line.
     url: https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-third-quarter-fiscal-fpx9dw5egxqa.html
 - id: EV-20261118-UKCPI-1
   kind: event
@@ -1746,7 +1748,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-18'
   evidence:
-    summary: 'ONS: CPI rose 3.6% in the 12 months to October 2026, up from 3.5%, at the 3.6% line; core 2.8%, services 3.7%; motor fuels +33.2% y/y.'
+    summary: 'ONS: CPI rose 3.6% in the 12 months to October 2026, up from 3.5%, at the 3.6% line; core 2.8%, services
+      3.7%; motor fuels +33.2% y/y.'
     url: https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026
 - id: EV-20261113-US-1
   kind: event
@@ -1777,7 +1780,9 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-16'
   evidence:
-    summary: 'BLS: PPI final demand less foods and energy rose 0.3% s.a. in October, at the 0.3% line; less foods, energy and trade +0.5%. Core figure read from BLS table 1 in the 15 Nov weekly review; headline confirmed in the news release on 16 Nov.'
+    summary: 'BLS: PPI final demand less foods and energy rose 0.3% s.a. in October, at the 0.3% line; less foods,
+      energy and trade +0.5%. Core figure read from BLS table 1 in the 15 Nov weekly review; headline confirmed
+      in the news release on 16 Nov.'
     url: https://www.bls.gov/news.release/ppi.t01.htm
 - id: EV-20261113-US-2
   kind: event
@@ -1807,7 +1812,8 @@ forecasts:
   outcome: 0
   resolved_at: '2026-11-16'
   evidence:
-    summary: 'BLS: PPI final demand rose 0.3% s.a. in October, below the 0.4% line; energy -0.1%; September revised to +1.4%.'
+    summary: 'BLS: PPI final demand rose 0.3% s.a. in October, below the 0.4% line; energy -0.1%; September revised
+      to +1.4%.'
     url: https://www.bls.gov/news.release/ppi.nr0.htm
 - id: EV-20261117-US-1
   kind: event
@@ -1839,7 +1845,8 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-18'
   evidence:
-    summary: 'Census advance report: October total retail and food services sales $748.2bn s.a., +0.2% (+/-0.4%) from September, at or above the 0.0% line; September +0.8% unrevised.'
+    summary: 'Census advance report: October total retail and food services sales $748.2bn s.a., +0.2% (+/-0.4%)
+      from September, at or above the 0.0% line; September +0.8% unrevised.'
     url: https://www.census.gov/retail/marts/www/marts_current.pdf
 - id: EV-20261118-FOMC-1
   kind: event
@@ -1850,12 +1857,12 @@ forecasts:
   probability_raw: 0.7
   probability: 0.828
   reasoning: The Fed hiked in September with 16 of 18 officials projecting more, then held in October with two dissents
-    for a hike (Cook, Hammack). Minutes usually describe a clear majority view in "many" or "most" terms; the risk to
-    yes is softer wording such as "some" or "several" if the hold reflected doubts about growth.
+    for a hike (Cook, Hammack). Minutes usually describe a clear majority view in "many" or "most" terms; the risk
+    to yes is softer wording such as "some" or "several" if the hold reflected doubts about growth.
   expected: Minutes say many participants see further firming as likely appropriate, with some worried about growth
   implications:
-    if_yes: Confirms the hiking bias that markets already price for December; against the bonds bet and closer to its
-      "December FOMC signals two or more further hikes" kill criterion
+    if_yes: Confirms the hiking bias that markets already price for December; against the bonds bet and closer to
+      its "December FOMC signals two or more further hikes" kill criterion
     if_no: A softer committee than the December pricing implies; supports the bonds bet
   forecaster: system:claude-opus-5-5
   made_at: '2026-11-16'
@@ -1871,36 +1878,40 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-19'
   evidence:
-    summary: 'Minutes of the 27-28 Oct FOMC (published 18 Nov): "almost all" participants judged that further action to raise the target range would likely be appropriate; "a couple" said a move above 25bp could be considered in December.'
+    summary: 'Minutes of the 27-28 Oct FOMC (published 18 Nov): "almost all" participants judged that further action
+      to raise the target range would likely be appropriate; "a couple" said a move above 25bp could be considered
+      in December.'
     url: https://finance.yahoo.com/economy/policy/article/fed-minutes-officials-favored-holding-rates-steady-in-october-but-they-see-hikes-ahead-195719301.html
 - id: EV-20261118-EZHICP-1
   kind: event
   thesis: long-duration-bonds
   event_date: '2026-11-18'
-  statement: Eurostat's final euro-area HICP annual rate for October 2026 (published 18 Nov) is 4.0%, unchanged from the
-    flash estimate
+  statement: Eurostat's final euro-area HICP annual rate for October 2026 (published 18 Nov) is 4.0%, unchanged
+    from the flash estimate
   probability_raw: 0.85
   probability: 0.933
-  reasoning: The flash estimate on 4 Nov was 4.0% (core 2.5%). Final euro-area HICP prints match the flash in most months
-    and revisions are usually 0.1pp; the risk is a rounding revision with headline sitting near 3.95-4.05%.
+  reasoning: The flash estimate on 4 Nov was 4.0% (core 2.5%). Final euro-area HICP prints match the flash in most
+    months and revisions are usually 0.1pp; the risk is a rounding revision with headline sitting near 3.95-4.05%.
   expected: Confirmed at 4.0%, core 2.5%
   implications:
-    if_yes: Keeps a December ECB hike (EV-202612-ECB-2, 70%) the base case; global yields stay under upward pressure, against
-      the bonds bet
+    if_yes: Keeps a December ECB hike (EV-202612-ECB-2, 70%) the base case; global yields stay under upward pressure,
+      against the bonds bet
     if_no: A downward revision to 3.9% would trim December hike odds a little; an upward one would add to them
   forecaster: system:claude-opus-5-5
   made_at: '2026-11-17'
   resolves_by: '2026-11-19'
   resolution:
     method: judged
-    guidance: Eurostat euro indicators release for October 2026 HICP (final), all-items annual rate for the euro area. Yes if
-      4.0%; no otherwise. Flash https://tradingeconomics.com/euro-area/inflation-cpi/news/598103; schedule
+    guidance: Eurostat euro indicators release for October 2026 HICP (final), all-items annual rate for the euro
+      area. Yes if 4.0%; no otherwise. Flash https://tradingeconomics.com/euro-area/inflation-cpi/news/598103; schedule
       https://en.bloomingbit.io/feed/news/124482
   status: resolved
   outcome: 1
   resolved_at: '2026-11-19'
   evidence:
-    summary: 'Eurostat final October 2026 euro-area HICP 4.0% y/y, unchanged from the flash; energy 21.0% (flash 20.8%), services 3.3%. Eurostat release https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-18112026-ap (blocked to fetch; confirmed via report).'
+    summary: Eurostat final October 2026 euro-area HICP 4.0% y/y, unchanged from the flash; energy 21.0% (flash
+      20.8%), services 3.3%. Eurostat release https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-18112026-ap
+      (blocked to fetch; confirmed via report).
     url: https://www.eunews.it/en/2026/11/18/eurozone-inflation-confirmed-at-4-per-cent-in-october/
 - id: EV-20261118-ANT-1
   kind: event
@@ -1909,27 +1920,27 @@ forecasts:
   statement: Anthropic prices its Class A IPO at USD 78 or more per share (at or above the top of the $70-78 range)
   probability_raw: 0.4
   probability: 0.516
-  reasoning: Heavily marketed large tech IPOs often price at or above the top of the range, but this is the largest offering
-    on record ($58-64bn) and comes during a sell-off in AI infrastructure stocks, with Nvidia under pressure. I put it a
-    little below even.
+  reasoning: Heavily marketed large tech IPOs often price at or above the top of the range, but this is the largest
+    offering on record ($58-64bn) and comes during a sell-off in AI infrastructure stocks, with Nvidia under pressure.
+    I put it a little below even.
   expected: Prices within the range, near the top
   implications:
-    if_yes: Public-market appetite for AI paper is intact despite the sell-off; evidence that the AI build-out can still be
-      financed, against the delay bet's funding-stress leg
+    if_yes: Public-market appetite for AI paper is intact despite the sell-off; evidence that the AI build-out can
+      still be financed, against the delay bet's funding-stress leg
     if_no: Pricing below the top is a sign that funding for AI capex is getting harder; supports the delay bet
   forecaster: system:claude-opus-5-5
   made_at: '2026-11-17'
   resolves_by: '2026-11-20'
   resolution:
     method: judged
-    guidance: Anthropic's pricing announcement or final prospectus (424B4) on SEC EDGAR. Yes if the Class A IPO price is at
-      least $78.00. Void if the IPO is postponed beyond 30 Nov 2026. Range and timing
-      https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/
+    guidance: Anthropic's pricing announcement or final prospectus (424B4) on SEC EDGAR. Yes if the Class A IPO
+      price is at least $78.00. Void if the IPO is postponed beyond 30 Nov 2026. Range and timing https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/
   status: resolved
   outcome: 1
   resolved_at: '2026-11-19'
   evidence:
-    summary: 'Anthropic priced 980m Class A shares at $83.00, above the $70-78 range; about $81.3bn gross; trading on Nasdaq (ANT) from 19 Nov.'
+    summary: Anthropic priced 980m Class A shares at $83.00, above the $70-78 range; about $81.3bn gross; trading
+      on Nasdaq (ANT) from 19 Nov.
     url: https://www.anthropic.com/news/anthropic-prices-initial-public-offering
 - id: EV-20261119-ANT-2
   kind: event
@@ -1938,24 +1949,26 @@ forecasts:
   statement: Anthropic (Nasdaq ANT) closes its first trading day above its IPO price
   probability_raw: 0.7
   probability: 0.827
-  reasoning: Most large US tech IPOs close above the offer on day one because underwriters price for a first-day gain, and
-    up to 20% of the deal goes to retail. The size of the float and the weak AI tape are the main risks.
+  reasoning: Most large US tech IPOs close above the offer on day one because underwriters price for a first-day
+    gain, and up to 20% of the deal goes to retail. The size of the float and the weak AI tape are the main risks.
   expected: Closes above the offer, with a smaller gain than typical for a hot tech IPO
   implications:
     if_yes: Investors still pay up for AI model companies; supports continued capex funding
-    if_no: A broken deal on the largest IPO on record would be a clear sign of AI funding fatigue; supports the delay bet
+    if_no: A broken deal on the largest IPO on record would be a clear sign of AI funding fatigue; supports the
+      delay bet
   forecaster: system:claude-opus-5-5
   made_at: '2026-11-17'
   resolves_by: '2026-11-20'
   resolution:
     method: judged
-    guidance: Nasdaq official closing price for ANT on its first trading day against the IPO price in the pricing release.
-      Yes if the close is above the IPO price. Void if trading has not started by 30 Nov 2026.
+    guidance: Nasdaq official closing price for ANT on its first trading day against the IPO price in the pricing
+      release. Yes if the close is above the IPO price. Void if trading has not started by 30 Nov 2026.
   status: resolved
   outcome: 1
   resolved_at: '2026-11-20'
   evidence:
-    summary: 'Anthropic (ANT) closed its first day at $97.17, 17.1% above the $83 IPO price; opened at $111.50, high $115.10.'
+    summary: Anthropic (ANT) closed its first day at $97.17, 17.1% above the $83 IPO price; opened at $111.50, high
+      $115.10.
     url: https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-stock-closes-day-at-97-up-more-than-17/
 - id: EV-20261125-US-1
   kind: event
@@ -1965,9 +1978,9 @@ forecasts:
     seasonally adjusted, as first published by BEA to one decimal
   probability_raw: 0.62
   probability: 0.757
-  reasoning: October core CPI rose 0.3% (consensus 0.2%) and core PPI 0.3%; the Conference Board's mapping gives core
-    PCE +0.3% m/m (3.3% y/y). September core PCE was +0.5%. With the nowcast at the line and a print at 0.3% counting
-    as yes, a modest lean to yes.
+  reasoning: October core CPI rose 0.3% (consensus 0.2%) and core PPI 0.3%; the Conference Board's mapping gives
+    core PCE +0.3% m/m (3.3% y/y). September core PCE was +0.5%. With the nowcast at the line and a print at 0.3%
+    counting as yes, a modest lean to yes.
   expected: Core PCE about +0.3% m/m, about 3.3% y/y; headline about +0.4%
   implications:
     if_yes: Inflation persistence confirmed after hot CPI; supports a December hike and more in 2027, against the
@@ -1985,18 +1998,19 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-26'
   evidence:
-    summary: 'BEA: October core PCE price index +0.3% m/m and +3.3% y/y; headline PCE +0.3% m/m, +3.8% y/y; personal income +0.7%; real PCE 0.0%.'
+    summary: 'BEA: October core PCE price index +0.3% m/m and +3.3% y/y; headline PCE +0.3% m/m, +3.8% y/y; personal
+      income +0.7%; real PCE 0.0%.'
     url: https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026
 - id: EV-20261125-US-2
   kind: event
   thesis: long-duration-bonds
   event_date: '2026-11-25'
-  statement: BEA second estimate of US real GDP growth for Q3 2026 (annualised, seasonally adjusted) is 3.4% or higher,
-    as published on 25 Nov
+  statement: BEA second estimate of US real GDP growth for Q3 2026 (annualised, seasonally adjusted) is 3.4% or
+    higher, as published on 25 Nov
   probability_raw: 0.5
   probability: 0.634
-  reasoning: The advance estimate was 3.4% (consensus was 3.2%). Second-estimate revisions are roughly symmetric and
-    usually within 0.3 points, and an unchanged print counts as yes, so about even; no strong signal from September
+  reasoning: The advance estimate was 3.4% (consensus was 3.2%). Second-estimate revisions are roughly symmetric
+    and usually within 0.3 points, and an unchanged print counts as yes, so about even; no strong signal from September
     retail sales (unrevised at +0.8%).
   expected: About 3.3-3.5%
   implications:
@@ -2007,25 +2021,26 @@ forecasts:
   resolves_by: '2026-11-26'
   resolution:
     method: judged
-    guidance: BEA "GDP (Second Estimate), 3rd Quarter 2026" news release (25 Nov 2026, 08:30 ET), real GDP percent change
-      at annual rate. Advance estimate https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026/; schedule
-      https://helious.io/calendar/2026-11
+    guidance: BEA "GDP (Second Estimate), 3rd Quarter 2026" news release (25 Nov 2026, 08:30 ET), real GDP percent
+      change at annual rate. Advance estimate https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026/;
+      schedule https://helious.io/calendar/2026-11
   status: resolved
   outcome: 1
   resolved_at: '2026-11-26'
   evidence:
-    summary: 'BEA second estimate: Q3 2026 real GDP +4.3% annual rate, revised up 0.9 points from the 3.4% advance estimate on investment (software) and consumer spending; Q2 revised to 2.2%; corporate profits +$206.0B.'
+    summary: 'BEA second estimate: Q3 2026 real GDP +4.3% annual rate, revised up 0.9 points from the 3.4% advance
+      estimate on investment (software) and consumer spending; Q2 revised to 2.2%; corporate profits +$206.0B.'
     url: https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026
 - id: EV-20261119-US-1
   kind: event
   thesis: long-duration-bonds
   event_date: '2026-11-19'
-  statement: US initial jobless claims (seasonally adjusted) for the week ending 14 Nov 2026, as first published by the
-    Department of Labor on 19 Nov, are 205,000 or fewer
+  statement: US initial jobless claims (seasonally adjusted) for the week ending 14 Nov 2026, as first published
+    by the Department of Labor on 19 Nov, are 205,000 or fewer
   probability_raw: 0.68
   probability: 0.829
-  reasoning: Consensus is 199K after 200K the prior week; weekly surprises have a standard deviation of roughly 10K, so
-    a print above 205K is about a one-in-three outcome. No sign of a turn in layoffs in recent prints.
+  reasoning: Consensus is 199K after 200K the prior week; weekly surprises have a standard deviation of roughly
+    10K, so a print above 205K is about a one-in-three outcome. No sign of a turn in layoffs in recent prints.
   expected: Claims about 200K, little changed
   implications:
     if_yes: Layoffs stay low; no labour-market support for the bonds bet before the December FOMC
@@ -2035,24 +2050,25 @@ forecasts:
   resolves_by: '2026-11-20'
   resolution:
     method: judged
-    guidance: DOL weekly claims news release of 19 Nov 2026 (08:30 ET), advance seasonally adjusted initial claims for
-      the week ending 14 Nov. Consensus and prior https://actionforex.com/economic-calendar/660876-eco-data-11-19-26
+    guidance: DOL weekly claims news release of 19 Nov 2026 (08:30 ET), advance seasonally adjusted initial claims
+      for the week ending 14 Nov. Consensus and prior https://actionforex.com/economic-calendar/660876-eco-data-11-19-26
   status: resolved
   outcome: 1
   resolved_at: '2026-11-20'
   evidence:
-    summary: 'Initial claims rose 1,000 to 203,000 (SA) in the week to 14 Nov; consensus 197,000; continuing claims 1.763m (+70k).'
+    summary: Initial claims rose 1,000 to 203,000 (SA) in the week to 14 Nov; consensus 197,000; continuing claims
+      1.763m (+70k).
     url: https://www.spokesman.com/stories/2026/nov/19/us-weekly-jobless-claims-edge-up-but-labor-market-/
 - id: EV-20261119-US-2
   kind: event
   thesis: long-duration-bonds
   event_date: '2026-11-19'
-  statement: The Philadelphia Fed Manufacturing Business Outlook Survey current general activity index for November 2026
-    (published 19 Nov) is 15.0 or higher
+  statement: The Philadelphia Fed Manufacturing Business Outlook Survey current general activity index for November
+    2026 (published 19 Nov) is 15.0 or higher
   probability_raw: 0.65
   probability: 0.803
-  reasoning: Consensus 19.2 after 20.9 in October. The index is noisy (monthly moves of 8-10 points are common), so a
-    drop below 15 has roughly a one-in-three chance.
+  reasoning: Consensus 19.2 after 20.9 in October. The index is noisy (monthly moves of 8-10 points are common),
+    so a drop below 15 has roughly a one-in-three chance.
   expected: About 18-20, still firm
   implications:
     if_yes: Manufacturing stays strong into a December hike; against the bonds bet
@@ -2062,25 +2078,26 @@ forecasts:
   resolves_by: '2026-11-20'
   resolution:
     method: judged
-    guidance: Federal Reserve Bank of Philadelphia, Manufacturing Business Outlook Survey November 2026 (19 Nov, 08:30
-      ET), current general activity diffusion index, seasonally adjusted. Consensus and prior https://actionforex.com/economic-calendar/660876-eco-data-11-19-26
+    guidance: Federal Reserve Bank of Philadelphia, Manufacturing Business Outlook Survey November 2026 (19 Nov,
+      08:30 ET), current general activity diffusion index, seasonally adjusted. Consensus and prior https://actionforex.com/economic-calendar/660876-eco-data-11-19-26
   status: resolved
   outcome: 0
   resolved_at: '2026-11-20'
   evidence:
-    summary: 'Philadelphia Fed current general activity index fell to 6.3 in November from 20.9 (consensus about 17-20); prices paid rose to 58.2 from 43.2; new orders near zero.'
+    summary: Philadelphia Fed current general activity index fell to 6.3 in November from 20.9 (consensus about
+      17-20); prices paid rose to 58.2 from 43.2; new orders near zero.
     url: https://tradingeconomics.com/united-states/philadelphia-fed-manufacturing-index/news/602751
 - id: EV-20261125-UST-1
   kind: event
   thesis: long-duration-bonds
   event_date: '2026-11-25'
-  statement: The 10-year US Treasury yield (constant maturity) closes at or below 5.10% on 2026-11-25, the day of the
-    October core PCE and Q3 GDP second estimate
+  statement: The 10-year US Treasury yield (constant maturity) closes at or below 5.10% on 2026-11-25, the day of
+    the October core PCE and Q3 GDP second estimate
   probability_raw: 0.45
   probability: 0.584
-  reasoning: The 10-year was 5.12% on 16 Nov and fund managers in the BofA November survey expect easing to 4.9%, but
-    the October minutes said almost all officials see further hikes and a December hike is over 90% priced. A roughly
-    driftless path with a slight hawkish lean puts it just under even.
+  reasoning: The 10-year was 5.12% on 16 Nov and fund managers in the BofA November survey expect easing to 4.9%,
+    but the October minutes said almost all officials see further hikes and a December hike is over 90% priced.
+    A roughly driftless path with a slight hawkish lean puts it just under even.
   expected: About 5.10-5.20%, with PCE the swing factor
   implications:
     if_yes: Yields stall despite a hawkish Fed; mild support for the bonds bet
@@ -2096,8 +2113,10 @@ forecasts:
       date: '2026-11-25'
       op: <=
       threshold: 5.1
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-26'
+  evidence: 'auto: UST10Y 2026-11-25: 4.85 <= 5.1'
 - id: EV-20261123-US-1
   kind: event
   thesis: long-duration-bonds
@@ -2106,8 +2125,8 @@ forecasts:
   probability_raw: 0.5
   probability: 0.646
   reasoning: October's final composite was 55.9, down from 58.4 in September and well below the 57.6 flash, so momentum
-    is falling. The 19 Nov Philadelphia Fed index fell to 6.3 from 20.9. A further one-point drop is about as likely as
-    not; no published consensus found yet.
+    is falling. The 19 Nov Philadelphia Fed index fell to 6.3 from 20.9. A further one-point drop is about as likely
+    as not; no published consensus found yet.
   expected: About 55, slightly lower than October
   implications:
     if_yes: Activity still firm ahead of a December hike; against the bonds bet
@@ -2124,8 +2143,8 @@ forecasts:
   outcome: 0
   resolved_at: '2026-11-24'
   evidence:
-    summary: 'S&P Global US flash composite PMI 54.6 in November (October final 55.9; consensus 55.6), a four-month
-      low; services 54.7, manufacturing 54.5. Hiring stayed strong; price inflation cooled but stayed elevated.'
+    summary: S&P Global US flash composite PMI 54.6 in November (October final 55.9; consensus 55.6), a four-month
+      low; services 54.7, manufacturing 54.5. Hiring stayed strong; price inflation cooled but stayed elevated.
     url: https://pro.thestreet.com/market-commentary/flash-pmi-slips-to-a-4-month-low-signals-3-gdp-growth
 - id: EV-20261123-EZ-1
   kind: event
@@ -2135,8 +2154,8 @@ forecasts:
   probability_raw: 0.45
   probability: 0.582
   reasoning: October's final composite was 51.7, a four-month low, down from 53.1, with input prices at a five-month
-    high from energy costs. The trend is down and euro-area inflation is 4.0%, so a reading under 51.5 is slightly more
-    likely than not.
+    high from energy costs. The trend is down and euro-area inflation is 4.0%, so a reading under 51.5 is slightly
+    more likely than not.
   expected: About 51.2-51.6
   implications:
     if_yes: Euro-area demand holding up despite energy costs; mild support for staples volumes and for an ECB hike
@@ -2146,52 +2165,57 @@ forecasts:
   resolves_by: '2026-11-24'
   resolution:
     method: judged
-    guidance: HCOB Flash Eurozone PMI press release (S&P Global), 23 Nov 2026 (10:00 CET), composite output index, as
-      first published. October final https://www.tasnimnews.ir/en/news/2026/11/04/3740443/euro-zone-economic-growth-slows-to-four-month-low-in-october/amp
+    guidance: HCOB Flash Eurozone PMI press release (S&P Global), 23 Nov 2026 (10:00 CET), composite output index,
+      as first published. October final https://www.tasnimnews.ir/en/news/2026/11/04/3740443/euro-zone-economic-growth-slows-to-four-month-low-in-october/amp
   status: resolved
   outcome: 1
   resolved_at: '2026-11-23'
   evidence:
-    summary: 'HCOB euro-area flash composite PMI 51.7 in November, unchanged from October final (Reuters poll 51.9); services 51.2 (five-month low), manufacturing 52.9; Germany composite 55.0 (56-month high), France 46.2; input-cost and output-price inflation eased to three-month lows.'
+    summary: HCOB euro-area flash composite PMI 51.7 in November, unchanged from October final (Reuters poll 51.9);
+      services 51.2 (five-month low), manufacturing 52.9; Germany composite 55.0 (56-month high), France 46.2; input-cost
+      and output-price inflation eased to three-month lows.
     url: https://www.investing.com/news/economic-indicators/euro-zone-growth-holds-steady-but-frances-deepening-downturn-clouds-outlook-pmi-shows-5044744
 - id: EV-20261124-DELL-1
   kind: event
   thesis: hyperscaler-capex-debt
   event_date: '2026-11-24'
-  statement: Dell Technologies reports fiscal Q3 2027 (Aug-Oct 2026) revenue of $50.0B or more (results 24 Nov after the
-    US close)
+  statement: Dell Technologies reports fiscal Q3 2027 (Aug-Oct 2026) revenue of $50.0B or more (results 24 Nov after
+    the US close)
   probability_raw: 0.65
   probability: 0.783
-  reasoning: Dell guided about $49.0B and consensus is $50.63B after a $95B AI backlog and $60.9B of AI orders last quarter.
-    Big AI-server vendors have mostly beaten their own guides this year; memory shortages and shipment timing are the
-    main risk.
+  reasoning: Dell guided about $49.0B and consensus is $50.63B after a $95B AI backlog and $60.9B of AI orders last
+    quarter. Big AI-server vendors have mostly beaten their own guides this year; memory shortages and shipment
+    timing are the main risk.
   expected: About $50-51B
   implications:
-    if_yes: AI server demand converting to revenue despite the sell-off; supports hyperscaler capex (64 path) and weakens
-      the build-out delay bet's delivery-delay story
+    if_yes: AI server demand converting to revenue despite the sell-off; supports hyperscaler capex (64 path) and
+      weakens the build-out delay bet's delivery-delay story
     if_no: Shipments slipping on memory or power constraints; supports the build-out delay bet
   forecaster: system:claude-opus-5-5
   made_at: '2026-11-23'
   resolves_by: '2026-11-25'
   resolution:
     method: judged
-    guidance: Dell Technologies fiscal Q3 2027 results press release (24 Nov 2026), total net revenue as reported. Guide
-      and consensus https://finviz.com/news/423394/dell-must-prove-its-95-billion-ai-backlog-can-convert-despite-memory-constraints
+    guidance: Dell Technologies fiscal Q3 2027 results press release (24 Nov 2026), total net revenue as reported.
+      Guide and consensus https://finviz.com/news/423394/dell-must-prove-its-95-billion-ai-backlog-can-convert-despite-memory-constraints
   status: resolved
   outcome: 1
   resolved_at: '2026-11-25'
   evidence:
-    summary: 'Dell fiscal Q3 2027 (quarter ended 30 Oct 2026) net revenue $54.937B, up 103% y/y; ISG $42.0B; AI-optimized servers $22.0B; AI orders $60.2B and AI backlog $132.3B.'
+    summary: Dell fiscal Q3 2027 (quarter ended 30 Oct 2026) net revenue $54.937B, up 103% y/y; ISG $42.0B; AI-optimized
+      servers $22.0B; AI orders $60.2B and AI backlog $132.3B.
     url: https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000050/exhibit991earnings8kq3fy27.htm
 - id: EV-20261124-DELL-2
   kind: event
   thesis: hyperscaler-capex-debt
   event_date: '2026-11-24'
-  statement: Dell raises its fiscal 2027 revenue guidance midpoint above $192B in its fiscal Q3 2027 results (24 Nov)
+  statement: Dell raises its fiscal 2027 revenue guidance midpoint above $192B in its fiscal Q3 2027 results (24
+    Nov)
   probability_raw: 0.55
   probability: 0.694
-  reasoning: Dell lifted its full-year range from $165-169B to about $192B last quarter on a record backlog. Another raise
-    is more likely than not, but it already raised hard once and memory supply limits what it can ship by January.
+  reasoning: Dell lifted its full-year range from $165-169B to about $192B last quarter on a record backlog. Another
+    raise is more likely than not, but it already raised hard once and memory supply limits what it can ship by
+    January.
   expected: A small raise, or the guide held at about $192B
   implications:
     if_yes: AI hardware demand still rising into 2027; supports hyperscaler capex
@@ -2207,19 +2231,20 @@ forecasts:
   outcome: 1
   resolved_at: '2026-11-25'
   evidence:
-    summary: 'Dell raised full-year fiscal 2027 revenue guidance to $202.0B (single figure) from $192.0B, and AI-optimized server guidance to $78B from $74B; Q4 guide $56.3B.'
+    summary: Dell raised full-year fiscal 2027 revenue guidance to $202.0B (single figure) from $192.0B, and AI-optimized
+      server guidance to $78B from $74B; Q4 guide $56.3B.
     url: https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000050/exhibit991earnings8kq3fy27.htm
 - id: EV-20261124-WDAY-1
   kind: event
   thesis: coding-agents-usage-pricing
   event_date: '2026-11-24'
-  statement: Workday reports fiscal Q3 2027 (Aug-Oct 2026) total revenue of $2.69B or more (results 24 Nov after the US
-    close)
+  statement: Workday reports fiscal Q3 2027 (Aug-Oct 2026) total revenue of $2.69B or more (results 24 Nov after
+    the US close)
   probability_raw: 0.62
   probability: 0.757
-  reasoning: Consensus is about $2.69B (10.6% growth) after $2.65B last quarter, and the full-year subscription guide was
-    narrowed to $9.94-9.95B. Workday usually meets or slightly beats; a seat-based HR vendor missing would be a sign of
-    AI pressure on seats.
+  reasoning: Consensus is about $2.69B (10.6% growth) after $2.65B last quarter, and the full-year subscription
+    guide was narrowed to $9.94-9.95B. Workday usually meets or slightly beats; a seat-based HR vendor missing would
+    be a sign of AI pressure on seats.
   expected: About $2.69-2.71B
   implications:
     if_yes: Seat-based software still growing steadily; against the coding-agents bet's per-seat pressure view
@@ -2229,19 +2254,21 @@ forecasts:
   resolves_by: '2026-11-25'
   resolution:
     method: judged
-    guidance: Workday fiscal Q3 2027 results press release (24 Nov 2026), total revenues as reported. Consensus https://finviz.com/news/423401/workdays-promised-second-half-ai-bookings-surge-faces-its-first-real-test
+    guidance: Workday fiscal Q3 2027 results press release (24 Nov 2026), total revenues as reported. Consensus
+      https://finviz.com/news/423401/workdays-promised-second-half-ai-bookings-surge-faces-its-first-real-test
   status: resolved
   outcome: 1
   resolved_at: '2026-11-25'
   evidence:
-    summary: 'Workday fiscal Q3 2027 total revenues $2.705B, up 11.2% y/y; subscription $2.532B (+12.8%); FY27 subscription guide raised to $9.958B; Q4 subscription guide $2.600B (+10%). Shares fell about 7% after hours.'
+    summary: Workday fiscal Q3 2027 total revenues $2.705B, up 11.2% y/y; subscription $2.532B (+12.8%); FY27 subscription
+      guide raised to $9.958B; Q4 subscription guide $2.600B (+10%). Shares fell about 7% after hours.
     url: https://www.sec.gov/Archives/edgar/data/0001327811/000132781126000057/wday-10312026x991.htm
 - id: EV-20261125-US-3
   kind: event
   thesis: long-duration-bonds
   event_date: '2026-11-25'
-  statement: US initial jobless claims for the week ending 21 Nov 2026 (published Wed 25 Nov) are 215,000 or fewer, seasonally
-    adjusted, as first published
+  statement: US initial jobless claims for the week ending 21 Nov 2026 (published Wed 25 Nov) are 215,000 or fewer,
+    seasonally adjusted, as first published
   probability_raw: 0.72
   probability: 0.837
   reasoning: Claims were 203,000 the prior week and have stayed low even as continuing claims rose. Thanksgiving-week
@@ -2255,13 +2282,14 @@ forecasts:
   resolves_by: '2026-11-26'
   resolution:
     method: judged
-    guidance: US Department of Labor weekly claims release (25 Nov 2026, 08:30 ET), initial claims SA, advance figure. Prior
-      https://www.spokesman.com/stories/2026/nov/19/us-weekly-jobless-claims-edge-up-but-labor-market-/
+    guidance: US Department of Labor weekly claims release (25 Nov 2026, 08:30 ET), initial claims SA, advance figure.
+      Prior https://www.spokesman.com/stories/2026/nov/19/us-weekly-jobless-claims-edge-up-but-labor-market-/
   status: resolved
   outcome: 1
   resolved_at: '2026-11-26'
   evidence:
-    summary: 'DOL advance initial claims 189,000 (SA) for the week ending 21 Nov, down 13,000 from a revised 202,000; Reuters consensus 200,000; continuing claims 1.697m (-95,000). Secondary report citing the DOL release.'
+    summary: DOL advance initial claims 189,000 (SA) for the week ending 21 Nov, down 13,000 from a revised 202,000;
+      Reuters consensus 200,000; continuing claims 1.697m (-95,000). Secondary report citing the DOL release.
     url: https://stockanalysis.com/news/jobless-claims-november-25-2026/
 - id: EV-20261201-US-1
   kind: event
@@ -2270,9 +2298,9 @@ forecasts:
   statement: The ISM Manufacturing PMI for November 2026 (published 1 Dec) is 55.0 or higher
   probability_raw: 0.42
   probability: 0.557
-  reasoning: October was 55.5. The S&P Global flash manufacturing PMI fell to 54.5 from 54.9 with output at 53.7, and the
-    Philadelphia Fed index fell to 6.3, so a drop of more than half a point is slightly more likely than not. No consensus
-    found yet.
+  reasoning: October was 55.5. The S&P Global flash manufacturing PMI fell to 54.5 from 54.9 with output at 53.7,
+    and the Philadelphia Fed index fell to 6.3, so a drop of more than half a point is slightly more likely than
+    not. No consensus found yet.
   expected: About 54.5-55.0
   implications:
     if_yes: Factory activity still firm a week before an expected December hike; against the bonds bet
@@ -2282,23 +2310,23 @@ forecasts:
   resolves_by: '2026-12-02'
   resolution:
     method: judged
-    guidance: ISM Manufacturing PMI Report on Business for November 2026 (1 Dec, 10:00 ET), headline PMI as first published.
-      October https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/october ; flash
-      PMI https://pro.thestreet.com/market-commentary/flash-pmi-slips-to-a-4-month-low-signals-3-gdp-growth ; calendar
-      https://letterstoayounginvestor.substack.com/p/weekly-economic-calendar-november-3ec
+    guidance: ISM Manufacturing PMI Report on Business for November 2026 (1 Dec, 10:00 ET), headline PMI as first
+      published. October https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/october
+      ; flash PMI https://pro.thestreet.com/market-commentary/flash-pmi-slips-to-a-4-month-low-signals-3-gdp-growth
+      ; calendar https://letterstoayounginvestor.substack.com/p/weekly-economic-calendar-november-3ec
   status: open
   outcome: null
 - id: EV-20261201-EZ-1
   kind: event
   thesis: european-staples-gap
   event_date: '2026-12-01'
-  statement: Eurostat's flash estimate of euro-area annual HICP inflation for November 2026 (published 1 Dec) is 4.0% or
-    higher
+  statement: Eurostat's flash estimate of euro-area annual HICP inflation for November 2026 (published 1 Dec) is
+    4.0% or higher
   probability_raw: 0.35
   probability: 0.472
-  reasoning: October was 4.0%, a three-year high driven by energy. Oil fell through November (Brent about $89 on 23 Nov)
-    and the euro-area flash PMI showed input and output price inflation at three-month lows, so a stable or higher print
-    is less likely than a dip.
+  reasoning: October was 4.0%, a three-year high driven by energy. Oil fell through November (Brent about $89 on
+    23 Nov) and the euro-area flash PMI showed input and output price inflation at three-month lows, so a stable
+    or higher print is less likely than a dip.
   expected: About 3.8-3.9%
   implications:
     if_yes: Keeps the ECB December hike likely (EV-202612-ECB-2) and the squeeze on staples volumes
@@ -2309,22 +2337,21 @@ forecasts:
   resolution:
     method: judged
     guidance: Eurostat euro indicators flash estimate, euro-area HICP annual rate for November 2026, as first published.
-      October https://stockanalysis.com/news/eurozone-inflation-rises-october-2026/ ; calendar
-      https://forexfundamentals.com/economic-calendar/eur-cpi/2026-12-01 ; PMI prices
-      https://www.investing.com/news/economic-indicators/euro-zone-growth-holds-steady-but-frances-deepening-downturn-clouds-outlook-pmi-shows-5044744
+      October https://stockanalysis.com/news/eurozone-inflation-rises-october-2026/ ; calendar https://forexfundamentals.com/economic-calendar/eur-cpi/2026-12-01
+      ; PMI prices https://www.investing.com/news/economic-indicators/euro-zone-growth-holds-steady-but-frances-deepening-downturn-clouds-outlook-pmi-shows-5044744
   status: open
   outcome: null
 - id: EV-20261202-CRM-1
   kind: event
   thesis: coding-agents-usage-pricing
   event_date: '2026-12-02'
-  statement: Salesforce reports fiscal Q3 2027 (Aug-Oct 2026) total revenue of $11.50B or more (results 2 Dec after the
-    US close)
+  statement: Salesforce reports fiscal Q3 2027 (Aug-Oct 2026) total revenue of $11.50B or more (results 2 Dec after
+    the US close)
   probability_raw: 0.55
   probability: 0.69
   reasoning: Salesforce guided $11.42-11.50B including about 4 points from Informatica; a press preview cites consensus
-    near $11.5B (unverified) and Oppenheimer $11.46B. Salesforce usually lands at or slightly above the top of its range,
-    but the line sits exactly at the top, so this is close to even.
+    near $11.5B (unverified) and Oppenheimer $11.46B. Salesforce usually lands at or slightly above the top of its
+    range, but the line sits exactly at the top, so this is close to even.
   expected: About $11.48-11.53B
   implications:
     if_yes: Seat-based CRM still growing at guide; against the per-seat pressure view in the usage-pricing thesis
@@ -2334,9 +2361,8 @@ forecasts:
   resolves_by: '2026-12-03'
   resolution:
     method: judged
-    guidance: Salesforce fiscal Q3 2027 results press release (2 Dec 2026), total revenue as reported. Guide
-      https://www.sec.gov/Archives/edgar/data/0001108524/000110852426000187/crm-q2fy27xexhibit991.htm ; date
-      https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Third-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx
+    guidance: Salesforce fiscal Q3 2027 results press release (2 Dec 2026), total revenue as reported. Guide https://www.sec.gov/Archives/edgar/data/0001108524/000110852426000187/crm-q2fy27xexhibit991.htm
+      ; date https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Third-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx
       ; previews https://www.investing.com/analysis/salesforces-117x-earnings-valuation-tests-whether-ai-agents-are-a-threat-or-oppo-200691867
       https://finimize.com/content/salesforce-heads-into-q3-with-agentforce-in-focus
   status: open
@@ -2349,8 +2375,9 @@ forecasts:
     in its Q3 results on 2 Dec
   probability_raw: 0.5
   probability: 0.646
-  reasoning: Salesforce raised the range in Q2. With one quarter left, it often nudges the range up by the size of the
-    Q3 beat, but a stronger dollar and weaker software demand after the Anthropic IPO sell-off could lead it to hold.
+  reasoning: Salesforce raised the range in Q2. With one quarter left, it often nudges the range up by the size
+    of the Q3 beat, but a stronger dollar and weaker software demand after the Anthropic IPO sell-off could lead
+    it to hold.
   expected: Range held or raised by about $0.1B
   implications:
     if_yes: Enterprise software demand holding; against seat-pressure arguments
@@ -2368,12 +2395,12 @@ forecasts:
   kind: event
   thesis: coding-agents-usage-pricing
   event_date: '2026-12-01'
-  statement: MongoDB reports fiscal Q3 2027 (Aug-Oct 2026) total revenue of $780M or more (results 1 Dec after the US
-    close)
+  statement: MongoDB reports fiscal Q3 2027 (Aug-Oct 2026) total revenue of $780M or more (results 1 Dec after the
+    US close)
   probability_raw: 0.6
   probability: 0.732
-  reasoning: MongoDB guided $756-761M. In Q2 it reported $771.8M (+30% y/y) with Atlas up about 29% and cRPO up 73%, and
-    it usually beats its own guide by 3-5%; $780M needs a beat of about 2.8% on the midpoint.
+  reasoning: MongoDB guided $756-761M. In Q2 it reported $771.8M (+30% y/y) with Atlas up about 29% and cRPO up
+    73%, and it usually beats its own guide by 3-5%; $780M needs a beat of about 2.8% on the midpoint.
   expected: About $780-795M
   implications:
     if_yes: Usage-priced infrastructure software still growing near 25-30%; supports the usage-pricing thesis
@@ -2392,13 +2419,14 @@ forecasts:
   kind: event
   thesis: long-duration-bonds
   event_date: '2026-12-02'
-  statement: ADP National Employment Report shows US private employment rising by 100,000 or more in November 2026 (published
-    2 Dec), as first published
+  statement: ADP National Employment Report shows US private employment rising by 100,000 or more in November 2026
+    (published 2 Dec), as first published
   probability_raw: 0.45
   probability: 0.594
   reasoning: October was +86,000 and September +86,000. Initial claims fell to 189,000 in the week to 21 Nov, matching
-    the year's low, and the flash PMI showed strong hiring, which points up; but ADP has printed below 100,000 for at
-    least two months and its monthly surprises are large (about 50,000). No consensus found yet, so slightly below even.
+    the year's low, and the flash PMI showed strong hiring, which points up; but ADP has printed below 100,000 for
+    at least two months and its monthly surprises are large (about 50,000). No consensus found yet, so slightly
+    below even.
   expected: About 90-110K
   implications:
     if_yes: Hiring re-accelerating a week before an expected December hike; against the bonds bet
@@ -2408,8 +2436,8 @@ forecasts:
   resolves_by: '2026-12-03'
   resolution:
     method: judged
-    guidance: ADP National Employment Report for November 2026 (2 Dec, 08:15 ET), change in private employment as first
-      published. Prior and date https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-30112026-06122026/
+    guidance: ADP National Employment Report for November 2026 (2 Dec, 08:15 ET), change in private employment as
+      first published. Prior and date https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-30112026-06122026/
       ; claims https://stockanalysis.com/news/jobless-claims-november-25-2026/
   status: open
   outcome: null
@@ -2420,9 +2448,9 @@ forecasts:
   statement: The ISM Services PMI for November 2026 (published 3 Dec) is 54.0 or higher
   probability_raw: 0.5
   probability: 0.646
-  reasoning: October was 54.5 (September 54.9, August 55.4), a gentle downtrend. The S&P Global flash services PMI fell
-    to 54.7, a four-month low, while Q3 GDP was revised up to 4.3% and claims are at the year's low. A half-point drop
-    is about as likely as not; no consensus found yet.
+  reasoning: October was 54.5 (September 54.9, August 55.4), a gentle downtrend. The S&P Global flash services PMI
+    fell to 54.7, a four-month low, while Q3 GDP was revised up to 4.3% and claims are at the year's low. A half-point
+    drop is about as likely as not; no consensus found yet.
   expected: About 53.8-54.5
   implications:
     if_yes: Services demand still firm into the December hike; against the bonds bet
@@ -2432,8 +2460,8 @@ forecasts:
   resolves_by: '2026-12-04'
   resolution:
     method: judged
-    guidance: ISM Services PMI Report on Business for November 2026 (3 Dec, 10:00 ET), headline Services PMI as first
-      published. Prior readings https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-30112026-06122026/
+    guidance: ISM Services PMI Report on Business for November 2026 (3 Dec, 10:00 ET), headline Services PMI as
+      first published. Prior readings https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-30112026-06122026/
       ; flash PMI https://pro.thestreet.com/market-commentary/flash-pmi-slips-to-a-4-month-low-signals-3-gdp-growth
   status: open
   outcome: null
