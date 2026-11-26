@@ -27,16 +27,16 @@
 "band": "60–80%",
 "lo": 0.6,
 "hi": 0.8,
-"n": 21,
-"mean_stated": 0.703,
-"share_happened": 0.8095
+"n": 23,
+"mean_stated": 0.7023,
+"share_happened": 0.8261
 },
 {
 "band": "80–100%",
 "lo": 0.8,
 "hi": 1.0,
-"n": 18,
-"mean_stated": 0.866,
-"share_happened": 0.8889
+"n": 19,
+"mean_stated": 0.8645,
+"share_happened": 0.8947
 }
 ]

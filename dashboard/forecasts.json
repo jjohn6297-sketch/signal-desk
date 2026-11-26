@@ -1982,10 +1982,13 @@
 "event_date": "2026-11-25",
 "resolves_by": "2026-11-26",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.059,
+"evidence": {
+"summary": "BEA: October core PCE price index +0.3% m/m and +3.3% y/y; headline PCE +0.3% m/m, +3.8% y/y; personal income +0.7%; real PCE 0.0%.",
+"url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026"
+}
 },
 {
 "id": "EV-20261125-US-2",
@@ -2004,10 +2007,13 @@
 "event_date": "2026-11-25",
 "resolves_by": "2026-11-26",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.134,
+"evidence": {
+"summary": "BEA second estimate: Q3 2026 real GDP +4.3% annual rate, revised up 0.9 points from the 3.4% advance estimate on investment (software) and consumer spending; Q2 revised to 2.2%; corporate profits +$206.0B.",
+"url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026"
+}
 },
 {
 "id": "EV-20261119-US-1",
@@ -2223,10 +2229,13 @@
 "event_date": "2026-11-25",
 "resolves_by": "2026-11-26",
 "method": "judged",
-"status": "open",
-"outcome": null,
-"brier": null,
-"evidence": null
+"status": "resolved",
+"outcome": 1,
+"brier": 0.0266,
+"evidence": {
+"summary": "DOL advance initial claims 189,000 (SA) for the week ending 21 Nov, down 13,000 from a revised 202,000; Reuters consensus 200,000; continuing claims 1.697m (-95,000). Secondary report citing the DOL release.",
+"url": "https://stockanalysis.com/news/jobless-claims-november-25-2026/"
+}
 },
 {
 "id": "EV-20261201-US-1",
@@ -2332,6 +2341,50 @@
 "made_at": "2026-11-25",
 "event_date": "2026-12-01",
 "resolves_by": "2026-12-02",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261202-US-1",
+"kind": "event",
+"thesis": "long-duration-bonds",
+"thesis_title": "Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
+"statement": "ADP National Employment Report shows US private employment rising by 100,000 or more in November 2026 (published 2 Dec), as first published",
+"probability": 0.594,
+"probability_raw": 0.45,
+"override": null,
+"reasoning": "October was +86,000 and September +86,000. Initial claims fell to 189,000 in the week to 21 Nov, matching the year's low, and the flash PMI showed strong hiring, which points up; but ADP has printed below 100,000 for at least two months and its monthly surprises are large (about 50,000). No consensus found yet, so slightly below even.",
+"expected": "About 90-110K",
+"if_yes": "Hiring re-accelerating a week before an expected December hike; against the bonds bet",
+"if_no": "Private hiring still subdued despite low layoffs; mildly supportive of the bonds bet",
+"made_at": "2026-11-26",
+"event_date": "2026-12-02",
+"resolves_by": "2026-12-03",
+"method": "judged",
+"status": "open",
+"outcome": null,
+"brier": null,
+"evidence": null
+},
+{
+"id": "EV-20261203-US-1",
+"kind": "event",
+"thesis": "long-duration-bonds",
+"thesis_title": "Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
+"statement": "The ISM Services PMI for November 2026 (published 3 Dec) is 54.0 or higher",
+"probability": 0.646,
+"probability_raw": 0.5,
+"override": null,
+"reasoning": "October was 54.5 (September 54.9, August 55.4), a gentle downtrend. The S&P Global flash services PMI fell to 54.7, a four-month low, while Q3 GDP was revised up to 4.3% and claims are at the year's low. A half-point drop is about as likely as not; no consensus found yet.",
+"expected": "About 53.8-54.5",
+"if_yes": "Services demand still firm into the December hike; against the bonds bet",
+"if_no": "Confirms a gradual services slowdown in the flash PMIs; mildly supportive of the bonds bet",
+"made_at": "2026-11-26",
+"event_date": "2026-12-03",
+"resolves_by": "2026-12-04",
 "method": "judged",
 "status": "open",
 "outcome": null,

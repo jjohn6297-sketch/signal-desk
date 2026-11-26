@@ -1,5 +1,69 @@
 [
 {
+"key": "2026-11-26-1",
+"date": "2026-11-26",
+"kind": "daily",
+"title": "26 November 2026",
+"rank": 1,
+"text": "Resolved 3, all hits, all hotter than our lean against the bonds bet. October core PCE rose 0.3% m/m and 3.3% y/y (our +0.3%-or-more line, 75.7%, Brier 0.059); headline PCE 3.8% y/y, real spending flat ([BEA](https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026)). Q3 GDP was revised up to 4.3% from 3.4% on software investment and consumer spending (our 3.4%-or-more line, 63.4%, Brier 0.134) ([BEA](https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026)). Initial claims fell to 189,000 against a 200,000 consensus, matching the year's low (83.7%, Brier 0.027) ([StockAnalysis, citing DOL](https://stockanalysis.com/news/jobless-claims-november-25-2026/)). Brier is 0.163 on 71 resolved (0.167 on 68). Recalibration refitted to k 1.20, b 0.60 (from 1.10)."
+},
+{
+"key": "2026-11-26-2",
+"date": "2026-11-26",
+"kind": "daily",
+"title": "26 November 2026",
+"rank": 2,
+"text": "Bonds bet 30 to 27. Core PCE at 3.3% y/y sits exactly on the kill line (\"above 3.3%\"), so it is not hit, but one more tenth would hit it. Futures put about 98% on a 25bp hike in December ([Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html)). The one point in its favour: the 10-year still fell, to about 4.85-4.91% (sources differ), so the 10-year-at-or-below-5.10% forecast for 25 Nov should resolve yes when the GitHub job runs. No action cards."
+},
+{
+"key": "2026-11-26-3",
+"date": "2026-11-26",
+"kind": "daily",
+"title": "26 November 2026",
+"rank": 3,
+"text": "Markets on Wednesday 25 Nov: the Dow recovered from a fall of more than 1,100 points to close +0.3% at 50,183; S&P 500 -0.2% to about 7,183; Nasdaq -0.6%. Nvidia (held) fell as much as 8% and closed -3.9% at $149.30; chips led the selling again ([Motley Fool](https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-dow-erases-1-100-point-loss-as-wall-street-stages-dramatic-late-day-comeback/)). US markets are closed today for Thanksgiving and open for a half day on Friday."
+},
+{
+"key": "2026-11-26-4",
+"date": "2026-11-26",
+"kind": "daily",
+"title": "26 November 2026",
+"rank": 4,
+"text": "The US proposed new Section 301 tariffs of up to 20% on China, the EU and 12 other economies, effective January at the earliest after hearings. EU, Japan and Korea rates are expected to stay within their existing 15% deals; the UK is not on the list; some food products are exempt ([Yahoo Finance](https://finance.yahoo.com/markets/article/us-announces-new-tariffs-of-up-to-20-on-china-the-eu-and-12-other-nations-131802359.html)). Small direct effect on the European staples and UK bets; no conviction change."
+},
+{
+"key": "2026-11-26-5",
+"date": "2026-11-26",
+"kind": "daily",
+"title": "26 November 2026",
+"rank": 5,
+"text": "Pre-registered 2 forecasts (calibrated with k 1.10, b 0.60): ADP private employment for November 100,000 or more on 2 Dec (October +86,000): raw 45%, calibrated 59.4%. ISM services for November 54.0 or more on 3 Dec (October 54.5; flash services PMI at a four-month low of 54.7): raw 50%, calibrated 64.6%. November payrolls (4 Dec; October +165,000, unemployment 4.1%) will be pre-registered tomorrow."
+},
+{
+"key": "2026-11-26-6",
+"date": "2026-11-26",
+"kind": "daily",
+"title": "26 November 2026",
+"rank": 6,
+"text": "Coming up: MongoDB revenue $780M or more (1 Dec, 73.2%), ISM manufacturing 55.0 or more (1 Dec, 55.7%), euro-area flash HICP 4.0% or more (1 Dec, 47.2%), Salesforce revenue $11.50B or more and a raised guide (2 Dec, 69.0% and 64.6%)."
+},
+{
+"key": "2026-11-26-7",
+"date": "2026-11-26",
+"kind": "daily",
+"title": "26 November 2026",
+"rank": 7,
+"text": "Atlassian CEO Mike Cannon-Brookes bought another 13,400 shares (about $1.87M at $138-142) on 23 Nov, continuing near-daily open-market purchases since 11 Nov ([SEC Form 4](https://www.sec.gov/Archives/edgar/data/1650372/000166612026000041/primarydocument.xml))."
+},
+{
+"key": "2026-11-26-8",
+"date": "2026-11-26",
+"kind": "daily",
+"title": "26 November 2026",
+"rank": 8,
+"text": "Housekeeping: no comments or edits from you on the Signal Desk docs. Today's GitHub snapshot (06:17 UTC) was not in the repository at 09:40 Dublin; the latest is from 25 Nov 17:15 UTC."
+},
+{
 "key": "2026-11-25-1",
 "date": "2026-11-25",
 "kind": "daily",
@@ -214,62 +278,6 @@
 "title": "20 November 2026",
 "rank": 7,
 "text": "No comments or edits from you on the Signal Desk docs. No October FINRA margin data yet. Today's GitHub snapshot had not run by 09:45 Dublin; yesterday's ran at 15:46 UTC."
-},
-{
-"key": "2026-11-19-1",
-"date": "2026-11-19",
-"kind": "daily",
-"title": "19 November 2026",
-"rank": 1,
-"text": "Anthropic priced its IPO at $83, above the $70-78 range: 980m shares, about $81.3bn gross, about $1.5T valuation. Trading on Nasdaq (ANT) starts today ([Anthropic](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)). Capital for AI compute is still easy to raise. Conviction: hyperscaler capex 63 to 64, build-out-delay bet 54 to 53."
-},
-{
-"key": "2026-11-19-2",
-"date": "2026-11-19",
-"kind": "daily",
-"title": "19 November 2026",
-"rank": 2,
-"text": "Resolved 3, all hits. FOMC minutes said \"almost all\" participants see further hikes as likely appropriate (82.8%, Brier 0.030; [Yahoo Finance](https://finance.yahoo.com/economy/policy/article/fed-minutes-officials-favored-holding-rates-steady-in-october-but-they-see-hikes-ahead-195719301.html)). Euro-area October HICP was confirmed at 4.0%, with energy at 21.0% (93.3%, 0.004; [Eunews](https://www.eunews.it/en/2026/11/18/eurozone-inflation-confirmed-at-4-per-cent-in-october/)). Anthropic priced at $78 or more (51.6%, 0.234). Brier is now 0.165 on 60 resolved, down from 0.169 on 57. Recalibration refitted to k 1.35, b 0.60."
-},
-{
-"key": "2026-11-19-3",
-"date": "2026-11-19",
-"kind": "daily",
-"title": "19 November 2026",
-"rank": 3,
-"text": "Bonds bet (24, down from 25): the minutes are hawkish. \"A couple\" of officials were open to more than 25bp in December, and Waller backs 50bp. Futures put about a 10% chance on a half-point move ([TheStreet](https://pro.thestreet.com/stock-market-today/2026-11-18)). The kill line \"December FOMC signals two or more further hikes\" now depends on the 8-9 December dot plot. No kill criteria hit. The 10-year was 5.12% on 16 Nov, 28bp below the 5.40% kill line."
-},
-{
-"key": "2026-11-19-4",
-"date": "2026-11-19",
-"kind": "daily",
-"title": "19 November 2026",
-"rank": 4,
-"text": "Insider buying: Atlassian CEO Mike Cannon-Brookes bought about $2.0m of shares at $145-150 on 16 Nov ([SEC Form 4](https://www.sec.gov/Archives/edgar/data/1650372/000166612026000036/primarydocument.xml)). This is relevant to the coding-agents bet, which assumes seat-based software is under pressure. Smaller buys: two Eaton directors (about $171k) and TSMC director Ursula Burns ($0.5m). The weekly RNS check found no discretionary director purchases at the non-US watch-list names."
-},
-{
-"key": "2026-11-19-5",
-"date": "2026-11-19",
-"kind": "daily",
-"title": "19 November 2026",
-"rank": 5,
-"text": "Pre-registered 3 forecasts, all for the bonds bet:"
-},
-{
-"key": "2026-11-19-6",
-"date": "2026-11-19",
-"kind": "daily",
-"title": "19 November 2026",
-"rank": 6,
-"text": "Still open: Anthropic closes its first day above $83 (82.7%; resolve tomorrow). Then on 25 Nov, core PCE at +0.3% m/m or more (75.7%) and Q3 GDP second estimate at 3.4% or more (63.4%). Flash PMIs come on 23 Nov."
-},
-{
-"key": "2026-11-19-7",
-"date": "2026-11-19",
-"kind": "daily",
-"title": "19 November 2026",
-"rank": 7,
-"text": "No comments or edits from you on the Signal Desk docs. No October FINRA margin data yet. Today's GitHub snapshot had not run by 09:40 Dublin; yesterday's ran at 15:41 UTC."
 },
 {
 "key": "2026-47-1",

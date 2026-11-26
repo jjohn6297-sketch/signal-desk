@@ -3,8 +3,8 @@
 "key": "Kind: event",
 "group_type": "Kind",
 "group": "event",
-"n": 58,
-"brier": 0.1572
+"n": 61,
+"brier": 0.153
 },
 {
 "key": "Kind: thesis",
@@ -59,8 +59,8 @@
 "key": "Thesis: Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
 "group_type": "Thesis",
 "group": "Long-dated bond yields peak in Q4 2026 as the oil shock slows growth; long duration outperforms",
-"n": 14,
-"brier": 0.1698
+"n": 17,
+"brier": 0.1528
 },
 {
 "key": "Thesis: Other",

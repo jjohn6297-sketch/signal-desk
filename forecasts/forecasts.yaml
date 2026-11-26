@@ -1981,8 +1981,12 @@ forecasts:
     guidance: BEA Personal Income and Outlays, October 2026 (25 Nov 2026, 08:30 ET), PCE price index excluding food
       and energy, percent change from preceding month, as first published. Nowcast https://www.conference-board.org/research/global-economy-briefs/cpi-insights-october-2026;
       schedule https://helious.io/calendar/2026-11; September +0.5% https://investinglive.com/news/us-september-pce-core-inflation-m-m-vs-0-3-expected/
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-26'
+  evidence:
+    summary: 'BEA: October core PCE price index +0.3% m/m and +3.3% y/y; headline PCE +0.3% m/m, +3.8% y/y; personal income +0.7%; real PCE 0.0%.'
+    url: https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026
 - id: EV-20261125-US-2
   kind: event
   thesis: long-duration-bonds
@@ -2006,8 +2010,12 @@ forecasts:
     guidance: BEA "GDP (Second Estimate), 3rd Quarter 2026" news release (25 Nov 2026, 08:30 ET), real GDP percent change
       at annual rate. Advance estimate https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026/; schedule
       https://helious.io/calendar/2026-11
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-26'
+  evidence:
+    summary: 'BEA second estimate: Q3 2026 real GDP +4.3% annual rate, revised up 0.9 points from the 3.4% advance estimate on investment (software) and consumer spending; Q2 revised to 2.2%; corporate profits +$206.0B.'
+    url: https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026
 - id: EV-20261119-US-1
   kind: event
   thesis: long-duration-bonds
@@ -2249,8 +2257,12 @@ forecasts:
     method: judged
     guidance: US Department of Labor weekly claims release (25 Nov 2026, 08:30 ET), initial claims SA, advance figure. Prior
       https://www.spokesman.com/stories/2026/nov/19/us-weekly-jobless-claims-edge-up-but-labor-market-/
-  status: open
-  outcome: null
+  status: resolved
+  outcome: 1
+  resolved_at: '2026-11-26'
+  evidence:
+    summary: 'DOL advance initial claims 189,000 (SA) for the week ending 21 Nov, down 13,000 from a revised 202,000; Reuters consensus 200,000; continuing claims 1.697m (-95,000). Secondary report citing the DOL release.'
+    url: https://stockanalysis.com/news/jobless-claims-november-25-2026/
 - id: EV-20261201-US-1
   kind: event
   thesis: long-duration-bonds
@@ -2374,5 +2386,54 @@ forecasts:
     guidance: MongoDB fiscal Q3 2027 results press release (1 Dec 2026), total revenue as reported. Guide and Q2
       https://www.sec.gov/Archives/edgar/data/0001441816/000162828026059794/mdb-073126xex991xrelease.htm ; date
       https://finviz.com/news/417039/mongodb-inc-announces-date-of-third-quarter-fiscal-2027-earnings-call
+  status: open
+  outcome: null
+- id: EV-20261202-US-1
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-12-02'
+  statement: ADP National Employment Report shows US private employment rising by 100,000 or more in November 2026 (published
+    2 Dec), as first published
+  probability_raw: 0.45
+  probability: 0.594
+  reasoning: October was +86,000 and September +86,000. Initial claims fell to 189,000 in the week to 21 Nov, matching
+    the year's low, and the flash PMI showed strong hiring, which points up; but ADP has printed below 100,000 for at
+    least two months and its monthly surprises are large (about 50,000). No consensus found yet, so slightly below even.
+  expected: About 90-110K
+  implications:
+    if_yes: Hiring re-accelerating a week before an expected December hike; against the bonds bet
+    if_no: Private hiring still subdued despite low layoffs; mildly supportive of the bonds bet
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-26'
+  resolves_by: '2026-12-03'
+  resolution:
+    method: judged
+    guidance: ADP National Employment Report for November 2026 (2 Dec, 08:15 ET), change in private employment as first
+      published. Prior and date https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-30112026-06122026/
+      ; claims https://stockanalysis.com/news/jobless-claims-november-25-2026/
+  status: open
+  outcome: null
+- id: EV-20261203-US-1
+  kind: event
+  thesis: long-duration-bonds
+  event_date: '2026-12-03'
+  statement: The ISM Services PMI for November 2026 (published 3 Dec) is 54.0 or higher
+  probability_raw: 0.5
+  probability: 0.646
+  reasoning: October was 54.5 (September 54.9, August 55.4), a gentle downtrend. The S&P Global flash services PMI fell
+    to 54.7, a four-month low, while Q3 GDP was revised up to 4.3% and claims are at the year's low. A half-point drop
+    is about as likely as not; no consensus found yet.
+  expected: About 53.8-54.5
+  implications:
+    if_yes: Services demand still firm into the December hike; against the bonds bet
+    if_no: Confirms a gradual services slowdown in the flash PMIs; mildly supportive of the bonds bet
+  forecaster: system:claude-opus-5-5
+  made_at: '2026-11-26'
+  resolves_by: '2026-12-04'
+  resolution:
+    method: judged
+    guidance: ISM Services PMI Report on Business for November 2026 (3 Dec, 10:00 ET), headline Services PMI as first
+      published. Prior readings https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-30112026-06122026/
+      ; flash PMI https://pro.thestreet.com/market-commentary/flash-pmi-slips-to-a-4-month-low-signals-3-gdp-growth
   status: open
   outcome: null

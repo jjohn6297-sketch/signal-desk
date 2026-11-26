@@ -30,13 +30,23 @@
 "url": "https://job-boards.greenhouse.io/intercom/jobs/7377200"
 },
 {
+"key": "intercom|8417107",
+"company": "Intercom",
+"title": "Staff Product Manager (Customer Agent Team)",
+"level": "senior",
+"location": "Berlin, Germany; Dublin, Ireland; London, England",
+"ai_related": false,
+"updated": "2026-11-25",
+"url": "https://job-boards.greenhouse.io/intercom/jobs/8417107"
+},
+{
 "key": "mongodb|7113803",
 "company": "MongoDB",
 "title": "Senior Product Manager",
 "level": "senior",
 "location": "Dublin; Ireland",
 "ai_related": false,
-"updated": "2026-11-23",
+"updated": "2026-11-25",
 "url": "https://www.mongodb.com/careers/job/?gh_jid=7113803"
 },
 {
@@ -46,7 +56,7 @@
 "level": "senior",
 "location": "Dublin, Ireland",
 "ai_related": false,
-"updated": "2026-11-23",
+"updated": "2026-11-25",
 "url": "https://www.mongodb.com/careers/job/?gh_jid=8233734"
 },
 {
@@ -56,7 +66,7 @@
 "level": "senior",
 "location": "Dublin",
 "ai_related": true,
-"updated": "2026-11-23",
+"updated": "2026-11-25",
 "url": "https://www.mongodb.com/careers/job/?gh_jid=8328176"
 },
 {
@@ -66,7 +76,7 @@
 "level": "senior",
 "location": "Dublin, Ireland",
 "ai_related": true,
-"updated": "2026-11-23",
+"updated": "2026-11-25",
 "url": "https://www.mongodb.com/careers/job/?gh_jid=8355989"
 },
 {
@@ -76,7 +86,7 @@
 "level": "senior",
 "location": "Cork, Ireland; Dublin, Ireland",
 "ai_related": false,
-"updated": "2026-11-23",
+"updated": "2026-11-25",
 "url": "https://www.mongodb.com/careers/job/?gh_jid=8127995"
 },
 {
@@ -86,7 +96,7 @@
 "level": "senior",
 "location": "Dublin, Ireland",
 "ai_related": false,
-"updated": "2026-11-23",
+"updated": "2026-11-25",
 "url": "https://www.mongodb.com/careers/job/?gh_jid=8177034"
 },
 {
@@ -96,7 +106,7 @@
 "level": "senior",
 "location": "Dublin, Ireland",
 "ai_related": false,
-"updated": "2026-11-23",
+"updated": "2026-11-25",
 "url": "https://www.mongodb.com/careers/job/?gh_jid=8177496"
 },
 {
