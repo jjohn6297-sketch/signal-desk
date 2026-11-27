@@ -936,6 +936,12 @@
 "value": 3.76
 },
 {
+"key": "hy_spread|2026-11-27",
+"id": "hy_spread",
+"date": "2026-11-27",
+"value": 3.72
+},
+{
 "key": "hy_spread|2026-11-24|last",
 "id": "hy_spread",
 "date": "2026-11-24",
@@ -2160,10 +2166,16 @@
 "value": 0.29
 },
 {
-"key": "curve_10y2y|2026-11-24|last",
+"key": "curve_10y2y|2026-11-27",
 "id": "curve_10y2y",
-"date": "2026-11-24",
-"value": 0.28
+"date": "2026-11-27",
+"value": 0.24
+},
+{
+"key": "curve_10y2y|2026-11-25|last",
+"id": "curve_10y2y",
+"date": "2026-11-25",
+"value": 0.24
 },
 {
 "key": "ust10y|2023-01-06",
@@ -3384,10 +3396,16 @@
 "value": 4.92
 },
 {
-"key": "ust10y|2026-11-23|last",
+"key": "ust10y|2026-11-27",
 "id": "ust10y",
-"date": "2026-11-23",
-"value": 4.92
+"date": "2026-11-27",
+"value": 4.91
+},
+{
+"key": "ust10y|2026-11-24|last",
+"id": "ust10y",
+"date": "2026-11-24",
+"value": 4.91
 },
 {
 "key": "inflation_5y5y|2023-01-06",
@@ -4608,10 +4626,16 @@
 "value": 2.12
 },
 {
-"key": "inflation_5y5y|2026-11-24|last",
+"key": "inflation_5y5y|2026-11-27",
 "id": "inflation_5y5y",
-"date": "2026-11-24",
-"value": 2.13
+"date": "2026-11-27",
+"value": 2.11
+},
+{
+"key": "inflation_5y5y|2026-11-25|last",
+"id": "inflation_5y5y",
+"date": "2026-11-25",
+"value": 2.11
 },
 {
 "key": "brent|2023-01-06",
@@ -5829,13 +5853,19 @@
 "key": "brent|2026-11-20",
 "id": "brent",
 "date": "2026-11-20",
-"value": 92.94
+"value": 92.76
 },
 {
-"key": "brent|2026-11-17|last",
+"key": "brent|2026-11-27",
 "id": "brent",
-"date": "2026-11-17",
-"value": 92.94
+"date": "2026-11-27",
+"value": 91.8
+},
+{
+"key": "brent|2026-11-24|last",
+"id": "brent",
+"date": "2026-11-24",
+"value": 91.8
 },
 {
 "key": "sahm|2023-01-06",
@@ -7053,6 +7083,12 @@
 "key": "sahm|2026-11-20",
 "id": "sahm",
 "date": "2026-11-20",
+"value": 0.0
+},
+{
+"key": "sahm|2026-11-27",
+"id": "sahm",
+"date": "2026-11-27",
 "value": 0.0
 },
 {
@@ -8280,6 +8316,12 @@
 "value": -0.444
 },
 {
+"key": "nfci|2026-11-27",
+"id": "nfci",
+"date": "2026-11-27",
+"value": -0.444
+},
+{
 "key": "nfci|2026-11-20|last",
 "id": "nfci",
 "date": "2026-11-20",
@@ -9504,6 +9546,12 @@
 "value": 35.89
 },
 {
+"key": "vix|2026-11-27",
+"id": "vix",
+"date": "2026-11-27",
+"value": 26.36
+},
+{
 "key": "vix|2026-11-24|last",
 "id": "vix",
 "date": "2026-11-24",
@@ -9558,6 +9606,12 @@
 "value": 22.36
 },
 {
+"key": "margin_debt_yoy|2026-11-27",
+"id": "margin_debt_yoy",
+"date": "2026-11-27",
+"value": 22.36
+},
+{
 "key": "margin_debt_yoy|2026-10-31|last",
 "id": "margin_debt_yoy",
 "date": "2026-10-31",
@@ -9591,6 +9645,12 @@
 "key": "ai_financing|2026-11-20",
 "id": "ai_financing",
 "date": "2026-11-20",
+"value": 15.0
+},
+{
+"key": "ai_financing|2026-11-27",
+"id": "ai_financing",
+"date": "2026-11-27",
 "value": 15.0
 },
 {

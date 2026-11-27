@@ -19,6 +19,10 @@ evidence_for:
 - {"date": "2026-11-20", "claim": "10-year about 4.91-4.95% at the 20 Nov close (down about 10-14bp on the day) as stocks fell 3.7%; 2-year 4.65%. Futures still about 92% for a 25bp December hike, but hikes priced through Nov 2027 fell to 61bp from 86bp a week earlier", "source": "https://pro.thestreet.com/market-commentary/the-sp-500s-worst-week-since-april-2025-ends-in-a-correction", "engine": "daily-run"}
 - {"date": "2026-11-23", "claim": "US flash composite PMI 54.6 in November (October 55.9, consensus 55.6), a four-month low; services 54.7. 10-year about 4.92% on 23 Nov", "source": "https://pro.thestreet.com/market-commentary/flash-pmi-slips-to-a-4-month-low-signals-3-gdp-growth", "engine": "daily-run"}
 - {"date": "2026-11-26", "claim": "10-year yield fell to about 4.85-4.91% on 25 Nov (sources differ) despite hot data, as chip stocks sold off and new US tariffs were proposed; still well below the 5.40% kill line", "source": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-dow-erases-1-100-point-loss-as-wall-street-stages-dramatic-late-day-comeback/", "engine": "daily-run"}
+- date: '2026-11-27'
+  claim: 10-year Treasury yield about 4.84% before the Black Friday half-day session, down from about 4.9% on 25 Nov; November payroll forecasts +80K to +95K (Kalshi median 90-100K) after +165K in October
+  source: https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html
+  engine: daily-run
 evidence_against:
 - date: '2026-10-28'
   claim: 'Fed held at 3.75-4.00% but two members (Cook, Hammack) dissented for a hike; statement says inflation remains elevated'

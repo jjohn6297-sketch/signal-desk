@@ -1,5 +1,61 @@
 [
 {
+"key": "2026-11-27-1",
+"date": "2026-11-27",
+"kind": "daily",
+"title": "27 November 2026",
+"rank": 1,
+"text": "Oil's war premium is back. The Houthis hit Saudi Arabia's 400,000 b/d Jazan refinery on 26 Nov, halting some operations, after an attack on Ras Tanura earlier in the week. Brent rose 2.1% to $96.57 on 26 Nov and was about $97.5 this morning, on track for a 7% weekly gain; Hormuz flows are about 54% of pre-war (Kpler) ([The National](https://www.thenationalnews.com/business/energy/2026/11/27/oil-set-to-post-weekly-gain-as-middle-east-attacks-stoke-supply-concerns/)). Airlines bet 30 to 28; the $126 kill line is far off. No new US strikes on Iran since the midterms. OPEC+ meets Sunday."
+},
+{
+"key": "2026-11-27-2",
+"date": "2026-11-27",
+"kind": "daily",
+"title": "27 November 2026",
+"rank": 2,
+"text": "No forecasts were due today, so none resolved. The 10-year-at-or-below-5.10% line for 25 Nov resolved yes in the GitHub job (58.4%, Brier 0.173). Brier is 0.164 on 72 resolved (0.163 on 71). Recalibration unchanged at k 1.20, b 0.60."
+},
+{
+"key": "2026-11-27-3",
+"date": "2026-11-27",
+"kind": "daily",
+"title": "27 November 2026",
+"rank": 3,
+"text": "Pre-registered 3 forecasts (calibrated with k 1.20, b 0.60): November payrolls 100,000 or more on 4 Dec (October +165,000; Kalshi 46% above 100K; Wells Fargo +80K, Continuum +95K): raw 45%, calibrated 58.9%. Unemployment 4.2% or more (October 4.14% unrounded; Kalshi about 50%): raw 45%, 58.9% ([Kalshi](https://kalshi.com/economics/jobs-report-predictions), [Continuum](https://continuumeconomics.com/a/13d43c4f/preview-due-december-4-us-november-employment-non-farm-payrolls-slower-but-far-from-weak)). OPEC+ leaves January targets unchanged on 29 Nov: raw 75%, 87.2%."
+},
+{
+"key": "2026-11-27-4",
+"date": "2026-11-27",
+"kind": "daily",
+"title": "27 November 2026",
+"rank": 4,
+"text": "Worth a look: the recalibration's +0.60 offset now lifts every 45% raw call to about 59%, because past forecasts resolved yes more often than predicted (62 event forecasts, Brier 0.153). Next week's mostly near-even calls will test whether that offset holds."
+},
+{
+"key": "2026-11-27-5",
+"date": "2026-11-27",
+"kind": "daily",
+"title": "27 November 2026",
+"rank": 5,
+"text": "Markets before today's half-day session (US close 18:00 Dublin): S&P 500 futures +2.0%, Nasdaq-100 +2.8%, Nvidia (held) up nearly 4% and Micron (held) up 6% as chip selling eased; 10-year about 4.84% ([Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html)). Bonds bet unchanged at 27; no kill criteria hit, no action cards."
+},
+{
+"key": "2026-11-27-6",
+"date": "2026-11-27",
+"kind": "daily",
+"title": "27 November 2026",
+"rank": 6,
+"text": "Coming up: OPEC+ (29 Nov); MongoDB revenue $780M or more (73.2%), ISM manufacturing 55.0 or more (55.7%), euro-area flash HICP 4.0% or more (47.2%) on 1 Dec; Salesforce revenue $11.50B or more and a raised guide (69.0%, 64.6%) and ADP 100K or more (59.4%) on 2 Dec; ISM services 54.0 or more (64.6%) on 3 Dec; payrolls on 4 Dec."
+},
+{
+"key": "2026-11-27-7",
+"date": "2026-11-27",
+"kind": "daily",
+"title": "27 November 2026",
+"rank": 7,
+"text": "Housekeeping: no comments or edits from you on the Signal Desk docs. Today's GitHub snapshot (06:17 UTC) was not in the repository at about 10:00 Dublin; the latest is from 26 Nov."
+},
+{
 "key": "2026-11-26-1",
 "date": "2026-11-26",
 "kind": "daily",
@@ -222,62 +278,6 @@
 "title": "23 November 2026",
 "rank": 7,
 "text": "Housekeeping: the 22 Nov weekly review's push had failed; its file and conviction changes (hyperscaler capex 61, build-out delay 55, usage pricing 58, long bonds 30) are now in the repository. No comments or edits from you on the Signal Desk docs. No CoreWeave 2031 bond quote newer than 15.0% on 12 Nov was found."
-},
-{
-"key": "2026-11-20-1",
-"date": "2026-11-20",
-"kind": "daily",
-"title": "20 November 2026",
-"rank": 1,
-"text": "Resolved 3: two hits, one large miss. The Philadelphia Fed index fell to 6.3 from 20.9, against our 15-or-higher line (80.3%, Brier 0.645); new orders were near zero, but prices paid rose to 58.2 from 43.2 ([Trading Economics](https://tradingeconomics.com/united-states/philadelphia-fed-manufacturing-index/news/602751)). Jobless claims were 203,000, inside our 205,000 line (82.9%, 0.029; [Reuters via Spokesman](https://www.spokesman.com/stories/2026/nov/19/us-weekly-jobless-claims-edge-up-but-labor-market-/)). Anthropic closed its first day at $97.17, 17.1% above the $83 offer (82.7%, 0.030; [Forbes](https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-stock-closes-day-at-97-up-more-than-17/)). Brier is 0.168 on 63 resolved (0.165 on 60). Recalibration refitted to k 1.10, b 0.60 (from 1.35)."
-},
-{
-"key": "2026-11-20-2",
-"date": "2026-11-20",
-"kind": "daily",
-"title": "20 November 2026",
-"rank": 2,
-"text": "US stocks fell about 2% on 19 Nov (S&P 500 7,176, VIX 28.4) on the weak Philly Fed and continuing claims up 70k to 1.763m, with the Fed still leaning towards hikes. The 10-year eased to about 5.05%, 35bp below the 5.40% kill line ([Rio Times, automated newsroom](https://riotimesonline.com/global-economy-briefing-november-20-2026); index levels not checked against a primary source). Bonds bet conviction 24 to 25: the first clear growth wobble, offset by rising input prices."
-},
-{
-"key": "2026-11-20-3",
-"date": "2026-11-20",
-"kind": "daily",
-"title": "20 November 2026",
-"rank": 3,
-"text": "Atlassian CEO Mike Cannon-Brookes bought another $1.96m of shares on 17 Nov at $140.60-149.21, after about $2.0m on 16 Nov, so about $4m in two days ([SEC Form 4](https://www.sec.gov/Archives/edgar/data/1650372/000166612026000037/primarydocument.xml)). This cuts against the coding-agents bet's view that seat-based software is under pressure."
-},
-{
-"key": "2026-11-20-4",
-"date": "2026-11-20",
-"kind": "daily",
-"title": "20 November 2026",
-"rank": 4,
-"text": "Anthropic's first-day gain came on a down day for the market (about $1.27T market value), which supports the hyperscaler capex thesis (64, unchanged)."
-},
-{
-"key": "2026-11-20-5",
-"date": "2026-11-20",
-"kind": "daily",
-"title": "20 November 2026",
-"rank": 5,
-"text": "No kill criteria hit and no action cards. Close: the bonds bet's \"core PCE above 3.3%\" line if Wednesday's print meets the 3.3% nowcast."
-},
-{
-"key": "2026-11-20-6",
-"date": "2026-11-20",
-"kind": "daily",
-"title": "20 November 2026",
-"rank": 6,
-"text": "Pre-registered 2 forecasts for Monday 23 Nov flash PMIs (calibrated with k 1.35, b 0.60). US composite at 55.0 or higher (October final 55.9): raw 50%, calibrated 64.6%. Euro-area composite at 51.5 or higher (October final 51.7): raw 45%, calibrated 58.2%. Then on 25 Nov: core PCE +0.3% m/m or more (75.7%), Q3 GDP 3.4% or more (63.4%), 10-year at or below 5.10% (58.4%). US markets close on 26 Nov for Thanksgiving."
-},
-{
-"key": "2026-11-20-7",
-"date": "2026-11-20",
-"kind": "daily",
-"title": "20 November 2026",
-"rank": 7,
-"text": "No comments or edits from you on the Signal Desk docs. No October FINRA margin data yet. Today's GitHub snapshot had not run by 09:45 Dublin; yesterday's ran at 15:46 UTC."
 },
 {
 "key": "2026-47-1",

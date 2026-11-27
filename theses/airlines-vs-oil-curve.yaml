@@ -41,12 +41,17 @@ evidence_against:
   claim: 'At least five vessel incidents in the Gulf since 1 Nov (UKMTO), near October''s record pace; Eurasia Group puts 60% on renewed US strikes on Iran'
   source: https://www.nationthailand.com/news/world/40073162
   engine: daily-run
-system_conviction: 30
+- date: '2026-11-27'
+  claim: 'Houthis struck Saudi Arabia''s 400,000 b/d Jazan refinery on 26 Nov, halting some operations, after an attack on Ras Tanura earlier in the week; Brent rose 2.1% to $96.57 on 26 Nov and about $97.5 on 27 Nov, on track for a 7% weekly gain. Hormuz flows about 54% of pre-war (Kpler). No new US strikes on Iran since the midterms; OPEC+ meets 29 Nov'
+  source: https://www.thenationalnews.com/business/energy/2026/11/27/oil-set-to-post-weekly-gain-as-middle-east-attacks-stoke-supply-concerns/
+  engine: daily-run
+system_conviction: 28
 conviction_history:
 - {date: '2026-11-01', value: 37, reason: 'Weekly review (Insights log): Dated Brent above the $126 kill line on 23 and 26 Oct'}
 - {date: '2026-11-02', value: 33, reason: 'Ryanair beat on H1 profit, but FY28 is hedged higher than assumed and fares fell 4%'}
 - {date: '2026-11-05', value: 25, reason: 'US strike on Qeshm Island (3 Nov) hits kill criterion 2; the first tranche condition failed'}
 - {date: '2026-11-06', value: 30, reason: 'Brent futures below $100 on 4-5 Nov on peace hopes; strike risk and tanker attacks remain, two kill criteria still hit'}
+- {date: '2026-11-27', value: 28, reason: 'Houthi strikes on Jazan and Ras Tanura revive the war premium (Brent about $97, +7% on the week); still far below the $126 kill line'}
 predictions:
 - id: p1
   statement: If no US strike on Iran by 2026-12-31, Brent front-month settles below $100 at least once before 2027-01-31

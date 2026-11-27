@@ -40,16 +40,6 @@
 "url": "https://job-boards.greenhouse.io/intercom/jobs/8417107"
 },
 {
-"key": "mongodb|7113803",
-"company": "MongoDB",
-"title": "Senior Product Manager",
-"level": "senior",
-"location": "Dublin; Ireland",
-"ai_related": false,
-"updated": "2026-11-25",
-"url": "https://www.mongodb.com/careers/job/?gh_jid=7113803"
-},
-{
 "key": "mongodb|8233734",
 "company": "MongoDB",
 "title": "Senior Product Manager",
@@ -58,6 +48,16 @@
 "ai_related": false,
 "updated": "2026-11-25",
 "url": "https://www.mongodb.com/careers/job/?gh_jid=8233734"
+},
+{
+"key": "mongodb|7113803",
+"company": "MongoDB",
+"title": "Senior Product Manager",
+"level": "senior",
+"location": "Dublin; Ireland",
+"ai_related": false,
+"updated": "2026-11-25",
+"url": "https://www.mongodb.com/careers/job/?gh_jid=7113803"
 },
 {
 "key": "mongodb|8328176",
@@ -168,5 +168,15 @@
 "ai_related": false,
 "updated": "2026-11-04",
 "url": "https://careers.toasttab.com/jobs?gh_jid=8333439"
+},
+{
+"key": "toast|8258222",
+"company": "Toast",
+"title": "Senior Product Manager, Team Management",
+"level": "senior",
+"location": "Dublin",
+"ai_related": false,
+"updated": "2026-11-25",
+"url": "https://careers.toasttab.com/jobs?gh_jid=8258222"
 }
 ]

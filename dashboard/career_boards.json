@@ -1,329 +1,329 @@
 [
 {
 "key": "accounting_finance|intern",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "accounting_finance",
 "seniority": "intern",
 "open_roles": 7
 },
 {
 "key": "accounting_finance|junior",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "accounting_finance",
 "seniority": "junior",
 "open_roles": 6
 },
 {
 "key": "accounting_finance|leadership",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "accounting_finance",
 "seniority": "leadership",
 "open_roles": 8
 },
 {
 "key": "accounting_finance|mid_or_unknown",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "accounting_finance",
 "seniority": "mid_or_unknown",
 "open_roles": 33
 },
 {
 "key": "accounting_finance|senior",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "accounting_finance",
 "seniority": "senior",
 "open_roles": 94
 },
 {
 "key": "customer_support|junior",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "customer_support",
 "seniority": "junior",
 "open_roles": 9
 },
 {
 "key": "customer_support|leadership",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "customer_support",
 "seniority": "leadership",
-"open_roles": 6
+"open_roles": 5
 },
 {
 "key": "customer_support|mid_or_unknown",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "customer_support",
 "seniority": "mid_or_unknown",
-"open_roles": 55
+"open_roles": 56
 },
 {
 "key": "customer_support|senior",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "customer_support",
 "seniority": "senior",
 "open_roles": 104
 },
 {
 "key": "data_ai|intern",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "data_ai",
 "seniority": "intern",
 "open_roles": 22
 },
 {
 "key": "data_ai|leadership",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "data_ai",
 "seniority": "leadership",
 "open_roles": 23
 },
 {
 "key": "data_ai|mid_or_unknown",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "data_ai",
 "seniority": "mid_or_unknown",
-"open_roles": 395
+"open_roles": 394
 },
 {
 "key": "data_ai|senior",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "data_ai",
 "seniority": "senior",
-"open_roles": 371
+"open_roles": 372
 },
 {
 "key": "legal|intern",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "legal",
 "seniority": "intern",
 "open_roles": 2
 },
 {
 "key": "legal|junior",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "legal",
 "seniority": "junior",
 "open_roles": 13
 },
 {
 "key": "legal|leadership",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "legal",
 "seniority": "leadership",
 "open_roles": 7
 },
 {
 "key": "legal|mid_or_unknown",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "legal",
 "seniority": "mid_or_unknown",
 "open_roles": 41
 },
 {
 "key": "legal|senior",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "legal",
 "seniority": "senior",
-"open_roles": 71
+"open_roles": 70
 },
 {
 "key": "marketing_content|intern",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "marketing_content",
 "seniority": "intern",
 "open_roles": 4
 },
 {
 "key": "marketing_content|junior",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "marketing_content",
 "seniority": "junior",
-"open_roles": 3
+"open_roles": 4
 },
 {
 "key": "marketing_content|leadership",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "marketing_content",
 "seniority": "leadership",
 "open_roles": 25
 },
 {
 "key": "marketing_content|mid_or_unknown",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "marketing_content",
 "seniority": "mid_or_unknown",
 "open_roles": 21
 },
 {
 "key": "marketing_content|senior",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "marketing_content",
 "seniority": "senior",
-"open_roles": 177
+"open_roles": 174
 },
 {
 "key": "other|intern",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "other",
 "seniority": "intern",
-"open_roles": 71
+"open_roles": 70
 },
 {
 "key": "other|junior",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "other",
 "seniority": "junior",
-"open_roles": 116
+"open_roles": 121
 },
 {
 "key": "other|leadership",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "other",
 "seniority": "leadership",
-"open_roles": 223
+"open_roles": 226
 },
 {
 "key": "other|mid_or_unknown",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "other",
 "seniority": "mid_or_unknown",
-"open_roles": 690
+"open_roles": 704
 },
 {
 "key": "other|senior",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "other",
 "seniority": "senior",
-"open_roles": 1166
+"open_roles": 1165
 },
 {
 "key": "people_admin|intern",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "people_admin",
 "seniority": "intern",
 "open_roles": 1
 },
 {
 "key": "people_admin|junior",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "people_admin",
 "seniority": "junior",
 "open_roles": 7
 },
 {
 "key": "people_admin|leadership",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "people_admin",
 "seniority": "leadership",
-"open_roles": 7
+"open_roles": 6
 },
 {
 "key": "people_admin|mid_or_unknown",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "people_admin",
 "seniority": "mid_or_unknown",
-"open_roles": 120
+"open_roles": 119
 },
 {
 "key": "people_admin|senior",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "people_admin",
 "seniority": "senior",
 "open_roles": 51
 },
 {
 "key": "product_management|intern",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "product_management",
 "seniority": "intern",
 "open_roles": 5
 },
 {
 "key": "product_management|leadership",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "product_management",
 "seniority": "leadership",
 "open_roles": 20
 },
 {
 "key": "product_management|mid_or_unknown",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "product_management",
 "seniority": "mid_or_unknown",
-"open_roles": 85
+"open_roles": 84
 },
 {
 "key": "product_management|senior",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "product_management",
 "seniority": "senior",
-"open_roles": 164
+"open_roles": 165
 },
 {
 "key": "sales|intern",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "sales",
 "seniority": "intern",
 "open_roles": 11
 },
 {
 "key": "sales|junior",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "sales",
 "seniority": "junior",
-"open_roles": 7
+"open_roles": 6
 },
 {
 "key": "sales|leadership",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "sales",
 "seniority": "leadership",
-"open_roles": 71
+"open_roles": 69
 },
 {
 "key": "sales|mid_or_unknown",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "sales",
 "seniority": "mid_or_unknown",
-"open_roles": 903
+"open_roles": 904
 },
 {
 "key": "sales|senior",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "sales",
 "seniority": "senior",
-"open_roles": 321
+"open_roles": 323
 },
 {
 "key": "software_engineering|intern",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "software_engineering",
 "seniority": "intern",
-"open_roles": 79
+"open_roles": 80
 },
 {
 "key": "software_engineering|junior",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "software_engineering",
 "seniority": "junior",
-"open_roles": 83
+"open_roles": 87
 },
 {
 "key": "software_engineering|leadership",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "software_engineering",
 "seniority": "leadership",
-"open_roles": 38
+"open_roles": 39
 },
 {
 "key": "software_engineering|mid_or_unknown",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "software_engineering",
 "seniority": "mid_or_unknown",
-"open_roles": 804
+"open_roles": 807
 },
 {
 "key": "software_engineering|senior",
-"date": "2026-11-25",
+"date": "2026-11-26",
 "role_group": "software_engineering",
 "seniority": "senior",
 "open_roles": 1365
